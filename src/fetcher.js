@@ -48,6 +48,7 @@ function clean(t) {
   return {
     chamber: t.chamber || 'unknown',
     politician: t.politician || 'Unknown',
+    bioguide: t.bioguide || '', // member id (Senate only from FMP); used for committee lookup
     ticker: (t.ticker && t.ticker !== '--' ? t.ticker : '').toUpperCase(),
     asset: t.asset || '',
     type: normalizeType(t.type),
@@ -98,6 +99,7 @@ async function fromFmp() {
     (Array.isArray(rows) ? rows : []).map((r) => ({
       chamber,
       politician: [r.firstName, r.lastName].filter(Boolean).join(' ') || r.office || 'Unknown',
+      bioguide: r.senateID || '', // FMP returns the bioguide id here for senators
       ticker: r.symbol,
       asset: r.assetDescription || r.symbol,
       type: r.type,

@@ -24,11 +24,38 @@ function getSmsClient() {
 const icon = (type) => (type === 'buy' ? '🟢' : type === 'sell' ? '🔴' : '•');
 const verb = (type) => (type === 'buy' ? 'bought' : type === 'sell' ? 'sold' : type);
 
-// Leads with the legislator's name and the date they made the trade.
-// e.g. "🟢 Nancy Pelosi bought NVDA on 2026-05-28 ($1,000,001 - $5,000,000)"
+// Comma list of committees, capped so messages stay readable.
+function committeeStr(t, max = 3) {
+  if (!t.committees || !t.committees.length) return '';
+  const shown = t.committees.slice(0, max).join(', ');
+  return t.committees.length > max ? `${shown} +${t.committees.length - max} more` : shown;
+}
+
+// Console line (emoji OK here). e.g.
+// "🟢 Nancy Pelosi bought NVDA (Technology) — traded 2026-05-28 ⚠️OVERLAP ($...)"
 function oneLine(t) {
   const sym = t.ticker || t.asset;
-  return `${icon(t.type)} ${t.politician} ${verb(t.type)} ${sym} on ${t.transactionDate} (${t.amount.raw || 'n/a'})`;
+  const sector = t.sector ? ` (${t.sector})` : '';
+  const flag = t.overlapCommittee ? ' ⚠️OVERLAP' : '';
+  return `${icon(t.type)} ${t.politician} ${verb(t.type)} ${sym}${sector} — traded ${t.transactionDate}${flag} (${t.amount.raw || 'n/a'})`;
+}
+
+// Multi-line ASCII block for the carrier (MMS) gateway — no emoji. Includes the
+// actual trade date vs. disclosure date, sector, committees, and overlap flag.
+function smsBlock(t) {
+  const sym = t.ticker || t.asset;
+  const action = t.type === 'buy' ? 'BUY' : t.type === 'sell' ? 'SELL' : String(t.type).toUpperCase();
+  const sector = t.sector ? ` (${t.sector})` : '';
+  const lines = [
+    `${t.politician} ${action} ${sym}${sector}`,
+    ` traded ${t.transactionDate}${t.disclosureDate ? `, disclosed ${t.disclosureDate}` : ''}, ${t.amount.raw || 'n/a'}`,
+  ];
+  const cmte = committeeStr(t);
+  if (cmte) lines.push(` Committees: ${cmte}`);
+  if (t.overlapCommittee) {
+    lines.push(` ** POSSIBLE OVERLAP: ${t.sector} sector ~ "${t.overlapCommittee}" committee`);
+  }
+  return lines.join('\n');
 }
 
 function smsBody(trades) {
@@ -36,16 +63,6 @@ function smsBody(trades) {
   const lines = trades.slice(0, 8).map(oneLine);
   if (trades.length > 8) lines.push(`…and ${trades.length - 8} more (see email)`);
   return [head, ...lines].join('\n');
-}
-
-// Compact, ASCII-only single-trade line for carrier email-to-SMS gateways.
-// No emoji on purpose: emoji forces 70-char Unicode SMS segments, so a batched
-// message gets split into multiple parts that gateways drop or reorder. One
-// short ASCII line stays within a single 160-char segment and arrives intact.
-function smsLine(t) {
-  const sym = t.ticker || t.asset;
-  const action = t.type === 'buy' ? 'BUY' : t.type === 'sell' ? 'SELL' : t.type.toUpperCase();
-  return `${t.politician} ${action} ${sym} on ${t.transactionDate} (${t.amount.raw || 'n/a'})`;
 }
 
 function emailHtml(trades) {
@@ -118,13 +135,13 @@ async function sendSmsViaEmail(trades) {
   // like vzwpix.com, which accepts long text) is the most reliable. ASCII only;
   // emoji would force short Unicode SMS segments.
   const CAP = 15;
-  const lines = trades.slice(0, CAP).map(smsLine);
-  if (trades.length > CAP) lines.push(`+${trades.length - CAP} more (see GitHub log)`);
+  const blocks = trades.slice(0, CAP).map(smsBlock);
+  if (trades.length > CAP) blocks.push(`+${trades.length - CAP} more (see GitHub log)`);
   const info = await getMailer().sendMail({
     from: config.email.from,
     to: config.smsEmail.address,
     subject: `${trades.length} congressional trade${trades.length > 1 ? 's' : ''}`,
-    text: lines.join('\n'),
+    text: blocks.join('\n\n'),
   });
   return { channel: 'text', id: info.messageId };
 }

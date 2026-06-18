@@ -2,6 +2,7 @@ import { config, describeConfig } from './config.js';
 import { fetchAllTrades } from './fetcher.js';
 import { applyFilters } from './filter.js';
 import { notify } from './notifier.js';
+import { enrich } from './enrich.js';
 import { selectNew, recordAlerts, seedSeen, isSeedNeeded } from './tradeLog.js';
 import { maybeSendMonthlyReport } from './monthlyReport.js';
 
@@ -42,6 +43,7 @@ async function pollOnce() {
       return;
     }
 
+    await enrich(fresh); // add sector + committees + overlap (best-effort)
     const results = await notify(fresh);
     await recordAlerts(fresh);
 
