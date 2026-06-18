@@ -23,6 +23,8 @@ export const config = {
   dataProvider: (process.env.DATA_PROVIDER || 'sample').toLowerCase().trim(),
   providers: {
     fmpKey: process.env.FMP_API_KEY,
+    fmpLimit: Number(process.env.FMP_LIMIT || 25), // free tier caps this at 25
+
     finnhubKey: process.env.FINNHUB_API_KEY,
     finnhubSymbols: list(process.env.FINNHUB_SYMBOLS),
   },

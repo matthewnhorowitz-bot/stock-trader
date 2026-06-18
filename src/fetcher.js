@@ -87,9 +87,12 @@ async function fromFmp() {
   const key = config.providers.fmpKey;
   if (!key) throw new Error('DATA_PROVIDER=fmp but FMP_API_KEY is not set.');
   const base = 'https://financialmodelingprep.com/stable';
+  // FMP's free tier rejects limit > 25 (HTTP 402). 25 newest per chamber is
+  // ample for monitoring — fresh disclosures always appear at the top of the feed.
+  const limit = Math.min(config.providers.fmpLimit || 25, 25);
   const [senate, house] = await Promise.all([
-    fetchJson(`${base}/senate-latest?page=0&limit=100&apikey=${key}`),
-    fetchJson(`${base}/house-latest?page=0&limit=100&apikey=${key}`),
+    fetchJson(`${base}/senate-latest?page=0&limit=${limit}&apikey=${key}`),
+    fetchJson(`${base}/house-latest?page=0&limit=${limit}&apikey=${key}`),
   ]);
   const map = (rows, chamber) =>
     (Array.isArray(rows) ? rows : []).map((r) => ({
