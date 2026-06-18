@@ -72,6 +72,7 @@ jobs:
           # `git add a b` aborts (staging nothing) if any path is missing.
           git add -f data/seen.json 2>/dev/null || true
           git add -f data/alert_history.json 2>/dev/null || true
+          git add -f data/report_state.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else
