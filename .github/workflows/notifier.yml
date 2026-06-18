@@ -55,6 +55,8 @@ jobs:
           TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
           TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
           SMS_TO: ${{ secrets.SMS_TO }}
+          SMS_VIA_EMAIL: ${{ secrets.SMS_VIA_EMAIL }}
+          SMS_EMAIL_ADDRESS: ${{ secrets.SMS_EMAIL_ADDRESS }}
         run: node src/index.js --once
 
       - name: Persist dedup state back to the repo
@@ -62,8 +64,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # -f because data/*.json are gitignored for local hygiene; in CI we
-          # deliberately track them so state survives between runs.
-          git add -f data/seen.json data/alert_history.json 2>/dev/null || true
+          # deliberately track them so state survives between runs. Add each file
+          # separately — alert_history.json may not exist yet, and a single
+          # `git add a b` aborts (staging nothing) if any path is missing.
+          git add -f data/seen.json 2>/dev/null || true
+          git add -f data/alert_history.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else
