@@ -95,6 +95,20 @@ async function sendSms(trades) {
   return { channel: 'sms', id: msg.sid };
 }
 
+// Free "text": email the short SMS body to the carrier's email-to-SMS gateway
+// (e.g. 8564440212@vtext.com), which delivers it to the phone as a real text.
+// Reuses the SMTP transport, so it needs SMTP_USER/SMTP_PASS configured.
+async function sendSmsViaEmail(trades) {
+  if (!config.smsEmail.enabled) return { channel: 'text', skipped: true };
+  const info = await getMailer().sendMail({
+    from: config.email.from,
+    to: config.smsEmail.address,
+    subject: '', // gateways prepend the subject; keep it empty so the text is clean
+    text: smsBody(trades),
+  });
+  return { channel: 'text', id: info.messageId };
+}
+
 // Sends one batched alert across all enabled channels. Console output always
 // happens so the tool is useful even with no credentials configured.
 export async function notify(trades) {
@@ -103,7 +117,11 @@ export async function notify(trades) {
   console.log(`\n🔔 ALERT — ${trades.length} new matching trade(s):`);
   for (const t of trades) console.log('   ' + oneLine(t));
 
-  const results = await Promise.allSettled([sendEmail(trades), sendSms(trades)]);
+  const results = await Promise.allSettled([
+    sendEmail(trades),
+    sendSms(trades),
+    sendSmsViaEmail(trades),
+  ]);
   return results.map((r) =>
     r.status === 'fulfilled' ? r.value : { error: r.reason.message }
   );

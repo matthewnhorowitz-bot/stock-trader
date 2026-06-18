@@ -50,13 +50,21 @@ export const config = {
     from: process.env.TWILIO_FROM,
     to: process.env.SMS_TO,
   },
+
+  // Free "SMS" via your carrier's email-to-SMS gateway. Reuses the SMTP
+  // transport above, so it needs SMTP_USER/SMTP_PASS set (a Gmail App Password).
+  smsEmail: {
+    enabled: bool(process.env.SMS_VIA_EMAIL, false) && !!process.env.SMS_EMAIL_ADDRESS,
+    address: process.env.SMS_EMAIL_ADDRESS, // e.g. 8564440212@vtext.com
+  },
 };
 
 export function describeConfig() {
   const who = config.watch.length ? config.watch.join(', ') : 'ALL members';
   const channels = [
     config.email.enabled ? 'email' : null,
-    config.sms.enabled ? 'SMS' : null,
+    config.sms.enabled ? 'SMS (Twilio)' : null,
+    config.smsEmail.enabled ? 'text (carrier gateway)' : null,
   ]
     .filter(Boolean)
     .join(' + ') || 'NONE (alerts will only print to console)';
