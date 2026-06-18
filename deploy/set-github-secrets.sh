@@ -28,6 +28,8 @@ while IFS= read -r line || [ -n "$line" ]; do
   key="$(echo "$key" | tr -d '[:space:]')"
   [ -z "$key" ] && continue
   [ "$key" = "STATE_BUCKET" ] && { echo "· skipping STATE_BUCKET (not used on GitHub)"; continue; }
+  # Skip empty values: an absent secret behaves the same, and gh rejects empties.
+  [ -z "$val" ] && { echo "· skipping $key (empty)"; continue; }
   printf '%s' "$val" | gh secret set "$key"
   echo "✓ set $key"
   count=$((count + 1))
