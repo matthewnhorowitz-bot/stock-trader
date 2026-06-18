@@ -7,10 +7,10 @@ console.log('🧪 Sending a mock alert with your current config:\n');
 console.log(describeConfig());
 console.log();
 
-if (!config.email.enabled && !config.sms.enabled) {
+if (!config.email.enabled && !config.sms.enabled && !config.smsEmail.enabled) {
   console.log(
     '⚠️  No channels enabled — the mock alert will only print to the console.\n' +
-      '   Set EMAIL_TO (and/or SMS_ENABLED=true) in your .env to test real delivery.\n'
+      '   Set EMAIL_TO, SMS_ENABLED=true, or SMS_VIA_EMAIL=true in your .env.\n'
   );
 }
 
