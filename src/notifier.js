@@ -21,11 +21,14 @@ function getSmsClient() {
   return smsClient;
 }
 
-const emoji = (type) => (type === 'buy' ? '🟢 BUY' : type === 'sell' ? '🔴 SELL' : type.toUpperCase());
+const icon = (type) => (type === 'buy' ? '🟢' : type === 'sell' ? '🔴' : '•');
+const verb = (type) => (type === 'buy' ? 'bought' : type === 'sell' ? 'sold' : type);
 
+// Leads with the legislator's name and the date they made the trade.
+// e.g. "🟢 Nancy Pelosi bought NVDA on 2026-05-28 ($1,000,001 - $5,000,000)"
 function oneLine(t) {
   const sym = t.ticker || t.asset;
-  return `${emoji(t.type)} ${sym} — ${t.politician} (${t.amount.raw || 'n/a'}) traded ${t.transactionDate}`;
+  return `${icon(t.type)} ${t.politician} ${verb(t.type)} ${sym} on ${t.transactionDate} (${t.amount.raw || 'n/a'})`;
 }
 
 function smsBody(trades) {
