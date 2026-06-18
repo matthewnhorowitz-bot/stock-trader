@@ -5,10 +5,11 @@ name: Congress Trade Notifier
 # repo after each run, so the repo itself is the "database".
 on:
   schedule:
-    # Every 30 minutes (UTC). Note: GitHub may delay scheduled runs by 5-20+ min
-    # under load, and the minimum interval is 5 min. That's fine — disclosures lag
-    # by up to 45 days, so exact timing doesn't matter.
-    - cron: '*/30 * * * *'
+    # Once an hour, on the hour (UTC). Hourly keeps us well under the free-tier
+    # Actions-minutes budget for private repos, and disclosures lag up to 45 days
+    # so finer polling gains nothing. GitHub may still delay scheduled runs by
+    # 5-20+ min under load — harmless here.
+    - cron: '0 * * * *'
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 # Allow the job to push the updated state files back to the repo.
