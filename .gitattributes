@@ -1,0 +1,6 @@
+# Keep LF line endings in the repo so shell scripts and the GitHub Actions
+# workflow run correctly on the Linux runner (CRLF breaks bash with \r errors).
+* text=auto eol=lf
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

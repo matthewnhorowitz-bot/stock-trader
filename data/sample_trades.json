@@ -1,0 +1,68 @@
+[
+  {
+    "chamber": "house",
+    "politician": "Nancy Pelosi",
+    "ticker": "NVDA",
+    "asset": "NVIDIA Corporation",
+    "type": "buy",
+    "amount": { "low": 1000001, "high": 5000000, "raw": "$1,000,001 - $5,000,000" },
+    "transactionDate": "2026-05-28",
+    "disclosureDate": "2026-06-14",
+    "source": "Sample Data"
+  },
+  {
+    "chamber": "senate",
+    "politician": "Tommy Tuberville",
+    "ticker": "AAPL",
+    "asset": "Apple Inc.",
+    "type": "buy",
+    "amount": { "low": 15001, "high": 50000, "raw": "$15,001 - $50,000" },
+    "transactionDate": "2026-05-30",
+    "disclosureDate": "2026-06-12",
+    "source": "Sample Data"
+  },
+  {
+    "chamber": "house",
+    "politician": "Dan Crenshaw",
+    "ticker": "XOM",
+    "asset": "Exxon Mobil Corporation",
+    "type": "sell",
+    "amount": { "low": 1001, "high": 15000, "raw": "$1,001 - $15,000" },
+    "transactionDate": "2026-06-01",
+    "disclosureDate": "2026-06-15",
+    "source": "Sample Data"
+  },
+  {
+    "chamber": "house",
+    "politician": "Nancy Pelosi",
+    "ticker": "GOOGL",
+    "asset": "Alphabet Inc. Class A",
+    "type": "buy",
+    "amount": { "low": 500001, "high": 1000000, "raw": "$500,001 - $1,000,000" },
+    "transactionDate": "2026-06-03",
+    "disclosureDate": "2026-06-16",
+    "source": "Sample Data"
+  },
+  {
+    "chamber": "senate",
+    "politician": "Sheldon Whitehouse",
+    "ticker": "JNJ",
+    "asset": "Johnson & Johnson",
+    "type": "sell",
+    "amount": { "low": 50001, "high": 100000, "raw": "$50,001 - $100,000" },
+    "transactionDate": "2026-06-04",
+    "disclosureDate": "2026-06-16",
+    "source": "Sample Data"
+  },
+  {
+    "chamber": "house",
+    "politician": "Marjorie Taylor Greene",
+    "ticker": "TSLA",
+    "asset": "Tesla, Inc.",
+    "type": "buy",
+    "amount": { "low": 1001, "high": 15000, "raw": "$1,001 - $15,000" },
+    "transactionDate": "2026-06-05",
+    "disclosureDate": "2026-06-17",
+    "source": "Sample Data"
+  }
+]

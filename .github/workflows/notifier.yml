@@ -1,0 +1,72 @@
+name: Congress Trade Notifier
+
+# Runs the poller on a schedule on GitHub's servers — no cloud account, no card.
+# Dedup state (data/seen.json + data/alert_history.json) is committed back to the
+# repo after each run, so the repo itself is the "database".
+on:
+  schedule:
+    # Every 30 minutes (UTC). Note: GitHub may delay scheduled runs by 5-20+ min
+    # under load, and the minimum interval is 5 min. That's fine — disclosures lag
+    # by up to 45 days, so exact timing doesn't matter.
+    - cron: '*/30 * * * *'
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+# Allow the job to push the updated state files back to the repo.
+permissions:
+  contents: write
+
+# Never run two pollers at once (avoids state-commit conflicts).
+concurrency:
+  group: notifier
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # --omit=optional skips @google-cloud/storage (only used for the GCP path).
+      - run: npm ci --omit=optional
+
+      - name: Poll for new congressional trades
+        env:
+          DATA_PROVIDER: ${{ secrets.DATA_PROVIDER }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          FINNHUB_SYMBOLS: ${{ secrets.FINNHUB_SYMBOLS }}
+          WATCH_POLITICIANS: ${{ secrets.WATCH_POLITICIANS }}
+          TRADE_TYPES: ${{ secrets.TRADE_TYPES }}
+          MIN_TRADE_VALUE: ${{ secrets.MIN_TRADE_VALUE }}
+          EMAIL_ENABLED: ${{ secrets.EMAIL_ENABLED }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SMS_ENABLED: ${{ secrets.SMS_ENABLED }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM: ${{ secrets.TWILIO_FROM }}
+          SMS_TO: ${{ secrets.SMS_TO }}
+        run: node src/index.js --once
+
+      - name: Persist dedup state back to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # -f because data/*.json are gitignored for local hygiene; in CI we
+          # deliberately track them so state survives between runs.
+          git add -f data/seen.json data/alert_history.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: update trade state [skip ci]"
+            git push
+          fi
