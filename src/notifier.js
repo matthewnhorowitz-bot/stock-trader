@@ -113,28 +113,20 @@ async function sendSms(trades) {
 // Reuses the SMTP transport, so it needs SMTP_USER/SMTP_PASS configured.
 async function sendSmsViaEmail(trades) {
   if (!config.smsEmail.enabled) return { channel: 'text', skipped: true };
-  const mailer = getMailer();
-  const CAP = 20; // bound Gmail sends per run; avoids a burst tripping rate limits
-  const batch = trades.slice(0, CAP);
-
-  // One short text per trade so each is a single, reliable SMS segment.
-  for (const t of batch) {
-    await mailer.sendMail({
-      from: config.email.from,
-      to: config.smsEmail.address,
-      subject: '', // gateways prepend the subject; keep it empty so the text is clean
-      text: smsLine(t),
-    });
-  }
-  if (trades.length > CAP) {
-    await mailer.sendMail({
-      from: config.email.from,
-      to: config.smsEmail.address,
-      subject: '',
-      text: `+${trades.length - CAP} more new trades (see GitHub Actions log)`,
-    });
-  }
-  return { channel: 'text', count: batch.length + (trades.length > CAP ? 1 : 0) };
+  // ONE message per run — carrier gateways drop rapid back-to-back messages and
+  // split multi-segment SMS. Sending a single message (ideally to an MMS gateway
+  // like vzwpix.com, which accepts long text) is the most reliable. ASCII only;
+  // emoji would force short Unicode SMS segments.
+  const CAP = 15;
+  const lines = trades.slice(0, CAP).map(smsLine);
+  if (trades.length > CAP) lines.push(`+${trades.length - CAP} more (see GitHub log)`);
+  const info = await getMailer().sendMail({
+    from: config.email.from,
+    to: config.smsEmail.address,
+    subject: `${trades.length} congressional trade${trades.length > 1 ? 's' : ''}`,
+    text: lines.join('\n'),
+  });
+  return { channel: 'text', id: info.messageId };
 }
 
 // Sends one batched alert across all enabled channels. Console output always
