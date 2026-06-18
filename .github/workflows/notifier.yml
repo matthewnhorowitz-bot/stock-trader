@@ -45,6 +45,7 @@ jobs:
           WATCH_POLITICIANS: ${{ secrets.WATCH_POLITICIANS }}
           TRADE_TYPES: ${{ secrets.TRADE_TYPES }}
           MIN_TRADE_VALUE: ${{ secrets.MIN_TRADE_VALUE }}
+          MONTHLY_REPORT_MIN_VALUE: ${{ secrets.MONTHLY_REPORT_MIN_VALUE }}
           EMAIL_ENABLED: ${{ secrets.EMAIL_ENABLED }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}

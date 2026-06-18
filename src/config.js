@@ -32,6 +32,9 @@ export const config = {
   tradeTypes, // 'buy' | 'sell' | 'both'
   minTradeValue: Number(process.env.MIN_TRADE_VALUE || 0),
   pollIntervalMinutes: Number(process.env.POLL_INTERVAL_MINUTES || 30),
+  // End-of-month report includes trades whose disclosed range tops out at or
+  // above this value ("major" investments). Default $100,000.
+  monthlyReportMinValue: Number(process.env.MONTHLY_REPORT_MIN_VALUE || 100000),
 
   email: {
     enabled: bool(process.env.EMAIL_ENABLED, true) && !!process.env.EMAIL_TO,

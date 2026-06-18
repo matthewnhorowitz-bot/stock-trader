@@ -3,8 +3,19 @@ import { fetchAllTrades } from './fetcher.js';
 import { applyFilters } from './filter.js';
 import { notify } from './notifier.js';
 import { selectNew, recordAlerts, seedSeen, isSeedNeeded } from './tradeLog.js';
+import { maybeSendMonthlyReport } from './monthlyReport.js';
 
 const RUN_ONCE = process.argv.includes('--once');
+
+// One unit of work: poll for new trades, then check if a monthly report is due.
+async function tick() {
+  await pollOnce();
+  try {
+    await maybeSendMonthlyReport();
+  } catch (err) {
+    console.error(`[monthly] report check failed: ${err.message}`);
+  }
+}
 
 async function pollOnce() {
   const stamp = new Date().toLocaleString();
@@ -53,13 +64,13 @@ async function main() {
   console.log(describeConfig());
   console.log('──────────────────────────\n');
 
-  await pollOnce();
+  await tick();
 
   if (RUN_ONCE) return;
 
   const ms = Math.max(1, config.pollIntervalMinutes) * 60 * 1000;
   console.log(`\n⏳ Polling every ${config.pollIntervalMinutes} min. Press Ctrl+C to stop.`);
-  setInterval(pollOnce, ms);
+  setInterval(tick, ms);
 }
 
 main();

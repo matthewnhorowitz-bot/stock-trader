@@ -147,6 +147,29 @@ export async function notify(trades) {
   );
 }
 
+// Sends a free-form digest (subject + plain text body) over the same channels.
+// Used for the end-of-month report. Always prints to the console too.
+export async function sendDigest(subject, text) {
+  console.log(`\n${subject}\n${text}`);
+  const jobs = [];
+  if (config.smsEmail.enabled) {
+    jobs.push(
+      getMailer()
+        .sendMail({ from: config.email.from, to: config.smsEmail.address, subject, text })
+        .then((i) => ({ channel: 'text', id: i.messageId }))
+    );
+  }
+  if (config.email.enabled) {
+    jobs.push(
+      getMailer()
+        .sendMail({ from: config.email.from, to: config.email.to, subject, text })
+        .then((i) => ({ channel: 'email', id: i.messageId }))
+    );
+  }
+  const results = await Promise.allSettled(jobs);
+  return results.map((r) => (r.status === 'fulfilled' ? r.value : { error: r.reason.message }));
+}
+
 // Used by `npm test` to verify credentials without waiting for a real trade.
 export async function sendTestAlert() {
   const sample = [
