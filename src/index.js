@@ -35,7 +35,7 @@ async function pollOnce() {
     await recordAlerts(fresh);
 
     const sent = results
-      .filter((r) => r && r.id)
+      .filter((r) => r && (r.id || r.count))
       .map((r) => r.channel)
       .join(', ');
     console.log(

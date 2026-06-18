@@ -18,6 +18,6 @@ const results = await sendTestAlert();
 for (const r of results) {
   if (r.skipped) console.log(`   • ${r.channel}: skipped (disabled)`);
   else if (r.error) console.log(`   ✗ ${r.channel || 'channel'} failed: ${r.error}`);
-  else console.log(`   ✓ ${r.channel} sent (id: ${r.id})`);
+  else console.log(`   ✓ ${r.channel} sent (${r.count != null ? r.count + ' msg(s)' : 'id: ' + r.id})`);
 }
 console.log('\nDone.');

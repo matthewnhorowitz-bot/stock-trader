@@ -38,6 +38,16 @@ function smsBody(trades) {
   return [head, ...lines].join('\n');
 }
 
+// Compact, ASCII-only single-trade line for carrier email-to-SMS gateways.
+// No emoji on purpose: emoji forces 70-char Unicode SMS segments, so a batched
+// message gets split into multiple parts that gateways drop or reorder. One
+// short ASCII line stays within a single 160-char segment and arrives intact.
+function smsLine(t) {
+  const sym = t.ticker || t.asset;
+  const action = t.type === 'buy' ? 'BUY' : t.type === 'sell' ? 'SELL' : t.type.toUpperCase();
+  return `${t.politician} ${action} ${sym} on ${t.transactionDate} (${t.amount.raw || 'n/a'})`;
+}
+
 function emailHtml(trades) {
   const rows = trades
     .map(
@@ -103,13 +113,28 @@ async function sendSms(trades) {
 // Reuses the SMTP transport, so it needs SMTP_USER/SMTP_PASS configured.
 async function sendSmsViaEmail(trades) {
   if (!config.smsEmail.enabled) return { channel: 'text', skipped: true };
-  const info = await getMailer().sendMail({
-    from: config.email.from,
-    to: config.smsEmail.address,
-    subject: '', // gateways prepend the subject; keep it empty so the text is clean
-    text: smsBody(trades),
-  });
-  return { channel: 'text', id: info.messageId };
+  const mailer = getMailer();
+  const CAP = 20; // bound Gmail sends per run; avoids a burst tripping rate limits
+  const batch = trades.slice(0, CAP);
+
+  // One short text per trade so each is a single, reliable SMS segment.
+  for (const t of batch) {
+    await mailer.sendMail({
+      from: config.email.from,
+      to: config.smsEmail.address,
+      subject: '', // gateways prepend the subject; keep it empty so the text is clean
+      text: smsLine(t),
+    });
+  }
+  if (trades.length > CAP) {
+    await mailer.sendMail({
+      from: config.email.from,
+      to: config.smsEmail.address,
+      subject: '',
+      text: `+${trades.length - CAP} more new trades (see GitHub Actions log)`,
+    });
+  }
+  return { channel: 'text', count: batch.length + (trades.length > CAP ? 1 : 0) };
 }
 
 // Sends one batched alert across all enabled channels. Console output always
