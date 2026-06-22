@@ -128,11 +128,15 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
 
   // Price each position (copyable return) + SPY over the same window. Fetches are
   // lazy + bounded inside priceCache; SPY is pre-warmed so the benchmark resolves.
+  // Price RECENT positions first so the limited daily fetch budget reaches 2022+
+  // activity (all Senate trades, recent House) instead of being consumed by the
+  // older 2020-2022 House backfill.
   await priceClose(BENCH, positions[0]?.entry || '2022-01-03', maxFetches);
+  const pricingOrder = [...positions].sort((a, b) => (b.entry || '').localeCompare(a.entry || ''));
   const priced = [];
   let unpriced = 0;
   let openCount = 0;
-  for (const p of positions) {
+  for (const p of pricingOrder) {
     if (!p.closed) openCount++;
     const entryPx = await priceClose(p.ticker, p.entry, maxFetches);
     const exitPx = p.closed ? await priceClose(p.ticker, p.exit, maxFetches) : await priceLatest(p.ticker, maxFetches);

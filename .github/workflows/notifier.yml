@@ -62,13 +62,11 @@ jobs:
           SMS_EMAIL_ADDRESS: ${{ secrets.SMS_EMAIL_ADDRESS }}
         run: node src/index.js --once
 
-      # Recompute the performance index from ALREADY-CACHED prices only
-      # (PERF_MAX_FETCHES=0 → zero FMP calls here) so this never competes with the
-      # core poll for the free daily quota. Price-warming happens in backfill.yml.
-      - name: Refresh performance index (no new price fetches)
+      # Refresh the performance index. Prices come from Yahoo (free, no quota), so
+      # warming new-trade tickers here no longer competes with the FMP-based poll.
+      - name: Refresh performance index
         env:
-          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
-          PERF_MAX_FETCHES: '0'
+          PERF_MAX_FETCHES: '40'
         run: node src/performance.js || true
 
       - name: Persist dedup state back to the repo

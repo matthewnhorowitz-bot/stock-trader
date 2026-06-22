@@ -1,19 +1,20 @@
 // EOD price lookups for the performance index, cached compactly.
 //
-// FMP's light endpoint returns a ticker's whole history in ONE call, so we fetch
-// that once per ticker per run (into memory) but PERSIST only the specific dates a
-// position actually needs (entry/exit/latest). That keeps data/price_cache.json
-// small and stable (it would be tens of MB if we stored full histories) while still
-// costing ~one FMP call per new ticker. New-ticker fetches are bounded per run to
-// stay under the free daily cap; the cache is resumable so coverage fills over runs.
+// Prices come from Yahoo Finance's chart API — free, no key, no daily quota
+// (FMP's free tier capped us at ~250/day, which starved Senate/recent tickers).
+// One call returns a ticker's whole daily history; we fetch it once per ticker
+// per run (into memory) but PERSIST only the dates a position actually needs
+// (entry/exit/latest), keeping data/price_cache.json small + stable.
 //
-// Persisted shape: { [TICKER]: { d: { 'YYYY-MM-DD': close }, latest: close, miss: true? } }
+// Persisted shape: { [TICKER]: { d: { 'YYYY-MM-DD': close }, latest, miss? } }
 
-import { config } from './config.js';
 import { readState, writeState } from './stateStore.js';
 
 const CACHE = 'price_cache.json';
 const FROM = '2019-06-01';
+const P1 = Math.floor(Date.parse(FROM + 'T00:00:00Z') / 1000);
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36';
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 let mem = null; // persisted cache (loaded once)
 const series = new Map(); // ticker -> full {date:close} for THIS run (not persisted)
@@ -35,8 +36,7 @@ function entry(ticker) {
   return mem[ticker];
 }
 
-// Load a ticker's full history into memory (once per run), respecting the budget.
-// Returns the series map or null (miss / out of budget).
+// Load a ticker's full daily history from Yahoo into memory (once per run).
 async function ensureSeries(ticker, maxFetches) {
   if (series.has(ticker)) return series.get(ticker);
   const e = entry(ticker);
@@ -44,29 +44,40 @@ async function ensureSeries(ticker, maxFetches) {
   if (fetched >= maxFetches) return null;
   fetched++;
   try {
-    const url = `https://financialmodelingprep.com/stable/historical-price-eod/light?symbol=${encodeURIComponent(
+    const p2 = Math.floor(Date.now() / 1000);
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
       ticker
-    )}&from=${FROM}&apikey=${config.providers.fmpKey}`;
-    const r = await fetch(url);
-    if (!r.ok) {
-      e.miss = true;
-      return null;
-    }
-    const rows = await r.json();
-    if (!Array.isArray(rows) || !rows.length) {
-      e.miss = true;
+    )}?period1=${P1}&period2=${p2}&interval=1d`;
+    const r = await fetch(url, { headers: { 'User-Agent': UA } });
+    await sleep(90); // be polite to Yahoo
+    if (!r.ok) return null; // transient (429/5xx) — don't tombstone, retry later
+    const j = await r.json();
+    const res = j && j.chart && j.chart.result && j.chart.result[0];
+    const ts = res && res.timestamp;
+    const ind = res && res.indicators;
+    const closes =
+      (ind && ind.adjclose && ind.adjclose[0] && ind.adjclose[0].adjclose) ||
+      (ind && ind.quote && ind.quote[0] && ind.quote[0].close);
+    if (!ts || !closes || !ts.length) {
+      e.miss = true; // genuine no-data (bad/delisted symbol)
       return null;
     }
     const map = {};
-    for (const row of rows) if (row && row.date && row.price != null) map[row.date] = row.price;
+    for (let i = 0; i < ts.length; i++) {
+      const c = closes[i];
+      if (c == null) continue;
+      map[new Date(ts[i] * 1000).toISOString().slice(0, 10)] = Math.round(c * 100) / 100;
+    }
+    if (!Object.keys(map).length) {
+      e.miss = true;
+      return null;
+    }
     series.set(ticker, map);
-    // record latest close now (cheap, useful for open positions)
     const dates = Object.keys(map).sort();
     e.latest = map[dates[dates.length - 1]];
     return map;
   } catch {
-    e.miss = true;
-    return null;
+    return null; // network error — transient, don't tombstone
   }
 }
 
@@ -85,11 +96,11 @@ export async function priceClose(ticker, date, maxFetches = Infinity) {
   if (!ticker || !date) return null;
   await load();
   const e = entry(ticker);
-  if (e.d[date] != null) return e.d[date]; // already resolved & persisted
+  if (e.d[date] != null) return e.d[date];
   const map = await ensureSeries(ticker, maxFetches);
   if (!map) return null;
   const px = nearestOnOrAfter(map, date);
-  if (px != null) e.d[date] = px; // persist only what we needed
+  if (px != null) e.d[date] = px;
   return px;
 }
 
@@ -100,6 +111,6 @@ export async function priceLatest(ticker, maxFetches = Infinity) {
   const e = entry(ticker);
   if (e.latest != null && series.has(ticker)) return e.latest;
   const map = await ensureSeries(ticker, maxFetches);
-  if (!map) return e.latest ?? null; // fall back to a previously stored latest
+  if (!map) return e.latest ?? null;
   return e.latest ?? null;
 }
