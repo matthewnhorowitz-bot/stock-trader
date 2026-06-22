@@ -76,7 +76,17 @@ export async function maybeSendMonthlyReport() {
   const history = await readState('alert_history.json', []);
   const { title, body, count } = buildReport(reportMonth, history, config.monthlyReportMinValue);
 
-  await sendDigest(title, body);
+  // Append the performance index summary, if computed.
+  let fullBody = body;
+  const perf = await readState('performance.json', null);
+  if (perf && perf.totals && perf.totals.avgReturn != null) {
+    const p = (x) => (x == null ? 'n/a' : `${(x * 100).toFixed(1)}%`);
+    fullBody += `\n\nIndex (copyable return): total ${p(perf.totals.avgReturn)} vs SPY ${p(
+      perf.totals.spyAvgReturn
+    )} across ${perf.totals.priced} positions.`;
+  }
+
+  await sendDigest(title, fullBody);
   await writeState(STATE, { lastMonth: cur });
   console.log(`[monthly] Sent ${monthName(reportMonth)} report (${count} notable trade(s)).`);
 }

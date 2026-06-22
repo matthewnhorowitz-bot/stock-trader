@@ -7,14 +7,18 @@
   "scripts": {
     "start": "node src/index.js",
     "once": "node src/index.js --once",
-    "test": "node src/test.js"
+    "test": "node src/test.js",
+    "backfill": "node src/backfill.js",
+    "index": "node src/performance.js"
   },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
+    "adm-zip": "^0.5.16",
     "dotenv": "^16.4.5",
     "nodemailer": "^6.9.14",
+    "pdf-parse": "^1.1.1",
     "twilio": "^5.2.2"
   },
   "optionalDependencies": {
