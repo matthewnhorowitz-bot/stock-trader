@@ -24,24 +24,24 @@ function getSmsClient() {
 const icon = (type) => (type === 'buy' ? '🟢' : type === 'sell' ? '🔴' : '•');
 const verb = (type) => (type === 'buy' ? 'bought' : type === 'sell' ? 'sold' : type);
 
-// Comma list of committees, capped so messages stay readable.
-function committeeStr(t, max = 3) {
-  if (!t.committees || !t.committees.length) return '';
-  const shown = t.committees.slice(0, max).join(', ');
-  return t.committees.length > max ? `${shown} +${t.committees.length - max} more` : shown;
+// Short phrase naming the overlapping committee(s); '' when there's no overlap.
+function overlapStr(t) {
+  if (!t.overlaps || !t.overlaps.length) return '';
+  const names = t.overlaps.map((o) => o.committee).slice(0, 2).join(', ');
+  return names;
 }
 
-// Console line (emoji OK here). e.g.
-// "🟢 Nancy Pelosi bought NVDA (Technology) — traded 2026-05-28 ⚠️OVERLAP ($...)"
+// Console line (emoji OK here).
 function oneLine(t) {
   const sym = t.ticker || t.asset;
   const sector = t.sector ? ` (${t.sector})` : '';
-  const flag = t.overlapCommittee ? ' ⚠️OVERLAP' : '';
+  const flag = overlapStr(t) ? ' ⚠️OVERLAP' : '';
   return `${icon(t.type)} ${t.politician} ${verb(t.type)} ${sym}${sector} — traded ${t.transactionDate}${flag} (${t.amount.raw || 'n/a'})`;
 }
 
-// Multi-line ASCII block for the carrier (MMS) gateway — no emoji. Includes the
-// actual trade date vs. disclosure date, sector, committees, and overlap flag.
+// Multi-line ASCII block for the carrier (MMS) gateway — no emoji. Shows the
+// actual trade date vs. disclosure date and sector. Committees are NOT listed;
+// only a conflict line appears, and only when there's an overlap.
 function smsBlock(t) {
   const sym = t.ticker || t.asset;
   const action = t.type === 'buy' ? 'BUY' : t.type === 'sell' ? 'SELL' : String(t.type).toUpperCase();
@@ -50,11 +50,8 @@ function smsBlock(t) {
     `${t.politician} ${action} ${sym}${sector}`,
     ` traded ${t.transactionDate}${t.disclosureDate ? `, disclosed ${t.disclosureDate}` : ''}, ${t.amount.raw || 'n/a'}`,
   ];
-  const cmte = committeeStr(t);
-  if (cmte) lines.push(` Committees: ${cmte}`);
-  if (t.overlapCommittee) {
-    lines.push(` ** POSSIBLE OVERLAP: ${t.sector} sector ~ "${t.overlapCommittee}" committee`);
-  }
+  const overlap = overlapStr(t);
+  if (overlap) lines.push(` ** POSSIBLE CONFLICT: sits on ${overlap} committee`);
   return lines.join('\n');
 }
 

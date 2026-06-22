@@ -1,34 +1,63 @@
-// Enriches trades with: the stock's sector, the member's committee assignments,
-// and a heuristic "possible overlap" flag (member sits on a committee whose
-// jurisdiction matches the stock's sector — a potential conflict of interest).
+// Enriches trades with: the stock's sector/industry, the member's committee
+// assignments, and a "possible conflict" flag when a committee's jurisdiction
+// matches what the stock does.
 //
 // Data sources (both free):
 //   - Committees: unitedstates/congress-legislators (public JSON, no key)
-//   - Sector: FMP /profile (cached in data/sectors.json so we don't burn quota)
+//   - Sector + industry: FMP /profile (cached in data/sectors.json)
 //
-// All enrichment is best-effort and failure-safe: if a lookup fails, the trade
-// still alerts, just without the extra fields. Never let enrichment block alerts.
+// Overlap mapping is the user-provided committee->sector table below. Some
+// committees ("super-committees": Appropriations, Ways and Means, Finance,
+// Oversight, Joint Taxation) control all federal spending/taxes and so overlap
+// ANY sector; that's toggleable via OVERLAP_SUPERCOMMITTEES.
+//
+// All enrichment is best-effort and failure-safe: a lookup failure never blocks
+// the alert, it just omits the extra fields.
 
 import { config } from './config.js';
 import { readState, writeState } from './stateStore.js';
 
 const SECTOR_CACHE = 'sectors.json';
 
-// Map a GICS-ish sector (as FMP labels it) to committee-name keywords whose
-// jurisdiction plausibly covers it. Heuristic on purpose.
-const SECTOR_COMMITTEE_KEYWORDS = {
-  Energy: ['energy', 'natural resources', 'environment'],
-  Utilities: ['energy', 'natural resources', 'environment'],
-  'Financial Services': ['financial', 'banking', 'finance'],
-  'Real Estate': ['financial', 'banking'],
-  Healthcare: ['health', 'energy and commerce'],
-  Technology: ['commerce', 'science', 'energy and commerce', 'communications', 'judiciary'],
-  'Communication Services': ['commerce', 'communications', 'energy and commerce'],
-  Industrials: ['armed services', 'defense', 'homeland security', 'transportation', 'infrastructure'],
-  'Consumer Defensive': ['agriculture'],
-  'Consumer Cyclical': ['commerce'],
-  'Basic Materials': ['natural resources', 'energy'],
-};
+// Each rule: committee-name substrings (matched against the short committee
+// name, lowercased) -> either 'ALL' (super-committee) or industry/sector tokens
+// that are matched as substrings against the stock's "sector + industry" text.
+const COMMITTEE_RULES = [
+  // Super-committees: jurisdiction over everything.
+  [['appropriations', 'ways and means', 'finance', 'oversight', 'taxation'], 'ALL'],
+  // Defense / security / intelligence
+  [['armed services'], ['defense', 'aerospace', 'weapon', 'shipbuild', 'marine', 'military']],
+  [['intelligence'], ['defense', 'aerospace', 'satellite', 'communication equipment', 'cyber', 'security']],
+  [['homeland security'], ['cyber', 'security software', 'prison', 'correction', 'defense', 'infrastructure']],
+  // Finance / housing
+  [['financial services', 'banking'], ['bank', 'financial', 'asset manage', 'capital market', 'credit', 'fintech', 'insurance', 'real estate', 'reit', 'crypto', 'mortgage']],
+  // Agriculture / food
+  [['agriculture'], ['agricult', 'farm', 'food', 'beverage', 'packaged', 'fertiliz', 'tobacco', 'consumer defensive']],
+  // Energy / resources / environment
+  [['energy and natural resources'], ['oil', 'gas', 'solar', 'wind', 'nuclear', 'energy', 'renewable', 'utilit']],
+  [['natural resources'], ['oil', 'gas', 'mining', 'metal', 'copper', 'gold', 'silver', 'uranium', 'lithium', 'water', 'coal']],
+  [['environment and public works'], ['engineering', 'construction', 'steel', 'concrete', 'waste', 'water', 'building material', 'utilit']],
+  // Broad commerce / tech / telecom / health
+  [['energy and commerce'], ['technology', 'semiconductor', 'telecom', 'communication', 'health', 'pharma', 'drug', 'biotech', 'utilit', 'renewable', 'solar', 'auto', 'oil', 'gas', 'energy']],
+  [['commerce, science', 'commerce'], ['technology', 'software', 'internet', 'telecom', 'communication', 'auto', 'space', 'aerospace', 'airline', 'freight', 'semiconductor']],
+  [['science, space', 'science'], ['semiconductor', 'aerospace', 'space', 'technology', 'software', 'internet', 'quantum']],
+  // Transportation / infrastructure
+  [['transportation', 'infrastructure'], ['railroad', 'airline', 'freight', 'trucking', 'marine', 'engineering', 'construction', 'infrastructure', 'auto manufact']],
+  // Judiciary (antitrust on big tech / media / entertainment)
+  [['judiciary'], ['internet content', 'entertainment', 'media', 'software', 'communication', 'technology', 'telecom']],
+  // Health
+  [['health, education', 'health,'], ['pharma', 'drug', 'biotech', 'hospital', 'health', 'medical']],
+  [['veterans'], ['health', 'medical', 'hospital', 'housing', 'medical device']],
+  [['aging'], ['senior', 'long-term care', 'pharma', 'health', 'housing']],
+  // Foreign / trade / logistics
+  [['foreign affairs', 'foreign relations'], ['shipping', 'logistics', 'freight', 'marine', 'airline', 'defense', 'aerospace']],
+  // Niche
+  [['indian affairs'], ['casino', 'gaming', 'resort', 'gambling']],
+  [['education and the workforce', 'education and workforce'], ['education', 'staffing', 'employment']],
+  [['small business'], ['regional bank']],
+  [['budget'], ['etf', 'index']],
+  [['economic'], ['etf', 'index']],
+];
 
 function normName(s) {
   return String(s || '')
@@ -39,7 +68,6 @@ function normName(s) {
     .trim();
 }
 
-// Trim "Senate/House (Permanent Select) Committee on (the)" down to the core name.
 function shortCommittee(name) {
   return String(name || '')
     .replace(/^(house|senate|joint)\s+(permanent\s+select\s+|select\s+|special\s+)?committee\s+on\s+(the\s+)?/i, '')
@@ -47,7 +75,6 @@ function shortCommittee(name) {
 }
 
 let committeePromise = null;
-// Build { byBioguide: Map<id,Set>, byName: Map<normname,Set>, byLast: Map<last,Set|null> }
 async function getCommitteeIndex() {
   if (committeePromise) return committeePromise;
   committeePromise = (async () => {
@@ -57,16 +84,11 @@ async function getCommitteeIndex() {
       fetch(`${base}/committee-membership-current.json`).then((r) => r.json()),
     ]);
     const idToName = new Map(committees.map((c) => [c.thomas_id, shortCommittee(c.name)]));
-
     const byBioguide = new Map();
     const byName = new Map();
-    const lastSeen = new Map(); // last name -> Set of normalized full names (to detect ambiguity)
-
+    const lastSeen = new Map();
     for (const [committeeId, members] of Object.entries(membership)) {
-      // Keep only full committees; subcommittee ids (e.g. SSAF13) aren't in
-      // committees-current and would otherwise show as raw codes. The member's
-      // parent committee already covers them.
-      if (!idToName.has(committeeId)) continue;
+      if (!idToName.has(committeeId)) continue; // skip subcommittee codes
       const cname = idToName.get(committeeId);
       for (const m of members) {
         const add = (map, key) => {
@@ -92,13 +114,11 @@ async function getCommitteeIndex() {
 
 function committeesFor(idx, trade) {
   if (!idx) return [];
-  // Senate: match by bioguide (FMP puts it in senateID) — reliable.
   if (trade.chamber === 'senate' && trade.bioguide && idx.byBioguide.has(trade.bioguide)) {
     return [...idx.byBioguide.get(trade.bioguide)];
   }
   const nn = normName(trade.politician);
   if (idx.byName.has(nn)) return [...idx.byName.get(nn)];
-  // Fallback: unique last-name match (handles nickname/middle-name differences).
   const last = nn.split(' ').slice(-1)[0];
   const cands = idx.lastSeen.get(last);
   if (cands && cands.size === 1) {
@@ -108,7 +128,28 @@ function committeesFor(idx, trade) {
   return [];
 }
 
-async function getSectors(tickers) {
+// Returns the committees that overlap the stock, each with a reason.
+// Exported for testing.
+export function overlapsFor(committees, sectorIndustryLower) {
+  const hits = [];
+  for (const c of committees) {
+    const cl = c.toLowerCase();
+    for (const [matchers, tokens] of COMMITTEE_RULES) {
+      if (!matchers.some((m) => cl.includes(m))) continue;
+      if (tokens === 'ALL') {
+        if (config.overlapSuperCommittees) hits.push({ committee: c, all: true });
+        break;
+      }
+      if (sectorIndustryLower && tokens.some((tok) => sectorIndustryLower.includes(tok))) {
+        hits.push({ committee: c, all: false });
+        break;
+      }
+    }
+  }
+  return hits;
+}
+
+async function getProfiles(tickers) {
   const cache = await readState(SECTOR_CACHE, {});
   const unknown = [...new Set(tickers.filter((t) => t && !(t in cache)))];
   let changed = false;
@@ -118,16 +159,16 @@ async function getSectors(tickers) {
         `https://financialmodelingprep.com/stable/profile?symbol=${encodeURIComponent(sym)}&apikey=${config.providers.fmpKey}`
       );
       if (!r.ok) {
-        cache[sym] = ''; // remember the miss so we don't retry every run
+        cache[sym] = { s: '', i: '' };
         changed = true;
         continue;
       }
       const j = await r.json();
       const row = Array.isArray(j) ? j[0] : j;
-      cache[sym] = (row && row.sector) || '';
+      cache[sym] = { s: (row && row.sector) || '', i: (row && row.industry) || '' };
       changed = true;
     } catch {
-      cache[sym] = '';
+      cache[sym] = { s: '', i: '' };
       changed = true;
     }
   }
@@ -135,29 +176,27 @@ async function getSectors(tickers) {
   return cache;
 }
 
-function overlapFor(sector, committees) {
-  if (!sector || !committees.length) return null;
-  const keywords = SECTOR_COMMITTEE_KEYWORDS[sector];
-  if (!keywords) return null;
-  for (const c of committees) {
-    const lc = c.toLowerCase();
-    if (keywords.some((k) => lc.includes(k))) return c; // the matching committee
-  }
-  return null;
+// Normalize a cache entry (older caches stored a plain sector string).
+function profile(entry) {
+  if (!entry) return { s: '', i: '' };
+  return typeof entry === 'string' ? { s: entry, i: '' } : entry;
 }
 
-// Adds .sector, .committees (array), .overlapCommittee (string|null) to each trade.
+// Adds .sector, .industry, .committees (internal), .overlaps (array) to trades.
 export async function enrich(trades) {
   if (!config.enrich) return trades;
   try {
-    const [idx, sectors] = await Promise.all([
+    const [idx, cache] = await Promise.all([
       getCommitteeIndex(),
-      getSectors(trades.map((t) => t.ticker)),
+      getProfiles(trades.map((t) => t.ticker)),
     ]);
     for (const t of trades) {
-      t.sector = sectors[t.ticker] || '';
+      const p = profile(cache[t.ticker]);
+      t.sector = p.s;
+      t.industry = p.i;
       t.committees = committeesFor(idx, t);
-      t.overlapCommittee = overlapFor(t.sector, t.committees);
+      const si = `${p.s} ${p.i}`.toLowerCase();
+      t.overlaps = overlapsFor(t.committees, si);
     }
   } catch (err) {
     console.error(`[enrich] skipped: ${err.message}`);

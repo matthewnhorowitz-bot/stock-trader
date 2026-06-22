@@ -35,8 +35,12 @@ export const config = {
   // End-of-month report includes trades whose disclosed range tops out at or
   // above this value ("major" investments). Default $100,000.
   monthlyReportMinValue: Number(process.env.MONTHLY_REPORT_MIN_VALUE || 100000),
-  // Add sector + committee assignments + conflict-overlap flag to alerts.
+  // Add sector + conflict-overlap flag to alerts.
   enrich: bool(process.env.ENRICH, true),
+  // Count "super-committees" (Appropriations, Ways & Means, Finance, Oversight,
+  // Joint Taxation) as overlapping ANY sector. They control all spending/taxes,
+  // but flagging every such member's trades is noisy — set false to ignore them.
+  overlapSuperCommittees: bool(process.env.OVERLAP_SUPERCOMMITTEES, true),
 
   email: {
     enabled: bool(process.env.EMAIL_ENABLED, true) && !!process.env.EMAIL_TO,
