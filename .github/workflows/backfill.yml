@@ -5,7 +5,7 @@ name: Backfill History
 # then each run just appends any newly-filed PTRs. No Claude/desktop involvement.
 on:
   schedule:
-    - cron: '37 */6 * * *' # every 6h, off-peak minute
+    - cron: '37 */4 * * *' # every 4h, off-peak minute
   workflow_dispatch: {}
 
 permissions:
@@ -30,7 +30,7 @@ jobs:
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           BACKFILL_SENATE_BATCH: '0' # Senate already complete
-          BACKFILL_HOUSE_BATCH: '300'
+          BACKFILL_HOUSE_BATCH: '500'
           BACKFILL_HOUSE_YEARS: '2023,2024,2025,2026'
         run: node src/backfill.js || true
       # Warm the price cache here (off the hourly alert path), bounded so the day's
@@ -38,7 +38,7 @@ jobs:
       - name: Warm prices + refresh performance
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
-          PERF_MAX_FETCHES: '25'
+          PERF_MAX_FETCHES: '15'
         run: node src/performance.js || true
       - name: Persist backfill data
         run: |
