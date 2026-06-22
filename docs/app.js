@@ -39,28 +39,20 @@ function memberStats() {
     .sort((a, b) => b.avg - a.avg);
 }
 
-function renderMembers() {
-  const q = $('search').value.trim().toLowerCase();
-  const stats = memberStats().filter((s) => s.member.toLowerCase().includes(q));
-  const el = $('members');
-  el.innerHTML = '';
-  for (const s of stats) {
-    const div = document.createElement('div');
-    div.className = 'member';
-    div.innerHTML = `<input type="checkbox" style="width:auto" ${selected.has(s.member) ? 'checked' : ''}/>
-      <span class="nm">${s.member}</span>
-      <span class="stat">${s.count} · <span class="${pctClass(s.avg)}">${fmtPct(s.avg)}</span></span>`;
-    div.onclick = (e) => {
-      if (e.target.tagName !== 'INPUT') {
-        const cb = div.querySelector('input');
-        cb.checked = !cb.checked;
-      }
-      const cb = div.querySelector('input');
-      if (cb.checked) selected.add(s.member);
-      else selected.delete(s.member);
-    };
-    el.appendChild(div);
-  }
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+
+// Dropdown of not-yet-selected members + removable chips for the selected ones.
+function refreshMemberUI() {
+  const stats = memberStats();
+  $('memberPick').innerHTML =
+    '<option value="">— Add a member —</option>' +
+    stats
+      .filter((s) => !selected.has(s.member))
+      .map((s) => `<option value="${esc(s.member)}">${esc(s.member)} (${s.count} · ${fmtPct(s.avg)})</option>`)
+      .join('');
+  $('chips').innerHTML = selected.size
+    ? [...selected].map((m) => `<span class="chip">${esc(m)}<button class="x" data-m="${esc(m)}">×</button></span>`).join('')
+    : '<span class="note" style="margin:0">None selected — backtest will copy ALL members.</span>';
 }
 
 // --- backtest ----------------------------------------------------------------
@@ -205,13 +197,24 @@ async function boot() {
     const data = await res.json();
     POSITIONS = data.positions || [];
     $('meta').textContent = `${POSITIONS.length} priced positions · updated ${(data.generatedAt || '').slice(0, 10)}`;
-    renderMembers();
+    refreshMemberUI();
   } catch (e) {
-    $('members').innerHTML = `<div class="note">Could not load data: ${e.message}</div>`;
+    $('chips').innerHTML = `<div class="note">Could not load data: ${e.message}</div>`;
   }
 }
-$('search').oninput = renderMembers;
-$('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); renderMembers(); };
-$('selNone').onclick = () => { selected.clear(); renderMembers(); };
+$('memberPick').onchange = (e) => {
+  if (e.target.value) {
+    selected.add(e.target.value);
+    refreshMemberUI();
+  }
+};
+$('chips').onclick = (e) => {
+  if (e.target.classList.contains('x')) {
+    selected.delete(e.target.dataset.m);
+    refreshMemberUI();
+  }
+};
+$('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
+$('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('run').onclick = runBacktest;
 boot();

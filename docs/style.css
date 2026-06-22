@@ -50,6 +50,11 @@ input[type="text"], input[type="date"], input[type="number"] {
 label { font-size: 13px; color: var(--muted); display: block; margin: 10px 0 4px; }
 .row { display: flex; gap: 8px; }
 .row > div { flex: 1; }
+select { width: 100%; background: var(--panel2); border: 1px solid var(--line); color: var(--text); border-radius: 6px; padding: 8px 9px; font-size: 13px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; background: var(--panel2); border: 1px solid var(--line); border-radius: 14px; padding: 4px 6px 4px 10px; font-size: 13px; }
+.chip .x { background: transparent; color: var(--muted); border: 0; font-size: 16px; line-height: 1; cursor: pointer; padding: 0 4px; font-weight: 700; }
+.chip .x:hover { color: var(--red); }
 .members { max-height: 340px; overflow-y: auto; margin-top: 8px; border-top: 1px solid var(--line); }
 .member {
   display: flex; align-items: center; gap: 8px;
