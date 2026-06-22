@@ -16,6 +16,19 @@
   </header>
 
   <div class="container">
+    <div class="panel lb">
+      <h2>🏆 Leaderboard — return by member</h2>
+      <div class="lb-controls">
+        <select id="lbChamber">
+          <option value="all">All chambers</option>
+          <option value="house">House</option>
+          <option value="senate">Senate</option>
+        </select>
+        <span class="note" style="margin:0">Ranked by copyable return, using the parameters below.</span>
+      </div>
+      <div id="leaderboard" class="lb-table"><div class="note">loading…</div></div>
+    </div>
+
     <div class="wrap">
       <!-- Left: member picker -->
       <div class="panel">

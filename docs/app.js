@@ -105,6 +105,7 @@ function runBacktest() {
     .sort((a, b) => b.avg - a.avg);
 
   renderResults({ filtered, total, spy, openN, perMember, wfn, invest, plTotal, plSpy });
+  renderLeaderboard(); // keep the leaderboard in sync with the current parameters
 }
 
 function renderResults({ filtered, total, spy, openN, perMember, wfn, invest, plTotal, plSpy }) {
@@ -190,6 +191,58 @@ function equityCurve(filtered, wfn) {
     <div class="legend"><span class="dot" style="background:#2ea043"></span>Copied members &nbsp; <span class="dot" style="background:#8b98a5"></span>S&P 500 — running average realized return as each position closes</div>`;
 }
 
+// --- leaderboard -------------------------------------------------------------
+function readParams() {
+  return {
+    from: $('from').value,
+    to: $('to').value,
+    minSize: Math.max(0, Number($('minSize').value || 0)),
+    includeOpen: $('includeOpen').checked,
+    weighting: $('weight').value,
+  };
+}
+
+// Per-member ranking from ALL positions (ignores the member selection), using
+// the current parameters + chamber filter.
+function memberStatsFiltered({ from, to, minSize, includeOpen, weighting, chamber }) {
+  const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
+  const byM = new Map();
+  for (const p of POSITIONS) {
+    if (chamber && chamber !== 'all' && p.chamber !== chamber) continue;
+    if (from && p.entryDate < from) continue;
+    if (to && p.entryDate > to) continue;
+    if (minSize && (p.amountLow || 0) < minSize) continue;
+    if (!includeOpen && !p.closed) continue;
+    if (!byM.has(p.member)) byM.set(p.member, { ps: [], chamber: p.chamber });
+    byM.get(p.member).ps.push(p);
+  }
+  return [...byM.entries()]
+    .map(([member, o]) => ({ member, chamber: o.chamber, n: o.ps.length, avg: wmean(o.ps, (p) => p.ret, wfn) }))
+    .filter((m) => m.avg != null)
+    .sort((a, b) => b.avg - a.avg);
+}
+
+const medal = (r) => (r === 1 ? '🥇' : r === 2 ? '🥈' : r === 3 ? '🥉' : r);
+
+function renderLeaderboard() {
+  if (!POSITIONS.length) return;
+  const stats = memberStatsFiltered({ ...readParams(), chamber: $('lbChamber').value });
+  $('leaderboard').innerHTML = `
+    <table>
+      <thead><tr><th class="rank">#</th><th>Member</th><th>Chamber</th><th class="num">Return</th><th class="num"># trades</th></tr></thead>
+      <tbody>
+        ${stats
+          .map(
+            (m, i) =>
+              `<tr><td class="rank">${medal(i + 1)}</td><td>${esc(m.member)}</td><td style="color:var(--muted);text-transform:capitalize">${m.chamber}</td><td class="num ${pctClass(
+                m.avg
+              )}">${fmtPct(m.avg)}</td><td class="num">${m.n}</td></tr>`
+          )
+          .join('')}
+      </tbody>
+    </table>`;
+}
+
 // --- boot --------------------------------------------------------------------
 async function boot() {
   try {
@@ -198,6 +251,7 @@ async function boot() {
     POSITIONS = data.positions || [];
     $('meta').textContent = `${POSITIONS.length} priced positions · updated ${(data.generatedAt || '').slice(0, 10)}`;
     refreshMemberUI();
+    renderLeaderboard();
   } catch (e) {
     $('chips').innerHTML = `<div class="note">Could not load data: ${e.message}</div>`;
   }
@@ -216,5 +270,6 @@ $('chips').onclick = (e) => {
 };
 $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
+$('lbChamber').onchange = renderLeaderboard;
 $('run').onclick = runBacktest;
 boot();
