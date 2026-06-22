@@ -6,6 +6,8 @@ const selected = new Set();
 const $ = (id) => document.getElementById(id);
 const pctClass = (x) => (x >= 0 ? 'pos' : 'neg');
 const fmtPct = (x) => (x == null ? 'n/a' : `${(x * 100).toFixed(1)}%`);
+const fmtUSD = (x) =>
+  (x < 0 ? '-' : '') + '$' + Math.abs(Math.round(x)).toLocaleString('en-US');
 
 // Weighted mean of value(item), weighted by weight(item).
 function wmean(items, value, weight) {
@@ -78,47 +80,80 @@ function runBacktest() {
     return true;
   });
 
+  const invest = Math.max(0, Number($('invest').value || 0));
+
   const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
   const total = wmean(filtered, (p) => p.ret, wfn);
   const spy = wmean(filtered, (p) => p.spyRet, wfn);
   const openN = filtered.filter((p) => !p.closed).length;
 
-  // per member
+  // Allocate the investment across positions by the chosen weighting, then each
+  // position's dollar P/L = its allocation × its return.
+  const totalW = filtered.reduce((s, p) => s + wfn(p), 0) || 1;
+  for (const p of filtered) {
+    p._alloc = (invest * wfn(p)) / totalW;
+    p._pl = p.ret == null ? 0 : p._alloc * p.ret;
+  }
+  const plTotal = invest && total != null ? invest * total : 0;
+  const plSpy = invest && spy != null ? invest * spy : 0;
+
+  // per member (with dollar P/L)
   const byM = new Map();
   for (const p of filtered) {
     if (!byM.has(p.member)) byM.set(p.member, []);
     byM.get(p.member).push(p);
   }
   const perMember = [...byM.entries()]
-    .map(([member, ps]) => ({ member, n: ps.length, avg: wmean(ps, (p) => p.ret, wfn) }))
+    .map(([member, ps]) => ({
+      member,
+      n: ps.length,
+      avg: wmean(ps, (p) => p.ret, wfn),
+      pl: ps.reduce((s, p) => s + (p._pl || 0), 0),
+    }))
     .sort((a, b) => b.avg - a.avg);
 
-  renderResults(filtered, total, spy, openN, perMember, wfn);
+  renderResults({ filtered, total, spy, openN, perMember, wfn, invest, plTotal, plSpy });
 }
 
-function renderResults(filtered, total, spy, openN, perMember, wfn) {
+function renderResults({ filtered, total, spy, openN, perMember, wfn, invest, plTotal, plSpy }) {
   const r = $('results');
   if (!filtered.length) {
     r.innerHTML = '<div class="note">No positions match. Try selecting more members or widening the filters (most positions are still awaiting price data, which fills in over the next 1–2 weeks).</div>';
     return;
   }
   const beat = total != null && spy != null ? total - spy : null;
-  r.innerHTML = `
-    <div class="cards">
+  const dollarCards = invest
+    ? `
+      <div class="card"><div class="k">Invested</div><div class="v">${fmtUSD(invest)}</div></div>
+      <div class="card"><div class="k">Ending value</div><div class="v">${fmtUSD(invest + plTotal)}</div></div>
+      <div class="card"><div class="k">Profit / loss</div><div class="v ${pctClass(plTotal)}">${plTotal >= 0 ? '+' : ''}${fmtUSD(plTotal)}</div></div>
+      <div class="card"><div class="k">Return</div><div class="v ${pctClass(total)}">${fmtPct(total)}</div></div>
+      <div class="card"><div class="k">vs S&P 500</div><div class="v ${pctClass(beat)}">${beat >= 0 ? '+' : ''}${fmtPct(beat)} <span style="font-size:12px;color:var(--muted)">(${fmtUSD(plTotal - plSpy)})</span></div></div>`
+    : `
       <div class="card"><div class="k">Index return</div><div class="v ${pctClass(total)}">${fmtPct(total)}</div></div>
       <div class="card"><div class="k">S&P 500 (SPY)</div><div class="v ${pctClass(spy)}">${fmtPct(spy)}</div></div>
-      <div class="card"><div class="k">vs S&P 500</div><div class="v ${pctClass(beat)}">${beat >= 0 ? '+' : ''}${fmtPct(beat)}</div></div>
+      <div class="card"><div class="k">vs S&P 500</div><div class="v ${pctClass(beat)}">${beat >= 0 ? '+' : ''}${fmtPct(beat)}</div></div>`;
+  r.innerHTML = `
+    <div class="cards">
+      ${dollarCards}
       <div class="card"><div class="k">Positions</div><div class="v">${filtered.length}<span style="font-size:13px;color:var(--muted)"> (${openN} open)</span></div></div>
     </div>
     ${equityCurve(filtered, wfn)}
     <h2 style="margin-top:18px;">By member</h2>
     <table>
-      <thead><tr><th>Member</th><th class="num">Avg return</th><th class="num"># trades</th></tr></thead>
+      <thead><tr><th>Member</th><th class="num">Avg return</th>${invest ? '<th class="num">$ P/L</th>' : ''}<th class="num"># trades</th></tr></thead>
       <tbody>
-        ${perMember.map((m) => `<tr><td>${m.member}</td><td class="num ${pctClass(m.avg)}">${fmtPct(m.avg)}</td><td class="num">${m.n}</td></tr>`).join('')}
+        ${perMember
+          .map(
+            (m) =>
+              `<tr><td>${m.member}</td><td class="num ${pctClass(m.avg)}">${fmtPct(m.avg)}</td>${
+                invest ? `<td class="num ${pctClass(m.pl)}">${m.pl >= 0 ? '+' : ''}${fmtUSD(m.pl)}</td>` : ''
+              }<td class="num">${m.n}</td></tr>`
+          )
+          .join('')}
       </tbody>
     </table>
-    <div class="note">Copyable return: buy at each trade's disclosure date, sell when they sell (open positions marked to the latest price). Equal/size-weighted; end-of-day prices. Not financial advice.</div>`;
+    <div class="note">Copyable return: buy at each trade's disclosure date, sell when they sell (open positions marked to the latest price). Dollars allocated by the chosen weighting. End-of-day prices. Not financial advice.</div>`;
 }
 
 // Running weighted-average realized return through time (closed positions by exit date),

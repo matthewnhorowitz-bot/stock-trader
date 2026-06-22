@@ -40,10 +40,17 @@
           <div>
             <label>Weighting</label>
             <select id="weight" style="width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:13px;">
+              <option value="amount" selected>By trade size</option>
               <option value="equal">Equal per trade</option>
-              <option value="amount">By trade size</option>
             </select>
           </div>
+        </div>
+        <div class="row">
+          <div>
+            <label>How much would you invest? ($)</label>
+            <input type="number" id="invest" value="10000" min="0" step="1000" />
+          </div>
+          <div></div>
         </div>
         <label style="margin-top:10px;"><input type="checkbox" id="includeOpen" checked style="width:auto;" /> Include still-open positions (marked to today)</label>
         <div style="margin-top:12px;"><button id="run">Run backtest</button></div>
