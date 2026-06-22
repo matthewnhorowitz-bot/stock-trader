@@ -61,6 +61,16 @@ export async function writeState(name, data) {
   await writeFile(join(DATA_DIR, name), json);
 }
 
+// Write a raw text file (e.g. a human-readable report) to the same store.
+export async function writeText(name, text) {
+  if (useGcs) {
+    await (await getBucket()).file(name).save(text, { contentType: 'text/plain; charset=utf-8' });
+    return;
+  }
+  await mkdir(DATA_DIR, { recursive: true });
+  await writeFile(join(DATA_DIR, name), text);
+}
+
 // Returns true if a state object does NOT exist yet (used to detect first run).
 export async function stateMissing(name) {
   if (useGcs) {

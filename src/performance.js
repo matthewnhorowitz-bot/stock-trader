@@ -9,7 +9,7 @@
 // data/tracked_trades.json (backfill). Prices via priceCache (FMP free, cached).
 
 import { config } from './config.js';
-import { readState, writeState } from './stateStore.js';
+import { readState, writeState, writeText } from './stateStore.js';
 import { priceClose, priceLatest, savePriceCache, fetchesUsed } from './priceCache.js';
 
 const BENCH = 'SPY';
@@ -147,7 +147,33 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
     perMember,
   };
   await writeState('performance.json', report);
+  await writeText('performance.md', renderMarkdown(report));
   return report;
+}
+
+// Human-readable report — open data/performance.md in anything.
+function renderMarkdown(r) {
+  const t = r.totals;
+  const lines = [
+    '# Congressional Trade Performance Index',
+    '',
+    `_Copyable return — measured from each trade's disclosure date. Generated ${r.generatedAt.slice(0, 16).replace('T', ' ')} UTC._`,
+    '',
+    `## Total`,
+    '',
+    `- **Index (all tracked buys): ${pct(t.avgReturn)}**`,
+    `- S&P 500 (SPY) over the same windows: ${pct(t.spyAvgReturn)}`,
+    `- Priced positions: ${t.priced}  ·  still open: ${t.open}  ·  awaiting price data: ${t.unpriced}`,
+    '',
+    `## By member (average return, # positions)`,
+    '',
+    '| Member | Avg return | Positions |',
+    '| --- | ---: | ---: |',
+    ...r.perMember.map((m) => `| ${m.member} | ${pct(m.avgReturn)} | ${m.positions} |`),
+    '',
+    '_Equal-weighted; end-of-day prices. Not financial advice._',
+  ];
+  return lines.join('\n');
 }
 
 function printReport(r) {
