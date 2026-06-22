@@ -1,11 +1,11 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-22 20:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-22 21:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 62.7%**
-- S&P 500 (SPY) over the same windows: 59.8%
+- S&P 500 (SPY) over the same windows: 59.9%
 - Priced positions: 7095  ·  still open: 5859  ·  awaiting price data: 2023
 
 ## By member (average return, # positions)
@@ -20,12 +20,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan A. Davis | 316.8% | 4 |
 | Debbie Wasserman Schultz | 307.8% | 4 |
 | Michael Fq San Nicolas | 230.2% | 1 |
-| Susan W. Brooks | 224.3% | 12 |
+| Susan W. Brooks | 224.4% | 12 |
 | Susan M Collins | 220.5% | 4 |
 | Michael T. McCaul | 195.4% | 80 |
 | Mark Green | 182.5% | 241 |
 | Thomas Suozzi | 180.0% | 37 |
-| Deborah K. Ross | 165.5% | 14 |
+| Deborah K. Ross | 165.6% | 14 |
 | Dean Phillips | 156.4% | 172 |
 | Greg Gianforte | 151.5% | 86 |
 | Peter Meijer | 149.6% | 14 |
@@ -54,8 +54,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Diana Harshbarger | 84.6% | 6 |
 | Jonathan Jackson | 80.8% | 23 |
 | Blake Moore | 80.3% | 65 |
-| Francis Rooney | 76.4% | 13 |
-| David P. Roe | 76.3% | 13 |
+| Francis Rooney | 76.5% | 13 |
+| David P. Roe | 76.4% | 13 |
 | Susie Lee | 74.7% | 190 |
 | Ed Perlmutter | 74.6% | 20 |
 | John Rutherford | 74.2% | 22 |
@@ -67,7 +67,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Andrew Garbarino | 65.2% | 2 |
 | Kevin Hern | 64.0% | 369 |
 | Brian Babin | 63.6% | 4 |
-| David P. Joyce | 63.5% | 10 |
+| David P. Joyce | 63.6% | 10 |
 | Scott Franklin | 62.8% | 47 |
 | William R. Keating | 61.1% | 62 |
 | David Kustoff | 60.8% | 9 |
@@ -77,7 +77,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Patrick Guest | 55.2% | 43 |
 | Aston Donald McEachin | 54.3% | 6 |
 | Ron L Wyden | 53.6% | 2 |
-| Thomas H. Kean | 53.2% | 9 |
+| Thomas H. Kean | 53.3% | 9 |
 | Ed Case | 51.1% | 2 |
 | Christopher L. Jacobs | 51.0% | 51 |
 | Virginia Foxx | 50.7% | 306 |
