@@ -33,12 +33,20 @@ jobs:
           BACKFILL_HOUSE_BATCH: '300'
           BACKFILL_HOUSE_YEARS: '2023,2024,2025,2026'
         run: node src/backfill.js || true
+      # Warm the price cache here (off the hourly alert path), bounded so the day's
+      # FMP budget still leaves plenty for the core poll. Runs 4x/day.
+      - name: Warm prices + refresh performance
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          PERF_MAX_FETCHES: '25'
+        run: node src/performance.js || true
       - name: Persist backfill data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
           git add -f data/tracked_trades.json data/backfill_state.json
+          git add -f data/price_cache.json data/performance.json data/performance.md
           if git diff --cached --quiet; then
             echo "No new backfill data."
           else
