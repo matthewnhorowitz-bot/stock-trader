@@ -43,14 +43,26 @@ async function pollOnce() {
       return;
     }
 
-    await enrich(fresh); // add sector + committees + overlap (best-effort)
+    await enrich(fresh); // add sector + overlap (best-effort)
     const results = await notify(fresh);
-    await recordAlerts(fresh);
 
     const sent = results
       .filter((r) => r && (r.id || r.count))
       .map((r) => r.channel)
       .join(', ');
+    const channelsOn = config.email.enabled || config.sms.enabled || config.smsEmail.enabled;
+
+    // If channels are configured but every one failed, do NOT mark these seen —
+    // leave them so the next run retries. Otherwise the alert is lost forever.
+    if (channelsOn && !sent) {
+      const errs = results.filter((r) => r && r.error).map((r) => r.error).join('; ');
+      console.error(
+        `[${stamp}] Delivery FAILED for ${fresh.length} trade(s) — NOT marking seen; will retry next run. (${errs})`
+      );
+      return;
+    }
+
+    await recordAlerts(fresh);
     console.log(
       `[${stamp}] Alerted on ${fresh.length} new trade(s)` +
         (sent ? ` via ${sent}.` : ' (console only).')

@@ -10,6 +10,10 @@ function getMailer() {
       port: config.email.port,
       secure: config.email.port === 465,
       auth: { user: config.email.user, pass: config.email.pass },
+      // Fail fast instead of hanging ~2 min (which would burn Actions minutes).
+      connectionTimeout: 15000,
+      greetingTimeout: 10000,
+      socketTimeout: 20000,
     });
   }
   return mailer;
@@ -19,6 +23,17 @@ let smsClient = null;
 function getSmsClient() {
   if (!smsClient) smsClient = twilio(config.sms.sid, config.sms.token);
   return smsClient;
+}
+
+// Send mail with one retry on transient failure (e.g. a flaky SMTP connection).
+async function sendMailRetry(opts) {
+  try {
+    return await getMailer().sendMail(opts);
+  } catch (err) {
+    console.error(`[notifier] send failed (${err.code || err.message}); retrying once…`);
+    await new Promise((r) => setTimeout(r, 4000));
+    return getMailer().sendMail(opts);
+  }
 }
 
 const icon = (type) => (type === 'buy' ? '🟢' : type === 'sell' ? '🔴' : '•');
@@ -102,7 +117,7 @@ function emailHtml(trades) {
 
 async function sendEmail(trades) {
   if (!config.email.enabled) return { channel: 'email', skipped: true };
-  const info = await getMailer().sendMail({
+  const info = await sendMailRetry({
     from: config.email.from,
     to: config.email.to,
     subject: `📈 ${trades.length} new congressional trade${trades.length > 1 ? 's' : ''}`,
@@ -134,7 +149,7 @@ async function sendSmsViaEmail(trades) {
   const CAP = 15;
   const blocks = trades.slice(0, CAP).map(smsBlock);
   if (trades.length > CAP) blocks.push(`+${trades.length - CAP} more (see GitHub log)`);
-  const info = await getMailer().sendMail({
+  const info = await sendMailRetry({
     from: config.email.from,
     to: config.smsEmail.address,
     subject: `${trades.length} congressional trade${trades.length > 1 ? 's' : ''}`,
@@ -168,16 +183,18 @@ export async function sendDigest(subject, text) {
   const jobs = [];
   if (config.smsEmail.enabled) {
     jobs.push(
-      getMailer()
-        .sendMail({ from: config.email.from, to: config.smsEmail.address, subject, text })
-        .then((i) => ({ channel: 'text', id: i.messageId }))
+      sendMailRetry({ from: config.email.from, to: config.smsEmail.address, subject, text }).then((i) => ({
+        channel: 'text',
+        id: i.messageId,
+      }))
     );
   }
   if (config.email.enabled) {
     jobs.push(
-      getMailer()
-        .sendMail({ from: config.email.from, to: config.email.to, subject, text })
-        .then((i) => ({ channel: 'email', id: i.messageId }))
+      sendMailRetry({ from: config.email.from, to: config.email.to, subject, text }).then((i) => ({
+        channel: 'email',
+        id: i.messageId,
+      }))
     );
   }
   const results = await Promise.allSettled(jobs);
