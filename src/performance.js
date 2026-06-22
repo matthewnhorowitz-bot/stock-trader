@@ -8,6 +8,9 @@
 // Sources: data/alert_history.json (forward, from recordAlerts) +
 // data/tracked_trades.json (backfill). Prices via priceCache (FMP free, cached).
 
+import { writeFile, mkdir } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
 import { readState, writeState, writeText } from './stateStore.js';
 import { priceClose, priceLatest, savePriceCache, fetchesUsed } from './priceCache.js';
@@ -36,18 +39,32 @@ function key(t) {
     .toLowerCase();
 }
 
+// "$1,001 - $15,000" -> { low: 1001, high: 15000 }
+function parseRange(raw) {
+  const nums = String(raw || '').match(/[\d,]+/g);
+  if (!nums) return { low: 0, high: 0 };
+  const v = nums.map((n) => Number(n.replace(/,/g, '')));
+  return { low: v[0] || 0, high: v[1] || v[0] || 0 };
+}
+
 // Load + merge both trade sources into a normalized, deduped, sorted list.
 async function loadTrades() {
   const hist = await readState('alert_history.json', []);
   const tracked = await readState('tracked_trades.json', []);
-  const all = [...hist, ...tracked].map((t) => ({
-    politician: cleanName(t.politician) || 'Unknown',
-    type: normType(t.type),
-    ticker: (t.ticker || '').toUpperCase(),
-    transactionDate: t.transactionDate || '',
-    disclosureDate: t.disclosureDate || t.alertedAt?.slice(0, 10) || '',
-    amount: t.amount || '',
-  }));
+  const all = [...hist, ...tracked].map((t) => {
+    const r = parseRange(t.amount);
+    return {
+      politician: cleanName(t.politician) || 'Unknown',
+      chamber: t.chamber || '',
+      type: normType(t.type),
+      ticker: (t.ticker || '').toUpperCase(),
+      transactionDate: t.transactionDate || '',
+      disclosureDate: t.disclosureDate || t.alertedAt?.slice(0, 10) || '',
+      amount: t.amount || '',
+      amountLow: r.low,
+      amountHigh: r.high,
+    };
+  });
   const seen = new Set();
   const out = [];
   for (const t of all) {
@@ -74,17 +91,28 @@ function buildPositions(trades) {
       const q = open.get(gk);
       if (q && q.length) {
         const buy = q.shift();
-        positions.push({ member: buy.politician, ticker: buy.ticker, entry: buy.disclosureDate, exit: t.disclosureDate, closed: true });
+        positions.push(mkPos(buy, t.disclosureDate, true));
       }
       // a sell with no matching open buy is ignored (we only track buy->sell round trips)
     }
   }
   for (const [, q] of open) {
-    for (const buy of q) {
-      positions.push({ member: buy.politician, ticker: buy.ticker, entry: buy.disclosureDate, exit: null, closed: false });
-    }
+    for (const buy of q) positions.push(mkPos(buy, null, false));
   }
   return positions;
+}
+
+function mkPos(buy, exit, closed) {
+  return {
+    member: buy.politician,
+    chamber: buy.chamber,
+    ticker: buy.ticker,
+    entry: buy.disclosureDate,
+    exit,
+    closed,
+    amountLow: buy.amountLow,
+    amountHigh: buy.amountHigh,
+  };
 }
 
 function pct(x) {
@@ -148,7 +176,29 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   };
   await writeState('performance.json', report);
   await writeText('performance.md', renderMarkdown(report));
+  await writePositions(priced);
   return report;
+}
+
+// Compact per-position dataset for the in-browser backtester (docs/positions.json).
+async function writePositions(priced) {
+  const round = (x) => (x == null ? null : Math.round(x * 10000) / 10000);
+  const rows = priced.map((p) => ({
+    member: p.member,
+    chamber: p.chamber || '',
+    ticker: p.ticker,
+    entryDate: p.entry,
+    exitDate: p.exit, // null = still open
+    closed: p.closed,
+    ret: round(p.ret),
+    spyRet: round(p.bRet),
+    amountLow: p.amountLow || 0,
+    amountHigh: p.amountHigh || 0,
+  }));
+  const out = { generatedAt: new Date().toISOString(), positions: rows };
+  const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
+  await mkdir(docsDir, { recursive: true });
+  await writeFile(join(docsDir, 'positions.json'), JSON.stringify(out));
 }
 
 // Human-readable report — open data/performance.md in anything.

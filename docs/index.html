@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Congressional Trade Backtester</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>📈 Congressional Trade Backtester</h1>
+    <p>Pick members, set parameters, and see how copying their buys would have done — "copyable return" from each trade's disclosure date. <span id="meta"></span></p>
+  </header>
+
+  <div class="wrap">
+    <!-- Left: member picker -->
+    <div class="panel">
+      <h2>Members</h2>
+      <input type="text" id="search" placeholder="Search members…" />
+      <div class="toolbar">
+        <button class="ghost" id="selAll">Select all</button>
+        <button class="ghost" id="selNone">Clear</button>
+      </div>
+      <div class="members" id="members"></div>
+    </div>
+
+    <!-- Right: controls + results -->
+    <div>
+      <div class="panel" style="margin-bottom:16px;">
+        <h2>Parameters</h2>
+        <div class="row">
+          <div><label>From (trade date)</label><input type="date" id="from" /></div>
+          <div><label>To</label><input type="date" id="to" /></div>
+        </div>
+        <div class="row">
+          <div>
+            <label>Min trade size ($)</label>
+            <input type="number" id="minSize" value="0" min="0" step="1000" />
+          </div>
+          <div>
+            <label>Weighting</label>
+            <select id="weight" style="width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:13px;">
+              <option value="equal">Equal per trade</option>
+              <option value="amount">By trade size</option>
+            </select>
+          </div>
+        </div>
+        <label style="margin-top:10px;"><input type="checkbox" id="includeOpen" checked style="width:auto;" /> Include still-open positions (marked to today)</label>
+        <div style="margin-top:12px;"><button id="run">Run backtest</button></div>
+      </div>
+
+      <div class="panel" id="results">
+        <div class="note">Select one or more members and click <b>Run backtest</b>.</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
