@@ -17,9 +17,9 @@ on:
 permissions:
   contents: write
 
-# Never run two pollers at once (avoids state-commit conflicts).
+# Shared with the backfill workflow so no two jobs push to the repo at once.
 concurrency:
-  group: notifier
+  group: stock-trader-writer
   cancel-in-progress: false
 
 jobs:

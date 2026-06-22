@@ -1,0 +1,47 @@
+name: Backfill History
+
+# Advances the historical trade backfill (mainly House Clerk PDFs, 2023+) a batch
+# at a time, on GitHub's servers. Runs every 6 hours until coverage is complete,
+# then each run just appends any newly-filed PTRs. No Claude/desktop involvement.
+on:
+  schedule:
+    - cron: '37 */6 * * *' # every 6h, off-peak minute
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Shared with the notifier workflow so the two never push at the same time.
+concurrency:
+  group: stock-trader-writer
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci --omit=optional
+      - name: Backfill a batch
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          BACKFILL_SENATE_BATCH: '0' # Senate already complete
+          BACKFILL_HOUSE_BATCH: '300'
+          BACKFILL_HOUSE_YEARS: '2023,2024,2025,2026'
+        run: node src/backfill.js || true
+      - name: Persist backfill data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || true
+          git add -f data/tracked_trades.json data/backfill_state.json
+          if git diff --cached --quiet; then
+            echo "No new backfill data."
+          else
+            git commit -m "chore: backfill batch [skip ci]"
+            git push
+          fi
