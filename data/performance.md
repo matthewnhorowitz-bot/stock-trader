@@ -1,35 +1,35 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-23 18:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-23 18:23 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 48.9%**
-- S&P 500 (SPY) over the same windows: 46.7%
+- S&P 500 (SPY) over the same windows: 46.6%
 - Priced positions: 10053  ·  still open: 8554  ·  awaiting price data: 3321
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Brian Higgins | 928.0% | 1 |
-| David Cheston Rouzer | 476.0% | 2 |
-| Ashley Moody | 456.2% | 3 |
+| Brian Higgins | 927.8% | 1 |
+| David Cheston Rouzer | 475.8% | 2 |
+| Ashley Moody | 455.8% | 3 |
 | Susan A. Davis | 318.7% | 4 |
 | Michael Fq San Nicolas | 231.8% | 1 |
 | Susan W. Brooks | 223.8% | 12 |
 | Debbie Wasserman Schultz | 214.5% | 4 |
 | Susan M Collins | 214.0% | 4 |
 | Michael T. McCaul | 188.5% | 80 |
-| Thomas Suozzi | 177.4% | 37 |
+| Thomas Suozzi | 177.3% | 37 |
 | Deborah K. Ross | 167.8% | 14 |
-| Seth Moulton | 161.5% | 1 |
+| Seth Moulton | 161.8% | 1 |
 | Greg Gianforte | 151.1% | 94 |
-| Dean Phillips | 146.3% | 185 |
+| Dean Phillips | 146.2% | 185 |
 | Peter Meijer | 146.1% | 14 |
-| Daniel Meuser | 145.7% | 1 |
+| Daniel Meuser | 145.6% | 1 |
 | Mark Green | 139.7% | 217 |
-| Dwight Evans | 128.8% | 41 |
+| Dwight Evans | 128.7% | 41 |
 | David E. Price | 127.8% | 6 |
 | Neal Patrick MD, Facs Dunn | 125.9% | 2 |
 | Michael K. Simpson | 122.0% | 4 |
@@ -42,11 +42,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bob Gibbs | 102.6% | 25 |
 | Nancy Pelosi | 101.5% | 52 |
 | Maria Elvira Salazar | 100.3% | 3 |
-| John A. Yarmuth | 99.0% | 31 |
+| John A. Yarmuth | 99.1% | 31 |
 | Robert B. Aderholt | 97.4% | 1 |
 | Michael Waltz | 95.8% | 2 |
-| Stephen F. Lynch | 94.8% | 1 |
-| Garret Graves | 93.0% | 4 |
+| Stephen F. Lynch | 94.7% | 1 |
+| Garret Graves | 93.1% | 4 |
 | K. Michael Conaway | 91.3% | 53 |
 | Billy Long | 88.6% | 1 |
 | David B. McKinley | 85.9% | 60 |
@@ -54,14 +54,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 80.9% | 396 |
 | David P. Roe | 76.8% | 13 |
 | Francis Rooney | 76.6% | 13 |
-| Carol Devine Miller | 75.5% | 41 |
+| Carol Devine Miller | 75.4% | 41 |
 | Susie Lee | 74.4% | 194 |
 | Morgan McGarvey | 74.3% | 8 |
 | Ed Perlmutter | 72.0% | 20 |
 | Tina Smith | 70.2% | 5 |
 | Daniel S Sullivan | 69.5% | 24 |
 | David P. Joyce | 67.0% | 9 |
-| A. Mitchell McConnell, Jr. | 66.5% | 18 |
+| A. Mitchell McConnell, Jr. | 66.6% | 18 |
 | Vicente Gonzalez | 65.4% | 1 |
 | Andrew Garbarino | 65.2% | 2 |
 | Blake Moore | 64.7% | 66 |
@@ -76,12 +76,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert J. Wittman | 58.8% | 78 |
 | John Curtis | 56.7% | 112 |
 | Gilbert Cisneros | 54.8% | 570 |
-| Aston Donald McEachin | 54.6% | 6 |
+| Aston Donald McEachin | 54.7% | 6 |
 | Ron L Wyden | 52.8% | 2 |
-| Ed Case | 52.4% | 2 |
+| Ed Case | 52.3% | 2 |
 | Michael Patrick Guest | 51.6% | 48 |
 | Christopher L. Jacobs | 51.0% | 51 |
-| Richard W. Allen | 49.0% | 103 |
+| Richard W. Allen | 48.9% | 103 |
 | Cheri Bustos | 48.2% | 1 |
 | Kelly Louise Morrison | 48.0% | 10 |
 | Hakeem S. Jeffries | 47.7% | 3 |
@@ -98,8 +98,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joe Courtney | 41.9% | 13 |
 | William R. Keating | 40.8% | 76 |
 | Josh Gottheimer | 40.1% | 851 |
-| Thomas H Tuberville | 39.9% | 336 |
 | Mo Brooks | 39.9% | 14 |
+| Thomas H Tuberville | 39.9% | 336 |
 | Debbie Dingell | 39.4% | 13 |
 | Ashley Hinson Arenholz | 37.9% | 2 |
 | Lloyd Doggett | 37.8% | 114 |
