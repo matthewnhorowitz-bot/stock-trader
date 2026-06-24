@@ -20,6 +20,8 @@ import { readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
+import { fetchSenateTrades } from './sources/senateEfd.js';
+import { fetchHouseLatest } from './sources/houseClerk.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -161,9 +163,32 @@ async function fromStockWatcher() {
   return trades;
 }
 
+// Official government sources, real-time + complete: Senate eFD (newest-first) +
+// House Clerk latest PTRs. No API key, no quota. Falls back to FMP if the gov
+// sites fail or rate-limit, so alerts never stop.
+async function fromOfficial() {
+  try {
+    const since = new Date(Date.now() - 60 * 86400000);
+    const sinceStr = `${String(since.getUTCMonth() + 1).padStart(2, '0')}/${String(
+      since.getUTCDate()
+    ).padStart(2, '0')}/${since.getUTCFullYear()}`;
+    const [sen, house] = await Promise.all([
+      fetchSenateTrades({ sinceMMDDYYYY: sinceStr, maxPtrs: 40, throttleMs: 250 }),
+      fetchHouseLatest({ maxDocs: 20, throttleMs: 250 }),
+    ]);
+    const all = [...sen, ...house];
+    if (!all.length) throw new Error('official sources returned no trades');
+    return all;
+  } catch (e) {
+    console.error(`[fetcher] official source failed (${e.message}); falling back to FMP`);
+    return fromFmp();
+  }
+}
+
 const PROVIDERS = {
   sample: fromSample,
   fmp: fromFmp,
+  official: fromOfficial,
   finnhub: fromFinnhub,
   stockwatcher: fromStockWatcher,
 };

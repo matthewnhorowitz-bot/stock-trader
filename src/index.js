@@ -3,7 +3,14 @@ import { fetchAllTrades } from './fetcher.js';
 import { applyFilters } from './filter.js';
 import { notify } from './notifier.js';
 import { enrich } from './enrich.js';
-import { selectNew, recordAlerts, seedSeen, isSeedNeeded } from './tradeLog.js';
+import {
+  selectNew,
+  recordAlerts,
+  seedSeen,
+  isSeedNeeded,
+  isSourceSeedNeeded,
+  markSourceSeeded,
+} from './tradeLog.js';
 import { maybeSendMonthlyReport } from './monthlyReport.js';
 
 const RUN_ONCE = process.argv.includes('--once');
@@ -31,6 +38,17 @@ async function pollOnce() {
       console.log(
         `[${stamp}] First run — seeded ${n} existing trade(s) as seen. ` +
           `Future polls will only alert on NEW disclosures.`
+      );
+      return;
+    }
+
+    // One-time re-seed when the data source changes (the new source can produce
+    // slightly different trade ids; seed current trades so we don't alert on them).
+    if (await isSourceSeedNeeded(config.dataProvider)) {
+      const n = await seedSeen(matching);
+      await markSourceSeeded(config.dataProvider);
+      console.log(
+        `[${stamp}] Data source = "${config.dataProvider}" (new) — seeded ${n} current trade(s); no alerts this run.`
       );
       return;
     }

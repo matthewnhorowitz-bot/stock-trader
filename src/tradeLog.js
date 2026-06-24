@@ -58,3 +58,13 @@ export async function seedSeen(trades) {
 export async function isSeedNeeded() {
   return stateMissing(SEEN); // no seen state yet => first ever run
 }
+
+// Detects a one-time data-source switch so we can re-seed (avoid alerting on
+// pre-existing trades that get a slightly different id under the new source).
+export async function isSourceSeedNeeded(provider) {
+  const m = await readState('source_marker.json', null);
+  return !m || m.provider !== provider;
+}
+export async function markSourceSeeded(provider) {
+  await writeState('source_marker.json', { provider, at: new Date().toISOString() });
+}

@@ -102,6 +102,30 @@ async function fetchPtrPdf(entry) {
   }
 }
 
+// "Latest" mode for the live alert poll: parse the most-recently-FILED House PTRs
+// (current year, plus prior year during the January rollover), newest first.
+export async function fetchHouseLatest({ maxDocs = 20, throttleMs = 250 } = {}) {
+  const now = new Date();
+  const years = [now.getUTCFullYear()];
+  if (now.getUTCMonth() === 0) years.push(now.getUTCFullYear() - 1);
+  let index = [];
+  for (const y of years) {
+    try {
+      index.push(...(await fetchYearIndex(y)));
+    } catch (e) {
+      console.error(`[house] ${e.message}`);
+    }
+  }
+  index.sort((a, b) => toISO(b.filed).localeCompare(toISO(a.filed))); // newest filed first
+  const out = [];
+  for (const entry of index.slice(0, maxDocs)) {
+    const { trades } = await fetchPtrPdf(entry);
+    out.push(...trades);
+    if (throttleMs) await sleep(throttleMs);
+  }
+  return out;
+}
+
 // Yields normalized trades for the given years. Resumable via isDone(docId).
 export async function fetchHouseClerkTrades({ years = [2023, 2024, 2025, 2026], maxDocs = Infinity, isDone = () => false, throttleMs = 300 } = {}) {
   const out = [];
