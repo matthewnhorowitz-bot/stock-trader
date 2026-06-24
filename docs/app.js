@@ -253,7 +253,7 @@ const entryYear = (p) => (p.entryDate || '').slice(0, 4);
 function buildCongressIndex({ n, minPerMonth, lookback, weighting }) {
   const minTrades = Math.max(1, Math.ceil(minPerMonth * lookback * 12)); // ">=1/month" => 24 over a 2yr lookback
   const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
-  const years = POSITIONS.map(entryYear).filter((y) => y >= '2015' && y <= '2099').map(Number);
+  const years = POSITIONS.map(entryYear).filter((y) => y >= '2012' && y <= '2099').map(Number); // STOCK Act era
   if (!years.length) return [];
   const firstData = Math.min(...years);
   const thisYear = new Date().getUTCFullYear();

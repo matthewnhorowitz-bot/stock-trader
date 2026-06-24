@@ -11,7 +11,7 @@
 import { readState, writeState } from './stateStore.js';
 
 const CACHE = 'price_cache.json';
-const FROM = '2019-06-01';
+const FROM = process.env.PRICE_FROM || '2012-01-01'; // STOCK Act era; override to limit history
 const P1 = Math.floor(Date.parse(FROM + 'T00:00:00Z') / 1000);
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

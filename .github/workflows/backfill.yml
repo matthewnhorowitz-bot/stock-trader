@@ -1,11 +1,16 @@
 name: Backfill History
 
-# Advances the historical trade backfill (mainly House Clerk PDFs, 2023+) a batch
-# at a time, on GitHub's servers. Runs every 6 hours until coverage is complete,
-# then each run just appends any newly-filed PTRs. No Claude/desktop involvement.
+# Advances the historical trade backfill (Senate eFD + House Clerk PDFs) a batch at a
+# time, on GitHub's servers, and reprices. Resumable via data/backfill_state.json.
+#
+# TEMPORARY CATCH-UP MODE: cron is bumped to every 15 min and Senate is re-enabled
+# back to the STOCK Act (2012) to walk in the historical range fast. Once coverage
+# stabilizes (data/tracked_trades.json stops growing, pre-2019 positions priced, ~1-2
+# days), revert to the steady state: cron '37 */4 * * *' and BACKFILL_SENATE_BATCH '0'
+# (new Senate trades arrive via the live alert feed; this job keeps appending House PTRs).
 on:
   schedule:
-    - cron: '37 */4 * * *' # every 4h, off-peak minute
+    - cron: '*/15 * * * *' # CATCH-UP: every 15 min (revert to '37 */4 * * *' when done)
   workflow_dispatch: {}
 
 permissions:
@@ -29,15 +34,18 @@ jobs:
       - name: Backfill a batch
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
-          BACKFILL_SENATE_BATCH: '0' # Senate already complete
+          BACKFILL_SENATE_BATCH: '250' # CATCH-UP: walk Senate back to 2012 (set '0' when done)
+          BACKFILL_SENATE_SINCE: '01/01/2012' # STOCK Act era
           BACKFILL_HOUSE_BATCH: '500'
-          BACKFILL_HOUSE_YEARS: '2023,2024,2025,2026'
+          BACKFILL_HOUSE_YEARS: '2014,2015,2016,2017,2018,2019,2023,2024,2025,2026'
+          PRICE_FROM: '2012-01-01'
         run: node src/backfill.js || true
-      # Warm the price cache (Yahoo, free/no-quota) for newly-backfilled tickers
-      # and refresh the index. Runs 4x/day.
+      # Warm the price cache (Yahoo, free/no-quota) for newly-backfilled tickers and
+      # refresh the index. Generous budget — Yahoo has no daily quota.
       - name: Warm prices + refresh performance
         env:
-          PERF_MAX_FETCHES: '400'
+          PERF_MAX_FETCHES: '600'
+          PRICE_FROM: '2012-01-01'
         run: node src/performance.js || true
       - name: Persist backfill data
         run: |

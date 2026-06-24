@@ -17,7 +17,13 @@ const MIRROR_CSV =
 
 const SENATE_BATCH = Number(process.env.BACKFILL_SENATE_BATCH || 150);
 const HOUSE_BATCH = Number(process.env.BACKFILL_HOUSE_BATCH || 150);
-const HOUSE_YEARS = (process.env.BACKFILL_HOUSE_YEARS || '2023,2024,2025,2026').split(',').map((y) => Number(y.trim()));
+// Senate eFD has structured PTRs back to ~2012 (STOCK Act); paper filings are skipped.
+const SENATE_SINCE = process.env.BACKFILL_SENATE_SINCE || '01/01/2012';
+// House Clerk e-filed PTRs: 2014-2019 are mostly scanned (unparseable, skipped) but we try;
+// 2020-2022 come from the mirror CSV below; 2023+ are e-filed text.
+const HOUSE_YEARS = (process.env.BACKFILL_HOUSE_YEARS || '2014,2015,2016,2017,2018,2019,2023,2024,2025,2026')
+  .split(',')
+  .map((y) => Number(y.trim()));
 
 const tkey = (t) =>
   [t.politician, t.type, t.ticker, t.transactionDate, t.disclosureDate, t.amount].join('|').toLowerCase();
@@ -105,7 +111,7 @@ async function main() {
   // 2) Senate eFD batch
   try {
     const sen = await fetchSenateTrades({
-      sinceMMDDYYYY: '01/01/2022',
+      sinceMMDDYYYY: SENATE_SINCE,
       maxPtrs: SENATE_BATCH,
       isDone: (uuid) => senateDone.has(uuid),
       throttleMs: 400,
