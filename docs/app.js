@@ -313,14 +313,14 @@ function renderCongressIndex() {
     return;
   }
   const last = rows[rows.length - 1];
-  const mult = last.spyLevel ? last.level / last.spyLevel : null;
+  const beat = last.spyLevel ? last.level / last.spyLevel - 1 : null; // % the index beat the S&P by
   const pts = [{ label: rows[0].year - 1, idx: 100, spy: 100 }, ...rows.map((r) => ({ label: r.year, idx: r.level, spy: r.spyLevel }))];
 
   el.innerHTML = `
     <div class="cards">
       <div class="card"><div class="k">Index (from 100)</div><div class="v pos">${Math.round(last.level).toLocaleString()}</div></div>
       <div class="card"><div class="k">S&P 500</div><div class="v">${Math.round(last.spyLevel).toLocaleString()}</div></div>
-      <div class="card"><div class="k">vs S&P 500</div><div class="v ${mult >= 1 ? 'pos' : 'neg'}">${mult ? mult.toFixed(2) + '×' : 'n/a'}</div></div>
+      <div class="card"><div class="k">Beat the S&P by</div><div class="v ${beat >= 0 ? 'pos' : 'neg'}">${beat != null ? (beat >= 0 ? '+' : '') + (beat * 100).toFixed(0) + '%' : 'n/a'}</div></div>
       <div class="card"><div class="k">Years</div><div class="v">${rows.length}</div></div>
     </div>
     ${levelChart(pts)}
