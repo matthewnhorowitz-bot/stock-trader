@@ -250,7 +250,8 @@ const entryYear = (p) => (p.entryDate || '').slice(0, 4);
 // trade-size-weighted return over the prior `lookback` years (>= `minTrades` trades),
 // then the year's return = weighted return of that roster's trades entered in Y. Chain
 // to an index level (start 100), alongside an SPY level over the same trades.
-function buildCongressIndex({ n, minTrades, lookback, weighting }) {
+function buildCongressIndex({ n, minPerMonth, lookback, weighting }) {
+  const minTrades = Math.max(1, Math.ceil(minPerMonth * lookback * 12)); // ">=1/month" => 24 over a 2yr lookback
   const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
   const years = POSITIONS.map(entryYear).filter((y) => y >= '2015' && y <= '2099').map(Number);
   if (!years.length) return [];
@@ -301,11 +302,11 @@ function levelChart(pts) {
 
 function renderCongressIndex() {
   if (!POSITIONS.length) return;
-  const n = Math.max(1, Number($('ciN').value || 30));
-  const minTrades = Math.max(1, Number($('ciMin').value || 10));
+  const n = Math.max(1, Number($('ciN').value || 20));
+  const minPerMonth = Math.max(0, Number($('ciMin').value || 1));
   const lookback = Math.max(1, Number($('ciLook').value || 2));
   const weighting = $('ciWeight').value;
-  const rows = buildCongressIndex({ n, minTrades, lookback, weighting }).filter((r) => r.ret != null);
+  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting }).filter((r) => r.ret != null);
   const el = $('ci');
   if (rows.length < 1) {
     el.innerHTML = '<div class="note">Not enough data for these settings — try fewer min trades or members.</div>';
