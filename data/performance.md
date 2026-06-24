@@ -1,11 +1,11 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-24 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-24 21:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 48.1%**
-- S&P 500 (SPY) over the same windows: 43.0%
+- S&P 500 (SPY) over the same windows: 43.1%
 - Priced positions: 12366  ·  still open: 9902  ·  awaiting price data: 3470
 
 ## By member (average return, # positions)
@@ -107,12 +107,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 37.4% | 8 |
 | Gilbert Cisneros | 37.1% | 1040 |
 | Harold Dallas Rogers | 36.3% | 7 |
-| Thomas H Tuberville | 36.1% | 371 |
+| Thomas H Tuberville | 36.2% | 371 |
 | Gary C Peters | 35.9% | 16 |
 | Earl Blumenauer | 34.8% | 142 |
 | Debbie Dingell | 34.8% | 15 |
 | Steve Cohen | 33.9% | 15 |
-| James French Hill | 33.8% | 10 |
+| James French Hill | 33.9% | 10 |
 | Angus S King, Jr. | 33.5% | 29 |
 | John Fetterman | 33.3% | 8 |
 | John N Kennedy | 31.6% | 1 |
@@ -140,11 +140,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mikie Sherrill | 20.1% | 22 |
 | Jared Moskowitz | 19.9% | 214 |
 | Fred Upton | 19.2% | 4 |
-| James R. Langevin | 18.2% | 80 |
 | Ed Case | 18.2% | 11 |
+| James R. Langevin | 18.2% | 80 |
 | Thomas H. Kean | 17.5% | 51 |
 | Cleo Fields | 16.8% | 172 |
-| Rick Larsen | 16.4% | 35 |
+| Rick Larsen | 16.5% | 35 |
 | Peter Allen Stauber | 16.3% | 1 |
 | Byron Donalds | 16.1% | 40 |
 | Jefferson Shreve | 16.1% | 121 |
@@ -155,7 +155,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julie Johnson | 13.3% | 60 |
 | Roy Blunt | 12.6% | 1 |
 | John Boozman | 11.1% | 215 |
-| Cliff Bentz | 11.0% | 2 |
+| Cliff Bentz | 11.1% | 2 |
 | Kim Schrier | 9.8% | 2 |
 | Ritchie John Torres | 7.0% | 48 |
 | C. Scott Franklin | 6.7% | 35 |
@@ -192,7 +192,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John McGuire | -8.6% | 10 |
 | Chip Roy | -10.7% | 2 |
 | Ron Estes | -10.9% | 5 |
-| James E Banks | -10.9% | 16 |
+| James E Banks | -11.0% | 16 |
 | Austin Scott | -15.9% | 32 |
 | Tom Malinowski | -16.5% | 26 |
 | David H McCormick | -32.6% | 24 |
