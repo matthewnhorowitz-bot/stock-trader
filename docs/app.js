@@ -243,6 +243,97 @@ function renderLeaderboard() {
     </table>`;
 }
 
+// --- congress index ----------------------------------------------------------
+const entryYear = (p) => (p.entryDate || '').slice(0, 4);
+
+// Rules-based, annually-rebalanced index. Each year Y: pick the top-`n` members by
+// trade-size-weighted return over the prior `lookback` years (>= `minTrades` trades),
+// then the year's return = weighted return of that roster's trades entered in Y. Chain
+// to an index level (start 100), alongside an SPY level over the same trades.
+function buildCongressIndex({ n, minTrades, lookback, weighting }) {
+  const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
+  const years = POSITIONS.map(entryYear).filter((y) => y >= '2015' && y <= '2099').map(Number);
+  if (!years.length) return [];
+  const firstData = Math.min(...years);
+  const thisYear = new Date().getUTCFullYear();
+  const rows = [];
+  let level = 100, spyLevel = 100;
+  for (let Y = firstData + lookback; Y <= thisYear; Y++) {
+    const lo = String(Y - lookback), hi = String(Y - 1);
+    const byM = new Map();
+    for (const p of POSITIONS) {
+      const y = entryYear(p);
+      if (y >= lo && y <= hi) {
+        if (!byM.has(p.member)) byM.set(p.member, []);
+        byM.get(p.member).push(p);
+      }
+    }
+    const roster = [...byM.entries()]
+      .filter(([, ps]) => ps.length >= minTrades)
+      .map(([member, ps]) => ({ member, ret: wmean(ps, (p) => p.ret, wfn), n: ps.length }))
+      .filter((x) => x.ret != null)
+      .sort((a, b) => b.ret - a.ret)
+      .slice(0, n);
+    const names = new Set(roster.map((x) => x.member));
+    const held = POSITIONS.filter((p) => names.has(p.member) && entryYear(p) === String(Y));
+    const ret = held.length ? wmean(held, (p) => p.ret, wfn) : null;
+    const spyRet = held.length ? wmean(held, (p) => p.spyRet, wfn) : null;
+    if (ret != null) {
+      level *= 1 + ret;
+      spyLevel *= 1 + (spyRet || 0);
+    }
+    rows.push({ year: Y, ret, spyRet, level, spyLevel, active: new Set(held.map((p) => p.member)).size, rosterSize: names.size, roster });
+  }
+  return rows;
+}
+
+// Two-line level chart (index vs SPY) across years — inline SVG, no deps.
+function levelChart(pts) {
+  const W = 700, H = 240, padL = 48, padB = 26, padT = 12, padR = 12;
+  const ymax = Math.max(...pts.flatMap((p) => [p.idx, p.spy]), 1);
+  const x = (i) => padL + (i / (pts.length - 1)) * (W - padL - padR);
+  const y = (v) => padT + (1 - v / ymax) * (H - padT - padB);
+  const line = (k, c) => `<polyline fill="none" stroke="${c}" stroke-width="2.5" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p[k]).toFixed(1)}`).join(' ')}"/>`;
+  const yticks = [0, ymax / 2, ymax].map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b949e" font-size="11">${Math.round(v)}</text>`).join('');
+  const xlabels = pts.map((p, i) => `<text x="${x(i).toFixed(1)}" y="${H - 8}" fill="#8b949e" font-size="11" text-anchor="middle">${p.label}</text>`).join('');
+  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${yticks}${xlabels}${line('spy', '#8b949e')}${line('idx', '#3fb950')}</svg>`;
+}
+
+function renderCongressIndex() {
+  if (!POSITIONS.length) return;
+  const n = Math.max(1, Number($('ciN').value || 30));
+  const minTrades = Math.max(1, Number($('ciMin').value || 10));
+  const lookback = Math.max(1, Number($('ciLook').value || 2));
+  const weighting = $('ciWeight').value;
+  const rows = buildCongressIndex({ n, minTrades, lookback, weighting }).filter((r) => r.ret != null);
+  const el = $('ci');
+  if (rows.length < 1) {
+    el.innerHTML = '<div class="note">Not enough data for these settings — try fewer min trades or members.</div>';
+    return;
+  }
+  const last = rows[rows.length - 1];
+  const mult = last.spyLevel ? last.level / last.spyLevel : null;
+  const pts = [{ label: rows[0].year - 1, idx: 100, spy: 100 }, ...rows.map((r) => ({ label: r.year, idx: r.level, spy: r.spyLevel }))];
+
+  el.innerHTML = `
+    <div class="cards">
+      <div class="card"><div class="k">Index (from 100)</div><div class="v pos">${Math.round(last.level).toLocaleString()}</div></div>
+      <div class="card"><div class="k">S&P 500</div><div class="v">${Math.round(last.spyLevel).toLocaleString()}</div></div>
+      <div class="card"><div class="k">vs S&P 500</div><div class="v ${mult >= 1 ? 'pos' : 'neg'}">${mult ? mult.toFixed(2) + '×' : 'n/a'}</div></div>
+      <div class="card"><div class="k">Years</div><div class="v">${rows.length}</div></div>
+    </div>
+    ${levelChart(pts)}
+    <div class="legend"><span class="dot" style="background:#3fb950"></span>Congress Index &nbsp; <span class="dot" style="background:#8b949e"></span>S&P 500 — index level (started at 100)</div>
+    <h2 style="margin:18px 0 8px;">Year by year &amp; roster</h2>
+    ${rows
+      .map(
+        (r) => `<details><summary><b>${r.year}</b> — Index <span class="${r.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(r.ret)}</span> vs S&P <span class="${r.spyRet >= 0 ? 'pos' : 'neg'}">${fmtPct(r.spyRet)}</span> · ${r.active}/${r.rosterSize} active</summary>
+        <div class="roster">${r.roster.map((x, i) => `<span class="rchip">${i + 1}. ${esc(x.member)} <span class="${x.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(x.ret)}</span></span>`).join('')}</div></details>`
+      )
+      .join('')}
+    <div class="note">Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Uses priced trades; a trade's full return is attributed to its entry year; S&P shown over the same holding windows. Typically only ~half a roster trades in a given year.</div>`;
+}
+
 // --- boot --------------------------------------------------------------------
 async function boot() {
   try {
@@ -252,6 +343,7 @@ async function boot() {
     $('meta').textContent = `${POSITIONS.length} priced positions · updated ${(data.generatedAt || '').slice(0, 10)}`;
     refreshMemberUI();
     renderLeaderboard();
+    renderCongressIndex();
   } catch (e) {
     $('chips').innerHTML = `<div class="note">Could not load data: ${e.message}</div>`;
   }
@@ -271,5 +363,10 @@ $('chips').onclick = (e) => {
 $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('lbChamber').onchange = renderLeaderboard;
+['ciN', 'ciMin', 'ciLook', 'ciWeight'].forEach((id) => {
+  const el = $(id);
+  el.oninput = renderCongressIndex;
+  el.onchange = renderCongressIndex;
+});
 $('run').onclick = runBacktest;
 boot();

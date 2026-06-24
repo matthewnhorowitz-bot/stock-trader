@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=3" />
+  <link rel="stylesheet" href="./style.css?v=4" />
 </head>
 <body>
   <header>
@@ -27,6 +27,21 @@
         <span class="note" style="margin:0">Ranked by copyable return, using the parameters below.</span>
       </div>
       <div id="leaderboard" class="lb-table"><div class="note">loading…</div></div>
+    </div>
+
+    <div class="panel ci-panel">
+      <h2>🏛️ Congress Index — your "S&amp;P 500 of Congress"</h2>
+      <p class="note" style="margin:0 0 12px">Each year picks the top performers from the prior years (min trades required) and follows their trades — rebalanced annually, charted against the real S&amp;P 500.</p>
+      <div class="ci-controls">
+        <div><label># members</label><input type="number" id="ciN" value="30" min="1" max="100" /></div>
+        <div><label>Min trades</label><input type="number" id="ciMin" value="10" min="1" /></div>
+        <div><label>Lookback (yrs)</label><input type="number" id="ciLook" value="2" min="1" max="4" /></div>
+        <div>
+          <label>Weighting</label>
+          <select id="ciWeight"><option value="amount" selected>By trade size</option><option value="equal">Equal per trade</option></select>
+        </div>
+      </div>
+      <div id="ci"><div class="note">loading…</div></div>
     </div>
 
     <div class="wrap">
@@ -74,6 +89,6 @@
     </div>
   </div>
 
-  <script src="./app.js?v=3"></script>
+  <script src="./app.js?v=4"></script>
 </body>
 </html>
