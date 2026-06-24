@@ -329,10 +329,23 @@ function renderCongressIndex() {
     ${rows
       .map(
         (r) => `<details><summary><b>${r.year}</b> — Index <span class="${r.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(r.ret)}</span> vs S&P <span class="${r.spyRet >= 0 ? 'pos' : 'neg'}">${fmtPct(r.spyRet)}</span> · ${r.active}/${r.rosterSize} active</summary>
-        <div class="roster">${r.roster.map((x, i) => `<span class="rchip">${i + 1}. ${esc(x.member)} <span class="${x.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(x.ret)}</span></span>`).join('')}</div></details>`
+        <div class="roster">
+          <button type="button" class="roster-load" data-roster="${esc(r.roster.map((x) => x.member).join('|'))}">⤓ Backtest all ${r.roster.length}</button>
+          ${r.roster.map((x, i) => `<button type="button" class="rchip" data-member="${esc(x.member)}" title="Backtest ${esc(x.member)}'s trades">${i + 1}. ${esc(x.member)} <span class="${x.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(x.ret)}</span></button>`).join('')}
+        </div></details>`
       )
       .join('')}
-    <div class="note">Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Uses priced trades; a trade's full return is attributed to its entry year; S&P shown over the same holding windows. Typically only ~half a roster trades in a given year.</div>`;
+    <div class="note">Tip: click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Uses priced trades; a trade's full return is attributed to its entry year; S&P shown over the same holding windows. Typically only ~half a roster trades in a given year.</div>`;
+}
+
+// Load a roster (or a single member) into the member backtester above, run it,
+// and scroll there — lets you drill into the actual trades behind an index roster.
+function loadIntoBacktester(members) {
+  selected.clear();
+  members.forEach((m) => selected.add(m));
+  refreshMemberUI();
+  runBacktest();
+  $('backtester').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // --- boot --------------------------------------------------------------------
@@ -370,4 +383,11 @@ $('lbChamber').onchange = renderLeaderboard;
   el.onchange = renderCongressIndex;
 });
 $('run').onclick = runBacktest;
+// Roster chips in the Congress Index load members into the backtester above.
+$('ci').onclick = (e) => {
+  const rosterBtn = e.target.closest('[data-roster]');
+  if (rosterBtn) return loadIntoBacktester(rosterBtn.dataset.roster.split('|'));
+  const memberBtn = e.target.closest('[data-member]');
+  if (memberBtn) loadIntoBacktester([memberBtn.dataset.member]);
+};
 boot();

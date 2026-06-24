@@ -38,8 +38,11 @@ header p { margin: 0; color: var(--muted); font-size: 13px; max-width: 660px; }
 .ci-controls label { margin-top: 0; }
 #ci details { border-bottom: 1px solid var(--line); padding: 8px 2px; }
 #ci summary { cursor: pointer; font-size: 13px; }
-#ci .roster { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 4px; }
-#ci .rchip { background: var(--panel2); border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; font-size: 12px; }
+#ci .roster { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 4px; align-items: center; }
+#ci .rchip { background: var(--panel2); border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; font-size: 12px; color: var(--text); font-family: inherit; cursor: pointer; transition: border-color .12s, background .12s; }
+#ci .rchip:hover { border-color: var(--accent); background: #20283a; }
+#ci .roster-load { background: transparent; border: 1px dashed var(--line); border-radius: 6px; padding: 3px 8px; font-size: 12px; color: var(--muted); font-family: inherit; cursor: pointer; transition: color .12s, border-color .12s; }
+#ci .roster-load:hover { color: var(--accent); border-color: var(--accent); }
 .lb-controls { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
 .lb-controls select { width: auto; min-width: 150px; }
 .lb-table { max-height: 460px; overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; }
