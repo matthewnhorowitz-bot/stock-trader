@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-24 01:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-24 02:00 UTC._
 
 ## Total
 
