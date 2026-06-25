@@ -272,13 +272,15 @@ const CI_RET_FLOOR = -0.95; // -95% per period
 // years (>= `minTrades` trades), then the period's return = weighted price change of that
 // roster's positions held during the period. periodMonths = 12 (annual) or 6 (semi-annual);
 // boundaries are emitted semi-annually so annual just steps every 2nd boundary.
-function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12 }) {
+function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12, minSize = 0, chamber = 'all' }) {
   if (!POSITIONS.length || !BOUNDARIES.length) return [];
   const step = Math.max(1, Math.round(periodMonths / 6)); // boundaries per period: 1 (6mo) or 2 (annual)
   const lookbackMonths = lookback * 12;
   const minTrades = Math.max(1, Math.ceil(minPerMonth * lookbackMonths)); // ">=1/month" => 24 over a 2yr lookback
   const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
-  const pos = POSITIONS.filter((p) => (p.entryDate || '') >= '2012'); // STOCK Act era
+  let pos = POSITIONS.filter((p) => (p.entryDate || '') >= '2012'); // STOCK Act era
+  if (chamber !== 'all') pos = pos.filter((p) => p.chamber === chamber); // chamber tilt
+  if (minSize) pos = pos.filter((p) => (p.amountLow || 0) >= minSize); // conviction floor
   if (!pos.length) return [];
   for (const p of pos) {
     if (p._mi === undefined) p._mi = monthIndex(p);
@@ -431,8 +433,10 @@ function renderCongressIndex() {
   const lookback = Math.max(1, Number($('ciLook').value || 2));
   const weighting = $('ciWeight').value;
   const periodMonths = Number($('ciRebalance').value || 12);
+  const minSize = Math.max(0, Number($('ciMinSize').value || 0));
+  const chamber = $('ciChamber').value;
   const showStats = $('ciStats').checked;
-  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths }).filter((r) => r.ret != null);
+  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths, minSize, chamber }).filter((r) => r.ret != null);
   const el = $('ci');
   if (rows.length < 1) {
     el.innerHTML = '<div class="note">Not enough data for these settings — try fewer min trades or members.</div>';
@@ -490,6 +494,70 @@ function renderCongressIndex() {
     <div class="note">Each member chip shows that member's return <i>during that period</i> (so they sum to the period total) — not the trailing record they were picked on (hover a chip to see both). Click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates (each period counts only the price change earned during that period, so nothing is double-counted), vs the real S&P over the same dates. Per-period moves are capped at ±~150% to limit junk-ticker outliers.</div>`;
 }
 
+// Brute-force search for the parameter combo with the highest historical beat. This is
+// explicitly OVERFITTING (it's chosen to fit the past), so it's labelled loudly as such.
+function ciConfigGrid() {
+  const grid = [];
+  for (const n of [5, 10, 20])
+    for (const minPerMonth of [0.5, 1, 2])
+      for (const lookback of [1, 2, 3])
+        for (const weighting of ['amount', 'equal'])
+          for (const periodMonths of [6, 12])
+            for (const minSize of [0, 50000])
+              for (const chamber of ['all', 'senate', 'house'])
+                grid.push({ n, minPerMonth, lookback, weighting, periodMonths, minSize, chamber });
+  return grid;
+}
+
+function findBestConfig() {
+  const out = $('ciFindOut');
+  out.innerHTML = '<div class="note">Scanning configurations…</div>';
+  setTimeout(() => {
+    const results = [];
+    for (const cfg of ciConfigGrid()) {
+      const rows = buildCongressIndex(cfg).filter((r) => r.ret != null);
+      if (rows.length < 6) continue; // reject degenerate tiny samples
+      const last = rows[rows.length - 1];
+      if (!last.spyLevel) continue;
+      results.push({ cfg, beat: last.level / last.spyLevel - 1, mult: last.level / 100, spyMult: last.spyLevel / 100, periods: rows.length });
+    }
+    results.sort((a, b) => b.beat - a.beat);
+    const top = results.slice(0, 5);
+    if (!top.length) {
+      out.innerHTML = '<div class="note">No configuration produced enough periods. Try again once more price data has loaded.</div>';
+      return;
+    }
+    const desc = (c) =>
+      `${c.n} members · ${c.periodMonths === 6 ? '6-mo' : 'annual'} · ${c.lookback}y lookback · ≥${c.minPerMonth}/mo · ${c.weighting === 'amount' ? 'by size' : 'equal'}${
+        c.minSize ? ' · ≥$' + (c.minSize / 1000) + 'k' : ''
+      }${c.chamber !== 'all' ? ' · ' + c.chamber : ''}`;
+    out.innerHTML =
+      `<div class="note" style="color:var(--red);font-weight:600;margin-bottom:8px">⚠ Overfit — these settings are cherry-picked to fit the past; they will NOT predict the future. For curiosity only.</div>` +
+      top
+        .map(
+          (r, i) =>
+            `<button type="button" class="ci-cfg" data-cfg="${esc(JSON.stringify(r.cfg))}" style="display:block;width:100%;text-align:left;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:7px 10px;margin-bottom:6px;color:var(--text);cursor:pointer;font-family:inherit">
+            <b>#${i + 1}</b> <span class="pos">+${(r.beat * 100).toFixed(0)}% vs S&P</span> <span style="color:var(--muted)">(${r.mult.toFixed(1)}× vs ${r.spyMult.toFixed(1)}×, ${r.periods} periods)</span><br>
+            <span style="font-size:12px;color:var(--muted)">${esc(desc(r.cfg))}</span></button>`
+        )
+        .join('') +
+      `<div class="note">Click any row to apply it. Applying #1 now.</div>`;
+    applyCiConfig(top[0].cfg);
+  }, 0);
+}
+
+// Push a config's values into the controls, then re-render the index.
+function applyCiConfig(c) {
+  $('ciN').value = c.n;
+  $('ciMin').value = c.minPerMonth;
+  $('ciLook').value = c.lookback;
+  $('ciWeight').value = c.weighting;
+  $('ciRebalance').value = c.periodMonths;
+  $('ciMinSize').value = c.minSize;
+  $('ciChamber').value = c.chamber;
+  renderCongressIndex();
+}
+
 // Load a roster (or a single member) into the member backtester above, run it,
 // and scroll there — lets you drill into the actual trades behind an index roster.
 function loadIntoBacktester(members) {
@@ -531,11 +599,16 @@ $('chips').onclick = (e) => {
 $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('lbChamber').onchange = renderLeaderboard;
-['ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats'].forEach((id) => {
+['ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats', 'ciMinSize', 'ciChamber'].forEach((id) => {
   const el = $(id);
   el.oninput = renderCongressIndex;
   el.onchange = renderCongressIndex;
 });
+$('ciFind').onclick = findBestConfig;
+$('ciFindOut').onclick = (e) => {
+  const btn = e.target.closest('.ci-cfg');
+  if (btn) applyCiConfig(JSON.parse(btn.dataset.cfg));
+};
 $('run').onclick = runBacktest;
 // Roster chips in the Congress Index load members into the backtester above.
 $('ci').onclick = (e) => {

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=11" />
+  <link rel="stylesheet" href="./style.css?v=12" />
 </head>
 <body>
   <header>
@@ -44,10 +44,20 @@
           <label>Rebalance</label>
           <select id="ciRebalance"><option value="12" selected>Annual</option><option value="6">Every 6 months</option></select>
         </div>
+        <div>
+          <label>Min trade size ($)</label>
+          <input type="number" id="ciMinSize" value="0" min="0" step="1000" />
+        </div>
+        <div>
+          <label>Chamber</label>
+          <select id="ciChamber"><option value="all" selected>All</option><option value="senate">Senate</option><option value="house">House</option></select>
+        </div>
         <div style="display:flex;align-items:flex-end;">
           <label class="inline" style="margin:0"><input type="checkbox" id="ciStats" /> Show advanced stats</label>
         </div>
       </div>
+      <div style="margin:4px 0 2px"><button class="ghost" id="ciFind">🔎 Find best settings (overfit)</button></div>
+      <div id="ciFindOut"></div>
       <div id="ci"><div class="note">loading…</div></div>
     </div>
 
@@ -96,6 +106,6 @@
     </div>
   </div>
 
-  <script src="./app.js?v=11"></script>
+  <script src="./app.js?v=12"></script>
 </body>
 </html>
