@@ -1,6 +1,8 @@
 'use strict';
 
 let POSITIONS = [];
+let BOUNDARIES = []; // semi-annual rebalance dates (Jan 1 / Jul 1) for the Congress Index
+let SPYCLOSE = []; // SPY close at each boundary (benchmark)
 const selected = new Set();
 
 const $ = (id) => document.getElementById(id);
@@ -258,36 +260,59 @@ function periodLabel(startMi, periodMonths) {
   return `${year} H${half}`;
 }
 
-// Rules-based, periodically-rebalanced index. Each period: pick the top-`n` members by
-// trade-size-weighted return over the prior `lookback` years (>= `minTrades` trades),
-// then the period's return = weighted return of that roster's trades entered in it. Chain
-// to an index level (start 100), alongside an SPY level over the same trades.
-// periodMonths = 12 (annual, default) or 6 (semi-annual). periodMonths=12 reproduces the
-// original calendar-year behavior exactly.
+// Per-period return is winsorized to tame junk tickers (delisted/duplicate symbols,
+// OCR mis-matches) without nuking real moves like NVDA (~+78%/6mo).
+const CI_RET_CAP = 1.5; // +150% per period
+const CI_RET_FLOOR = -0.95; // -95% per period
+
+// Rules-based, periodically-rebalanced index, measured MARK-TO-MARKET between rebalance
+// dates (so returns are non-overlapping and chaining is legitimate — unlike attributing
+// each trade's full multi-year return to its entry period and compounding that).
+// Each period: pick the top-`n` members by trailing total return over the prior `lookback`
+// years (>= `minTrades` trades), then the period's return = weighted price change of that
+// roster's positions held during the period. periodMonths = 12 (annual) or 6 (semi-annual);
+// boundaries are emitted semi-annually so annual just steps every 2nd boundary.
 function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12 }) {
+  if (!POSITIONS.length || !BOUNDARIES.length) return [];
+  const step = Math.max(1, Math.round(periodMonths / 6)); // boundaries per period: 1 (6mo) or 2 (annual)
   const lookbackMonths = lookback * 12;
   const minTrades = Math.max(1, Math.ceil(minPerMonth * lookbackMonths)); // ">=1/month" => 24 over a 2yr lookback
   const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
-  const pos = POSITIONS.filter((p) => (p.entryDate || '') >= '2012').map((p) => ({ p, mi: monthIndex(p) })); // STOCK Act era
+  const pos = POSITIONS.filter((p) => (p.entryDate || '') >= '2012'); // STOCK Act era
   if (!pos.length) return [];
-  const minMi = Math.min(...pos.map((x) => x.mi));
-  const now = new Date();
-  const maxMi = now.getUTCFullYear() * 12 + now.getUTCMonth();
-  const firstP = Math.floor(minMi / periodMonths);
-  const lastP = Math.floor(maxMi / periodMonths);
-  const lookbackPeriods = Math.ceil(lookbackMonths / periodMonths);
+  for (const p of pos) {
+    if (p._mi === undefined) p._mi = monthIndex(p);
+    if (!p._mm) {
+      p._mm = new Map();
+      for (const [bi, g] of p.marks || []) p._mm.set(bi, g);
+    }
+  }
+  const minEntryMi = Math.min(...pos.map((p) => p._mi));
+  const lastBi = BOUNDARIES.length - 1;
+  const miOf = (d) => Number(d.slice(0, 4)) * 12 + (Number(d.slice(5, 7)) - 1);
+  // Growth of a position vs its entry, at boundary index bi. null = not resolvable yet.
+  const growthAt = (p, bi) => {
+    if (BOUNDARIES[bi] <= p.entryDate) return 1; // at/before entry
+    if (p.closed) {
+      if (BOUNDARIES[bi] >= p.exitDate) return 1 + p.ret; // at/after exit
+    } else if (bi >= lastBi) return 1 + p.ret; // open: marked to latest at the current boundary
+    const g = p._mm.get(bi);
+    return g == null ? null : g;
+  };
   const rows = [];
   let level = 100, spyLevel = 100;
-  for (let pIdx = firstP + lookbackPeriods; pIdx <= lastP; pIdx++) {
-    const startMi = pIdx * periodMonths;
-    const winLo = startMi - lookbackMonths; // lookback window [winLo, startMi)
+  for (let bStart = 0; bStart + step <= lastBi; bStart += step) {
+    const bEnd = bStart + step;
+    const startMi = miOf(BOUNDARIES[bStart]);
+    if (startMi < minEntryMi + lookbackMonths) continue; // not enough lookback history yet
+    // roster: top-n members by trailing total return over [startMi - lookbackMonths, startMi)
+    const winLo = startMi - lookbackMonths;
     const byM = new Map();
-    for (const { p, mi } of pos) {
-      if (mi >= winLo && mi < startMi) {
+    for (const p of pos)
+      if (p._mi >= winLo && p._mi < startMi) {
         if (!byM.has(p.member)) byM.set(p.member, []);
         byM.get(p.member).push(p);
       }
-    }
     const roster = [...byM.entries()]
       .filter(([, ps]) => ps.length >= minTrades)
       .map(([member, ps]) => ({ member, ret: wmean(ps, (p) => p.ret, wfn), n: ps.length }))
@@ -295,14 +320,27 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
       .sort((a, b) => b.ret - a.ret)
       .slice(0, n);
     const names = new Set(roster.map((x) => x.member));
-    const held = pos
-      .filter(({ p, mi }) => names.has(p.member) && mi >= startMi && mi < startMi + periodMonths)
-      .map((x) => x.p);
-    const ret = held.length ? wmean(held, (p) => p.ret, wfn) : null;
-    const spyRet = held.length ? wmean(held, (p) => p.spyRet, wfn) : null;
+    const startD = BOUNDARIES[bStart], endD = BOUNDARIES[bEnd];
+    // held = rostered members' positions overlapping [startD, endD); their mark-to-market
+    // return over just this period.
+    const held = [];
+    for (const p of pos) {
+      if (!names.has(p.member)) continue;
+      if (p.entryDate >= endD) continue; // not opened yet
+      if (p.closed && p.exitDate <= startD) continue; // already closed before the period
+      const g0 = growthAt(p, bStart), g1 = growthAt(p, bEnd);
+      if (g0 == null || g1 == null || g0 === 0) continue; // price marks not warmed yet
+      let r = g1 / g0 - 1;
+      if (r > CI_RET_CAP) r = CI_RET_CAP;
+      else if (r < CI_RET_FLOOR) r = CI_RET_FLOOR;
+      held.push({ p, r });
+    }
+    const ret = held.length ? wmean(held, (h) => h.r, (h) => wfn(h.p)) : null;
+    const sp0 = SPYCLOSE[bStart], sp1 = SPYCLOSE[bEnd];
+    const spyRet = sp0 && sp1 ? sp1 / sp0 - 1 : null;
     if (ret != null) {
       level *= 1 + ret;
-      spyLevel *= 1 + (spyRet || 0);
+      if (spyRet != null) spyLevel *= 1 + spyRet;
     }
     rows.push({
       label: periodLabel(startMi, periodMonths),
@@ -310,7 +348,7 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
       spyRet,
       level,
       spyLevel,
-      active: new Set(held.map((p) => p.member)).size,
+      active: new Set(held.map((h) => h.p.member)).size,
       rosterSize: names.size,
       roster,
     });
@@ -430,7 +468,7 @@ function renderCongressIndex() {
         </div></details>`
       )
       .join('')}
-    <div class="note">Tip: click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Uses priced trades; a trade's full return is attributed to its entry period; S&P shown over the same holding windows. Typically only ~half a roster trades in a given period.</div>`;
+    <div class="note">Tip: click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates (each period counts only the price change earned during that period, so nothing is double-counted), vs the real S&P over the same dates. Per-period moves are capped at ±~150% to limit junk-ticker outliers.</div>`;
 }
 
 // Load a roster (or a single member) into the member backtester above, run it,
@@ -449,6 +487,8 @@ async function boot() {
     const res = await fetch('./positions.json', { cache: 'no-store' });
     const data = await res.json();
     POSITIONS = data.positions || [];
+    BOUNDARIES = data.boundaries || [];
+    SPYCLOSE = data.spy || [];
     $('meta').textContent = `${POSITIONS.length} priced positions · updated ${(data.generatedAt || '').slice(0, 10)}`;
     refreshMemberUI();
     renderLeaderboard();

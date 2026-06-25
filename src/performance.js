@@ -17,6 +17,21 @@ import { priceClose, priceLatest, savePriceCache, fetchesUsed } from './priceCac
 
 const BENCH = 'SPY';
 
+// Semi-annual rebalance boundaries (Jan 1 / Jul 1) from the STOCK Act era to today.
+// The index front end measures each period's return between consecutive boundaries
+// (annual uses every 2nd one), so we emit a price "mark" per position at each boundary.
+function semiAnnualBoundaries() {
+  const today = new Date().toISOString().slice(0, 10);
+  const out = [];
+  for (let y = 2012; y <= Number(today.slice(0, 4)); y++) {
+    for (const mmdd of ['01-01', '07-01']) {
+      const d = `${y}-${mmdd}`;
+      if (d <= today) out.push(d);
+    }
+  }
+  return out;
+}
+
 function normType(t) {
   const s = String(t || '').toLowerCase();
   if (s.includes('purchase') || s === 'buy' || s === 'p') return 'buy';
@@ -132,6 +147,9 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   // activity (all Senate trades, recent House) instead of being consumed by the
   // older 2020-2022 House backfill.
   await priceClose(BENCH, positions[0]?.entry || '2022-01-03', maxFetches);
+  const boundaries = semiAnnualBoundaries();
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const r4 = (x) => Math.round(x * 10000) / 10000;
   const pricingOrder = [...positions].sort((a, b) => (b.entry || '').localeCompare(a.entry || ''));
   const priced = [];
   let unpriced = 0;
@@ -148,7 +166,25 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
     const bEntry = await priceClose(BENCH, p.entry, maxFetches);
     const bExit = p.closed ? await priceClose(BENCH, p.exit, maxFetches) : await priceLatest(BENCH, maxFetches);
     const bRet = bEntry && bExit ? bExit / bEntry - 1 : null;
-    priced.push({ ...p, ret, bRet });
+    // Price marks (growth vs entry) at each boundary strictly inside the holding window.
+    // The ticker's series is already warm from the entry/exit lookups above, so these
+    // resolve from memory with no extra fetches.
+    const hardEnd = p.closed ? p.exit : todayStr;
+    const marks = [];
+    for (let bi = 0; bi < boundaries.length; bi++) {
+      const bd = boundaries[bi];
+      if (bd <= p.entry) continue;
+      if (bd >= hardEnd) break;
+      const px = await priceClose(p.ticker, bd, maxFetches);
+      if (px != null) marks.push([bi, r4(px / entryPx)]);
+    }
+    priced.push({ ...p, ret, bRet, marks });
+  }
+  // SPY close at each boundary (one shared benchmark series for the index).
+  const spyClose = [];
+  for (const bd of boundaries) {
+    const px = await priceClose(BENCH, bd, maxFetches);
+    spyClose.push(px == null ? null : Math.round(px * 100) / 100);
   }
   await savePriceCache();
 
@@ -180,12 +216,14 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   };
   await writeState('performance.json', report);
   await writeText('performance.md', renderMarkdown(report));
-  await writePositions(priced);
+  await writePositions(priced, boundaries, spyClose);
   return report;
 }
 
 // Compact per-position dataset for the in-browser backtester (docs/positions.json).
-async function writePositions(priced) {
+// `boundaries`/`spy` + per-row `marks` let the Congress Index compute mark-to-market
+// returns between rebalance dates (instead of compounding full lifetime returns).
+async function writePositions(priced, boundaries, spyClose) {
   const round = (x) => (x == null ? null : Math.round(x * 10000) / 10000);
   const rows = priced.map((p) => ({
     member: p.member,
@@ -198,8 +236,9 @@ async function writePositions(priced) {
     spyRet: round(p.bRet),
     amountLow: p.amountLow || 0,
     amountHigh: p.amountHigh || 0,
+    marks: p.marks || [], // [[boundaryIndex, growthVsEntry], ...]
   }));
-  const out = { generatedAt: new Date().toISOString(), positions: rows };
+  const out = { generatedAt: new Date().toISOString(), boundaries, spy: spyClose, positions: rows };
   const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
   await mkdir(docsDir, { recursive: true });
   await writeFile(join(docsDir, 'positions.json'), JSON.stringify(out));
