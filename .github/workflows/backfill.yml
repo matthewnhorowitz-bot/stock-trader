@@ -31,6 +31,9 @@ jobs:
           node-version: '22'
           cache: 'npm'
       - run: npm ci --omit=optional
+      # OCR toolchain for scanned pre-2020 House PTRs (rasterize + OCR).
+      - name: Install OCR tools (poppler + tesseract)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
       - name: Backfill a batch
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
@@ -38,6 +41,8 @@ jobs:
           BACKFILL_SENATE_SINCE: '01/01/2012' # STOCK Act era
           BACKFILL_HOUSE_BATCH: '500'
           BACKFILL_HOUSE_YEARS: '2014,2015,2016,2017,2018,2019,2023,2024,2025,2026'
+          OCR_ENABLED: '1' # OCR scanned 2014-2019 House PTRs
+          BACKFILL_HOUSE_OCR_MAX: '40' # bound slow OCR per run (~5-15s/PDF); stays resumable
           PRICE_FROM: '2012-01-01'
         run: node src/backfill.js || true
       # Warm the price cache (Yahoo, free/no-quota) for newly-backfilled tickers and

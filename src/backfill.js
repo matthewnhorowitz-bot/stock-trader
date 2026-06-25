@@ -24,6 +24,9 @@ const SENATE_SINCE = process.env.BACKFILL_SENATE_SINCE || '01/01/2012';
 const HOUSE_YEARS = (process.env.BACKFILL_HOUSE_YEARS || '2014,2015,2016,2017,2018,2019,2023,2024,2025,2026')
   .split(',')
   .map((y) => Number(y.trim()));
+// OCR of scanned pre-2020 House PTRs is off unless OCR_ENABLED=1 (needs poppler+tesseract,
+// installed in CI). HOUSE_OCR_MAX bounds slow OCR work per run so it stays time-bounded.
+const HOUSE_OCR_MAX = process.env.OCR_ENABLED === '1' ? Number(process.env.BACKFILL_HOUSE_OCR_MAX || 60) : 0;
 
 const tkey = (t) =>
   [t.politician, t.type, t.ticker, t.transactionDate, t.disclosureDate, t.amount].join('|').toLowerCase();
@@ -60,7 +63,7 @@ async function importMirror() {
     const c = splitCsv(lines[i]);
     // disclosure_year,disclosure_date,transaction_date,owner,ticker,asset_description,type,amount,representative,...
     const txn = toISO(c[2]);
-    if (!txn || !/^20(2[0-2])/.test(txn)) continue; // keep 2020-2022, drop garbage dates
+    if (!txn || !/^20(1[3-9]|2[0-2])/.test(txn)) continue; // keep 2013-2022, drop garbage dates
     const ticker = c[4] && c[4] !== '--' ? c[4].toUpperCase() : '';
     if (!ticker) continue;
     trades.push({
@@ -96,13 +99,14 @@ async function main() {
     }
   };
 
-  // 1) House mirror (one-time)
-  if (!state.mirrorDone) {
+  // 1) House mirror (one-time; MIRROR_REIMPORT=1 forces a re-run, e.g. after widening the
+  //    year filter, so previously-skipped older rows get picked up).
+  if (!state.mirrorDone || process.env.MIRROR_REIMPORT === '1') {
     try {
       const m = await importMirror();
       add(m);
       state.mirrorDone = true;
-      console.log(`[backfill] mirror: imported ${m.length} House 2020-22 trades`);
+      console.log(`[backfill] mirror: imported ${m.length} House 2013-22 trades`);
     } catch (e) {
       console.error(`[backfill] mirror failed: ${e.message}`);
     }
@@ -136,10 +140,14 @@ async function main() {
       maxDocs: HOUSE_BATCH,
       isDone: (docId) => houseDone.has(docId),
       throttleMs: 300,
+      ocrMax: HOUSE_OCR_MAX,
     });
     add(hc);
     if (hc.processedDocIds) hc.processedDocIds.forEach((d) => houseDone.add(d));
-    console.log(`[backfill] house: +${hc.length} txns from ${hc.meta.processed} PTR(s), ${hc.meta.skipped} unparseable`);
+    console.log(
+      `[backfill] house: +${hc.length} txns from ${hc.meta.processed} PTR(s), ${hc.meta.skipped} unparseable, ` +
+        `${hc.meta.ocrTxns} via OCR (${hc.meta.ocrUsed} PDF(s) OCR'd)`
+    );
   } catch (e) {
     console.error(`[backfill] house failed: ${e.message}`);
   }
