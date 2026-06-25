@@ -336,6 +336,18 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
       held.push({ p, r });
     }
     const ret = held.length ? wmean(held, (h) => h.r, (h) => wfn(h.p)) : null;
+    // Each roster member's ACTUAL return during this period (what they contributed),
+    // so the chips reconcile with the period total — distinct from x.ret, the trailing
+    // selection return. null = member held nothing this period (inactive).
+    const heldByMember = new Map();
+    for (const h of held) {
+      if (!heldByMember.has(h.p.member)) heldByMember.set(h.p.member, []);
+      heldByMember.get(h.p.member).push(h);
+    }
+    for (const x of roster) {
+      const hs = heldByMember.get(x.member);
+      x.pret = hs && hs.length ? wmean(hs, (h) => h.r, (h) => wfn(h.p)) : null;
+    }
     const sp0 = SPYCLOSE[bStart], sp1 = SPYCLOSE[bEnd];
     const spyRet = sp0 && sp1 ? sp1 / sp0 - 1 : null;
     if (ret != null) {
@@ -464,11 +476,18 @@ function renderCongressIndex() {
         (r) => `<details><summary><b>${r.label}</b> — Index <span class="${r.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(r.ret)}</span> vs S&P <span class="${r.spyRet >= 0 ? 'pos' : 'neg'}">${fmtPct(r.spyRet)}</span> · ${r.active}/${r.rosterSize} active</summary>
         <div class="roster">
           <button type="button" class="roster-load" data-roster="${esc(r.roster.map((x) => x.member).join('|'))}">⤓ Backtest all ${r.roster.length}</button>
-          ${r.roster.map((x, i) => `<button type="button" class="rchip" data-member="${esc(x.member)}" title="Backtest ${esc(x.member)}'s trades">${i + 1}. ${esc(x.member)} <span class="${x.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(x.ret)}</span></button>`).join('')}
+          ${r.roster
+            .map((x, i) => {
+              const cls = x.pret == null ? '' : x.pret >= 0 ? 'pos' : 'neg';
+              const val = x.pret == null ? '<span style="color:var(--muted)">— idle</span>' : `<span class="${cls}">${fmtPct(x.pret)}</span>`;
+              const tip = `${x.member} — this period ${x.pret == null ? 'held nothing' : fmtPct(x.pret)}; picked on +${fmtPct(x.ret)} trailing 2yr; click to backtest`;
+              return `<button type="button" class="rchip" data-member="${esc(x.member)}" title="${esc(tip)}">${i + 1}. ${esc(x.member)} ${val}</button>`;
+            })
+            .join('')}
         </div></details>`
       )
       .join('')}
-    <div class="note">Tip: click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates (each period counts only the price change earned during that period, so nothing is double-counted), vs the real S&P over the same dates. Per-period moves are capped at ±~150% to limit junk-ticker outliers.</div>`;
+    <div class="note">Each member chip shows that member's return <i>during that period</i> (so they sum to the period total) — not the trailing record they were picked on (hover a chip to see both). Click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates (each period counts only the price change earned during that period, so nothing is double-counted), vs the real S&P over the same dates. Per-period moves are capped at ±~150% to limit junk-ticker outliers.</div>`;
 }
 
 // Load a roster (or a single member) into the member backtester above, run it,
