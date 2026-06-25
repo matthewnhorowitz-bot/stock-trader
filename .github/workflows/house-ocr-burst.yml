@@ -1,0 +1,91 @@
+name: House OCR Burst
+
+# Manual, long-running burst to fill the pre-2020 House gap fast. The scheduled
+# backfill only OCRs ~40 scanned PTRs per run, and GitHub throttles its */15 cron to
+# a few runs/day — so OCR was barely advancing. This job instead LOOPS OCR batches
+# inside one dispatched run for a time budget, committing checkpoints so it's resumable
+# and survives a kill. Dispatch it (optionally several times) until the gap is filled.
+#
+# Senate is off here (already backfilled); this is House 2014-2019 scanned PTRs only.
+# Note: shares the writer concurrency group, so while it runs the hourly notifier queues
+# behind it — harmless, since disclosures lag ~45 days so an alert delay is immaterial.
+on:
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: 'OCR loop time budget (minutes)'
+        default: '120'
+      ocr_max:
+        description: 'Scanned PDFs to OCR per inner batch'
+        default: '80'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stock-trader-writer
+  cancel-in-progress: false
+
+jobs:
+  burst:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci --omit=optional
+      - name: Install OCR tools (poppler + tesseract)
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils tesseract-ocr
+
+      - name: OCR loop (House 2014-2019)
+        env:
+          OCR_ENABLED: '1'
+          BACKFILL_SENATE_BATCH: '0' # Senate already backfilled
+          BACKFILL_HOUSE_BATCH: '500' # let the OCR budget be the binding limit
+          BACKFILL_HOUSE_OCR_MAX: ${{ github.event.inputs.ocr_max || '80' }}
+          BACKFILL_HOUSE_YEARS: '2014,2015,2016,2017,2018,2019'
+          PRICE_FROM: '2012-01-01'
+          MINUTES: ${{ github.event.inputs.minutes || '120' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          END=$(( SECONDS + MINUTES * 60 ))
+          nochg=0; iter=0
+          while [ $SECONDS -lt $END ]; do
+            iter=$((iter + 1))
+            before=$(wc -c < data/tracked_trades.json 2>/dev/null || echo 0)
+            node src/backfill.js || true
+            after=$(wc -c < data/tracked_trades.json 2>/dev/null || echo 0)
+            # commit tracked_trades + backfill_state TOGETHER (atomic: state marks PTRs
+            # done, so the trades must persist with it or they'd be skipped on resume).
+            git add -f data/tracked_trades.json data/backfill_state.json
+            if ! git diff --cached --quiet; then
+              git commit -m "chore: house OCR burst checkpoint [skip ci]" || true
+              git pull --rebase --autostash origin main || true
+              git push || true
+            fi
+            if [ "$before" = "$after" ]; then nochg=$((nochg + 1)); else nochg=0; fi
+            echo "iter=$iter elapsed=${SECONDS}s nochg=$nochg trackedBytes=$after"
+            if [ $nochg -ge 4 ]; then echo "House OCR backlog appears exhausted; stopping."; break; fi
+          done
+
+      - name: Reprice + publish index
+        env:
+          PERF_MAX_FETCHES: '800'
+          PRICE_FROM: '2012-01-01'
+        run: |
+          node src/performance.js || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/tracked_trades.json data/backfill_state.json data/price_cache.json
+          git add -f data/performance.json data/performance.md docs/positions.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "chore: house OCR burst reprice [skip ci]" || true
+            git pull --rebase --autostash origin main || true
+            git push || true
+          fi
