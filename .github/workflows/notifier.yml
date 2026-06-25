@@ -92,5 +92,9 @@ jobs:
             echo "No state changes to commit."
           else
             git commit -m "chore: update trade state [skip ci]"
+            # Pull first in case another job/push landed since checkout, so this
+            # push isn't rejected as non-fast-forward (it's why a run occasionally
+            # failed at the persist step). --autostash is belt-and-suspenders.
+            git pull --rebase --autostash origin main || true
             git push
           fi
