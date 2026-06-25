@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=8" />
+  <link rel="stylesheet" href="./style.css?v=9" />
 </head>
 <body>
   <header>
@@ -39,6 +39,13 @@
         <div>
           <label>Weighting</label>
           <select id="ciWeight"><option value="amount" selected>By trade size</option><option value="equal">Equal per trade</option></select>
+        </div>
+        <div>
+          <label>Rebalance</label>
+          <select id="ciRebalance"><option value="12" selected>Annual</option><option value="6">Every 6 months</option></select>
+        </div>
+        <div style="display:flex;align-items:flex-end;">
+          <label class="inline" style="margin:0"><input type="checkbox" id="ciStats" /> Show advanced stats</label>
         </div>
       </div>
       <div id="ci"><div class="note">loading…</div></div>
@@ -89,6 +96,6 @@
     </div>
   </div>
 
-  <script src="./app.js?v=8"></script>
+  <script src="./app.js?v=9"></script>
 </body>
 </html>

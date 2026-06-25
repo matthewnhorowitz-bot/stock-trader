@@ -244,27 +244,46 @@ function renderLeaderboard() {
 }
 
 // --- congress index ----------------------------------------------------------
-const entryYear = (p) => (p.entryDate || '').slice(0, 4);
+// Month index since year 0 ("YYYY-MM-DD" -> Y*12 + (M-1)) so we can bucket by any
+// period length, not just calendar years.
+const monthIndex = (p) => {
+  const d = p.entryDate || '';
+  return Number(d.slice(0, 4)) * 12 + (Number(d.slice(5, 7)) - 1);
+};
+// Period label for a period's start month index: annual -> "2021", 6-month -> "2021 H1".
+function periodLabel(startMi, periodMonths) {
+  const year = Math.floor(startMi / 12);
+  if (periodMonths >= 12) return String(year);
+  const half = Math.floor((startMi % 12) / periodMonths) + 1; // 1-based sub-period within the year
+  return `${year} H${half}`;
+}
 
-// Rules-based, annually-rebalanced index. Each year Y: pick the top-`n` members by
+// Rules-based, periodically-rebalanced index. Each period: pick the top-`n` members by
 // trade-size-weighted return over the prior `lookback` years (>= `minTrades` trades),
-// then the year's return = weighted return of that roster's trades entered in Y. Chain
+// then the period's return = weighted return of that roster's trades entered in it. Chain
 // to an index level (start 100), alongside an SPY level over the same trades.
-function buildCongressIndex({ n, minPerMonth, lookback, weighting }) {
-  const minTrades = Math.max(1, Math.ceil(minPerMonth * lookback * 12)); // ">=1/month" => 24 over a 2yr lookback
+// periodMonths = 12 (annual, default) or 6 (semi-annual). periodMonths=12 reproduces the
+// original calendar-year behavior exactly.
+function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12 }) {
+  const lookbackMonths = lookback * 12;
+  const minTrades = Math.max(1, Math.ceil(minPerMonth * lookbackMonths)); // ">=1/month" => 24 over a 2yr lookback
   const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
-  const years = POSITIONS.map(entryYear).filter((y) => y >= '2012' && y <= '2099').map(Number); // STOCK Act era
-  if (!years.length) return [];
-  const firstData = Math.min(...years);
-  const thisYear = new Date().getUTCFullYear();
+  const pos = POSITIONS.filter((p) => (p.entryDate || '') >= '2012').map((p) => ({ p, mi: monthIndex(p) })); // STOCK Act era
+  if (!pos.length) return [];
+  const minMi = Math.min(...pos.map((x) => x.mi));
+  const now = new Date();
+  const maxMi = now.getUTCFullYear() * 12 + now.getUTCMonth();
+  const firstP = Math.floor(minMi / periodMonths);
+  const lastP = Math.floor(maxMi / periodMonths);
+  const lookbackPeriods = Math.ceil(lookbackMonths / periodMonths);
   const rows = [];
   let level = 100, spyLevel = 100;
-  for (let Y = firstData + lookback; Y <= thisYear; Y++) {
-    const lo = String(Y - lookback), hi = String(Y - 1);
+  for (let pIdx = firstP + lookbackPeriods; pIdx <= lastP; pIdx++) {
+    const startMi = pIdx * periodMonths;
+    const winLo = startMi - lookbackMonths; // lookback window [winLo, startMi)
     const byM = new Map();
-    for (const p of POSITIONS) {
-      const y = entryYear(p);
-      if (y >= lo && y <= hi) {
+    for (const { p, mi } of pos) {
+      if (mi >= winLo && mi < startMi) {
         if (!byM.has(p.member)) byM.set(p.member, []);
         byM.get(p.member).push(p);
       }
@@ -276,16 +295,68 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting }) {
       .sort((a, b) => b.ret - a.ret)
       .slice(0, n);
     const names = new Set(roster.map((x) => x.member));
-    const held = POSITIONS.filter((p) => names.has(p.member) && entryYear(p) === String(Y));
+    const held = pos
+      .filter(({ p, mi }) => names.has(p.member) && mi >= startMi && mi < startMi + periodMonths)
+      .map((x) => x.p);
     const ret = held.length ? wmean(held, (p) => p.ret, wfn) : null;
     const spyRet = held.length ? wmean(held, (p) => p.spyRet, wfn) : null;
     if (ret != null) {
       level *= 1 + ret;
       spyLevel *= 1 + (spyRet || 0);
     }
-    rows.push({ year: Y, ret, spyRet, level, spyLevel, active: new Set(held.map((p) => p.member)).size, rosterSize: names.size, roster });
+    rows.push({
+      label: periodLabel(startMi, periodMonths),
+      ret,
+      spyRet,
+      level,
+      spyLevel,
+      active: new Set(held.map((p) => p.member)).size,
+      rosterSize: names.size,
+      roster,
+    });
   }
   return rows;
+}
+
+// Advanced recap metrics over the chained period rows (priced periods only).
+function computeStats(rows, periodMonths) {
+  const ppy = 12 / periodMonths; // periods per year
+  const rets = rows.map((r) => r.ret).filter((x) => x != null);
+  if (rets.length < 2) return null;
+  const mean = rets.reduce((a, b) => a + b, 0) / rets.length;
+  const variance = rets.reduce((a, b) => a + (b - mean) ** 2, 0) / (rets.length - 1);
+  const sd = Math.sqrt(variance);
+  const vol = sd * Math.sqrt(ppy); // annualized volatility
+  const ratio = sd ? (mean / sd) * Math.sqrt(ppy) : null; // Sharpe-style (no risk-free)
+  // max drawdown of the index level series
+  let peak = 100, maxDD = 0;
+  for (const r of rows) {
+    if (r.level > peak) peak = r.level;
+    const dd = peak ? (peak - r.level) / peak : 0;
+    if (dd > maxDD) maxDD = dd;
+  }
+  // consistency
+  const scored = rows.filter((r) => r.ret != null && r.spyRet != null);
+  const wins = scored.filter((r) => r.ret > r.spyRet).length;
+  const winRate = scored.length ? wins / scored.length : null;
+  let best = null, worst = null;
+  for (const r of rows) {
+    if (r.ret == null) continue;
+    if (!best || r.ret > best.ret) best = r;
+    if (!worst || r.ret < worst.ret) worst = r;
+  }
+  // average roster turnover between consecutive periods
+  const turns = [];
+  for (let i = 1; i < rows.length; i++) {
+    const cur = new Set(rows[i].roster.map((x) => x.member));
+    const prev = new Set(rows[i - 1].roster.map((x) => x.member));
+    if (!cur.size) continue;
+    let kept = 0;
+    for (const m of cur) if (prev.has(m)) kept++;
+    turns.push(1 - kept / cur.size);
+  }
+  const turnover = turns.length ? turns.reduce((a, b) => a + b, 0) / turns.length : null;
+  return { vol, maxDD, ratio, winRate, best, worst, turnover };
 }
 
 // Two-line level chart (index vs SPY) across years — inline SVG, no deps.
@@ -296,7 +367,10 @@ function levelChart(pts) {
   const y = (v) => padT + (1 - v / ymax) * (H - padT - padB);
   const line = (k, c) => `<polyline fill="none" stroke="${c}" stroke-width="2.5" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p[k]).toFixed(1)}`).join(' ')}"/>`;
   const yticks = [0, ymax / 2, ymax].map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b949e" font-size="11">${Math.round(v)}</text>`).join('');
-  const xlabels = pts.map((p, i) => `<text x="${x(i).toFixed(1)}" y="${H - 8}" fill="#8b949e" font-size="11" text-anchor="middle">${p.label}</text>`).join('');
+  const every = Math.ceil(pts.length / 12); // thin labels when crowded (e.g. semi-annual)
+  const xlabels = pts
+    .map((p, i) => (i % every === 0 || i === pts.length - 1 ? `<text x="${x(i).toFixed(1)}" y="${H - 8}" fill="#8b949e" font-size="11" text-anchor="middle">${p.label}</text>` : ''))
+    .join('');
   return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${yticks}${xlabels}${line('spy', '#8b949e')}${line('idx', '#3fb950')}</svg>`;
 }
 
@@ -306,7 +380,9 @@ function renderCongressIndex() {
   const minPerMonth = Math.max(0, Number($('ciMin').value || 1));
   const lookback = Math.max(1, Number($('ciLook').value || 2));
   const weighting = $('ciWeight').value;
-  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting }).filter((r) => r.ret != null);
+  const periodMonths = Number($('ciRebalance').value || 12);
+  const showStats = $('ciStats').checked;
+  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths }).filter((r) => r.ret != null);
   const el = $('ci');
   if (rows.length < 1) {
     el.innerHTML = '<div class="note">Not enough data for these settings — try fewer min trades or members.</div>';
@@ -314,28 +390,47 @@ function renderCongressIndex() {
   }
   const last = rows[rows.length - 1];
   const beat = last.spyLevel ? last.level / last.spyLevel - 1 : null; // % the index beat the S&P by
-  const pts = [{ label: rows[0].year - 1, idx: 100, spy: 100 }, ...rows.map((r) => ({ label: r.year, idx: r.level, spy: r.spyLevel }))];
+  const pts = [{ label: 'start', idx: 100, spy: 100 }, ...rows.map((r) => ({ label: r.label, idx: r.level, spy: r.spyLevel }))];
+  const periodWord = periodMonths >= 12 ? 'Periods' : 'Periods (6-mo)';
+
+  const stats = showStats ? computeStats(rows, periodMonths) : null;
+  const statCard = (k, v, cls = '') => `<div class="card"><div class="k">${k}</div><div class="v ${cls}">${v}</div></div>`;
+  const statsHtml =
+    stats == null
+      ? ''
+      : `<h2 style="margin:18px 0 8px;">Advanced stats</h2>
+    <div class="cards">
+      ${statCard('Volatility (annual)', (stats.vol * 100).toFixed(1) + '%')}
+      ${statCard('Max drawdown', '-' + (stats.maxDD * 100).toFixed(1) + '%', 'neg')}
+      ${statCard('Return / vol', stats.ratio != null ? stats.ratio.toFixed(2) : 'n/a', stats.ratio >= 0 ? 'pos' : 'neg')}
+      ${statCard('Win rate vs S&P', stats.winRate != null ? (stats.winRate * 100).toFixed(0) + '%' : 'n/a', stats.winRate >= 0.5 ? 'pos' : 'neg')}
+      ${statCard('Best period', stats.best ? `${fmtPct(stats.best.ret)}` : 'n/a', 'pos')}
+      ${statCard('Worst period', stats.worst ? `${fmtPct(stats.worst.ret)}` : 'n/a', 'neg')}
+      ${statCard('Avg roster turnover', stats.turnover != null ? (stats.turnover * 100).toFixed(0) + '%' : 'n/a')}
+    </div>
+    <div class="note">Volatility &amp; return/vol are annualized (no risk-free rate). Max drawdown is the largest peak-to-trough drop of the index level. Win rate = share of periods the index beat the S&P. Turnover = share of the roster that changes each rebalance.</div>`;
 
   el.innerHTML = `
     <div class="cards">
       <div class="card"><div class="k">Index (from 100)</div><div class="v pos">${Math.round(last.level).toLocaleString()}</div></div>
       <div class="card"><div class="k">S&P 500</div><div class="v">${Math.round(last.spyLevel).toLocaleString()}</div></div>
       <div class="card"><div class="k">Beat the S&P by</div><div class="v ${beat >= 0 ? 'pos' : 'neg'}">${beat != null ? (beat >= 0 ? '+' : '') + (beat * 100).toFixed(0) + '%' : 'n/a'}</div></div>
-      <div class="card"><div class="k">Years</div><div class="v">${rows.length}</div></div>
+      <div class="card"><div class="k">${periodWord}</div><div class="v">${rows.length}</div></div>
     </div>
     ${levelChart(pts)}
     <div class="legend"><span class="dot" style="background:#3fb950"></span>Congress Index &nbsp; <span class="dot" style="background:#8b949e"></span>S&P 500 — index level (started at 100)</div>
-    <h2 style="margin:18px 0 8px;">Year by year &amp; roster</h2>
+    ${statsHtml}
+    <h2 style="margin:18px 0 8px;">Period by period &amp; roster</h2>
     ${rows
       .map(
-        (r) => `<details><summary><b>${r.year}</b> — Index <span class="${r.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(r.ret)}</span> vs S&P <span class="${r.spyRet >= 0 ? 'pos' : 'neg'}">${fmtPct(r.spyRet)}</span> · ${r.active}/${r.rosterSize} active</summary>
+        (r) => `<details><summary><b>${r.label}</b> — Index <span class="${r.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(r.ret)}</span> vs S&P <span class="${r.spyRet >= 0 ? 'pos' : 'neg'}">${fmtPct(r.spyRet)}</span> · ${r.active}/${r.rosterSize} active</summary>
         <div class="roster">
           <button type="button" class="roster-load" data-roster="${esc(r.roster.map((x) => x.member).join('|'))}">⤓ Backtest all ${r.roster.length}</button>
           ${r.roster.map((x, i) => `<button type="button" class="rchip" data-member="${esc(x.member)}" title="Backtest ${esc(x.member)}'s trades">${i + 1}. ${esc(x.member)} <span class="${x.ret >= 0 ? 'pos' : 'neg'}">${fmtPct(x.ret)}</span></button>`).join('')}
         </div></details>`
       )
       .join('')}
-    <div class="note">Tip: click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Uses priced trades; a trade's full return is attributed to its entry year; S&P shown over the same holding windows. Typically only ~half a roster trades in a given year.</div>`;
+    <div class="note">Tip: click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Uses priced trades; a trade's full return is attributed to its entry period; S&P shown over the same holding windows. Typically only ~half a roster trades in a given period.</div>`;
 }
 
 // Load a roster (or a single member) into the member backtester above, run it,
@@ -377,7 +472,7 @@ $('chips').onclick = (e) => {
 $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('lbChamber').onchange = renderLeaderboard;
-['ciN', 'ciMin', 'ciLook', 'ciWeight'].forEach((id) => {
+['ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats'].forEach((id) => {
   const el = $(id);
   el.oninput = renderCongressIndex;
   el.onchange = renderCongressIndex;
