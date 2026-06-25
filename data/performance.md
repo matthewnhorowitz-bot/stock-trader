@@ -1,216 +1,226 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-25 18:51 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-25 20:58 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 71.2%**
-- S&P 500 (SPY) over the same windows: 52.2%
-- Priced positions: 14574  ·  still open: 11608  ·  awaiting price data: 4647
+- **Index (all tracked buys): 74.1%**
+- S&P 500 (SPY) over the same windows: 56.6%
+- Priced positions: 15381  ·  still open: 12460  ·  awaiting price data: 5163
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Brian Higgins | 892.6% | 1 |
-| Sheldon Whitehouse | 752.7% | 308 |
-| Rubén Hinojosa | 592.9% | 7 |
-| Ashley Moody | 513.9% | 3 |
-| David Cheston Rouzer | 458.4% | 2 |
-| Carlos Curbelo | 393.9% | 10 |
-| Ron L Wyden | 344.6% | 141 |
-| Susan M Collins | 252.9% | 88 |
-| Bill Flores | 250.2% | 39 |
-| Michael Fq San Nicolas | 246.6% | 1 |
-| Christopher A Coons | 244.4% | 2 |
-| Susan W. Brooks | 224.8% | 12 |
-| Michael T. McCaul | 222.3% | 90 |
-| Susan A. Davis | 216.3% | 7 |
-| John Hoeven | 180.3% | 84 |
-| Thomas Suozzi | 168.1% | 55 |
-| Debbie Dingell | 160.3% | 28 |
-| Deborah K. Ross | 158.7% | 14 |
-| Kelly Loeffler | 156.8% | 78 |
-| Pat Roberts | 155.0% | 227 |
-| Seth Moulton | 154.9% | 1 |
-| Dean Phillips | 154.7% | 195 |
-| Debbie Wasserman Schultz | 150.1% | 6 |
-| Donna Shalala | 149.4% | 36 |
-| Rafael E Cruz | 147.9% | 1 |
+| Barbara J Comstock | 1126.5% | 5 |
+| Brian Higgins | 897.1% | 1 |
+| Sheldon Whitehouse | 749.3% | 310 |
+| Rubén Hinojosa | 593.3% | 7 |
+| Ed Whitfield | 586.3% | 7 |
+| Ashley Moody | 513.8% | 3 |
+| Frank A. LoBiondo | 375.4% | 4 |
+| Ron L Wyden | 343.2% | 142 |
+| David Cheston Rouzer | 337.4% | 3 |
+| Lamar Smith | 280.4% | 42 |
+| Thomas J. Rooney | 274.1% | 18 |
+| Michael Fq San Nicolas | 243.0% | 1 |
+| Christopher A Coons | 239.6% | 2 |
+| Susan M Collins | 228.1% | 102 |
+| Susan W. Brooks | 223.7% | 12 |
+| Michael T. McCaul | 222.0% | 90 |
+| Bill Flores | 198.6% | 48 |
+| Carlos Curbelo | 190.2% | 30 |
+| Susan A. Davis | 187.7% | 10 |
+| Debbie Wasserman Schultz | 180.0% | 8 |
+| David E. Price | 177.1% | 10 |
+| John Hoeven | 176.6% | 86 |
+| Neal P. Dunn | 171.6% | 1 |
+| Thomas Suozzi | 170.4% | 55 |
+| Deborah K. Ross | 161.1% | 14 |
+| Kelly Loeffler | 157.0% | 78 |
+| Dean Phillips | 154.8% | 195 |
+| Pat Roberts | 154.3% | 227 |
+| Seth Moulton | 152.6% | 1 |
+| Bob Gibbs | 149.6% | 34 |
+| John A. Yarmuth | 147.8% | 69 |
 | Mark Green | 140.0% | 217 |
-| Greg Gianforte | 139.1% | 106 |
-| Daniel Meuser | 137.2% | 1 |
-| Peter Meijer | 132.2% | 15 |
-| Neal Patrick MD, Facs Dunn | 129.7% | 2 |
-| David E. Price | 128.9% | 6 |
-| Kurt Schrader | 118.8% | 145 |
-| Kenny Marchant | 115.4% | 34 |
-| Victoria Spartz | 111.1% | 19 |
-| Dwight Evans | 110.2% | 40 |
-| Trey Hollingsworth | 108.9% | 9 |
-| Pete Sessions | 108.3% | 60 |
-| K. Michael Conaway | 103.2% | 55 |
-| Bob Gibbs | 102.5% | 26 |
-| A. Mitchell McConnell, Jr. | 101.4% | 35 |
-| David A Perdue , Jr | 98.1% | 484 |
-| Michael K. Simpson | 97.7% | 6 |
+| Daniel Meuser | 138.3% | 1 |
+| Donna Shalala | 137.6% | 39 |
+| Justin Amash | 134.9% | 6 |
+| Thomas MacArthur | 134.2% | 225 |
+| Peter Meijer | 132.9% | 15 |
+| Debbie Dingell | 130.9% | 39 |
+| Neal Patrick MD, Facs Dunn | 130.9% | 2 |
+| Bradley S. Schneider | 130.5% | 3 |
+| Pete Sessions | 125.2% | 76 |
+| Greg Gianforte | 121.9% | 127 |
+| Louise McIntosh Slaughter | 119.8% | 8 |
+| Kurt Schrader | 119.0% | 145 |
+| Kenny Marchant | 116.5% | 34 |
+| Victoria Spartz | 110.9% | 19 |
+| Trey Hollingsworth | 108.7% | 9 |
+| Dwight Evans | 105.6% | 46 |
+| K. Michael Conaway | 104.9% | 60 |
+| A. Mitchell McConnell, Jr. | 101.5% | 35 |
+| Gary C Peters | 98.8% | 34 |
+| Michael K. Simpson | 98.5% | 6 |
 | Michael Waltz | 95.8% | 2 |
-| John A. Yarmuth | 94.6% | 32 |
-| Garret Graves | 92.2% | 4 |
-| Gary C Peters | 91.1% | 33 |
-| Stephen F. Lynch | 88.0% | 1 |
-| David P. Joyce | 87.8% | 16 |
-| Robert B. Aderholt | 85.9% | 1 |
-| Richard L. Hanna | 85.8% | 1 |
-| Patrick J Toomey | 85.1% | 42 |
-| David B. McKinley | 83.3% | 62 |
-| Shelley M Capito | 81.5% | 238 |
-| David P. Roe | 78.8% | 13 |
-| Mike Kelly | 78.7% | 6 |
-| Thomas R Carper | 78.7% | 262 |
-| Susie Lee | 78.0% | 214 |
-| Billy Long | 77.6% | 1 |
-| Diana Harshbarger | 75.9% | 6 |
-| Francis Rooney | 75.8% | 13 |
-| Marjorie Taylor Greene | 75.7% | 443 |
+| David A Perdue , Jr | 95.0% | 511 |
+| Garret Graves | 91.8% | 4 |
+| Stephen F. Lynch | 88.9% | 1 |
+| David P. Joyce | 88.0% | 16 |
+| David B. McKinley | 86.6% | 73 |
+| Richard L. Hanna | 85.2% | 1 |
+| Patrick J Toomey | 83.9% | 43 |
+| Robert B. Aderholt | 82.9% | 1 |
+| Mike Kelly | 80.6% | 6 |
+| Susie Lee | 79.2% | 216 |
+| David P. Roe | 78.5% | 13 |
+| Thomas R Carper | 78.0% | 267 |
+| Shelley M Capito | 77.5% | 253 |
+| Marjorie Taylor Greene | 76.1% | 449 |
+| Francis Rooney | 76.1% | 13 |
+| Diana Harshbarger | 75.6% | 6 |
 | Nancy Pelosi | 75.4% | 72 |
-| Jerry Moran, | 71.7% | 57 |
-| John F Reed | 71.7% | 21 |
+| Billy Long | 74.8% | 1 |
+| John F Reed | 71.8% | 21 |
+| Jerry Moran, | 71.8% | 57 |
 | Morgan McGarvey | 70.6% | 9 |
+| Ed Perlmutter | 70.3% | 20 |
 | Tina Smith | 70.2% | 5 |
-| Ed Perlmutter | 70.0% | 20 |
-| Carol Devine Miller | 69.3% | 51 |
-| Daniel S Sullivan | 67.4% | 24 |
+| Carol Devine Miller | 69.7% | 51 |
+| Daniel S Sullivan | 67.6% | 24 |
+| Suzan K. DelBene | 67.1% | 22 |
 | Andrew Garbarino | 65.2% | 2 |
-| Scott Franklin | 62.8% | 47 |
+| Scott Franklin | 62.6% | 47 |
 | John Rutherford | 62.4% | 26 |
-| Kevin Hern | 61.8% | 418 |
+| Kevin Hern | 61.9% | 418 |
 | Brian Babin | 61.8% | 2 |
 | Blake Moore | 60.5% | 68 |
-| David Madison Cawthorn | 59.9% | 15 |
-| Cheri Bustos | 59.3% | 1 |
-| Terri A. Sewell | 58.9% | 2 |
-| James Comer | 57.2% | 26 |
-| John Curtis | 56.5% | 115 |
-| Robert J. Wittman | 56.3% | 81 |
-| David Kustoff | 56.0% | 9 |
-| Michael Patrick Guest | 53.3% | 46 |
-| Lois Frankel | 53.0% | 231 |
-| Roger W. Marshall | 52.6% | 15 |
-| Vicente Gonzalez | 52.5% | 1 |
-| Dan Newhouse | 51.8% | 92 |
-| Aston Donald McEachin | 51.1% | 6 |
+| David Madison Cawthorn | 60.0% | 15 |
+| Cheri Bustos | 59.5% | 1 |
+| Terri A. Sewell | 58.2% | 2 |
+| Lloyd Doggett | 57.5% | 162 |
+| David Kustoff | 56.8% | 9 |
+| John Curtis | 56.7% | 115 |
+| James Comer | 55.2% | 27 |
+| Robert J. Wittman | 54.7% | 83 |
+| Lois Frankel | 53.2% | 231 |
+| Vicente Gonzalez | 53.2% | 1 |
+| Michael Patrick Guest | 53.1% | 46 |
+| Earl Blumenauer | 52.6% | 162 |
+| Roger W. Marshall | 52.1% | 15 |
+| Dan Newhouse | 51.9% | 92 |
+| Aston Donald McEachin | 51.3% | 6 |
 | Christopher L. Jacobs | 51.0% | 51 |
-| Adam Kinzinger | 50.3% | 10 |
+| Adam Kinzinger | 50.7% | 10 |
 | Richard W. Allen | 50.3% | 131 |
+| Alan S. Lowenthal | 48.5% | 180 |
 | Hakeem S. Jeffries | 48.3% | 3 |
-| Angus S King, Jr. | 47.5% | 33 |
-| Lloyd Doggett | 47.0% | 141 |
 | Peter Welch | 46.5% | 4 |
-| Alan S. Lowenthal | 46.4% | 161 |
-| Virginia Foxx | 46.1% | 365 |
-| Raúl M. Grijalva | 45.3% | 6 |
-| Markwayne Mullin | 44.7% | 265 |
-| James M Inhofe | 43.8% | 44 |
-| Cindy Axne | 42.5% | 60 |
-| Greg Steube | 41.8% | 2 |
-| Mo Brooks | 41.1% | 14 |
-| William R. Keating | 40.8% | 82 |
-| William Cassidy | 39.9% | 65 |
-| Gilbert Cisneros | 39.5% | 1081 |
-| John Fetterman | 38.7% | 8 |
-| James E. Banks | 37.7% | 8 |
-| Josh Gottheimer | 37.5% | 937 |
-| Kelly Louise Morrison | 37.4% | 13 |
-| Tim Moore | 36.8% | 121 |
-| Harold Dallas Rogers | 36.5% | 7 |
-| Thomas H Tuberville | 35.4% | 380 |
-| Earl Blumenauer | 34.4% | 144 |
-| Steve Cohen | 34.1% | 15 |
-| James French Hill | 33.0% | 10 |
+| Virginia Foxx | 45.9% | 365 |
+| Angus S King, Jr. | 45.8% | 34 |
+| Raúl M. Grijalva | 45.7% | 6 |
+| Markwayne Mullin | 45.2% | 265 |
+| James M Inhofe | 43.1% | 46 |
+| Cindy Axne | 41.5% | 62 |
+| Greg Steube | 41.4% | 2 |
+| Mo Brooks | 41.0% | 14 |
+| William R. Keating | 40.9% | 82 |
+| Josh Gottheimer | 40.8% | 996 |
+| William Cassidy | 40.1% | 67 |
+| Rafael E Cruz | 39.9% | 2 |
+| Gilbert Cisneros | 39.8% | 1082 |
+| John Fetterman | 38.5% | 8 |
+| James E. Banks | 37.5% | 8 |
+| Tim Moore | 37.2% | 121 |
+| Kelly Louise Morrison | 37.1% | 13 |
+| Harold Dallas Rogers | 36.4% | 7 |
+| Thomas H Tuberville | 35.2% | 387 |
+| Steve Cohen | 34.2% | 15 |
+| James French Hill | 31.9% | 11 |
 | John N Kennedy | 31.6% | 1 |
-| Ashley Hinson Arenholz | 31.1% | 2 |
-| Kathy Manning | 31.0% | 150 |
+| Ashley Hinson Arenholz | 31.4% | 2 |
+| Kathy Manning | 30.9% | 151 |
 | Charles J. Chuck Fleischmann | 30.6% | 47 |
-| Robert E. Latta | 30.5% | 18 |
-| Daniel Goldman | 30.3% | 344 |
-| Rob Bresnahan | 29.4% | 185 |
-| Julia Letlow | 29.1% | 133 |
-| William R. Timmons | 29.0% | 4 |
-| Roger Williams | 28.4% | 9 |
-| Joe Courtney | 27.7% | 40 |
-| Rohit Khanna | 27.5% | 117 |
-| Laurel Lee | 27.2% | 5 |
-| Donald Sternoff Beyer | 26.2% | 184 |
-| Sara Jacobs | 25.5% | 4 |
-| David Trone | 24.7% | 14 |
-| Richard Dean McCormick | 22.9% | 57 |
+| Robert E. Latta | 30.4% | 18 |
+| Daniel Goldman | 30.4% | 344 |
+| Roger Williams | 28.6% | 9 |
+| William R. Timmons | 28.5% | 4 |
+| Rob Bresnahan | 28.5% | 203 |
+| Julia Letlow | 27.9% | 152 |
+| Rohit Khanna | 27.6% | 117 |
+| Joe Courtney | 26.8% | 41 |
+| Donald Sternoff Beyer | 25.9% | 186 |
+| David Trone | 24.6% | 14 |
+| Peter Allen Stauber | 24.5% | 1 |
+| Sara Jacobs | 24.5% | 4 |
 | John Cornyn | 22.3% | 1 |
-| Patrick Fallon | 22.1% | 22 |
-| Jonathan Jackson | 21.6% | 100 |
-| Peter Allen Stauber | 21.4% | 1 |
+| Richard Dean McCormick | 22.3% | 58 |
+| Patrick Fallon | 22.0% | 22 |
+| Jonathan Jackson | 21.3% | 102 |
 | Mikie Sherrill | 20.1% | 22 |
-| Jared Moskowitz | 20.0% | 216 |
-| Suzan K. DelBene | 19.1% | 15 |
-| Fred Upton | 18.9% | 4 |
-| James R. Langevin | 18.5% | 78 |
-| Kathy Castor | 17.3% | 3 |
-| Maria Elvira Salazar | 16.3% | 46 |
-| Byron Donalds | 16.2% | 41 |
-| Katherine M. Clark | 15.5% | 45 |
-| Jefferson Shreve | 15.5% | 139 |
-| Thomas H. Kean | 15.3% | 57 |
-| Rick Larsen | 15.3% | 37 |
-| Cleo Fields | 15.2% | 172 |
-| Cynthia M Lummis | 15.1% | 1 |
-| Julie Johnson | 13.7% | 62 |
-| Ed Case | 13.2% | 11 |
+| Jared Moskowitz | 19.9% | 216 |
+| Fred Upton | 18.7% | 4 |
+| Kathy Castor | 18.3% | 3 |
+| James R. Langevin | 18.0% | 81 |
+| Maria Elvira Salazar | 16.5% | 46 |
+| Thomas H. Kean | 16.4% | 60 |
+| Cynthia M Lummis | 16.2% | 1 |
+| Byron Donalds | 16.0% | 41 |
+| Katherine M. Clark | 15.6% | 50 |
+| Jefferson Shreve | 15.5% | 141 |
+| Julie Johnson | 14.2% | 67 |
+| Cleo Fields | 14.0% | 176 |
+| Rick Larsen | 14.0% | 38 |
+| Laurel Lee | 13.1% | 7 |
 | Roy Blunt | 12.6% | 1 |
+| Ed Case | 11.7% | 11 |
 | John Boozman | 10.8% | 215 |
-| Cliff Bentz | 10.4% | 2 |
+| Cliff Bentz | 9.9% | 2 |
 | Kim Schrier | 9.8% | 2 |
-| Ritchie John Torres | 7.4% | 53 |
-| C. Scott Franklin | 6.7% | 35 |
-| David J. Taylor | 6.1% | 95 |
-| Lisa McClain | 6.0% | 704 |
+| Sheri Biggs | 8.6% | 50 |
+| Ritchie John Torres | 8.6% | 67 |
+| C. Scott Franklin | 6.6% | 35 |
+| David J. Taylor | 6.0% | 95 |
+| Lisa McClain | 5.9% | 705 |
+| Bruce Westerman | 5.7% | 81 |
 | John James | 5.6% | 119 |
-| Bruce Westerman | 5.6% | 78 |
-| August Lee Pfluger | 5.3% | 7 |
 | Scott Scott Franklin | 4.9% | 40 |
-| Lindsey Graham | 4.7% | 7 |
-| Michael Garcia | 2.0% | 17 |
-| Zoe Lofgren | 2.0% | 111 |
-| Patty Murray | 1.9% | 50 |
+| August Lee Pfluger | 4.8% | 7 |
+| Lindsey Graham | 4.8% | 7 |
+| Kenneth R. Buck | 2.7% | 13 |
+| Zoe Lofgren | 2.3% | 112 |
+| Michael Garcia | 2.2% | 17 |
 | Greg Landsman | 1.7% | 53 |
-| Valerie Hoyle | 1.6% | 189 |
+| Valerie Hoyle | 1.5% | 189 |
+| Patty Murray | 1.5% | 53 |
 | Doug Lamborn | 1.4% | 34 |
-| Katie Britt | 1.4% | 16 |
-| Daniel Crenshaw | 1.3% | 11 |
+| Daniel Crenshaw | 1.2% | 11 |
+| Katie Britt | 1.0% | 16 |
 | Abigail Spanberger | 1.0% | 2 |
-| Marie Newman | 0.9% | 127 |
-| Greg Stanton | 0.2% | 90 |
-| Tim Walberg | 0.0% | 13 |
+| Marie Newman | 0.8% | 127 |
+| Greg Stanton | 0.3% | 90 |
+| Tim Walberg | 0.1% | 13 |
 | Judy Chu | 0.0% | 1 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | Harley E. Rouda | 0.0% | 1 |
 | Tom Rice | 0.0% | 1 |
-| Sheri Biggs | -0.5% | 43 |
-| Michael C. Burgess | -1.1% | 34 |
-| April McClain Delaney | -1.4% | 160 |
-| Justin Amash | -2.3% | 2 |
+| Michael C. Burgess | -1.2% | 34 |
+| April McClain Delaney | -1.3% | 161 |
 | Anthony E. Gonzalez | -2.8% | 3 |
-| Chip Roy | -4.1% | 2 |
-| Elaine Luria | -4.9% | 3 |
-| John W Hickenlooper | -5.5% | 30 |
-| William F Hagerty, IV | -7.7% | 1 |
-| John McGuire | -10.2% | 10 |
+| Chip Roy | -4.3% | 2 |
+| Elaine Luria | -5.0% | 3 |
+| John W Hickenlooper | -7.2% | 31 |
+| William F Hagerty, IV | -7.9% | 1 |
+| John McGuire | -10.5% | 10 |
 | Ron Estes | -10.9% | 5 |
 | James E Banks | -11.2% | 16 |
 | Tom Malinowski | -14.7% | 27 |
 | Austin Scott | -15.9% | 32 |
-| David H McCormick | -32.7% | 24 |
+| David H McCormick | -32.9% | 24 |
 | Felix Barry Moore | -42.1% | 5 |
-| Brandon Gill | -48.4% | 2 |
+| Brandon Gill | -48.5% | 2 |
 | Brian Mast | -58.2% | 3 |
 | Tom Cole | -88.6% | 1 |
 
