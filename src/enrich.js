@@ -68,10 +68,38 @@ export function normName(s) {
     .trim();
 }
 
-function shortCommittee(name) {
+export function shortCommittee(name) {
   return String(name || '')
     .replace(/^(house|senate|joint)\s+(permanent\s+select\s+|select\s+|special\s+)?committee\s+on\s+(the\s+)?/i, '')
     .trim();
+}
+
+// Build the lookup index { byBioguide, byName, lastSeen } from a committees list
+// (array, like committees-current) + a membership map (committeeId -> members[]).
+// Shared by the current (JSON) and historical (YAML-per-Congress) paths.
+export function buildCommitteeIndex(committees, membership) {
+  const idToName = new Map((committees || []).map((c) => [c.thomas_id, shortCommittee(c.name)]));
+  const byBioguide = new Map();
+  const byName = new Map();
+  const lastSeen = new Map();
+  for (const [committeeId, members] of Object.entries(membership || {})) {
+    if (!idToName.has(committeeId)) continue; // skip subcommittee codes
+    const cname = idToName.get(committeeId);
+    for (const m of members || []) {
+      const add = (map, key) => {
+        if (!key) return;
+        if (!map.has(key)) map.set(key, new Set());
+        map.get(key).add(cname);
+      };
+      add(byBioguide, m.bioguide);
+      const nn = normName(m.name);
+      add(byName, nn);
+      const last = nn.split(' ').slice(-1)[0];
+      if (!lastSeen.has(last)) lastSeen.set(last, new Set());
+      lastSeen.get(last).add(nn);
+    }
+  }
+  return { byBioguide, byName, lastSeen };
 }
 
 let committeePromise = null;
@@ -83,28 +111,7 @@ export async function getCommitteeIndex() {
       fetch(`${base}/committees-current.json`).then((r) => r.json()),
       fetch(`${base}/committee-membership-current.json`).then((r) => r.json()),
     ]);
-    const idToName = new Map(committees.map((c) => [c.thomas_id, shortCommittee(c.name)]));
-    const byBioguide = new Map();
-    const byName = new Map();
-    const lastSeen = new Map();
-    for (const [committeeId, members] of Object.entries(membership)) {
-      if (!idToName.has(committeeId)) continue; // skip subcommittee codes
-      const cname = idToName.get(committeeId);
-      for (const m of members) {
-        const add = (map, key) => {
-          if (!key) return;
-          if (!map.has(key)) map.set(key, new Set());
-          map.get(key).add(cname);
-        };
-        add(byBioguide, m.bioguide);
-        const nn = normName(m.name);
-        add(byName, nn);
-        const last = nn.split(' ').slice(-1)[0];
-        if (!lastSeen.has(last)) lastSeen.set(last, new Set());
-        lastSeen.get(last).add(nn);
-      }
-    }
-    return { byBioguide, byName, lastSeen };
+    return buildCommitteeIndex(committees, membership);
   })().catch((err) => {
     console.error(`[enrich] committee data failed: ${err.message}`);
     return null;

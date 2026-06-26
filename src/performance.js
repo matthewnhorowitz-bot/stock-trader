@@ -15,7 +15,8 @@ import { config } from './config.js';
 import { readState, writeState, writeText } from './stateStore.js';
 import { priceClose, priceLatest, savePriceCache, fetchesUsed } from './priceCache.js';
 import { getDepartures } from './legislators.js';
-import { getCommitteeIndex, committeesFor, getProfiles, profile, overlapsFor } from './enrich.js';
+import { committeesFor, getProfiles, profile, overlapsFor } from './enrich.js';
+import { getHistoricalCommittees } from './committeesHistorical.js';
 
 const BENCH = 'SPY';
 
@@ -219,12 +220,12 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   await savePriceCache();
 
   // Committee-overlap flag per position (feeds the index's committee-relevance factor):
-  // 1 = the stock's sector overlaps one of the member's (current-day) committees, 0 = no,
-  // absent = sector not warmed yet. Sectors come from FMP, bounded per run to respect the
-  // free 250/day cap, so this fills in over ~1-2 days; committees are current-only.
+  // 1 = the stock's sector overlaps a committee the member held IN THAT CONGRESS, 0 = no,
+  // absent = sector not warmed yet. Committees are period-accurate (per-Congress snapshots);
+  // sectors come from FMP, bounded per run (free 250/day cap) so they fill in over ~1-2 days.
   if (config.enrich) {
     try {
-      const committeeIdx = await getCommitteeIndex();
+      const hist = await getHistoricalCommittees();
       let sectors = await readState('sectors.json', {});
       const SECTOR_MAX = Number(process.env.SECTOR_MAX || 40);
       if (config.providers.fmpKey && SECTOR_MAX > 0) {
@@ -237,8 +238,9 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
       for (const p of priced) {
         const prof = profile(sectors[p.ticker]);
         if (!prof.s && !prof.i) continue; // sector unknown -> leave ov absent
-        if (!committeeIdx) continue;
-        const committees = committeesFor(committeeIdx, { chamber: p.chamber, politician: p.member, bioguide: '' });
+        const idx = hist.indexForYear(Number((p.entry || '').slice(0, 4))); // committees as of the trade's Congress
+        if (!idx) continue;
+        const committees = committeesFor(idx, { chamber: p.chamber, politician: p.member, bioguide: '' });
         p.ov = overlapsFor(committees, `${prof.s} ${prof.i}`.toLowerCase()).length ? 1 : 0;
       }
     } catch (e) {
