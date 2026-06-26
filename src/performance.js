@@ -14,6 +14,8 @@ import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
 import { readState, writeState, writeText } from './stateStore.js';
 import { priceClose, priceLatest, savePriceCache, fetchesUsed } from './priceCache.js';
+import { getDepartures } from './legislators.js';
+import { getCommitteeIndex, committeesFor, getProfiles, profile, overlapsFor } from './enrich.js';
 
 const BENCH = 'SPY';
 
@@ -141,6 +143,34 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   const trades = await loadTrades();
   const positions = buildPositions(trades);
 
+  // Force-close open positions of members who have LEFT office: you stop copying a
+  // member when they leave, so sell at their last day served (otherwise an unsold
+  // trade is marked to market forever). Departed members are matched by name.
+  const dep = await getDepartures().catch((e) => {
+    console.error(`[perf] departures unavailable: ${e.message}`);
+    return { departureDate: () => null };
+  });
+  // Each member's most recent trade — if they kept trading AFTER their supposed
+  // departure date, they're clearly still active (stale/odd congress-legislators
+  // record, e.g. a House->Senate move), so don't force-close them.
+  const lastActivity = new Map();
+  for (const p of positions) {
+    const cur = lastActivity.get(p.member);
+    if (!cur || p.entry > cur) lastActivity.set(p.member, p.entry);
+  }
+  let forcedClosed = 0;
+  for (const p of positions) {
+    if (p.closed) continue;
+    const d = dep.departureDate(p.member);
+    if (d && d > p.entry && d >= (lastActivity.get(p.member) || '')) {
+      p.exit = d;
+      p.closed = true;
+      p.departed = true;
+      forcedClosed++;
+    }
+  }
+  console.log(`[perf] force-closed ${forcedClosed} open position(s) of departed members`);
+
   // Price each position (copyable return) + SPY over the same window. Fetches are
   // lazy + bounded inside priceCache; SPY is pre-warmed so the benchmark resolves.
   // Price RECENT positions first so the limited daily fetch budget reaches 2022+
@@ -187,6 +217,34 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
     spyClose.push(px == null ? null : Math.round(px * 100) / 100);
   }
   await savePriceCache();
+
+  // Committee-overlap flag per position (feeds the index's committee-relevance factor):
+  // 1 = the stock's sector overlaps one of the member's (current-day) committees, 0 = no,
+  // absent = sector not warmed yet. Sectors come from FMP, bounded per run to respect the
+  // free 250/day cap, so this fills in over ~1-2 days; committees are current-only.
+  if (config.enrich) {
+    try {
+      const committeeIdx = await getCommitteeIndex();
+      let sectors = await readState('sectors.json', {});
+      const SECTOR_MAX = Number(process.env.SECTOR_MAX || 40);
+      if (config.providers.fmpKey && SECTOR_MAX > 0) {
+        const need = [...new Set(priced.map((p) => p.ticker))].filter((t) => t && !(t in sectors)).slice(0, SECTOR_MAX);
+        if (need.length) {
+          await getProfiles(need); // fetches + persists data/sectors.json
+          sectors = await readState('sectors.json', {});
+        }
+      }
+      for (const p of priced) {
+        const prof = profile(sectors[p.ticker]);
+        if (!prof.s && !prof.i) continue; // sector unknown -> leave ov absent
+        if (!committeeIdx) continue;
+        const committees = committeesFor(committeeIdx, { chamber: p.chamber, politician: p.member, bioguide: '' });
+        p.ov = overlapsFor(committees, `${prof.s} ${prof.i}`.toLowerCase()).length ? 1 : 0;
+      }
+    } catch (e) {
+      console.error(`[perf] committee enrichment skipped: ${e.message}`);
+    }
+  }
 
   // Aggregate per member + total.
   const byMember = new Map();
@@ -237,6 +295,8 @@ async function writePositions(priced, boundaries, spyClose) {
     amountLow: p.amountLow || 0,
     amountHigh: p.amountHigh || 0,
     marks: p.marks || [], // [[boundaryIndex, growthVsEntry], ...]
+    ...(p.ov === undefined ? {} : { ov: p.ov }), // committee-sector overlap: 1/0
+    ...(p.departed ? { departed: 1 } : {}), // closed because the member left office
   }));
   const out = { generatedAt: new Date().toISOString(), boundaries, spy: spyClose, positions: rows };
   const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');

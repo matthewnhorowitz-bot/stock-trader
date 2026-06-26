@@ -265,6 +265,19 @@ function periodLabel(startMi, periodMonths) {
 const CI_RET_CAP = 1.5; // +150% per period
 const CI_RET_FLOOR = -0.95; // -95% per period
 
+// Min-max normalize each factor across the candidate pool to [0,1] so the weights are
+// comparable, then Score = wA·alpha + wC·cons + wK·comm. Mutates each candidate (.score).
+function scoreCandidates(cands, wA, wC, wK) {
+  if (!cands.length) return;
+  const norm = (key) => {
+    const vs = cands.map((c) => c[key]);
+    const lo = Math.min(...vs), hi = Math.max(...vs), d = hi - lo;
+    return (x) => (d ? (x - lo) / d : 0.5);
+  };
+  const nA = norm('alpha'), nC = norm('cons'), nK = norm('comm');
+  for (const c of cands) c.score = wA * nA(c.alpha) + wC * nC(c.cons) + wK * nK(c.comm);
+}
+
 // Rules-based, periodically-rebalanced index, measured MARK-TO-MARKET between rebalance
 // dates (so returns are non-overlapping and chaining is legitimate — unlike attributing
 // each trade's full multi-year return to its entry period and compounding that).
@@ -272,12 +285,14 @@ const CI_RET_FLOOR = -0.95; // -95% per period
 // years (>= `minTrades` trades), then the period's return = weighted price change of that
 // roster's positions held during the period. periodMonths = 12 (annual) or 6 (semi-annual);
 // boundaries are emitted semi-annually so annual just steps every 2nd boundary.
-function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12, minSize = 0, chamber = 'all' }) {
+function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12, minSize = 0, chamber = 'all', wAlpha = 0.5, wCons = 0.3, wComm = 0.2 }) {
   if (!POSITIONS.length || !BOUNDARIES.length) return [];
   const step = Math.max(1, Math.round(periodMonths / 6)); // boundaries per period: 1 (6mo) or 2 (annual)
   const lookbackMonths = lookback * 12;
   const minTrades = Math.max(1, Math.ceil(minPerMonth * lookbackMonths)); // ">=1/month" => 24 over a 2yr lookback
-  const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1;
+  const isScore = weighting === 'score'; // multi-factor: select + weight members by Score
+  const wfn = weighting === 'amount' ? (p) => p.amountLow || 1 : () => 1; // amount/equal modes
+  const subWfn = (p) => p.amountLow || 1; // within-member conviction weight in score mode
   let pos = POSITIONS.filter((p) => (p.entryDate || '') >= '2012'); // STOCK Act era
   if (chamber !== 'all') pos = pos.filter((p) => p.chamber === chamber); // chamber tilt
   if (minSize) pos = pos.filter((p) => (p.amountLow || 0) >= minSize); // conviction floor
@@ -315,12 +330,36 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
         if (!byM.has(p.member)) byM.set(p.member, []);
         byM.get(p.member).push(p);
       }
-    const roster = [...byM.entries()]
-      .filter(([, ps]) => ps.length >= minTrades)
-      .map(([member, ps]) => ({ member, ret: wmean(ps, (p) => p.ret, wfn), n: ps.length }))
-      .filter((x) => x.ret != null)
-      .sort((a, b) => b.ret - a.ret)
-      .slice(0, n);
+    const cands = [...byM.entries()].filter(([, ps]) => ps.length >= minTrades);
+    let roster, memberWeight = null;
+    if (isScore) {
+      // Multi-factor Score per member over their lookback trades:
+      //   Score = wAlpha·Alpha + wCons·Consistency + wComm·CommitteeRelevance
+      // Alpha = mean(ret − spyRet); Consistency = win rate vs S&P; Committee = share of
+      // trades whose stock's sector overlaps a committee (ov flag). Each factor is min-max
+      // normalized across the candidate pool so the weights are comparable.
+      const scored = cands.map(([member, ps]) => {
+        const alpha = ps.reduce((a, p) => a + ((p.ret || 0) - (p.spyRet || 0)), 0) / ps.length;
+        let wins = 0, wn = 0;
+        for (const p of ps) if (p.ret != null && p.spyRet != null) { wn++; if (p.ret > p.spyRet) wins++; }
+        const cons = wn ? wins / wn : 0;
+        let ovSum = 0, ovN = 0;
+        for (const p of ps) if (p.ov === 0 || p.ov === 1) { ovN++; ovSum += p.ov; }
+        const comm = ovN ? ovSum / ovN : 0;
+        return { member, alpha, cons, comm, n: ps.length };
+      });
+      scoreCandidates(scored, wAlpha, wCons, wComm); // adds .score
+      roster = scored.sort((a, b) => b.score - a.score).slice(0, n);
+      const maxS = Math.max(0, ...roster.map((x) => x.score));
+      memberWeight = new Map(roster.map((x) => [x.member, maxS > 0 ? x.score : 1])); // fallback equal
+      for (const x of roster) x.ret = x.alpha; // chip tooltip shows alpha as the headline factor
+    } else {
+      roster = cands
+        .map(([member, ps]) => ({ member, ret: wmean(ps, (p) => p.ret, wfn), n: ps.length }))
+        .filter((x) => x.ret != null)
+        .sort((a, b) => b.ret - a.ret)
+        .slice(0, n);
+    }
     const names = new Set(roster.map((x) => x.member));
     const startD = BOUNDARIES[bStart], endD = BOUNDARIES[bEnd];
     // held = rostered members' positions overlapping [startD, endD); their mark-to-market
@@ -337,10 +376,10 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
       else if (r < CI_RET_FLOOR) r = CI_RET_FLOOR;
       held.push({ p, r });
     }
-    const ret = held.length ? wmean(held, (h) => h.r, (h) => wfn(h.p)) : null;
     // Each roster member's ACTUAL return during this period (what they contributed),
     // so the chips reconcile with the period total — distinct from x.ret, the trailing
-    // selection return. null = member held nothing this period (inactive).
+    // selection metric. null = member held nothing this period (inactive).
+    const pw = isScore ? subWfn : wfn; // within-member position weighting
     const heldByMember = new Map();
     for (const h of held) {
       if (!heldByMember.has(h.p.member)) heldByMember.set(h.p.member, []);
@@ -348,7 +387,24 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
     }
     for (const x of roster) {
       const hs = heldByMember.get(x.member);
-      x.pret = hs && hs.length ? wmean(hs, (h) => h.r, (h) => wfn(h.p)) : null;
+      x.pret = hs && hs.length ? wmean(hs, (h) => h.r, (h) => pw(h.p)) : null;
+    }
+    // Period return: score mode weights each member by their Score; else weight positions
+    // directly by amount/equal.
+    let ret;
+    if (isScore) {
+      let sw = 0, s = 0;
+      for (const [m, hs] of heldByMember) {
+        const w = memberWeight.get(m) || 0;
+        if (w <= 0) continue;
+        const r = wmean(hs, (h) => h.r, (h) => subWfn(h.p));
+        if (r == null) continue;
+        s += w * r;
+        sw += w;
+      }
+      ret = sw ? s / sw : null;
+    } else {
+      ret = held.length ? wmean(held, (h) => h.r, (h) => wfn(h.p)) : null;
     }
     const sp0 = SPYCLOSE[bStart], sp1 = SPYCLOSE[bEnd];
     const spyRet = sp0 && sp1 ? sp1 / sp0 - 1 : null;
@@ -436,7 +492,13 @@ function renderCongressIndex() {
   const minSize = Math.max(0, Number($('ciMinSize').value || 0));
   const chamber = $('ciChamber').value;
   const showStats = $('ciStats').checked;
-  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths, minSize, chamber }).filter((r) => r.ret != null);
+  const wAlpha = Math.max(0, Number($('ciWAlpha').value || 0));
+  const wCons = Math.max(0, Number($('ciWCons').value || 0));
+  const wComm = Math.max(0, Number($('ciWComm').value || 0));
+  // show/hide the factor-weight controls in score mode
+  const fw = document.getElementById('ciFactorWeights');
+  if (fw) fw.style.display = weighting === 'score' ? '' : 'none';
+  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths, minSize, chamber, wAlpha, wCons, wComm }).filter((r) => r.ret != null);
   const el = $('ci');
   if (rows.length < 1) {
     el.innerHTML = '<div class="note">Not enough data for these settings — try fewer min trades or members.</div>';
@@ -484,14 +546,23 @@ function renderCongressIndex() {
             .map((x, i) => {
               const cls = x.pret == null ? '' : x.pret >= 0 ? 'pos' : 'neg';
               const val = x.pret == null ? '<span style="color:var(--muted)">— idle</span>' : `<span class="${cls}">${fmtPct(x.pret)}</span>`;
-              const tip = `${x.member} — this period ${x.pret == null ? 'held nothing' : fmtPct(x.pret)}; picked on +${fmtPct(x.ret)} trailing 2yr; click to backtest`;
+              const why =
+                weighting === 'score' && x.score != null
+                  ? `Score ${x.score.toFixed(2)} (alpha ${fmtPct(x.alpha)} · win ${(x.cons * 100).toFixed(0)}% · committee ${(x.comm * 100).toFixed(0)}%)`
+                  : `picked on ${fmtPct(x.ret)} trailing return`;
+              const tip = `${x.member} — this period ${x.pret == null ? 'held nothing' : fmtPct(x.pret)}; ${why}; click to backtest`;
               return `<button type="button" class="rchip" data-member="${esc(x.member)}" title="${esc(tip)}">${i + 1}. ${esc(x.member)} ${val}</button>`;
             })
             .join('')}
         </div></details>`
       )
       .join('')}
-    <div class="note">Each member chip shows that member's return <i>during that period</i> (so they sum to the period total) — not the trailing record they were picked on (hover a chip to see both). Click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates (each period counts only the price change earned during that period, so nothing is double-counted), vs the real S&P over the same dates. Per-period moves are capped at ±~150% to limit junk-ticker outliers.</div>`;
+    ${
+      weighting === 'score'
+        ? `<div class="note"><b>Multi-factor weighting:</b> each member's index weight = Score = ${wAlpha}·Alpha + ${wCons}·Consistency + ${wComm}·Committee, where Alpha = trailing return above the S&P, Consistency = win rate vs the S&P, and Committee = share of their trades whose sector overlaps a committee they sit on. Each factor is normalized across the roster. Committee data is current-day &amp; fills in as sector data warms (it may read ~0 early).</div>`
+        : ''
+    }
+    <div class="note">Each member chip shows that member's return <i>during that period</i> (so they sum to the period total) — hover for why they were picked. Click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates, vs the real S&P over the same dates; per-period moves are capped at ±~150%. When a member leaves office their unsold positions are closed at the price on their last day served (not marked to market forever).</div>`;
 }
 
 // Load a roster (or a single member) into the member backtester above, run it,
@@ -535,7 +606,7 @@ $('chips').onclick = (e) => {
 $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('lbChamber').onchange = renderLeaderboard;
-['ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats', 'ciMinSize', 'ciChamber'].forEach((id) => {
+['ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats', 'ciMinSize', 'ciChamber', 'ciWAlpha', 'ciWCons', 'ciWComm'].forEach((id) => {
   const el = $(id);
   el.oninput = renderCongressIndex;
   el.onchange = renderCongressIndex;

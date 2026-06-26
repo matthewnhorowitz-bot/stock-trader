@@ -59,7 +59,7 @@ const COMMITTEE_RULES = [
   [['economic'], ['etf', 'index']],
 ];
 
-function normName(s) {
+export function normName(s) {
   return String(s || '')
     .toLowerCase()
     .replace(/[.,]/g, '')
@@ -75,7 +75,7 @@ function shortCommittee(name) {
 }
 
 let committeePromise = null;
-async function getCommitteeIndex() {
+export async function getCommitteeIndex() {
   if (committeePromise) return committeePromise;
   committeePromise = (async () => {
     const base = 'https://unitedstates.github.io/congress-legislators';
@@ -112,7 +112,7 @@ async function getCommitteeIndex() {
   return committeePromise;
 }
 
-function committeesFor(idx, trade) {
+export function committeesFor(idx, trade) {
   if (!idx) return [];
   if (trade.chamber === 'senate' && trade.bioguide && idx.byBioguide.has(trade.bioguide)) {
     return [...idx.byBioguide.get(trade.bioguide)];
@@ -149,7 +149,7 @@ export function overlapsFor(committees, sectorIndustryLower) {
   return hits;
 }
 
-async function getProfiles(tickers) {
+export async function getProfiles(tickers) {
   const cache = await readState(SECTOR_CACHE, {});
   const unknown = [...new Set(tickers.filter((t) => t && !(t in cache)))];
   let changed = false;
@@ -177,7 +177,7 @@ async function getProfiles(tickers) {
 }
 
 // Normalize a cache entry (older caches stored a plain sector string).
-function profile(entry) {
+export function profile(entry) {
   if (!entry) return { s: '', i: '' };
   return typeof entry === 'string' ? { s: entry, i: '' } : entry;
 }
