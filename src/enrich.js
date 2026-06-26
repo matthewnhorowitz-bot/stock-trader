@@ -158,18 +158,14 @@ export async function getProfiles(tickers) {
       const r = await fetch(
         `https://financialmodelingprep.com/stable/profile?symbol=${encodeURIComponent(sym)}&apikey=${config.providers.fmpKey}`
       );
-      if (!r.ok) {
-        cache[sym] = { s: '', i: '' };
-        changed = true;
-        continue;
-      }
+      if (!r.ok) continue; // transient (429 over the daily cap / 5xx) — DON'T tombstone, retry next run
       const j = await r.json();
       const row = Array.isArray(j) ? j[0] : j;
+      // Only cache on a real 200 response (empty sector = genuine no-data, e.g. an ETF).
       cache[sym] = { s: (row && row.sector) || '', i: (row && row.industry) || '' };
       changed = true;
     } catch {
-      cache[sym] = { s: '', i: '' };
-      changed = true;
+      // network error — transient, leave unknown so it retries next run
     }
   }
   if (changed) await writeState(SECTOR_CACHE, cache);
