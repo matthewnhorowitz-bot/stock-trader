@@ -74,8 +74,9 @@ jobs:
 
       - name: Reprice + publish index
         env:
-          PERF_MAX_FETCHES: '800'
+          PERF_MAX_FETCHES: '3000' # Yahoo is free/no-quota — price the whole backlog in one pass
           PRICE_FROM: '2012-01-01'
+          SECTOR_MAX: '0' # no FMP calls (committee warming handled separately) — zero API spend
         run: |
           node src/performance.js || true
           git config user.name "github-actions[bot]"
