@@ -63,8 +63,12 @@ jobs:
             # done, so the trades must persist with it or they'd be skipped on resume).
             git add -f data/tracked_trades.json data/backfill_state.json
             if ! git diff --cached --quiet; then
+              if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
+                echo "::error::Conflict markers staged — aborting checkpoint"; exit 1
+              fi
               git commit -m "chore: house OCR burst checkpoint [skip ci]" || true
               git pull --rebase --autostash origin main || true
+              git checkout -f -- . 2>/dev/null || true
               git push || true
             fi
             if [ "$before" = "$after" ]; then nochg=$((nochg + 1)); else nochg=0; fi
@@ -87,7 +91,11 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to publish."
           else
+            if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
+              echo "::error::Conflict markers staged — refusing to publish corrupted index"; exit 1
+            fi
             git commit -m "chore: house OCR burst reprice [skip ci]" || true
             git pull --rebase --autostash origin main || true
+            git checkout -f -- . 2>/dev/null || true
             git push || true
           fi

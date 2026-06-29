@@ -98,5 +98,10 @@ jobs:
             # push isn't rejected as non-fast-forward (it's why a run occasionally
             # failed at the persist step). --autostash is belt-and-suspenders.
             git pull --rebase --autostash origin main || true
+            # A stash-pop conflict from the pull above can leave conflict markers in
+            # the working tree. The commit already captured the clean state we want,
+            # so discard any leftover tracked-file changes before pushing — otherwise
+            # a later run could stage the markers and corrupt docs/positions.json.
+            git checkout -f -- . 2>/dev/null || true
             git push
           fi

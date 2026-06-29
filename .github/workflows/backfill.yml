@@ -64,6 +64,13 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new backfill data."
           else
+            # Guard: a prior `pull --rebase --autostash` can leave stash-pop conflict
+            # markers in the generated files, which `git add -f` above would stage.
+            # Never commit those — they corrupt positions.json and break the site.
+            # Fail loudly instead; the next scheduled run retries from a clean tree.
+            if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
+              echo "::error::Conflict markers in staged files — aborting to avoid corrupting state"; exit 1
+            fi
             git commit -m "chore: backfill batch [skip ci]"
             git push
           fi
