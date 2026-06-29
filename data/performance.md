@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-29 21:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-29 21:12 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 61.3%**
 - S&P 500 (SPY) over the same windows: 55.4%
-- Priced positions: 22594  ·  still open: 10479  ·  awaiting price data: 3603
+- Priced positions: 22597  ·  still open: 10482  ·  awaiting price data: 3603
 
 ## By member (average return, # positions)
 
@@ -33,14 +33,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Raul Ruiz | 208.1% | 1 |
 | Michael T. McCaul | 207.6% | 99 |
 | Richard L. Hanna | 207.1% | 82 |
-| Susan M Collins | 205.9% | 146 |
+| Susan M Collins | 206.0% | 146 |
 | Pete Sessions | 194.2% | 167 |
 | Rubén Hinojosa | 187.9% | 28 |
 | Gary C. Peters | 183.9% | 7 |
 | Neal P. Dunn | 181.3% | 2 |
 | Warren Davidson | 171.9% | 2 |
 | Seth Moulton | 167.2% | 1 |
-| Daniel Meuser | 163.2% | 8 |
+| Daniel Meuser | 163.1% | 8 |
 | Gary Palmer | 161.6% | 163 |
 | Debbie Dingell | 155.8% | 85 |
 | Deborah K. Ross | 146.8% | 18 |
@@ -63,7 +63,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | A. Mitchell McConnell, Jr. | 98.5% | 35 |
 | K. Michael Conaway | 96.8% | 266 |
 | Michael K. Simpson | 93.3% | 25 |
-| Suzan K. DelBene | 92.4% | 59 |
+| Suzan K. DelBene | 92.5% | 59 |
 | Hakeem S. Jeffries | 89.0% | 7 |
 | David P. Joyce | 88.1% | 72 |
 | Stephen F. Lynch | 88.0% | 1 |
@@ -153,7 +153,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Elizabeth Fletcher | 26.4% | 19 |
 | Charles J. Chuck Fleischmann | 25.7% | 57 |
 | Kathy Manning | 25.2% | 270 |
-| Richard Dean McCormick | 24.3% | 66 |
+| Richard Dean McCormick | 24.4% | 66 |
 | Thomas H. Kean | 24.3% | 67 |
 | Kelly Loeffler | 23.5% | 89 |
 | Ashley Hinson Arenholz | 22.9% | 4 |
@@ -174,15 +174,15 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 17.2% | 79 |
 | Byron Donalds | 16.8% | 42 |
 | Gerald E. Connolly | 16.8% | 25 |
-| Cleo Fields | 16.3% | 176 |
+| Cleo Fields | 16.1% | 179 |
 | Cynthia M Lummis | 16.0% | 1 |
 | Francis Rooney | 15.1% | 19 |
 | Jefferson Shreve | 14.7% | 173 |
 | Ed Case | 14.3% | 11 |
 | Adam Kinzinger | 14.3% | 15 |
 | Rick Larsen | 14.1% | 40 |
-| Roger Williams | 13.8% | 12 |
 | Thomas J. Rooney | 13.8% | 203 |
+| Roger Williams | 13.8% | 12 |
 | Mikie Sherrill | 13.8% | 37 |
 | Nicholas Van Taylor | 13.6% | 39 |
 | Zoe Lofgren | 13.1% | 149 |
@@ -191,7 +191,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Frank A. LoBiondo | 12.2% | 8 |
 | Peter Meijer | 11.9% | 17 |
 | Brad Ashford | 11.7% | 4 |
-| John Boozman | 11.4% | 215 |
+| John Boozman | 11.5% | 215 |
 | Laurel Lee | 11.4% | 7 |
 | David P. Roe | 11.2% | 13 |
 | Cliff Bentz | 11.0% | 2 |
