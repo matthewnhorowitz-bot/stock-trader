@@ -484,11 +484,11 @@ function levelChart(pts) {
 
 function renderCongressIndex() {
   if (!POSITIONS.length) return;
-  const n = Math.max(1, Number($('ciN').value || 20));
+  const n = Math.max(1, Number($('ciN').value || 10));
   const minPerMonth = Math.max(0, Number($('ciMin').value || 1));
   const lookback = Math.max(1, Number($('ciLook').value || 2));
   const weighting = $('ciWeight').value;
-  const periodMonths = Number($('ciRebalance').value || 12);
+  const periodMonths = Number($('ciRebalance').value || 6);
   const minSize = Math.max(0, Number($('ciMinSize').value || 0));
   const chamber = $('ciChamber').value;
   const showStats = $('ciStats').checked;
