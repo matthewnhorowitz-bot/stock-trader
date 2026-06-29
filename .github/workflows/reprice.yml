@@ -62,11 +62,12 @@ jobs:
             echo "::error::Conflict markers staged — refusing to publish corrupted index"; exit 1
           fi
           git commit -m "chore: one-off reprice [skip ci]"
-          # performance.js also regenerates divergence.* (best-effort) as files we do
-          # NOT publish here. Left in place they block the rebase checkout below (the
-          # earlier run failed exactly this way). Reset/remove them so the tree is clean.
-          git checkout -- data/divergence.json data/divergence.md docs/divergence.json 2>/dev/null || true
-          rm -f data/divergence.json data/divergence.md docs/divergence.json 2>/dev/null || true
+          # performance.js also regenerates other artifacts (e.g. divergence.*) that we
+          # do NOT publish here. Any leftover tracked-file changes or untracked files
+          # make `git pull --rebase` refuse ("unstaged changes") and block the push.
+          # Our index files are already committed, so make the rest of the tree pristine.
+          git checkout -f -- . 2>/dev/null || true   # drop tracked modifications
+          git clean -fdq 2>/dev/null || true         # drop untracked regenerated files
           # Land our single reprice commit on top of whatever is on main now, retrying
           # the race window (a concurrent push, e.g. a manual commit, lands mid-run).
           # On any rebase conflict, abort + retry rather than leaving markers.
@@ -76,7 +77,7 @@ jobs:
             fi
             git rebase --abort 2>/dev/null || true
             git checkout -f -- . 2>/dev/null || true
-            rm -f data/divergence.json data/divergence.md docs/divergence.json 2>/dev/null || true
+            git clean -fdq 2>/dev/null || true
             sleep $((RANDOM % 8 + 4))
           done
           echo "::error::could not push after retries (concurrent writes); re-dispatch to retry"; exit 1
