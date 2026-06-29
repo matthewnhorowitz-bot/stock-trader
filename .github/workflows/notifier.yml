@@ -64,9 +64,15 @@ jobs:
 
       # Refresh the performance index. Prices come from Yahoo (free, no quota), so
       # warming new-trade tickers here no longer competes with the FMP-based poll.
+      # Also refreshes the Divergence (Hypocrisy) Score artifacts as a best-effort
+      # final step inside performance.js.
       - name: Refresh performance index
         env:
           PERF_MAX_FETCHES: '40'
+          DATA_PROVIDER: ${{ secrets.DATA_PROVIDER }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          VOTES_PROVIDER: ${{ secrets.VOTES_PROVIDER }}
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
         run: node src/performance.js || true
 
       - name: Persist dedup state back to the repo
@@ -87,6 +93,10 @@ jobs:
           git add -f data/performance.json 2>/dev/null || true
           git add -f data/performance.md 2>/dev/null || true
           git add -f docs/positions.json 2>/dev/null || true
+          git add -f data/divergence.json 2>/dev/null || true
+          git add -f data/divergence.md 2>/dev/null || true
+          git add -f docs/divergence.json 2>/dev/null || true
+          git add -f data/votes_cache.json 2>/dev/null || true
           git add -f data/price_cache.json 2>/dev/null || true
           git add -f data/tracked_trades.json 2>/dev/null || true
           git add -f data/backfill_state.json 2>/dev/null || true

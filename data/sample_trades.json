@@ -64,5 +64,27 @@
     "transactionDate": "2026-06-05",
     "disclosureDate": "2026-06-17",
     "source": "Sample Data"
+  },
+  {
+    "chamber": "senate",
+    "politician": "Tommy Tuberville",
+    "ticker": "XOM",
+    "asset": "Exxon Mobil Corporation",
+    "type": "buy",
+    "amount": { "low": 1000001, "high": 5000000, "raw": "$1,000,001 - $5,000,000" },
+    "transactionDate": "2026-05-22",
+    "disclosureDate": "2026-06-10",
+    "source": "Sample Data"
+  },
+  {
+    "chamber": "house",
+    "politician": "Dan Crenshaw",
+    "ticker": "LMT",
+    "asset": "Lockheed Martin Corporation",
+    "type": "buy",
+    "amount": { "low": 1001, "high": 15000, "raw": "$1,001 - $15,000" },
+    "transactionDate": "2026-05-29",
+    "disclosureDate": "2026-06-13",
+    "source": "Sample Data"
   }
 ]

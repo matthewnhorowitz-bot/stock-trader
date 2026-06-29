@@ -12,10 +12,11 @@ import { normName } from './enrich.js';
 const CACHE = 'legislators.json';
 const BASE = 'https://unitedstates.github.io/congress-legislators';
 const REFRESH_DAYS = 14;
+const CACHE_VERSION = 2; // bumped when the record shape changes (added bioguide+chamber)
 
 let _idxPromise = null;
 
-// Build { normName -> { end: 'YYYY-MM-DD', serving: bool } } from current+historical.
+// Build { normName -> { end, serving, bioguide, chamber } } from current+historical.
 async function fetchAll() {
   const [cur, hist] = await Promise.all([
     fetch(`${BASE}/legislators-current.json`).then((r) => r.json()),
@@ -25,6 +26,10 @@ async function fetchAll() {
   const add = (leg, serving) => {
     const terms = leg.terms || [];
     const end = terms.map((t) => t.end).filter(Boolean).sort().slice(-1)[0] || '';
+    // Chamber from the most recent term ('rep' -> house, 'sen' -> senate).
+    const lastTerm = terms[terms.length - 1] || {};
+    const chamber = lastTerm.type === 'sen' ? 'senate' : lastTerm.type === 'rep' ? 'house' : '';
+    const bioguide = (leg.id && leg.id.bioguide) || '';
     const nm = leg.name || {};
     const keys = new Set();
     if (nm.official_full) keys.add(normName(nm.official_full));
@@ -34,7 +39,7 @@ async function fetchAll() {
       const prev = byName[key];
       // prefer a serving record; otherwise keep the one with the latest term end
       if (!prev || (serving && !prev.serving) || (serving === prev.serving && end > prev.end)) {
-        byName[key] = { end, serving };
+        byName[key] = { end, serving, bioguide, chamber };
       }
     }
   };
@@ -47,14 +52,18 @@ async function getIndex() {
   if (_idxPromise) return _idxPromise;
   _idxPromise = (async () => {
     const cached = await readState(CACHE, null);
-    const fresh = cached && cached.fetchedAt && Date.now() - Date.parse(cached.fetchedAt) < REFRESH_DAYS * 864e5;
+    const fresh =
+      cached &&
+      cached.version === CACHE_VERSION &&
+      cached.fetchedAt &&
+      Date.now() - Date.parse(cached.fetchedAt) < REFRESH_DAYS * 864e5;
     let byName;
     if (fresh) {
       byName = cached.byName;
     } else {
       try {
         byName = await fetchAll();
-        await writeState(CACHE, { fetchedAt: new Date().toISOString(), byName });
+        await writeState(CACHE, { version: CACHE_VERSION, fetchedAt: new Date().toISOString(), byName });
       } catch (e) {
         console.error(`[legislators] fetch failed: ${e.message}`);
         byName = (cached && cached.byName) || {};
@@ -69,6 +78,27 @@ async function getIndex() {
     return { byName, byLast };
   })();
   return _idxPromise;
+}
+
+// Shared name resolver: exact normName, else a unique last-name fallback.
+function resolve(byName, byLast, member) {
+  const nn = normName(member);
+  if (byName[nn]) return byName[nn];
+  const last = nn.split(' ').slice(-1)[0];
+  const cands = byLast.get(last);
+  if (cands && cands.size === 1) return byName[[...cands][0]];
+  return null;
+}
+
+// Returns { lookup(memberName) -> { bioguide, chamber } | null } for the Congress.gov
+// live votes/cosponsors feed (which is keyed by bioguide ID).
+export async function getBioguideIndex() {
+  const { byName, byLast } = await getIndex();
+  const lookup = (member) => {
+    const rec = resolve(byName, byLast, member);
+    return rec && rec.bioguide ? { bioguide: rec.bioguide, chamber: rec.chamber || '' } : null;
+  };
+  return { lookup };
 }
 
 // Returns { departureDate(memberName) -> 'YYYY-MM-DD' | null }.

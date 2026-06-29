@@ -57,19 +57,22 @@ function key(t) {
     .toLowerCase();
 }
 
-// "$1,001 - $15,000" -> { low: 1001, high: 15000 }
+// "$1,001 - $15,000" -> { low: 1001, high: 15000 }. Also accepts an already-parsed
+// { low, high } object (the bundled sample_trades.json shape).
 function parseRange(raw) {
+  if (raw && typeof raw === 'object') return { low: Number(raw.low) || 0, high: Number(raw.high) || Number(raw.low) || 0 };
   const nums = String(raw || '').match(/[\d,]+/g);
   if (!nums) return { low: 0, high: 0 };
   const v = nums.map((n) => Number(n.replace(/,/g, '')));
   return { low: v[0] || 0, high: v[1] || v[0] || 0 };
 }
 
-// Load + merge both trade sources into a normalized, deduped, sorted list.
-async function loadTrades() {
-  const hist = await readState('alert_history.json', []);
-  const tracked = await readState('tracked_trades.json', []);
-  const all = [...hist, ...tracked].map((t) => {
+// Load + merge the given trade sources into a normalized, deduped, sorted list.
+// Default reads the forward log + the historical backfill; the Divergence build
+// passes ['sample_trades.json'] when running in sample mode.
+export async function loadTrades(files = ['alert_history.json', 'tracked_trades.json']) {
+  const lists = await Promise.all(files.map((f) => readState(f, [])));
+  const all = lists.flat().map((t) => {
     const r = parseRange(t.amount);
     return {
       politician: cleanName(t.politician) || 'Unknown',
@@ -277,6 +280,16 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   await writeState('performance.json', report);
   await writeText('performance.md', renderMarkdown(report));
   await writePositions(priced, boundaries, spyClose);
+
+  // Refresh the Divergence (Hypocrisy) Score in the same run — best-effort, so a
+  // failure here never fails the performance build. Dynamic import avoids the
+  // circular dependency (divergence.js imports loadTrades from this module).
+  try {
+    const { buildDivergence } = await import('./divergence.js');
+    await buildDivergence();
+  } catch (e) {
+    console.error(`[perf] divergence build skipped: ${e.message}`);
+  }
   return report;
 }
 

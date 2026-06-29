@@ -3,6 +3,7 @@
 let POSITIONS = [];
 let BOUNDARIES = []; // semi-annual rebalance dates (Jan 1 / Jul 1) for the Congress Index
 let SPYCLOSE = []; // SPY close at each boundary (benchmark)
+let DIVERGENCE = []; // per-member Divergence (Hypocrisy) Score, from divergence.json
 const selected = new Set();
 
 const $ = (id) => document.getElementById(id);
@@ -243,6 +244,45 @@ function renderLeaderboard() {
           .join('')}
       </tbody>
     </table>`;
+}
+
+// --- divergence (hypocrisy) score --------------------------------------------
+// 0 = votes match where the money sits; 100 = votes/sponsors against a sector the
+// member is long. Coloring mirrors that: low = good (green), high = bad (red).
+const dsClass = (ds) => (ds >= 67 ? 'neg' : ds >= 34 ? 'warn' : 'pos');
+const actionWord = (a) =>
+  ({ sponsor: 'sponsored', cosponsor: 'co-sponsored', yea: 'voted yes on', nay: 'voted no on' }[a] || a);
+const voteWord = (v) => (v > 0 ? `supports (+${v})` : v < 0 ? `opposes (${v})` : 'neutral');
+const holdWord = (p) => (p > 0 ? `long (+${p})` : p < 0 ? `selling (${p})` : 'flat');
+
+function renderDivergence() {
+  const el = $('divergence');
+  if (!el) return;
+  if (!DIVERGENCE.length) {
+    el.innerHTML = '<div class="note">No divergence data yet — a member needs both legislative records and trades in the same sector to be scored.</div>';
+    return;
+  }
+  el.innerHTML = DIVERGENCE.map((m, i) => {
+    const rows = m.sectors
+      .map((s) => {
+        const ex = s.example ? `${actionWord(s.example.action)} “${esc(s.example.title)}”` : '';
+        const verdict = s.aligned ? '<span class="pos">aligned</span>' : '<span class="neg">divergent</span>';
+        const ticks = (s.tickers || []).map(esc).join(', ');
+        return `<tr>
+          <td>${esc(s.sector)}</td>
+          <td>${voteWord(s.voteStance)}<div class="ds-ex">${ex}</div></td>
+          <td>${holdWord(s.portfolioStance)}<div class="ds-ex">${ticks}</div></td>
+          <td class="num">${verdict}</td></tr>`;
+      })
+      .join('');
+    return `<details class="ds-item"${i === 0 ? ' open' : ''}>
+      <summary><span class="ds-badge ${dsClass(m.ds)}">${m.ds}</span> <b>${esc(m.member)}</b> <span class="ds-chamber">${esc(m.chamber || '')}</span> <span class="ds-meta">votes match money ${m.alignmentRate}% · ${m.sectorsScored} sector${m.sectorsScored > 1 ? 's' : ''}</span></summary>
+      <table class="ds-sectors">
+        <thead><tr><th>Sector</th><th>Legislative stance</th><th>Portfolio</th><th class="num">Verdict</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </details>`;
+  }).join('');
 }
 
 // --- congress index ----------------------------------------------------------
@@ -590,6 +630,21 @@ async function boot() {
   } catch (e) {
     $('chips').innerHTML = `<div class="note">Could not load data: ${e.message}</div>`;
   }
+  loadDivergence();
+}
+
+// Independent of the positions data: the hypocrisy score has its own artifact, so a
+// failure on either side never breaks the other.
+async function loadDivergence() {
+  try {
+    const res = await fetch('./divergence.json', { cache: 'no-store' });
+    const data = await res.json();
+    DIVERGENCE = data.members || [];
+    renderDivergence();
+  } catch (e) {
+    const el = $('divergence');
+    if (el) el.innerHTML = `<div class="note">Could not load divergence data: ${e.message}</div>`;
+  }
 }
 $('memberPick').onchange = (e) => {
   if (e.target.value) {
@@ -610,6 +665,14 @@ $('lbChamber').onchange = renderLeaderboard;
   const el = $(id);
   el.oninput = renderCongressIndex;
   el.onchange = renderCongressIndex;
+});
+// Tabs: keep the Divergence Score on its own view so it doesn't interfere with the
+// leaderboard / Congress Index / backtester.
+document.querySelectorAll('.tab').forEach((btn) => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b === btn));
+    document.querySelectorAll('.tab-content').forEach((c) => c.classList.toggle('active', c.id === btn.dataset.tab));
+  };
 });
 $('run').onclick = runBacktest;
 // Roster chips in the Congress Index load members into the backtester above.

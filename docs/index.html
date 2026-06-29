@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=15" />
+  <link rel="stylesheet" href="./style.css?v=17" />
 </head>
 <body>
   <header>
@@ -16,6 +16,12 @@
   </header>
 
   <div class="container">
+    <nav class="tabs">
+      <button class="tab active" data-tab="backtester-tab" type="button">📈 Backtester &amp; Index</button>
+      <button class="tab" data-tab="divergence-tab" type="button">⚖️ Divergence Score</button>
+    </nav>
+
+    <section id="backtester-tab" class="tab-content active">
     <div class="panel lb">
       <h2>🏆 Leaderboard — return by member</h2>
       <div class="lb-controls">
@@ -107,8 +113,17 @@
         </div>
       </div>
     </div>
+    </section>
+
+    <section id="divergence-tab" class="tab-content">
+      <div class="panel ds-panel">
+        <h2>⚖️ Divergence Score — votes vs. money</h2>
+        <p class="note" style="margin:0 0 14px">How far each member's <b>legislative</b> stance on a sector diverges from their <b>portfolio</b>. <b>0</b> = their votes match where their money sits · <b>100</b> = they vote or sponsor <i>against</i> a sector they're heavily long (could profit from the legislation they oppose). Click a member to see the evidence.</p>
+        <div id="divergence"><div class="note">loading…</div></div>
+      </div>
+    </section>
   </div>
 
-  <script src="./app.js?v=15"></script>
+  <script src="./app.js?v=17"></script>
 </body>
 </html>

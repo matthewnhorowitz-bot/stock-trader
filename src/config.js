@@ -21,12 +21,22 @@ export const config = {
   // instead of the local ./data directory.
   stateBucket: (process.env.STATE_BUCKET || '').trim(),
   dataProvider: (process.env.DATA_PROVIDER || 'sample').toLowerCase().trim(),
+  // Legislative (votes + sponsorships) source for the Divergence Score. 'sample'
+  // reads the bundled data/sample_votes.json; 'congressgov' pulls the live feed.
+  votesProvider: (process.env.VOTES_PROVIDER || 'sample').toLowerCase().trim(),
+  // Bounds for the live Congress.gov feed (warms over runs, like sector data):
+  // members fetched per run, and how many recent House votes to scan per run.
+  congressMemberMax: Number(process.env.CONGRESS_MEMBER_MAX || 25),
+  congressVoteMax: Number(process.env.CONGRESS_VOTE_MAX || 40),
   providers: {
     fmpKey: process.env.FMP_API_KEY,
     fmpLimit: Number(process.env.FMP_LIMIT || 25), // free tier caps this at 25
 
     finnhubKey: process.env.FINNHUB_API_KEY,
     finnhubSymbols: list(process.env.FINNHUB_SYMBOLS),
+
+    // Optional: free key from api.congress.gov, used by the (future) live votes seam.
+    congressKey: process.env.CONGRESS_API_KEY,
   },
   watch: list(process.env.WATCH_POLITICIANS).map((s) => s.toLowerCase()),
   tradeTypes, // 'buy' | 'sell' | 'both'
@@ -79,6 +89,7 @@ export function describeConfig() {
     .join(' + ') || 'NONE (alerts will only print to console)';
   return [
     `Data source: ${config.dataProvider}`,
+    `Votes source:${config.votesProvider}`,
     `State store: ${stateBackend}`,
     `Watching:    ${who}`,
     `Trade types: ${config.tradeTypes}`,

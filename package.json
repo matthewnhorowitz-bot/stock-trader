@@ -9,7 +9,8 @@
     "once": "node src/index.js --once",
     "test": "node src/test.js",
     "backfill": "node src/backfill.js",
-    "index": "node src/performance.js"
+    "index": "node src/performance.js",
+    "divergence": "node src/divergence.js"
   },
   "engines": {
     "node": ">=18"

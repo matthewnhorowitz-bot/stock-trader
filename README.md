@@ -84,6 +84,58 @@ npm start    # live poller on your interval
 | `src/notifier.js` | Email (Nodemailer) + SMS (Twilio) + console |
 | `src/config.js`   | Reads `.env` |
 | `src/test.js`     | Mock-alert delivery check |
+| `src/votes.js`       | Pluggable legislative source (votes + sponsorships) |
+| `src/billTagging.js` | Rules-based bill → sector + stance tagger |
+| `src/divergence.js`  | Builds the Divergence (Hypocrisy) Score |
+
+## ⚖️ Divergence Score (the "Hypocrisy Score")
+
+Merges the **financial** dataset (stock trades) with the **legislative** dataset
+(votes + (co-)sponsorships) into a per-member score from **0 to 100**:
+
+- **0 — perfect alignment:** a member's votes match where their money sits — e.g.
+  they sponsor a clean-energy subsidy *and* hold green-energy stocks, or they vote
+  to cap drug prices *and* have divested pharma.
+- **100 — maximum hypocrisy:** they vote or sponsor a bill to **tax/restrict** a
+  sector while holding a large **long** position in that exact sector (they could
+  profit from the legislation they publicly oppose).
+
+For each member and sector:
+
+```
+voteStance      ∈ [-1,1]  action-weighted mean of (billStance × memberSupport)
+portfolioStance ∈ [-1,1]  signed $ / |$|   (buys = +, sells = −)
+d               ∈ [0,1]   max(0, −voteStance × portfolioStance)   (opposite signs)
+DS = 100 × Σ(exposure × d) / Σ(exposure)   over sectors with BOTH a vote and a position
+```
+
+`alignmentRate` (the plain-English "% of the time their votes match their
+disclosures") is reported alongside DS. Bills are tagged to an FMP **sector** +
+a **support/restrict stance** by a deterministic keyword table (`src/billTagging.js`),
+so no API or LLM is needed; the sample votes ship pre-tagged.
+
+```bash
+npm run divergence   # builds data/divergence.{json,md} + docs/divergence.json
+```
+
+By default it reads the bundled `data/sample_votes.json` (`VOTES_PROVIDER=sample`)
+and, when `DATA_PROVIDER=sample`, scores against `data/sample_trades.json` so the
+demo is fully offline. The hourly performance refresh rebuilds it automatically,
+and the frontend surfaces it as its own **⚖️ Divergence Score** tab.
+
+### Live votes + cosponsors (Congress.gov)
+
+Set `VOTES_PROVIDER=congressgov` and add a free `CONGRESS_API_KEY`
+([sign up](https://api.congress.gov/sign-up/)) to pull **real** recent legislation:
+sponsored + cosponsored bills (both chambers, tagged by CRS policy area) plus recent
+House roll-call positions, for every member who appears in the trade data. (Senate
+roll-call positions aren't exposed by the API, so the Senate side is sponsorship-based.)
+
+The feed is **bounded per run and cached** in `data/votes_cache.json` — each run pulls
+`CONGRESS_MEMBER_MAX` members (default 25) round-robin and scans `CONGRESS_VOTE_MAX`
+recent House votes, so coverage warms over a day or two (same model as sector data).
+Bill stance (supports vs. restricts a sector) is inferred from the bill title by the
+rules-based tagger, so it's directional, not authoritative.
 
 ## 🚀 Running in the cloud — GitHub Actions (no card, no cloud account)
 
