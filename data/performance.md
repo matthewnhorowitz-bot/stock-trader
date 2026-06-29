@@ -4,21 +4,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 
 ## Total
 
-<<<<<<< Updated upstream
 - **Index (all tracked buys): 59.0%**
 - S&P 500 (SPY) over the same windows: 47.8%
 - Priced positions: 17807  ·  still open: 9469  ·  awaiting price data: 4395
-=======
-- **Index (all tracked buys): 61.1%**
-- S&P 500 (SPY) over the same windows: 45.3%
-- Priced positions: 14779  ·  still open: 9018  ·  awaiting price data: 6075
->>>>>>> Stashed changes
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-<<<<<<< Updated upstream
 | Barbara J Comstock | 1093.5% | 5 |
 | Sheldon Whitehouse | 682.5% | 343 |
 | Ashley Moody | 482.1% | 3 |
@@ -173,153 +166,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Nicholas Van Taylor | 10.9% | 27 |
 | John Boozman | 10.8% | 215 |
 | Thomas J. Rooney | 10.7% | 36 |
-=======
-| Barbara J Comstock | 1091.5% | 5 |
-| Sheldon Whitehouse | 745.3% | 310 |
-| Ashley Moody | 485.7% | 3 |
-| Ron L Wyden | 339.2% | 142 |
-| David Cheston Rouzer | 335.0% | 3 |
-| Michael Fq San Nicolas | 259.0% | 1 |
-| Christopher A Coons | 245.9% | 2 |
-| Brian Higgins | 236.4% | 1 |
-| Susan M Collins | 232.7% | 102 |
-| Michael T. McCaul | 219.6% | 90 |
-| Bradley S. Schneider | 207.2% | 10 |
-| Debbie Wasserman Schultz | 180.0% | 8 |
-| John Hoeven | 175.9% | 86 |
-| Neal P. Dunn | 174.7% | 1 |
-| Gary Palmer | 165.6% | 64 |
-| Thomas Suozzi | 165.0% | 55 |
-| Deborah K. Ross | 156.2% | 14 |
-| Pat Roberts | 155.6% | 227 |
-| Seth Moulton | 154.6% | 1 |
-| Daniel Meuser | 136.6% | 1 |
-| Debbie Dingell | 130.3% | 39 |
-| Neal Patrick MD, Facs Dunn | 128.8% | 2 |
-| Pete Sessions | 125.3% | 76 |
-| John Rutherford | 119.1% | 65 |
-| Victoria Spartz | 112.3% | 19 |
-| K. Michael Conaway | 106.4% | 60 |
-| Dwight Evans | 104.7% | 46 |
-| A. Mitchell McConnell, Jr. | 100.0% | 35 |
-| Gary C Peters | 99.4% | 34 |
-| Michael K. Simpson | 98.5% | 6 |
-| David E. Price | 97.3% | 7 |
-| David A Perdue , Jr | 93.3% | 511 |
-| Justin Amash | 91.9% | 6 |
-| David P. Joyce | 87.9% | 16 |
-| Stephen F. Lynch | 87.5% | 1 |
-| Robert B. Aderholt | 86.8% | 1 |
-| Dean Phillips | 81.9% | 145 |
-| Shelley M Capito | 77.5% | 253 |
-| Nancy Pelosi | 77.0% | 73 |
-| Mike Kelly | 76.6% | 6 |
-| Diana Harshbarger | 76.2% | 6 |
-| Susie Lee | 75.8% | 216 |
-| John F Reed | 71.6% | 21 |
-| Jerry Moran, | 71.0% | 57 |
-| Morgan McGarvey | 70.6% | 9 |
-| Tina Smith | 70.2% | 5 |
-| Suzan K. DelBene | 69.9% | 22 |
-| Carol Devine Miller | 68.6% | 51 |
-| Daniel S Sullivan | 67.4% | 24 |
-| Andrew Garbarino | 65.2% | 2 |
-| John A. Yarmuth | 64.2% | 63 |
-| Garret Graves | 63.2% | 2 |
-| Scott Franklin | 62.9% | 47 |
-| Kevin Hern | 61.6% | 418 |
-| Blake Moore | 61.6% | 68 |
-| Brian Babin | 61.1% | 2 |
-| Lloyd Doggett | 60.3% | 162 |
-| Terri A. Sewell | 59.0% | 2 |
-| Mark Green | 57.7% | 89 |
-| David Kustoff | 56.4% | 9 |
-| John Curtis | 56.2% | 115 |
-| James Comer | 56.1% | 27 |
-| Vicente Gonzalez | 55.1% | 1 |
-| Robert J. Wittman | 54.6% | 83 |
-| Michael Patrick Guest | 53.7% | 46 |
-| Roger W. Marshall | 52.9% | 15 |
-| Lois Frankel | 52.5% | 231 |
-| Dan Newhouse | 51.9% | 92 |
-| Richard W. Allen | 51.1% | 131 |
-| Christopher L. Jacobs | 51.1% | 51 |
-| Hakeem S. Jeffries | 48.0% | 3 |
-| Aston Donald McEachin | 47.7% | 6 |
-| Peter Welch | 46.5% | 4 |
-| Virginia Foxx | 46.2% | 365 |
-| Bob Gibbs | 45.8% | 28 |
-| Greg Steube | 44.4% | 2 |
-| Raúl M. Grijalva | 44.3% | 6 |
-| Angus S King, Jr. | 43.9% | 34 |
-| Josh Gottheimer | 41.5% | 996 |
-| David B. McKinley | 41.2% | 64 |
-| William R. Keating | 41.0% | 82 |
-| William Cassidy | 40.4% | 67 |
-| Gilbert Cisneros | 39.7% | 1082 |
-| Rafael E Cruz | 38.8% | 2 |
-| Susan W. Brooks | 38.6% | 12 |
-| John Fetterman | 38.0% | 8 |
-| James E. Banks | 37.5% | 8 |
-| Tim Moore | 37.2% | 121 |
-| Marjorie Taylor Greene | 37.1% | 411 |
-| Kelly Louise Morrison | 36.6% | 13 |
-| Harold Dallas Rogers | 36.5% | 7 |
-| Thomas H Tuberville | 34.7% | 387 |
-| Steve Cohen | 34.0% | 15 |
-| Lamar Smith | 33.6% | 33 |
-| James French Hill | 32.7% | 11 |
-| Ashley Hinson Arenholz | 32.5% | 2 |
-| John N Kennedy | 31.6% | 1 |
-| William R. Timmons | 31.3% | 4 |
-| Thomas R Carper | 31.1% | 186 |
-| Charles J. Chuck Fleischmann | 30.7% | 47 |
-| Robert E. Latta | 30.6% | 18 |
-| Daniel Goldman | 30.6% | 344 |
-| Roger Williams | 29.7% | 9 |
-| Markwayne Mullin | 29.4% | 242 |
-| Earl Blumenauer | 29.4% | 124 |
-| Rohit Khanna | 27.6% | 117 |
-| Rob Bresnahan | 27.6% | 203 |
-| Julia Letlow | 26.8% | 152 |
-| Joe Courtney | 26.7% | 41 |
-| Donald Sternoff Beyer | 25.5% | 186 |
-| Sara Jacobs | 24.3% | 4 |
-| Susan A. Davis | 23.5% | 9 |
-| Peter Allen Stauber | 23.0% | 1 |
-| Trey Hollingsworth | 22.9% | 8 |
-| Mo Brooks | 22.9% | 8 |
-| Richard Dean McCormick | 22.9% | 58 |
-| Patrick Fallon | 22.4% | 22 |
-| John Cornyn | 22.3% | 1 |
-| Jonathan Jackson | 21.0% | 102 |
-| Francis Rooney | 20.5% | 7 |
-| Kelly Loeffler | 19.6% | 69 |
-| Jared Moskowitz | 19.5% | 216 |
-| Alan S. Lowenthal | 18.8% | 145 |
-| Patrick J Toomey | 18.7% | 41 |
-| Kathy Castor | 18.3% | 3 |
-| Kathy Manning | 17.7% | 131 |
-| Cynthia M Lummis | 17.4% | 1 |
-| Maria Elvira Salazar | 16.0% | 46 |
-| James M Inhofe | 16.0% | 45 |
-| Thomas H. Kean | 15.8% | 60 |
-| Byron Donalds | 15.8% | 41 |
-| Katherine M. Clark | 15.7% | 50 |
-| Jefferson Shreve | 15.0% | 141 |
-| Kurt Schrader | 14.8% | 101 |
-| Greg Gianforte | 14.7% | 64 |
-| Fred Upton | 14.6% | 3 |
-| Julie Johnson | 14.3% | 67 |
-| Ed Case | 14.2% | 11 |
-| Cleo Fields | 14.1% | 176 |
-| Laurel Lee | 14.1% | 7 |
-| Rick Larsen | 14.0% | 38 |
-| Carlos Curbelo | 13.8% | 27 |
-| Peter Meijer | 13.3% | 10 |
-| Ed Whitfield | 13.1% | 6 |
-| John Boozman | 10.9% | 215 |
->>>>>>> Stashed changes
 | Cliff Bentz | 10.6% | 2 |
 | Laurel Lee | 10.6% | 7 |
 | Kim Schrier | 9.8% | 2 |
@@ -327,7 +173,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ritchie John Torres | 8.9% | 67 |
 | Sheri Biggs | 8.8% | 50 |
 | David Trone | 8.7% | 14 |
-<<<<<<< Updated upstream
 | Mo Brooks | 8.2% | 14 |
 | C. Scott Franklin | 7.3% | 35 |
 | Bill Flores | 7.2% | 54 |
@@ -351,36 +196,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Crenshaw | 1.3% | 11 |
 | Greg Landsman | 1.3% | 55 |
 | James R. Langevin | 1.1% | 99 |
-=======
-| Rubén Hinojosa | 8.2% | 6 |
-| Thomas MacArthur | 7.6% | 207 |
-| C. Scott Franklin | 7.4% | 35 |
-| David J. Taylor | 6.6% | 95 |
-| Thomas J. Rooney | 6.5% | 22 |
-| Lisa McClain | 5.9% | 705 |
-| John James | 5.5% | 119 |
-| Scott Scott Franklin | 5.4% | 40 |
-| Bruce Westerman | 5.3% | 81 |
-| Michael C. Burgess | 4.8% | 27 |
-| Lindsey Graham | 4.7% | 7 |
-| August Lee Pfluger | 4.5% | 7 |
-| Frank A. LoBiondo | 4.1% | 4 |
-| Kenneth R. Buck | 2.7% | 13 |
-| Michael Garcia | 2.5% | 17 |
-| Zoe Lofgren | 2.3% | 112 |
-| Katie Britt | 1.6% | 16 |
-| Greg Landsman | 1.6% | 53 |
-| Valerie Hoyle | 1.6% | 189 |
-| Patty Murray | 1.5% | 53 |
-| Doug Lamborn | 1.4% | 34 |
-| Daniel Crenshaw | 1.3% | 11 |
->>>>>>> Stashed changes
 | Abigail Spanberger | 1.0% | 2 |
 | Greg Stanton | 0.3% | 92 |
 | Judy Chu | 0.0% | 1 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | Harley E. Rouda | 0.0% | 1 |
-<<<<<<< Updated upstream
 | April McClain Delaney | -0.4% | 169 |
 | Tim Walberg | -0.6% | 13 |
 | Anthony E. Gonzalez | -0.7% | 3 |
@@ -396,38 +216,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W Hickenlooper | -7.3% | 32 |
 | William F Hagerty, IV | -7.8% | 1 |
 | John McGuire | -8.6% | 10 |
-=======
-| Adam Kinzinger | 0.0% | 6 |
-| Tom Rice | 0.0% | 1 |
-| Cindy Axne | -0.2% | 46 |
-| James R. Langevin | -0.5% | 71 |
-| Tim Walberg | -0.6% | 13 |
-| Kenny Marchant | -0.7% | 23 |
-| David Madison Cawthorn | -0.9% | 4 |
-| April McClain Delaney | -1.6% | 161 |
-| Tom Malinowski | -2.0% | 11 |
-| Anthony E. Gonzalez | -2.5% | 3 |
-| Ed Perlmutter | -3.0% | 18 |
-| Marie Newman | -5.6% | 108 |
-| Louise McIntosh Slaughter | -6.1% | 8 |
-| Chip Roy | -6.1% | 2 |
-| John W Hickenlooper | -7.2% | 31 |
-| William F Hagerty, IV | -7.8% | 1 |
-| John McGuire | -8.4% | 10 |
->>>>>>> Stashed changes
 | Mark R Meadows | -9.1% | 4 |
 | Fred Upton | -9.4% | 4 |
 | Brian Mast | -10.2% | 5 |
 | Marie Newman | -10.6% | 126 |
 | Ron Estes | -10.9% | 5 |
-<<<<<<< Updated upstream
 | James E Banks | -11.0% | 16 |
 | Austin Scott | -15.4% | 37 |
-=======
-| James E Banks | -11.2% | 16 |
-| Austin Scott | -15.9% | 32 |
-| Mikie Sherrill | -21.0% | 18 |
->>>>>>> Stashed changes
 | Richard L. Hanna | -21.2% | 1 |
 | Billy Long | -21.9% | 1 |
 | Tom Malinowski | -32.2% | 30 |
