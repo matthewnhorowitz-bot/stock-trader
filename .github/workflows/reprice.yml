@@ -1,0 +1,68 @@
+name: Reprice Index (one-off)
+
+# Manual, standalone reprice. Exists to drain a pricing backlog from GitHub's IPs
+# when the local machine is rate-limited (429) by Yahoo. It is intentionally narrow
+# and side-effect-free:
+#   - It runs ONLY src/performance.js — it never runs the poller (src/index.js), so
+#     NO alerts/emails/SMS are ever sent. This is not the notifier.
+#   - Prices come from Yahoo (free, no quota); SECTOR_MAX=0 means zero FMP calls and
+#     zero API spend.
+#   - It commits ONLY the generated index files. It never touches the Divergence
+#     Score artifacts or any other state, so it can't disturb that feature.
+# Dispatch it from the Actions tab (or `gh workflow run reprice.yml`).
+on:
+  workflow_dispatch:
+    inputs:
+      max_fetches:
+        description: 'Yahoo price fetches this run (high budget reaches the old-trade tail)'
+        default: '6000'
+
+permissions:
+  contents: write
+
+# Shared writer lock so it can't push at the same time as the notifier/backfill.
+concurrency:
+  group: stock-trader-writer
+  cancel-in-progress: false
+
+jobs:
+  reprice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci --omit=optional
+
+      - name: Reprice (Yahoo only, no FMP, no poller)
+        env:
+          PRICE_FROM: '2012-01-01'
+          PERF_MAX_FETCHES: ${{ github.event.inputs.max_fetches || '6000' }}
+          SECTOR_MAX: '0' # zero FMP calls — no API spend
+        run: node src/performance.js || true
+
+      - name: Publish index (index files only)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Only the generated index files — deliberately NOT divergence.* or any
+          # other state, so this run can't disturb other features.
+          git add -f data/performance.json data/performance.md docs/positions.json
+          git add -f data/price_cache.json data/tracked_trades.json
+          git add -f data/sectors.json data/legislators.json data/committees_historical.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            # Never commit conflict markers — they corrupt positions.json and hang
+            # the site. Fail loudly instead; re-dispatch retries from a clean tree.
+            if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
+              echo "::error::Conflict markers staged — refusing to publish corrupted index"; exit 1
+            fi
+            git commit -m "chore: one-off reprice [skip ci]"
+            git pull --rebase --autostash origin main || true
+            git checkout -f -- . 2>/dev/null || true
+            git push
+          fi
