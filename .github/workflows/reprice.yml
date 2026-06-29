@@ -42,6 +42,10 @@ jobs:
           PRICE_FROM: '2012-01-01'
           PERF_MAX_FETCHES: ${{ github.event.inputs.max_fetches || '6000' }}
           SECTOR_MAX: '0' # zero FMP calls — no API spend
+          # Backlog-drain mode: don't spend the budget re-pricing open positions'
+          # latest marks; target only genuinely-uncached tickers (the old tail) so we
+          # reach them before Yahoo throttles the IP. The hourly notifier omits this.
+          PRICE_SKIP_LATEST_REFRESH: '1'
         run: node src/performance.js || true
 
       - name: Publish index (index files only)

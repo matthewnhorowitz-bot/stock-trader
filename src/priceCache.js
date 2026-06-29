@@ -33,6 +33,11 @@ const LATEST_FRESH_DAYS = Number(process.env.PRICE_LATEST_FRESH_DAYS || 4);
 // Consecutive fully-throttled tickers after which we assume Yahoo has blocked this
 // IP for the run and stop trying (so the job ends instead of hanging on 429s).
 const THROTTLE_LIMIT = Number(process.env.PRICE_THROTTLE_LIMIT || 40);
+// Backlog-drain mode: reuse ANY cached `latest` (no refresh fetch) so the whole
+// fetch budget targets genuinely-uncached tickers. Used by the one-off reprice to
+// reach the old 2012-2019 tail before Yahoo throttles the IP; the hourly notifier
+// leaves this off so open positions keep marking to a current price.
+const SKIP_LATEST_REFRESH = process.env.PRICE_SKIP_LATEST_REFRESH === '1';
 
 let mem = null; // persisted cache (loaded once)
 const series = new Map(); // ticker -> full {date:close} for THIS run (not persisted)
@@ -166,7 +171,9 @@ export async function priceLatest(ticker, maxFetches = Infinity) {
   await load();
   const e = entry(ticker);
   if (series.has(ticker)) return e.latest ?? null; // already fetched this run
-  if (e.latest != null && freshEnough(e.latestDate)) return e.latest; // recent enough — skip fetch
+  // Reuse a cached latest without a fetch: always in backlog-drain mode, otherwise
+  // only when recent. Frees the budget for genuinely-uncached tickers.
+  if (e.latest != null && (SKIP_LATEST_REFRESH || freshEnough(e.latestDate))) return e.latest;
   const map = await ensureSeries(ticker, maxFetches);
   if (!map) return e.latest ?? null; // throttled/miss — fall back to last known
   return e.latest ?? null;
