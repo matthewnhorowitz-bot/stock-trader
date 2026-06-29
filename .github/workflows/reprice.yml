@@ -54,15 +54,29 @@ jobs:
           git add -f data/price_cache.json data/tracked_trades.json
           git add -f data/sectors.json data/legislators.json data/committees_historical.json
           if git diff --cached --quiet; then
-            echo "No changes to publish."
-          else
-            # Never commit conflict markers — they corrupt positions.json and hang
-            # the site. Fail loudly instead; re-dispatch retries from a clean tree.
-            if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
-              echo "::error::Conflict markers staged — refusing to publish corrupted index"; exit 1
-            fi
-            git commit -m "chore: one-off reprice [skip ci]"
-            git pull --rebase --autostash origin main || true
-            git checkout -f -- . 2>/dev/null || true
-            git push
+            echo "No changes to publish."; exit 0
           fi
+          # Never commit conflict markers — they corrupt positions.json and hang the
+          # site. Fail loudly instead; re-dispatch retries from a clean tree.
+          if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
+            echo "::error::Conflict markers staged — refusing to publish corrupted index"; exit 1
+          fi
+          git commit -m "chore: one-off reprice [skip ci]"
+          # performance.js also regenerates divergence.* (best-effort) as files we do
+          # NOT publish here. Left in place they block the rebase checkout below (the
+          # earlier run failed exactly this way). Reset/remove them so the tree is clean.
+          git checkout -- data/divergence.json data/divergence.md docs/divergence.json 2>/dev/null || true
+          rm -f data/divergence.json data/divergence.md docs/divergence.json 2>/dev/null || true
+          # Land our single reprice commit on top of whatever is on main now, retrying
+          # the race window (a concurrent push, e.g. a manual commit, lands mid-run).
+          # On any rebase conflict, abort + retry rather than leaving markers.
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              echo "pushed on attempt $i"; exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            git checkout -f -- . 2>/dev/null || true
+            rm -f data/divergence.json data/divergence.md docs/divergence.json 2>/dev/null || true
+            sleep $((RANDOM % 8 + 4))
+          done
+          echo "::error::could not push after retries (concurrent writes); re-dispatch to retry"; exit 1
