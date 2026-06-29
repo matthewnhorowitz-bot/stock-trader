@@ -508,13 +508,14 @@ function computeStats(rows, periodMonths) {
 }
 
 // Two-line level chart (index vs SPY) across years — inline SVG, no deps.
-function levelChart(pts) {
+function levelChart(pts, fmtY) {
   const W = 700, H = 240, padL = 48, padB = 26, padT = 12, padR = 12;
+  const f = fmtY || ((v) => Math.round(v).toLocaleString());
   const ymax = Math.max(...pts.flatMap((p) => [p.idx, p.spy]), 1);
   const x = (i) => padL + (i / (pts.length - 1)) * (W - padL - padR);
   const y = (v) => padT + (1 - v / ymax) * (H - padT - padB);
   const line = (k, c) => `<polyline fill="none" stroke="${c}" stroke-width="2.5" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p[k]).toFixed(1)}`).join(' ')}"/>`;
-  const yticks = [0, ymax / 2, ymax].map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b949e" font-size="11">${Math.round(v)}</text>`).join('');
+  const yticks = [0, ymax / 2, ymax].map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b949e" font-size="11">${f(v)}</text>`).join('');
   const every = Math.ceil(pts.length / 12); // thin labels when crowded (e.g. semi-annual)
   const xlabels = pts
     .map((p, i) => (i % every === 0 || i === pts.length - 1 ? `<text x="${x(i).toFixed(1)}" y="${H - 8}" fill="#8b949e" font-size="11" text-anchor="middle">${p.label}</text>` : ''))
@@ -524,6 +525,7 @@ function levelChart(pts) {
 
 function renderCongressIndex() {
   if (!POSITIONS.length) return;
+  const invest = Math.max(0, Number($('ciInvest').value || 10000));
   const n = Math.max(1, Number($('ciN').value || 10));
   const minPerMonth = Math.max(0, Number($('ciMin').value || 1));
   const lookback = Math.max(1, Number($('ciLook').value || 2));
@@ -546,7 +548,16 @@ function renderCongressIndex() {
   }
   const last = rows[rows.length - 1];
   const beat = last.spyLevel ? last.level / last.spyLevel - 1 : null; // % the index beat the S&P by
-  const pts = [{ label: 'start', idx: 100, spy: 100 }, ...rows.map((r) => ({ label: r.label, idx: r.level, spy: r.spyLevel }))];
+  // Dollar view: a level of 100 = the starting investment, so $ value = invest * level/100.
+  const toUSD = (level) => (invest * level) / 100;
+  const congVal = toUSD(last.level); // what the index turned $invest into
+  const spyVal = toUSD(last.spyLevel); // what the S&P turned the same into
+  const profit = congVal - invest;
+  const beatUSD = congVal - spyVal; // $ ahead of the S&P
+  const pts = [{ label: 'start', idx: invest, spy: invest }, ...rows.map((r) => ({ label: r.label, idx: toUSD(r.level), spy: toUSD(r.spyLevel) }))];
+  // Compact $ axis labels: $10k, $64k, $1.2M.
+  const fmtAxis = (v) =>
+    v >= 1e6 ? '$' + (v / 1e6).toFixed(1) + 'M' : v >= 1000 ? '$' + Math.round(v / 1000) + 'k' : '$' + Math.round(v);
   const periodWord = periodMonths >= 12 ? 'Periods' : 'Periods (6-mo)';
 
   const stats = showStats ? computeStats(rows, periodMonths) : null;
@@ -568,13 +579,15 @@ function renderCongressIndex() {
 
   el.innerHTML = `
     <div class="cards">
-      <div class="card"><div class="k">Index (from 100)</div><div class="v pos">${Math.round(last.level).toLocaleString()}</div></div>
-      <div class="card"><div class="k">S&P 500</div><div class="v">${Math.round(last.spyLevel).toLocaleString()}</div></div>
-      <div class="card"><div class="k">Beat the S&P by</div><div class="v ${beat >= 0 ? 'pos' : 'neg'}">${beat != null ? (beat >= 0 ? '+' : '') + (beat * 100).toFixed(0) + '%' : 'n/a'}</div></div>
+      <div class="card"><div class="k">Invested</div><div class="v">${fmtUSD(invest)}</div></div>
+      <div class="card"><div class="k">Congress Index now</div><div class="v ${profit >= 0 ? 'pos' : 'neg'}">${fmtUSD(congVal)}</div></div>
+      <div class="card"><div class="k">S&P 500 now</div><div class="v">${fmtUSD(spyVal)}</div></div>
+      <div class="card"><div class="k">Profit / loss</div><div class="v ${profit >= 0 ? 'pos' : 'neg'}">${profit >= 0 ? '+' : ''}${fmtUSD(profit)}</div></div>
+      <div class="card"><div class="k">vs S&P 500</div><div class="v ${beatUSD >= 0 ? 'pos' : 'neg'}">${beatUSD >= 0 ? '+' : ''}${fmtUSD(beatUSD)} <span style="font-size:12px;color:var(--muted)">(${beat != null ? (beat >= 0 ? '+' : '') + (beat * 100).toFixed(0) + '%' : 'n/a'})</span></div></div>
       <div class="card"><div class="k">${periodWord}</div><div class="v">${rows.length}</div></div>
     </div>
-    ${levelChart(pts)}
-    <div class="legend"><span class="dot" style="background:#3fb950"></span>Congress Index &nbsp; <span class="dot" style="background:#8b949e"></span>S&P 500 — index level (started at 100)</div>
+    ${levelChart(pts, fmtAxis)}
+    <div class="legend"><span class="dot" style="background:#3fb950"></span>Congress Index &nbsp; <span class="dot" style="background:#8b949e"></span>S&P 500 — value of ${fmtUSD(invest)} invested at the start</div>
     ${statsHtml}
     <h2 style="margin:18px 0 8px;">Period by period &amp; roster</h2>
     ${rows
@@ -661,7 +674,7 @@ $('chips').onclick = (e) => {
 $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('lbChamber').onchange = renderLeaderboard;
-['ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats', 'ciMinSize', 'ciChamber', 'ciWAlpha', 'ciWCons', 'ciWComm'].forEach((id) => {
+['ciInvest', 'ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats', 'ciMinSize', 'ciChamber', 'ciWAlpha', 'ciWCons', 'ciWComm'].forEach((id) => {
   const el = $(id);
   el.oninput = renderCongressIndex;
   el.onchange = renderCongressIndex;

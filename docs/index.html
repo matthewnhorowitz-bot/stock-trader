@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=17" />
+  <link rel="stylesheet" href="./style.css?v=18" />
 </head>
 <body>
   <header>
@@ -39,6 +39,7 @@
       <h2>🏛️ Congress Index — your "S&amp;P 500 of Congress"</h2>
       <p class="note" style="margin:0 0 12px">Each year picks the top performers from the prior years (min trades required) and follows their trades — rebalanced on the schedule you pick, charted against the real S&amp;P 500.</p>
       <div class="ci-controls">
+        <div><label>$ invested</label><input type="number" id="ciInvest" value="10000" min="0" step="1000" /></div>
         <div><label># members</label><input type="number" id="ciN" value="10" min="1" max="100" /></div>
         <div><label>Min trades / month</label><input type="number" id="ciMin" value="1" min="0" step="0.5" /></div>
         <div><label>Lookback (yrs)</label><input type="number" id="ciLook" value="2" min="1" max="4" /></div>
@@ -124,6 +125,6 @@
     </section>
   </div>
 
-  <script src="./app.js?v=17"></script>
+  <script src="./app.js?v=18"></script>
 </body>
 </html>
