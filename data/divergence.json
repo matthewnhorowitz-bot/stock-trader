@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T19:19:56.281Z",
+  "generatedAt": "2026-06-29T21:00:56.634Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -36,25 +36,28 @@
     {
       "member": "Sheldon Whitehouse",
       "chamber": "senate",
-      "ds": 2,
-      "alignmentRate": 0,
+      "ds": 0,
+      "alignmentRate": 100,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Healthcare",
           "voteStance": -1,
-          "portfolioStance": 0.023,
-          "divergence": 0.023,
-          "exposure": 346080,
-          "aligned": false,
+          "portfolioStance": -0.064,
+          "divergence": 0,
+          "exposure": 408100,
+          "aligned": true,
           "tickers": [
             "CVS",
+            "ESRX",
+            "BMY",
             "AMGN",
             "ABBV",
             "GILD",
             "BIIB",
             "MRK",
             "REGN",
+            "MCK",
             "ABT",
             "UNH",
             "PFE",
