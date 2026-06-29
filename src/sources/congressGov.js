@@ -11,13 +11,19 @@ import { config } from '../config.js';
 
 const BASE = 'https://api.congress.gov/v3';
 
-async function apiGet(path, params = {}) {
+async function apiGet(path, params = {}, timeoutMs = 15000) {
   const key = config.providers.congressKey;
   if (!key) throw new Error('no CONGRESS_API_KEY set');
   const qs = new URLSearchParams({ format: 'json', limit: '250', ...params, api_key: key });
-  const r = await fetch(`${BASE}${path}?${qs}`, { headers: { Accept: 'application/json' } });
-  if (!r.ok) throw new Error(`congress ${r.status} ${path}`);
-  return r.json();
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const r = await fetch(`${BASE}${path}?${qs}`, { headers: { Accept: 'application/json' }, signal: ctrl.signal });
+    if (!r.ok) throw new Error(`congress ${r.status} ${path}`);
+    return r.json();
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 // HR/HJRES/HRES/HCONRES -> house; S/SJRES/... -> senate.
