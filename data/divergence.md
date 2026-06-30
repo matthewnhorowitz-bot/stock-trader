@@ -1,10 +1,10 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-06-30 20:05 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-06-30 21:02 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
-| Cory A Booker | 100 | 0% | 4 |
+| Cory A Booker | 100 | 0% | 5 |
 | James A. Himes | 100 | 0% | 1 |
 | Mark R Warner | 100 | 0% | 2 |
 | Mario Diaz-Balart | 100 | 0% | 2 |
@@ -21,95 +21,98 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Frank Pallone | 99 | 0% | 6 |
 | Tina Smith | 97 | 0% | 3 |
 | John W. Rose | 97 | 0% | 2 |
+| Gus M. Bilirakis | 97 | 0% | 3 |
 | George Whitesides | 97 | 0% | 7 |
 | Raul Ruiz | 96 | 0% | 4 |
 | Thomas R Tillis | 96 | 0% | 5 |
 | Lloyd K. Smucker | 95 | 0% | 5 |
-| Gus M. Bilirakis | 95 | 0% | 2 |
+| John B. Larson | 93 | 0% | 6 |
+| John Garamendi | 93 | 0% | 2 |
 | Adam Smith | 93 | 0% | 7 |
-| John Garamendi | 92 | 0% | 1 |
 | Jake Auchincloss | 92 | 0% | 1 |
-| John B. Larson | 91 | 0% | 6 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 89 | 0% | 1 |
 | Emily Randall | 88 | 0% | 5 |
 | Robert C. "Bobby" Scott | 87 | 0% | 7 |
 | Joseph D. Morelle | 87 | 0% | 7 |
-| Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
+| Lori Trahan | 85 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
+| Sara Jacobs | 77 | 0% | 8 |
 | Judy Chu | 76 | 0% | 1 |
-| Sara Jacobs | 76 | 0% | 8 |
 | Tom Cole | 76 | 0% | 1 |
 | Dave Min | 76 | 0% | 1 |
-| John W Hickenlooper | 74 | 17% | 6 |
+| John W Hickenlooper | 75 | 14% | 7 |
+| Sharice Davids | 75 | 0% | 1 |
 | Steve Cohen | 73 | 22% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
-| Shri Thanedar | 66 | 0% | 4 |
+| David Rouzer | 67 | 0% | 1 |
 | James P. McGovern | 64 | 0% | 1 |
 | Greg Landsman | 64 | 0% | 9 |
-| Julie Johnson | 61 | 13% | 8 |
-| Kathy Castor | 58 | 0% | 4 |
+| Shri Thanedar | 63 | 0% | 4 |
+| Julie Johnson | 59 | 13% | 8 |
+| Kathy Castor | 55 | 0% | 4 |
 | Morgan McGarvey | 55 | 0% | 4 |
 | Michael K. Simpson | 51 | 33% | 6 |
 | Andrew Garbarino | 50 | 50% | 2 |
 | Robert B. Aderholt | 50 | 50% | 2 |
 | William R. Timmons | 46 | 0% | 6 |
 | Laurel Lee | 45 | 60% | 5 |
+| Peter Welch | 42 | 20% | 5 |
 | Ed Case | 42 | 25% | 4 |
-| Sheldon Whitehouse | 40 | 0% | 8 |
-| Peter Welch | 37 | 20% | 5 |
-| Debbie Dingell | 34 | 29% | 7 |
-| Jefferson Shreve | 33 | 0% | 8 |
+| Sheldon Whitehouse | 41 | 0% | 8 |
 | Christopher A Coons | 33 | 0% | 1 |
+| Diana Harshbarger | 33 | 43% | 7 |
 | Terri A. Sewell | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
-| Joe Courtney | 32 | 13% | 8 |
-| David Kustoff | 31 | 50% | 4 |
-| Susie Lee | 28 | 33% | 9 |
-| Dwight Evans | 27 | 57% | 7 |
-| Zoe Lofgren | 25 | 0% | 9 |
-| Diana Harshbarger | 25 | 50% | 6 |
-| Valerie Hoyle | 24 | 11% | 9 |
-| Katherine M. Clark | 23 | 25% | 8 |
+| Jefferson Shreve | 32 | 0% | 8 |
+| Debbie Dingell | 30 | 43% | 7 |
+| David Kustoff | 30 | 50% | 4 |
+| Joe Courtney | 30 | 13% | 8 |
+| Dwight Evans | 25 | 57% | 7 |
+| Michael T. McCaul | 24 | 25% | 8 |
 | Warren Davidson | 23 | 50% | 2 |
+| Susie Lee | 23 | 33% | 9 |
+| Mike Kelly | 23 | 40% | 5 |
+| Valerie Hoyle | 23 | 11% | 9 |
+| Katherine M. Clark | 22 | 38% | 8 |
 | August Lee Pfluger | 22 | 25% | 4 |
-| Gary C. Peters | 21 | 75% | 8 |
-| Michael T. McCaul | 21 | 29% | 7 |
+| Gary C. Peters | 20 | 75% | 8 |
+| Zoe Lofgren | 20 | 11% | 9 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
-| Pete Sessions | 19 | 33% | 9 |
-| Austin Scott | 19 | 0% | 6 |
-| Mike Kelly | 19 | 50% | 4 |
-| David P. Joyce | 18 | 20% | 5 |
+| Pete Sessions | 19 | 30% | 10 |
+| Austin Scott | 19 | 0% | 7 |
+| Jerry Moran, | 19 | 43% | 7 |
 | Blake Moore | 17 | 50% | 6 |
-| Tim Moore | 17 | 43% | 7 |
-| Lois Frankel | 16 | 11% | 9 |
-| John Curtis | 16 | 44% | 9 |
-| Jerry Moran, | 15 | 43% | 7 |
+| David P. Joyce | 16 | 40% | 5 |
+| Lois Frankel | 15 | 22% | 9 |
+| Angus S King, Jr. | 15 | 43% | 7 |
 | Kevin Hern | 15 | 56% | 9 |
-| Angus S King, Jr. | 14 | 43% | 7 |
+| Tim Moore | 15 | 50% | 8 |
+| John Curtis | 14 | 44% | 9 |
+| Virginia Foxx | 11 | 22% | 9 |
 | Debbie Wasserman Schultz | 11 | 33% | 3 |
 | Scott H. Peters | 10 | 25% | 8 |
-| Virginia Foxx | 10 | 11% | 9 |
 | Gilbert Cisneros | 10 | 67% | 9 |
 | Sheri Biggs | 8 | 33% | 9 |
-| Thomas H Tuberville | 7 | 38% | 8 |
-| Jared Moskowitz | 7 | 56% | 9 |
-| Robert J. Wittman | 6 | 63% | 8 |
-| John Rutherford | 6 | 56% | 9 |
+| John Rutherford | 6 | 67% | 9 |
 | Daniel Meuser | 6 | 17% | 6 |
+| Thomas H Tuberville | 6 | 25% | 8 |
+| Jared Moskowitz | 6 | 56% | 9 |
 | Roger Williams | 5 | 20% | 5 |
-| Byron Donalds | 5 | 67% | 6 |
-| Rick Larsen | 4 | 57% | 7 |
-| Patty Murray | 3 | 0% | 8 |
-| John James | 3 | 30% | 10 |
-| John Hoeven | 2 | 86% | 7 |
+| Patty Murray | 4 | 0% | 8 |
+| Rick Larsen | 4 | 71% | 7 |
+| Byron Donalds | 4 | 67% | 6 |
+| Robert J. Wittman | 3 | 63% | 8 |
+| John James | 3 | 40% | 10 |
+| Jonathan Jackson | 2 | 90% | 10 |
+| John Hoeven | 1 | 86% | 7 |
+| Ron L Wyden | 1 | 57% | 7 |
 | Rohit Khanna | 1 | 89% | 9 |
 | Bruce Westerman | 1 | 75% | 8 |
-| Susan M Collins | 0 | 78% | 9 |
+| Susan M Collins | 0 | 89% | 9 |
 | Lloyd Doggett | 0 | 100% | 4 |
-| Suzan K. DelBene | 0 | 33% | 3 |
+| Suzan K. DelBene | 0 | 80% | 5 |
 | Nancy Pelosi | 0 | 60% | 5 |
 | John Cornyn | 0 | 0% | 1 |
 | Gary Palmer | 0 | 100% | 7 |
@@ -119,25 +122,23 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Robert E. Latta | 0 | 100% | 1 |
 | James Comer | 0 | 100% | 5 |
 | Michael Patrick Guest | 0 | 100% | 7 |
-| Ron L Wyden | 0 | 57% | 7 |
 | Deborah K. Ross | 0 | 100% | 4 |
-| Patrick Fallon | 0 | 57% | 7 |
-| William R. Keating | 0 | 89% | 9 |
+| Patrick Fallon | 0 | 71% | 7 |
+| William R. Keating | 0 | 78% | 9 |
 | Scott Franklin | 0 | 100% | 6 |
 | Cynthia M Lummis | 0 | 100% | 1 |
 | Dan Newhouse | 0 | 100% | 10 |
 | Ron Estes | 0 | 0% | 5 |
 | Vicente Gonzalez | 0 | 100% | 1 |
 | Seth Moulton | 0 | 100% | 1 |
-| Jonathan Jackson | 0 | 100% | 10 |
 | Maria Elvira Salazar | 0 | 83% | 6 |
 | Thomas H. Kean | 0 | 88% | 8 |
 | Greg Stanton | 0 | 11% | 9 |
-| John Boozman | 0 | 71% | 7 |
+| John Boozman | 0 | 57% | 7 |
 | Chip Roy | 0 | 50% | 2 |
 | Stephen F. Lynch | 0 | 100% | 1 |
 | Ashley Moody | 0 | 100% | 1 |
-| April McClain Delaney | 0 | 100% | 6 |
+| April McClain Delaney | 0 | 100% | 7 |
 | John McGuire | 0 | 100% | 2 |
 | Cleo Fields | 0 | 100% | 4 |
 | John Fetterman | 0 | 100% | 4 |
@@ -145,6 +146,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Lisa McClain | 0 | 80% | 10 |
 | Julia Letlow | 0 | 100% | 9 |
 | Peter Allen Stauber | 0 | 100% | 1 |
+| Lindsey Graham | 0 | 100% | 1 |
 | Katie Britt | 0 | 86% | 7 |
 | Tim Walberg | 0 | 100% | 5 |
 
