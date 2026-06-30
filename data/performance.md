@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 21:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 22:01 UTC._
 
 ## Total
 
@@ -248,7 +248,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David A. Trott | -6.1% | 47 |
 | John W Hickenlooper | -6.4% | 32 |
 | Rodney Leland Blum | -7.5% | 3 |
-| John McGuire | -8.1% | 10 |
+| John McGuire | -8.2% | 10 |
 | Marie Newman | -9.0% | 146 |
 | William F Hagerty, IV | -9.1% | 1 |
 | Fred Upton | -9.4% | 4 |
