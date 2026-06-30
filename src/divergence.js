@@ -51,6 +51,14 @@ async function sectorMap(trades) {
 }
 
 export async function buildDivergence() {
+  // Safety guard: if the live provider is selected but no API key is present (e.g. CI
+  // without the CONGRESS_API_KEY secret), DON'T rebuild — that would replace the real,
+  // committed board with the tiny sample fallback. Leave the existing artifact in place.
+  if (config.votesProvider === 'congressgov' && !config.providers.congressKey) {
+    console.error('[divergence] congressgov selected but no CONGRESS_API_KEY — skipping rebuild to preserve real data');
+    return null;
+  }
+
   const files = config.dataProvider === 'sample' ? ['sample_trades.json'] : undefined;
   const [trades, votes] = await Promise.all([loadTrades(files), fetchAllVotes()]);
   const sectorOf = await sectorMap(trades);
