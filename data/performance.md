@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 00:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 01:00 UTC._
 
 ## Total
 
@@ -108,8 +108,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Greg Steube | 51.2% | 2 |
 | Michael Patrick Guest | 50.8% | 48 |
 | Richard W. Allen | 50.8% | 133 |
+| Gilbert Cisneros | 50.3% | 1321 |
 | Dan Newhouse | 50.2% | 98 |
-| Gilbert Cisneros | 50.2% | 1321 |
 | Tim Moore | 48.5% | 158 |
 | William Cassidy | 48.0% | 81 |
 | Bob Gibbs | 46.3% | 90 |
