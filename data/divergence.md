@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-06-30 14:36 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-06-30 15:06 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -35,8 +35,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Robert C. "Bobby" Scott | 87 | 0% | 7 |
 | Joseph D. Morelle | 87 | 0% | 7 |
 | John B. Larson | 86 | 0% | 6 |
-| Lori Trahan | 85 | 0% | 1 |
-| Scott DesJarlais | 81 | 0% | 2 |
+| Lori Trahan | 86 | 0% | 1 |
+| Scott DesJarlais | 83 | 0% | 2 |
 | Steve Cohen | 78 | 13% | 8 |
 | Sara Jacobs | 77 | 13% | 8 |
 | Judy Chu | 76 | 0% | 1 |
@@ -44,8 +44,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Dave Min | 76 | 0% | 1 |
 | John W Hickenlooper | 74 | 17% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
+| David Rouzer | 70 | 0% | 1 |
 | Greg Landsman | 67 | 0% | 9 |
-| David Rouzer | 67 | 0% | 1 |
 | Shri Thanedar | 66 | 0% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
 | Julie Johnson | 62 | 13% | 8 |
@@ -64,7 +64,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Cliff Bentz | 33 | 67% | 3 |
 | Jefferson Shreve | 32 | 0% | 8 |
 | Susie Lee | 31 | 22% | 9 |
-| David Kustoff | 30 | 50% | 4 |
+| David Kustoff | 31 | 50% | 4 |
 | Gary C. Peters | 29 | 75% | 8 |
 | Zoe Lofgren | 28 | 0% | 8 |
 | Peter Welch | 28 | 20% | 5 |
