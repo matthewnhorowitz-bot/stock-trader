@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 13:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 13:29 UTC._
 
 ## Total
 
@@ -119,9 +119,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John A. Yarmuth | 42.7% | 127 |
 | Jackie Speier | 42.6% | 2 |
 | Brian Mast | 41.7% | 21 |
-| Tina Smith | 41.4% | 7 |
 | David B. McKinley | 41.2% | 173 |
 | Christopher L. Jacobs | 41.2% | 61 |
+| Tina Smith | 40.3% | 7 |
 | John Fetterman | 39.3% | 8 |
 | Rafael E Cruz | 38.8% | 2 |
 | Susan W. Brooks | 38.6% | 12 |
@@ -231,8 +231,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | George Miller | 0.8% | 1 |
 | Greg Stanton | 0.3% | 92 |
 | April McClain Delaney | 0.1% | 169 |
-| Judy Chu | 0.0% | 1 |
 | Thomas R. Suozzi | 0.0% | 1 |
+| Judy Chu | 0.0% | 1 |
 | Kenneth R. Buck | -0.1% | 27 |
 | Tim Walberg | -0.3% | 13 |
 | Ed Perlmutter | -0.4% | 31 |
