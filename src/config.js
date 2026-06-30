@@ -35,6 +35,10 @@ export const config = {
     finnhubKey: process.env.FINNHUB_API_KEY,
     finnhubSymbols: list(process.env.FINNHUB_SYMBOLS),
 
+    // Tiingo EOD: free key with delisted/acquired history (Yahoo purges those). Used as
+    // the price-cache fallback when Yahoo returns no data, so dead tickers still price.
+    tiingoKey: (process.env.TIINGO_API_KEY || '').trim(),
+
     // Optional: free key from api.congress.gov, used by the (future) live votes seam.
     congressKey: process.env.CONGRESS_API_KEY,
   },

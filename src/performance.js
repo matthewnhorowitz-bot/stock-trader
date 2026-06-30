@@ -13,7 +13,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
 import { readState, writeState, writeText } from './stateStore.js';
-import { priceClose, priceLatest, savePriceCache, fetchesUsed } from './priceCache.js';
+import { priceClose, priceLatest, savePriceCache, fetchesUsed, tiingoUsed } from './priceCache.js';
 import { getDepartures } from './legislators.js';
 import { committeesFor, getProfiles, profile, overlapsFor } from './enrich.js';
 import { getHistoricalCommittees } from './committeesHistorical.js';
@@ -271,6 +271,11 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   const totalReturn = avg(priced.map((p) => p.ret));
   const spyReturn = avg(priced.map((p) => p.bRet).filter((x) => x != null));
 
+  // Coverage = share of positions we could actually price. Dropped (unpriced)
+  // positions are excluded from every return number, so a low coverage is a
+  // survivorship-bias warning the front end should surface, not hide.
+  const coverage = positions.length ? priced.length / positions.length : null;
+
   const report = {
     generatedAt: new Date().toISOString(),
     basis: 'copyable return (from disclosure date)',
@@ -279,6 +284,7 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
       priced: priced.length,
       open: openCount,
       unpriced,
+      coverage,
       avgReturn: totalReturn,
       spyAvgReturn: spyReturn,
     },
@@ -286,7 +292,7 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   };
   await writeState('performance.json', report);
   await writeText('performance.md', renderMarkdown(report));
-  await writePositions(priced, boundaries, spyClose);
+  await writePositions(priced, boundaries, spyClose, report.totals);
 
   // Refresh the Divergence (Hypocrisy) Score in the same run — best-effort, so a
   // failure here never fails the performance build. Dynamic import avoids the
@@ -303,7 +309,7 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
 // Compact per-position dataset for the in-browser backtester (docs/positions.json).
 // `boundaries`/`spy` + per-row `marks` let the Congress Index compute mark-to-market
 // returns between rebalance dates (instead of compounding full lifetime returns).
-async function writePositions(priced, boundaries, spyClose) {
+async function writePositions(priced, boundaries, spyClose, totals = null) {
   const round = (x) => (x == null ? null : Math.round(x * 10000) / 10000);
   const rows = priced.map((p) => ({
     member: p.member,
@@ -320,7 +326,7 @@ async function writePositions(priced, boundaries, spyClose) {
     ...(p.ov === undefined ? {} : { ov: p.ov }), // committee-sector overlap: 1/0
     ...(p.departed ? { departed: 1 } : {}), // closed because the member left office
   }));
-  const out = { generatedAt: new Date().toISOString(), boundaries, spy: spyClose, positions: rows };
+  const out = { generatedAt: new Date().toISOString(), boundaries, spy: spyClose, coverage: totals, positions: rows };
   const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
   await mkdir(docsDir, { recursive: true });
   await writeFile(join(docsDir, 'positions.json'), JSON.stringify(out));
@@ -339,6 +345,7 @@ function renderMarkdown(r) {
     `- **Index (all tracked buys): ${pct(t.avgReturn)}**`,
     `- S&P 500 (SPY) over the same windows: ${pct(t.spyAvgReturn)}`,
     `- Priced positions: ${t.priced}  ·  still open: ${t.open}  ·  awaiting price data: ${t.unpriced}`,
+    `- Price coverage: ${t.coverage == null ? 'n/a' : (t.coverage * 100).toFixed(1) + '%'} of positions (unpriced positions are excluded — low coverage risks survivorship bias)`,
     '',
     `## By member (average return, # positions)`,
     '',
@@ -372,7 +379,7 @@ if (import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.endsWith
   buildPerformance()
     .then((r) => {
       printReport(r);
-      console.log(`\n(price fetches used this run: ${fetchesUsed()})`);
+      console.log(`\n(price fetches used this run: ${fetchesUsed()}; Tiingo recoveries: ${tiingoUsed()})`);
     })
     .catch((e) => {
       console.error('performance failed:', e.message);
