@@ -40,6 +40,12 @@ const ALIASES = {
   PX: 'LIN', // Praxair -> Linde plc, 1:1 (2018)
   ZMH: 'ZBH', // Zimmer Holdings -> Zimmer Biomet (2015)
   WLP: 'ELV', // WellPoint -> Anthem -> Elevance Health
+  UTX: 'RTX', // United Technologies -> Raytheon Technologies, continuing entity (2020)
+  SQ: 'XYZ', // Square -> Block, ticker change (2024)
+  BLL: 'BALL', // Ball Corp ticker change (2022)
+  DISCA: 'WBD', // Discovery -> Warner Bros. Discovery, continuing listing (2022)
+  ORCC: 'OBDC', // Owl Rock Capital -> Blue Owl Capital, ticker change (2024)
+  HHC: 'HHH', // Howard Hughes -> Howard Hughes Holdings, ticker change (2023)
   BRK: 'BRK-B', // bare Berkshire root -> Class B
   'RDS.A': 'SHEL', // Royal Dutch Shell ADR -> single Shell line (2022)
   'RDS.B': 'SHEL',

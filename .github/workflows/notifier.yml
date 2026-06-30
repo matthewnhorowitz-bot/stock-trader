@@ -73,6 +73,8 @@ jobs:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           VOTES_PROVIDER: ${{ secrets.VOTES_PROVIDER }}
           CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+          # Tiingo fallback for delisted/acquired tickers (no-op if the secret is unset).
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: node src/performance.js || true
 
       - name: Persist dedup state back to the repo

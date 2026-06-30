@@ -42,6 +42,10 @@ jobs:
           PRICE_FROM: '2012-01-01'
           PERF_MAX_FETCHES: ${{ github.event.inputs.max_fetches || '6000' }}
           SECTOR_MAX: '0' # zero FMP calls — no API spend
+          # Tiingo fallback for delisted/acquired tickers Yahoo has purged. Without this
+          # secret the dead set simply stays unpriced (no failure). Set it with:
+          #   gh secret set TIINGO_API_KEY
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
           # Backlog-drain mode: don't spend the budget re-pricing open positions'
           # latest marks; target only genuinely-uncached tickers (the old tail) so we
           # reach them before Yahoo throttles the IP. The hourly notifier omits this.
