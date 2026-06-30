@@ -19,6 +19,9 @@
 //      it ever reached the old uncached backlog.
 
 import { readState, writeState } from './stateStore.js';
+import { canonicalTicker, isRemapped } from './tickerAliases.js';
+import { manualClose, manualLatest } from './manualPrices.js';
+import { fetchTiingoSeries, tiingoEnabled } from './sources/tiingo.js';
 
 const CACHE = 'price_cache.json';
 const FROM = process.env.PRICE_FROM || '2012-01-01'; // STOCK Act era; override to limit history
@@ -41,12 +44,34 @@ const SKIP_LATEST_REFRESH = process.env.PRICE_SKIP_LATEST_REFRESH === '1';
 
 let mem = null; // persisted cache (loaded once)
 const series = new Map(); // ticker -> full {date:close} for THIS run (not persisted)
+const notThisRun = new Set(); // tickers that failed to resolve this run (don't re-fetch)
 let fetched = 0;
+let tiingoHits = 0; // tickers recovered from Tiingo after a Yahoo miss
 let throttleStreak = 0;
 let blocked = false; // circuit breaker: Yahoo is hard-throttling this run
 
 async function load() {
-  if (!mem) mem = await readState(CACHE, {});
+  if (!mem) {
+    mem = await readState(CACHE, {});
+    // One-time: retire "miss" tombstones for tickers that now canonicalize to a
+    // different symbol (BF.B->BF-B, KORS->CPRI, ...). They were tombstoned as dead
+    // before symbol normalization existed; dropping the tombstone lets them re-fetch
+    // (or resolve from the successor's already-cached series). Self-canonical dead
+    // tickers (WFM, LNKD, ...) keep their tombstone, so no wasted re-fetch.
+    let retired = 0;
+    for (const k of Object.keys(mem)) {
+      const e = mem[k];
+      if (!e || !e.miss) continue;
+      if (isRemapped(k)) {
+        delete mem[k]; // resolves under the canonical/successor symbol instead
+        retired++;
+      }
+      // Other "miss" tickers keep their tombstone: it's the permanent record that Yahoo
+      // has no data. ensureSeries still tries the Tiingo fallback on each miss ticker
+      // (until e.tnf marks Tiingo empty too), so they recover without losing the marker.
+    }
+    if (retired) console.log(`[priceCache] retired ${retired} stale tombstone(s) for remappable tickers`);
+  }
   return mem;
 }
 export async function savePriceCache() {
@@ -54,6 +79,9 @@ export async function savePriceCache() {
 }
 export function fetchesUsed() {
   return fetched;
+}
+export function tiingoUsed() {
+  return tiingoHits;
 }
 
 function entry(ticker) {
@@ -109,13 +137,38 @@ async function fetchSeries(ticker) {
   return { throttled: true }; // exhausted retries on 429/5xx/network
 }
 
+// Tiingo fallback for a ticker Yahoo can't price (delisted/acquired). On success it
+// caches the series like Yahoo and returns the map; on a hard miss it sets e.tnf so we
+// don't retry forever; on a rate-limit it parks the ticker for this run only. Returns
+// the series map or null.
+async function tiingoFallback(ticker, e) {
+  const t = await fetchTiingoSeries(ticker, FROM);
+  if (t.ok) {
+    series.set(ticker, t.map);
+    e.latest = t.latest;
+    e.latestDate = t.latestDate;
+    e.src = 'tiingo';
+    tiingoHits++;
+    return t.map;
+  }
+  if (t.throttled) notThisRun.add(ticker); // rate-limited — skip this run, retry next (keep tombstone)
+  else if (t.miss) e.tnf = true; // Tiingo has nothing either -> stop retrying
+  return null;
+}
+
 // Load a ticker's full daily history into memory (once per run). A 429-throttled
 // ticker returns null WITHOUT spending the budget or being tombstoned, so it can
 // retry on a later run; sustained throttling trips the circuit breaker.
 async function ensureSeries(ticker, maxFetches) {
   if (series.has(ticker)) return series.get(ticker);
+  if (notThisRun.has(ticker)) return null; // already failed this run — don't re-fetch every date
   const e = entry(ticker);
-  if (e.miss) return null;
+  // Known Yahoo-dead: skip Yahoo entirely and go straight to Tiingo (until it's also
+  // confirmed empty). The tombstone stays put — it's the permanent "no Yahoo data" record.
+  if (e.miss) {
+    if (tiingoEnabled() && !e.tnf) return await tiingoFallback(ticker, e);
+    return null;
+  }
   if (blocked) return null;
   if (fetched >= maxFetches) return null;
 
@@ -130,7 +183,8 @@ async function ensureSeries(ticker, maxFetches) {
   throttleStreak = 0;
   fetched++; // a real resolved attempt — counts against the budget
   if (res.miss) {
-    e.miss = true;
+    e.miss = true; // record Yahoo has no data, then try Tiingo (delisted/acquired history)
+    if (tiingoEnabled()) return await tiingoFallback(ticker, e);
     return null;
   }
   if (!res.ok) return null;
@@ -153,9 +207,15 @@ function nearestOnOrAfter(map, date) {
 // Closing price on/after `date`; persists just that resolved point. null if unavailable.
 export async function priceClose(ticker, date, maxFetches = Infinity) {
   if (!ticker || !date) return null;
+  ticker = canonicalTicker(ticker); // BF.B->BF-B, KORS->CPRI, etc. (cache keyed by canonical)
   await load();
   const e = entry(ticker);
   if (e.d[date] != null) return e.d[date];
+  const man = await manualClose(ticker, date); // delisted/purged tickers (no Yahoo data)
+  if (man != null) {
+    e.d[date] = man;
+    return man;
+  }
   const map = await ensureSeries(ticker, maxFetches);
   if (!map) return null;
   const px = nearestOnOrAfter(map, date);
@@ -168,13 +228,19 @@ export async function priceClose(ticker, date, maxFetches = Infinity) {
 // that frees the fetch budget for uncached/old tickers.
 export async function priceLatest(ticker, maxFetches = Infinity) {
   if (!ticker) return null;
+  ticker = canonicalTicker(ticker);
   await load();
   const e = entry(ticker);
   if (series.has(ticker)) return e.latest ?? null; // already fetched this run
+  // A delisted ticker's last price never changes — a Tiingo-sourced latest is final,
+  // so reuse it forever instead of re-fetching every run.
+  if (e.src === 'tiingo' && e.latest != null) return e.latest;
   // Reuse a cached latest without a fetch: always in backlog-drain mode, otherwise
   // only when recent. Frees the budget for genuinely-uncached tickers.
   if (e.latest != null && (SKIP_LATEST_REFRESH || freshEnough(e.latestDate))) return e.latest;
   const map = await ensureSeries(ticker, maxFetches);
-  if (!map) return e.latest ?? null; // throttled/miss — fall back to last known
+  // throttled/miss — fall back to last known, then to a manual deal/delisting price
+  // (so a still-open position in a bought-out company closes at the buyout value).
+  if (!map) return e.latest ?? (await manualLatest(ticker)) ?? null;
   return e.latest ?? null;
 }

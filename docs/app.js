@@ -636,7 +636,14 @@ async function boot() {
     POSITIONS = data.positions || [];
     BOUNDARIES = data.boundaries || [];
     SPYCLOSE = data.spy || [];
-    $('meta').textContent = `${POSITIONS.length} priced positions · updated ${(data.generatedAt || '').slice(0, 10)}`;
+    const cov = data.coverage; // { positions, priced, unpriced, coverage } or null
+    const covPct = cov && cov.coverage != null ? ` · ${(cov.coverage * 100).toFixed(0)}% price coverage` : '';
+    $('meta').textContent = `${POSITIONS.length} priced positions${covPct} · updated ${(data.generatedAt || '').slice(0, 10)}`;
+    if (cov && cov.unpriced) {
+      $('meta').title =
+        `${cov.unpriced} of ${cov.positions} positions are excluded for missing prices. ` +
+        `Excluded positions count toward no return — a lower coverage means more survivorship risk.`;
+    }
     refreshMemberUI();
     renderLeaderboard();
     renderCongressIndex();
