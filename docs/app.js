@@ -583,7 +583,7 @@ function renderCongressIndex() {
       <div class="card"><div class="k">Congress Index now</div><div class="v ${profit >= 0 ? 'pos' : 'neg'}">${fmtUSD(congVal)}</div></div>
       <div class="card"><div class="k">S&P 500 now</div><div class="v">${fmtUSD(spyVal)}</div></div>
       <div class="card"><div class="k">Profit / loss</div><div class="v ${profit >= 0 ? 'pos' : 'neg'}">${profit >= 0 ? '+' : ''}${fmtUSD(profit)}</div></div>
-      <div class="card"><div class="k">vs S&P 500</div><div class="v ${beatUSD >= 0 ? 'pos' : 'neg'}">${beatUSD >= 0 ? '+' : ''}${fmtUSD(beatUSD)} <span style="font-size:12px;color:var(--muted)">(${beat != null ? (beat >= 0 ? '+' : '') + (beat * 100).toFixed(0) + '%' : 'n/a'})</span></div></div>
+      <div class="card"><div class="k">vs S&P 500</div><div class="v ${beat >= 0 ? 'pos' : 'neg'}">${beat != null ? (beat >= 0 ? '+' : '') + (beat * 100).toFixed(0) + '%' : 'n/a'} <span style="font-size:12px;color:var(--muted)">(${beatUSD >= 0 ? '+' : ''}${fmtUSD(beatUSD)})</span></div></div>
       <div class="card"><div class="k">${periodWord}</div><div class="v">${rows.length}</div></div>
     </div>
     ${levelChart(pts, fmtAxis)}
