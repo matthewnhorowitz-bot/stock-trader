@@ -101,6 +101,17 @@ export async function getBioguideIndex() {
   return { lookup };
 }
 
+// Returns { isServing(memberName) -> boolean }. True if the member currently holds
+// office; unmatched names default to true (we don't drop someone over a name mismatch).
+export async function getServingIndex() {
+  const { byName, byLast } = await getIndex();
+  const isServing = (member) => {
+    const rec = resolve(byName, byLast, member);
+    return rec ? !!rec.serving : true;
+  };
+  return { isServing };
+}
+
 // Returns { departureDate(memberName) -> 'YYYY-MM-DD' | null }.
 // null = still serving, unknown, or future-dated.
 export async function getDepartures() {

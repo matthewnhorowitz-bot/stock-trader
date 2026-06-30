@@ -27,6 +27,7 @@ import { config } from './config.js';
 import { readState, writeState, writeText } from './stateStore.js';
 import { loadTrades } from './performance.js';
 import { fetchAllVotes } from './votes.js';
+import { getServingIndex } from './legislators.js';
 import { normName, getProfiles, profile } from './enrich.js';
 
 // Action -> how strongly it signals the member backs the bill, and the sign of that
@@ -101,8 +102,12 @@ export async function buildDivergence() {
   }
 
   // --- merge + score ---
+  // Only score members who currently hold office — former members' votes-vs-money is
+  // historical trivia, not a live conflict of interest.
+  const { isServing } = await getServingIndex();
   const out = [];
   for (const m of members.values()) {
+    if (!isServing(m.display)) continue; // skip retired/defeated/former members
     const sectors = [];
     let wExp = 0;
     let wDiv = 0;
