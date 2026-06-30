@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 08:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 08:49 UTC._
 
 ## Total
 
@@ -44,7 +44,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary Palmer | 161.6% | 163 |
 | Debbie Dingell | 155.8% | 85 |
 | Deborah K. Ross | 146.8% | 18 |
-| John Hoeven | 143.3% | 122 |
+| John Hoeven | 143.4% | 122 |
 | Pat Roberts | 142.6% | 258 |
 | Thomas Suozzi | 135.2% | 249 |
 | Grace Meng | 134.6% | 4 |
@@ -91,7 +91,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bradley S. Schneider | 64.2% | 36 |
 | Robert J. Wittman | 64.2% | 109 |
 | Neal Patrick MD, Facs Dunn | 62.8% | 3 |
-| Scott Franklin | 62.6% | 47 |
+| Scott Franklin | 62.7% | 47 |
 | Blake Moore | 62.4% | 71 |
 | Tammy Duckworth | 61.9% | 1 |
 | John Curtis | 60.6% | 118 |
@@ -143,10 +143,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Cohen | 31.3% | 20 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Peter Allen Stauber | 29.2% | 1 |
+| John W. Rose | 28.8% | 1 |
 | Markwayne Mullin | 28.4% | 265 |
 | Earl Blumenauer | 28.1% | 224 |
 | Rob Bresnahan | 27.7% | 237 |
-| John W. Rose | 27.5% | 1 |
 | Julia Letlow | 27.0% | 152 |
 | Donna Shalala | 26.5% | 131 |
 | Rohit Khanna | 26.5% | 121 |
@@ -210,7 +210,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.2% | 705 |
 | John James | 5.4% | 120 |
-| Lindsey Graham | 4.7% | 7 |
+| Lindsey Graham | 5.1% | 7 |
 | Carlos Curbelo | 4.5% | 125 |
 | Bruce Westerman | 4.4% | 105 |
 | E. Scott Rigell | 2.9% | 30 |
