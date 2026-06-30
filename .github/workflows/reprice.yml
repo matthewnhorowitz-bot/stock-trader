@@ -46,6 +46,10 @@ jobs:
           # latest marks; target only genuinely-uncached tickers (the old tail) so we
           # reach them before Yahoo throttles the IP. The hourly notifier omits this.
           PRICE_SKIP_LATEST_REFRESH: '1'
+          # Price oldest-first so the uncached 2012-2019 tail is fetched while the IP
+          # is fresh, before Yahoo's throttle kicks in (~5-6k requests). Normal runs
+          # (notifier) leave this off and stay newest-first.
+          PRICE_OLDEST_FIRST: '1'
         run: node src/performance.js || true
 
       - name: Publish index (index files only)

@@ -184,7 +184,14 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   const boundaries = semiAnnualBoundaries();
   const todayStr = new Date().toISOString().slice(0, 10);
   const r4 = (x) => Math.round(x * 10000) / 10000;
-  const pricingOrder = [...positions].sort((a, b) => (b.entry || '').localeCompare(a.entry || ''));
+  // Normally price newest-first so the limited daily budget reaches current activity.
+  // In a backlog drain (PRICE_OLDEST_FIRST=1, set by the one-off reprice), price
+  // OLDEST-first instead: the uncached 2012-2019 tail gets fetched in the first ~1k
+  // requests while the IP is fresh, before Yahoo throttles it (~5-6k requests in).
+  const oldestFirst = process.env.PRICE_OLDEST_FIRST === '1';
+  const pricingOrder = [...positions].sort((a, b) =>
+    oldestFirst ? (a.entry || '').localeCompare(b.entry || '') : (b.entry || '').localeCompare(a.entry || '')
+  );
   const priced = [];
   let unpriced = 0;
   let openCount = 0;
