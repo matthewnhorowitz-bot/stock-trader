@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-06-30 16:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 61.3%**
-- S&P 500 (SPY) over the same windows: 55.4%
-- Priced positions: 22597  ·  still open: 10482  ·  awaiting price data: 3603
+- S&P 500 (SPY) over the same windows: 55.9%
+- Priced positions: 22598  ·  still open: 10483  ·  awaiting price data: 3603
 
 ## By member (average return, # positions)
 
@@ -32,7 +32,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Beto O'Rourke | 210.4% | 2 |
 | Raul Ruiz | 208.1% | 1 |
 | Michael T. McCaul | 207.6% | 99 |
-| Richard L. Hanna | 207.1% | 82 |
+| Richard L. Hanna | 207.2% | 82 |
 | Susan M Collins | 206.0% | 146 |
 | Pete Sessions | 194.2% | 167 |
 | Rubén Hinojosa | 187.9% | 28 |
@@ -43,7 +43,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Meuser | 163.1% | 8 |
 | Gary Palmer | 161.6% | 163 |
 | Debbie Dingell | 155.8% | 85 |
-| Deborah K. Ross | 146.8% | 18 |
+| Deborah K. Ross | 146.9% | 18 |
 | John Hoeven | 143.4% | 122 |
 | Pat Roberts | 142.6% | 258 |
 | Thomas Suozzi | 135.2% | 249 |
@@ -60,14 +60,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Justin Amash | 105.9% | 11 |
 | David E. Price | 103.2% | 40 |
 | Dwight Evans | 100.6% | 66 |
-| A. Mitchell McConnell, Jr. | 98.5% | 35 |
-| K. Michael Conaway | 96.8% | 266 |
+| K. Michael Conaway | 96.9% | 266 |
+| A. Mitchell McConnell, Jr. | 94.7% | 36 |
 | Michael K. Simpson | 93.3% | 25 |
 | Suzan K. DelBene | 92.5% | 59 |
 | Hakeem S. Jeffries | 89.0% | 7 |
-| David P. Joyce | 88.1% | 72 |
+| David P. Joyce | 88.3% | 72 |
 | Stephen F. Lynch | 88.0% | 1 |
-| David A Perdue , Jr | 87.7% | 860 |
+| David A Perdue , Jr | 87.8% | 860 |
 | Robert B. Aderholt | 87.5% | 1 |
 | Jim McDermott | 85.2% | 1 |
 | Katherine M. Clark | 84.5% | 135 |
@@ -139,7 +139,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Sara Jacobs | 32.6% | 9 |
 | Harold Dallas Rogers | 31.7% | 8 |
 | Daniel Goldman | 31.7% | 345 |
-| Daniel Crenshaw | 31.4% | 16 |
+| Daniel Crenshaw | 31.5% | 16 |
 | Steve Cohen | 31.3% | 20 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Peter Allen Stauber | 29.2% | 1 |
