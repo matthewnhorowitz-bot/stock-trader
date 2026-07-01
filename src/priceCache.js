@@ -111,7 +111,13 @@ async function fetchSeries(ticker) {
         continue;
       }
       await sleep(90); // be polite to Yahoo on success
-      if (!r.ok) return { miss: false }; // other 4xx — transient-ish, don't tombstone
+      // A 404 ("No data found, symbol may be delisted") is Yahoo's definitive "no data"
+      // for this symbol — treat it exactly like an empty 200 so we tombstone once and fall
+      // through to Tiingo. Yahoo now 404s many valid-but-not-"hot" symbols (MMC, WBA, K,
+      // ...) that it used to serve; mapping that to a non-tombstone made every date lookup
+      // re-fetch the same ticker (budget amplification) AND skipped the Tiingo fallback.
+      if (r.status === 404) return { miss: true };
+      if (!r.ok) return { transient: true }; // other 4xx (401/403) — skip this run, don't tombstone
       const j = await r.json();
       const res = j && j.chart && j.chart.result && j.chart.result[0];
       const ts = res && res.timestamp;
@@ -179,6 +185,10 @@ async function ensureSeries(ticker, maxFetches) {
       console.warn(`[priceCache] Yahoo throttling persistently — stopping fetches for this run after ${fetched} priced`);
     }
     return null; // transient: don't count, don't tombstone
+  }
+  if (res.transient) {
+    notThisRun.add(ticker); // non-404 4xx (401/403): skip for this run so we don't re-fetch
+    return null; // it on every date lookup; retry on a later run without a permanent tombstone
   }
   throttleStreak = 0;
   fetched++; // a real resolved attempt — counts against the budget
