@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 16:03 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 17:00 UTC._
 
 ## Total
 
@@ -94,7 +94,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Blake Moore | 63.9% | 83 |
 | Robert J. Wittman | 63.6% | 114 |
 | Neal Patrick MD, Facs Dunn | 62.8% | 3 |
-| Scott Franklin | 62.3% | 48 |
+| Scott Franklin | 62.5% | 48 |
 | Terri A. Sewell | 61.3% | 2 |
 | David Kustoff | 60.0% | 9 |
 | Bradley S. Schneider | 60.0% | 38 |
@@ -153,7 +153,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julia Letlow | 27.1% | 153 |
 | Rob Bresnahan | 26.9% | 246 |
 | Greg Steube | 26.3% | 12 |
-| Charles J. Chuck Fleischmann | 26.0% | 57 |
+| Charles J. Chuck Fleischmann | 26.2% | 57 |
 | Kathy Manning | 26.0% | 273 |
 | Richard Dean McCormick | 24.2% | 67 |
 | Ashley Hinson Arenholz | 22.9% | 4 |

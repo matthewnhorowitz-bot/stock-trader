@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-01 16:09 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-01 17:01 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -9,49 +9,49 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Mark R Warner | 100 | 0% | 2 |
 | Mario Diaz-Balart | 100 | 0% | 2 |
 | Ladda Tammy Duckworth | 100 | 0% | 1 |
+| Judy Chu | 100 | 0% | 1 |
 | Bryan George Steil | 100 | 0% | 3 |
 | Thomas Massie | 100 | 0% | 1 |
 | William F Hagerty, IV | 100 | 33% | 3 |
+| John Garamendi | 100 | 0% | 2 |
 | John R Thune | 100 | 0% | 1 |
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Pramila Jayapal | 100 | 0% | 1 |
+| Jake Auchincloss | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | David Taylor | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 2 |
+| Raul Ruiz | 99 | 0% | 4 |
 | Frank Pallone | 99 | 0% | 6 |
+| George Whitesides | 99 | 0% | 7 |
 | Tina Smith | 97 | 0% | 3 |
 | John W. Rose | 97 | 0% | 2 |
 | Gus M. Bilirakis | 97 | 0% | 3 |
-| George Whitesides | 97 | 0% | 7 |
-| Raul Ruiz | 96 | 0% | 4 |
 | Thomas R Tillis | 96 | 0% | 5 |
-| Lloyd K. Smucker | 95 | 0% | 5 |
+| Lloyd K. Smucker | 94 | 0% | 5 |
 | John B. Larson | 93 | 0% | 6 |
-| John Garamendi | 93 | 0% | 2 |
 | Adam Smith | 93 | 0% | 7 |
-| Jake Auchincloss | 92 | 0% | 1 |
+| Emily Randall | 92 | 0% | 5 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Adam B. Schiff | 89 | 0% | 2 |
-| Stephanie Bice | 89 | 0% | 1 |
-| Emily Randall | 88 | 0% | 5 |
-| Robert C. "Bobby" Scott | 87 | 0% | 7 |
+| Robert C. "Bobby" Scott | 88 | 0% | 7 |
+| Stephanie Bice | 88 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 7 |
-| Lori Trahan | 85 | 0% | 1 |
+| Lori Trahan | 86 | 0% | 1 |
+| Dave Min | 82 | 0% | 1 |
 | Scott DesJarlais | 81 | 0% | 2 |
-| Sara Jacobs | 77 | 0% | 8 |
-| Judy Chu | 76 | 0% | 1 |
-| Tom Cole | 76 | 0% | 1 |
-| Dave Min | 76 | 0% | 1 |
+| Sharice Davids | 80 | 0% | 1 |
+| Sara Jacobs | 78 | 0% | 8 |
 | John W Hickenlooper | 75 | 14% | 7 |
-| Sharice Davids | 75 | 0% | 1 |
+| Tom Cole | 75 | 0% | 1 |
 | Steve Cohen | 73 | 22% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
+| Shri Thanedar | 68 | 0% | 4 |
 | David Rouzer | 67 | 0% | 1 |
+| Greg Landsman | 66 | 0% | 9 |
 | James P. McGovern | 64 | 0% | 1 |
-| Greg Landsman | 64 | 0% | 9 |
-| Shri Thanedar | 63 | 0% | 4 |
-| Julie Johnson | 59 | 13% | 8 |
-| Kathy Castor | 55 | 0% | 4 |
+| Julie Johnson | 60 | 0% | 8 |
+| Kathy Castor | 58 | 0% | 4 |
 | Morgan McGarvey | 55 | 0% | 4 |
 | Michael K. Simpson | 51 | 33% | 6 |
 | Andrew Garbarino | 50 | 50% | 2 |
@@ -66,17 +66,17 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Terri A. Sewell | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
 | Jefferson Shreve | 32 | 0% | 8 |
-| Debbie Dingell | 30 | 43% | 7 |
+| Debbie Dingell | 31 | 43% | 7 |
 | David Kustoff | 30 | 50% | 4 |
 | Joe Courtney | 30 | 13% | 8 |
-| Dwight Evans | 25 | 57% | 7 |
-| Warren Davidson | 23 | 50% | 2 |
-| Susie Lee | 23 | 44% | 9 |
+| Dwight Evans | 26 | 57% | 7 |
+| Susie Lee | 24 | 44% | 9 |
+| Katherine M. Clark | 23 | 38% | 8 |
 | Mike Kelly | 23 | 40% | 5 |
 | Valerie Hoyle | 23 | 11% | 9 |
-| Katherine M. Clark | 22 | 38% | 8 |
 | Michael T. McCaul | 22 | 25% | 8 |
 | August Lee Pfluger | 22 | 25% | 4 |
+| Warren Davidson | 21 | 50% | 2 |
 | Gary C. Peters | 20 | 75% | 8 |
 | Zoe Lofgren | 20 | 11% | 9 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
@@ -90,9 +90,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Moore | 15 | 50% | 8 |
 | Kevin Hern | 14 | 56% | 9 |
 | John Curtis | 14 | 44% | 9 |
+| Scott H. Peters | 11 | 25% | 8 |
 | Virginia Foxx | 11 | 22% | 9 |
 | Debbie Wasserman Schultz | 11 | 33% | 3 |
-| Scott H. Peters | 10 | 25% | 8 |
 | Gilbert Cisneros | 9 | 67% | 9 |
 | Sheri Biggs | 8 | 33% | 9 |
 | John Rutherford | 6 | 67% | 9 |
