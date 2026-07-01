@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 18:01 UTC._
 
 ## Total
 
@@ -204,7 +204,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Trone | 8.7% | 14 |
 | Ed Whitfield | 8.1% | 55 |
 | C. Scott Franklin | 7.6% | 35 |
-| Ed Case | 7.0% | 12 |
+| Ed Case | 7.2% | 12 |
 | Scott Scott Franklin | 6.7% | 45 |
 | Adam Kinzinger | 6.7% | 17 |
 | David J. Taylor | 6.7% | 96 |
