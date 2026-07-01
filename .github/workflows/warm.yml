@@ -1,0 +1,82 @@
+name: Warm Empty-Shell Tickers (one-off)
+
+# Recovers coverage lost to "empty shell" cache entries: tickers that a prior reprice
+# reached positionally but never actually fetched, because it had already spent its
+# fetch budget (or tripped Yahoo's throttle breaker) on the dead 2012-2019 tail. Those
+# entries persist with no prices and — crucially — no `miss` tombstone, so they're
+# invisible to the dead-ticker warmer yet still count as "unpriced". Most are live
+# large-caps (MMC, WBA, HBI, ...) that Yahoo prices instantly from a fresh runner IP;
+# acquired names (MMP, TWTR, PXD, ...) fall through to the Tiingo fallback.
+#
+# Like reprice.yml this is manual, alert-free (never runs the poller) and commits ONLY
+# the index files. Dispatch from the Actions tab or: gh workflow run warm.yml
+on:
+  workflow_dispatch:
+    inputs:
+      warm_max_fetches:
+        description: 'Yahoo fetches for the warm pass (stay under ~5-6k throttle)'
+        default: '5000'
+
+permissions:
+  contents: write
+
+# Shared writer lock so it can't push at the same time as the notifier/reprice/backfill.
+concurrency:
+  group: stock-trader-writer
+  cancel-in-progress: false
+
+jobs:
+  warm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci --omit=optional
+
+      - name: Warm empty-shell + uncached tickers (Yahoo, Tiingo fallback)
+        env:
+          PRICE_FROM: '2012-01-01'
+          WARM_MAX_FETCHES: ${{ github.event.inputs.warm_max_fetches || '5000' }}
+          # Tiingo fallback for acquired/delisted names Yahoo has purged (no-op if unset).
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+        run: node scripts/warmUncached.mjs || true
+
+      - name: Rebuild index from the warmed cache (no new fetches)
+        env:
+          PERF_MAX_FETCHES: '0' # warm already populated the cache; just recompute
+          SECTOR_MAX: '0' # zero FMP calls — no API spend
+          PRICE_SKIP_LATEST_REFRESH: '1'
+        run: node src/performance.js || true
+
+      - name: Publish index (index files only)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/performance.json data/performance.md docs/positions.json
+          git add -f data/price_cache.json data/tracked_trades.json
+          git add -f data/sectors.json data/legislators.json data/committees_historical.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish."; exit 0
+          fi
+          # Never commit conflict markers — they corrupt positions.json and hang the site.
+          if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
+            echo "::error::Conflict markers staged — refusing to publish corrupted index"; exit 1
+          fi
+          git commit -m "chore: warm empty-shell tickers [skip ci]"
+          # Drop any other regenerated artifacts so a rebase can apply cleanly.
+          git checkout -f -- . 2>/dev/null || true
+          git clean -fdq 2>/dev/null || true
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              echo "pushed on attempt $i"; exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            git checkout -f -- . 2>/dev/null || true
+            git clean -fdq 2>/dev/null || true
+            sleep $((RANDOM % 8 + 4))
+          done
+          echo "::error::could not push after retries (concurrent writes); re-dispatch to retry"; exit 1
