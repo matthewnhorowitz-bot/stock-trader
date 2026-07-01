@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-01 00:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-01 01:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -36,8 +36,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Emily Randall | 88 | 0% | 5 |
 | Robert C. "Bobby" Scott | 87 | 0% | 7 |
 | Joseph D. Morelle | 87 | 0% | 7 |
-| Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
+| Lori Trahan | 85 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Sara Jacobs | 77 | 0% | 8 |
 | Judy Chu | 76 | 0% | 1 |
 | Tom Cole | 76 | 0% | 1 |
@@ -46,7 +46,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Sharice Davids | 75 | 0% | 1 |
 | Steve Cohen | 73 | 22% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 67 | 0% | 1 |
 | James P. McGovern | 64 | 0% | 1 |
 | Greg Landsman | 64 | 0% | 9 |
 | Shri Thanedar | 63 | 0% | 4 |
@@ -66,22 +66,22 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Terri A. Sewell | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
 | Jefferson Shreve | 32 | 0% | 8 |
-| David Kustoff | 31 | 50% | 4 |
 | Debbie Dingell | 30 | 43% | 7 |
+| David Kustoff | 30 | 50% | 4 |
 | Joe Courtney | 30 | 13% | 8 |
-| Dwight Evans | 26 | 57% | 7 |
-| Mike Kelly | 24 | 40% | 5 |
+| Dwight Evans | 25 | 57% | 7 |
 | Warren Davidson | 23 | 50% | 2 |
 | Susie Lee | 23 | 44% | 9 |
+| Mike Kelly | 23 | 40% | 5 |
 | Valerie Hoyle | 23 | 11% | 9 |
 | Katherine M. Clark | 22 | 38% | 8 |
 | Michael T. McCaul | 22 | 25% | 8 |
 | August Lee Pfluger | 22 | 25% | 4 |
-| Austin Scott | 20 | 0% | 7 |
 | Gary C. Peters | 20 | 75% | 8 |
 | Zoe Lofgren | 20 | 11% | 9 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
 | Pete Sessions | 19 | 30% | 10 |
+| Austin Scott | 19 | 0% | 7 |
 | Jerry Moran, | 19 | 43% | 7 |
 | Blake Moore | 17 | 50% | 6 |
 | David P. Joyce | 16 | 40% | 5 |
