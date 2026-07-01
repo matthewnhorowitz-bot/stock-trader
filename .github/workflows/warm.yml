@@ -8,14 +8,25 @@ name: Warm Empty-Shell Tickers (one-off)
 # large-caps (MMC, WBA, HBI, ...) that Yahoo prices instantly from a fresh runner IP;
 # acquired names (MMP, TWTR, PXD, ...) fall through to the Tiingo fallback.
 #
-# Like reprice.yml this is manual, alert-free (never runs the poller) and commits ONLY
-# the index files. Dispatch from the Actions tab or: gh workflow run warm.yml
+# Like reprice.yml this is alert-free (never runs the poller) and commits ONLY the index
+# files. Dispatch manually (Actions tab / gh workflow run warm.yml) or let the hourly
+# schedule drain the backlog automatically.
+#
+# The bulk of the recovery goes through Tiingo, whose free tier caps at ~50 symbols/hour,
+# so one pass can't price all ~590 acquired/404'd tickers at once. The hourly schedule
+# recovers a slice each run until the set is exhausted (then it's a ~2-min no-op that
+# commits nothing). REMOVE the `schedule:` block once coverage plateaus so it stops
+# spending Actions minutes on empty runs.
 on:
   workflow_dispatch:
     inputs:
       warm_max_fetches:
         description: 'Yahoo fetches for the warm pass (stay under ~5-6k throttle)'
         default: '5000'
+  schedule:
+    # Hourly at :35 (UTC) — off the notifier's :23 and off the busy top-of-hour. The
+    # shared writer-lock concurrency group serialises it against the notifier/reprice.
+    - cron: '35 * * * *'
 
 permissions:
   contents: write
@@ -37,6 +48,8 @@ jobs:
           cache: 'npm'
       - run: npm ci --omit=optional
 
+      # Pass 1: convert any remaining empty-shell tickers into proper `miss` tombstones
+      # (Yahoo 404s them), which routes them to the Tiingo drain in pass 2.
       - name: Warm empty-shell + uncached tickers (Yahoo, Tiingo fallback)
         env:
           PRICE_FROM: '2012-01-01'
@@ -44,6 +57,16 @@ jobs:
           # Tiingo fallback for acquired/delisted names Yahoo has purged (no-op if unset).
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
         run: node scripts/warmUncached.mjs || true
+
+      # Pass 2: drain the dead set (Yahoo-`miss` tickers) through Tiingo. This is where
+      # the acquired/404'd names (WBA, K, MMP, TWTR, ...) actually get priced. Tiingo's
+      # ~50/hr free-tier cap means each run recovers a slice and stops early when
+      # rate-limited; the hourly schedule resumes next hour until the set is drained.
+      - name: Drain dead set via Tiingo
+        env:
+          PRICE_FROM: '2012-01-01'
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+        run: node scripts/warmDeadTickers.mjs || true
 
       - name: Rebuild index from the warmed cache (no new fetches)
         env:
