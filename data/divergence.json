@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T15:01:15.887Z",
+  "generatedAt": "2026-07-01T16:09:59.097Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -822,9 +822,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.937,
+          "voteStance": 0.926,
           "portfolioStance": -1,
-          "divergence": 0.937,
+          "divergence": 0.926,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -940,9 +940,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.948,
+          "voteStance": 0.949,
           "portfolioStance": -1,
-          "divergence": 0.948,
+          "divergence": 0.949,
           "exposure": 150003,
           "aligned": false,
           "tickers": [
@@ -2086,15 +2086,15 @@
     {
       "member": "Lori Trahan",
       "chamber": "house",
-      "ds": 86,
+      "ds": 85,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.855,
+          "voteStance": 0.852,
           "portfolioStance": -1,
-          "divergence": 0.855,
+          "divergence": 0.852,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2112,7 +2112,7 @@
     {
       "member": "Scott DesJarlais",
       "chamber": "house",
-      "ds": 83,
+      "ds": 81,
       "alignmentRate": 0,
       "sectorsScored": 2,
       "sectors": [
@@ -2135,9 +2135,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.827,
+          "voteStance": 0.803,
           "portfolioStance": -1,
-          "divergence": 0.827,
+          "divergence": 0.803,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -2874,15 +2874,15 @@
     {
       "member": "David Rouzer",
       "chamber": "house",
-      "ds": 70,
+      "ds": 67,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.697,
+          "voteStance": 0.669,
           "portfolioStance": -1,
-          "divergence": 0.697,
+          "divergence": 0.669,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -4601,7 +4601,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.915,
+          "voteStance": 0.859,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -4874,40 +4874,6 @@
           }
         },
         {
-          "sector": "Industrials",
-          "voteStance": 0.852,
-          "portfolioStance": -0.28,
-          "divergence": 0.239,
-          "exposure": 917042,
-          "aligned": false,
-          "tickers": [
-            "EXPO",
-            "FBIN",
-            "GE",
-            "HUBB",
-            "PWR",
-            "RTX",
-            "UNP",
-            "UPS",
-            "CAT",
-            "DAL",
-            "TDG",
-            "ITT",
-            "HON",
-            "LMT",
-            "MMM",
-            "ADP",
-            "BA",
-            "DE"
-          ],
-          "example": {
-            "title": "Veteran Scam Victims Foundation Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Technology",
           "voteStance": 1,
           "portfolioStance": -0.234,
@@ -4960,6 +4926,40 @@
           }
         },
         {
+          "sector": "Industrials",
+          "voteStance": 0.807,
+          "portfolioStance": -0.28,
+          "divergence": 0.226,
+          "exposure": 917042,
+          "aligned": false,
+          "tickers": [
+            "EXPO",
+            "FBIN",
+            "GE",
+            "HUBB",
+            "PWR",
+            "RTX",
+            "UNP",
+            "UPS",
+            "CAT",
+            "DAL",
+            "TDG",
+            "ITT",
+            "HON",
+            "LMT",
+            "MMM",
+            "ADP",
+            "BA",
+            "DE"
+          ],
+          "example": {
+            "title": "Veteran Scam Victims Foundation Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Energy",
           "voteStance": 1,
           "portfolioStance": -0.131,
@@ -4980,84 +4980,6 @@
           ],
           "example": {
             "title": "Water Quality Standards Attainability Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "David Kustoff",
-      "chamber": "house",
-      "ds": 31,
-      "alignmentRate": 50,
-      "sectorsScored": 4,
-      "sectors": [
-        {
-          "sector": "Industrials",
-          "voteStance": 0.82,
-          "portfolioStance": -1,
-          "divergence": 0.82,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "GE"
-          ],
-          "example": {
-            "title": "Honoring the life, achievements, and legacy of Frederick W. Smith.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.8,
-          "portfolioStance": -1,
-          "divergence": 0.8,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "XOM"
-          ],
-          "example": {
-            "title": "Hatchie River Wild and Scenic River Study Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": 0.118,
-          "divergence": 0,
-          "exposure": 34006,
-          "aligned": true,
-          "tickers": [
-            "MSFT",
-            "AMD"
-          ],
-          "example": {
-            "title": "Cellphone Jamming Reform Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 15001,
-          "aligned": true,
-          "tickers": [
-            "AMZN"
-          ],
-          "example": {
-            "title": "DO NOT Call Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -5221,6 +5143,84 @@
           "example": {
             "title": "West Bank Violence Prevention Act of 2025",
             "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "David Kustoff",
+      "chamber": "house",
+      "ds": 30,
+      "alignmentRate": 50,
+      "sectorsScored": 4,
+      "sectors": [
+        {
+          "sector": "Energy",
+          "voteStance": 0.8,
+          "portfolioStance": -1,
+          "divergence": 0.8,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "XOM"
+          ],
+          "example": {
+            "title": "Hatchie River Wild and Scenic River Study Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.78,
+          "portfolioStance": -1,
+          "divergence": 0.78,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "GE"
+          ],
+          "example": {
+            "title": "Honoring the life, achievements, and legacy of Frederick W. Smith.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": 0.118,
+          "divergence": 0,
+          "exposure": 34006,
+          "aligned": true,
+          "tickers": [
+            "MSFT",
+            "AMD"
+          ],
+          "example": {
+            "title": "Cellphone Jamming Reform Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 15001,
+          "aligned": true,
+          "tickers": [
+            "AMZN"
+          ],
+          "example": {
+            "title": "DO NOT Call Act",
+            "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -5400,7 +5400,7 @@
     {
       "member": "Dwight Evans",
       "chamber": "house",
-      "ds": 26,
+      "ds": 25,
       "alignmentRate": 57,
       "sectorsScored": 7,
       "sectors": [
@@ -5426,9 +5426,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.882,
+          "voteStance": 0.878,
           "portfolioStance": -0.478,
-          "divergence": 0.422,
+          "divergence": 0.42,
           "exposure": 69006,
           "aligned": false,
           "tickers": [
@@ -5550,105 +5550,6 @@
       ]
     },
     {
-      "member": "Mike Kelly",
-      "chamber": "house",
-      "ds": 24,
-      "alignmentRate": 40,
-      "sectorsScored": 5,
-      "sectors": [
-        {
-          "sector": "Healthcare",
-          "voteStance": 0.946,
-          "portfolioStance": -1,
-          "divergence": 0.946,
-          "exposure": 17003,
-          "aligned": false,
-          "tickers": [
-            "EW",
-            "UNH",
-            "BMY"
-          ],
-          "example": {
-            "title": "Concurrent Care for Comfort Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.864,
-          "portfolioStance": -1,
-          "divergence": 0.864,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "CVX"
-          ],
-          "example": {
-            "title": "Washington’s Trail—1753 National Historic Trail Feasibility Study Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.504,
-          "portfolioStance": -1,
-          "divergence": 0.504,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "UNP"
-          ],
-          "example": {
-            "title": "To advance Thomas B. Hagen on the retired list of the Navy.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 0.467,
-          "portfolioStance": 0.961,
-          "divergence": 0,
-          "exposure": 51002,
-          "aligned": true,
-          "tickers": [
-            "INTC"
-          ],
-          "example": {
-            "title": "Access Technology Affordability Act of 2025",
-            "action": "sponsor",
-            "billStance": -1,
-            "recordStance": -1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 0.579,
-          "portfolioStance": 0.579,
-          "divergence": 0,
-          "exposure": 19005,
-          "aligned": true,
-          "tickers": [
-            "T",
-            "META",
-            "VZ",
-            "CMCSA"
-          ],
-          "example": {
-            "title": "Broadband Grant Tax Treatment Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Warren Davidson",
       "chamber": "house",
       "ds": 23,
@@ -5674,7 +5575,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.94,
+          "voteStance": 0.9,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -5917,6 +5818,105 @@
           "example": {
             "title": "Homeless Children and Youth Act of 2025",
             "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Mike Kelly",
+      "chamber": "house",
+      "ds": 23,
+      "alignmentRate": 40,
+      "sectorsScored": 5,
+      "sectors": [
+        {
+          "sector": "Healthcare",
+          "voteStance": 0.946,
+          "portfolioStance": -1,
+          "divergence": 0.946,
+          "exposure": 17003,
+          "aligned": false,
+          "tickers": [
+            "EW",
+            "UNH",
+            "BMY"
+          ],
+          "example": {
+            "title": "Concurrent Care for Comfort Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.864,
+          "portfolioStance": -1,
+          "divergence": 0.864,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "CVX"
+          ],
+          "example": {
+            "title": "Washington’s Trail—1753 National Historic Trail Feasibility Study Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.469,
+          "portfolioStance": -1,
+          "divergence": 0.469,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "UNP"
+          ],
+          "example": {
+            "title": "To advance Thomas B. Hagen on the retired list of the Navy.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 0.467,
+          "portfolioStance": 0.961,
+          "divergence": 0,
+          "exposure": 51002,
+          "aligned": true,
+          "tickers": [
+            "INTC"
+          ],
+          "example": {
+            "title": "Access Technology Affordability Act of 2025",
+            "action": "sponsor",
+            "billStance": -1,
+            "recordStance": -1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 0.579,
+          "portfolioStance": 0.579,
+          "divergence": 0,
+          "exposure": 19005,
+          "aligned": true,
+          "tickers": [
+            "T",
+            "META",
+            "VZ",
+            "CMCSA"
+          ],
+          "example": {
+            "title": "Broadband Grant Tax Treatment Act",
+            "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -6648,136 +6648,6 @@
       ]
     },
     {
-      "member": "Austin Scott",
-      "chamber": "house",
-      "ds": 20,
-      "alignmentRate": 0,
-      "sectorsScored": 7,
-      "sectors": [
-        {
-          "sector": "Utilities",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 5005,
-          "aligned": false,
-          "tickers": [
-            "GEV"
-          ],
-          "example": {
-            "title": "SOLAR Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.901,
-          "portfolioStance": -1,
-          "divergence": 0.901,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "XOM"
-          ],
-          "example": {
-            "title": "Providing for consideration of the bill (H.R. 3898) to amend the Federal Water Pollution Control Act to make targeted reforms with respect to waters of the United States and other matters, and for other purposes; providing for consideration of the bill (H.R. 3383) to amend the Investment Company Act of 1940 with respect to the authority of closed-end companies to invest in private funds; providing for consideration of the bill (H.R. 3638) to direct the Secretary of Energy to prepare periodic assessments and submit reports on the supply chain for the generation and transmission of electricity, and for other purposes; providing for consideration of the bill (H.R. 3628) to amend the Public Utility Regulatory Policies Act of 1978 to add a standard related to State consideration of reliable generation, and for other purposes; providing for consideration of the bill (H.R. 3668) to promote interagency coordination for reviewing certain authorizations under section 3 of the Natural Gas Act, and for other purposes; providing for consideration of the bill (S. 1071) to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes; and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -0.5,
-          "divergence": 0.5,
-          "exposure": 4004,
-          "aligned": false,
-          "tickers": [
-            "F"
-          ],
-          "example": {
-            "title": "Providing Assistance with the Paperwork from Excessive Regulations Act of 2012",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.917,
-          "portfolioStance": -0.324,
-          "divergence": 0.297,
-          "exposure": 74032,
-          "aligned": false,
-          "tickers": [
-            "PLUG",
-            "BE",
-            "GE"
-          ],
-          "example": {
-            "title": "Providing for consideration of the bill (H.R. 7567) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes; providing for consideration of the bill (H.R. 2616) to require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor’s gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms; providing for consideration of the concurrent resolution (S. Con. Res. 33) setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035; providing for consideration of the bill (S. 1318) to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes; providing for consideration of the bill (H.R. 1346) to amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes; and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": -0.103,
-          "portfolioStance": 1,
-          "divergence": 0.103,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "MSFT"
-          ],
-          "example": {
-            "title": "Stop Taxpayer Funded Cell Phones Act of 2014",
-            "action": "sponsor",
-            "billStance": -1,
-            "recordStance": -1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 30002,
-          "aligned": false,
-          "tickers": [
-            "JNJ"
-          ],
-          "example": {
-            "title": "Medicare Advantage Improvement Act of 2026",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 30002,
-          "aligned": false,
-          "tickers": [
-            "T"
-          ],
-          "example": {
-            "title": "Urging the Government of Nigeria to immediately release Tigran Gambaryan from imprisonment.",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Gary C. Peters",
       "chamber": "house",
       "ds": 20,
@@ -7475,6 +7345,136 @@
       ]
     },
     {
+      "member": "Austin Scott",
+      "chamber": "house",
+      "ds": 19,
+      "alignmentRate": 0,
+      "sectorsScored": 7,
+      "sectors": [
+        {
+          "sector": "Utilities",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 5005,
+          "aligned": false,
+          "tickers": [
+            "GEV"
+          ],
+          "example": {
+            "title": "SOLAR Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.901,
+          "portfolioStance": -1,
+          "divergence": 0.901,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "XOM"
+          ],
+          "example": {
+            "title": "Providing for consideration of the bill (H.R. 3898) to amend the Federal Water Pollution Control Act to make targeted reforms with respect to waters of the United States and other matters, and for other purposes; providing for consideration of the bill (H.R. 3383) to amend the Investment Company Act of 1940 with respect to the authority of closed-end companies to invest in private funds; providing for consideration of the bill (H.R. 3638) to direct the Secretary of Energy to prepare periodic assessments and submit reports on the supply chain for the generation and transmission of electricity, and for other purposes; providing for consideration of the bill (H.R. 3628) to amend the Public Utility Regulatory Policies Act of 1978 to add a standard related to State consideration of reliable generation, and for other purposes; providing for consideration of the bill (H.R. 3668) to promote interagency coordination for reviewing certain authorizations under section 3 of the Natural Gas Act, and for other purposes; providing for consideration of the bill (S. 1071) to require the Secretary of Veterans Affairs to disinter the remains of Fernando V. Cota from Fort Sam Houston National Cemetery, Texas, and for other purposes; and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -0.5,
+          "divergence": 0.5,
+          "exposure": 4004,
+          "aligned": false,
+          "tickers": [
+            "F"
+          ],
+          "example": {
+            "title": "Providing Assistance with the Paperwork from Excessive Regulations Act of 2012",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.893,
+          "portfolioStance": -0.324,
+          "divergence": 0.29,
+          "exposure": 74032,
+          "aligned": false,
+          "tickers": [
+            "PLUG",
+            "BE",
+            "GE"
+          ],
+          "example": {
+            "title": "Providing for consideration of the bill (H.R. 7567) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2031, and for other purposes; providing for consideration of the bill (H.R. 2616) to require public elementary and middle schools that receive funds under the Elementary and Secondary Education Act of 1965 to obtain parental consent before changing a minor’s gender markers, pronouns, or preferred name on any school form or sex-based accommodations, including locker rooms or bathrooms; providing for consideration of the concurrent resolution (S. Con. Res. 33) setting forth the congressional budget for the United States Government for fiscal year 2026 and setting forth the appropriate budgetary levels for fiscal years 2027 through 2035; providing for consideration of the bill (S. 1318) to direct the American Battle Monuments Commission to establish a program to identify American-Jewish servicemembers buried in United States military cemeteries overseas under markers that incorrectly represent their religion and heritage, and for other purposes; providing for consideration of the bill (H.R. 1346) to amend the Clean Air Act with respect to the ethanol waiver for Reid Vapor Pressure under that Act, and for other purposes; and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": -0.103,
+          "portfolioStance": 1,
+          "divergence": 0.103,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "MSFT"
+          ],
+          "example": {
+            "title": "Stop Taxpayer Funded Cell Phones Act of 2014",
+            "action": "sponsor",
+            "billStance": -1,
+            "recordStance": -1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 30002,
+          "aligned": false,
+          "tickers": [
+            "JNJ"
+          ],
+          "example": {
+            "title": "Medicare Advantage Improvement Act of 2026",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 30002,
+          "aligned": false,
+          "tickers": [
+            "T"
+          ],
+          "example": {
+            "title": "Urging the Government of Nigeria to immediately release Tigran Gambaryan from imprisonment.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Jerry Moran,",
       "chamber": "senate",
       "ds": 19,
@@ -7733,7 +7733,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.625,
+          "voteStance": 0.589,
           "portfolioStance": 0.429,
           "divergence": 0,
           "exposure": 7007,
@@ -8337,9 +8337,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.876,
+          "voteStance": 0.838,
           "portfolioStance": -0.055,
-          "divergence": 0.048,
+          "divergence": 0.046,
           "exposure": 1357033,
           "aligned": false,
           "tickers": [
@@ -8535,7 +8535,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.69,
+          "voteStance": 0.621,
           "portfolioStance": 0.71,
           "divergence": 0,
           "exposure": 1763062,
@@ -8911,9 +8911,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.925,
+          "voteStance": 0.888,
           "portfolioStance": -0.304,
-          "divergence": 0.282,
+          "divergence": 0.27,
           "exposure": 46004,
           "aligned": false,
           "tickers": [
@@ -9893,9 +9893,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.924,
+          "voteStance": 0.877,
           "portfolioStance": -0.265,
-          "divergence": 0.245,
+          "divergence": 0.233,
           "exposure": 49007,
           "aligned": false,
           "tickers": [
@@ -11253,9 +11253,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.915,
           "portfolioStance": -0.091,
-          "divergence": 0.084,
+          "divergence": 0.083,
           "exposure": 11011,
           "aligned": false,
           "tickers": [
@@ -11612,7 +11612,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 1,
+          "voteStance": 0.978,
           "portfolioStance": 0.048,
           "divergence": 0,
           "exposure": 21021,
@@ -11763,7 +11763,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.657,
+          "voteStance": 0.636,
           "portfolioStance": 0.144,
           "divergence": 0,
           "exposure": 222012,
@@ -12665,7 +12665,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.758,
+          "voteStance": 0.732,
           "portfolioStance": 0.2,
           "divergence": 0,
           "exposure": 20020,
@@ -14190,7 +14190,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.915,
+          "voteStance": 0.887,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -14753,7 +14753,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 1,
+          "voteStance": 0.967,
           "portfolioStance": 0.545,
           "divergence": 0,
           "exposure": 66003,
@@ -14963,7 +14963,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.818,
+          "voteStance": 0.79,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 11011,
@@ -15467,7 +15467,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.919,
+          "voteStance": 0.892,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 3003,
@@ -16055,7 +16055,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.778,
+          "voteStance": 0.783,
           "portfolioStance": 0.764,
           "divergence": 0,
           "exposure": 144046,
@@ -16451,9 +16451,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.922,
+          "voteStance": 0.87,
           "portfolioStance": -0.014,
-          "divergence": 0.013,
+          "divergence": 0.012,
           "exposure": 73073,
           "aligned": false,
           "tickers": [
@@ -16892,7 +16892,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.903,
+          "voteStance": 0.839,
           "portfolioStance": 0.5,
           "divergence": 0,
           "exposure": 16016,
@@ -17207,7 +17207,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.955,
+          "voteStance": 0.925,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 76006,
