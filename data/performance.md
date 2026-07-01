@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 18:28 UTC._
 
 ## Total
 
@@ -69,7 +69,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Debbie Wasserman Schultz | 92.3% | 32 |
 | Tina Smith | 90.1% | 5 |
 | Kathy Castor | 89.8% | 39 |
-| Hakeem S. Jeffries | 89.0% | 7 |
+| Hakeem S. Jeffries | 89.1% | 7 |
 | Stephen F. Lynch | 88.0% | 1 |
 | Michael K. Simpson | 87.3% | 29 |
 | Nancy Pelosi | 83.9% | 88 |
@@ -134,7 +134,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William R. Timmons | 34.2% | 4 |
 | Donald Sternoff Beyer | 33.8% | 371 |
 | Robert E. Latta | 32.9% | 19 |
-| Harold Dallas Rogers | 32.8% | 8 |
+| Harold Dallas Rogers | 32.7% | 8 |
 | Susan A. Davis | 32.6% | 31 |
 | Christopher L. Jacobs | 31.8% | 81 |
 | Daniel Crenshaw | 31.5% | 16 |
