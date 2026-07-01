@@ -1,11 +1,11 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 13:37 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-01 14:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 61.1%**
-- S&P 500 (SPY) over the same windows: 57.1%
+- S&P 500 (SPY) over the same windows: 56.7%
 - Priced positions: 23261  ·  still open: 10483  ·  awaiting price data: 2940
 - Price coverage: 88.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
@@ -46,7 +46,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Debbie Dingell | 158.4% | 88 |
 | John Hoeven | 146.1% | 125 |
 | Pat Roberts | 142.0% | 272 |
-| Deborah K. Ross | 140.2% | 20 |
+| Deborah K. Ross | 140.1% | 20 |
 | Thomas Suozzi | 133.1% | 255 |
 | James French Hill | 125.6% | 20 |
 | Lamar Smith | 125.0% | 190 |
@@ -74,8 +74,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katherine M. Clark | 86.6% | 138 |
 | Jim McDermott | 85.2% | 1 |
 | Nancy Pelosi | 83.9% | 88 |
-| David P. Joyce | 83.3% | 76 |
 | Dean Phillips | 83.3% | 313 |
+| David P. Joyce | 83.2% | 76 |
 | Peter Welch | 80.1% | 32 |
 | John Rutherford | 79.9% | 154 |
 | David A Perdue , Jr | 79.0% | 963 |
@@ -141,7 +141,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rohit Khanna | 32.2% | 126 |
 | Daniel Goldman | 31.8% | 345 |
 | Harold Dallas Rogers | 31.7% | 8 |
-| Daniel Crenshaw | 31.5% | 16 |
+| Daniel Crenshaw | 31.4% | 16 |
 | Steve Cohen | 31.3% | 20 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Peter Allen Stauber | 29.2% | 1 |
@@ -234,8 +234,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | George Miller | 0.8% | 1 |
 | Greg Stanton | 0.3% | 93 |
 | April McClain Delaney | 0.1% | 169 |
-| Thomas R. Suozzi | 0.0% | 1 |
 | Judy Chu | 0.0% | 1 |
+| Thomas R. Suozzi | 0.0% | 1 |
 | Kenneth R. Buck | -0.1% | 28 |
 | Tim Walberg | -0.2% | 13 |
 | Kenny Marchant | -0.7% | 38 |
