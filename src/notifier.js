@@ -216,5 +216,17 @@ export async function sendTestAlert() {
       source: 'TEST',
     },
   ];
+
+  // Require explicit opt-in so a stray `npm test` can't spam real channels.
+  // Does NOT affect the hourly poller: src/index.js calls notify() directly and
+  // never routes through here.
+  if (!/^(1|true|yes|on)$/i.test(process.env.ALLOW_TEST_ALERT || '')) {
+    console.log(
+      '⚠️  Test alert blocked (would send to real email/SMS).\n' +
+      '   To send one on purpose: set ALLOW_TEST_ALERT=true, then run npm test.'
+    );
+    return [];
+  }
+
   return notify(sample);
 }
