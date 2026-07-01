@@ -105,15 +105,35 @@ jobs:
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else
+            # Never commit conflict markers — they corrupt docs/positions.json and
+            # hang the site. Fail loudly rather than publishing a corrupted file.
+            if git diff --cached | grep -qE '^\+(<<<<<<<|>>>>>>>)'; then
+              echo "::error::Conflict markers staged — refusing to persist corrupted state"; exit 1
+            fi
             git commit -m "chore: update trade state [skip ci]"
-            # Pull first in case another job/push landed since checkout, so this
-            # push isn't rejected as non-fast-forward (it's why a run occasionally
-            # failed at the persist step). --autostash is belt-and-suspenders.
-            git pull --rebase --autostash origin main || true
-            # A stash-pop conflict from the pull above can leave conflict markers in
-            # the working tree. The commit already captured the clean state we want,
-            # so discard any leftover tracked-file changes before pushing — otherwise
-            # a later run could stage the markers and corrupt docs/positions.json.
+            # Our state is now captured in the commit; make the rest of the tree
+            # pristine so `git pull --rebase` won't refuse on leftover changes.
+            # (Safe: this is the job's last step, so cleaning node_modules is fine.)
             git checkout -f -- . 2>/dev/null || true
-            git push
+            git clean -fdq 2>/dev/null || true
+            # Land our commit on top of whatever is on main now, retrying the race
+            # window (a concurrent job or a manual push lands between checkout and
+            # push). These are all regenerated artifacts, so on a content conflict
+            # keep OUR fresh version: -X theirs — in a rebase "theirs" is the commit
+            # being replayed (ours). On any OTHER rebase failure, ABORT — otherwise
+            # git is left mid-rebase in detached HEAD and the push dies with
+            # "not currently on a branch" (exactly what failed the 7am run).
+            pushed=0
+            for i in 1 2 3 4 5; do
+              if git pull --rebase -X theirs origin main && git push; then
+                echo "pushed on attempt $i"; pushed=1; break
+              fi
+              git rebase --abort 2>/dev/null || true
+              git checkout -f -- . 2>/dev/null || true
+              git clean -fdq 2>/dev/null || true
+              sleep $((RANDOM % 8 + 4))
+            done
+            if [ "$pushed" != "1" ]; then
+              echo "::error::could not persist state after retries (concurrent writes)"; exit 1
+            fi
           fi
