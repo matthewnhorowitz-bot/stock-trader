@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-02 19:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-02 20:00 UTC._
 
 ## Total
 
@@ -20,7 +20,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ashley Moody | 446.0% | 3 |
 | Luis V. Gutierrez | 422.3% | 6 |
 | Brenda Lulenar Lawrence | 400.6% | 19 |
-| Barbara J Comstock | 391.1% | 29 |
+| Barbara J Comstock | 391.2% | 29 |
 | Roger W. Marshall | 281.6% | 45 |
 | Michael Fq San Nicolas | 273.8% | 1 |
 | Christopher A Coons | 259.9% | 2 |
@@ -35,7 +35,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | W. Greg Steube | 199.8% | 2 |
 | Michael T. McCaul | 196.8% | 106 |
 | David Cheston Rouzer | 194.2% | 8 |
-| Pete Sessions | 189.5% | 175 |
+| Pete Sessions | 189.6% | 175 |
 | Gary C. Peters | 182.3% | 7 |
 | Neal P. Dunn | 177.0% | 2 |
 | Rubén Hinojosa | 176.8% | 30 |
@@ -46,7 +46,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary Palmer | 151.1% | 179 |
 | Suzan K. DelBene | 148.1% | 70 |
 | Debbie Dingell | 147.2% | 97 |
-| John Hoeven | 142.7% | 128 |
+| John Hoeven | 142.8% | 128 |
 | Beto O'Rourke | 138.8% | 3 |
 | Pat Roberts | 138.4% | 285 |
 | Tammy Duckworth | 136.3% | 4 |
@@ -65,10 +65,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael K. Simpson | 100.4% | 33 |
 | David E. Price | 98.4% | 42 |
 | K. Michael Conaway | 96.9% | 282 |
+| Tina Smith | 96.1% | 5 |
 | Robert B. Aderholt | 95.7% | 1 |
 | John F Reed | 94.5% | 51 |
 | Debbie Wasserman Schultz | 93.6% | 32 |
-| Tina Smith | 91.3% | 5 |
 | Stephen F. Lynch | 90.7% | 1 |
 | Kathy Castor | 89.3% | 39 |
 | Hakeem S. Jeffries | 88.7% | 7 |
@@ -80,7 +80,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph Manchin, III | 78.2% | 1 |
 | John Rutherford | 78.1% | 163 |
 | Lloyd Doggett | 75.1% | 203 |
-| Katherine M. Clark | 74.8% | 155 |
+| Katherine M. Clark | 74.7% | 155 |
 | Brad Knott | 74.4% | 2 |
 | Vicente Gonzalez | 73.6% | 1 |
 | Peter Welch | 72.8% | 36 |
@@ -117,22 +117,22 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Angus S King, Jr. | 44.9% | 34 |
 | Mike Kelly | 44.4% | 8 |
 | Bob Gibbs | 44.4% | 92 |
-| Brian Mast | 43.2% | 25 |
+| Brian Mast | 43.0% | 25 |
 | John A. Yarmuth | 42.4% | 139 |
 | William R. Keating | 42.1% | 86 |
 | Josh Gottheimer | 42.0% | 1424 |
 | Rafael E Cruz | 41.5% | 3 |
 | Kelly Louise Morrison | 40.4% | 13 |
 | David B. McKinley | 39.7% | 195 |
+| Aston Donald McEachin | 39.3% | 6 |
 | John Fetterman | 39.1% | 8 |
 | Susan W. Brooks | 38.6% | 12 |
-| Aston Donald McEachin | 38.5% | 6 |
 | Harley E. Rouda | 38.1% | 3 |
 | Jim McDermott | 37.1% | 2 |
 | Joe Courtney | 36.5% | 72 |
 | Marjorie Taylor Greene | 34.3% | 483 |
 | William R. Timmons | 34.3% | 4 |
-| Donald Sternoff Beyer | 34.1% | 371 |
+| Donald Sternoff Beyer | 34.2% | 371 |
 | Earl Leroy Carter | 33.7% | 1 |
 | James E. Banks | 33.4% | 14 |
 | Daniel Crenshaw | 31.7% | 16 |
@@ -143,7 +143,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Goldman | 31.4% | 366 |
 | Sara Jacobs | 31.2% | 10 |
 | Susan A. Davis | 31.2% | 32 |
-| Thomas H Tuberville | 30.4% | 464 |
+| Thomas H Tuberville | 30.3% | 464 |
 | Kim Schrier | 30.0% | 3 |
 | Linda T. Sanchez | 29.9% | 3 |
 | John W. Rose | 29.0% | 1 |
@@ -185,8 +185,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Zoe Lofgren | 15.4% | 158 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Rick Larsen | 15.2% | 41 |
+| Roger Williams | 15.2% | 12 |
 | Francis Rooney | 15.1% | 19 |
-| Roger Williams | 15.0% | 12 |
 | Jefferson Shreve | 14.7% | 173 |
 | James M Inhofe | 14.7% | 76 |
 | Brad Ashford | 13.1% | 5 |
@@ -195,8 +195,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick Fallon | 12.4% | 56 |
 | Frank A. LoBiondo | 12.2% | 8 |
 | David P. Roe | 11.8% | 15 |
-| John Boozman | 11.8% | 215 |
 | Thomas J. Rooney | 11.8% | 239 |
+| John Boozman | 11.8% | 215 |
 | Peter Meijer | 11.4% | 18 |
 | Cliff Bentz | 11.1% | 2 |
 | Mick Mulvaney | 9.7% | 4 |
