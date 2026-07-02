@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-02 10:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-02 10:15 UTC._
 
 ## Total
 
@@ -110,8 +110,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dan Newhouse | 50.7% | 98 |
 | Virginia Foxx | 50.2% | 593 |
 | Mike Kelly | 49.5% | 7 |
-| Susie Lee | 49.0% | 597 |
 | Gilbert Cisneros | 49.0% | 1411 |
+| Susie Lee | 49.0% | 597 |
 | Tim Moore | 48.1% | 158 |
 | Angus S King, Jr. | 45.9% | 34 |
 | Brian Mast | 45.0% | 24 |
@@ -176,8 +176,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cleo Fields | 17.8% | 179 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Cynthia M Lummis | 16.4% | 1 |
-| Byron Donalds | 15.8% | 43 |
 | Patrick J Toomey | 15.8% | 80 |
+| Byron Donalds | 15.6% | 43 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Roger Williams | 15.0% | 12 |
@@ -263,7 +263,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Yoder | -20.1% | 6 |
 | Billy Long | -21.9% | 1 |
 | Shri Thanedar | -31.8% | 1 |
-| David H McCormick | -32.0% | 24 |
+| David H McCormick | -32.1% | 24 |
 | David Madison Cawthorn | -34.7% | 15 |
 | Steve Knight | -43.3% | 3 |
 | Felix Barry Moore | -44.2% | 5 |
