@@ -13,12 +13,13 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
 import { readState, writeState, writeText } from './stateStore.js';
-import { priceClose, priceLatest, savePriceCache, fetchesUsed, tiingoUsed } from './priceCache.js';
+import { priceClose, priceLatest, savePriceCache, fetchesUsed, tiingoUsed, BENCH } from './priceCache.js';
 import { getDepartures } from './legislators.js';
 import { committeesFor, getProfiles, profile, overlapsFor } from './enrich.js';
 import { getHistoricalCommittees } from './committeesHistorical.js';
 
-const BENCH = 'SPY';
+// BENCH (the S&P benchmark symbol) is defined in priceCache.js so the Bloomberg SPX
+// override and this module agree on the sentinel.
 
 // Semi-annual rebalance boundaries (Jan 1 / Jul 1) from the STOCK Act era to today.
 // The index front end measures each period's return between consecutive boundaries

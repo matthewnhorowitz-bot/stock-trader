@@ -22,6 +22,12 @@ import { readState, writeState } from './stateStore.js';
 import { canonicalTicker, isRemapped } from './tickerAliases.js';
 import { manualClose, manualLatest } from './manualPrices.js';
 import { fetchTiingoSeries, tiingoEnabled } from './sources/tiingo.js';
+import { ensureBench, hasBench, benchAt, benchLatest } from './sources/bloombergSpx.js';
+
+// Benchmark symbol (S&P 500). When data/bloomberg_spx.json is present it's served
+// from the Bloomberg SPX total-return series (bloombergSpx.js); otherwise it falls
+// through to Yahoo's SPY adjusted-close like any other ticker.
+export const BENCH = 'SPY';
 
 const CACHE = 'price_cache.json';
 const FROM = process.env.PRICE_FROM || '2012-01-01'; // STOCK Act era; override to limit history
@@ -217,6 +223,12 @@ function nearestOnOrAfter(map, date) {
 // Closing price on/after `date`; persists just that resolved point. null if unavailable.
 export async function priceClose(ticker, date, maxFetches = Infinity) {
   if (!ticker || !date) return null;
+  // S&P benchmark: serve from the committed Bloomberg SPX total-return series when
+  // present (authoritative), else fall through to the Yahoo SPY path below.
+  if (ticker === BENCH && (await ensureBench()) && hasBench()) {
+    const b = benchAt(date);
+    if (b != null) return b;
+  }
   ticker = canonicalTicker(ticker); // BF.B->BF-B, KORS->CPRI, etc. (cache keyed by canonical)
   await load();
   const e = entry(ticker);
@@ -238,6 +250,11 @@ export async function priceClose(ticker, date, maxFetches = Infinity) {
 // that frees the fetch budget for uncached/old tickers.
 export async function priceLatest(ticker, maxFetches = Infinity) {
   if (!ticker) return null;
+  // S&P benchmark: mark open positions to the latest Bloomberg SPX level when present.
+  if (ticker === BENCH && (await ensureBench()) && hasBench()) {
+    const b = benchLatest();
+    if (b != null) return b;
+  }
   ticker = canonicalTicker(ticker);
   await load();
   const e = entry(ticker);
