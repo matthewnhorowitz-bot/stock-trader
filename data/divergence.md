@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-02 08:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-02 09:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -37,10 +37,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 89 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 7 |
-| Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
+| Lori Trahan | 85 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
 | Victoria Spartz | 81 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | John W Hickenlooper | 80 | 14% | 7 |
 | Judy Chu | 76 | 0% | 1 |
 | Tom Cole | 76 | 0% | 1 |
@@ -49,7 +49,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Sharice Davids | 75 | 0% | 1 |
 | Steve Cohen | 73 | 20% | 10 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 67 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
 | Shri Thanedar | 64 | 0% | 4 |
@@ -71,17 +71,17 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Terri A. Sewell | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
 | Debbie Dingell | 30 | 29% | 7 |
-| Dwight Evans | 28 | 29% | 7 |
 | Joe Courtney | 28 | 13% | 8 |
-| David Kustoff | 26 | 25% | 4 |
-| Mike Kelly | 24 | 40% | 5 |
+| Dwight Evans | 27 | 29% | 7 |
+| David Kustoff | 25 | 25% | 4 |
 | Warren Davidson | 23 | 50% | 2 |
+| Mike Kelly | 23 | 40% | 5 |
 | Katherine M. Clark | 22 | 38% | 8 |
 | Michael T. McCaul | 22 | 25% | 8 |
 | Valerie Hoyle | 22 | 22% | 9 |
-| Austin Scott | 20 | 0% | 7 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
 | Pete Sessions | 19 | 40% | 10 |
+| Austin Scott | 19 | 0% | 7 |
 | Gary C. Peters | 19 | 75% | 8 |
 | Susie Lee | 19 | 44% | 9 |
 | Jerry Moran, | 19 | 43% | 7 |
