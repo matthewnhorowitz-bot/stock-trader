@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-02 21:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-02 21:48 UTC._
 
 ## Total
 
@@ -137,10 +137,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 33.4% | 14 |
 | Daniel Crenshaw | 31.7% | 16 |
 | Harold Dallas Rogers | 31.7% | 8 |
+| Steve Cohen | 31.6% | 20 |
 | Christopher L. Jacobs | 31.5% | 86 |
-| Steve Cohen | 31.5% | 20 |
+| Daniel Goldman | 31.5% | 366 |
 | Robert E. Latta | 31.4% | 22 |
-| Daniel Goldman | 31.4% | 366 |
 | Sara Jacobs | 31.2% | 10 |
 | Susan A. Davis | 31.2% | 32 |
 | Thomas H Tuberville | 30.5% | 464 |
@@ -184,7 +184,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Zoe Lofgren | 15.4% | 158 |
 | Maria Elvira Salazar | 15.3% | 53 |
 | Trey Hollingsworth | 15.3% | 54 |
-| Rick Larsen | 15.2% | 41 |
+| Rick Larsen | 15.3% | 41 |
 | Roger Williams | 15.2% | 12 |
 | Francis Rooney | 15.1% | 19 |
 | Jefferson Shreve | 14.7% | 173 |
