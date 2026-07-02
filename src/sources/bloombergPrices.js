@@ -70,3 +70,11 @@ export function bbLatest(ticker) {
   const e = series && series[ticker];
   return e ? (e.latest ?? null) : null;
 }
+
+// Delisting/acquisition date (last date the security actually traded) when the name is
+// dead, else null. performance.js force-closes open positions here so an acquired stock
+// isn't marked to a carried-forward value for years after the deal closed.
+export function bbLastTrade(ticker) {
+  const e = series && series[ticker];
+  return e && e.lastTrade ? e.lastTrade : null;
+}

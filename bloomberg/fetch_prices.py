@@ -84,14 +84,16 @@ def start_session():
     return session
 
 
-def ref_name(session, security):
-    """Return the security's NAME if it resolves, else None."""
+def resolve_ref(session, security):
+    """Return (NAME, MARKET_STATUS) if the security resolves, else (None, None).
+    MARKET_STATUS ('ACQU'/'DELS'/... vs 'ACTV') flags whether the name is acquired/delisted."""
     svc = session.getService("//blp/refdata")
     req = svc.createRequest("ReferenceDataRequest")
     req.getElement("securities").appendValue(security)
-    req.getElement("fields").appendValue("NAME")
+    for fld in ("NAME", "MARKET_STATUS"):
+        req.getElement("fields").appendValue(fld)
     session.sendRequest(req)
-    name = None
+    name, status = None, None
     done = False
     while not done:
         ev = session.nextEvent(15000)
@@ -106,9 +108,24 @@ def ref_name(session, security):
                 fd = sd.getElement("fieldData")
                 if fd.hasElement("NAME"):
                     name = fd.getElementAsString("NAME")
+                if fd.hasElement("MARKET_STATUS"):
+                    status = fd.getElementAsString("MARKET_STATUS")
         if ev.eventType() == blpapi.Event.RESPONSE:
             done = True
-    return name
+    return name, status
+
+
+def last_change_date(pts):
+    """Last date the value actually changed. After a security is acquired/delisted its
+    TOT_RETURN value is carried forward flat (ALL_CALENDAR_DAYS/PREVIOUS_VALUE), so the
+    last real change is the delisting date. Also skips weekend/holiday fill naturally."""
+    dates = sorted(pts)
+    last, prev = dates[0], None
+    for d in dates:
+        if pts[d] != prev:
+            last = d
+            prev = pts[d]
+    return last
 
 
 def hist(session, security, start_date, end_date):
@@ -145,19 +162,31 @@ def hist(session, security, start_date, end_date):
 
 
 def resolve_one(session, raw, start_date, end_date, verbose):
+    end_iso = f"{end_date[0:4]}-{end_date[4:6]}-{end_date[6:8]}"
     for sec in candidates(raw):
-        name = ref_name(session, sec)
+        name, status = resolve_ref(session, sec)
         if not name:
             continue
         pts = hist(session, sec, start_date, end_date)
         if pts:
+            # Delisting date = last date the value changed, when that's meaningfully before
+            # today (>21 days) — i.e. the series flat-lined because trading stopped. A live
+            # name keeps changing to ~today, so lastTrade stays null (no force-close).
+            lc = last_change_date(pts)
+            delisted = lc < prior_days(end_iso, 21)
+            last_trade = lc if delisted else None
             if verbose:
                 dates = sorted(pts)
-                print(f"  OK   {raw:<10} -> {sec:<18} [{name[:34]:<34}] {len(pts):>4} pts {dates[0]}..{dates[-1]}")
-            return {"security": sec, "name": name, "d": pts}
+                tag = f"  DELIST {lc} [{status}]" if delisted else ""
+                print(f"  OK   {raw:<10} -> {sec:<18} [{name[:28]:<28}] {len(pts):>4}pts {dates[0]}..{dates[-1]}{tag}")
+            return {"security": sec, "name": name, "d": pts, "lastTrade": last_trade}
     if verbose:
         print(f"  MISS {raw:<10} (no resolving Bloomberg security)")
     return None
+
+
+def prior_days(iso_date, n):
+    return (dt.date.fromisoformat(iso_date) - dt.timedelta(days=n)).isoformat()
 
 
 def main():
@@ -194,6 +223,9 @@ def main():
                     "last": dates[-1],
                     "latest": got["d"][dates[-1]],
                     "latestDate": dates[-1],
+                    # delisting date (Bloomberg LAST_TRADEABLE_DT) when in the past — the Node
+                    # side force-closes open positions here instead of marking them forward.
+                    "lastTrade": got.get("lastTrade"),
                 }
                 resolved.append(raw)
             else:

@@ -14,6 +14,8 @@ import { fileURLToPath } from 'node:url';
 import { config } from './config.js';
 import { readState, writeState, writeText } from './stateStore.js';
 import { priceClose, priceLatest, savePriceCache, fetchesUsed, tiingoUsed, BENCH } from './priceCache.js';
+import { canonicalTicker } from './tickerAliases.js';
+import { ensureBBPrices, bbLastTrade } from './sources/bloombergPrices.js';
 import { getDepartures } from './legislators.js';
 import { committeesFor, getProfiles, profile, overlapsFor } from './enrich.js';
 import { getHistoricalCommittees } from './committeesHistorical.js';
@@ -176,6 +178,24 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   }
   console.log(`[perf] force-closed ${forcedClosed} open position(s) of departed members`);
 
+  // Force-close open positions in DELISTED/ACQUIRED tickers at the security's last trading
+  // date (from the Bloomberg overlay). Otherwise an acquired name (e.g. ATVI, PXD, MN) is
+  // marked to a value carried forward for years after the deal closed, inflating returns —
+  // the copyable position really ended at the buyout. Mirrors the departed-member close.
+  await ensureBBPrices();
+  let delistedClosed = 0;
+  for (const p of positions) {
+    if (p.closed) continue;
+    const lt = bbLastTrade(canonicalTicker(p.ticker));
+    if (lt && lt > p.entry) {
+      p.exit = lt;
+      p.closed = true;
+      p.delisted = true;
+      delistedClosed++;
+    }
+  }
+  console.log(`[perf] force-closed ${delistedClosed} open position(s) in delisted tickers`);
+
   // Price each position (copyable return) + SPY over the same window. Fetches are
   // lazy + bounded inside priceCache; SPY is pre-warmed so the benchmark resolves.
   // Price RECENT positions first so the limited daily fetch budget reaches 2022+
@@ -326,6 +346,7 @@ async function writePositions(priced, boundaries, spyClose, totals = null) {
     marks: p.marks || [], // [[boundaryIndex, growthVsEntry], ...]
     ...(p.ov === undefined ? {} : { ov: p.ov }), // committee-sector overlap: 1/0
     ...(p.departed ? { departed: 1 } : {}), // closed because the member left office
+    ...(p.delisted ? { delisted: 1 } : {}), // closed at the ticker's delisting/acquisition date
   }));
   const out = { generatedAt: new Date().toISOString(), boundaries, spy: spyClose, coverage: totals, positions: rows };
   const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
