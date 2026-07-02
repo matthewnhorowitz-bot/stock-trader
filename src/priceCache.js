@@ -23,6 +23,7 @@ import { canonicalTicker, isRemapped } from './tickerAliases.js';
 import { manualClose, manualLatest } from './manualPrices.js';
 import { fetchTiingoSeries, tiingoEnabled } from './sources/tiingo.js';
 import { ensureBench, hasBench, benchAt, benchLatest } from './sources/bloombergSpx.js';
+import { ensureBBPrices, bbClose, bbLatest } from './sources/bloombergPrices.js';
 
 // Benchmark symbol (S&P 500). When data/bloomberg_spx.json is present it's served
 // from the Bloomberg SPX total-return series (bloombergSpx.js); otherwise it falls
@@ -233,6 +234,17 @@ export async function priceClose(ticker, date, maxFetches = Infinity) {
   await load();
   const e = entry(ticker);
   if (e.d[date] != null) return e.d[date];
+  // Bloomberg overlay: prices for Yahoo/Tiingo-dead tickers (delisted/acquired/404),
+  // guarded to the security's covered range so a recycled ticker can't misprice an
+  // earlier trade. Persist the resolved point so it lands in the cache like any other.
+  if ((await ensureBBPrices())) {
+    const bb = bbClose(ticker, date);
+    if (bb != null) {
+      e.d[date] = bb;
+      e.src = 'bloomberg';
+      return bb;
+    }
+  }
   const man = await manualClose(ticker, date); // delisted/purged tickers (no Yahoo data)
   if (man != null) {
     e.d[date] = man;
@@ -258,6 +270,11 @@ export async function priceLatest(ticker, maxFetches = Infinity) {
   ticker = canonicalTicker(ticker);
   await load();
   const e = entry(ticker);
+  // Bloomberg overlay: a delisted/dead ticker's last Bloomberg level is its final price.
+  if ((await ensureBBPrices())) {
+    const bb = bbLatest(ticker);
+    if (bb != null) return bb;
+  }
   if (series.has(ticker)) return e.latest ?? null; // already fetched this run
   // A delisted ticker's last price never changes — a Tiingo-sourced latest is final,
   // so reuse it forever instead of re-fetching every run.
