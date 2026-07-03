@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 06:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 07:01 UTC._
 
 ## Total
 
@@ -124,15 +124,15 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rafael E Cruz | 41.5% | 3 |
 | Kelly Louise Morrison | 40.4% | 13 |
 | David B. McKinley | 39.7% | 195 |
-| Aston Donald McEachin | 39.3% | 6 |
+| Aston Donald McEachin | 39.6% | 6 |
 | John Fetterman | 39.1% | 8 |
 | Susan W. Brooks | 38.6% | 12 |
 | Harley E. Rouda | 38.1% | 3 |
 | Jim McDermott | 37.1% | 2 |
 | Joe Courtney | 36.6% | 72 |
+| Daniel Crenshaw | 34.4% | 16 |
 | Marjorie Taylor Greene | 34.3% | 483 |
 | William R. Timmons | 34.3% | 4 |
-| Daniel Crenshaw | 34.3% | 16 |
 | Donald Sternoff Beyer | 34.2% | 371 |
 | Earl Leroy Carter | 33.7% | 1 |
 | James E. Banks | 33.4% | 14 |
@@ -153,7 +153,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Donna Shalala | 27.5% | 167 |
 | Earl Blumenauer | 27.4% | 232 |
-| Charles J. Chuck Fleischmann | 26.4% | 57 |
+| Charles J. Chuck Fleischmann | 26.2% | 57 |
 | Kathy Manning | 25.8% | 275 |
 | Julia Letlow | 25.6% | 154 |
 | Richard Dean McCormick | 24.8% | 67 |
@@ -179,8 +179,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cynthia M Lummis | 16.4% | 1 |
 | Mo Brooks | 16.4% | 41 |
 | Laurel Lee | 16.2% | 7 |
+| Byron Donalds | 15.8% | 43 |
 | Patrick J Toomey | 15.8% | 80 |
-| Byron Donalds | 15.7% | 43 |
 | Zoe Lofgren | 15.3% | 158 |
 | Maria Elvira Salazar | 15.3% | 53 |
 | Trey Hollingsworth | 15.3% | 54 |
@@ -192,7 +192,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Ashford | 13.1% | 5 |
 | Julie Johnson | 13.0% | 79 |
 | Mikie Sherrill | 12.5% | 38 |
-| Patrick Fallon | 12.4% | 56 |
+| Patrick Fallon | 12.3% | 56 |
 | Frank A. LoBiondo | 12.2% | 8 |
 | David P. Roe | 11.8% | 15 |
 | John Boozman | 11.8% | 215 |

@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-03 06:09 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-03 07:01 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -39,17 +39,17 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Stephanie Bice | 89 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 8 |
 | Sharice Davids | 87 | 0% | 2 |
-| Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
+| Lori Trahan | 85 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
 | Victoria Spartz | 81 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | John W Hickenlooper | 80 | 14% | 7 |
 | Sara Jacobs | 77 | 0% | 9 |
 | Tom Cole | 76 | 0% | 1 |
 | Dave Min | 76 | 0% | 1 |
 | Steve Cohen | 73 | 20% | 10 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 67 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
 | Shri Thanedar | 64 | 0% | 4 |
@@ -72,15 +72,15 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Debbie Dingell | 29 | 13% | 8 |
 | Dwight Evans | 27 | 38% | 8 |
 | Judy Chu | 27 | 0% | 2 |
-| David Kustoff | 26 | 25% | 4 |
+| David Kustoff | 25 | 25% | 4 |
 | Joe Courtney | 24 | 13% | 8 |
 | Mike Kelly | 24 | 33% | 6 |
 | Warren Davidson | 23 | 50% | 2 |
 | Katherine M. Clark | 22 | 38% | 8 |
-| Austin Scott | 20 | 0% | 7 |
 | August Lee Pfluger | 20 | 40% | 5 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
 | Pete Sessions | 19 | 40% | 10 |
+| Austin Scott | 19 | 0% | 7 |
 | Gary C. Peters | 18 | 75% | 8 |
 | Angus S King, Jr. | 18 | 43% | 7 |
 | Zoe Lofgren | 18 | 11% | 9 |
