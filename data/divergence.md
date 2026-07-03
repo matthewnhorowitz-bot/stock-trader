@@ -40,9 +40,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 88 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 8 |
-| Lori Trahan | 85 | 0% | 1 |
+| Lori Trahan | 86 | 0% | 1 |
+| Victoria Spartz | 82 | 0% | 1 |
 | Dave Min | 82 | 0% | 1 |
-| Victoria Spartz | 81 | 0% | 1 |
 | Scott DesJarlais | 81 | 0% | 2 |
 | John W Hickenlooper | 80 | 14% | 7 |
 | Sara Jacobs | 79 | 0% | 9 |
