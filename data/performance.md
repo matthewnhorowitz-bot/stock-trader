@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 07:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 08:01 UTC._
 
 ## Total
 
@@ -137,7 +137,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Earl Leroy Carter | 33.7% | 1 |
 | James E. Banks | 33.4% | 14 |
 | Daniel Goldman | 31.7% | 366 |
-| Steve Cohen | 31.4% | 20 |
+| Steve Cohen | 31.5% | 20 |
 | Robert E. Latta | 31.4% | 22 |
 | Harold Dallas Rogers | 31.3% | 8 |
 | Sara Jacobs | 31.2% | 10 |
@@ -153,7 +153,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Donna Shalala | 27.5% | 167 |
 | Earl Blumenauer | 27.4% | 232 |
-| Charles J. Chuck Fleischmann | 26.2% | 57 |
+| Charles J. Chuck Fleischmann | 26.1% | 57 |
 | Kathy Manning | 25.8% | 275 |
 | Julia Letlow | 25.6% | 154 |
 | Richard Dean McCormick | 24.8% | 67 |
