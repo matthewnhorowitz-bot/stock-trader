@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 05:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 06:01 UTC._
 
 ## Total
 
@@ -36,7 +36,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael T. McCaul | 197.2% | 106 |
 | David Cheston Rouzer | 194.2% | 8 |
 | Pete Sessions | 189.5% | 175 |
-| Gary C. Peters | 182.3% | 7 |
+| Gary C. Peters | 182.0% | 7 |
 | Neal P. Dunn | 177.0% | 2 |
 | Rubén Hinojosa | 176.8% | 30 |
 | Warren Davidson | 172.3% | 2 |
