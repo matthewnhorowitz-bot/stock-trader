@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-03 20:06 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-03 20:37 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -20,37 +20,38 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | David Taylor | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 2 |
 | Frank Pallone | 99 | 0% | 6 |
-| Thomas R Tillis | 97 | 0% | 5 |
+| Thomas R Tillis | 97 | 0% | 6 |
 | Tina Smith | 97 | 0% | 3 |
 | John W. Rose | 97 | 0% | 2 |
 | Raul Ruiz | 96 | 0% | 4 |
 | George Whitesides | 96 | 0% | 7 |
 | Lloyd K. Smucker | 95 | 0% | 5 |
 | Gus M. Bilirakis | 95 | 0% | 4 |
-| John B. Larson | 93 | 0% | 6 |
 | John Garamendi | 93 | 0% | 3 |
 | Adam Smith | 93 | 0% | 7 |
 | Robert C. "Bobby" Scott | 92 | 0% | 7 |
+| John B. Larson | 92 | 0% | 7 |
 | Brian Babin | 92 | 0% | 1 |
 | Jake Auchincloss | 92 | 0% | 1 |
 | Lance Gooden | 91 | 0% | 2 |
-| Emily Randall | 91 | 0% | 5 |
+| Emily Randall | 91 | 0% | 6 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 89 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 8 |
 | Sharice Davids | 87 | 0% | 2 |
-| Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
+| Lori Trahan | 85 | 0% | 1 |
+| Marc A. Veasey | 82 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
 | Victoria Spartz | 81 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Sara Jacobs | 77 | 0% | 9 |
 | John W Hickenlooper | 77 | 14% | 7 |
 | Tom Cole | 76 | 0% | 1 |
 | Dave Min | 76 | 0% | 1 |
 | Steve Cohen | 73 | 20% | 10 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 67 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
 | Shri Thanedar | 64 | 0% | 4 |
@@ -70,47 +71,47 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Christopher A Coons | 33 | 0% | 1 |
 | Terri A. Sewell | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
-| Debbie Dingell | 29 | 13% | 8 |
+| Debbie Dingell | 27 | 25% | 8 |
 | Dwight Evans | 27 | 38% | 8 |
 | Judy Chu | 27 | 0% | 2 |
-| David Kustoff | 26 | 25% | 4 |
+| David Kustoff | 25 | 25% | 4 |
 | Joe Courtney | 24 | 13% | 8 |
-| Mike Kelly | 24 | 33% | 6 |
 | Pete Sessions | 23 | 40% | 10 |
 | Warren Davidson | 23 | 50% | 2 |
 | Katherine M. Clark | 22 | 38% | 8 |
 | Angus S King, Jr. | 21 | 38% | 8 |
-| Austin Scott | 20 | 0% | 7 |
 | August Lee Pfluger | 20 | 40% | 5 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
+| Austin Scott | 19 | 0% | 7 |
 | Zoe Lofgren | 19 | 11% | 9 |
-| Michael K. Simpson | 18 | 29% | 7 |
 | Jerry Moran, | 18 | 43% | 7 |
+| Mike Kelly | 18 | 29% | 7 |
 | Valerie Hoyle | 18 | 22% | 9 |
 | Gary C. Peters | 17 | 63% | 8 |
-| David P. Joyce | 16 | 20% | 5 |
 | John Curtis | 16 | 56% | 9 |
 | Lois Frankel | 15 | 11% | 9 |
 | Virginia Foxx | 14 | 22% | 9 |
 | Tim Moore | 14 | 50% | 8 |
-| Susie Lee | 13 | 44% | 9 |
-| Michael T. McCaul | 13 | 38% | 8 |
 | Blake Moore | 13 | 57% | 7 |
+| Susie Lee | 12 | 44% | 9 |
+| Michael T. McCaul | 12 | 38% | 8 |
 | Jared Moskowitz | 12 | 56% | 9 |
+| Michael K. Simpson | 10 | 29% | 7 |
 | John Fetterman | 10 | 80% | 5 |
-| Sheri Biggs | 10 | 33% | 9 |
+| David P. Joyce | 9 | 40% | 5 |
+| Sheri Biggs | 9 | 33% | 9 |
 | Scott H. Peters | 8 | 38% | 8 |
+| Gilbert Cisneros | 8 | 78% | 9 |
 | Kevin Hern | 8 | 67% | 9 |
 | Thomas H Tuberville | 8 | 25% | 8 |
 | Daniel Meuser | 7 | 17% | 6 |
 | Scott Franklin | 7 | 86% | 7 |
-| Gilbert Cisneros | 6 | 78% | 9 |
 | Roger Williams | 5 | 20% | 5 |
 | Robert J. Wittman | 4 | 50% | 8 |
 | Patty Murray | 4 | 13% | 8 |
-| John Rutherford | 4 | 56% | 9 |
 | Thomas H. Kean | 4 | 78% | 9 |
 | Byron Donalds | 4 | 67% | 6 |
+| John Rutherford | 3 | 56% | 9 |
 | Rick Larsen | 3 | 50% | 8 |
 | John James | 3 | 40% | 10 |
 | John Hoeven | 1 | 86% | 7 |
@@ -120,7 +121,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Rohit Khanna | 1 | 89% | 9 |
 | Jonathan Jackson | 1 | 90% | 10 |
 | Bruce Westerman | 1 | 75% | 8 |
-| Susan M Collins | 0 | 78% | 9 |
+| Susan M Collins | 0 | 67% | 9 |
 | Lloyd Doggett | 0 | 100% | 4 |
 | Suzan K. DelBene | 0 | 67% | 6 |
 | John Cornyn | 0 | 0% | 1 |

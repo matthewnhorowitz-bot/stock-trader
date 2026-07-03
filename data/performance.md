@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 20:37 UTC._
 
 ## Total
 
@@ -140,7 +140,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Cohen | 31.5% | 20 |
 | Sara Jacobs | 31.4% | 10 |
 | Robert E. Latta | 31.4% | 22 |
-| Harold Dallas Rogers | 31.3% | 8 |
+| Harold Dallas Rogers | 31.2% | 8 |
 | Susan A. Davis | 31.2% | 32 |
 | Christopher L. Jacobs | 31.0% | 86 |
 | Thomas H Tuberville | 30.5% | 464 |
