@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 08:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 08:40 UTC._
 
 ## Total
 
@@ -158,8 +158,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julia Letlow | 25.6% | 154 |
 | Richard Dean McCormick | 24.8% | 67 |
 | Peter Allen Stauber | 24.5% | 1 |
-| Austin Scott | 24.4% | 38 |
 | Ashley Hinson Arenholz | 24.2% | 4 |
+| Austin Scott | 24.2% | 38 |
 | Kelly Loeffler | 22.8% | 97 |
 | John Cornyn | 22.3% | 1 |
 | Thomas H. Kean | 22.0% | 72 |
