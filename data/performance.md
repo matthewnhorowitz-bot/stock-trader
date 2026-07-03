@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 11:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 12:01 UTC._
 
 ## Total
 
@@ -67,7 +67,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tina Smith | 98.2% | 5 |
 | K. Michael Conaway | 96.9% | 282 |
 | Robert B. Aderholt | 95.7% | 1 |
-| John F Reed | 94.5% | 51 |
+| John F Reed | 94.6% | 51 |
 | Debbie Wasserman Schultz | 93.2% | 32 |
 | Stephen F. Lynch | 90.7% | 1 |
 | Kathy Castor | 89.3% | 39 |
@@ -112,7 +112,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Dan Newhouse | 51.0% | 98 |
 | Gilbert Cisneros | 49.2% | 1420 |
-| Susie Lee | 48.9% | 608 |
+| Susie Lee | 49.0% | 608 |
 | Tim Moore | 48.2% | 159 |
 | Angus S King, Jr. | 44.9% | 34 |
 | Mike Kelly | 44.4% | 8 |
@@ -201,8 +201,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cliff Bentz | 11.1% | 2 |
 | Mick Mulvaney | 9.7% | 4 |
 | Ritchie John Torres | 9.1% | 68 |
-| Ed Case | 9.1% | 12 |
 | C. Scott Franklin | 9.1% | 35 |
+| Ed Case | 9.0% | 12 |
 | Kurt Schrader | 8.9% | 148 |
 | Ed Whitfield | 8.7% | 57 |
 | David Trone | 8.7% | 14 |
