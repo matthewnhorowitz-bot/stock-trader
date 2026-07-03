@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 16:14 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 17:01 UTC._
 
 ## Total
 
@@ -33,7 +33,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Raul Ruiz | 208.1% | 1 |
 | Susan M Collins | 207.4% | 178 |
 | W. Greg Steube | 199.8% | 2 |
-| Michael T. McCaul | 197.2% | 106 |
+| Michael T. McCaul | 197.3% | 106 |
 | David Cheston Rouzer | 194.2% | 8 |
 | Pete Sessions | 189.5% | 175 |
 | Gary C. Peters | 182.0% | 7 |
@@ -225,7 +225,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katie Britt | 2.5% | 16 |
 | Thomas MacArthur | 2.4% | 898 |
 | Valerie Hoyle | 2.2% | 192 |
-| Anthony E. Gonzalez | 1.9% | 3 |
+| Anthony E. Gonzalez | 2.1% | 3 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
 | Louise McIntosh Slaughter | 1.4% | 17 |
