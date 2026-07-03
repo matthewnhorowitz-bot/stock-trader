@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 14:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 15:01 UTC._
 
 ## Total
 
@@ -19,7 +19,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Charlie Joseph Crist | 542.4% | 1 |
 | Ashley Moody | 446.0% | 3 |
 | Luis V. Gutierrez | 422.3% | 6 |
-| Brenda Lulenar Lawrence | 400.6% | 19 |
+| Brenda Lulenar Lawrence | 400.1% | 19 |
 | Barbara J Comstock | 391.2% | 29 |
 | Roger W. Marshall | 281.6% | 45 |
 | Michael Fq San Nicolas | 273.8% | 1 |
@@ -112,7 +112,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Dan Newhouse | 51.0% | 98 |
 | Gilbert Cisneros | 49.2% | 1420 |
-| Susie Lee | 48.9% | 608 |
+| Susie Lee | 48.8% | 608 |
 | Tim Moore | 48.2% | 159 |
 | Angus S King, Jr. | 44.9% | 34 |
 | Mike Kelly | 44.4% | 8 |
