@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 10:10 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 11:01 UTC._
 
 ## Total
 
@@ -31,7 +31,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard L. Hanna | 211.3% | 90 |
 | Michael Waltz | 210.8% | 2 |
 | Raul Ruiz | 208.1% | 1 |
-| Susan M Collins | 207.3% | 178 |
+| Susan M Collins | 207.4% | 178 |
 | W. Greg Steube | 199.8% | 2 |
 | Michael T. McCaul | 197.2% | 106 |
 | David Cheston Rouzer | 194.2% | 8 |
@@ -54,7 +54,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James French Hill | 127.1% | 24 |
 | Thomas Suozzi | 118.7% | 281 |
 | Grace Meng | 117.6% | 5 |
-| Lamar Smith | 115.9% | 218 |
+| Lamar Smith | 116.0% | 218 |
 | Victoria Spartz | 114.3% | 21 |
 | Scott H. Peters | 110.5% | 101 |
 | Gary C Peters | 106.7% | 45 |
@@ -68,13 +68,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | K. Michael Conaway | 96.9% | 282 |
 | Robert B. Aderholt | 95.7% | 1 |
 | John F Reed | 94.5% | 51 |
-| Debbie Wasserman Schultz | 93.6% | 32 |
+| Debbie Wasserman Schultz | 93.2% | 32 |
 | Stephen F. Lynch | 90.7% | 1 |
 | Kathy Castor | 89.3% | 39 |
 | Hakeem S. Jeffries | 89.0% | 7 |
 | Max Miller | 88.4% | 1 |
 | Nancy Pelosi | 86.6% | 89 |
-| David P. Joyce | 84.0% | 76 |
+| David P. Joyce | 83.9% | 76 |
 | Dean Phillips | 80.5% | 340 |
 | Daniel S Sullivan | 79.0% | 30 |
 | Joseph Manchin, III | 78.2% | 1 |
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Mast | 43.0% | 25 |
 | John A. Yarmuth | 42.4% | 139 |
 | William R. Keating | 42.3% | 86 |
-| Josh Gottheimer | 42.0% | 1424 |
+| Josh Gottheimer | 42.1% | 1424 |
 | Rafael E Cruz | 41.5% | 3 |
 | Kelly Louise Morrison | 40.4% | 13 |
 | David B. McKinley | 39.7% | 195 |
