@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 02:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 03:00 UTC._
 
 ## Total
 
@@ -45,14 +45,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Meuser | 165.5% | 8 |
 | Gary Palmer | 150.6% | 179 |
 | Suzan K. DelBene | 148.1% | 70 |
-| Debbie Dingell | 147.3% | 97 |
+| Debbie Dingell | 147.1% | 97 |
 | John Hoeven | 142.8% | 128 |
 | Beto O'Rourke | 138.8% | 3 |
 | Pat Roberts | 138.4% | 285 |
 | Tammy Duckworth | 136.3% | 4 |
 | Deborah K. Ross | 129.7% | 21 |
 | James French Hill | 127.1% | 24 |
-| Thomas Suozzi | 118.8% | 281 |
+| Thomas Suozzi | 118.7% | 281 |
 | Grace Meng | 117.6% | 5 |
 | Lamar Smith | 115.9% | 218 |
 | Victoria Spartz | 114.3% | 21 |
@@ -74,7 +74,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 89.0% | 7 |
 | Max Miller | 88.4% | 1 |
 | Nancy Pelosi | 86.6% | 89 |
-| David P. Joyce | 83.9% | 76 |
+| David P. Joyce | 84.0% | 76 |
 | Dean Phillips | 80.5% | 340 |
 | Daniel S Sullivan | 79.0% | 30 |
 | Joseph Manchin, III | 78.2% | 1 |
@@ -93,7 +93,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Diana Harshbarger | 64.9% | 7 |
 | Neal Patrick MD, Facs Dunn | 64.7% | 3 |
 | Carol Devine Miller | 64.7% | 61 |
-| Robert J. Wittman | 64.6% | 114 |
+| Robert J. Wittman | 64.7% | 114 |
 | David A Perdue , Jr | 64.3% | 1166 |
 | Terri A. Sewell | 63.9% | 2 |
 | Virginia Foxx | 63.5% | 596 |
@@ -112,7 +112,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Dan Newhouse | 50.8% | 98 |
 | Gilbert Cisneros | 49.1% | 1420 |
-| Susie Lee | 49.0% | 608 |
+| Susie Lee | 48.9% | 608 |
 | Tim Moore | 48.2% | 159 |
 | Angus S King, Jr. | 44.9% | 34 |
 | Mike Kelly | 44.4% | 8 |
