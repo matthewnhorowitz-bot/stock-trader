@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 12:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 13:01 UTC._
 
 ## Total
 
@@ -62,7 +62,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John N Kennedy | 102.6% | 2 |
 | Dwight Evans | 101.7% | 70 |
 | A. Mitchell McConnell, Jr. | 101.4% | 36 |
-| Michael K. Simpson | 99.8% | 34 |
+| Michael K. Simpson | 100.0% | 34 |
 | David E. Price | 98.4% | 42 |
 | Tina Smith | 98.2% | 5 |
 | K. Michael Conaway | 96.9% | 282 |
@@ -83,7 +83,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katherine M. Clark | 74.7% | 155 |
 | Brad Knott | 74.4% | 2 |
 | Vicente Gonzalez | 73.6% | 1 |
-| Shelley M Capito | 72.6% | 344 |
+| Shelley M Capito | 72.7% | 344 |
 | Peter Welch | 71.4% | 36 |
 | Morgan McGarvey | 70.6% | 9 |
 | Kevin Hern | 70.5% | 525 |
@@ -105,7 +105,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lois Frankel | 57.1% | 427 |
 | Bradley S. Schneider | 55.2% | 40 |
 | Greg Steube | 53.6% | 12 |
-| William Cassidy | 52.6% | 87 |
+| William Cassidy | 52.7% | 87 |
 | Raúl M. Grijalva | 52.0% | 47 |
 | Cheri Bustos | 52.0% | 13 |
 | Michael Patrick Guest | 51.7% | 48 |
@@ -267,8 +267,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Shri Thanedar | -26.8% | 1 |
 | David H McCormick | -32.1% | 24 |
 | David Madison Cawthorn | -34.4% | 15 |
+| Felix Barry Moore | -41.8% | 5 |
 | Steve Knight | -43.3% | 3 |
-| Felix Barry Moore | -44.2% | 5 |
 | Roy Blunt | -44.5% | 2 |
 | Elaine Luria | -67.6% | 3 |
 | Tom Cole | -87.6% | 1 |
