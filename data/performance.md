@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-02 23:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 00:01 UTC._
 
 ## Total
 
@@ -33,7 +33,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Raul Ruiz | 208.1% | 1 |
 | Susan M Collins | 207.3% | 178 |
 | W. Greg Steube | 199.8% | 2 |
-| Michael T. McCaul | 196.8% | 106 |
+| Michael T. McCaul | 197.2% | 106 |
 | David Cheston Rouzer | 194.2% | 8 |
 | Pete Sessions | 189.6% | 175 |
 | Gary C. Peters | 182.3% | 7 |
@@ -51,8 +51,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Pat Roberts | 138.4% | 285 |
 | Tammy Duckworth | 136.3% | 4 |
 | Deborah K. Ross | 129.7% | 21 |
-| James French Hill | 126.9% | 24 |
-| Thomas Suozzi | 119.0% | 281 |
+| James French Hill | 127.1% | 24 |
+| Thomas Suozzi | 118.8% | 281 |
 | Grace Meng | 117.6% | 5 |
 | Lamar Smith | 115.9% | 218 |
 | Victoria Spartz | 114.3% | 21 |
@@ -90,7 +90,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph D. Morelle | 69.3% | 1 |
 | Jerry Moran, | 68.8% | 72 |
 | Blake Moore | 66.1% | 83 |
-| Carol Devine Miller | 65.9% | 61 |
+| Carol Devine Miller | 66.0% | 61 |
 | Diana Harshbarger | 64.9% | 7 |
 | Neal Patrick MD, Facs Dunn | 64.7% | 3 |
 | Robert J. Wittman | 64.7% | 114 |
@@ -98,7 +98,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Terri A. Sewell | 63.9% | 2 |
 | Virginia Foxx | 63.5% | 596 |
 | David Kustoff | 62.8% | 9 |
-| Scott Franklin | 61.7% | 48 |
+| Scott Franklin | 61.8% | 48 |
 | John Curtis | 59.7% | 125 |
 | James Comer | 59.4% | 32 |
 | Bradley S. Schneider | 57.5% | 38 |
@@ -132,17 +132,17 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joe Courtney | 36.5% | 72 |
 | Marjorie Taylor Greene | 34.3% | 483 |
 | William R. Timmons | 34.3% | 4 |
+| Daniel Crenshaw | 34.3% | 16 |
 | Donald Sternoff Beyer | 34.2% | 371 |
 | Earl Leroy Carter | 33.7% | 1 |
 | James E. Banks | 33.4% | 14 |
 | Harold Dallas Rogers | 31.7% | 8 |
-| Daniel Crenshaw | 31.7% | 16 |
-| Daniel Goldman | 31.6% | 366 |
+| Daniel Goldman | 31.7% | 366 |
 | Steve Cohen | 31.6% | 20 |
-| Christopher L. Jacobs | 31.5% | 86 |
 | Robert E. Latta | 31.4% | 22 |
 | Sara Jacobs | 31.2% | 10 |
 | Susan A. Davis | 31.2% | 32 |
+| Christopher L. Jacobs | 30.9% | 86 |
 | Thomas H Tuberville | 30.5% | 464 |
 | Kim Schrier | 30.0% | 3 |
 | Linda T. Sanchez | 29.9% | 3 |
@@ -172,8 +172,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Alan S. Lowenthal | 20.7% | 408 |
 | Jonathan Jackson | 20.1% | 106 |
 | Lou Barletta | 20.1% | 17 |
+| Michael Garcia | 19.9% | 20 |
 | Jackie Speier | 19.2% | 3 |
-| Michael Garcia | 18.1% | 20 |
 | Cleo Fields | 17.8% | 179 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Cynthia M Lummis | 16.4% | 1 |
@@ -217,8 +217,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | August Lee Pfluger | 4.5% | 12 |
 | Bruce Westerman | 4.2% | 105 |
 | Carlos Curbelo | 4.2% | 138 |
-| James R. Langevin | 3.5% | 182 |
 | Bill Flores | 3.5% | 214 |
+| James R. Langevin | 3.4% | 182 |
 | Mike Kennedy | 3.1% | 1 |
 | Greg Landsman | 2.6% | 55 |
 | E. Scott Rigell | 2.6% | 31 |
@@ -239,7 +239,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Judy Chu | 0.0% | 1 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
-| Kenneth R. Buck | -0.1% | 28 |
+| Kenneth R. Buck | -0.3% | 28 |
 | Kenny Marchant | -0.5% | 40 |
 | Michael C. Burgess | -0.9% | 42 |
 | Fred Upton | -1.3% | 7 |
@@ -252,7 +252,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Andrew Garbarino | -3.8% | 4 |
 | John McGuire | -4.5% | 10 |
 | Brandon Gill | -4.8% | 5 |
-| John W Hickenlooper | -6.8% | 37 |
+| John W Hickenlooper | -6.7% | 37 |
 | Rodney Leland Blum | -6.9% | 4 |
 | William F Hagerty, IV | -7.7% | 1 |
 | Marie Newman | -9.1% | 155 |
