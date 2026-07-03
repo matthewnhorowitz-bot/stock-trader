@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 14:01 UTC._
 
 ## Total
 
@@ -28,7 +28,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Chabot | 255.9% | 2 |
 | Brian Higgins | 236.4% | 1 |
 | William M. Cassidy | 213.5% | 1 |
-| Richard L. Hanna | 211.3% | 90 |
+| Richard L. Hanna | 211.2% | 90 |
 | Michael Waltz | 210.8% | 2 |
 | Raul Ruiz | 208.1% | 1 |
 | Susan M Collins | 207.4% | 178 |
@@ -83,7 +83,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katherine M. Clark | 74.7% | 155 |
 | Brad Knott | 74.4% | 2 |
 | Vicente Gonzalez | 73.6% | 1 |
-| Shelley M Capito | 72.7% | 344 |
+| Shelley M Capito | 72.6% | 344 |
 | Peter Welch | 71.4% | 36 |
 | Morgan McGarvey | 70.6% | 9 |
 | Kevin Hern | 70.5% | 525 |
@@ -112,7 +112,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Dan Newhouse | 51.0% | 98 |
 | Gilbert Cisneros | 49.2% | 1420 |
-| Susie Lee | 49.0% | 608 |
+| Susie Lee | 48.9% | 608 |
 | Tim Moore | 48.2% | 159 |
 | Angus S King, Jr. | 44.9% | 34 |
 | Mike Kelly | 44.4% | 8 |
@@ -138,9 +138,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 33.4% | 14 |
 | Daniel Goldman | 31.7% | 366 |
 | Steve Cohen | 31.5% | 20 |
+| Sara Jacobs | 31.4% | 10 |
 | Robert E. Latta | 31.4% | 22 |
 | Harold Dallas Rogers | 31.3% | 8 |
-| Sara Jacobs | 31.2% | 10 |
 | Susan A. Davis | 31.2% | 32 |
 | Christopher L. Jacobs | 31.0% | 86 |
 | Thomas H Tuberville | 30.5% | 464 |
