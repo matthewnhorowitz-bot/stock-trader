@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 09:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 10:01 UTC._
 
 ## Total
 
@@ -56,10 +56,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Grace Meng | 117.6% | 5 |
 | Lamar Smith | 115.9% | 218 |
 | Victoria Spartz | 114.3% | 21 |
-| John N Kennedy | 110.6% | 2 |
 | Scott H. Peters | 110.5% | 101 |
 | Gary C Peters | 106.7% | 45 |
 | Justin Amash | 105.9% | 11 |
+| John N Kennedy | 102.6% | 2 |
 | Dwight Evans | 101.7% | 70 |
 | A. Mitchell McConnell, Jr. | 101.4% | 36 |
 | Michael K. Simpson | 99.8% | 34 |
@@ -74,7 +74,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 89.0% | 7 |
 | Max Miller | 88.4% | 1 |
 | Nancy Pelosi | 86.6% | 89 |
-| David P. Joyce | 83.9% | 76 |
+| David P. Joyce | 84.0% | 76 |
 | Dean Phillips | 80.5% | 340 |
 | Daniel S Sullivan | 79.0% | 30 |
 | Joseph Manchin, III | 78.2% | 1 |
@@ -158,8 +158,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julia Letlow | 25.6% | 154 |
 | Richard Dean McCormick | 24.8% | 67 |
 | Peter Allen Stauber | 24.5% | 1 |
+| Austin Scott | 24.3% | 38 |
 | Ashley Hinson Arenholz | 24.2% | 4 |
-| Austin Scott | 24.2% | 38 |
 | Kelly Loeffler | 22.8% | 97 |
 | John Cornyn | 22.3% | 1 |
 | Thomas H. Kean | 22.0% | 72 |
@@ -214,7 +214,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lisa McClain | 6.0% | 717 |
 | John James | 5.5% | 123 |
 | Lindsey Graham | 5.2% | 7 |
-| August Lee Pfluger | 4.5% | 12 |
+| August Lee Pfluger | 4.6% | 12 |
 | Bruce Westerman | 4.2% | 105 |
 | Carlos Curbelo | 4.2% | 138 |
 | Bill Flores | 3.5% | 214 |
