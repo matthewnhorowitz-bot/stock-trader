@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 01:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-03 02:01 UTC._
 
 ## Total
 
@@ -71,14 +71,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Debbie Wasserman Schultz | 93.6% | 32 |
 | Stephen F. Lynch | 90.7% | 1 |
 | Kathy Castor | 89.3% | 39 |
-| Hakeem S. Jeffries | 88.7% | 7 |
+| Hakeem S. Jeffries | 89.0% | 7 |
 | Max Miller | 88.4% | 1 |
 | Nancy Pelosi | 86.6% | 89 |
 | David P. Joyce | 83.9% | 76 |
 | Dean Phillips | 80.5% | 340 |
 | Daniel S Sullivan | 79.0% | 30 |
 | Joseph Manchin, III | 78.2% | 1 |
-| John Rutherford | 78.1% | 163 |
+| John Rutherford | 78.0% | 163 |
 | Lloyd Doggett | 75.1% | 203 |
 | Katherine M. Clark | 74.7% | 155 |
 | Brad Knott | 74.4% | 2 |
@@ -138,11 +138,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 33.4% | 14 |
 | Harold Dallas Rogers | 31.7% | 8 |
 | Daniel Goldman | 31.7% | 366 |
-| Robert E. Latta | 31.4% | 22 |
 | Steve Cohen | 31.4% | 20 |
+| Robert E. Latta | 31.4% | 22 |
 | Sara Jacobs | 31.2% | 10 |
 | Susan A. Davis | 31.2% | 32 |
-| Christopher L. Jacobs | 30.9% | 86 |
+| Christopher L. Jacobs | 31.0% | 86 |
 | Thomas H Tuberville | 30.5% | 464 |
 | Kim Schrier | 30.0% | 3 |
 | Linda T. Sanchez | 29.9% | 3 |
@@ -153,7 +153,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Donna Shalala | 27.5% | 167 |
 | Earl Blumenauer | 27.4% | 232 |
-| Charles J. Chuck Fleischmann | 26.2% | 57 |
+| Charles J. Chuck Fleischmann | 26.1% | 57 |
 | Kathy Manning | 25.8% | 275 |
 | Julia Letlow | 25.6% | 154 |
 | Richard Dean McCormick | 24.8% | 67 |
