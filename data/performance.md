@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 07:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 08:01 UTC._
 
 ## Total
 
@@ -189,8 +189,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Francis Rooney | 15.1% | 19 |
 | James M Inhofe | 14.7% | 76 |
 | Jefferson Shreve | 14.5% | 173 |
+| Julie Johnson | 13.2% | 79 |
 | Brad Ashford | 13.1% | 5 |
-| Julie Johnson | 13.1% | 79 |
 | Ed Case | 13.1% | 12 |
 | Mikie Sherrill | 12.5% | 38 |
 | Patrick Fallon | 12.3% | 56 |
