@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 22:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 23:01 UTC._
 
 ## Total
 
@@ -51,7 +51,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Beto O'Rourke | 138.8% | 3 |
 | Tammy Duckworth | 136.3% | 4 |
 | Deborah K. Ross | 129.5% | 21 |
-| James French Hill | 127.2% | 24 |
+| James French Hill | 127.5% | 24 |
 | Thomas Suozzi | 118.2% | 281 |
 | Grace Meng | 117.6% | 5 |
 | Lamar Smith | 116.1% | 218 |
@@ -63,7 +63,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John N Kennedy | 102.6% | 2 |
 | Dwight Evans | 102.1% | 70 |
 | A. Mitchell McConnell, Jr. | 101.4% | 36 |
-| Michael K. Simpson | 100.0% | 34 |
+| Michael K. Simpson | 100.4% | 34 |
 | David E. Price | 98.4% | 42 |
 | Tina Smith | 98.2% | 5 |
 | K. Michael Conaway | 97.3% | 282 |
