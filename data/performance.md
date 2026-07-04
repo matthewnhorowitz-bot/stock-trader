@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 10:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 11:01 UTC._
 
 ## Total
 
@@ -54,7 +54,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James French Hill | 127.2% | 24 |
 | Thomas Suozzi | 118.3% | 281 |
 | Grace Meng | 117.6% | 5 |
-| Lamar Smith | 116.2% | 218 |
+| Lamar Smith | 116.1% | 218 |
 | Victoria Spartz | 114.3% | 21 |
 | Scott H. Peters | 111.3% | 101 |
 | Gary C Peters | 106.7% | 45 |
