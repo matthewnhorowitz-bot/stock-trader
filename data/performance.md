@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 08:07 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 09:01 UTC._
 
 ## Total
 
@@ -136,7 +136,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donald Sternoff Beyer | 34.3% | 371 |
 | Earl Leroy Carter | 33.7% | 1 |
 | James E. Banks | 33.4% | 14 |
-| Sara Jacobs | 31.9% | 10 |
+| Sara Jacobs | 32.3% | 10 |
 | Daniel Goldman | 31.8% | 366 |
 | Steve Cohen | 31.5% | 20 |
 | Robert E. Latta | 31.4% | 22 |
