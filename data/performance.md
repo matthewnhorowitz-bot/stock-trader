@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 20:16 UTC._
 
 ## Total
 
@@ -50,7 +50,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Pat Roberts | 140.1% | 285 |
 | Beto O'Rourke | 138.8% | 3 |
 | Tammy Duckworth | 136.3% | 4 |
-| Deborah K. Ross | 128.7% | 21 |
+| Deborah K. Ross | 129.5% | 21 |
 | James French Hill | 127.2% | 24 |
 | Thomas Suozzi | 118.2% | 281 |
 | Grace Meng | 117.6% | 5 |
@@ -102,7 +102,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Curtis | 59.4% | 125 |
 | David Kustoff | 59.2% | 9 |
 | Richard W. Allen | 57.3% | 157 |
-| Lois Frankel | 57.2% | 427 |
+| Lois Frankel | 57.1% | 427 |
 | Bradley S. Schneider | 55.4% | 40 |
 | Greg Steube | 53.6% | 12 |
 | William Cassidy | 52.7% | 87 |
@@ -131,9 +131,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jim McDermott | 37.1% | 2 |
 | Joe Courtney | 36.6% | 72 |
 | Daniel Crenshaw | 34.4% | 16 |
+| Donald Sternoff Beyer | 34.3% | 371 |
 | Marjorie Taylor Greene | 34.3% | 483 |
 | William R. Timmons | 34.3% | 4 |
-| Donald Sternoff Beyer | 34.3% | 371 |
 | Earl Leroy Carter | 33.7% | 1 |
 | James E. Banks | 33.4% | 14 |
 | Sara Jacobs | 32.3% | 10 |
