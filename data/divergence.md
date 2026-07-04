@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-04 21:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-04 22:06 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -20,7 +20,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | David Taylor | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 2 |
 | Frank Pallone | 99 | 0% | 6 |
-| Tina Smith | 97 | 0% | 3 |
 | Raul Ruiz | 96 | 0% | 4 |
 | George Whitesides | 96 | 0% | 7 |
 | Michael R. Turner | 95 | 0% | 1 |
@@ -41,18 +40,19 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 89 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 8 |
-| Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
+| Lori Trahan | 85 | 0% | 1 |
+| Tina Smith | 84 | 0% | 3 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
 | Victoria Spartz | 81 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Sara Jacobs | 78 | 0% | 9 |
 | John W Hickenlooper | 77 | 14% | 7 |
 | Tom Cole | 76 | 0% | 1 |
 | Dave Min | 76 | 0% | 1 |
 | Steve Cohen | 73 | 20% | 10 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 67 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
 | Shri Thanedar | 61 | 20% | 5 |
@@ -63,19 +63,19 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Kathy Castor | 51 | 0% | 4 |
 | Andrew Garbarino | 50 | 50% | 2 |
 | Peter Welch | 46 | 17% | 6 |
-| Debbie Wasserman Schultz | 42 | 33% | 6 |
+| Debbie Wasserman Schultz | 43 | 33% | 6 |
 | Ed Case | 42 | 25% | 4 |
 | Sheldon Whitehouse | 41 | 25% | 8 |
 | Diana Harshbarger | 40 | 43% | 7 |
 | Laurel Lee | 36 | 60% | 5 |
-| Jefferson Shreve | 33 | 0% | 8 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
+| Jefferson Shreve | 32 | 0% | 8 |
 | Dwight Evans | 27 | 25% | 8 |
 | Judy Chu | 27 | 0% | 2 |
-| David Kustoff | 26 | 25% | 4 |
 | Debbie Dingell | 25 | 25% | 8 |
 | Warren Davidson | 25 | 33% | 3 |
+| David Kustoff | 25 | 25% | 4 |
 | Joe Courtney | 24 | 13% | 8 |
 | Katherine M. Clark | 22 | 38% | 8 |
 | Angus S King, Jr. | 21 | 38% | 8 |
@@ -83,32 +83,32 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | August Lee Pfluger | 20 | 40% | 5 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
 | Pete Sessions | 19 | 30% | 10 |
-| Mike Kelly | 19 | 29% | 7 |
 | Zoe Lofgren | 18 | 11% | 9 |
 | Jerry Moran, | 18 | 43% | 7 |
+| Mike Kelly | 18 | 29% | 7 |
 | Valerie Hoyle | 18 | 22% | 9 |
 | Gary C. Peters | 16 | 63% | 8 |
 | Lois Frankel | 15 | 11% | 9 |
 | John Curtis | 15 | 56% | 9 |
-| Virginia Foxx | 14 | 33% | 9 |
+| Virginia Foxx | 13 | 33% | 9 |
 | David P. Joyce | 13 | 17% | 6 |
 | John W. Rose | 13 | 50% | 2 |
 | Blake Moore | 13 | 57% | 7 |
 | Tim Moore | 13 | 50% | 8 |
 | Michael T. McCaul | 12 | 50% | 8 |
-| Jared Moskowitz | 12 | 56% | 9 |
 | Michael K. Simpson | 11 | 29% | 7 |
 | Susie Lee | 11 | 33% | 9 |
 | Scott H. Peters | 10 | 38% | 8 |
 | John Fetterman | 10 | 80% | 5 |
 | Gilbert Cisneros | 9 | 67% | 9 |
 | Thomas H Tuberville | 9 | 25% | 8 |
+| Jared Moskowitz | 9 | 56% | 9 |
 | Terri A. Sewell | 9 | 33% | 3 |
 | Kevin Hern | 7 | 67% | 9 |
 | Scott Franklin | 7 | 86% | 7 |
 | Daniel Meuser | 6 | 38% | 8 |
-| Robert J. Wittman | 5 | 50% | 8 |
 | Roger Williams | 5 | 20% | 5 |
+| Robert J. Wittman | 4 | 50% | 8 |
 | Brian Mast | 4 | 60% | 5 |
 | Patty Murray | 4 | 25% | 8 |
 | Byron Donalds | 4 | 67% | 6 |
@@ -146,6 +146,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John Boozman | 0 | 57% | 7 |
 | Chip Roy | 0 | 50% | 2 |
 | Stephen F. Lynch | 0 | 0% | 1 |
+| Max Miller | 0 | 100% | 1 |
 | Brad Knott | 0 | 100% | 1 |
 | Ashley Moody | 0 | 100% | 2 |
 | April McClain Delaney | 0 | 100% | 7 |
