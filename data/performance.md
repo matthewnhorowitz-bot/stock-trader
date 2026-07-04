@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 00:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 01:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 60.2%**
 - S&P 500 (SPY) over the same windows: 57.4%
-- Priced positions: 25303  ·  still open: 9978  ·  awaiting price data: 944
+- Priced positions: 25310  ·  still open: 9978  ·  awaiting price data: 937
 - Price coverage: 96.4% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -52,7 +52,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tammy Duckworth | 136.3% | 4 |
 | Deborah K. Ross | 128.7% | 21 |
 | James French Hill | 127.2% | 24 |
-| Thomas Suozzi | 118.2% | 281 |
+| Thomas Suozzi | 118.3% | 281 |
 | Grace Meng | 117.6% | 5 |
 | Lamar Smith | 116.2% | 218 |
 | Victoria Spartz | 114.3% | 21 |
@@ -113,7 +113,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Susie Lee | 48.8% | 608 |
 | Tim Moore | 48.3% | 159 |
-| Gilbert Cisneros | 48.2% | 1453 |
+| Gilbert Cisneros | 47.9% | 1460 |
 | Angus S King, Jr. | 44.5% | 34 |
 | Mike Kelly | 44.4% | 8 |
 | Bob Gibbs | 44.4% | 92 |
@@ -149,8 +149,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W. Rose | 29.0% | 1 |
 | Elizabeth Fletcher | 28.8% | 23 |
 | Rohit Khanna | 28.6% | 134 |
-| Markwayne Mullin | 27.8% | 272 |
 | Rob Bresnahan | 27.8% | 248 |
+| Markwayne Mullin | 27.8% | 272 |
 | Donna Shalala | 27.5% | 167 |
 | Earl Blumenauer | 27.4% | 232 |
 | Charles J. Chuck Fleischmann | 26.1% | 57 |
