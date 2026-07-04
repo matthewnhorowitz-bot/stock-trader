@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 17:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 18:01 UTC._
 
 ## Total
 
@@ -52,7 +52,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tammy Duckworth | 136.3% | 4 |
 | Deborah K. Ross | 128.7% | 21 |
 | James French Hill | 127.2% | 24 |
-| Thomas Suozzi | 118.3% | 281 |
+| Thomas Suozzi | 118.2% | 281 |
 | Grace Meng | 117.6% | 5 |
 | Lamar Smith | 116.1% | 218 |
 | Victoria Spartz | 114.3% | 21 |
@@ -78,7 +78,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dean Phillips | 80.5% | 340 |
 | Daniel S Sullivan | 79.0% | 30 |
 | Joseph Manchin, III | 78.2% | 1 |
-| John Rutherford | 78.2% | 163 |
+| John Rutherford | 78.0% | 163 |
 | Lloyd Doggett | 75.1% | 203 |
 | Katherine M. Clark | 74.7% | 155 |
 | Brad Knott | 74.4% | 2 |
