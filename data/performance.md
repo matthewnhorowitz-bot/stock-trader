@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 12:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 12:17 UTC._
 
 ## Total
 
@@ -148,7 +148,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Linda T. Sanchez | 29.9% | 3 |
 | John W. Rose | 29.0% | 1 |
 | Elizabeth Fletcher | 28.8% | 23 |
-| Rohit Khanna | 28.6% | 134 |
+| Rohit Khanna | 28.7% | 134 |
 | Rob Bresnahan | 27.8% | 248 |
 | Markwayne Mullin | 27.8% | 272 |
 | Donna Shalala | 27.5% | 167 |
