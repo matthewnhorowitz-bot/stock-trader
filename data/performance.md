@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-04 14:01 UTC._
 
 ## Total
 
@@ -111,7 +111,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Patrick Guest | 51.8% | 48 |
 | Dan Newhouse | 51.1% | 98 |
 | Garret Graves | 51.0% | 6 |
-| Susie Lee | 48.8% | 608 |
+| Susie Lee | 48.6% | 608 |
 | Tim Moore | 48.3% | 159 |
 | Gilbert Cisneros | 47.9% | 1460 |
 | Angus S King, Jr. | 44.5% | 34 |
