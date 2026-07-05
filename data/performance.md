@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 14:01 UTC._
 
 ## Total
 
@@ -104,16 +104,16 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard W. Allen | 59.5% | 157 |
 | Lois Frankel | 57.8% | 427 |
 | William Cassidy | 53.5% | 87 |
-| Bradley S. Schneider | 52.8% | 40 |
+| Bradley S. Schneider | 52.9% | 40 |
 | Greg Steube | 52.5% | 12 |
 | Michael Patrick Guest | 52.3% | 48 |
 | Raúl M. Grijalva | 52.0% | 47 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
 | Dan Newhouse | 51.0% | 98 |
-| Susie Lee | 47.8% | 608 |
+| Susie Lee | 47.9% | 608 |
 | Tim Moore | 47.8% | 159 |
-| Gilbert Cisneros | 47.8% | 1462 |
+| Gilbert Cisneros | 47.7% | 1462 |
 | Bob Gibbs | 44.4% | 92 |
 | Brian Mast | 43.1% | 25 |
 | John A. Yarmuth | 42.4% | 139 |
