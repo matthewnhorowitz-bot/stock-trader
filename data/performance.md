@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 14:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 15:01 UTC._
 
 ## Total
 
@@ -44,7 +44,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Seth Moulton | 170.0% | 1 |
 | Gary Palmer | 152.0% | 179 |
 | Debbie Dingell | 148.5% | 97 |
-| Suzan K. DelBene | 146.2% | 71 |
+| Suzan K. DelBene | 146.1% | 71 |
 | Daniel Meuser | 145.1% | 9 |
 | John Hoeven | 143.9% | 128 |
 | Pat Roberts | 140.3% | 285 |
