@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 12:54 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 13:01 UTC._
 
 ## Total
 
@@ -96,7 +96,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Carol Devine Miller | 64.5% | 61 |
 | Virginia Foxx | 64.3% | 596 |
 | David A Perdue , Jr | 63.9% | 1166 |
-| Scott Franklin | 62.8% | 48 |
+| Scott Franklin | 62.7% | 48 |
 | Vicente Gonzalez | 60.6% | 1 |
 | James Comer | 60.5% | 32 |
 | David Kustoff | 59.9% | 9 |
@@ -119,8 +119,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John A. Yarmuth | 42.4% | 139 |
 | William R. Keating | 42.3% | 86 |
 | Angus S King, Jr. | 42.3% | 34 |
+| Josh Gottheimer | 42.1% | 1424 |
 | Rafael E Cruz | 42.0% | 3 |
-| Josh Gottheimer | 42.0% | 1424 |
 | Mike Kelly | 40.3% | 8 |
 | David B. McKinley | 39.7% | 195 |
 | Aston Donald McEachin | 39.1% | 6 |
@@ -137,7 +137,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 34.0% | 14 |
 | Earl Leroy Carter | 33.7% | 1 |
 | Sara Jacobs | 33.2% | 10 |
-| Steve Cohen | 31.6% | 20 |
+| Steve Cohen | 31.7% | 20 |
 | Daniel Goldman | 31.6% | 366 |
 | Harold Dallas Rogers | 31.2% | 8 |
 | Susan A. Davis | 31.2% | 32 |
