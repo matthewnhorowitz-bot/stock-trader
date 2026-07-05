@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 17:39 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-05 18:01 UTC._
 
 ## Total
 
@@ -129,7 +129,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Harley E. Rouda | 38.3% | 3 |
 | Kelly Louise Morrison | 37.2% | 13 |
 | Jim McDermott | 37.1% | 2 |
-| Joe Courtney | 36.7% | 72 |
+| Joe Courtney | 36.6% | 72 |
 | William R. Timmons | 36.6% | 4 |
 | Donald Sternoff Beyer | 34.8% | 371 |
 | Daniel Crenshaw | 34.5% | 16 |
