@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-05 10:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-05 11:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -40,19 +40,19 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 89 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 8 |
-| Lori Trahan | 86 | 0% | 1 |
+| Lori Trahan | 85 | 0% | 1 |
 | Tina Smith | 84 | 0% | 3 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
 | Victoria Spartz | 81 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Sara Jacobs | 78 | 0% | 9 |
 | John W Hickenlooper | 77 | 14% | 7 |
 | Tom Cole | 76 | 0% | 1 |
 | Dave Min | 76 | 0% | 1 |
 | Steve Cohen | 73 | 20% | 10 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 67 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
 | Shri Thanedar | 61 | 20% | 5 |
@@ -68,14 +68,14 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Sheldon Whitehouse | 41 | 25% | 8 |
 | Diana Harshbarger | 40 | 43% | 7 |
 | Laurel Lee | 36 | 60% | 5 |
-| Jefferson Shreve | 33 | 0% | 8 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
+| Jefferson Shreve | 32 | 0% | 8 |
 | Dwight Evans | 27 | 25% | 8 |
 | Judy Chu | 27 | 0% | 2 |
-| David Kustoff | 26 | 25% | 4 |
 | Debbie Dingell | 25 | 25% | 8 |
 | Warren Davidson | 25 | 33% | 3 |
+| David Kustoff | 25 | 25% | 4 |
 | Joe Courtney | 24 | 13% | 8 |
 | Katherine M. Clark | 22 | 38% | 8 |
 | Angus S King, Jr. | 21 | 38% | 8 |
@@ -83,9 +83,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | August Lee Pfluger | 20 | 40% | 5 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
 | Pete Sessions | 19 | 30% | 10 |
-| Mike Kelly | 19 | 29% | 7 |
 | Zoe Lofgren | 18 | 11% | 9 |
 | Jerry Moran, | 18 | 43% | 7 |
+| Mike Kelly | 18 | 29% | 7 |
 | Valerie Hoyle | 18 | 22% | 9 |
 | Gary C. Peters | 16 | 63% | 8 |
 | Lois Frankel | 15 | 11% | 9 |
