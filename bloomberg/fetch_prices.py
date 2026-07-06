@@ -36,6 +36,40 @@ OUT_PATH = os.path.join(HERE, "..", "data", "bloomberg_prices.json")
 
 FIELD = "TOT_RETURN_INDEX_GROSS_DVDS"
 
+# Curated old->successor map for confirmed 1:1 same-security US renames where Bloomberg's
+# automatic path fails: either the old symbol is fully retired (IIVI/VIAC/GPS resolve to a
+# securityError) or its EQY_FUND_TICKER is a garbage internal id (CREE->'9966620DUS',
+# JEC->'9990213DUS') instead of a usable ticker. The successor line carries the continuous
+# total-return history spanning the rename, so pricing the old ticker off it is correct.
+# ONLY same-company ticker changes belong here — NOT cash buyouts or foreign successors
+# (those would invent a return or price in the wrong currency, so they stay unpriced).
+RENAME_MAP = {
+    # CREE->WOLF intentionally omitted: Wolfspeed's 2025 Chapter 11 fresh-start reset the
+    # security, so WOLF's TR line only starts 2025-09-29 and can't span the old Cree history
+    # (2012-2021). No continuous successor exists, so CREE stays unpriced rather than mispriced.
+    "IIVI": "COHR US Equity",   # II-VI -> Coherent (2022)
+    "VIAC": "PARA US Equity",   # ViacomCBS -> Paramount Global (2022)
+    "GPS":  "GAP US Equity",    # Gap Inc ticker change GPS -> GAP (2024)
+    "JEC":  "J US Equity",      # Jacobs Engineering -> Jacobs Solutions (2019)
+    "ABC":  "COR US Equity",    # AmerisourceBergen -> Cencora (2023)
+}
+
+
+def compress(pts):
+    """Drop carried-forward days, keeping only value-change points plus the first and last
+    dates. bbClose reconstructs any date as the last kept value on/before it (Bloomberg's
+    PREVIOUS_VALUE fill), so this is lossless. Matches the format of the committed overlay."""
+    dates = sorted(pts)
+    if not dates:
+        return pts
+    kept, prev = {}, None
+    for d in dates:
+        if pts[d] != prev:
+            kept[d] = pts[d]
+            prev = pts[d]
+    kept[dates[-1]] = pts[dates[-1]]  # always keep the latest point for latest/latestDate
+    return kept
+
 
 def dead_tickers():
     with open(CACHE_PATH, "r", encoding="utf-8") as f:
@@ -85,15 +119,17 @@ def start_session():
 
 
 def resolve_ref(session, security):
-    """Return (NAME, MARKET_STATUS) if the security resolves, else (None, None).
-    MARKET_STATUS ('ACQU'/'DELS'/... vs 'ACTV') flags whether the name is acquired/delisted."""
+    """Return (NAME, MARKET_STATUS, FUND_TICKER) if the security resolves, else (None,)*3.
+    MARKET_STATUS ('TKCH'/'ACQU'/... vs 'ACTV') flags renamed/acquired names; EQY_FUND_TICKER
+    is the security's CURRENT (successor) ticker after a rename — e.g. CBS->'PARA US',
+    FEYE->'MNDT US' — whose line carries the continuous history the old symbol lost."""
     svc = session.getService("//blp/refdata")
     req = svc.createRequest("ReferenceDataRequest")
     req.getElement("securities").appendValue(security)
-    for fld in ("NAME", "MARKET_STATUS"):
+    for fld in ("NAME", "MARKET_STATUS", "EQY_FUND_TICKER"):
         req.getElement("fields").appendValue(fld)
     session.sendRequest(req)
-    name, status = None, None
+    name, status, fund = None, None, None
     done = False
     while not done:
         ev = session.nextEvent(15000)
@@ -110,9 +146,11 @@ def resolve_ref(session, security):
                     name = fd.getElementAsString("NAME")
                 if fd.hasElement("MARKET_STATUS"):
                     status = fd.getElementAsString("MARKET_STATUS")
+                if fd.hasElement("EQY_FUND_TICKER"):
+                    fund = fd.getElementAsString("EQY_FUND_TICKER")
         if ev.eventType() == blpapi.Event.RESPONSE:
             done = True
-    return name, status
+    return name, status, fund
 
 
 def last_change_date(pts):
@@ -163,23 +201,37 @@ def hist(session, security, start_date, end_date):
 
 def resolve_one(session, raw, start_date, end_date, verbose):
     end_iso = f"{end_date[0:4]}-{end_date[4:6]}-{end_date[6:8]}"
-    for sec in candidates(raw):
-        name, status = resolve_ref(session, sec)
+    # Curated same-company rename: pull the successor line directly (Bloomberg's automatic
+    # successor path can't reach it — see RENAME_MAP). Its continuous history spans the rename.
+    override = RENAME_MAP.get(raw.strip().upper())
+    sec_list = ([override] + candidates(raw)) if override else candidates(raw)
+    for sec in sec_list:
+        name, status, fund = resolve_ref(session, sec)
         if not name:
             continue
         pts = hist(session, sec, start_date, end_date)
+        via = sec
+        if not pts and fund and is_us_listing(fund):
+            # Ticker resolves by name but carries no history (MARKET_STATUS=TKCH, a ticker
+            # change): pull the successor line's continuous history, which spans the rename
+            # (CBS->'PARA US', FEYE->'MNDT US', HRS->'LHX US', ...). US listings only — a
+            # foreign successor (SNE->'6758 JP', ABB->'ABBN SW') would price the return in
+            # the wrong currency, so skip it and leave the position unpriced.
+            succ = fund if fund.upper().endswith(" EQUITY") else f"{fund} Equity"
+            if succ != sec:
+                pts = hist(session, succ, start_date, end_date)
+                if pts:
+                    via = succ
         if pts:
-            # Delisting date = last date the value changed, when that's meaningfully before
-            # today (>21 days) — i.e. the series flat-lined because trading stopped. A live
-            # name keeps changing to ~today, so lastTrade stays null (no force-close).
             lc = last_change_date(pts)
             delisted = lc < prior_days(end_iso, 21)
             last_trade = lc if delisted else None
             if verbose:
                 dates = sorted(pts)
                 tag = f"  DELIST {lc} [{status}]" if delisted else ""
-                print(f"  OK   {raw:<10} -> {sec:<18} [{name[:28]:<28}] {len(pts):>4}pts {dates[0]}..{dates[-1]}{tag}")
-            return {"security": sec, "name": name, "d": pts, "lastTrade": last_trade}
+                succ_tag = "  via successor" if via != sec else ""
+                print(f"  OK   {raw:<10} -> {via:<22} [{name[:26]:<26}] {len(pts):>4}pts {dates[0]}..{dates[-1]}{succ_tag}{tag}")
+            return {"security": via, "name": name, "d": pts, "lastTrade": last_trade}
     if verbose:
         print(f"  MISS {raw:<10} (no resolving Bloomberg security)")
     return None
@@ -189,11 +241,19 @@ def prior_days(iso_date, n):
     return (dt.date.fromisoformat(iso_date) - dt.timedelta(days=n)).isoformat()
 
 
+def is_us_listing(fund_ticker):
+    """True if the fund/successor ticker is a US listing (all US Bloomberg exchange codes
+    start with 'U': US/UN/UW/UQ/UR/UA/UP/...). Foreign codes (JP, SW, LN, GR) don't."""
+    parts = fund_ticker.strip().split()
+    return len(parts) >= 2 and parts[-1].upper().startswith("U")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("tickers", nargs="*", help="Explicit tickers (default: all Yahoo-dead tickers in price_cache.json)")
     ap.add_argument("--start", type=int, default=2012)
     ap.add_argument("--test", type=int, default=0, help="Resolve only the first N tickers (dry preview, still writes)")
+    ap.add_argument("--merge", action="store_true", help="Merge into the existing overlay instead of overwriting it (for incremental top-up runs on a subset of tickers)")
     args = ap.parse_args()
 
     tickers = args.tickers or dead_tickers()
@@ -215,10 +275,11 @@ def main():
                 got = None
             if got:
                 dates = sorted(got["d"])
+                d_compressed = compress(got["d"])  # lastTrade already derived from full series
                 series[raw] = {
                     "security": got["security"],
                     "name": got["name"],
-                    "d": got["d"],
+                    "d": d_compressed,
                     "first": dates[0],
                     "last": dates[-1],
                     "latest": got["d"][dates[-1]],
@@ -233,6 +294,20 @@ def main():
     finally:
         session.stop()
 
+    # In test mode, write a side file so we don't overwrite a real overlay.
+    out_path = OUT_PATH.replace(".json", ".test.json") if args.test else OUT_PATH
+
+    # Merge mode: fold newly-resolved tickers into the existing committed overlay so a
+    # top-up run over a subset doesn't drop the tickers a prior full run already collected.
+    merged = series
+    prior = 0
+    if args.merge and not args.test and os.path.exists(out_path):
+        with open(out_path, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+        merged = dict(existing.get("series", {}))
+        prior = len(merged)
+        merged.update(series)  # new resolutions win
+
     out = {
         "meta": {
             "fetchedAt": dt.datetime.now().isoformat(timespec="seconds"),
@@ -242,15 +317,16 @@ def main():
             "resolved": len(resolved),
             "missed": missed,
             "test": bool(args.test),
+            "merged": bool(args.merge),
         },
-        "series": series,
+        "series": merged,
     }
-    # In test mode, write a side file so we don't overwrite a real overlay.
-    out_path = OUT_PATH.replace(".json", ".test.json") if args.test else OUT_PATH
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f)
 
+    if args.merge and not args.test:
+        print(f"\nMerged: {prior} prior + {len(resolved)} new = {len(merged)} tickers in overlay")
     print(f"\nResolved {len(resolved)}/{len(tickers)} -> {os.path.relpath(out_path, HERE)}")
     if missed:
         print(f"Missed ({len(missed)}): {', '.join(missed[:40])}{' ...' if len(missed) > 40 else ''}")

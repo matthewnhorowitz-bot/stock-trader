@@ -178,6 +178,26 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   }
   console.log(`[perf] force-closed ${forcedClosed} open position(s) of departed members`);
 
+  // Departures map for the in-browser index: a member who has LEFT office must not be
+  // SELECTED into a roster for any period that begins after they left — otherwise a trade
+  // DISCLOSED long after departure (Perdue transacted Feb-2020 in office but disclosed
+  // May-2021, months after leaving) floats them into 2022-23 rosters via the 2yr lookback.
+  // Guard against stale/House->Senate records the same way the force-close does, but using
+  // the real TRANSACTION date (not the disclosure-based entry): if they genuinely kept
+  // trading past the departure date they're still serving, so don't mark them departed.
+  const lastTxn = new Map();
+  for (const t of trades) {
+    const td = t.transactionDate || '';
+    const cur = lastTxn.get(t.politician);
+    if (td && (!cur || td > cur)) lastTxn.set(t.politician, td);
+  }
+  const departures = {};
+  for (const member of new Set(positions.map((p) => p.member))) {
+    const d = dep.departureDate(member);
+    if (d && d >= (lastTxn.get(member) || '')) departures[member] = d;
+  }
+  console.log(`[perf] departures map: ${Object.keys(departures).length} member(s) marked as left office`);
+
   // Force-close open positions in DELISTED/ACQUIRED tickers at the security's last trading
   // date (from the Bloomberg overlay). Otherwise an acquired name (e.g. ATVI, PXD, MN) is
   // marked to a value carried forward for years after the deal closed, inflating returns —
@@ -313,7 +333,7 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   };
   await writeState('performance.json', report);
   await writeText('performance.md', renderMarkdown(report));
-  await writePositions(priced, boundaries, spyClose, report.totals);
+  await writePositions(priced, boundaries, spyClose, report.totals, departures);
 
   // Refresh the Divergence (Hypocrisy) Score in the same run — best-effort, so a
   // failure here never fails the performance build. Dynamic import avoids the
@@ -330,7 +350,7 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
 // Compact per-position dataset for the in-browser backtester (docs/positions.json).
 // `boundaries`/`spy` + per-row `marks` let the Congress Index compute mark-to-market
 // returns between rebalance dates (instead of compounding full lifetime returns).
-async function writePositions(priced, boundaries, spyClose, totals = null) {
+async function writePositions(priced, boundaries, spyClose, totals = null, departures = {}) {
   const round = (x) => (x == null ? null : Math.round(x * 10000) / 10000);
   const rows = priced.map((p) => ({
     member: p.member,
@@ -348,7 +368,7 @@ async function writePositions(priced, boundaries, spyClose, totals = null) {
     ...(p.departed ? { departed: 1 } : {}), // closed because the member left office
     ...(p.delisted ? { delisted: 1 } : {}), // closed at the ticker's delisting/acquisition date
   }));
-  const out = { generatedAt: new Date().toISOString(), boundaries, spy: spyClose, coverage: totals, positions: rows };
+  const out = { generatedAt: new Date().toISOString(), boundaries, spy: spyClose, coverage: totals, departures, positions: rows };
   const docsDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs');
   await mkdir(docsDir, { recursive: true });
   await writeFile(join(docsDir, 'positions.json'), JSON.stringify(out));

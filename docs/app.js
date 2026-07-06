@@ -2,6 +2,7 @@
 
 let POSITIONS = [];
 let BOUNDARIES = []; // semi-annual rebalance dates (Jan 1 / Jul 1) for the Congress Index
+let DEPARTURES = {}; // member -> date they left office; excluded from rosters after that date
 let SPYCLOSE = []; // SPY close at each boundary (benchmark)
 let DIVERGENCE = []; // per-member Divergence (Hypocrisy) Score, from divergence.json
 const selected = new Set();
@@ -370,7 +371,21 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
         if (!byM.has(p.member)) byM.set(p.member, []);
         byM.get(p.member).push(p);
       }
-    const cands = [...byM.entries()].filter(([, ps]) => ps.length >= minTrades);
+    // Exclude members who had already LEFT office by the period start — a late-disclosed
+    // trade (entry = disclosure date) can otherwise float a departed member into the roster
+    // via the lookback window (e.g. Perdue left Jan-2021 but Feb-2020 trades disclosed
+    // May-2021 put him in 2022-23 rosters). You can't copy a member who's no longer serving.
+    const startD = BOUNDARIES[bStart];
+    const cands = [...byM.entries()].filter(
+      ([member, ps]) => ps.length >= minTrades && !(DEPARTURES[member] && DEPARTURES[member] <= startD)
+    );
+    // Quota guard: skip a period unless the qualifying pool is at least TWICE the roster size,
+    // so "top n" is a genuine selection from a real field — not just holding whoever traded.
+    // The early STOCK-Act years have too few members clearing the trade-count bar (through
+    // 2015 fewer than ~15 qualify), so those near-random rosters would compound into the chain
+    // and distort the result. Requiring 2×n effectively starts the index in 2016 and
+    // self-adjusts if n changes.
+    if (cands.length < 2 * n) continue;
     let roster, memberWeight = null;
     if (isScore) {
       // Multi-factor Score per member over their lookback trades:
@@ -401,7 +416,7 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
         .slice(0, n);
     }
     const names = new Set(roster.map((x) => x.member));
-    const startD = BOUNDARIES[bStart], endD = BOUNDARIES[bEnd];
+    const endD = BOUNDARIES[bEnd];
     // held = rostered members' positions overlapping [startD, endD); their mark-to-market
     // return over just this period.
     const held = [];
@@ -635,6 +650,7 @@ async function boot() {
     const data = await res.json();
     POSITIONS = data.positions || [];
     BOUNDARIES = data.boundaries || [];
+    DEPARTURES = data.departures || {};
     SPYCLOSE = data.spy || [];
     const cov = data.coverage; // { positions, priced, unpriced, coverage } or null
     const covPct = cov && cov.coverage != null ? ` · ${(cov.coverage * 100).toFixed(0)}% price coverage` : '';
