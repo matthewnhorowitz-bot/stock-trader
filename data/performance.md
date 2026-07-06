@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-06 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-06 19:01 UTC._
 
 ## Total
 
@@ -20,7 +20,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Luis V. Gutierrez | 442.9% | 6 |
 | Ashley Moody | 428.6% | 3 |
 | Brenda Lulenar Lawrence | 402.6% | 19 |
-| Barbara J Comstock | 398.2% | 29 |
+| Barbara J Comstock | 398.1% | 29 |
 | Christopher A Coons | 275.8% | 2 |
 | Roger W. Marshall | 272.5% | 45 |
 | Michael Fq San Nicolas | 267.1% | 1 |
@@ -113,14 +113,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Tim Moore | 48.1% | 159 |
 | Susie Lee | 47.9% | 608 |
-| Gilbert Cisneros | 47.8% | 1462 |
+| Gilbert Cisneros | 47.9% | 1462 |
 | Bob Gibbs | 44.4% | 92 |
 | Angus S King, Jr. | 43.4% | 34 |
 | Brian Mast | 42.9% | 25 |
-| John A. Yarmuth | 42.4% | 139 |
 | Josh Gottheimer | 42.4% | 1424 |
-| William R. Keating | 42.4% | 86 |
+| John A. Yarmuth | 42.4% | 139 |
 | Mike Kelly | 42.4% | 8 |
+| William R. Keating | 42.4% | 86 |
 | Rafael E Cruz | 42.0% | 3 |
 | Aston Donald McEachin | 40.5% | 6 |
 | David B. McKinley | 39.7% | 195 |
@@ -159,7 +159,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kathy Manning | 25.8% | 275 |
 | Austin Scott | 24.4% | 38 |
 | Peter Allen Stauber | 23.3% | 1 |
-| Thomas H. Kean | 23.1% | 72 |
+| Thomas H. Kean | 23.0% | 72 |
 | Kelly Loeffler | 22.8% | 97 |
 | Ashley Hinson Arenholz | 22.4% | 4 |
 | John Cornyn | 22.3% | 1 |
