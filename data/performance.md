@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 16:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 17:01 UTC._
 
 ## Total
 
@@ -32,7 +32,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Waltz | 210.8% | 2 |
 | Susan M Collins | 209.0% | 181 |
 | Raul Ruiz | 208.1% | 1 |
-| Michael T. McCaul | 198.5% | 107 |
+| Michael T. McCaul | 198.6% | 107 |
 | David Cheston Rouzer | 193.0% | 8 |
 | Pete Sessions | 192.2% | 175 |
 | Gary C. Peters | 185.4% | 7 |
@@ -47,9 +47,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Pat Roberts | 139.7% | 286 |
 | Beto O'Rourke | 138.7% | 3 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
-| James French Hill | 118.5% | 24 |
+| James French Hill | 118.7% | 24 |
 | W. Greg Steube | 117.9% | 2 |
-| Thomas Suozzi | 117.7% | 283 |
+| Thomas Suozzi | 117.5% | 283 |
 | Grace Meng | 116.7% | 5 |
 | Victoria Spartz | 115.9% | 21 |
 | Lamar Smith | 115.7% | 222 |
@@ -57,7 +57,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Suzan K. DelBene | 114.1% | 71 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Scott H. Peters | 111.2% | 105 |
-| Gary C Peters | 108.5% | 49 |
+| Gary C Peters | 108.6% | 49 |
 | Justin Amash | 105.9% | 11 |
 | Robert B. Aderholt | 105.8% | 1 |
 | Tina Smith | 105.1% | 5 |
@@ -132,8 +132,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William R. Timmons | 38.1% | 4 |
 | Jim McDermott | 37.1% | 2 |
 | Joe Courtney | 36.7% | 72 |
+| Daniel Crenshaw | 35.8% | 16 |
 | James E. Banks | 34.8% | 14 |
-| Daniel Crenshaw | 34.7% | 16 |
 | Donald Sternoff Beyer | 34.6% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 32.6% | 10 |
@@ -154,7 +154,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard Dean McCormick | 26.5% | 67 |
 | Julia Letlow | 26.3% | 154 |
 | Charles J. Chuck Fleischmann | 26.1% | 57 |
-| Christopher L. Jacobs | 25.5% | 94 |
+| Christopher L. Jacobs | 25.9% | 94 |
 | Kathy Manning | 25.3% | 276 |
 | Austin Scott | 24.4% | 38 |
 | Greg Steube | 23.9% | 12 |
@@ -172,9 +172,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cynthia M Lummis | 20.3% | 1 |
 | Lou Barletta | 20.1% | 17 |
 | Thomas R Carper | 19.6% | 494 |
+| Michael Garcia | 19.3% | 20 |
 | Cleo Fields | 19.3% | 179 |
 | Jackie Speier | 19.2% | 3 |
-| Michael Garcia | 18.8% | 20 |
 | Laurel Lee | 17.8% | 7 |
 | Peter Allen Stauber | 17.8% | 1 |
 | Gerald E. Connolly | 16.8% | 25 |
@@ -222,8 +222,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bruce Westerman | 4.3% | 105 |
 | Carlos Curbelo | 4.1% | 138 |
 | Patty Murray | 3.4% | 75 |
-| James R. Langevin | 3.4% | 182 |
 | Katie Britt | 3.3% | 16 |
+| James R. Langevin | 3.2% | 182 |
 | E. Scott Rigell | 2.6% | 31 |
 | Tim Walberg | 2.4% | 13 |
 | Valerie Hoyle | 2.3% | 193 |
