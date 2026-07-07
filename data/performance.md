@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 22:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 22:46 UTC._
 
 ## Total
 
@@ -118,11 +118,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bob Gibbs | 46.7% | 94 |
 | Angus S King, Jr. | 44.0% | 34 |
 | Brad Knott | 43.5% | 2 |
-| Mike Kelly | 42.7% | 8 |
+| Mike Kelly | 43.1% | 8 |
 | John A. Yarmuth | 42.5% | 139 |
 | William R. Keating | 42.3% | 86 |
 | Josh Gottheimer | 42.3% | 1429 |
-| Aston Donald McEachin | 42.1% | 6 |
+| Aston Donald McEachin | 41.7% | 6 |
 | Rafael E Cruz | 41.4% | 3 |
 | Kelly Louise Morrison | 39.8% | 13 |
 | David B. McKinley | 39.5% | 195 |
@@ -132,7 +132,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William R. Timmons | 38.1% | 4 |
 | Jim McDermott | 37.1% | 2 |
 | Joe Courtney | 36.7% | 72 |
-| Daniel Crenshaw | 35.8% | 16 |
+| Daniel Crenshaw | 35.6% | 16 |
 | James E. Banks | 34.8% | 14 |
 | Donald Sternoff Beyer | 34.6% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
