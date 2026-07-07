@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 21:01 UTC._
 
 ## Total
 
@@ -103,14 +103,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William Cassidy | 58.8% | 87 |
 | John Curtis | 58.4% | 127 |
 | David A Perdue , Jr | 57.9% | 1255 |
-| Lois Frankel | 57.2% | 439 |
+| Lois Frankel | 57.3% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 52.9% | 48 |
 | Cheri Bustos | 52.0% | 13 |
 | Bradley S. Schneider | 51.9% | 40 |
-| Dan Newhouse | 51.7% | 98 |
+| Dan Newhouse | 51.8% | 98 |
 | Garret Graves | 51.0% | 6 |
-| Virginia Foxx | 49.4% | 601 |
+| Virginia Foxx | 49.3% | 601 |
 | Tim Moore | 48.0% | 159 |
 | Susie Lee | 47.7% | 624 |
 | Gilbert Cisneros | 47.1% | 1480 |
@@ -120,8 +120,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Knott | 43.5% | 2 |
 | Mike Kelly | 42.7% | 8 |
 | John A. Yarmuth | 42.5% | 139 |
-| Josh Gottheimer | 42.3% | 1429 |
 | William R. Keating | 42.3% | 86 |
+| Josh Gottheimer | 42.3% | 1429 |
 | Aston Donald McEachin | 42.1% | 6 |
 | Rafael E Cruz | 41.4% | 3 |
 | Kelly Louise Morrison | 39.8% | 13 |
@@ -137,7 +137,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donald Sternoff Beyer | 34.6% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 32.6% | 10 |
-| Steve Cohen | 32.1% | 20 |
+| Steve Cohen | 32.0% | 20 |
 | Harold Dallas Rogers | 31.8% | 8 |
 | Daniel Goldman | 31.3% | 369 |
 | Susan A. Davis | 31.1% | 32 |
@@ -152,9 +152,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Earl Blumenauer | 26.8% | 237 |
 | Rob Bresnahan | 26.7% | 248 |
 | Richard Dean McCormick | 26.5% | 67 |
+| Charles J. Chuck Fleischmann | 26.3% | 57 |
 | Julia Letlow | 26.3% | 154 |
 | Christopher L. Jacobs | 26.2% | 94 |
-| Charles J. Chuck Fleischmann | 26.2% | 57 |
 | Kathy Manning | 25.3% | 276 |
 | Austin Scott | 24.4% | 38 |
 | Greg Steube | 23.9% | 12 |
