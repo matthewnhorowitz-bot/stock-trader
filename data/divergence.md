@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-07 17:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-07 18:06 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -22,10 +22,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | David Taylor | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 2 |
 | Frank Pallone | 99 | 0% | 6 |
+| Raul Ruiz | 96 | 0% | 4 |
+| Lloyd K. Smucker | 96 | 0% | 5 |
 | George Whitesides | 96 | 0% | 7 |
-| Raul Ruiz | 95 | 0% | 4 |
 | Michael R. Turner | 95 | 0% | 1 |
-| Lloyd K. Smucker | 95 | 0% | 5 |
 | Gus M. Bilirakis | 95 | 0% | 4 |
 | Doris O. Matsui | 95 | 0% | 1 |
 | Thomas R Tillis | 93 | 0% | 9 |
@@ -36,28 +36,28 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Brian Babin | 92 | 0% | 1 |
 | Sharice Davids | 92 | 0% | 3 |
 | Jake Auchincloss | 92 | 0% | 1 |
+| Lance Gooden | 91 | 0% | 2 |
 | Emily Randall | 91 | 0% | 6 |
 | Chris Van Hollen | 90 | 0% | 4 |
-| Lance Gooden | 90 | 0% | 2 |
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 89 | 0% | 1 |
-| Joseph D. Morelle | 86 | 0% | 8 |
-| Lori Trahan | 85 | 0% | 1 |
+| Joseph D. Morelle | 87 | 0% | 8 |
+| Lori Trahan | 86 | 0% | 1 |
+| Scott DesJarlais | 83 | 0% | 2 |
+| Marc A. Veasey | 82 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
 | Victoria Spartz | 81 | 0% | 1 |
-| Scott DesJarlais | 81 | 0% | 2 |
-| Marc A. Veasey | 80 | 0% | 1 |
 | Sara Jacobs | 79 | 0% | 9 |
 | John W Hickenlooper | 77 | 14% | 7 |
 | Tom Cole | 76 | 0% | 1 |
 | Dave Min | 76 | 0% | 1 |
 | Tina Smith | 73 | 0% | 3 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 67 | 0% | 1 |
+| David Rouzer | 70 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
+| Shri Thanedar | 61 | 20% | 5 |
 | Greg Landsman | 61 | 0% | 9 |
-| Shri Thanedar | 59 | 20% | 5 |
 | Julie Johnson | 58 | 13% | 8 |
 | Mike Kelly | 56 | 29% | 7 |
 | William R. Timmons | 52 | 0% | 6 |
@@ -88,10 +88,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | August Lee Pfluger | 21 | 33% | 6 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
 | David Kustoff | 19 | 40% | 5 |
+| Austin Scott | 18 | 0% | 7 |
 | Zoe Lofgren | 18 | 11% | 9 |
 | Valerie Hoyle | 18 | 22% | 9 |
 | Pete Sessions | 17 | 40% | 10 |
-| Austin Scott | 17 | 0% | 7 |
 | John Curtis | 15 | 56% | 9 |
 | Lois Frankel | 14 | 11% | 9 |
 | John W. Rose | 13 | 33% | 3 |

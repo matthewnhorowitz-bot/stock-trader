@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 17:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 18:01 UTC._
 
 ## Total
 
@@ -41,7 +41,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Warren Davidson | 175.1% | 2 |
 | Seth Moulton | 172.4% | 1 |
 | Gary Palmer | 149.8% | 182 |
-| John Hoeven | 148.9% | 128 |
+| John Hoeven | 149.0% | 128 |
 | Daniel Meuser | 145.0% | 9 |
 | Debbie Dingell | 141.6% | 99 |
 | Pat Roberts | 139.7% | 286 |
@@ -96,8 +96,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Vicente Gonzalez | 66.8% | 1 |
 | Kevin Hern | 64.3% | 534 |
 | Neal Patrick MD, Facs Dunn | 64.0% | 6 |
-| Carol Devine Miller | 62.7% | 62 |
-| Scott Franklin | 62.2% | 48 |
+| Carol Devine Miller | 62.6% | 62 |
+| Scott Franklin | 62.3% | 48 |
 | James Comer | 61.9% | 32 |
 | Richard W. Allen | 59.2% | 157 |
 | William Cassidy | 58.8% | 87 |
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Knott | 43.5% | 2 |
 | Mike Kelly | 42.7% | 8 |
 | John A. Yarmuth | 42.5% | 139 |
-| Josh Gottheimer | 42.4% | 1429 |
+| Josh Gottheimer | 42.3% | 1429 |
 | William R. Keating | 42.3% | 86 |
 | Aston Donald McEachin | 42.1% | 6 |
 | Rafael E Cruz | 41.4% | 3 |
@@ -137,16 +137,16 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donald Sternoff Beyer | 34.6% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 32.6% | 10 |
-| Steve Cohen | 31.9% | 20 |
+| Steve Cohen | 32.0% | 20 |
 | Harold Dallas Rogers | 31.4% | 8 |
 | Daniel Goldman | 31.3% | 369 |
 | Susan A. Davis | 31.1% | 32 |
 | Thomas H Tuberville | 30.1% | 466 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Donna Shalala | 28.8% | 169 |
-| Elizabeth Fletcher | 28.5% | 23 |
 | John W. Rose | 28.5% | 1 |
 | Robert E. Latta | 28.5% | 22 |
+| Elizabeth Fletcher | 28.5% | 23 |
 | Rohit Khanna | 27.8% | 137 |
 | Markwayne Mullin | 27.8% | 272 |
 | Earl Blumenauer | 26.8% | 237 |
