@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 19:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 20:01 UTC._
 
 ## Total
 
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 1052.9% | 6 |
 | Barbara J. Comstock | 579.5% | 2 |
 | Charlie Joseph Crist | 542.4% | 1 |
-| Sheldon Whitehouse | 541.6% | 441 |
+| Sheldon Whitehouse | 541.5% | 441 |
 | Luis V. Gutierrez | 442.9% | 6 |
 | Ashley Moody | 429.0% | 3 |
 | Brenda Lulenar Lawrence | 403.2% | 19 |
@@ -28,7 +28,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 234.4% | 51 |
 | William M. Cassidy | 213.4% | 1 |
-| Richard L. Hanna | 211.0% | 91 |
+| Richard L. Hanna | 210.9% | 91 |
 | Michael Waltz | 210.8% | 2 |
 | Susan M Collins | 209.0% | 181 |
 | Raul Ruiz | 208.1% | 1 |
@@ -110,7 +110,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bradley S. Schneider | 51.9% | 40 |
 | Dan Newhouse | 51.7% | 98 |
 | Garret Graves | 51.0% | 6 |
-| Virginia Foxx | 49.3% | 601 |
+| Virginia Foxx | 49.4% | 601 |
 | Tim Moore | 48.0% | 159 |
 | Susie Lee | 47.7% | 624 |
 | Gilbert Cisneros | 47.1% | 1480 |
@@ -138,7 +138,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 32.6% | 10 |
 | Steve Cohen | 32.1% | 20 |
-| Harold Dallas Rogers | 31.4% | 8 |
+| Harold Dallas Rogers | 31.8% | 8 |
 | Daniel Goldman | 31.3% | 369 |
 | Susan A. Davis | 31.1% | 32 |
 | Thomas H Tuberville | 30.1% | 466 |
@@ -154,7 +154,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard Dean McCormick | 26.5% | 67 |
 | Julia Letlow | 26.3% | 154 |
 | Christopher L. Jacobs | 26.2% | 94 |
-| Charles J. Chuck Fleischmann | 26.1% | 57 |
+| Charles J. Chuck Fleischmann | 26.2% | 57 |
 | Kathy Manning | 25.3% | 276 |
 | Austin Scott | 24.4% | 38 |
 | Greg Steube | 23.9% | 12 |
@@ -274,6 +274,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Knight | -43.3% | 3 |
 | Roy Blunt | -44.5% | 2 |
 | Elaine Luria | -67.6% | 3 |
-| Tom Cole | -87.6% | 1 |
+| Tom Cole | -87.5% | 1 |
 
 _Equal-weighted; end-of-day prices. Not financial advice._
