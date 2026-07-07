@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 14:01 UTC._
 
 ## Total
 
@@ -79,7 +79,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph Manchin, III | 78.2% | 1 |
 | Lloyd Doggett | 77.9% | 203 |
 | John Rutherford | 76.9% | 165 |
-| Michael K. Simpson | 75.9% | 34 |
+| Michael K. Simpson | 75.6% | 34 |
 | Katherine M. Clark | 75.1% | 155 |
 | Shelley M Capito | 74.6% | 344 |
 | Peter Welch | 73.5% | 36 |
@@ -120,8 +120,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Knott | 43.5% | 2 |
 | Mike Kelly | 42.7% | 8 |
 | John A. Yarmuth | 42.5% | 139 |
-| William R. Keating | 42.3% | 86 |
 | Josh Gottheimer | 42.3% | 1429 |
+| William R. Keating | 42.3% | 86 |
 | Aston Donald McEachin | 42.1% | 6 |
 | Rafael E Cruz | 41.4% | 3 |
 | Kelly Louise Morrison | 39.8% | 13 |
@@ -137,18 +137,18 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donald Sternoff Beyer | 34.6% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 32.6% | 10 |
-| Steve Cohen | 31.8% | 20 |
+| Steve Cohen | 31.9% | 20 |
 | Harold Dallas Rogers | 31.4% | 8 |
 | Daniel Goldman | 31.2% | 369 |
 | Susan A. Davis | 31.1% | 32 |
-| Thomas H Tuberville | 30.0% | 466 |
+| Thomas H Tuberville | 30.1% | 466 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Donna Shalala | 28.8% | 169 |
 | Elizabeth Fletcher | 28.5% | 23 |
 | John W. Rose | 28.5% | 1 |
 | Robert E. Latta | 28.5% | 22 |
-| Markwayne Mullin | 27.8% | 272 |
 | Rohit Khanna | 27.8% | 137 |
+| Markwayne Mullin | 27.8% | 272 |
 | Earl Blumenauer | 26.8% | 237 |
 | Rob Bresnahan | 26.7% | 248 |
 | Richard Dean McCormick | 26.3% | 67 |
