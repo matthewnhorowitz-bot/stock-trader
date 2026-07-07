@@ -3,14 +3,15 @@ name: Backfill History
 # Advances the historical trade backfill (Senate eFD + House Clerk PDFs) a batch at a
 # time, on GitHub's servers, and reprices. Resumable via data/backfill_state.json.
 #
-# TEMPORARY CATCH-UP MODE: cron is bumped to every 15 min and Senate is re-enabled
-# back to the STOCK Act (2012) to walk in the historical range fast. Once coverage
-# stabilizes (data/tracked_trades.json stops growing, pre-2019 positions priced, ~1-2
-# days), revert to the steady state: cron '37 */4 * * *' and BACKFILL_SENATE_BATCH '0'
-# (new Senate trades arrive via the live alert feed; this job keeps appending House PTRs).
+# STEADY STATE: the historical catch-up is complete (backfill_state.mirrorDone=true,
+# tracked_trades.json plateaued at ~49.5k spanning 2012->present), so this runs every
+# 4 hours and the Senate historical walk is off (BACKFILL_SENATE_BATCH=0) — new Senate
+# trades arrive via the live alert feed. This job now just appends newly-filed House
+# PTRs. (To re-run a full historical catch-up, bump cron to '*/15 * * * *' and set
+# BACKFILL_SENATE_BATCH back to '250'.)
 on:
   schedule:
-    - cron: '*/15 * * * *' # CATCH-UP: every 15 min (revert to '37 */4 * * *' when done)
+    - cron: '37 */4 * * *' # steady state: every 4 hours
   workflow_dispatch: {}
 
 permissions:
@@ -37,7 +38,7 @@ jobs:
       - name: Backfill a batch
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
-          BACKFILL_SENATE_BATCH: '250' # CATCH-UP: walk Senate back to 2012 (set '0' when done)
+          BACKFILL_SENATE_BATCH: '0' # steady state: Senate historical walk complete; live feed handles new trades
           BACKFILL_SENATE_SINCE: '01/01/2012' # STOCK Act era
           BACKFILL_HOUSE_BATCH: '500'
           BACKFILL_HOUSE_YEARS: '2014,2015,2016,2017,2018,2019,2023,2024,2025,2026'
