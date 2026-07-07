@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 16:01 UTC._
 
 ## Total
 
@@ -43,7 +43,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary Palmer | 149.8% | 182 |
 | John Hoeven | 148.9% | 128 |
 | Daniel Meuser | 145.0% | 9 |
-| Debbie Dingell | 141.8% | 99 |
+| Debbie Dingell | 141.6% | 99 |
 | Pat Roberts | 139.7% | 286 |
 | Beto O'Rourke | 138.7% | 3 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
@@ -102,8 +102,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard W. Allen | 59.2% | 157 |
 | William Cassidy | 58.8% | 87 |
 | John Curtis | 58.4% | 127 |
-| David A Perdue , Jr | 57.8% | 1255 |
-| Lois Frankel | 57.3% | 439 |
+| David A Perdue , Jr | 57.9% | 1255 |
+| Lois Frankel | 57.2% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 52.9% | 48 |
 | Cheri Bustos | 52.0% | 13 |
@@ -158,7 +158,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kathy Manning | 25.3% | 276 |
 | Austin Scott | 24.4% | 38 |
 | Greg Steube | 23.9% | 12 |
-| Thomas H. Kean | 23.6% | 72 |
+| Thomas H. Kean | 23.7% | 72 |
 | Kelly Loeffler | 22.8% | 97 |
 | Ashley Hinson Arenholz | 22.4% | 4 |
 | Alan S. Lowenthal | 22.4% | 410 |
