@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=19" />
+  <link rel="stylesheet" href="./style.css?v=21" />
 </head>
 <body>
   <header>
@@ -16,12 +16,7 @@
   </header>
 
   <div class="container">
-    <nav class="tabs">
-      <button class="tab active" data-tab="backtester-tab" type="button">📈 Backtester &amp; Index</button>
-      <button class="tab" data-tab="divergence-tab" type="button">⚖️ Divergence Score</button>
-    </nav>
-
-    <section id="backtester-tab" class="tab-content active">
+    <section id="backtester-tab">
     <div class="panel lb">
       <h2>🏆 Leaderboard — return by member</h2>
       <div class="lb-controls">
@@ -33,6 +28,36 @@
         <span class="note" style="margin:0">Ranked by copyable return, using the parameters below.</span>
       </div>
       <div id="leaderboard" class="lb-table"><div class="note">loading…</div></div>
+    </div>
+
+    <div class="panel methodology">
+      <h2>📜 Methodology — the STOCK Act edge</h2>
+      <p class="method-lede">Members of Congress write the laws, budgets, and regulations that move entire industries — and they trade the very same stocks. The <b>Congress Index</b> turns their legally-disclosed trades into a rules-based, copyable strategy and marks it against the real S&amp;P 500.</p>
+      <div class="method-grid">
+        <div class="method-item">
+          <div class="method-h">🏛️ The STOCK Act of 2012</div>
+          <p>Before 2012, congressional trading was a black box. The <b>Stop Trading on Congressional Knowledge (STOCK) Act</b> banned trading on non-public information gained through the job and — critically — forced members to <b>publicly disclose every trade within 45 days</b>. Those official filings are the raw material for this index. That same 45-day lag is why this is a research tool, not a way to front-run anyone.</p>
+        </div>
+        <div class="method-item">
+          <div class="method-h">📈 Why it's an edge</div>
+          <p>Members sit on committees that draft legislation, receive closed-door and industry briefings, and see regulatory direction months ahead of the public. The biggest wins cluster in the exact sectors they oversee — defense, health, energy, tech. Peer-reviewed studies of Senate and House portfolios have documented statistically significant, market-beating returns for years.</p>
+        </div>
+        <div class="method-item">
+          <div class="method-h">✅ The proof</div>
+          <p>The chart below is the receipt. Starting from the STOCK Act era (2012+), the index rebalances into the members who have <i>actually</i> been winning and marks that roster to market against the real S&amp;P 500 over identical dates. The cards show exactly how far ahead it finishes for your chosen settings.</p>
+        </div>
+      </div>
+      <details class="method-detail">
+        <summary>How the index is built — the exact rules</summary>
+        <ul>
+          <li><b>Universe:</b> STOCK Act era only — every position is a trade disclosed from 2012 onward.</li>
+          <li><b>Selection:</b> at each rebalance, members are ranked by trailing total return over the prior lookback window (default 2 years) with a minimum trade cadence. The "top N" is only taken when the qualifying pool is at least twice N — so it's a genuine selection, not just whoever happened to trade.</li>
+          <li><b>Weighting:</b> by trade size, equal, or a multi-factor <b>Score = Alpha</b> (return above the S&amp;P) <b>+ Consistency</b> (win rate vs the S&amp;P) <b>+ Committee</b> (share of trades whose sector overlaps a committee the member sits on).</li>
+          <li><b>Measurement:</b> returns are marked to market between non-overlapping rebalance dates so they chain legitimately; per-period moves are winsorized at +150% / −95% to tame delisted and mis-matched tickers; when a member leaves office their positions close at their last-served price.</li>
+          <li><b>Benchmark:</b> the real S&amp;P 500 (SPY) over the identical dates.</li>
+        </ul>
+        <p class="method-caveat">Honest caveat: the roster is chosen with hindsight — <i>because</i> those members performed well — so this demonstrates the historical edge rather than guaranteeing the future. It's a backtest and research aid, not financial advice.</p>
+      </details>
     </div>
 
     <div class="panel ci-panel">
@@ -115,16 +140,8 @@
       </div>
     </div>
     </section>
-
-    <section id="divergence-tab" class="tab-content">
-      <div class="panel ds-panel">
-        <h2>⚖️ Divergence Score — votes vs. money</h2>
-        <p class="note" style="margin:0 0 14px">How far each member's <b>legislative</b> stance on a sector diverges from their <b>portfolio</b>. <b>0</b> = their votes match where their money sits · <b>100</b> = they vote or sponsor <i>against</i> a sector they're heavily long (could profit from the legislation they oppose). Click a member to see the evidence.</p>
-        <div id="divergence"><div class="note">loading…</div></div>
-      </div>
-    </section>
   </div>
 
-  <script src="./app.js?v=19"></script>
+  <script src="./app.js?v=21"></script>
 </body>
 </html>

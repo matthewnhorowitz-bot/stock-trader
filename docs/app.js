@@ -4,8 +4,8 @@ let POSITIONS = [];
 let BOUNDARIES = []; // semi-annual rebalance dates (Jan 1 / Jul 1) for the Congress Index
 let DEPARTURES = {}; // member -> date they left office; excluded from rosters after that date
 let SPYCLOSE = []; // SPY close at each boundary (benchmark)
-let DIVERGENCE = []; // per-member Divergence (Hypocrisy) Score, from divergence.json
 const selected = new Set();
+let CHART_SEQ = 0; // monotonic id source so inline-SVG gradient ids never collide
 
 const $ = (id) => document.getElementById(id);
 const pctClass = (x) => (x >= 0 ? 'pos' : 'neg');
@@ -176,23 +176,35 @@ function equityCurve(filtered, wfn) {
   const ymax = Math.max(...ys, 0);
   const x = (i) => padL + (i / (pts.length - 1)) * (W - padL - padR);
   const y = (v) => padT + (1 - (v - ymin) / (ymax - ymin || 1)) * (H - padT - padB);
-  const line = (key, color) =>
-    `<polyline fill="none" stroke="${color}" stroke-width="2" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p[key]).toFixed(1)}`).join(' ')}"/>`;
+  const gid = `eq${CHART_SEQ++}`;
   const zeroY = y(0);
+  const mePts = pts.map((p, i) => `${x(i).toFixed(1)},${y(p.me).toFixed(1)}`).join(' ');
+  const spyPts = pts.map((p, i) => `${x(i).toFixed(1)},${y(p.spy).toFixed(1)}`).join(' ');
+  const area = `${x(0).toFixed(1)},${zeroY.toFixed(1)} ${mePts} ${x(pts.length - 1).toFixed(1)},${zeroY.toFixed(1)}`;
+  const grid = [ymin, (ymin + ymax) / 2, ymax]
+    .map((v) => `<line x1="${padL}" y1="${y(v).toFixed(1)}" x2="${W - padR}" y2="${y(v).toFixed(1)}" stroke="rgba(255,255,255,0.05)"/>`)
+    .join('');
   const yticks = [ymin, (ymin + ymax) / 2, ymax]
-    .map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b98a5" font-size="11">${(v * 100).toFixed(0)}%</text>`)
+    .map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b97a7" font-size="11">${(v * 100).toFixed(0)}%</text>`)
     .join('');
 
   return `
     <svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">
-      <line x1="${padL}" y1="${zeroY}" x2="${W - padR}" y2="${zeroY}" stroke="#2d3744"/>
+      <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3fb950" stop-opacity="0.32"/>
+        <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+      </linearGradient></defs>
+      ${grid}
+      <polygon fill="url(#${gid})" stroke="none" points="${area}"/>
+      <line x1="${padL}" y1="${zeroY}" x2="${W - padR}" y2="${zeroY}" stroke="#3a4453"/>
       ${yticks}
-      <text x="${padL}" y="${H - 8}" fill="#8b98a5" font-size="11">${pts[0].d}</text>
-      <text x="${W - padR}" y="${H - 8}" fill="#8b98a5" font-size="11" text-anchor="end">${pts[pts.length - 1].d}</text>
-      ${line('spy', '#8b98a5')}
-      ${line('me', '#2ea043')}
+      <text x="${padL}" y="${H - 8}" fill="#8b97a7" font-size="11">${pts[0].d}</text>
+      <text x="${W - padR}" y="${H - 8}" fill="#8b97a7" font-size="11" text-anchor="end">${pts[pts.length - 1].d}</text>
+      <polyline fill="none" stroke="#8b97a7" stroke-width="2" points="${spyPts}"/>
+      <polyline fill="none" stroke="#56d364" stroke-width="3.5" stroke-opacity="0.22" stroke-linejoin="round" stroke-linecap="round" points="${mePts}"/>
+      <polyline fill="none" stroke="#3fb950" stroke-width="2.25" stroke-linejoin="round" stroke-linecap="round" points="${mePts}"/>
     </svg>
-    <div class="legend"><span class="dot" style="background:#2ea043"></span>Copied members &nbsp; <span class="dot" style="background:#8b98a5"></span>S&P 500 — running average realized return as each position closes</div>`;
+    <div class="legend"><span class="dot" style="background:#3fb950"></span>Copied members &nbsp; <span class="dot" style="background:#8b97a7"></span>S&P 500 — running average realized return as each position closes</div>`;
 }
 
 // --- leaderboard -------------------------------------------------------------
@@ -245,45 +257,6 @@ function renderLeaderboard() {
           .join('')}
       </tbody>
     </table>`;
-}
-
-// --- divergence (hypocrisy) score --------------------------------------------
-// 0 = votes match where the money sits; 100 = votes/sponsors against a sector the
-// member is long. Coloring mirrors that: low = good (green), high = bad (red).
-const dsClass = (ds) => (ds >= 67 ? 'neg' : ds >= 34 ? 'warn' : 'pos');
-const actionWord = (a) =>
-  ({ sponsor: 'sponsored', cosponsor: 'co-sponsored', yea: 'voted yes on', nay: 'voted no on' }[a] || a);
-const voteWord = (v) => (v > 0 ? `supports (+${v})` : v < 0 ? `opposes (${v})` : 'neutral');
-const holdWord = (p) => (p > 0 ? `long (+${p})` : p < 0 ? `selling (${p})` : 'flat');
-
-function renderDivergence() {
-  const el = $('divergence');
-  if (!el) return;
-  if (!DIVERGENCE.length) {
-    el.innerHTML = '<div class="note">No divergence data yet — a member needs both legislative records and trades in the same sector to be scored.</div>';
-    return;
-  }
-  el.innerHTML = DIVERGENCE.map((m, i) => {
-    const rows = m.sectors
-      .map((s) => {
-        const ex = s.example ? `${actionWord(s.example.action)} “${esc(s.example.title)}”` : '';
-        const verdict = s.aligned ? '<span class="pos">aligned</span>' : '<span class="neg">divergent</span>';
-        const ticks = (s.tickers || []).map(esc).join(', ');
-        return `<tr>
-          <td>${esc(s.sector)}</td>
-          <td>${voteWord(s.voteStance)}<div class="ds-ex">${ex}</div></td>
-          <td>${holdWord(s.portfolioStance)}<div class="ds-ex">${ticks}</div></td>
-          <td class="num">${verdict}</td></tr>`;
-      })
-      .join('');
-    return `<details class="ds-item"${i === 0 ? ' open' : ''}>
-      <summary><span class="ds-badge ${dsClass(m.ds)}">${m.ds}</span> <b>${esc(m.member)}</b> <span class="ds-chamber">${esc(m.chamber || '')}</span> <span class="ds-meta">votes match money ${m.alignmentRate}% · ${m.sectorsScored} sector${m.sectorsScored > 1 ? 's' : ''}</span></summary>
-      <table class="ds-sectors">
-        <thead><tr><th>Sector</th><th>Legislative stance</th><th>Portfolio</th><th class="num">Verdict</th></tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-    </details>`;
-  }).join('');
 }
 
 // --- congress index ----------------------------------------------------------
@@ -529,13 +502,23 @@ function levelChart(pts, fmtY) {
   const ymax = Math.max(...pts.flatMap((p) => [p.idx, p.spy]), 1);
   const x = (i) => padL + (i / (pts.length - 1)) * (W - padL - padR);
   const y = (v) => padT + (1 - v / ymax) * (H - padT - padB);
-  const line = (k, c) => `<polyline fill="none" stroke="${c}" stroke-width="2.5" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(p[k]).toFixed(1)}`).join(' ')}"/>`;
-  const yticks = [0, ymax / 2, ymax].map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b949e" font-size="11">${f(v)}</text>`).join('');
+  const gid = `lv${CHART_SEQ++}`;
+  const base = y(0);
+  const idxPts = pts.map((p, i) => `${x(i).toFixed(1)},${y(p.idx).toFixed(1)}`).join(' ');
+  const spyPts = pts.map((p, i) => `${x(i).toFixed(1)},${y(p.spy).toFixed(1)}`).join(' ');
+  const area = `${x(0).toFixed(1)},${base.toFixed(1)} ${idxPts} ${x(pts.length - 1).toFixed(1)},${base.toFixed(1)}`;
+  const grid = [0, ymax / 2, ymax].map((v) => `<line x1="${padL}" y1="${y(v).toFixed(1)}" x2="${W - padR}" y2="${y(v).toFixed(1)}" stroke="rgba(255,255,255,0.05)"/>`).join('');
+  const yticks = [0, ymax / 2, ymax].map((v) => `<text x="6" y="${(y(v) + 4).toFixed(1)}" fill="#8b97a7" font-size="11">${f(v)}</text>`).join('');
   const every = Math.ceil(pts.length / 12); // thin labels when crowded (e.g. semi-annual)
   const xlabels = pts
-    .map((p, i) => (i % every === 0 || i === pts.length - 1 ? `<text x="${x(i).toFixed(1)}" y="${H - 8}" fill="#8b949e" font-size="11" text-anchor="middle">${p.label}</text>` : ''))
+    .map((p, i) => (i % every === 0 || i === pts.length - 1 ? `<text x="${x(i).toFixed(1)}" y="${H - 8}" fill="#8b97a7" font-size="11" text-anchor="middle">${p.label}</text>` : ''))
     .join('');
-  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">${yticks}${xlabels}${line('spy', '#8b949e')}${line('idx', '#3fb950')}</svg>`;
+  return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">` +
+    `<defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fb950" stop-opacity="0.3"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></linearGradient></defs>` +
+    `${grid}<polygon fill="url(#${gid})" stroke="none" points="${area}"/>${yticks}${xlabels}` +
+    `<polyline fill="none" stroke="#8b97a7" stroke-width="2" points="${spyPts}"/>` +
+    `<polyline fill="none" stroke="#56d364" stroke-width="4" stroke-opacity="0.2" stroke-linejoin="round" stroke-linecap="round" points="${idxPts}"/>` +
+    `<polyline fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" points="${idxPts}"/></svg>`;
 }
 
 function renderCongressIndex() {
@@ -602,7 +585,7 @@ function renderCongressIndex() {
       <div class="card"><div class="k">${periodWord}</div><div class="v">${rows.length}</div></div>
     </div>
     ${levelChart(pts, fmtAxis)}
-    <div class="legend"><span class="dot" style="background:#3fb950"></span>Congress Index &nbsp; <span class="dot" style="background:#8b949e"></span>S&P 500 — value of ${fmtUSD(invest)} invested at the start</div>
+    <div class="legend"><span class="dot" style="background:#3fb950"></span>Congress Index &nbsp; <span class="dot" style="background:#8b97a7"></span>S&P 500 — value of ${fmtUSD(invest)} invested at the start</div>
     ${statsHtml}
     <h2 style="margin:18px 0 8px;">Period by period &amp; roster</h2>
     ${rows
@@ -666,21 +649,6 @@ async function boot() {
   } catch (e) {
     $('chips').innerHTML = `<div class="note">Could not load data: ${e.message}</div>`;
   }
-  loadDivergence();
-}
-
-// Independent of the positions data: the hypocrisy score has its own artifact, so a
-// failure on either side never breaks the other.
-async function loadDivergence() {
-  try {
-    const res = await fetch('./divergence.json', { cache: 'no-store' });
-    const data = await res.json();
-    DIVERGENCE = data.members || [];
-    renderDivergence();
-  } catch (e) {
-    const el = $('divergence');
-    if (el) el.innerHTML = `<div class="note">Could not load divergence data: ${e.message}</div>`;
-  }
 }
 $('memberPick').onchange = (e) => {
   if (e.target.value) {
@@ -701,14 +669,6 @@ $('lbChamber').onchange = renderLeaderboard;
   const el = $(id);
   el.oninput = renderCongressIndex;
   el.onchange = renderCongressIndex;
-});
-// Tabs: keep the Divergence Score on its own view so it doesn't interfere with the
-// leaderboard / Congress Index / backtester.
-document.querySelectorAll('.tab').forEach((btn) => {
-  btn.onclick = () => {
-    document.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b === btn));
-    document.querySelectorAll('.tab-content').forEach((c) => c.classList.toggle('active', c.id === btn.dataset.tab));
-  };
 });
 $('run').onclick = runBacktest;
 // Roster chips in the Congress Index load members into the backtester above.
