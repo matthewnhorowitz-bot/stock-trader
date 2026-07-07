@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 22:46 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 23:01 UTC._
 
 ## Total
 
@@ -97,7 +97,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Hern | 64.3% | 534 |
 | Neal Patrick MD, Facs Dunn | 64.0% | 6 |
 | Carol Devine Miller | 62.6% | 62 |
-| Scott Franklin | 62.3% | 48 |
+| Scott Franklin | 62.4% | 48 |
 | James Comer | 61.9% | 32 |
 | Richard W. Allen | 59.2% | 157 |
 | William Cassidy | 58.8% | 87 |
@@ -151,12 +151,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Earl Blumenauer | 26.8% | 237 |
 | Rob Bresnahan | 26.7% | 248 |
-| Charles J. Chuck Fleischmann | 26.7% | 57 |
+| Charles J. Chuck Fleischmann | 26.6% | 57 |
 | Richard Dean McCormick | 26.5% | 67 |
 | Julia Letlow | 26.3% | 154 |
 | Christopher L. Jacobs | 26.2% | 94 |
 | Kathy Manning | 25.3% | 276 |
-| Austin Scott | 24.4% | 38 |
+| Austin Scott | 24.2% | 38 |
 | Greg Steube | 23.9% | 12 |
 | Thomas H. Kean | 23.7% | 72 |
 | Kelly Loeffler | 22.8% | 97 |
