@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 12:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 13:01 UTC._
 
 ## Total
 
@@ -24,11 +24,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Christopher A Coons | 275.8% | 2 |
 | Michael Fq San Nicolas | 269.2% | 1 |
 | Steve Chabot | 255.9% | 2 |
-| Ron L Wyden | 249.6% | 196 |
+| Ron L Wyden | 249.7% | 196 |
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 234.4% | 51 |
 | William M. Cassidy | 213.4% | 1 |
-| Richard L. Hanna | 210.8% | 91 |
+| Richard L. Hanna | 210.9% | 91 |
 | Michael Waltz | 210.8% | 2 |
 | Susan M Collins | 208.8% | 181 |
 | Raul Ruiz | 208.1% | 1 |
@@ -43,7 +43,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary Palmer | 149.8% | 182 |
 | John Hoeven | 148.8% | 128 |
 | Daniel Meuser | 145.0% | 9 |
-| Debbie Dingell | 141.6% | 99 |
+| Debbie Dingell | 141.7% | 99 |
 | Pat Roberts | 139.7% | 286 |
 | Beto O'Rourke | 138.7% | 3 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
@@ -57,7 +57,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Suzan K. DelBene | 114.1% | 71 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Scott H. Peters | 111.1% | 105 |
-| Gary C Peters | 108.5% | 49 |
+| Gary C Peters | 108.4% | 49 |
 | Justin Amash | 105.9% | 11 |
 | Robert B. Aderholt | 105.8% | 1 |
 | Tina Smith | 105.1% | 5 |
@@ -82,7 +82,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael K. Simpson | 75.9% | 34 |
 | Katherine M. Clark | 75.1% | 155 |
 | Shelley M Capito | 74.6% | 344 |
-| Peter Welch | 71.9% | 36 |
+| Peter Welch | 73.5% | 36 |
 | Max Miller | 71.7% | 1 |
 | Debbie Wasserman Schultz | 71.6% | 36 |
 | Morgan McGarvey | 70.6% | 9 |
@@ -96,16 +96,16 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Diana Harshbarger | 66.6% | 7 |
 | Kevin Hern | 64.2% | 534 |
 | Neal Patrick MD, Facs Dunn | 64.0% | 6 |
+| Carol Devine Miller | 62.4% | 62 |
 | Scott Franklin | 62.3% | 48 |
-| Carol Devine Miller | 62.2% | 62 |
 | James Comer | 61.9% | 32 |
-| Richard W. Allen | 59.1% | 157 |
+| Richard W. Allen | 59.2% | 157 |
 | William Cassidy | 58.6% | 87 |
 | John Curtis | 58.4% | 127 |
 | David A Perdue , Jr | 57.8% | 1255 |
 | Lois Frankel | 57.3% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
-| Michael Patrick Guest | 52.7% | 48 |
+| Michael Patrick Guest | 52.8% | 48 |
 | Cheri Bustos | 52.0% | 13 |
 | Bradley S. Schneider | 51.9% | 40 |
 | Dan Newhouse | 51.7% | 98 |
@@ -141,7 +141,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Harold Dallas Rogers | 31.4% | 8 |
 | Daniel Goldman | 31.2% | 369 |
 | Susan A. Davis | 31.1% | 32 |
-| Thomas H Tuberville | 29.9% | 466 |
+| Thomas H Tuberville | 30.0% | 466 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Donna Shalala | 28.8% | 169 |
 | Elizabeth Fletcher | 28.5% | 23 |
@@ -168,7 +168,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Greg Gianforte | 21.7% | 647 |
 | Nicholas Van Taylor | 21.7% | 49 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
-| Jonathan Jackson | 20.7% | 106 |
+| Jonathan Jackson | 20.8% | 106 |
 | Cynthia M Lummis | 20.3% | 1 |
 | Lou Barletta | 20.1% | 17 |
 | Thomas R Carper | 19.6% | 494 |
