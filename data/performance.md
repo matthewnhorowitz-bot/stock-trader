@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 18:35 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-07 19:01 UTC._
 
 ## Total
 
@@ -49,7 +49,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | James French Hill | 118.7% | 24 |
 | W. Greg Steube | 117.9% | 2 |
-| Thomas Suozzi | 117.5% | 283 |
+| Thomas Suozzi | 117.4% | 283 |
 | Grace Meng | 116.7% | 5 |
 | Victoria Spartz | 115.9% | 21 |
 | Lamar Smith | 115.7% | 222 |
@@ -72,7 +72,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 90.2% | 7 |
 | Stephen F. Lynch | 88.9% | 1 |
 | John F Reed | 85.4% | 55 |
-| David P. Joyce | 84.0% | 76 |
+| David P. Joyce | 83.9% | 76 |
 | Nancy Pelosi | 83.5% | 89 |
 | Daniel S Sullivan | 78.7% | 30 |
 | Dean Phillips | 78.4% | 347 |
