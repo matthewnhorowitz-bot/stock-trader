@@ -1,11 +1,28 @@
-# 📈 Congress Trade Notifier
+# 📈 Congressional Trade Backtester
 
-Watches official U.S. congressional stock-trade disclosures (filed under the
-**STOCK Act of 2012**) and alerts you by **email and/or SMS** whenever a
-legislator you follow reports a new trade. Review each alert and decide for
-yourself whether to mirror it in your own brokerage — no auto-trading.
+**Live site → https://matthewnhorowitz-bot.github.io/stock-trader/**
 
-## How it works
+Turns the U.S. Congress's legally-disclosed stock trades (filed under the **STOCK
+Act of 2012**) into a research tool: rank members by the return you'd have made
+copying their trades, and build a rebalanced **"Congress Index"** — an
+S&P-500-of-Congress — measured against the real S&P 500. A companion **notifier**
+can email/text you whenever a legislator you follow reports a new trade.
+
+## What's inside
+
+- **📈 Backtester & leaderboard** — pick members (or all 535), set an amount and a
+  date range, and see the copyable return from each trade's disclosure date, with
+  an equity curve vs the S&P 500.
+- **🏛️ Congress Index** — each rebalance period selects the top trailing performers
+  and follows their trades (by trade size, equal-weight, or a multi-factor score),
+  chained mark-to-market against the real S&P 500. Methodology is documented in-app.
+- **🔔 Trade notifier** — a pluggable pipeline that alerts you by email/SMS on new
+  disclosures, and can run free on GitHub Actions.
+
+The frontend is a dependency-free static site in [`docs/`](docs/) (hosted on GitHub
+Pages); the data and notifier pipeline are Node.js in [`src/`](src/).
+
+## How the notifier works
 
 ```
 fetcher.js  →  filter.js  →  tradeLog.js  →  notifier.js
@@ -121,7 +138,8 @@ npm run divergence   # builds data/divergence.{json,md} + docs/divergence.json
 By default it reads the bundled `data/sample_votes.json` (`VOTES_PROVIDER=sample`)
 and, when `DATA_PROVIDER=sample`, scores against `data/sample_trades.json` so the
 demo is fully offline. The hourly performance refresh rebuilds it automatically,
-and the frontend surfaces it as its own **⚖️ Divergence Score** tab.
+and it is written out as `data/divergence.{json,md}` + `docs/divergence.json` for
+downstream use.
 
 ### Live votes + cosponsors (Congress.gov)
 
@@ -172,7 +190,7 @@ gh workflow run "Congress Trade Notifier"
 
 Watch it run under the repo's **Actions** tab, or `gh run watch`.
 
-> **SMS** is preset to text **+1 856-444-0212** (`SMS_TO`). You still need a free
+> **SMS** goes to whatever number you set in `SMS_TO`. You still need a free
 > [Twilio](https://twilio.com) number for `TWILIO_*` and `SMS_ENABLED=true`.
 
 **Three things to know about GitHub's free scheduler:**

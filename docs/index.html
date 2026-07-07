@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=22" />
+  <link rel="stylesheet" href="./style.css?v=23" />
 </head>
 <body>
   <header>
@@ -25,7 +25,13 @@
           <option value="house">House</option>
           <option value="senate">Senate</option>
         </select>
-        <span class="note" style="margin:0">Ranked by copyable return, using the parameters below.</span>
+        <select id="lbMinTrades">
+          <option value="0">Any # of trades</option>
+          <option value="3">≥ 3 trades</option>
+          <option value="5" selected>≥ 5 trades</option>
+          <option value="10">≥ 10 trades</option>
+        </select>
+        <span class="note" style="margin:0">Ranked by copyable return; a minimum trade count filters out small-sample flukes.</span>
       </div>
       <div id="leaderboard" class="lb-table"><div class="note">loading…</div></div>
     </div>
@@ -141,6 +147,6 @@
     </section>
   </div>
 
-  <script src="./app.js?v=22"></script>
+  <script src="./app.js?v=23"></script>
 </body>
 </html>

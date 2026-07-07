@@ -138,7 +138,7 @@ async function sendSms(trades) {
 }
 
 // Free "text": email the short SMS body to the carrier's email-to-SMS gateway
-// (e.g. 8564440212@vtext.com), which delivers it to the phone as a real text.
+// (e.g. 5551234567@vtext.com), which delivers it to the phone as a real text.
 // Reuses the SMTP transport, so it needs SMTP_USER/SMTP_PASS configured.
 async function sendSmsViaEmail(trades) {
   if (!config.smsEmail.enabled) return { channel: 'text', skipped: true };

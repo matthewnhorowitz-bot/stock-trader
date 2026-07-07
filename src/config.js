@@ -78,7 +78,7 @@ export const config = {
   // transport above, so it needs SMTP_USER/SMTP_PASS set (a Gmail App Password).
   smsEmail: {
     enabled: bool(process.env.SMS_VIA_EMAIL, false) && !!process.env.SMS_EMAIL_ADDRESS,
-    address: process.env.SMS_EMAIL_ADDRESS, // e.g. 8564440212@vtext.com
+    address: process.env.SMS_EMAIL_ADDRESS, // e.g. 5551234567@vtext.com
   },
 };
 

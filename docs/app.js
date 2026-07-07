@@ -242,7 +242,8 @@ const medal = (r) => (r === 1 ? '🥇' : r === 2 ? '🥈' : r === 3 ? '🥉' : r
 
 function renderLeaderboard() {
   if (!POSITIONS.length) return;
-  const stats = memberStatsFiltered({ ...readParams(), chamber: $('lbChamber').value });
+  const minTrades = Number($('lbMinTrades').value || 0);
+  const stats = memberStatsFiltered({ ...readParams(), chamber: $('lbChamber').value }).filter((m) => m.n >= minTrades);
   $('leaderboard').innerHTML = `
     <table>
       <thead><tr><th class="rank">#</th><th>Member</th><th>Chamber</th><th class="num">Return</th><th class="num"># trades</th></tr></thead>
@@ -665,6 +666,7 @@ $('chips').onclick = (e) => {
 $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member)); refreshMemberUI(); };
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('lbChamber').onchange = renderLeaderboard;
+$('lbMinTrades').onchange = renderLeaderboard;
 ['ciInvest', 'ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats', 'ciMinSize', 'ciChamber', 'ciWAlpha', 'ciWCons', 'ciWComm'].forEach((id) => {
   const el = $(id);
   el.oninput = renderCongressIndex;
