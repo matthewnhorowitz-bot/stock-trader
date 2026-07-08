@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 14:01 UTC._
 
 ## Total
 
@@ -102,7 +102,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard W. Allen | 59.2% | 157 |
 | William Cassidy | 58.9% | 87 |
 | John Curtis | 58.4% | 127 |
-| David A Perdue , Jr | 57.8% | 1255 |
+| David A Perdue , Jr | 57.7% | 1255 |
 | Lois Frankel | 57.3% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 52.9% | 48 |
@@ -147,8 +147,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W. Rose | 28.5% | 1 |
 | Robert E. Latta | 28.5% | 22 |
 | Elizabeth Fletcher | 28.5% | 23 |
-| Rohit Khanna | 27.8% | 137 |
 | Markwayne Mullin | 27.8% | 272 |
+| Rohit Khanna | 27.7% | 137 |
 | Earl Blumenauer | 26.8% | 237 |
 | Rob Bresnahan | 26.7% | 248 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
