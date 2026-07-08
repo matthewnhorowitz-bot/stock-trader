@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 16:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 16:07 UTC._
 
 ## Total
 
@@ -78,7 +78,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | Lloyd Doggett | 77.3% | 207 |
-| John Rutherford | 76.9% | 165 |
+| John Rutherford | 76.8% | 165 |
 | Michael K. Simpson | 76.0% | 34 |
 | Katherine M. Clark | 75.1% | 155 |
 | Shelley M Capito | 74.8% | 344 |
