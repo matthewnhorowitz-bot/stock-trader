@@ -153,24 +153,58 @@ function renderResults({ filtered, total, spy, openN, perMember, wfn, invest, pl
     <div class="note">Copyable return: buy at each trade's disclosure date, sell when they sell (open positions marked to the latest price). Dollars allocated by the chosen weighting. End-of-day prices. Not financial advice.</div>`;
 }
 
-// Running weighted-average realized return through time (closed positions by exit date),
-// with an SPY line over the same set. Dependency-free inline SVG.
+// Total-return equity curve: the value of the invested money marked to market
+// through time (not a running average), vs the same allocation put in the S&P.
+// Each position holds `wfn`-weighted share of the portfolio; its growth is 1 before
+// entry, marked-to-market while held (semi-annual boundary marks), and frozen at its
+// final return once closed (open positions marked to the latest price). The curve's
+// endpoint therefore equals the headline total return. Dependency-free inline SVG.
 function equityCurve(filtered, wfn) {
-  const closed = filtered.filter((p) => p.closed && p.exitDate).sort((a, b) => a.exitDate.localeCompare(b.exitDate));
-  if (closed.length < 2) return '<div class="note">Not enough closed positions yet to draw a curve.</div>';
-
-  const pts = [];
-  const acc = [];
-  for (const p of closed) {
-    acc.push(p);
-    pts.push({
-      d: p.exitDate,
-      me: wmean(acc, (x) => x.ret, wfn),
-      spy: wmean(acc, (x) => x.spyRet, wfn),
-    });
+  if (!BOUNDARIES.length || !filtered.length) return '<div class="note">Not enough data to draw a curve yet.</div>';
+  const totalW = filtered.reduce((s, p) => s + wfn(p), 0) || 1;
+  const lastBi = BOUNDARIES.length - 1;
+  const biOnOrAfter = (d) => { for (let i = 0; i < BOUNDARIES.length; i++) if (BOUNDARIES[i] >= d) return i; return lastBi; };
+  for (const p of filtered) {
+    if (!p._btMarks) p._btMarks = new Map(p.marks || []);
+    if (p._btEntryBi === undefined) p._btEntryBi = biOnOrAfter(p.entryDate);
+    if (p._btExitBi === undefined) p._btExitBi = p.closed && p.exitDate ? biOnOrAfter(p.exitDate) : lastBi;
   }
+  // Portfolio growth of a position at boundary bi (1 = flat). `carry` = last known
+  // mark, carried forward when a boundary mark hasn't been priced yet.
+  const meGrowth = (p, bi, carry) => {
+    if (BOUNDARIES[bi] <= p.entryDate) return 1;
+    if (p.closed) { if (BOUNDARIES[bi] >= p.exitDate) return 1 + p.ret; }
+    else if (bi >= lastBi) return 1 + p.ret;
+    const g = p._btMarks.get(bi);
+    return g == null ? carry : g;
+  };
+  // SPY-equivalent: the same money in the S&P over each position's holding window,
+  // shaped by SPYCLOSE and pinned so the endpoint equals its realized spyRet.
+  const spyGrowth = (p, bi) => {
+    if (bi <= p._btEntryBi) return 1;
+    if (bi >= p._btExitBi) return 1 + (p.spyRet || 0);
+    const den = SPYCLOSE[p._btExitBi] - SPYCLOSE[p._btEntryBi];
+    if (!den) return 1;
+    return 1 + (p.spyRet || 0) * ((SPYCLOSE[bi] - SPYCLOSE[p._btEntryBi]) / den);
+  };
+
+  const firstBi = filtered.reduce((m, p) => Math.min(m, p._btEntryBi), lastBi);
+  const pts = [];
+  const carry = new Map();
+  for (let bi = firstBi; bi <= lastBi; bi++) {
+    let me = 0, spy = 0;
+    for (const p of filtered) {
+      const w = wfn(p) / totalW;
+      const g = meGrowth(p, bi, carry.get(p) ?? 1);
+      carry.set(p, g);
+      me += w * g;
+      spy += w * spyGrowth(p, bi);
+    }
+    pts.push({ d: BOUNDARIES[bi], me: me - 1, spy: spy - 1 });
+  }
+  if (pts.length < 2) return '<div class="note">Not enough history to draw a curve yet.</div>';
+
   const W = 700, H = 240, padL = 44, padB = 26, padT = 12, padR = 12;
-  const xs = pts.map((_, i) => i);
   const ys = pts.flatMap((p) => [p.me, p.spy]).filter((v) => v != null);
   const ymin = Math.min(...ys, 0);
   const ymax = Math.max(...ys, 0);
@@ -204,7 +238,7 @@ function equityCurve(filtered, wfn) {
       <polyline fill="none" stroke="#56d364" stroke-width="3.5" stroke-opacity="0.22" stroke-linejoin="round" stroke-linecap="round" points="${mePts}"/>
       <polyline fill="none" stroke="#3fb950" stroke-width="2.25" stroke-linejoin="round" stroke-linecap="round" points="${mePts}"/>
     </svg>
-    <div class="legend"><span class="dot" style="background:#3fb950"></span>Copied members &nbsp; <span class="dot" style="background:#8b97a7"></span>S&P 500 — running average realized return as each position closes</div>`;
+    <div class="legend"><span class="dot" style="background:#3fb950"></span>Copied members &nbsp; <span class="dot" style="background:#8b97a7"></span>S&P 500 — total return of the invested amount, marked to market over time</div>`;
 }
 
 // --- leaderboard -------------------------------------------------------------
