@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 01:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 02:01 UTC._
 
 ## Total
 
@@ -72,7 +72,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 90.2% | 7 |
 | Stephen F. Lynch | 88.9% | 1 |
 | John F Reed | 85.4% | 55 |
-| David P. Joyce | 83.9% | 76 |
+| David P. Joyce | 83.8% | 76 |
 | Nancy Pelosi | 83.5% | 89 |
 | Daniel S Sullivan | 78.7% | 30 |
 | Dean Phillips | 78.4% | 347 |
@@ -84,7 +84,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Shelley M Capito | 74.7% | 344 |
 | Peter Welch | 73.5% | 36 |
 | Max Miller | 71.7% | 1 |
-| Debbie Wasserman Schultz | 71.6% | 36 |
+| Debbie Wasserman Schultz | 70.9% | 36 |
 | Morgan McGarvey | 70.6% | 9 |
 | Jerry Moran, | 70.0% | 72 |
 | Joseph D. Morelle | 69.3% | 1 |
@@ -178,7 +178,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Laurel Lee | 17.8% | 7 |
 | Peter Allen Stauber | 17.8% | 1 |
 | Gerald E. Connolly | 16.8% | 25 |
-| August Lee Pfluger | 16.4% | 10 |
+| August Lee Pfluger | 16.6% | 10 |
 | Brian Mast | 16.4% | 31 |
 | Mo Brooks | 16.4% | 41 |
 | Roger Williams | 15.5% | 12 |
