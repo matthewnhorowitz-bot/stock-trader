@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 03:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 04:01 UTC._
 
 ## Total
 
@@ -79,9 +79,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph Manchin, III | 78.2% | 1 |
 | Lloyd Doggett | 77.3% | 207 |
 | John Rutherford | 76.9% | 165 |
-| Michael K. Simpson | 75.8% | 34 |
+| Michael K. Simpson | 75.9% | 34 |
 | Katherine M. Clark | 75.1% | 155 |
-| Shelley M Capito | 74.7% | 344 |
+| Shelley M Capito | 74.8% | 344 |
 | Peter Welch | 73.5% | 36 |
 | Max Miller | 71.7% | 1 |
 | Debbie Wasserman Schultz | 70.9% | 36 |
@@ -100,7 +100,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Franklin | 62.4% | 48 |
 | James Comer | 61.9% | 32 |
 | Richard W. Allen | 59.2% | 157 |
-| William Cassidy | 58.8% | 87 |
+| William Cassidy | 58.9% | 87 |
 | John Curtis | 58.4% | 127 |
 | David A Perdue , Jr | 57.9% | 1255 |
 | Lois Frankel | 57.3% | 439 |
@@ -269,7 +269,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Shri Thanedar | -27.2% | 1 |
 | David H McCormick | -27.8% | 24 |
 | David Madison Cawthorn | -34.4% | 15 |
-| Felix Barry Moore | -41.8% | 5 |
+| Felix Barry Moore | -42.4% | 5 |
 | Larry Bucshon | -43.1% | 1 |
 | Steve Knight | -43.3% | 3 |
 | Roy Blunt | -44.5% | 2 |
