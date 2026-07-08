@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 12:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 13:01 UTC._
 
 ## Total
 
@@ -136,7 +136,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 34.8% | 14 |
 | Donald Sternoff Beyer | 34.6% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
-| Sara Jacobs | 32.8% | 10 |
+| Sara Jacobs | 33.2% | 10 |
 | Steve Cohen | 32.0% | 20 |
 | Harold Dallas Rogers | 31.6% | 8 |
 | Daniel Goldman | 31.3% | 369 |
@@ -147,8 +147,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W. Rose | 28.5% | 1 |
 | Robert E. Latta | 28.5% | 22 |
 | Elizabeth Fletcher | 28.5% | 23 |
-| Markwayne Mullin | 27.8% | 272 |
 | Rohit Khanna | 27.8% | 137 |
+| Markwayne Mullin | 27.8% | 272 |
 | Earl Blumenauer | 26.8% | 237 |
 | Rob Bresnahan | 26.7% | 248 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
