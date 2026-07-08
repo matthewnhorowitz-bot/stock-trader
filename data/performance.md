@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 19:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 20:01 UTC._
 
 ## Total
 
@@ -134,7 +134,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joe Courtney | 36.7% | 72 |
 | Daniel Crenshaw | 35.6% | 16 |
 | James E. Banks | 34.8% | 14 |
-| Donald Sternoff Beyer | 34.6% | 371 |
+| Donald Sternoff Beyer | 34.5% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 33.2% | 10 |
 | Steve Cohen | 32.0% | 20 |
