@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 16:07 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 17:01 UTC._
 
 ## Total
 
@@ -149,8 +149,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Elizabeth Fletcher | 28.5% | 23 |
 | Markwayne Mullin | 27.8% | 272 |
 | Rohit Khanna | 27.7% | 137 |
+| Rob Bresnahan | 26.9% | 248 |
 | Earl Blumenauer | 26.8% | 237 |
-| Rob Bresnahan | 26.8% | 248 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
 | Richard Dean McCormick | 26.5% | 67 |
 | Julia Letlow | 26.3% | 154 |
