@@ -435,6 +435,17 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
     } else {
       ret = held.length ? wmean(held, (h) => h.r, (h) => wfn(h.p)) : null;
     }
+    // Each member's SHARE of the period's weighting (for tooltips): dollars in amount
+    // mode, position count in equal mode, Score in multi-factor mode. Explains how a
+    // few big-$ positions can swing the total against the raw win/loss headcount.
+    let totW = 0;
+    const mW = new Map();
+    for (const [m, hs] of heldByMember) {
+      const w = isScore ? (memberWeight.get(m) || 0) : hs.reduce((s, h) => s + wfn(h.p), 0);
+      mW.set(m, w);
+      totW += w;
+    }
+    for (const x of roster) x.weight = totW ? (mW.get(x.member) || 0) / totW : 0;
     const sp0 = SPYCLOSE[bStart], sp1 = SPYCLOSE[bEnd];
     const spyRet = sp0 && sp1 ? sp1 / sp0 - 1 : null;
     if (ret != null) {
@@ -602,7 +613,9 @@ function renderCongressIndex() {
                 weighting === 'score' && x.score != null
                   ? `Score ${x.score.toFixed(2)} (alpha ${fmtPct(x.alpha)} · win ${(x.cons * 100).toFixed(0)}% · committee ${(x.comm * 100).toFixed(0)}%)`
                   : `picked on ${fmtPct(x.ret)} trailing return`;
-              const tip = `${x.member} — this period ${x.pret == null ? 'held nothing' : fmtPct(x.pret)}; ${why}; click to backtest`;
+              const wtxt = x.weight >= 0.01 ? `${Math.round(x.weight * 100)}%` : '<1%';
+              const share = x.pret == null ? 'held nothing' : `${fmtPct(x.pret)}, ${wtxt} of index weight`;
+              const tip = `${x.member} — this period ${share}; ${why}; click to backtest`;
               return `<button type="button" class="rchip" data-member="${esc(x.member)}" title="${esc(tip)}">${i + 1}. ${esc(x.member)} ${val}</button>`;
             })
             .join('')}
@@ -614,7 +627,7 @@ function renderCongressIndex() {
         ? `<div class="note"><b>Multi-factor weighting:</b> each member's index weight = Score = ${wAlpha}·Alpha + ${wCons}·Consistency + ${wComm}·Committee, where Alpha = trailing return above the S&P, Consistency = win rate vs the S&P, and Committee = share of their trades whose sector overlaps a committee they sit on. Each factor is normalized across the roster. Committee data is current-day &amp; fills in as sector data warms (it may read ~0 early).</div>`
         : ''
     }
-    <div class="note">Each member chip shows that member's return <i>during that period</i> (so they sum to the period total) — hover for why they were picked. Click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates, vs the real S&P over the same dates; per-period moves are capped at ±~150%. When a member leaves office their unsold positions are closed at the price on their last day served (not marked to market forever).</div>`;
+    <div class="note">Each member chip shows that member's return <i>during that period</i> — hover for their share of the index weight (dollar-weighted, so a few large trades can move the total more than the win/loss headcount) and why they were picked. Click any member to backtest just their trades, or “Backtest all” to load the whole roster into the backtester below. Backtest only — the roster is chosen <i>because</i> it performed well, so past results don't predict the future. Returns are marked-to-market between rebalance dates, vs the real S&P over the same dates; per-period moves are capped at ±~150%. When a member leaves office their unsold positions are closed at the price on their last day served (not marked to market forever).</div>`;
 }
 
 // Load a roster (or a single member) into the member backtester above, run it,
