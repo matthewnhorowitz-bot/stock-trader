@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 14:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 15:01 UTC._
 
 ## Total
 
@@ -182,7 +182,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Mast | 16.4% | 31 |
 | Mo Brooks | 16.4% | 41 |
 | Roger Williams | 15.5% | 12 |
-| Byron Donalds | 15.4% | 43 |
+| Byron Donalds | 15.3% | 43 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Jefferson Shreve | 14.8% | 173 |
