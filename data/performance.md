@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 20:45 UTC._
 
 ## Total
 
@@ -53,8 +53,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Grace Meng | 116.7% | 5 |
 | Victoria Spartz | 115.9% | 21 |
 | Lamar Smith | 115.7% | 222 |
-| Deborah K. Ross | 114.2% | 21 |
 | Suzan K. DelBene | 114.1% | 71 |
+| Deborah K. Ross | 113.5% | 21 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Scott H. Peters | 111.2% | 105 |
 | Gary C Peters | 108.6% | 49 |
