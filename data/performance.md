@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 16:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.5%**
 - S&P 500 (SPY) over the same windows: 58.0%
-- Priced positions: 25645  ·  still open: 9878  ·  awaiting price data: 606
+- Priced positions: 25657  ·  still open: 9886  ·  awaiting price data: 608
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 1052.9% | 6 |
 | Barbara J. Comstock | 579.5% | 2 |
 | Charlie Joseph Crist | 542.4% | 1 |
-| Sheldon Whitehouse | 541.5% | 441 |
+| Sheldon Whitehouse | 541.6% | 441 |
 | Luis V. Gutierrez | 442.9% | 6 |
 | Ashley Moody | 429.0% | 3 |
 | Brenda Lulenar Lawrence | 403.4% | 19 |
@@ -65,9 +65,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kathy Castor | 103.7% | 39 |
 | John N Kennedy | 102.5% | 2 |
 | Mark Green | 100.4% | 463 |
-| Dwight Evans | 100.1% | 70 |
+| Dwight Evans | 100.3% | 70 |
 | David E. Price | 98.4% | 42 |
-| K. Michael Conaway | 98.2% | 283 |
+| K. Michael Conaway | 98.3% | 283 |
 | Judy Chu | 91.6% | 5 |
 | Hakeem S. Jeffries | 90.2% | 7 |
 | Stephen F. Lynch | 88.9% | 1 |
@@ -88,7 +88,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Morgan McGarvey | 70.6% | 9 |
 | Jerry Moran, | 69.9% | 72 |
 | Joseph D. Morelle | 69.3% | 1 |
-| Blake Moore | 68.1% | 83 |
+| Blake Moore | 68.5% | 83 |
 | Diana Harshbarger | 67.4% | 7 |
 | David Kustoff | 67.4% | 9 |
 | Robert J. Wittman | 67.2% | 115 |
@@ -106,8 +106,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lois Frankel | 57.3% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 52.9% | 48 |
+| Bradley S. Schneider | 52.1% | 40 |
 | Cheri Bustos | 52.0% | 13 |
-| Bradley S. Schneider | 51.9% | 40 |
 | Dan Newhouse | 51.8% | 98 |
 | Garret Graves | 51.0% | 6 |
 | Virginia Foxx | 49.3% | 601 |
@@ -121,7 +121,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mike Kelly | 43.1% | 8 |
 | John A. Yarmuth | 42.5% | 139 |
 | William R. Keating | 42.3% | 86 |
-| Josh Gottheimer | 42.3% | 1429 |
+| Josh Gottheimer | 42.3% | 1427 |
 | Aston Donald McEachin | 41.7% | 6 |
 | Rafael E Cruz | 41.4% | 3 |
 | Kelly Louise Morrison | 39.8% | 13 |
@@ -141,7 +141,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Harold Dallas Rogers | 31.6% | 8 |
 | Daniel Goldman | 31.3% | 369 |
 | Susan A. Davis | 31.1% | 32 |
-| Thomas H Tuberville | 30.1% | 466 |
+| Thomas H Tuberville | 30.2% | 466 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Donna Shalala | 28.8% | 169 |
 | John W. Rose | 28.5% | 1 |
@@ -150,7 +150,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Rohit Khanna | 27.7% | 137 |
 | Earl Blumenauer | 26.8% | 237 |
-| Rob Bresnahan | 26.7% | 248 |
+| Rob Bresnahan | 26.8% | 248 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
 | Richard Dean McCormick | 26.5% | 67 |
 | Julia Letlow | 26.3% | 154 |
@@ -189,12 +189,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rick Larsen | 14.6% | 42 |
 | James M Inhofe | 14.4% | 76 |
 | Patrick J Toomey | 14.4% | 84 |
-| Maria Elvira Salazar | 13.8% | 54 |
 | Julie Johnson | 13.5% | 79 |
 | Ed Case | 13.4% | 12 |
 | Brad Ashford | 13.1% | 5 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
+| Maria Elvira Salazar | 12.5% | 60 |
 | John Boozman | 12.3% | 215 |
 | Sheri Biggs | 12.3% | 50 |
 | Frank A. LoBiondo | 12.2% | 8 |
@@ -235,7 +235,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
-| April McClain Delaney | 1.4% | 169 |
+| April McClain Delaney | 1.3% | 177 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
 | Greg Stanton | 0.2% | 94 |
