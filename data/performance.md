@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 00:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 01:01 UTC._
 
 ## Total
 
@@ -62,8 +62,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert B. Aderholt | 105.8% | 1 |
 | Tina Smith | 105.1% | 5 |
 | A. Mitchell McConnell, Jr. | 104.5% | 36 |
-| John N Kennedy | 104.2% | 2 |
 | Kathy Castor | 103.7% | 39 |
+| John N Kennedy | 102.5% | 2 |
 | Mark Green | 100.4% | 463 |
 | Dwight Evans | 100.1% | 70 |
 | David E. Price | 98.4% | 42 |
