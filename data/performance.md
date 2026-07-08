@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 02:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 03:01 UTC._
 
 ## Total
 
@@ -71,7 +71,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Judy Chu | 91.6% | 5 |
 | Hakeem S. Jeffries | 90.2% | 7 |
 | Stephen F. Lynch | 88.9% | 1 |
-| John F Reed | 85.4% | 55 |
+| John F Reed | 85.5% | 55 |
 | David P. Joyce | 83.8% | 76 |
 | Nancy Pelosi | 83.5% | 89 |
 | Daniel S Sullivan | 78.7% | 30 |
@@ -86,7 +86,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Max Miller | 71.7% | 1 |
 | Debbie Wasserman Schultz | 70.9% | 36 |
 | Morgan McGarvey | 70.6% | 9 |
-| Jerry Moran, | 70.0% | 72 |
+| Jerry Moran, | 69.9% | 72 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Blake Moore | 68.1% | 83 |
 | Diana Harshbarger | 67.4% | 7 |
@@ -147,8 +147,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W. Rose | 28.5% | 1 |
 | Robert E. Latta | 28.5% | 22 |
 | Elizabeth Fletcher | 28.5% | 23 |
-| Rohit Khanna | 27.8% | 137 |
 | Markwayne Mullin | 27.8% | 272 |
+| Rohit Khanna | 27.8% | 137 |
 | Earl Blumenauer | 26.8% | 237 |
 | Rob Bresnahan | 26.7% | 248 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
