@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 21:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 22:01 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 57.5%**
-- S&P 500 (SPY) over the same windows: 58.0%
-- Priced positions: 25657  ·  still open: 9886  ·  awaiting price data: 608
+- **Index (all tracked buys): 57.1%**
+- S&P 500 (SPY) over the same windows: 58.1%
+- Priced positions: 25658  ·  still open: 9886  ·  awaiting price data: 609
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -16,23 +16,23 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 1052.9% | 6 |
 | Barbara J. Comstock | 579.5% | 2 |
 | Charlie Joseph Crist | 542.4% | 1 |
-| Sheldon Whitehouse | 541.6% | 441 |
+| Sheldon Whitehouse | 524.0% | 442 |
 | Luis V. Gutierrez | 442.9% | 6 |
-| Ashley Moody | 429.0% | 3 |
+| Ashley Moody | 408.8% | 3 |
 | Brenda Lulenar Lawrence | 403.4% | 19 |
-| Barbara J Comstock | 398.4% | 29 |
+| Barbara J Comstock | 391.8% | 29 |
 | Christopher A Coons | 275.8% | 2 |
 | Michael Fq San Nicolas | 269.2% | 1 |
 | Steve Chabot | 255.9% | 2 |
 | Ron L Wyden | 249.7% | 196 |
 | Brian Higgins | 236.4% | 1 |
-| Roger W. Marshall | 234.4% | 51 |
+| Roger W. Marshall | 231.8% | 51 |
 | William M. Cassidy | 213.4% | 1 |
 | Richard L. Hanna | 210.9% | 91 |
 | Michael Waltz | 210.8% | 2 |
 | Susan M Collins | 209.0% | 181 |
 | Raul Ruiz | 208.1% | 1 |
-| Michael T. McCaul | 198.4% | 107 |
+| Michael T. McCaul | 197.0% | 107 |
 | David Cheston Rouzer | 193.0% | 8 |
 | Pete Sessions | 192.2% | 175 |
 | Gary C. Peters | 185.2% | 7 |
@@ -78,7 +78,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | Lloyd Doggett | 77.3% | 207 |
-| John Rutherford | 76.7% | 165 |
+| John Rutherford | 76.8% | 165 |
 | Michael K. Simpson | 76.0% | 34 |
 | Katherine M. Clark | 75.1% | 155 |
 | Shelley M Capito | 74.8% | 344 |
@@ -91,7 +91,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Blake Moore | 68.5% | 83 |
 | Diana Harshbarger | 67.4% | 7 |
 | David Kustoff | 67.4% | 9 |
-| Robert J. Wittman | 67.2% | 115 |
+| Robert J. Wittman | 67.3% | 115 |
 | Terri A. Sewell | 66.9% | 2 |
 | Vicente Gonzalez | 66.8% | 1 |
 | Kevin Hern | 64.3% | 534 |
@@ -102,7 +102,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard W. Allen | 59.2% | 157 |
 | William Cassidy | 58.9% | 87 |
 | John Curtis | 58.4% | 127 |
-| David A Perdue , Jr | 57.7% | 1255 |
+| David A Perdue , Jr | 57.4% | 1255 |
 | Lois Frankel | 57.3% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 52.9% | 48 |
@@ -126,10 +126,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rafael E Cruz | 41.4% | 3 |
 | Kelly Louise Morrison | 39.8% | 13 |
 | David B. McKinley | 39.5% | 195 |
-| John Fetterman | 39.4% | 8 |
 | Harley E. Rouda | 38.8% | 3 |
 | Susan W. Brooks | 38.6% | 12 |
 | William R. Timmons | 38.1% | 4 |
+| John Fetterman | 37.5% | 8 |
 | Jim McDermott | 37.1% | 2 |
 | Joe Courtney | 36.7% | 72 |
 | Daniel Crenshaw | 35.6% | 16 |
@@ -153,9 +153,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Earl Blumenauer | 26.8% | 237 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
 | Richard Dean McCormick | 26.5% | 67 |
-| Julia Letlow | 26.3% | 154 |
 | Christopher L. Jacobs | 26.2% | 94 |
 | Kathy Manning | 25.3% | 276 |
+| Julia Letlow | 25.3% | 154 |
 | Austin Scott | 24.2% | 38 |
 | Greg Steube | 23.9% | 12 |
 | Thomas H. Kean | 23.7% | 72 |
@@ -173,7 +173,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lou Barletta | 20.1% | 17 |
 | Thomas R Carper | 19.6% | 494 |
 | Michael Garcia | 19.3% | 20 |
-| Cleo Fields | 19.3% | 179 |
+| Cleo Fields | 19.2% | 179 |
 | Jackie Speier | 19.2% | 3 |
 | Laurel Lee | 17.8% | 7 |
 | Peter Allen Stauber | 17.8% | 1 |
