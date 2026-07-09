@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 00:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 01:01 UTC._
 
 ## Total
 
@@ -32,7 +32,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Waltz | 210.8% | 2 |
 | Susan M Collins | 209.0% | 181 |
 | Raul Ruiz | 208.1% | 1 |
-| Michael T. McCaul | 197.0% | 107 |
+| Michael T. McCaul | 196.8% | 107 |
 | David Cheston Rouzer | 193.0% | 8 |
 | Pete Sessions | 192.2% | 175 |
 | Gary C. Peters | 185.2% | 7 |
