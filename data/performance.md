@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-08 23:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 00:01 UTC._
 
 ## Total
 
@@ -113,7 +113,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Virginia Foxx | 49.3% | 601 |
 | Tim Moore | 48.0% | 159 |
 | Susie Lee | 47.7% | 624 |
-| Gilbert Cisneros | 47.0% | 1480 |
+| Gilbert Cisneros | 47.1% | 1480 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
 | Angus S King, Jr. | 44.0% | 34 |
