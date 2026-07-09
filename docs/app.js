@@ -314,6 +314,12 @@ function periodLabel(startMi, periodMonths) {
 const CI_RET_CAP = 1.5; // +150% per period
 const CI_RET_FLOOR = -0.95; // -95% per period
 
+// Whole-holding-period returns span years, so they legitimately run far higher than a
+// single period. We only clip the extreme tail — ticker-reuse / split mis-adjustment
+// artifacts (e.g. marks at +6002% or +20781%) — while leaving real multi-year winners
+// intact. A long can't lose more than ~100%, so the floor stays at -95%.
+const POS_RET_CAP = 10; // +1000% full-holding cap (kills ~0.6% of positions, all artifacts)
+
 // Min-max normalize each factor across the candidate pool to [0,1] so the weights are
 // comparable, then Score = wA·alpha + wC·cons + wK·comm. Mutates each candidate (.score).
 function scoreCandidates(cands, wA, wC, wK) {
@@ -680,6 +686,13 @@ async function boot() {
     const res = await fetch('./positions.json', { cache: 'no-store' });
     const data = await res.json();
     POSITIONS = data.positions || [];
+    // Winsorize each position's full-holding return so delisted/duplicate/mis-matched
+    // tickers can't surface as implausible per-member returns (e.g. an FTAI mark at
+    // +6002%) that dominate the "By member" sort. Bounds are generous (-95% / +1000%)
+    // so only true data artifacts are clipped; real multi-year winners pass through.
+    for (const p of POSITIONS) {
+      if (p.ret != null) p.ret = Math.max(CI_RET_FLOOR, Math.min(POS_RET_CAP, p.ret));
+    }
     BOUNDARIES = data.boundaries || [];
     DEPARTURES = data.departures || {};
     SPYCLOSE = data.spy || [];
