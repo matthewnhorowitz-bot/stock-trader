@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 07:06 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 08:02 UTC._
 
 ## Total
 
@@ -138,9 +138,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 33.2% | 10 |
 | Steve Cohen | 32.0% | 20 |
-| Harold Dallas Rogers | 31.6% | 8 |
 | Daniel Goldman | 31.3% | 369 |
 | Susan A. Davis | 31.1% | 32 |
+| Harold Dallas Rogers | 31.0% | 8 |
 | Thomas H Tuberville | 30.2% | 466 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Donna Shalala | 28.8% | 169 |
