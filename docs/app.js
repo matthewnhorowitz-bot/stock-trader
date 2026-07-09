@@ -690,8 +690,11 @@ async function boot() {
     // tickers can't surface as implausible per-member returns (e.g. an FTAI mark at
     // +6002%) that dominate the "By member" sort. Bounds are generous (-95% / +1000%)
     // so only true data artifacts are clipped; real multi-year winners pass through.
+    // The S&P benchmark (spyRet) gets the same clamp — a few recent-entry positions
+    // carry a glitched spyRet (~+1207%) that would distort the "vs S&P 500" figure.
     for (const p of POSITIONS) {
       if (p.ret != null) p.ret = Math.max(CI_RET_FLOOR, Math.min(POS_RET_CAP, p.ret));
+      if (p.spyRet != null) p.spyRet = Math.max(CI_RET_FLOOR, Math.min(POS_RET_CAP, p.spyRet));
     }
     BOUNDARIES = data.boundaries || [];
     DEPARTURES = data.departures || {};
