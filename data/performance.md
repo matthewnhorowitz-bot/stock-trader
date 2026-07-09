@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 05:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 06:01 UTC._
 
 ## Total
 
@@ -53,7 +53,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Grace Meng | 116.7% | 5 |
 | Victoria Spartz | 115.9% | 21 |
 | Lamar Smith | 115.7% | 222 |
-| Suzan K. DelBene | 114.1% | 71 |
+| Suzan K. DelBene | 113.9% | 71 |
 | Deborah K. Ross | 113.5% | 21 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Scott H. Peters | 111.2% | 105 |
@@ -112,7 +112,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Virginia Foxx | 49.3% | 601 |
 | Tim Moore | 48.0% | 159 |
-| Susie Lee | 47.7% | 624 |
+| Susie Lee | 47.8% | 624 |
 | Gilbert Cisneros | 47.1% | 1480 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
