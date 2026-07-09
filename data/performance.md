@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 01:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 02:01 UTC._
 
 ## Total
 
@@ -47,7 +47,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Pat Roberts | 139.7% | 286 |
 | Beto O'Rourke | 138.7% | 3 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
-| James French Hill | 118.7% | 24 |
+| James French Hill | 118.5% | 24 |
 | W. Greg Steube | 117.9% | 2 |
 | Thomas Suozzi | 117.4% | 283 |
 | Grace Meng | 116.7% | 5 |
@@ -79,7 +79,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph Manchin, III | 78.2% | 1 |
 | Lloyd Doggett | 77.3% | 207 |
 | John Rutherford | 76.8% | 165 |
-| Michael K. Simpson | 76.0% | 34 |
+| Michael K. Simpson | 75.9% | 34 |
 | Katherine M. Clark | 75.1% | 155 |
 | Shelley M Capito | 74.8% | 344 |
 | Peter Welch | 73.5% | 36 |
