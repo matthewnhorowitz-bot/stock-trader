@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T20:01:21.130Z",
+  "generatedAt": "2026-07-09T21:06:40.297Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -121,6 +121,32 @@
           "example": {
             "title": "Radar Next Program Act of 2026",
             "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Marc A. Veasey",
+      "chamber": "house",
+      "ds": 100,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "BBVA"
+          ],
+          "example": {
+            "title": "America’s Olympic and Paralympic Games Commemorative Coins Act",
+            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -470,6 +496,32 @@
       ]
     },
     {
+      "member": "Teresa Leger Fernandez",
+      "chamber": "house",
+      "ds": 100,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "GBDC"
+          ],
+          "example": {
+            "title": "25th Anniversary of 9/11 Commemorative Coin Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "William F Hagerty, IV",
       "chamber": "senate",
       "ds": 100,
@@ -581,6 +633,66 @@
       ]
     },
     {
+      "member": "John Garamendi",
+      "chamber": "house",
+      "ds": 100,
+      "alignmentRate": 0,
+      "sectorsScored": 3,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "FB"
+          ],
+          "example": {
+            "title": "Rosie the Riveter Commemorative Coin Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "TWTR"
+          ],
+          "example": {
+            "title": "Expressing the sense of the House of Representatives that President Donald Trump, his Special Envoy Steven Witkoff, and all Federal officials must comply with the Foreign Emoluments Clause of the Constitution by immediately turning over to the Department of the Treasury any payments received from the United Arab Emirates or any other foreign state and divest from all business interests linked to foreign governments.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "SQ"
+          ],
+          "example": {
+            "title": "Condemning attempts to use Federal regulatory power or litigation to suppress lawful speech, particularly speech critical of a political party or the President of the United States, and warning against the rise of authoritarianism.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "John R Thune",
       "chamber": "senate",
       "ds": 100,
@@ -651,6 +763,32 @@
           ],
           "example": {
             "title": "U.S. Farmworker Protection Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Jake Auchincloss",
+      "chamber": "house",
+      "ds": 100,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 30002,
+          "aligned": false,
+          "tickers": [
+            "STT"
+          ],
+          "example": {
+            "title": "Power of the Mint Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -821,9 +959,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.923,
+          "voteStance": 1,
           "portfolioStance": -1,
-          "divergence": 0.923,
+          "divergence": 1,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -855,9 +993,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.732,
+          "voteStance": 0.727,
           "portfolioStance": -1,
-          "divergence": 0.732,
+          "divergence": 0.727,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -865,6 +1003,154 @@
           ],
           "example": {
             "title": "Congratulating the Jewish War Veterans on the 130th anniversary of the organization's founding and honoring their commitment to Jewish war veterans.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "George Whitesides",
+      "chamber": "house",
+      "ds": 99,
+      "alignmentRate": 0,
+      "sectorsScored": 7,
+      "sectors": [
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 315003,
+          "aligned": false,
+          "tickers": [
+            "INTC",
+            "MSFT",
+            "TXN"
+          ],
+          "example": {
+            "title": "Honoring José Moreno Hernández, who served as a NASA astronaut and continues to be an inspirational voice on the importance of perseverance and a defining example of Hispanic American contributions in STEM.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 300003,
+          "aligned": false,
+          "tickers": [
+            "HD",
+            "MCD",
+            "RCL"
+          ],
+          "example": {
+            "title": "National Scam Prevention Coordination Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 295006,
+          "aligned": false,
+          "tickers": [
+            "BAC",
+            "CB",
+            "C",
+            "JPM",
+            "MMC",
+            "V"
+          ],
+          "example": {
+            "title": "HELPER Act of 2025",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 250003,
+          "aligned": false,
+          "tickers": [
+            "JNJ",
+            "MDT",
+            "NVS"
+          ],
+          "example": {
+            "title": "Right to Contraception Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 215003,
+          "aligned": false,
+          "tickers": [
+            "KO",
+            "DEO",
+            "PG"
+          ],
+          "example": {
+            "title": "SNAP Benefits Fairness Act of 2025",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 165003,
+          "aligned": false,
+          "tickers": [
+            "CMCSA",
+            "DIS",
+            "NFLX"
+          ],
+          "example": {
+            "title": "Iran Human Rights, Internet Freedom, and Accountability Act of 2026",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.948,
+          "portfolioStance": -1,
+          "divergence": 0.948,
+          "exposure": 350006,
+          "aligned": false,
+          "tickers": [
+            "LMT",
+            "RSG",
+            "ROK",
+            "RTX",
+            "UNP",
+            "PL"
+          ],
+          "example": {
+            "title": "To direct the Secretary of the Air Force to procure space-based commercial data and end products to support the efforts of the Department of Defense and the wildfire mission of the United States Northern Command.",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -988,154 +1274,6 @@
       ]
     },
     {
-      "member": "George Whitesides",
-      "chamber": "house",
-      "ds": 96,
-      "alignmentRate": 0,
-      "sectorsScored": 7,
-      "sectors": [
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 315003,
-          "aligned": false,
-          "tickers": [
-            "INTC",
-            "MSFT",
-            "TXN"
-          ],
-          "example": {
-            "title": "Honoring José Moreno Hernández, who served as a NASA astronaut and continues to be an inspirational voice on the importance of perseverance and a defining example of Hispanic American contributions in STEM.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 300003,
-          "aligned": false,
-          "tickers": [
-            "HD",
-            "MCD",
-            "RCL"
-          ],
-          "example": {
-            "title": "National Scam Prevention Coordination Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 250003,
-          "aligned": false,
-          "tickers": [
-            "JNJ",
-            "MDT",
-            "NVS"
-          ],
-          "example": {
-            "title": "Right to Contraception Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 215003,
-          "aligned": false,
-          "tickers": [
-            "KO",
-            "DEO",
-            "PG"
-          ],
-          "example": {
-            "title": "SNAP Benefits Fairness Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 165003,
-          "aligned": false,
-          "tickers": [
-            "CMCSA",
-            "DIS",
-            "NFLX"
-          ],
-          "example": {
-            "title": "Iran Human Rights, Internet Freedom, and Accountability Act of 2026",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.949,
-          "portfolioStance": -1,
-          "divergence": 0.949,
-          "exposure": 350006,
-          "aligned": false,
-          "tickers": [
-            "LMT",
-            "RSG",
-            "ROK",
-            "RTX",
-            "UNP",
-            "PL"
-          ],
-          "example": {
-            "title": "To direct the Secretary of the Air Force to procure space-based commercial data and end products to support the efforts of the Department of Defense and the wildfire mission of the United States Northern Command.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.826,
-          "portfolioStance": -1,
-          "divergence": 0.826,
-          "exposure": 295006,
-          "aligned": false,
-          "tickers": [
-            "BAC",
-            "CB",
-            "C",
-            "JPM",
-            "MMC",
-            "V"
-          ],
-          "example": {
-            "title": "HELPER Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Michael R. Turner",
       "chamber": "house",
       "ds": 95,
@@ -1204,9 +1342,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.937,
           "portfolioStance": -1,
-          "divergence": 0.926,
+          "divergence": 0.937,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -1221,9 +1359,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.903,
+          "voteStance": 0.897,
           "portfolioStance": -1,
-          "divergence": 0.903,
+          "divergence": 0.897,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -1325,6 +1463,23 @@
           }
         },
         {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "JPM"
+          ],
+          "example": {
+            "title": "Roberto Clemente Commemorative Coin Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Communication Services",
           "voteStance": 1,
           "portfolioStance": -1,
@@ -1359,23 +1514,6 @@
           }
         },
         {
-          "sector": "Financial Services",
-          "voteStance": 0.875,
-          "portfolioStance": -1,
-          "divergence": 0.875,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "JPM"
-          ],
-          "example": {
-            "title": "Roberto Clemente Commemorative Coin Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Energy",
           "voteStance": 0.851,
           "portfolioStance": -1,
@@ -1394,9 +1532,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.84,
+          "voteStance": 0.836,
           "portfolioStance": -1,
-          "divergence": 0.84,
+          "divergence": 0.836,
           "exposure": 16002,
           "aligned": false,
           "tickers": [
@@ -1640,66 +1778,6 @@
       ]
     },
     {
-      "member": "John Garamendi",
-      "chamber": "house",
-      "ds": 93,
-      "alignmentRate": 0,
-      "sectorsScored": 3,
-      "sectors": [
-        {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "TWTR"
-          ],
-          "example": {
-            "title": "Expressing the sense of the House of Representatives that President Donald Trump, his Special Envoy Steven Witkoff, and all Federal officials must comply with the Foreign Emoluments Clause of the Constitution by immediately turning over to the Department of the Treasury any payments received from the United Arab Emirates or any other foreign state and divest from all business interests linked to foreign governments.",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "SQ"
-          ],
-          "example": {
-            "title": "Condemning attempts to use Federal regulatory power or litigation to suppress lawful speech, particularly speech critical of a political party or the President of the United States, and warning against the rise of authoritarianism.",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.923,
-          "portfolioStance": -1,
-          "divergence": 0.923,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "FB"
-          ],
-          "example": {
-            "title": "Rosie the Riveter Commemorative Coin Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Adam Smith",
       "chamber": "house",
       "ds": 93,
@@ -1817,9 +1895,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.389,
+          "voteStance": 0.5,
           "portfolioStance": -1,
-          "divergence": 0.389,
+          "divergence": 0.5,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -1926,9 +2004,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.794,
+          "voteStance": 0.792,
           "portfolioStance": -1,
-          "divergence": 0.794,
+          "divergence": 0.792,
           "exposure": 2002,
           "aligned": false,
           "tickers": [
@@ -1963,9 +2041,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.417,
+          "voteStance": 0.455,
           "portfolioStance": -1,
-          "divergence": 0.417,
+          "divergence": 0.455,
           "exposure": 3003,
           "aligned": false,
           "tickers": [
@@ -2043,35 +2121,9 @@
       ]
     },
     {
-      "member": "Jake Auchincloss",
-      "chamber": "house",
-      "ds": 92,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.918,
-          "portfolioStance": -1,
-          "divergence": 0.918,
-          "exposure": 30002,
-          "aligned": false,
-          "tickers": [
-            "STT"
-          ],
-          "example": {
-            "title": "Power of the Mint Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Emily Randall",
       "chamber": "house",
-      "ds": 91,
+      "ds": 92,
       "alignmentRate": 0,
       "sectorsScored": 6,
       "sectors": [
@@ -2132,9 +2184,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.878,
+          "voteStance": 0.875,
           "portfolioStance": -1,
-          "divergence": 0.878,
+          "divergence": 0.875,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2166,9 +2218,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.412,
+          "voteStance": 0.6,
           "portfolioStance": -1,
-          "divergence": 0.412,
+          "divergence": 0.6,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2270,9 +2322,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.898,
+          "voteStance": 0.896,
           "portfolioStance": -1,
-          "divergence": 0.898,
+          "divergence": 0.896,
           "exposure": 1280,
           "aligned": false,
           "tickers": [
@@ -2374,17 +2426,99 @@
       ]
     },
     {
+      "member": "Raul Ruiz",
+      "chamber": "house",
+      "ds": 88,
+      "alignmentRate": 0,
+      "sectorsScored": 4,
+      "sectors": [
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 116004,
+          "aligned": false,
+          "tickers": [
+            "AAPL",
+            "CDK",
+            "MSFT"
+          ],
+          "example": {
+            "title": "Tribal Broadband Deployment Act of 2018",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "KO"
+          ],
+          "example": {
+            "title": "To amend the Specialty Crops Competitiveness Act of 2004 to provide for seasonal and perishable programs, and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.959,
+          "portfolioStance": -1,
+          "divergence": 0.959,
+          "exposure": 65002,
+          "aligned": false,
+          "tickers": [
+            "PCP",
+            "ADP"
+          ],
+          "example": {
+            "title": "Homegrown Defense Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -0.545,
+          "divergence": 0.545,
+          "exposure": 66003,
+          "aligned": false,
+          "tickers": [
+            "SLV",
+            "OUNZ",
+            "V"
+          ],
+          "example": {
+            "title": "761st Tank Battalion Congressional Gold Medal Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Stephanie Bice",
       "chamber": "house",
-      "ds": 89,
+      "ds": 88,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.889,
+          "voteStance": 0.88,
           "portfolioStance": -1,
-          "divergence": 0.889,
+          "divergence": 0.88,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2477,10 +2611,28 @@
           }
         },
         {
-          "sector": "Industrials",
-          "voteStance": 0.843,
+          "sector": "Financial Services",
+          "voteStance": 0.864,
           "portfolioStance": -1,
-          "divergence": 0.843,
+          "divergence": 0.864,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "MET",
+            "PRU"
+          ],
+          "example": {
+            "title": "National Women’s Hall of Fame Commemorative Coin Act of 2021",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.841,
+          "portfolioStance": -1,
+          "divergence": 0.841,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2507,24 +2659,6 @@
           ],
           "example": {
             "title": "Expressing support for the designation of May 16, 2026, as the \"National Day of Light\".",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.773,
-          "portfolioStance": -1,
-          "divergence": 0.773,
-          "exposure": 2002,
-          "aligned": false,
-          "tickers": [
-            "MET",
-            "PRU"
-          ],
-          "example": {
-            "title": "National Women’s Hall of Fame Commemorative Coin Act of 2021",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -2576,144 +2710,9 @@
       ]
     },
     {
-      "member": "Raul Ruiz",
-      "chamber": "house",
-      "ds": 85,
-      "alignmentRate": 0,
-      "sectorsScored": 4,
-      "sectors": [
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 116004,
-          "aligned": false,
-          "tickers": [
-            "AAPL",
-            "CDK",
-            "MSFT"
-          ],
-          "example": {
-            "title": "Tribal Broadband Deployment Act of 2018",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "KO"
-          ],
-          "example": {
-            "title": "To amend the Specialty Crops Competitiveness Act of 2004 to provide for seasonal and perishable programs, and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.959,
-          "portfolioStance": -1,
-          "divergence": 0.959,
-          "exposure": 65002,
-          "aligned": false,
-          "tickers": [
-            "PCP",
-            "ADP"
-          ],
-          "example": {
-            "title": "Homegrown Defense Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.826,
-          "portfolioStance": -0.545,
-          "divergence": 0.451,
-          "exposure": 66003,
-          "aligned": false,
-          "tickers": [
-            "SLV",
-            "OUNZ",
-            "V"
-          ],
-          "example": {
-            "title": "761st Tank Battalion Congressional Gold Medal Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Victoria Spartz",
-      "chamber": "house",
-      "ds": 82,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Industrials",
-          "voteStance": 0.818,
-          "portfolioStance": -1,
-          "divergence": 0.818,
-          "exposure": 450003,
-          "aligned": false,
-          "tickers": [
-            "LUV",
-            "ALK"
-          ],
-          "example": {
-            "title": "Expressing the sense of the House of Representatives condemning the Russian Federation, President Vladimir Putin, members of the Russian Security Council, the Russian Armed Forces, and Russian military commanders for committing atrocities, including alleged war crimes, against the people of Ukraine and others.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Teresa Leger Fernandez",
-      "chamber": "house",
-      "ds": 82,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.818,
-          "portfolioStance": -1,
-          "divergence": 0.818,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "GBDC"
-          ],
-          "example": {
-            "title": "25th Anniversary of 9/11 Commemorative Coin Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Scott DesJarlais",
       "chamber": "house",
-      "ds": 81,
+      "ds": 83,
       "alignmentRate": 0,
       "sectorsScored": 2,
       "sectors": [
@@ -2736,9 +2735,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.806,
+          "voteStance": 0.827,
           "portfolioStance": -1,
-          "divergence": 0.806,
+          "divergence": 0.827,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -2754,25 +2753,26 @@
       ]
     },
     {
-      "member": "Marc A. Veasey",
+      "member": "Victoria Spartz",
       "chamber": "house",
-      "ds": 80,
+      "ds": 81,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
-          "sector": "Financial Services",
-          "voteStance": 0.8,
+          "sector": "Industrials",
+          "voteStance": 0.813,
           "portfolioStance": -1,
-          "divergence": 0.8,
-          "exposure": 2002,
+          "divergence": 0.813,
+          "exposure": 450003,
           "aligned": false,
           "tickers": [
-            "BBVA"
+            "LUV",
+            "ALK"
           ],
           "example": {
-            "title": "America’s Olympic and Paralympic Games Commemorative Coins Act",
-            "action": "cosponsor",
+            "title": "Expressing the sense of the House of Representatives condemning the Russian Federation, President Vladimir Putin, members of the Russian Security Council, the Russian Armed Forces, and Russian military commanders for committing atrocities, including alleged war crimes, against the people of Ukraine and others.",
+            "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -2787,31 +2787,6 @@
       "sectorsScored": 9,
       "sectors": [
         {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 310009,
-          "aligned": false,
-          "tickers": [
-            "ANTM",
-            "AZN",
-            "BDX",
-            "GILD",
-            "MDT",
-            "MRK",
-            "OMCL",
-            "DGX",
-            "SYK"
-          ],
-          "example": {
-            "title": "To direct the Secretary of Health and Human Services, acting through the Commissioner of Food and Drugs, to revise certain regulations related to infant and toddler beverages, and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Communication Services",
           "voteStance": 1,
           "portfolioStance": -1,
@@ -2825,6 +2800,32 @@
           ],
           "example": {
             "title": "Global Internet Freedom Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": -0.92,
+          "divergence": 0.92,
+          "exposure": 375011,
+          "aligned": false,
+          "tickers": [
+            "LHCG",
+            "ANTM",
+            "AZN",
+            "BDX",
+            "GILD",
+            "MDT",
+            "MRK",
+            "OMCL",
+            "DGX",
+            "SYK"
+          ],
+          "example": {
+            "title": "To direct the Secretary of Health and Human Services, acting through the Commissioner of Food and Drugs, to revise certain regulations related to infant and toddler beverages, and for other purposes.",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -2873,9 +2874,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.809,
+          "voteStance": 0.807,
           "portfolioStance": -1,
-          "divergence": 0.809,
+          "divergence": 0.807,
           "exposure": 45003,
           "aligned": false,
           "tickers": [
@@ -2912,9 +2913,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.81,
+          "voteStance": 1,
           "portfolioStance": -0.707,
-          "divergence": 0.573,
+          "divergence": 0.707,
           "exposure": 205009,
           "aligned": false,
           "tickers": [
@@ -2974,78 +2975,9 @@
       ]
     },
     {
-      "member": "Tom Cole",
-      "chamber": "house",
-      "ds": 76,
-      "alignmentRate": 50,
-      "sectorsScored": 2,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.76,
-          "portfolioStance": -1,
-          "divergence": 0.76,
-          "exposure": 500001,
-          "aligned": false,
-          "tickers": [
-            "WFC"
-          ],
-          "example": {
-            "title": "761st Tank Battalion Congressional Gold Medal Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 0.96,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 1001,
-          "aligned": true,
-          "tickers": [
-            "EMBC"
-          ],
-          "example": {
-            "title": "Medical Student Education Authorization Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Dave Min",
-      "chamber": "house",
-      "ds": 76,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Energy",
-          "voteStance": 0.761,
-          "portfolioStance": -1,
-          "divergence": 0.761,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "FSLR"
-          ],
-          "example": {
-            "title": "Digital Coast Reauthorization Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Tina Smith",
       "chamber": "senate",
-      "ds": 74,
+      "ds": 77,
       "alignmentRate": 0,
       "sectorsScored": 4,
       "sectors": [
@@ -3104,11 +3036,12 @@
         {
           "sector": "Healthcare",
           "voteStance": 0.968,
-          "portfolioStance": -0.723,
-          "divergence": 0.7,
-          "exposure": 2165019,
+          "portfolioStance": -0.762,
+          "divergence": 0.737,
+          "exposure": 2516022,
           "aligned": false,
           "tickers": [
+            "CUTR",
             "PODD",
             "TCMD",
             "ABT",
@@ -3118,6 +3051,75 @@
           ],
           "example": {
             "title": "Data to Save Moms Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Dave Min",
+      "chamber": "house",
+      "ds": 76,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Energy",
+          "voteStance": 0.761,
+          "portfolioStance": -1,
+          "divergence": 0.761,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "FSLR"
+          ],
+          "example": {
+            "title": "Digital Coast Reauthorization Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Tom Cole",
+      "chamber": "house",
+      "ds": 75,
+      "alignmentRate": 50,
+      "sectorsScored": 2,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.75,
+          "portfolioStance": -1,
+          "divergence": 0.75,
+          "exposure": 500001,
+          "aligned": false,
+          "tickers": [
+            "WFC"
+          ],
+          "example": {
+            "title": "761st Tank Battalion Congressional Gold Medal Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 0.96,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 1001,
+          "aligned": true,
+          "tickers": [
+            "EMBC"
+          ],
+          "example": {
+            "title": "Medical Student Education Authorization Act of 2025",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -3207,9 +3209,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.822,
+          "voteStance": 0.818,
           "portfolioStance": -1,
-          "divergence": 0.822,
+          "divergence": 0.818,
           "exposure": 31003,
           "aligned": false,
           "tickers": [
@@ -3219,6 +3221,25 @@
           ],
           "example": {
             "title": "Water Infrastructure Finance and Innovation Act Amendments of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.786,
+          "portfolioStance": -1,
+          "divergence": 0.786,
+          "exposure": 31003,
+          "aligned": false,
+          "tickers": [
+            "EWBC",
+            "JPM",
+            "PYPL"
+          ],
+          "example": {
+            "title": "Permanent Housing Affordability Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -3243,21 +3264,28 @@
             "billStance": 1,
             "recordStance": 1
           }
-        },
+        }
+      ]
+    },
+    {
+      "member": "David Rouzer",
+      "chamber": "house",
+      "ds": 70,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
         {
-          "sector": "Financial Services",
-          "voteStance": 0.643,
+          "sector": "Industrials",
+          "voteStance": 0.697,
           "portfolioStance": -1,
-          "divergence": 0.643,
-          "exposure": 31003,
+          "divergence": 0.697,
+          "exposure": 1001,
           "aligned": false,
           "tickers": [
-            "EWBC",
-            "JPM",
-            "PYPL"
+            "BA"
           ],
           "example": {
-            "title": "Permanent Housing Affordability Act",
+            "title": "Atlantic Coast Shipping Safety Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -3266,24 +3294,99 @@
       ]
     },
     {
-      "member": "David Rouzer",
+      "member": "Shri Thanedar",
       "chamber": "house",
-      "ds": 67,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
+      "ds": 68,
+      "alignmentRate": 20,
+      "sectorsScored": 5,
       "sectors": [
         {
-          "sector": "Industrials",
-          "voteStance": 0.673,
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
           "portfolioStance": -1,
-          "divergence": 0.673,
+          "divergence": 1,
+          "exposure": 68005,
+          "aligned": false,
+          "tickers": [
+            "JD",
+            "TSLA",
+            "SBUX"
+          ],
+          "example": {
+            "title": "One Stop Shop for Small Business Licensing Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "BIIB"
+          ],
+          "example": {
+            "title": "Improving Access to Institutional Mental Health Care Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
-            "BA"
+            "WMT"
           ],
           "example": {
-            "title": "Atlantic Coast Shipping Safety Act",
+            "title": "Improving Training for School Food Service Workers Act of 2025",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.613,
+          "portfolioStance": -1,
+          "divergence": 0.613,
+          "exposure": 233008,
+          "aligned": false,
+          "tickers": [
+            "COIN",
+            "AXP",
+            "APO",
+            "KKR",
+            "CG",
+            "BX"
+          ],
+          "example": {
+            "title": "Stopping Abusive Student Loan Collection Practices in Bankruptcy Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 0.561,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 15001,
+          "aligned": true,
+          "tickers": [
+            "MSTR"
+          ],
+          "example": {
+            "title": "Digital Literacy and Equity Act of 2026",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -3505,9 +3608,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.64,
+          "voteStance": 0.635,
           "portfolioStance": -1,
-          "divergence": 0.64,
+          "divergence": 0.635,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -3525,7 +3628,7 @@
     {
       "member": "Greg Landsman",
       "chamber": "house",
-      "ds": 61,
+      "ds": 63,
       "alignmentRate": 0,
       "sectorsScored": 9,
       "sectors": [
@@ -3605,6 +3708,27 @@
           "example": {
             "title": "NOPAIN for Veterans Act",
             "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -0.674,
+          "divergence": 0.674,
+          "exposure": 43015,
+          "aligned": false,
+          "tickers": [
+            "AMP",
+            "BLK",
+            "FITB",
+            "JPM",
+            "V"
+          ],
+          "example": {
+            "title": "25th Anniversary of 9/11 Commemorative Coin Act",
+            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -3703,135 +3827,13 @@
             "billStance": 1,
             "recordStance": 1
           }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.2,
-          "portfolioStance": -0.674,
-          "divergence": 0.135,
-          "exposure": 43015,
-          "aligned": false,
-          "tickers": [
-            "AMP",
-            "BLK",
-            "FITB",
-            "JPM",
-            "V"
-          ],
-          "example": {
-            "title": "25th Anniversary of 9/11 Commemorative Coin Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Shri Thanedar",
-      "chamber": "house",
-      "ds": 59,
-      "alignmentRate": 20,
-      "sectorsScored": 5,
-      "sectors": [
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 68005,
-          "aligned": false,
-          "tickers": [
-            "JD",
-            "TSLA",
-            "SBUX"
-          ],
-          "example": {
-            "title": "One Stop Shop for Small Business Licensing Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "BIIB"
-          ],
-          "example": {
-            "title": "Improving Access to Institutional Mental Health Care Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "WMT"
-          ],
-          "example": {
-            "title": "Improving Training for School Food Service Workers Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.484,
-          "portfolioStance": -1,
-          "divergence": 0.484,
-          "exposure": 233008,
-          "aligned": false,
-          "tickers": [
-            "COIN",
-            "AXP",
-            "APO",
-            "KKR",
-            "CG",
-            "BX"
-          ],
-          "example": {
-            "title": "Stopping Abusive Student Loan Collection Practices in Bankruptcy Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 0.561,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 15001,
-          "aligned": true,
-          "tickers": [
-            "MSTR"
-          ],
-          "example": {
-            "title": "Digital Literacy and Equity Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
         }
       ]
     },
     {
       "member": "Julie Johnson",
       "chamber": "house",
-      "ds": 59,
+      "ds": 60,
       "alignmentRate": 13,
       "sectorsScored": 8,
       "sectors": [
@@ -4032,9 +4034,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.879,
+          "voteStance": 1,
           "portfolioStance": -0.465,
-          "divergence": 0.408,
+          "divergence": 0.465,
           "exposure": 71057,
           "aligned": false,
           "tickers": [
@@ -4148,8 +4150,8 @@
       "member": "Mike Kelly",
       "chamber": "house",
       "ds": 56,
-      "alignmentRate": 29,
-      "sectorsScored": 7,
+      "alignmentRate": 38,
+      "sectorsScored": 8,
       "sectors": [
         {
           "sector": "Healthcare",
@@ -4207,9 +4209,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.7,
+          "voteStance": 0.667,
           "portfolioStance": -1,
-          "divergence": 0.7,
+          "divergence": 0.667,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -4224,9 +4226,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.478,
+          "voteStance": 0.504,
           "portfolioStance": -1,
-          "divergence": 0.478,
+          "divergence": 0.504,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -4271,6 +4273,23 @@
           ],
           "example": {
             "title": "Broadband Grant Tax Treatment Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 0.778,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 2002,
+          "aligned": true,
+          "tickers": [
+            "SKIN"
+          ],
+          "example": {
+            "title": "Supporting Innovation in Agriculture Act of 2025",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -4460,7 +4479,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.697,
+          "voteStance": 0.818,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 4004,
@@ -4478,7 +4497,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.866,
+          "voteStance": 0.864,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -5070,7 +5089,7 @@
       "member": "Susie Lee",
       "chamber": "house",
       "ds": 39,
-      "alignmentRate": 22,
+      "alignmentRate": 33,
       "sectorsScored": 9,
       "sectors": [
         {
@@ -5249,34 +5268,10 @@
           }
         },
         {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": -0.091,
-          "divergence": 0.091,
-          "exposure": 33033,
-          "aligned": false,
-          "tickers": [
-            "LSXMK",
-            "CHTR",
-            "TMUS",
-            "SIRI",
-            "TWTR",
-            "LBRDA",
-            "Z",
-            "LYV"
-          ],
-          "example": {
-            "title": "Condemning antisemitic hate-filled rhetoric and content disseminated by prominent online personalities, and urging social media platforms and public leaders to denounce and address such conduct.",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Financial Services",
-          "voteStance": 0.789,
+          "voteStance": 1,
           "portfolioStance": -0.107,
-          "divergence": 0.084,
+          "divergence": 0.107,
           "exposure": 112084,
           "aligned": false,
           "tickers": [
@@ -5314,8 +5309,32 @@
           }
         },
         {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": -0.091,
+          "divergence": 0.091,
+          "exposure": 33033,
+          "aligned": false,
+          "tickers": [
+            "LSXMK",
+            "CHTR",
+            "TMUS",
+            "SIRI",
+            "TWTR",
+            "LBRDA",
+            "Z",
+            "LYV"
+          ],
+          "example": {
+            "title": "Condemning antisemitic hate-filled rhetoric and content disseminated by prominent online personalities, and urging social media platforms and public leaders to denounce and address such conduct.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Industrials",
-          "voteStance": 0.934,
+          "voteStance": 0.933,
           "portfolioStance": 0.162,
           "divergence": 0,
           "exposure": 105105,
@@ -5392,10 +5411,10 @@
         {
           "sector": "Real Estate",
           "voteStance": 1,
-          "portfolioStance": 0,
+          "portfolioStance": 0.07,
           "divergence": 0,
-          "exposure": 38038,
-          "aligned": false,
+          "exposure": 43043,
+          "aligned": true,
           "tickers": [
             "CCI",
             "EQIX",
@@ -5406,7 +5425,8 @@
             "RHP",
             "JLL",
             "DLR",
-            "PK"
+            "PK",
+            "HHC"
           ],
           "example": {
             "title": "Homeless Children and Youth Act of 2025",
@@ -5668,9 +5688,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.75,
+          "voteStance": 0.727,
           "portfolioStance": -0.439,
-          "divergence": 0.329,
+          "divergence": 0.319,
           "exposure": 1854074,
           "aligned": false,
           "tickers": [
@@ -5782,9 +5802,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.807,
+          "voteStance": 0.852,
           "portfolioStance": -0.293,
-          "divergence": 0.236,
+          "divergence": 0.249,
           "exposure": 1513071,
           "aligned": false,
           "tickers": [
@@ -6007,7 +6027,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.613,
+          "voteStance": 0.556,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -6025,7 +6045,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.863,
+          "voteStance": 0.915,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -6105,15 +6125,15 @@
     {
       "member": "Debbie Wasserman Schultz",
       "chamber": "house",
-      "ds": 28,
+      "ds": 30,
       "alignmentRate": 71,
       "sectorsScored": 7,
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.756,
+          "voteStance": 0.854,
           "portfolioStance": -1,
-          "divergence": 0.756,
+          "divergence": 0.854,
           "exposure": 18004,
           "aligned": false,
           "tickers": [
@@ -6150,9 +6170,9 @@
         {
           "sector": "Technology",
           "voteStance": 1,
-          "portfolioStance": 0.375,
+          "portfolioStance": 0.412,
           "divergence": 0,
-          "exposure": 16016,
+          "exposure": 17017,
           "aligned": true,
           "tickers": [
             "AAPL",
@@ -6161,6 +6181,7 @@
             "CMTL",
             "JCS",
             "WSTL",
+            "QMCO",
             "VSAT",
             "ICHR",
             "SSYS"
@@ -6174,7 +6195,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.852,
+          "voteStance": 0.848,
           "portfolioStance": 0.2,
           "divergence": 0,
           "exposure": 5005,
@@ -6246,9 +6267,199 @@
       ]
     },
     {
-      "member": "Steve Cohen",
+      "member": "Joe Courtney",
       "chamber": "house",
       "ds": 27,
+      "alignmentRate": 13,
+      "sectorsScored": 8,
+      "sectors": [
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -0.75,
+          "divergence": 0.75,
+          "exposure": 40012,
+          "aligned": false,
+          "tickers": [
+            "BLL",
+            "HLT",
+            "AMZN",
+            "HD",
+            "ROST",
+            "BABA",
+            "F"
+          ],
+          "example": {
+            "title": "To extend the temporary reduction of duty on yarn of carded hair of Kashmir (cashmere) goats, of yarn count less than 19.35 metric, not put up for retail sale.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": -0.615,
+          "divergence": 0.615,
+          "exposure": 26012,
+          "aligned": false,
+          "tickers": [
+            "FISV",
+            "AAPL",
+            "CSCO",
+            "MCHP",
+            "MSFT",
+            "NTDOY"
+          ],
+          "example": {
+            "title": "Condemning attempts to use Federal regulatory power or litigation to suppress lawful speech, particularly speech critical of a political party or the President of the United States, and warning against the rise of authoritarianism.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.788,
+          "portfolioStance": -0.333,
+          "divergence": 0.263,
+          "exposure": 3003,
+          "aligned": false,
+          "tickers": [
+            "CVX",
+            "ET"
+          ],
+          "example": {
+            "title": "To direct the Secretary of Defense to establish a joint training pipeline between the United States Navy and the Royal Australian Navy, and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -0.077,
+          "divergence": 0.077,
+          "exposure": 13013,
+          "aligned": false,
+          "tickers": [
+            "KDP",
+            "PEP",
+            "SYY",
+            "STZ",
+            "COST",
+            "WMT"
+          ],
+          "example": {
+            "title": "Freight for Farms Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.887,
+          "portfolioStance": 0.243,
+          "divergence": 0,
+          "exposure": 74032,
+          "aligned": true,
+          "tickers": [
+            "CB",
+            "C",
+            "TOT",
+            "BLK",
+            "COF",
+            "JPM",
+            "TFC",
+            "V",
+            "TLT",
+            "IEF",
+            "IEFA",
+            "IVV",
+            "IJR",
+            "IDV",
+            "IHI",
+            "SRLN",
+            "VIG",
+            "VEA",
+            "VWO",
+            "VOO",
+            "MFC",
+            "PBCT"
+          ],
+          "example": {
+            "title": "Bank on Students Coronavirus Emergency Loan Refinancing Act of 2020",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 10010,
+          "aligned": false,
+          "tickers": [
+            "ABT",
+            "ANTM",
+            "DHR",
+            "TMO",
+            "ZTS"
+          ],
+          "example": {
+            "title": "Improving Access to Medicare Coverage Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.832,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 6006,
+          "aligned": false,
+          "tickers": [
+            "HON",
+            "LMT",
+            "UNP"
+          ],
+          "example": {
+            "title": "Job Corps and Skilled Defense Workforce Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Real Estate",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 4004,
+          "aligned": false,
+          "tickers": [
+            "AMT",
+            "PLD"
+          ],
+          "example": {
+            "title": "Healthy at Home Act of 2023",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Steve Cohen",
+      "chamber": "house",
+      "ds": 26,
       "alignmentRate": 20,
       "sectorsScored": 10,
       "sectors": [
@@ -6410,10 +6621,10 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.861,
-          "portfolioStance": 0.77,
+          "voteStance": 0.912,
+          "portfolioStance": 0.691,
           "divergence": 0,
-          "exposure": 322021,
+          "exposure": 337022,
           "aligned": true,
           "tickers": [
             "FHN",
@@ -6427,7 +6638,8 @@
             "OZKAP",
             "DURA",
             "GOLD",
-            "VRAI"
+            "VRAI",
+            "WIW"
           ],
           "example": {
             "title": "Fair Debt Collection Improvement Act",
@@ -6458,131 +6670,45 @@
       ]
     },
     {
-      "member": "Joe Courtney",
+      "member": "Katherine M. Clark",
       "chamber": "house",
-      "ds": 27,
-      "alignmentRate": 13,
+      "ds": 25,
+      "alignmentRate": 25,
       "sectorsScored": 8,
       "sectors": [
         {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -0.75,
-          "divergence": 0.75,
-          "exposure": 40012,
-          "aligned": false,
-          "tickers": [
-            "BLL",
-            "HLT",
-            "AMZN",
-            "HD",
-            "ROST",
-            "BABA",
-            "F"
-          ],
-          "example": {
-            "title": "To extend the temporary reduction of duty on yarn of carded hair of Kashmir (cashmere) goats, of yarn count less than 19.35 metric, not put up for retail sale.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": -0.615,
-          "divergence": 0.615,
-          "exposure": 26012,
-          "aligned": false,
-          "tickers": [
-            "FISV",
-            "AAPL",
-            "CSCO",
-            "MCHP",
-            "MSFT",
-            "NTDOY"
-          ],
-          "example": {
-            "title": "Condemning attempts to use Federal regulatory power or litigation to suppress lawful speech, particularly speech critical of a political party or the President of the United States, and warning against the rise of authoritarianism.",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.788,
-          "portfolioStance": -0.333,
-          "divergence": 0.263,
-          "exposure": 3003,
-          "aligned": false,
-          "tickers": [
-            "CVX",
-            "ET"
-          ],
-          "example": {
-            "title": "To direct the Secretary of Defense to establish a joint training pipeline between the United States Navy and the Royal Australian Navy, and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -0.077,
-          "divergence": 0.077,
-          "exposure": 13013,
-          "aligned": false,
-          "tickers": [
-            "KDP",
-            "PEP",
-            "SYY",
-            "STZ",
-            "COST",
-            "WMT"
-          ],
-          "example": {
-            "title": "Freight for Farms Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Financial Services",
-          "voteStance": 0.825,
-          "portfolioStance": 0.243,
-          "divergence": 0,
-          "exposure": 74032,
-          "aligned": true,
+          "voteStance": 1,
+          "portfolioStance": -0.675,
+          "divergence": 0.675,
+          "exposure": 117047,
+          "aligned": false,
           "tickers": [
-            "CB",
-            "C",
-            "TOT",
-            "BLK",
-            "COF",
+            "AMLP",
+            "AMP",
+            "CME",
+            "DFS",
             "JPM",
-            "TFC",
+            "PNC",
+            "TRV",
+            "USB",
+            "WFC",
+            "BLK",
+            "CB",
+            "MET",
             "V",
-            "TLT",
-            "IEF",
-            "IEFA",
-            "IVV",
-            "IJR",
-            "IDV",
-            "IHI",
-            "SRLN",
-            "VIG",
-            "VEA",
-            "VWO",
-            "VOO",
-            "MFC",
-            "PBCT"
+            "IVZ",
+            "HSBC",
+            "FSK",
+            "UBS",
+            "MA",
+            "SPGI",
+            "STT",
+            "NYCB"
           ],
           "example": {
-            "title": "Bank on Students Coronavirus Emergency Loan Refinancing Act of 2020",
-            "action": "sponsor",
+            "title": "West Bank Violence Prevention Act of 2025",
+            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -6590,38 +6716,32 @@
         {
           "sector": "Healthcare",
           "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 10010,
+          "portfolioStance": -0.641,
+          "divergence": 0.641,
+          "exposure": 117047,
           "aligned": false,
           "tickers": [
-            "ABT",
+            "ABBV",
+            "AMGN",
+            "LLY",
+            "MRK",
+            "PFE",
             "ANTM",
-            "DHR",
-            "TMO",
-            "ZTS"
+            "JNJ",
+            "GSK",
+            "NVO",
+            "UNH",
+            "CNC",
+            "MDT",
+            "BMY",
+            "LGND",
+            "ABT",
+            "HOLX",
+            "EW",
+            "PHG"
           ],
           "example": {
-            "title": "Improving Access to Medicare Coverage Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.834,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 6006,
-          "aligned": false,
-          "tickers": [
-            "HON",
-            "LMT",
-            "UNP"
-          ],
-          "example": {
-            "title": "Job Corps and Skilled Defense Workforce Act",
+            "title": "Into the Light for MMH and SUD Act of 2022",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -6630,17 +6750,170 @@
         {
           "sector": "Real Estate",
           "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 4004,
+          "portfolioStance": -0.64,
+          "divergence": 0.64,
+          "exposure": 50022,
           "aligned": false,
           "tickers": [
+            "NLY",
+            "SPG",
+            "VTR",
+            "WPG",
             "AMT",
-            "PLD"
+            "INVH",
+            "IRM"
           ],
           "example": {
-            "title": "Healthy at Home Act of 2023",
+            "title": "Pets Belong With Families Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.687,
+          "portfolioStance": -0.649,
+          "divergence": 0.446,
+          "exposure": 97041,
+          "aligned": false,
+          "tickers": [
+            "MMM",
+            "BA",
+            "ETN",
+            "EMR",
+            "GE",
+            "JCI",
+            "LMT",
+            "NSC",
+            "UNP",
+            "UPS",
+            "WM",
+            "HON",
+            "RBA",
+            "ABB",
+            "LHX",
+            "XYL"
+          ],
+          "example": {
+            "title": "Child Care Infrastructure Act",
             "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.846,
+          "portfolioStance": -0.243,
+          "divergence": 0.206,
+          "exposure": 74032,
+          "aligned": false,
+          "tickers": [
+            "BP",
+            "CVX",
+            "COP",
+            "HP",
+            "PSX",
+            "WMB",
+            "OKE",
+            "PXD",
+            "SLB",
+            "APC",
+            "MPC",
+            "FSLR"
+          ],
+          "example": {
+            "title": "New England Coastal Protection Act of 2024",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -0.029,
+          "divergence": 0.029,
+          "exposure": 35035,
+          "aligned": false,
+          "tickers": [
+            "HD",
+            "LVS",
+            "M",
+            "MAT",
+            "SE",
+            "F",
+            "NKE",
+            "SBUX",
+            "SEE",
+            "HAS",
+            "SKX",
+            "BBY"
+          ],
+          "example": {
+            "title": "Therapeutic Fraud Prevention Act of 2023",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": 0.496,
+          "divergence": 0,
+          "exposure": 349030,
+          "aligned": true,
+          "tickers": [
+            "MO",
+            "BGS",
+            "CHD",
+            "KO",
+            "KMB",
+            "PM",
+            "CLX",
+            "KHC",
+            "CCEP",
+            "COST",
+            "PEP",
+            "PG"
+          ],
+          "example": {
+            "title": "Restoring Food Security for American Families and Farmers Act of 2025",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": 0.194,
+          "divergence": 0,
+          "exposure": 144053,
+          "aligned": true,
+          "tickers": [
+            "AAPL",
+            "HPQ",
+            "INTC",
+            "IBM",
+            "KLAC",
+            "QCOM",
+            "TXN",
+            "CHKP",
+            "MSFT",
+            "ORCL",
+            "TSM",
+            "FIS",
+            "SAP",
+            "CSCO",
+            "SONY",
+            "NTAP"
+          ],
+          "example": {
+            "title": "DHS Cybersecurity On-the-Job Training Program Act",
+            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -6690,7 +6963,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.902,
+          "voteStance": 0.94,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -6921,9 +7194,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.707,
+          "voteStance": 0.702,
           "portfolioStance": -0.132,
-          "divergence": 0.093,
+          "divergence": 0.092,
           "exposure": 380022,
           "aligned": false,
           "tickers": [
@@ -7044,257 +7317,6 @@
           "example": {
             "title": "To suspend temporarily the duty on other non-threaded articles (fasteners) of iron or steel, nesoi.",
             "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Katherine M. Clark",
-      "chamber": "house",
-      "ds": 24,
-      "alignmentRate": 25,
-      "sectorsScored": 8,
-      "sectors": [
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -0.641,
-          "divergence": 0.641,
-          "exposure": 117047,
-          "aligned": false,
-          "tickers": [
-            "ABBV",
-            "AMGN",
-            "LLY",
-            "MRK",
-            "PFE",
-            "ANTM",
-            "JNJ",
-            "GSK",
-            "NVO",
-            "UNH",
-            "CNC",
-            "MDT",
-            "BMY",
-            "LGND",
-            "ABT",
-            "HOLX",
-            "EW",
-            "PHG"
-          ],
-          "example": {
-            "title": "Into the Light for MMH and SUD Act of 2022",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Real Estate",
-          "voteStance": 1,
-          "portfolioStance": -0.64,
-          "divergence": 0.64,
-          "exposure": 50022,
-          "aligned": false,
-          "tickers": [
-            "NLY",
-            "SPG",
-            "VTR",
-            "WPG",
-            "AMT",
-            "INVH",
-            "IRM"
-          ],
-          "example": {
-            "title": "Pets Belong With Families Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.871,
-          "portfolioStance": -0.675,
-          "divergence": 0.588,
-          "exposure": 117047,
-          "aligned": false,
-          "tickers": [
-            "AMLP",
-            "AMP",
-            "CME",
-            "DFS",
-            "JPM",
-            "PNC",
-            "TRV",
-            "USB",
-            "WFC",
-            "BLK",
-            "CB",
-            "MET",
-            "V",
-            "IVZ",
-            "HSBC",
-            "FSK",
-            "UBS",
-            "MA",
-            "SPGI",
-            "STT",
-            "NYCB"
-          ],
-          "example": {
-            "title": "West Bank Violence Prevention Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.694,
-          "portfolioStance": -0.649,
-          "divergence": 0.451,
-          "exposure": 97041,
-          "aligned": false,
-          "tickers": [
-            "MMM",
-            "BA",
-            "ETN",
-            "EMR",
-            "GE",
-            "JCI",
-            "LMT",
-            "NSC",
-            "UNP",
-            "UPS",
-            "WM",
-            "HON",
-            "RBA",
-            "ABB",
-            "LHX",
-            "XYL"
-          ],
-          "example": {
-            "title": "Child Care Infrastructure Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.846,
-          "portfolioStance": -0.243,
-          "divergence": 0.206,
-          "exposure": 74032,
-          "aligned": false,
-          "tickers": [
-            "BP",
-            "CVX",
-            "COP",
-            "HP",
-            "PSX",
-            "WMB",
-            "OKE",
-            "PXD",
-            "SLB",
-            "APC",
-            "MPC",
-            "FSLR"
-          ],
-          "example": {
-            "title": "New England Coastal Protection Act of 2024",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -0.029,
-          "divergence": 0.029,
-          "exposure": 35035,
-          "aligned": false,
-          "tickers": [
-            "HD",
-            "LVS",
-            "M",
-            "MAT",
-            "SE",
-            "F",
-            "NKE",
-            "SBUX",
-            "SEE",
-            "HAS",
-            "SKX",
-            "BBY"
-          ],
-          "example": {
-            "title": "Therapeutic Fraud Prevention Act of 2023",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": 0.496,
-          "divergence": 0,
-          "exposure": 349030,
-          "aligned": true,
-          "tickers": [
-            "MO",
-            "BGS",
-            "CHD",
-            "KO",
-            "KMB",
-            "PM",
-            "CLX",
-            "KHC",
-            "CCEP",
-            "COST",
-            "PEP",
-            "PG"
-          ],
-          "example": {
-            "title": "Restoring Food Security for American Families and Farmers Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": 0.194,
-          "divergence": 0,
-          "exposure": 144053,
-          "aligned": true,
-          "tickers": [
-            "AAPL",
-            "HPQ",
-            "INTC",
-            "IBM",
-            "KLAC",
-            "QCOM",
-            "TXN",
-            "CHKP",
-            "MSFT",
-            "ORCL",
-            "TSM",
-            "FIS",
-            "SAP",
-            "CSCO",
-            "SONY",
-            "NTAP"
-          ],
-          "example": {
-            "title": "DHS Cybersecurity On-the-Job Training Program Act",
-            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -7424,7 +7446,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.953,
+          "voteStance": 0.952,
           "portfolioStance": -0.064,
           "divergence": 0.061,
           "exposure": 173019,
@@ -7450,7 +7472,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.75,
+          "voteStance": 1,
           "portfolioStance": 0.348,
           "divergence": 0,
           "exposure": 184016,
@@ -7529,7 +7551,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.818,
+          "voteStance": 0.816,
           "portfolioStance": 0.5,
           "divergence": 0,
           "exposure": 4004,
@@ -7544,6 +7566,260 @@
             "action": "sponsor",
             "billStance": -1,
             "recordStance": -1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Jared Moskowitz",
+      "chamber": "house",
+      "ds": 23,
+      "alignmentRate": 44,
+      "sectorsScored": 9,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -0.494,
+          "divergence": 0.494,
+          "exposure": 273041,
+          "aligned": false,
+          "tickers": [
+            "BRO",
+            "CB",
+            "PNC",
+            "SPGI",
+            "FDS",
+            "ALL",
+            "JPM",
+            "MA",
+            "TD",
+            "C",
+            "RJF",
+            "V",
+            "SBCF",
+            "XLE",
+            "GS",
+            "AXP"
+          ],
+          "example": {
+            "title": "Natural Disaster Risk Reinsurance Program Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Basic Materials",
+          "voteStance": 1,
+          "portfolioStance": -0.379,
+          "divergence": 0.379,
+          "exposure": 29015,
+          "aligned": false,
+          "tickers": [
+            "SHW",
+            "APD",
+            "LIN",
+            "RPM"
+          ],
+          "example": {
+            "title": "Urging the United States Government to enhance the Middle East region's capacity to dismantle and disrupt the illicit production and trafficking of the amphetamine-type stimulant also known as captagon, including the production of precursor chemicals.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -0.285,
+          "divergence": 0.285,
+          "exposure": 42028,
+          "aligned": false,
+          "tickers": [
+            "COST",
+            "DG",
+            "HRL",
+            "PEP",
+            "TGT",
+            "SYY",
+            "KMB",
+            "MDLZ",
+            "PG",
+            "MNST"
+          ],
+          "example": {
+            "title": "To make technical amendments to update statutory references to certain provisions classified to title 7, title 20, and title 43, United States Code, and to correct related technical errors.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -0.045,
+          "divergence": 0.045,
+          "exposure": 44030,
+          "aligned": false,
+          "tickers": [
+            "BBY",
+            "TSCO",
+            "NKE",
+            "AMZN",
+            "LOW",
+            "HD",
+            "MCD",
+            "SBUX",
+            "TJX"
+          ],
+          "example": {
+            "title": "To authorize the appropriation of $8,000,000,000 for disaster loans.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": 0.041,
+          "divergence": 0,
+          "exposure": 173061,
+          "aligned": true,
+          "tickers": [
+            "INTC",
+            "ADI",
+            "ROP",
+            "JKHY",
+            "AVGO",
+            "NVDA",
+            "ORCL",
+            "ACN",
+            "AAPL",
+            "MSFT",
+            "TXN",
+            "QCOM",
+            "CSCO",
+            "DELL",
+            "TSM",
+            "ASML",
+            "MSI",
+            "PANW"
+          ],
+          "example": {
+            "title": "To amend the Research and Development, Competition, and Innovation Act to require a plan for data collection and analytical capability relating to the skilled technical workforce, and for other purposes.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": 0.429,
+          "divergence": 0,
+          "exposure": 56056,
+          "aligned": true,
+          "tickers": [
+            "MRK",
+            "LLY",
+            "MDT",
+            "PFE",
+            "WST",
+            "ELV",
+            "JNJ",
+            "ZTS",
+            "ABT",
+            "AMGN",
+            "STE",
+            "UNH",
+            "ABBV",
+            "MCK",
+            "SYK",
+            "HCA",
+            "CI",
+            "COR",
+            "GILD"
+          ],
+          "example": {
+            "title": "To amend title XI of the Social Security Act to equalize the negotiation period between small-molecule and biologic candidates under the Drug Price Negotiation Program.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.76,
+          "portfolioStance": 0.608,
+          "divergence": 0,
+          "exposure": 51037,
+          "aligned": true,
+          "tickers": [
+            "ITW",
+            "CMI",
+            "SNA",
+            "LMT",
+            "NOC",
+            "GWW",
+            "WM",
+            "AOS",
+            "ADP",
+            "CAT",
+            "RTX",
+            "CNI",
+            "CARR",
+            "HON",
+            "LECO",
+            "GE",
+            "GD",
+            "PH"
+          ],
+          "example": {
+            "title": "Transportation Security Administration Transfer Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": 0.5,
+          "divergence": 0,
+          "exposure": 16016,
+          "aligned": true,
+          "tickers": [
+            "GOOG",
+            "META",
+            "TMUS",
+            "DIS",
+            "CMCSA"
+          ],
+          "example": {
+            "title": "Countering Untrusted Telecommunications Abroad Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.756,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 4004,
+          "aligned": false,
+          "tickers": [
+            "CVX",
+            "XOM"
+          ],
+          "example": {
+            "title": "Restore Florida Water Independence Act of 2026",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
           }
         }
       ]
@@ -7739,9 +8015,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.857,
+          "voteStance": 0.854,
           "portfolioStance": -0.555,
-          "divergence": 0.476,
+          "divergence": 0.474,
           "exposure": 27013,
           "aligned": false,
           "tickers": [
@@ -7779,7 +8055,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.762,
+          "voteStance": 0.842,
           "portfolioStance": 0.029,
           "divergence": 0,
           "exposure": 35007,
@@ -7818,253 +8094,45 @@
       ]
     },
     {
-      "member": "Jared Moskowitz",
+      "member": "Judy Chu",
       "chamber": "house",
-      "ds": 21,
-      "alignmentRate": 44,
-      "sectorsScored": 9,
+      "ds": 20,
+      "alignmentRate": 50,
+      "sectorsScored": 2,
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.905,
-          "portfolioStance": -0.494,
-          "divergence": 0.447,
-          "exposure": 273041,
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 110005,
           "aligned": false,
           "tickers": [
-            "BRO",
-            "CB",
-            "PNC",
-            "SPGI",
-            "FDS",
-            "ALL",
-            "JPM",
-            "MA",
-            "TD",
-            "C",
-            "RJF",
-            "V",
-            "SBCF",
-            "XLE",
-            "GS",
-            "AXP"
+            "DFS",
+            "MS",
+            "ALL"
           ],
           "example": {
-            "title": "Natural Disaster Risk Reinsurance Program Act",
+            "title": "Mortgage Relief for Disaster Survivors Act",
             "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Basic Materials",
-          "voteStance": 1,
-          "portfolioStance": -0.379,
-          "divergence": 0.379,
-          "exposure": 29015,
-          "aligned": false,
-          "tickers": [
-            "SHW",
-            "APD",
-            "LIN",
-            "RPM"
-          ],
-          "example": {
-            "title": "Urging the United States Government to enhance the Middle East region's capacity to dismantle and disrupt the illicit production and trafficking of the amphetamine-type stimulant also known as captagon, including the production of precursor chemicals.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -0.285,
-          "divergence": 0.285,
-          "exposure": 42028,
-          "aligned": false,
-          "tickers": [
-            "COST",
-            "DG",
-            "HRL",
-            "PEP",
-            "TGT",
-            "SYY",
-            "KMB",
-            "MDLZ",
-            "PG",
-            "MNST"
-          ],
-          "example": {
-            "title": "To make technical amendments to update statutory references to certain provisions classified to title 7, title 20, and title 43, United States Code, and to correct related technical errors.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -0.045,
-          "divergence": 0.045,
-          "exposure": 44030,
-          "aligned": false,
-          "tickers": [
-            "BBY",
-            "TSCO",
-            "NKE",
-            "AMZN",
-            "LOW",
-            "HD",
-            "MCD",
-            "SBUX",
-            "TJX"
-          ],
-          "example": {
-            "title": "To authorize the appropriation of $8,000,000,000 for disaster loans.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": 0.041,
-          "divergence": 0,
-          "exposure": 173061,
-          "aligned": true,
-          "tickers": [
-            "INTC",
-            "ADI",
-            "ROP",
-            "JKHY",
-            "AVGO",
-            "NVDA",
-            "ORCL",
-            "ACN",
-            "AAPL",
-            "MSFT",
-            "TXN",
-            "QCOM",
-            "CSCO",
-            "DELL",
-            "TSM",
-            "ASML",
-            "MSI",
-            "PANW"
-          ],
-          "example": {
-            "title": "To amend the Research and Development, Competition, and Innovation Act to require a plan for data collection and analytical capability relating to the skilled technical workforce, and for other purposes.",
-            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
         },
         {
           "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": 0.429,
+          "voteStance": 0.979,
+          "portfolioStance": 0.101,
           "divergence": 0,
-          "exposure": 56056,
+          "exposure": 445007,
           "aligned": true,
           "tickers": [
-            "MRK",
-            "LLY",
-            "MDT",
-            "PFE",
-            "WST",
-            "ELV",
-            "JNJ",
-            "ZTS",
-            "ABT",
-            "AMGN",
-            "STE",
-            "UNH",
-            "ABBV",
-            "MCK",
-            "SYK",
-            "HCA",
-            "CI",
-            "COR",
-            "GILD"
+            "AMEH",
+            "ASTH"
           ],
           "example": {
-            "title": "To amend title XI of the Social Security Act to equalize the negotiation period between small-molecule and biologic candidates under the Drug Price Negotiation Program.",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.769,
-          "portfolioStance": 0.608,
-          "divergence": 0,
-          "exposure": 51037,
-          "aligned": true,
-          "tickers": [
-            "ITW",
-            "CMI",
-            "SNA",
-            "LMT",
-            "NOC",
-            "GWW",
-            "WM",
-            "AOS",
-            "ADP",
-            "CAT",
-            "RTX",
-            "CNI",
-            "CARR",
-            "HON",
-            "LECO",
-            "GE",
-            "GD",
-            "PH"
-          ],
-          "example": {
-            "title": "Transportation Security Administration Transfer Act of 2026",
+            "title": "Supporting the designation of May 10, 2026, as \"National Asian American, Native Hawaiian, and Pacific Islander Mental Health Day\".",
             "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": 0.5,
-          "divergence": 0,
-          "exposure": 16016,
-          "aligned": true,
-          "tickers": [
-            "GOOG",
-            "META",
-            "TMUS",
-            "DIS",
-            "CMCSA"
-          ],
-          "example": {
-            "title": "Countering Untrusted Telecommunications Abroad Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.756,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 4004,
-          "aligned": false,
-          "tickers": [
-            "CVX",
-            "XOM"
-          ],
-          "example": {
-            "title": "Restore Florida Water Independence Act of 2026",
-            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -8448,10 +8516,10 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.514,
-          "portfolioStance": 0.353,
+          "voteStance": 0.622,
+          "portfolioStance": 0.297,
           "divergence": 0,
-          "exposure": 34020,
+          "exposure": 37023,
           "aligned": true,
           "tickers": [
             "MGU",
@@ -8462,9 +8530,11 @@
             "HASI",
             "APO",
             "CG",
+            "SDOG",
             "ARKK",
             "QYLD",
             "PYPL",
+            "BTEC",
             "SRLN"
           ],
           "example": {
@@ -8663,6 +8733,23 @@
       "sectorsScored": 5,
       "sectors": [
         {
+          "sector": "Industrials",
+          "voteStance": 0.82,
+          "portfolioStance": -1,
+          "divergence": 0.82,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "GE"
+          ],
+          "example": {
+            "title": "Honoring the life, achievements, and legacy of Frederick W. Smith.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Energy",
           "voteStance": 0.8,
           "portfolioStance": -1,
@@ -8674,23 +8761,6 @@
           ],
           "example": {
             "title": "Hatchie River Wild and Scenic River Study Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.784,
-          "portfolioStance": -1,
-          "divergence": 0.784,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "GE"
-          ],
-          "example": {
-            "title": "Honoring the life, achievements, and legacy of Frederick W. Smith.",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -8811,9 +8881,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.895,
+          "voteStance": 0.917,
           "portfolioStance": -0.259,
-          "divergence": 0.232,
+          "divergence": 0.238,
           "exposure": 81039,
           "aligned": false,
           "tickers": [
@@ -8879,6 +8949,287 @@
             "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Zoe Lofgren",
+      "chamber": "house",
+      "ds": 18,
+      "alignmentRate": 11,
+      "sectorsScored": 9,
+      "sectors": [
+        {
+          "sector": "Energy",
+          "voteStance": 0.614,
+          "portfolioStance": -1,
+          "divergence": 0.614,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "CVX"
+          ],
+          "example": {
+            "title": "Clean Energy Victory Bond Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 0.833,
+          "portfolioStance": -0.454,
+          "divergence": 0.379,
+          "exposure": 44030,
+          "aligned": false,
+          "tickers": [
+            "DECK",
+            "PHM",
+            "SBUX",
+            "TSLA",
+            "BABA",
+            "SIX",
+            "HD",
+            "MGA",
+            "MCD",
+            "AMZN",
+            "EXPE",
+            "TJX",
+            "LCID",
+            "GM",
+            "SON"
+          ],
+          "example": {
+            "title": "Foreign Anti-Digital Piracy Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Real Estate",
+          "voteStance": 1,
+          "portfolioStance": -0.364,
+          "divergence": 0.364,
+          "exposure": 22022,
+          "aligned": false,
+          "tickers": [
+            "LTC",
+            "MAA",
+            "WPC",
+            "EPR",
+            "ESS",
+            "HTA",
+            "LAMR",
+            "NNN",
+            "PLD",
+            "AMT",
+            "EQIX",
+            "CCI"
+          ],
+          "example": {
+            "title": "VALID Act of 2025",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.875,
+          "portfolioStance": -0.29,
+          "divergence": 0.253,
+          "exposure": 107079,
+          "aligned": false,
+          "tickers": [
+            "WFC",
+            "BAC",
+            "BLK",
+            "CINF",
+            "CME",
+            "GPT",
+            "JPM",
+            "MA",
+            "BBT",
+            "PRU",
+            "USB",
+            "CMA",
+            "CB",
+            "AON",
+            "ARCC",
+            "FB",
+            "PNC",
+            "V",
+            "ALLY",
+            "BX",
+            "CS",
+            "JEF",
+            "MS",
+            "FITB",
+            "FHN",
+            "HIG",
+            "SPGI",
+            "SYF",
+            "C",
+            "BMO",
+            "MET"
+          ],
+          "example": {
+            "title": "Bankruptcy Venue Reform Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -0.187,
+          "divergence": 0.188,
+          "exposure": 32032,
+          "aligned": false,
+          "tickers": [
+            "CL",
+            "GIS",
+            "PEP",
+            "SYY",
+            "KO",
+            "COST",
+            "KMB",
+            "PG",
+            "WMT",
+            "BUD",
+            "NWL",
+            "TSN"
+          ],
+          "example": {
+            "title": "Farm Workforce Modernization Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.855,
+          "portfolioStance": -0.088,
+          "divergence": 0.075,
+          "exposure": 57029,
+          "aligned": false,
+          "tickers": [
+            "SCTY",
+            "EFX",
+            "LII",
+            "MMM",
+            "STI",
+            "CTAS",
+            "PAYX",
+            "TT",
+            "UNP",
+            "WM",
+            "ODFL",
+            "CAT",
+            "PWR",
+            "EMR"
+          ],
+          "example": {
+            "title": "Safeguarding Americans' Private Records Act of 2020",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": -0.059,
+          "divergence": 0.059,
+          "exposure": 51051,
+          "aligned": false,
+          "tickers": [
+            "DHR",
+            "LLY",
+            "MRK",
+            "UNH",
+            "EW",
+            "JNJ",
+            "TMO",
+            "ZTS",
+            "HCA",
+            "ABBV",
+            "CVS",
+            "PFE",
+            "WBA",
+            "CRL",
+            "GILD",
+            "BDX"
+          ],
+          "example": {
+            "title": "Expressing support for the designation of the third week of September as National Student Sleep Health Week.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": 0.236,
+          "divergence": 0,
+          "exposure": 55041,
+          "aligned": true,
+          "tickers": [
+            "ADBE",
+            "APH",
+            "INTC",
+            "TWX",
+            "TXN",
+            "AAPL",
+            "MSFT",
+            "CSCO",
+            "QCOM",
+            "ACN",
+            "AMAT",
+            "NTAP",
+            "NXPI",
+            "ASML",
+            "ROP",
+            "KLAC"
+          ],
+          "example": {
+            "title": "Voluntary Consumer AI Disclosure Pilot Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 0.652,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 28028,
+          "aligned": false,
+          "tickers": [
+            "CNSL",
+            "DIS",
+            "TMUS",
+            "GOOGL",
+            "T",
+            "CMCSA",
+            "VZ",
+            "VIAC",
+            "BCE",
+            "VOD",
+            "IPG"
+          ],
+          "example": {
+            "title": "Calling for the immediate release of Mahmood Habibi, a United States citizen, who was wrongfully detained by the Taliban on August 10, 2022, and condemning the wrongful detention of United States citizens by the Taliban.",
+            "action": "sponsor",
+            "billStance": -1,
+            "recordStance": -1
           }
         }
       ]
@@ -8986,7 +9337,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.932,
+          "voteStance": 0.948,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -9168,9 +9519,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.774,
+          "voteStance": 0.769,
           "portfolioStance": -0.067,
-          "divergence": 0.052,
+          "divergence": 0.051,
           "exposure": 60060,
           "aligned": false,
           "tickers": [
@@ -9218,7 +9569,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.333,
+          "voteStance": 0.371,
           "portfolioStance": 0.016,
           "divergence": 0,
           "exposure": 63063,
@@ -9320,286 +9671,6 @@
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Zoe Lofgren",
-      "chamber": "house",
-      "ds": 17,
-      "alignmentRate": 11,
-      "sectorsScored": 9,
-      "sectors": [
-        {
-          "sector": "Energy",
-          "voteStance": 0.614,
-          "portfolioStance": -1,
-          "divergence": 0.614,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "CVX"
-          ],
-          "example": {
-            "title": "Clean Energy Victory Bond Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 0.833,
-          "portfolioStance": -0.454,
-          "divergence": 0.379,
-          "exposure": 44030,
-          "aligned": false,
-          "tickers": [
-            "DECK",
-            "PHM",
-            "SBUX",
-            "TSLA",
-            "BABA",
-            "SIX",
-            "HD",
-            "MGA",
-            "MCD",
-            "AMZN",
-            "EXPE",
-            "TJX",
-            "LCID",
-            "GM",
-            "SON"
-          ],
-          "example": {
-            "title": "Foreign Anti-Digital Piracy Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Real Estate",
-          "voteStance": 1,
-          "portfolioStance": -0.333,
-          "divergence": 0.333,
-          "exposure": 21021,
-          "aligned": false,
-          "tickers": [
-            "LTC",
-            "MAA",
-            "WPC",
-            "EPR",
-            "ESS",
-            "LAMR",
-            "NNN",
-            "PLD",
-            "AMT",
-            "EQIX",
-            "CCI"
-          ],
-          "example": {
-            "title": "VALID Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.792,
-          "portfolioStance": -0.29,
-          "divergence": 0.229,
-          "exposure": 107079,
-          "aligned": false,
-          "tickers": [
-            "WFC",
-            "BAC",
-            "BLK",
-            "CINF",
-            "CME",
-            "GPT",
-            "JPM",
-            "MA",
-            "BBT",
-            "PRU",
-            "USB",
-            "CMA",
-            "CB",
-            "AON",
-            "ARCC",
-            "FB",
-            "PNC",
-            "V",
-            "ALLY",
-            "BX",
-            "CS",
-            "JEF",
-            "MS",
-            "FITB",
-            "FHN",
-            "HIG",
-            "SPGI",
-            "SYF",
-            "C",
-            "BMO",
-            "MET"
-          ],
-          "example": {
-            "title": "Bankruptcy Venue Reform Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -0.187,
-          "divergence": 0.188,
-          "exposure": 32032,
-          "aligned": false,
-          "tickers": [
-            "CL",
-            "GIS",
-            "PEP",
-            "SYY",
-            "KO",
-            "COST",
-            "KMB",
-            "PG",
-            "WMT",
-            "BUD",
-            "NWL",
-            "TSN"
-          ],
-          "example": {
-            "title": "Farm Workforce Modernization Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.857,
-          "portfolioStance": -0.088,
-          "divergence": 0.075,
-          "exposure": 57029,
-          "aligned": false,
-          "tickers": [
-            "SCTY",
-            "EFX",
-            "LII",
-            "MMM",
-            "STI",
-            "CTAS",
-            "PAYX",
-            "TT",
-            "UNP",
-            "WM",
-            "ODFL",
-            "CAT",
-            "PWR",
-            "EMR"
-          ],
-          "example": {
-            "title": "Safeguarding Americans' Private Records Act of 2020",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -0.059,
-          "divergence": 0.059,
-          "exposure": 51051,
-          "aligned": false,
-          "tickers": [
-            "DHR",
-            "LLY",
-            "MRK",
-            "UNH",
-            "EW",
-            "JNJ",
-            "TMO",
-            "ZTS",
-            "HCA",
-            "ABBV",
-            "CVS",
-            "PFE",
-            "WBA",
-            "CRL",
-            "GILD",
-            "BDX"
-          ],
-          "example": {
-            "title": "Expressing support for the designation of the third week of September as National Student Sleep Health Week.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": 0.236,
-          "divergence": 0,
-          "exposure": 55041,
-          "aligned": true,
-          "tickers": [
-            "ADBE",
-            "APH",
-            "INTC",
-            "TWX",
-            "TXN",
-            "AAPL",
-            "MSFT",
-            "CSCO",
-            "QCOM",
-            "ACN",
-            "AMAT",
-            "NTAP",
-            "NXPI",
-            "ASML",
-            "ROP",
-            "KLAC"
-          ],
-          "example": {
-            "title": "Voluntary Consumer AI Disclosure Pilot Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 0.652,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 28028,
-          "aligned": false,
-          "tickers": [
-            "CNSL",
-            "DIS",
-            "TMUS",
-            "GOOGL",
-            "T",
-            "CMCSA",
-            "VZ",
-            "VIAC",
-            "BCE",
-            "VOD",
-            "IPG"
-          ],
-          "example": {
-            "title": "Calling for the immediate release of Mahmood Habibi, a United States citizen, who was wrongfully detained by the Taliban on August 10, 2022, and condemning the wrongful detention of United States citizens by the Taliban.",
-            "action": "sponsor",
-            "billStance": -1,
-            "recordStance": -1
           }
         }
       ]
@@ -9757,7 +9828,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.829,
+          "voteStance": 0.827,
           "portfolioStance": 0.333,
           "divergence": 0,
           "exposure": 6006,
@@ -9770,52 +9841,6 @@
           ],
           "example": {
             "title": "Urban Canal Modernization Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Judy Chu",
-      "chamber": "house",
-      "ds": 15,
-      "alignmentRate": 50,
-      "sectorsScored": 2,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.765,
-          "portfolioStance": -1,
-          "divergence": 0.765,
-          "exposure": 110005,
-          "aligned": false,
-          "tickers": [
-            "DFS",
-            "MS",
-            "ALL"
-          ],
-          "example": {
-            "title": "Mortgage Relief for Disaster Survivors Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 0.979,
-          "portfolioStance": 0.101,
-          "divergence": 0,
-          "exposure": 445007,
-          "aligned": true,
-          "tickers": [
-            "AMEH",
-            "ASTH"
-          ],
-          "example": {
-            "title": "Supporting the designation of May 10, 2026, as \"National Asian American, Native Hawaiian, and Pacific Islander Mental Health Day\".",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -9957,7 +9982,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.806,
+          "voteStance": 0.793,
           "portfolioStance": 0.459,
           "divergence": 0,
           "exposure": 74046,
@@ -10191,9 +10216,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.915,
+          "voteStance": 0.914,
           "portfolioStance": -0.043,
-          "divergence": 0.04,
+          "divergence": 0.039,
           "exposure": 556030,
           "aligned": false,
           "tickers": [
@@ -10275,9 +10300,9 @@
         {
           "sector": "Communication Services",
           "voteStance": 1,
-          "portfolioStance": -0.793,
-          "divergence": 0.793,
-          "exposure": 29015,
+          "portfolioStance": -0.806,
+          "divergence": 0.806,
+          "exposure": 31017,
           "aligned": false,
           "tickers": [
             "BIDU",
@@ -10287,6 +10312,7 @@
             "VZ",
             "DISCK",
             "OMC",
+            "CNK",
             "CMCSA",
             "LSXMK",
             "LBRDK"
@@ -10301,9 +10327,9 @@
         {
           "sector": "Technology",
           "voteStance": 1,
-          "portfolioStance": -0.313,
-          "divergence": 0.313,
-          "exposure": 99099,
+          "portfolioStance": -0.307,
+          "divergence": 0.307,
+          "exposure": 101101,
           "aligned": false,
           "tickers": [
             "CTSH",
@@ -10326,6 +10352,7 @@
             "FIS",
             "ADI",
             "MSTR",
+            "CNDT",
             "CDK",
             "FISV",
             "EPAM",
@@ -10424,59 +10451,6 @@
           }
         },
         {
-          "sector": "Industrials",
-          "voteStance": 0.883,
-          "portfolioStance": -0.103,
-          "divergence": 0.091,
-          "exposure": 145145,
-          "aligned": false,
-          "tickers": [
-            "LMT",
-            "CBI",
-            "ETN",
-            "FANUY",
-            "HTZ",
-            "MMM",
-            "JCI",
-            "NOC",
-            "FAST",
-            "BW",
-            "HON",
-            "UNP",
-            "CMI",
-            "COL",
-            "WWD",
-            "WOR",
-            "ITW",
-            "OA",
-            "EFX",
-            "IR",
-            "BAH",
-            "ARNC",
-            "HXL",
-            "AOS",
-            "SWK",
-            "STI",
-            "IT",
-            "WSO",
-            "EXPD",
-            "FLR",
-            "GXO",
-            "TT",
-            "BWXT",
-            "GD",
-            "HUBB",
-            "NSC",
-            "PCAR"
-          ],
-          "example": {
-            "title": "Acknowledging the courage and sacrifice of veterans of the Korean War and Korean Defense Veterans.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Energy",
           "voteStance": 0.615,
           "portfolioStance": -0.136,
@@ -10508,6 +10482,60 @@
           "example": {
             "title": "Arlington National Cemetery Viewshed Protection Act",
             "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.881,
+          "portfolioStance": -0.086,
+          "divergence": 0.076,
+          "exposure": 151151,
+          "aligned": false,
+          "tickers": [
+            "LMT",
+            "CBI",
+            "ETN",
+            "FANUY",
+            "HTZ",
+            "MMM",
+            "JCI",
+            "NOC",
+            "FAST",
+            "BW",
+            "HON",
+            "UNP",
+            "CMI",
+            "COL",
+            "WWD",
+            "WOR",
+            "ITW",
+            "OA",
+            "EFX",
+            "IR",
+            "BAH",
+            "ARNC",
+            "HXL",
+            "AOS",
+            "SWK",
+            "STI",
+            "NSP",
+            "IT",
+            "WSO",
+            "EXPD",
+            "FLR",
+            "GXO",
+            "TT",
+            "BWXT",
+            "GD",
+            "HUBB",
+            "NSC",
+            "PCAR"
+          ],
+          "example": {
+            "title": "Acknowledging the courage and sacrifice of veterans of the Korean War and Korean Defense Veterans.",
+            "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -10752,9 +10780,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.838,
+          "voteStance": 0.876,
           "portfolioStance": -0.066,
-          "divergence": 0.055,
+          "divergence": 0.057,
           "exposure": 1372034,
           "aligned": false,
           "tickers": [
@@ -10794,7 +10822,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.943,
+          "voteStance": 0.942,
           "portfolioStance": 0.694,
           "divergence": 0,
           "exposure": 1086033,
@@ -10873,10 +10901,203 @@
       ]
     },
     {
+      "member": "Scott H. Peters",
+      "chamber": "house",
+      "ds": 11,
+      "alignmentRate": 38,
+      "sectorsScored": 8,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": -0.212,
+          "divergence": 0.212,
+          "exposure": 1287038,
+          "aligned": false,
+          "tickers": [
+            "ATMP",
+            "ADS",
+            "BAC",
+            "BLK",
+            "C",
+            "EMC",
+            "JPM",
+            "PX",
+            "PRU",
+            "V",
+            "WFC",
+            "COF",
+            "USB",
+            "AXP"
+          ],
+          "example": {
+            "title": "Build for Future Disasters Act of 2021",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -0.211,
+          "divergence": 0.211,
+          "exposure": 190008,
+          "aligned": false,
+          "tickers": [
+            "CL",
+            "DG",
+            "PEP"
+          ],
+          "example": {
+            "title": "Condemning the Government of the Russian Federation for exacerbating global food insecurity through its illegal, unprovoked full-scale invasion of Ukraine.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": -0.198,
+          "divergence": 0.198,
+          "exposure": 1035030,
+          "aligned": false,
+          "tickers": [
+            "INRD",
+            "GVP",
+            "AAPL",
+            "CSCO",
+            "CTXS",
+            "FIS",
+            "FISV",
+            "MSFT",
+            "ORCL",
+            "QCOM"
+          ],
+          "example": {
+            "title": "Open Internet Act of 2014",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": -0.119,
+          "divergence": 0.119,
+          "exposure": 590014,
+          "aligned": false,
+          "tickers": [
+            "CMCSA",
+            "GOOG",
+            "OMC",
+            "VZ",
+            "DIS"
+          ],
+          "example": {
+            "title": "Stopping the Theft and Destruction of Broadband Act of 2025",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -0.019,
+          "divergence": 0.019,
+          "exposure": 520015,
+          "aligned": false,
+          "tickers": [
+            "AMZN",
+            "HD",
+            "M",
+            "TJX",
+            "VFC"
+          ],
+          "example": {
+            "title": "Small Business Scorecard Enhancements Act of 2022",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": 0.054,
+          "divergence": 0,
+          "exposure": 1015027,
+          "aligned": true,
+          "tickers": [
+            "AET",
+            "CVS",
+            "ESRX",
+            "JNJ",
+            "MDT",
+            "MRK",
+            "SYK",
+            "UNH",
+            "DHR",
+            "TMO"
+          ],
+          "example": {
+            "title": "Expressing support for the designation of the week of May 3, 2026, through May 9, 2026, as \"Tardive Dyskinesia Awareness Week\".",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.937,
+          "portfolioStance": 0.065,
+          "divergence": 0,
+          "exposure": 417017,
+          "aligned": true,
+          "tickers": [
+            "APC",
+            "EOG",
+            "EQT",
+            "MRO",
+            "WMB"
+          ],
+          "example": {
+            "title": "SPEED and Reliability Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.926,
+          "portfolioStance": 0.07,
+          "divergence": 0,
+          "exposure": 355011,
+          "aligned": true,
+          "tickers": [
+            "ADP",
+            "BA",
+            "GE",
+            "UNP"
+          ],
+          "example": {
+            "title": "To amend title 38, United States Code, to repeal a certain limitation on the receipt of assistance under both the Department of Veterans Affairs Veteran Readiness and Employment program and Department of Veterans Affairs educational assistance programs.",
+            "action": "sponsor",
+            "billStance": -1,
+            "recordStance": -1
+          }
+        }
+      ]
+    },
+    {
       "member": "Virginia Foxx",
       "chamber": "house",
       "ds": 11,
-      "alignmentRate": 22,
+      "alignmentRate": 11,
       "sectorsScored": 9,
       "sectors": [
         {
@@ -10993,9 +11214,9 @@
         {
           "sector": "Financial Services",
           "voteStance": 0.412,
-          "portfolioStance": -0.344,
-          "divergence": 0.142,
-          "exposure": 1147074,
+          "portfolioStance": -0.325,
+          "divergence": 0.134,
+          "exposure": 1262077,
           "aligned": false,
           "tickers": [
             "PNNT",
@@ -11007,8 +11228,10 @@
             "IWM",
             "RYH",
             "ERIE",
+            "SDOG",
             "MFC",
             "GLD",
+            "SCHH",
             "FHLC",
             "ORI",
             "HTGC",
@@ -11027,9 +11250,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.89,
+          "voteStance": 0.925,
           "portfolioStance": -0.132,
-          "divergence": 0.117,
+          "divergence": 0.122,
           "exposure": 569065,
           "aligned": false,
           "tickers": [
@@ -11093,12 +11316,13 @@
         {
           "sector": "Real Estate",
           "voteStance": 1,
-          "portfolioStance": 0.029,
-          "divergence": 0,
-          "exposure": 620045,
-          "aligned": true,
+          "portfolioStance": -0.048,
+          "divergence": 0.048,
+          "exposure": 670046,
+          "aligned": false,
           "tickers": [
             "AHT",
+            "APTS",
             "OLP",
             "NHI",
             "BXMT",
@@ -11312,7 +11536,7 @@
           "voteStance": 1,
           "portfolioStance": -0.42,
           "divergence": 0.42,
-          "exposure": 2627328,
+          "exposure": 2631332,
           "aligned": false,
           "tickers": [
             "CI",
@@ -11324,6 +11548,7 @@
             "CVS",
             "HCSG",
             "LH",
+            "LHCG",
             "MCK",
             "UNH",
             "PODD",
@@ -11380,6 +11605,7 @@
             "JNJ",
             "TNDM",
             "ELV",
+            "ITCI",
             "MOH",
             "PCVX",
             "NEO",
@@ -11664,7 +11890,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.412,
+          "voteStance": 0.6,
           "portfolioStance": 0.242,
           "divergence": 0,
           "exposure": 1739265,
@@ -11774,9 +12000,9 @@
         {
           "sector": "Real Estate",
           "voteStance": 0.5,
-          "portfolioStance": 0.129,
+          "portfolioStance": 0.128,
           "divergence": 0,
-          "exposure": 1249098,
+          "exposure": 1250099,
           "aligned": true,
           "tickers": [
             "MAC",
@@ -11791,6 +12017,7 @@
             "DLR",
             "PEAK",
             "HST",
+            "KIM",
             "NHI",
             "STAG",
             "VTR",
@@ -11998,199 +12225,6 @@
       ]
     },
     {
-      "member": "Scott H. Peters",
-      "chamber": "house",
-      "ds": 10,
-      "alignmentRate": 38,
-      "sectorsScored": 8,
-      "sectors": [
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -0.211,
-          "divergence": 0.211,
-          "exposure": 190008,
-          "aligned": false,
-          "tickers": [
-            "CL",
-            "DG",
-            "PEP"
-          ],
-          "example": {
-            "title": "Condemning the Government of the Russian Federation for exacerbating global food insecurity through its illegal, unprovoked full-scale invasion of Ukraine.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": -0.198,
-          "divergence": 0.198,
-          "exposure": 1035030,
-          "aligned": false,
-          "tickers": [
-            "INRD",
-            "GVP",
-            "AAPL",
-            "CSCO",
-            "CTXS",
-            "FIS",
-            "FISV",
-            "MSFT",
-            "ORCL",
-            "QCOM"
-          ],
-          "example": {
-            "title": "Open Internet Act of 2014",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.84,
-          "portfolioStance": -0.212,
-          "divergence": 0.178,
-          "exposure": 1287038,
-          "aligned": false,
-          "tickers": [
-            "ATMP",
-            "ADS",
-            "BAC",
-            "BLK",
-            "C",
-            "EMC",
-            "JPM",
-            "PX",
-            "PRU",
-            "V",
-            "WFC",
-            "COF",
-            "USB",
-            "AXP"
-          ],
-          "example": {
-            "title": "Build for Future Disasters Act of 2021",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": -0.119,
-          "divergence": 0.119,
-          "exposure": 590014,
-          "aligned": false,
-          "tickers": [
-            "CMCSA",
-            "GOOG",
-            "OMC",
-            "VZ",
-            "DIS"
-          ],
-          "example": {
-            "title": "Stopping the Theft and Destruction of Broadband Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -0.019,
-          "divergence": 0.019,
-          "exposure": 520015,
-          "aligned": false,
-          "tickers": [
-            "AMZN",
-            "HD",
-            "M",
-            "TJX",
-            "VFC"
-          ],
-          "example": {
-            "title": "Small Business Scorecard Enhancements Act of 2022",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": 0.054,
-          "divergence": 0,
-          "exposure": 1015027,
-          "aligned": true,
-          "tickers": [
-            "AET",
-            "CVS",
-            "ESRX",
-            "JNJ",
-            "MDT",
-            "MRK",
-            "SYK",
-            "UNH",
-            "DHR",
-            "TMO"
-          ],
-          "example": {
-            "title": "Expressing support for the designation of the week of May 3, 2026, through May 9, 2026, as \"Tardive Dyskinesia Awareness Week\".",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.937,
-          "portfolioStance": 0.065,
-          "divergence": 0,
-          "exposure": 417017,
-          "aligned": true,
-          "tickers": [
-            "APC",
-            "EOG",
-            "EQT",
-            "MRO",
-            "WMB"
-          ],
-          "example": {
-            "title": "SPEED and Reliability Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.927,
-          "portfolioStance": 0.07,
-          "divergence": 0,
-          "exposure": 355011,
-          "aligned": true,
-          "tickers": [
-            "ADP",
-            "BA",
-            "GE",
-            "UNP"
-          ],
-          "example": {
-            "title": "To amend title 38, United States Code, to repeal a certain limitation on the receipt of assistance under both the Department of Veterans Affairs Veteran Readiness and Employment program and Department of Veterans Affairs educational assistance programs.",
-            "action": "sponsor",
-            "billStance": -1,
-            "recordStance": -1
-          }
-        }
-      ]
-    },
-    {
       "member": "Blake Moore",
       "chamber": "house",
       "ds": 10,
@@ -12257,7 +12291,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.846,
+          "voteStance": 0.838,
           "portfolioStance": 0.842,
           "divergence": 0,
           "exposure": 253027,
@@ -12298,7 +12332,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.596,
+          "voteStance": 0.625,
           "portfolioStance": 0.429,
           "divergence": 0,
           "exposure": 7007,
@@ -12599,11 +12633,12 @@
         {
           "sector": "Financial Services",
           "voteStance": 0.319,
-          "portfolioStance": 0.202,
+          "portfolioStance": 0.205,
           "divergence": 0,
-          "exposure": 3709177,
+          "exposure": 3724178,
           "aligned": true,
           "tickers": [
+            "SDOG",
             "QQQ",
             "FB",
             "ONEQ",
@@ -12900,9 +12935,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.916,
+          "voteStance": 0.926,
           "portfolioStance": -0.077,
-          "divergence": 0.07,
+          "divergence": 0.071,
           "exposure": 13013,
           "aligned": false,
           "tickers": [
@@ -13152,10 +13187,10 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.705,
-          "portfolioStance": 0.546,
+          "voteStance": 0.684,
+          "portfolioStance": 0.547,
           "divergence": 0,
-          "exposure": 4791072,
+          "exposure": 4794075,
           "aligned": true,
           "tickers": [
             "JPM",
@@ -13169,11 +13204,13 @@
             "FDRR",
             "FHLC",
             "FQAL",
+            "FSEN",
             "DGRO",
             "TIP",
             "JEPI",
             "SPY",
             "TROW",
+            "PDX",
             "C",
             "MS",
             "ARGO",
@@ -13188,7 +13225,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.633,
+          "voteStance": 0.69,
           "portfolioStance": 0.031,
           "divergence": 0,
           "exposure": 4765095,
@@ -13247,9 +13284,9 @@
         {
           "sector": "Healthcare",
           "voteStance": 1,
-          "portfolioStance": 0.373,
+          "portfolioStance": 0.398,
           "divergence": 0,
-          "exposure": 2793092,
+          "exposure": 2908094,
           "aligned": true,
           "tickers": [
             "DHR",
@@ -13264,6 +13301,7 @@
             "AHCO",
             "BSX",
             "IQV",
+            "ASXC",
             "MASI",
             "DXCM",
             "UNH",
@@ -13463,7 +13501,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.938,
+          "voteStance": 0.936,
           "portfolioStance": 0.875,
           "divergence": 0,
           "exposure": 16002,
@@ -13629,7 +13667,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.968,
+          "voteStance": 1,
           "portfolioStance": 0.545,
           "divergence": 0,
           "exposure": 66003,
@@ -13656,9 +13694,9 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.563,
+          "voteStance": 0.5,
           "portfolioStance": -1,
-          "divergence": 0.563,
+          "divergence": 0.5,
           "exposure": 30002,
           "aligned": false,
           "tickers": [
@@ -14050,7 +14088,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.695,
+          "voteStance": 0.69,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -14304,7 +14342,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.978,
+          "voteStance": 1,
           "portfolioStance": 0.063,
           "divergence": 0,
           "exposure": 32032,
@@ -14440,7 +14478,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.662,
+          "voteStance": 0.652,
           "portfolioStance": 0.671,
           "divergence": 0,
           "exposure": 79030,
@@ -14699,7 +14737,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.737,
+          "voteStance": 0.842,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 12012,
@@ -14829,9 +14867,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.838,
+          "voteStance": 0.818,
           "portfolioStance": -0.416,
-          "divergence": 0.349,
+          "divergence": 0.341,
           "exposure": 24010,
           "aligned": false,
           "tickers": [
@@ -14895,7 +14933,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.893,
+          "voteStance": 0.919,
           "portfolioStance": 0.84,
           "divergence": 0,
           "exposure": 25011,
@@ -15063,9 +15101,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.877,
+          "voteStance": 0.924,
           "portfolioStance": -0.386,
-          "divergence": 0.339,
+          "divergence": 0.357,
           "exposure": 88018,
           "aligned": false,
           "tickers": [
@@ -15103,7 +15141,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.813,
+          "voteStance": 0.8,
           "portfolioStance": 0.799,
           "divergence": 0,
           "exposure": 1335013,
@@ -15410,9 +15448,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.854,
+          "voteStance": 0.85,
           "portfolioStance": -0.25,
-          "divergence": 0.213,
+          "divergence": 0.212,
           "exposure": 480006,
           "aligned": false,
           "tickers": [
@@ -15428,9 +15466,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.792,
+          "voteStance": 0.87,
           "portfolioStance": -0.034,
-          "divergence": 0.027,
+          "divergence": 0.03,
           "exposure": 9765024,
           "aligned": false,
           "tickers": [
@@ -15545,7 +15583,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.907,
+          "voteStance": 0.906,
           "portfolioStance": -0.125,
           "divergence": 0.113,
           "exposure": 32032,
@@ -15987,7 +16025,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.864,
+          "voteStance": 0.862,
           "portfolioStance": -0.103,
           "divergence": 0.089,
           "exposure": 58016,
@@ -16013,7 +16051,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.324,
+          "voteStance": 0.361,
           "portfolioStance": 0.464,
           "divergence": 0,
           "exposure": 112042,
@@ -16272,7 +16310,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.2,
+          "voteStance": 0.4,
           "portfolioStance": 0.416,
           "divergence": 0,
           "exposure": 284025,
@@ -16530,7 +16568,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.524,
+          "voteStance": 0.714,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 28028,
@@ -16610,7 +16648,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.89,
+          "voteStance": 0.889,
           "portfolioStance": 0.059,
           "divergence": 0,
           "exposure": 17017,
@@ -16801,7 +16839,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.735,
+          "voteStance": 0.758,
           "portfolioStance": 0.111,
           "divergence": 0,
           "exposure": 36036,
@@ -17263,9 +17301,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.847,
+          "voteStance": 0.845,
           "portfolioStance": -0.43,
-          "divergence": 0.365,
+          "divergence": 0.363,
           "exposure": 337029,
           "aligned": false,
           "tickers": [
@@ -17355,7 +17393,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.412,
+          "voteStance": 0.647,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -17424,10 +17462,10 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.75,
-          "portfolioStance": 0.762,
+          "voteStance": 0.757,
+          "portfolioStance": 0.767,
           "divergence": 0,
-          "exposure": 42042,
+          "exposure": 43043,
           "aligned": true,
           "tickers": [
             "C",
@@ -17446,6 +17484,7 @@
             "AMTD",
             "V",
             "AMP",
+            "MHLD",
             "SYF",
             "MET",
             "COF",
@@ -17483,6 +17522,34 @@
           ],
           "example": {
             "title": "Retirement Freedom Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": 0.692,
+          "divergence": 0,
+          "exposure": 26026,
+          "aligned": true,
+          "tickers": [
+            "F",
+            "GME",
+            "GM",
+            "ROST",
+            "LOW",
+            "EXPE",
+            "AMZN",
+            "THO",
+            "TJX",
+            "APTV",
+            "HLT",
+            "BBY"
+          ],
+          "example": {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Federal Trade Commission entitled \"Non-Compete Clause Rule\".",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -17541,35 +17608,8 @@
           }
         },
         {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": 0.667,
-          "divergence": 0,
-          "exposure": 24024,
-          "aligned": true,
-          "tickers": [
-            "F",
-            "GME",
-            "GM",
-            "ROST",
-            "LOW",
-            "EXPE",
-            "AMZN",
-            "TJX",
-            "APTV",
-            "HLT",
-            "BBY"
-          ],
-          "example": {
-            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Federal Trade Commission entitled \"Non-Compete Clause Rule\".",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Industrials",
-          "voteStance": 0.783,
+          "voteStance": 0.778,
           "portfolioStance": 0.846,
           "divergence": 0,
           "exposure": 13013,
@@ -17641,7 +17681,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.892,
+          "voteStance": 1,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 19005,
@@ -17822,7 +17862,7 @@
           "voteStance": 0.72,
           "portfolioStance": 0.025,
           "divergence": 0,
-          "exposure": 70421662,
+          "exposure": 70425666,
           "aligned": true,
           "tickers": [
             "CHKP",
@@ -17867,6 +17907,7 @@
             "POWI",
             "DAVA",
             "NTDOY",
+            "ROG",
             "WDAY",
             "CRNC",
             "CTSH",
@@ -17924,9 +17965,9 @@
         {
           "sector": "Healthcare",
           "voteStance": 1,
-          "portfolioStance": 0.114,
+          "portfolioStance": 0.108,
           "divergence": 0,
-          "exposure": 476350,
+          "exposure": 484358,
           "aligned": true,
           "tickers": [
             "CSLLY",
@@ -17940,9 +17981,11 @@
             "LLY",
             "HUM",
             "WST",
+            "LHCG",
             "ILMN",
             "VEEV",
             "FMS",
+            "APNHY",
             "RHHBY",
             "CHGCY",
             "PODD",
@@ -17979,6 +18022,7 @@
             "CSPCY",
             "ATRC",
             "AZTA",
+            "ITCI",
             "ABBV",
             "RGEN",
             "ARQT",
@@ -18011,7 +18055,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.922,
+          "voteStance": 0.924,
           "portfolioStance": 0.07,
           "divergence": 0,
           "exposure": 430276,
@@ -18083,7 +18127,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.844,
+          "voteStance": 0.843,
           "portfolioStance": 0.171,
           "divergence": 0,
           "exposure": 246204,
@@ -18260,7 +18304,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.609,
+          "voteStance": 0.571,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 20006,
@@ -18348,7 +18392,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.552,
+          "voteStance": 0.538,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -18505,7 +18549,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.846,
+          "voteStance": 0.838,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 3003,
@@ -18542,7 +18586,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.888,
+          "voteStance": 0.915,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -18568,7 +18612,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.688,
+          "voteStance": 0.813,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 130004,
@@ -18588,9 +18632,9 @@
         {
           "sector": "Technology",
           "voteStance": 1,
-          "portfolioStance": 0.9,
+          "portfolioStance": 0.901,
           "divergence": 0,
-          "exposure": 80010,
+          "exposure": 81011,
           "aligned": true,
           "tickers": [
             "ORCL",
@@ -18599,6 +18643,7 @@
             "CRWD",
             "LRCX",
             "AAPL",
+            "IS",
             "MSFT"
           ],
           "example": {
@@ -18711,7 +18756,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.815,
+          "voteStance": 0.813,
           "portfolioStance": 0.16,
           "divergence": 0,
           "exposure": 3192054,
@@ -18892,7 +18937,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.927,
+          "voteStance": 1,
           "portfolioStance": 0.18,
           "divergence": 0,
           "exposure": 39011,
@@ -19104,7 +19149,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.829,
+          "voteStance": 0.818,
           "portfolioStance": 0.8,
           "divergence": 0,
           "exposure": 30016,
@@ -19200,7 +19245,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.793,
+          "voteStance": 0.818,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 12012,
@@ -19311,7 +19356,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.905,
+          "voteStance": 0.902,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 32004,
@@ -19363,7 +19408,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.633,
+          "voteStance": 0.6,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -19576,7 +19621,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.895,
+          "voteStance": 0.891,
           "portfolioStance": 0.939,
           "divergence": 0,
           "exposure": 33005,
@@ -20003,7 +20048,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.783,
+          "voteStance": 0.778,
           "portfolioStance": 0.765,
           "divergence": 0,
           "exposure": 153055,
@@ -20032,7 +20077,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.63,
+          "voteStance": 0.76,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 122038,
@@ -20159,7 +20204,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.5,
+          "voteStance": 0.462,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 82005,
@@ -20206,7 +20251,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.839,
+          "voteStance": 0.867,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -20325,7 +20370,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.872,
+          "voteStance": 0.921,
           "portfolioStance": 0.123,
           "divergence": 0,
           "exposure": 228011,
@@ -20468,7 +20513,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.925,
+          "voteStance": 0.923,
           "portfolioStance": 0.066,
           "divergence": 0,
           "exposure": 304178,
@@ -20543,7 +20588,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.873,
+          "voteStance": 0.922,
           "portfolioStance": 0.06,
           "divergence": 0,
           "exposure": 232162,
@@ -21032,7 +21077,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.755,
+          "voteStance": 0.733,
           "portfolioStance": 0.538,
           "divergence": 0,
           "exposure": 26026,
@@ -21065,7 +21110,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.844,
+          "voteStance": 0.903,
           "portfolioStance": 0.5,
           "divergence": 0,
           "exposure": 24024,
@@ -21370,7 +21415,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.955,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 76006,
