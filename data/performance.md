@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 16:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-09 17:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.1%**
 - S&P 500 (SPY) over the same windows: 58.1%
-- Priced positions: 25658  ·  still open: 9886  ·  awaiting price data: 609
+- Priced positions: 25660  ·  still open: 9887  ·  awaiting price data: 609
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 1052.9% | 6 |
 | Barbara J. Comstock | 579.5% | 2 |
 | Charlie Joseph Crist | 542.4% | 1 |
-| Sheldon Whitehouse | 524.0% | 442 |
+| Sheldon Whitehouse | 524.1% | 442 |
 | Luis V. Gutierrez | 442.9% | 6 |
 | Ashley Moody | 408.8% | 3 |
 | Brenda Lulenar Lawrence | 403.4% | 19 |
@@ -42,7 +42,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Seth Moulton | 172.4% | 1 |
 | Gary Palmer | 149.8% | 182 |
 | John Hoeven | 149.0% | 128 |
-| Daniel Meuser | 145.0% | 9 |
+| Daniel Meuser | 144.3% | 9 |
 | Debbie Dingell | 141.6% | 99 |
 | Pat Roberts | 139.7% | 286 |
 | Beto O'Rourke | 138.7% | 3 |
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Knott | 43.5% | 2 |
 | Mike Kelly | 43.1% | 8 |
 | John A. Yarmuth | 42.5% | 139 |
-| William R. Keating | 42.3% | 86 |
+| William R. Keating | 42.4% | 86 |
 | Josh Gottheimer | 42.3% | 1427 |
 | Aston Donald McEachin | 41.7% | 6 |
 | Rafael E Cruz | 41.4% | 3 |
@@ -206,7 +206,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | C. Scott Franklin | 10.7% | 35 |
 | Zoe Lofgren | 10.5% | 159 |
 | Mick Mulvaney | 9.7% | 4 |
-| Ritchie John Torres | 9.6% | 68 |
+| Ritchie John Torres | 9.5% | 69 |
 | Kurt Schrader | 8.9% | 148 |
 | Scott Scott Franklin | 8.8% | 45 |
 | David Trone | 8.7% | 14 |
@@ -254,7 +254,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tom Malinowski | -3.3% | 162 |
 | Brandon Gill | -3.4% | 5 |
 | Andrew Garbarino | -4.3% | 5 |
-| John McGuire | -4.8% | 10 |
+| John McGuire | -5.4% | 11 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Marie Newman | -9.1% | 155 |
 | David A. Trott | -10.2% | 89 |
