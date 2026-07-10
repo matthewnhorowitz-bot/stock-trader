@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 21:44 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 22:01 UTC._
 
 ## Total
 
@@ -110,7 +110,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cheri Bustos | 52.0% | 13 |
 | Bradley S. Schneider | 51.7% | 40 |
 | Garret Graves | 51.0% | 6 |
-| Virginia Foxx | 50.1% | 601 |
+| Virginia Foxx | 50.2% | 601 |
 | Susie Lee | 48.1% | 624 |
 | Kelly Louise Morrison | 47.7% | 13 |
 | Raúl M. Grijalva | 47.0% | 47 |
@@ -138,7 +138,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 33.9% | 10 |
 | Daniel Goldman | 31.5% | 369 |
-| Harold Dallas Rogers | 31.5% | 8 |
+| Harold Dallas Rogers | 31.4% | 8 |
 | Steve Cohen | 31.2% | 20 |
 | Susan A. Davis | 31.1% | 32 |
 | Linda T. Sanchez | 29.9% | 3 |
@@ -148,7 +148,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Rohit Khanna | 27.2% | 137 |
 | Earl Blumenauer | 26.8% | 237 |
-| Charles J. Chuck Fleischmann | 26.7% | 57 |
+| Charles J. Chuck Fleischmann | 26.6% | 57 |
 | Christopher L. Jacobs | 26.4% | 94 |
 | Rob Bresnahan | 26.3% | 248 |
 | John W. Rose | 26.1% | 1 |
