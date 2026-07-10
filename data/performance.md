@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 21:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 21:44 UTC._
 
 ## Total
 
@@ -58,7 +58,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott H. Peters | 111.3% | 105 |
 | Victoria Spartz | 111.2% | 21 |
 | Robert B. Aderholt | 110.2% | 1 |
-| Gary C Peters | 108.1% | 49 |
+| Gary C Peters | 108.2% | 49 |
 | Justin Amash | 105.9% | 11 |
 | A. Mitchell McConnell, Jr. | 103.8% | 36 |
 | John N Kennedy | 102.2% | 2 |
@@ -105,7 +105,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David A Perdue , Jr | 57.6% | 1255 |
 | Lois Frankel | 56.9% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
-| Michael Patrick Guest | 54.6% | 48 |
+| Michael Patrick Guest | 54.9% | 48 |
 | Dan Newhouse | 52.2% | 98 |
 | Cheri Bustos | 52.0% | 13 |
 | Bradley S. Schneider | 51.7% | 40 |
@@ -154,8 +154,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W. Rose | 26.1% | 1 |
 | Robert E. Latta | 25.7% | 22 |
 | Kathy Manning | 25.3% | 276 |
-| Richard Dean McCormick | 25.1% | 70 |
 | Julia Letlow | 25.0% | 154 |
+| Richard Dean McCormick | 24.9% | 70 |
 | Austin Scott | 24.1% | 38 |
 | Thomas H. Kean | 23.6% | 72 |
 | Kelly Loeffler | 22.8% | 97 |
