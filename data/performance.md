@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 22:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 23:01 UTC._
 
 ## Total
 
@@ -148,7 +148,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Rohit Khanna | 27.2% | 137 |
 | Earl Blumenauer | 26.8% | 237 |
-| Charles J. Chuck Fleischmann | 26.6% | 57 |
+| Charles J. Chuck Fleischmann | 26.5% | 57 |
 | Christopher L. Jacobs | 26.4% | 94 |
 | Rob Bresnahan | 26.3% | 248 |
 | John W. Rose | 26.1% | 1 |
