@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 19:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 20:01 UTC._
 
 ## Total
 
@@ -34,7 +34,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Raul Ruiz | 208.1% | 1 |
 | David Cheston Rouzer | 197.4% | 8 |
 | Michael T. McCaul | 196.9% | 107 |
-| Pete Sessions | 193.8% | 175 |
+| Pete Sessions | 193.9% | 175 |
 | Gary C. Peters | 185.4% | 7 |
 | Rubén Hinojosa | 177.2% | 30 |
 | Neal P. Dunn | 177.1% | 2 |
@@ -93,7 +93,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert J. Wittman | 68.6% | 114 |
 | Diana Harshbarger | 66.1% | 7 |
 | Vicente Gonzalez | 66.0% | 1 |
-| Kevin Hern | 64.3% | 534 |
+| Kevin Hern | 64.2% | 534 |
 | David Kustoff | 64.0% | 9 |
 | Neal Patrick MD, Facs Dunn | 63.3% | 6 |
 | Scott Franklin | 63.0% | 48 |
@@ -106,7 +106,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lois Frankel | 56.9% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 54.2% | 48 |
-| Dan Newhouse | 52.1% | 98 |
+| Dan Newhouse | 52.2% | 98 |
 | Cheri Bustos | 52.0% | 13 |
 | Bradley S. Schneider | 51.7% | 40 |
 | Garret Graves | 51.0% | 6 |
@@ -180,7 +180,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gerald E. Connolly | 16.8% | 25 |
 | Brian Mast | 16.6% | 31 |
 | Mo Brooks | 16.4% | 41 |
-| Roger Williams | 16.1% | 12 |
+| Roger Williams | 16.0% | 12 |
 | Byron Donalds | 15.7% | 43 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Ed Case | 15.2% | 12 |
