@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-10 18:10 UTC._
 
 ## Total
 
@@ -24,7 +24,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Christopher A Coons | 282.9% | 2 |
 | Michael Fq San Nicolas | 278.5% | 1 |
 | Steve Chabot | 255.9% | 2 |
-| Ron L Wyden | 255.3% | 196 |
+| Ron L Wyden | 255.4% | 196 |
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 234.2% | 51 |
 | William M. Cassidy | 224.8% | 1 |
@@ -82,7 +82,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael K. Simpson | 75.4% | 34 |
 | Katherine M. Clark | 75.3% | 155 |
 | Shelley M Capito | 74.5% | 344 |
-| Peter Welch | 73.3% | 36 |
+| Peter Welch | 73.4% | 36 |
 | Terri A. Sewell | 71.7% | 2 |
 | Max Miller | 71.7% | 1 |
 | Debbie Wasserman Schultz | 70.9% | 36 |
