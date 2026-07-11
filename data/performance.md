@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 14:01 UTC._
 
 ## Total
 
@@ -33,7 +33,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan M Collins | 209.9% | 181 |
 | Raul Ruiz | 208.1% | 1 |
 | David Cheston Rouzer | 197.4% | 8 |
-| Michael T. McCaul | 197.0% | 107 |
+| Michael T. McCaul | 197.3% | 107 |
 | Pete Sessions | 193.9% | 175 |
 | Gary C. Peters | 185.3% | 7 |
 | Rubén Hinojosa | 177.2% | 30 |
@@ -80,7 +80,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph Manchin, III | 78.2% | 1 |
 | John Rutherford | 76.8% | 165 |
 | Katherine M. Clark | 75.5% | 155 |
-| Michael K. Simpson | 75.2% | 34 |
+| Michael K. Simpson | 75.3% | 34 |
 | Shelley M Capito | 74.5% | 344 |
 | Lloyd Doggett | 72.7% | 207 |
 | Peter Welch | 72.2% | 36 |
