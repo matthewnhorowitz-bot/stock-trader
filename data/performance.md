@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 17:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 18:00 UTC._
 
 ## Total
 
@@ -65,8 +65,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kathy Castor | 100.8% | 39 |
 | Mark Green | 100.4% | 463 |
 | Dwight Evans | 98.7% | 70 |
+| K. Michael Conaway | 98.4% | 283 |
 | David E. Price | 98.4% | 42 |
-| K. Michael Conaway | 98.3% | 283 |
 | Tina Smith | 96.1% | 5 |
 | Stephen F. Lynch | 95.7% | 1 |
 | Judy Chu | 91.6% | 5 |
