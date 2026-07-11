@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 21:10 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 22:01 UTC._
 
 ## Total
 
@@ -111,7 +111,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bradley S. Schneider | 51.7% | 40 |
 | Garret Graves | 51.0% | 6 |
 | Virginia Foxx | 50.0% | 601 |
-| Susie Lee | 48.0% | 624 |
+| Susie Lee | 47.9% | 624 |
 | Kelly Louise Morrison | 47.7% | 13 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
