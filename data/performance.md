@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 18:13 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 19:01 UTC._
 
 ## Total
 
@@ -41,7 +41,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Seth Moulton | 174.9% | 1 |
 | Warren Davidson | 160.8% | 2 |
 | Gary Palmer | 151.2% | 182 |
-| John Hoeven | 150.8% | 128 |
+| John Hoeven | 151.0% | 128 |
 | Daniel Meuser | 144.4% | 9 |
 | Pat Roberts | 142.5% | 286 |
 | Debbie Dingell | 141.6% | 99 |
@@ -64,7 +64,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | A. Mitchell McConnell, Jr. | 103.8% | 36 |
 | Kathy Castor | 100.8% | 39 |
 | Mark Green | 100.4% | 463 |
-| Dwight Evans | 98.7% | 70 |
+| Dwight Evans | 99.0% | 70 |
 | K. Michael Conaway | 98.4% | 283 |
 | David E. Price | 98.4% | 42 |
 | Tina Smith | 96.1% | 5 |
