@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 09:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 10:00 UTC._
 
 ## Total
 
@@ -30,7 +30,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William M. Cassidy | 224.8% | 1 |
 | Richard L. Hanna | 213.2% | 91 |
 | Michael Waltz | 210.8% | 2 |
-| Susan M Collins | 209.7% | 181 |
+| Susan M Collins | 209.9% | 181 |
 | Raul Ruiz | 208.1% | 1 |
 | David Cheston Rouzer | 197.4% | 8 |
 | Michael T. McCaul | 196.7% | 107 |
@@ -80,8 +80,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph Manchin, III | 78.2% | 1 |
 | John Rutherford | 76.8% | 165 |
 | Katherine M. Clark | 75.5% | 155 |
-| Michael K. Simpson | 74.8% | 34 |
-| Shelley M Capito | 74.3% | 344 |
+| Michael K. Simpson | 75.2% | 34 |
+| Shelley M Capito | 74.4% | 344 |
 | Lloyd Doggett | 72.7% | 207 |
 | Peter Welch | 72.2% | 36 |
 | Terri A. Sewell | 71.7% | 2 |
@@ -99,7 +99,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Franklin | 63.1% | 48 |
 | Carol Devine Miller | 62.9% | 62 |
 | James Comer | 62.6% | 32 |
-| William Cassidy | 58.4% | 87 |
+| William Cassidy | 58.7% | 87 |
 | David A Perdue , Jr | 57.7% | 1255 |
 | John Curtis | 57.6% | 127 |
 | Richard W. Allen | 57.5% | 157 |
