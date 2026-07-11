@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 16:01 UTC._
 
 ## Total
 
@@ -34,7 +34,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Raul Ruiz | 208.1% | 1 |
 | David Cheston Rouzer | 197.4% | 8 |
 | Michael T. McCaul | 197.3% | 107 |
-| Pete Sessions | 193.9% | 175 |
+| Pete Sessions | 194.0% | 175 |
 | Gary C. Peters | 185.3% | 7 |
 | Rubén Hinojosa | 177.2% | 30 |
 | Neal P. Dunn | 177.1% | 2 |
