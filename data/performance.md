@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 03:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 04:01 UTC._
 
 ## Total
 
@@ -70,7 +70,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tina Smith | 96.1% | 5 |
 | Stephen F. Lynch | 95.7% | 1 |
 | Judy Chu | 91.6% | 5 |
-| Hakeem S. Jeffries | 89.4% | 7 |
+| Hakeem S. Jeffries | 89.3% | 7 |
 | John F Reed | 85.6% | 55 |
 | Nancy Pelosi | 84.3% | 89 |
 | David P. Joyce | 84.2% | 76 |
@@ -150,8 +150,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Earl Blumenauer | 26.8% | 237 |
 | Charles J. Chuck Fleischmann | 26.5% | 57 |
 | Rob Bresnahan | 26.3% | 248 |
-| Christopher L. Jacobs | 26.2% | 94 |
 | John W. Rose | 26.1% | 1 |
+| Christopher L. Jacobs | 25.8% | 94 |
 | Robert E. Latta | 25.7% | 22 |
 | Kathy Manning | 25.3% | 276 |
 | Julia Letlow | 24.9% | 154 |
