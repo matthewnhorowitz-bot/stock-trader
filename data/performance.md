@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 02:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 03:01 UTC._
 
 ## Total
 
@@ -33,14 +33,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan M Collins | 209.6% | 181 |
 | Raul Ruiz | 208.1% | 1 |
 | David Cheston Rouzer | 197.4% | 8 |
-| Michael T. McCaul | 196.9% | 107 |
+| Michael T. McCaul | 196.7% | 107 |
 | Pete Sessions | 193.8% | 175 |
 | Gary C. Peters | 185.4% | 7 |
 | Rubén Hinojosa | 177.2% | 30 |
 | Neal P. Dunn | 177.1% | 2 |
 | Seth Moulton | 174.9% | 1 |
 | Warren Davidson | 160.8% | 2 |
-| Gary Palmer | 151.0% | 182 |
+| Gary Palmer | 151.2% | 182 |
 | John Hoeven | 150.7% | 128 |
 | Daniel Meuser | 144.4% | 9 |
 | Pat Roberts | 142.5% | 286 |
@@ -66,7 +66,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mark Green | 100.4% | 463 |
 | Dwight Evans | 98.7% | 70 |
 | David E. Price | 98.4% | 42 |
-| K. Michael Conaway | 98.2% | 283 |
+| K. Michael Conaway | 98.1% | 283 |
 | Tina Smith | 96.1% | 5 |
 | Stephen F. Lynch | 95.7% | 1 |
 | Judy Chu | 91.6% | 5 |
@@ -80,7 +80,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph Manchin, III | 78.2% | 1 |
 | John Rutherford | 76.7% | 165 |
 | Katherine M. Clark | 75.5% | 155 |
-| Michael K. Simpson | 74.9% | 34 |
+| Michael K. Simpson | 74.8% | 34 |
 | Shelley M Capito | 74.3% | 344 |
 | Lloyd Doggett | 72.7% | 207 |
 | Peter Welch | 72.2% | 36 |
@@ -96,9 +96,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Hern | 64.0% | 534 |
 | David Kustoff | 63.9% | 9 |
 | Neal Patrick MD, Facs Dunn | 63.3% | 6 |
-| Scott Franklin | 62.9% | 48 |
+| Scott Franklin | 63.0% | 48 |
+| Carol Devine Miller | 62.9% | 62 |
 | James Comer | 62.6% | 32 |
-| Carol Devine Miller | 62.4% | 62 |
 | William Cassidy | 58.4% | 87 |
 | David A Perdue , Jr | 57.7% | 1255 |
 | John Curtis | 57.6% | 127 |
@@ -202,7 +202,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
 | Cliff Bentz | 11.3% | 2 |
-| Zoe Lofgren | 10.5% | 159 |
+| Zoe Lofgren | 10.6% | 159 |
 | Ritchie John Torres | 9.9% | 69 |
 | Mick Mulvaney | 9.7% | 4 |
 | C. Scott Franklin | 9.5% | 35 |
