@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 16:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 17:01 UTC._
 
 ## Total
 
@@ -133,7 +133,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Fetterman | 36.3% | 8 |
 | William R. Timmons | 35.6% | 4 |
 | Daniel Crenshaw | 35.3% | 16 |
-| Donald Sternoff Beyer | 34.7% | 371 |
+| Donald Sternoff Beyer | 34.6% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Mike Kelly | 33.9% | 8 |
 | Sara Jacobs | 33.8% | 10 |
