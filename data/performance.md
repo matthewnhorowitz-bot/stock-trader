@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 08:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 09:00 UTC._
 
 ## Total
 
@@ -30,7 +30,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William M. Cassidy | 224.8% | 1 |
 | Richard L. Hanna | 213.2% | 91 |
 | Michael Waltz | 210.8% | 2 |
-| Susan M Collins | 209.6% | 181 |
+| Susan M Collins | 209.7% | 181 |
 | Raul Ruiz | 208.1% | 1 |
 | David Cheston Rouzer | 197.4% | 8 |
 | Michael T. McCaul | 196.7% | 107 |
@@ -71,7 +71,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Stephen F. Lynch | 95.7% | 1 |
 | Judy Chu | 91.6% | 5 |
 | Hakeem S. Jeffries | 89.3% | 7 |
-| John F Reed | 85.6% | 55 |
+| John F Reed | 85.7% | 55 |
 | Nancy Pelosi | 84.3% | 89 |
 | David P. Joyce | 84.2% | 76 |
 | Daniel S Sullivan | 80.1% | 30 |
@@ -85,7 +85,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lloyd Doggett | 72.7% | 207 |
 | Peter Welch | 72.2% | 36 |
 | Terri A. Sewell | 71.7% | 2 |
-| Debbie Wasserman Schultz | 70.8% | 36 |
+| Debbie Wasserman Schultz | 71.5% | 36 |
 | Morgan McGarvey | 70.6% | 9 |
 | Jerry Moran, | 69.9% | 72 |
 | Joseph D. Morelle | 69.3% | 1 |
@@ -175,8 +175,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas R Carper | 19.6% | 494 |
 | Jackie Speier | 19.2% | 3 |
 | Michael Garcia | 18.6% | 20 |
+| August Lee Pfluger | 17.6% | 10 |
 | Cynthia M Lummis | 17.5% | 1 |
-| August Lee Pfluger | 17.5% | 10 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Brian Mast | 16.6% | 31 |
 | Mo Brooks | 16.4% | 41 |
