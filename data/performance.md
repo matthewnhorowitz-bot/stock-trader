@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 14:39 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 15:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.5%**
 - S&P 500 (SPY) over the same windows: 58.2%
-- Priced positions: 25665  ·  still open: 9888  ·  awaiting price data: 607
+- Priced positions: 25666  ·  still open: 9888  ·  awaiting price data: 606
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -41,7 +41,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Seth Moulton | 174.9% | 1 |
 | Warren Davidson | 160.8% | 2 |
 | Gary Palmer | 151.2% | 182 |
-| John Hoeven | 150.7% | 128 |
+| John Hoeven | 150.8% | 128 |
 | Daniel Meuser | 144.4% | 9 |
 | Pat Roberts | 142.5% | 286 |
 | Debbie Dingell | 141.6% | 99 |
@@ -90,7 +90,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jerry Moran, | 69.9% | 72 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Blake Moore | 68.9% | 83 |
-| Robert J. Wittman | 68.6% | 114 |
+| Robert J. Wittman | 67.7% | 115 |
 | Vicente Gonzalez | 66.0% | 1 |
 | Diana Harshbarger | 65.0% | 7 |
 | Kevin Hern | 64.0% | 534 |
