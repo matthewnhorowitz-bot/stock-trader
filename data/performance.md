@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 10:47 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 11:00 UTC._
 
 ## Total
 
@@ -18,7 +18,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Charlie Joseph Crist | 542.4% | 1 |
 | Sheldon Whitehouse | 541.7% | 443 |
 | Luis V. Gutierrez | 451.9% | 6 |
-| Brenda Lulenar Lawrence | 410.2% | 19 |
+| Brenda Lulenar Lawrence | 410.0% | 19 |
 | Ashley Moody | 406.2% | 3 |
 | Barbara J Comstock | 398.1% | 29 |
 | Christopher A Coons | 282.9% | 2 |
@@ -49,9 +49,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | James French Hill | 119.1% | 24 |
 | W. Greg Steube | 117.9% | 2 |
-| Thomas Suozzi | 117.7% | 283 |
+| Thomas Suozzi | 117.8% | 283 |
 | Grace Meng | 116.7% | 5 |
-| Lamar Smith | 114.8% | 222 |
+| Lamar Smith | 114.9% | 222 |
 | Suzan K. DelBene | 113.7% | 71 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Deborah K. Ross | 112.3% | 21 |
@@ -227,9 +227,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | E. Scott Rigell | 2.6% | 31 |
 | Mike Kennedy | 2.2% | 1 |
 | Thomas MacArthur | 2.2% | 913 |
-| Anthony E. Gonzalez | 1.7% | 3 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
+| Anthony E. Gonzalez | 1.7% | 3 |
 | William L. Owens | 1.5% | 6 |
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
