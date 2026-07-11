@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 07:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 08:01 UTC._
 
 ## Total
 
@@ -59,9 +59,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott H. Peters | 111.1% | 105 |
 | Robert B. Aderholt | 110.2% | 1 |
 | Gary C Peters | 107.8% | 49 |
+| John N Kennedy | 106.2% | 2 |
 | Justin Amash | 105.9% | 11 |
 | A. Mitchell McConnell, Jr. | 103.8% | 36 |
-| John N Kennedy | 102.2% | 2 |
 | Kathy Castor | 100.8% | 39 |
 | Mark Green | 100.4% | 463 |
 | Dwight Evans | 98.7% | 70 |
