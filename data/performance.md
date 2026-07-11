@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 06:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 06:33 UTC._
 
 ## Total
 
@@ -35,7 +35,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Cheston Rouzer | 197.4% | 8 |
 | Michael T. McCaul | 196.7% | 107 |
 | Pete Sessions | 193.9% | 175 |
-| Gary C. Peters | 185.4% | 7 |
+| Gary C. Peters | 185.3% | 7 |
 | Rubén Hinojosa | 177.2% | 30 |
 | Neal P. Dunn | 177.1% | 2 |
 | Seth Moulton | 174.9% | 1 |
@@ -58,7 +58,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Victoria Spartz | 111.2% | 21 |
 | Scott H. Peters | 111.1% | 105 |
 | Robert B. Aderholt | 110.2% | 1 |
-| Gary C Peters | 107.9% | 49 |
+| Gary C Peters | 107.8% | 49 |
 | Justin Amash | 105.9% | 11 |
 | A. Mitchell McConnell, Jr. | 103.8% | 36 |
 | John N Kennedy | 102.2% | 2 |
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Angus S King, Jr. | 43.9% | 34 |
 | Brad Knott | 43.5% | 2 |
 | Rafael E Cruz | 43.2% | 3 |
-| Aston Donald McEachin | 42.6% | 6 |
+| Aston Donald McEachin | 42.7% | 6 |
 | John A. Yarmuth | 42.5% | 139 |
 | Josh Gottheimer | 42.3% | 1429 |
 | William R. Keating | 41.5% | 86 |
@@ -132,11 +132,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joe Courtney | 36.4% | 72 |
 | John Fetterman | 36.3% | 8 |
 | William R. Timmons | 35.6% | 4 |
-| Daniel Crenshaw | 35.2% | 16 |
+| Daniel Crenshaw | 35.3% | 16 |
 | Donald Sternoff Beyer | 34.6% | 371 |
-| Mike Kelly | 34.1% | 8 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 33.9% | 10 |
+| Mike Kelly | 33.9% | 8 |
 | Harold Dallas Rogers | 31.4% | 8 |
 | Daniel Goldman | 31.3% | 369 |
 | Steve Cohen | 31.2% | 20 |
@@ -217,7 +217,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lisa McClain | 6.1% | 720 |
 | John James | 5.5% | 124 |
 | Lindsey Graham | 5.3% | 7 |
-| Patrick Fallon | 4.2% | 56 |
+| Patrick Fallon | 4.3% | 56 |
 | Carlos Curbelo | 4.1% | 138 |
 | Bruce Westerman | 4.0% | 105 |
 | Katie Britt | 3.8% | 16 |
