@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 00:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-11 01:01 UTC._
 
 ## Total
 
@@ -28,7 +28,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 234.2% | 51 |
 | William M. Cassidy | 224.8% | 1 |
-| Richard L. Hanna | 212.9% | 91 |
+| Richard L. Hanna | 212.4% | 91 |
 | Michael Waltz | 210.8% | 2 |
 | Susan M Collins | 209.6% | 181 |
 | Raul Ruiz | 208.1% | 1 |
@@ -73,7 +73,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 89.4% | 7 |
 | John F Reed | 85.6% | 55 |
 | Nancy Pelosi | 84.3% | 89 |
-| David P. Joyce | 84.1% | 76 |
+| David P. Joyce | 84.2% | 76 |
 | Daniel S Sullivan | 80.1% | 30 |
 | Max Miller | 78.6% | 1 |
 | Dean Phillips | 78.4% | 347 |
@@ -83,7 +83,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael K. Simpson | 74.9% | 34 |
 | Shelley M Capito | 74.3% | 344 |
 | Lloyd Doggett | 72.7% | 207 |
-| Peter Welch | 72.3% | 36 |
+| Peter Welch | 72.2% | 36 |
 | Terri A. Sewell | 71.7% | 2 |
 | Debbie Wasserman Schultz | 70.8% | 36 |
 | Morgan McGarvey | 70.6% | 9 |
@@ -100,7 +100,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James Comer | 62.6% | 32 |
 | Carol Devine Miller | 62.4% | 62 |
 | William Cassidy | 58.4% | 87 |
-| David A Perdue , Jr | 57.6% | 1255 |
+| David A Perdue , Jr | 57.7% | 1255 |
 | John Curtis | 57.6% | 127 |
 | Richard W. Allen | 57.5% | 157 |
 | Lois Frankel | 56.9% | 439 |
@@ -138,7 +138,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Sara Jacobs | 33.9% | 10 |
 | Harold Dallas Rogers | 31.4% | 8 |
-| Daniel Goldman | 31.3% | 369 |
+| Daniel Goldman | 31.2% | 369 |
 | Steve Cohen | 31.2% | 20 |
 | Susan A. Davis | 31.1% | 32 |
 | Linda T. Sanchez | 29.9% | 3 |
