@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 15:42 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 16:01 UTC._
 
 ## Total
 
@@ -73,7 +73,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 89.3% | 7 |
 | John F Reed | 85.7% | 55 |
 | Nancy Pelosi | 84.3% | 89 |
-| David P. Joyce | 84.2% | 76 |
+| David P. Joyce | 84.1% | 76 |
 | Daniel S Sullivan | 80.1% | 30 |
 | Max Miller | 78.6% | 1 |
 | Dean Phillips | 78.4% | 347 |
