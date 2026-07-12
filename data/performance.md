@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 00:02 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 01:01 UTC._
 
 ## Total
 
@@ -100,7 +100,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Carol Devine Miller | 62.9% | 62 |
 | James Comer | 62.6% | 32 |
 | William Cassidy | 58.7% | 87 |
-| David A Perdue , Jr | 57.9% | 1255 |
+| David A Perdue , Jr | 57.8% | 1255 |
 | John Curtis | 57.6% | 127 |
 | Richard W. Allen | 57.5% | 157 |
 | Lois Frankel | 57.0% | 439 |
@@ -111,7 +111,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bradley S. Schneider | 51.7% | 40 |
 | Garret Graves | 51.0% | 6 |
 | Virginia Foxx | 50.0% | 601 |
-| Susie Lee | 47.9% | 624 |
+| Susie Lee | 48.1% | 624 |
 | Kelly Louise Morrison | 47.7% | 13 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Gilbert Cisneros | 46.7% | 1480 |
