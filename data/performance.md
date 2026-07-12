@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 02:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 03:00 UTC._
 
 ## Total
 
@@ -36,8 +36,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Cheston Rouzer | 197.4% | 8 |
 | Pete Sessions | 194.0% | 175 |
 | Gary C. Peters | 185.3% | 7 |
-| Rubén Hinojosa | 177.2% | 30 |
 | Neal P. Dunn | 177.1% | 2 |
+| Rubén Hinojosa | 177.1% | 30 |
 | Seth Moulton | 174.9% | 1 |
 | Warren Davidson | 160.8% | 2 |
 | Gary Palmer | 151.2% | 182 |
@@ -78,7 +78,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Max Miller | 78.6% | 1 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
-| John Rutherford | 76.9% | 165 |
+| John Rutherford | 76.3% | 165 |
 | Katherine M. Clark | 75.5% | 155 |
 | Michael K. Simpson | 75.3% | 34 |
 | Shelley M Capito | 74.5% | 344 |
