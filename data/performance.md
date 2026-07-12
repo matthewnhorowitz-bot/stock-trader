@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 11:39 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 12:03 UTC._
 
 ## Total
 
@@ -24,7 +24,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Christopher A Coons | 282.9% | 2 |
 | Michael Fq San Nicolas | 278.5% | 1 |
 | Steve Chabot | 255.9% | 2 |
-| Ron L Wyden | 255.3% | 196 |
+| Ron L Wyden | 255.1% | 196 |
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 235.5% | 51 |
 | William M. Cassidy | 224.8% | 1 |
