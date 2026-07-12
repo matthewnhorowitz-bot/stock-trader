@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 07:14 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 08:00 UTC._
 
 ## Total
 
@@ -129,8 +129,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan W. Brooks | 38.6% | 12 |
 | John Fetterman | 37.4% | 8 |
 | Jim McDermott | 37.1% | 2 |
+| Joe Courtney | 36.5% | 72 |
 | James E. Banks | 36.4% | 14 |
-| Joe Courtney | 36.4% | 72 |
 | William R. Timmons | 35.6% | 4 |
 | Daniel Crenshaw | 35.3% | 16 |
 | Donald Sternoff Beyer | 34.6% | 371 |
