@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 03:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 04:01 UTC._
 
 ## Total
 
@@ -54,7 +54,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lamar Smith | 115.0% | 222 |
 | Suzan K. DelBene | 113.7% | 71 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
-| Deborah K. Ross | 112.3% | 21 |
+| Deborah K. Ross | 112.6% | 21 |
 | Victoria Spartz | 111.2% | 21 |
 | Scott H. Peters | 111.1% | 105 |
 | Robert B. Aderholt | 110.2% | 1 |
@@ -103,7 +103,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David A Perdue , Jr | 57.8% | 1255 |
 | John Curtis | 57.6% | 127 |
 | Richard W. Allen | 57.5% | 157 |
-| Lois Frankel | 57.0% | 439 |
+| Lois Frankel | 57.1% | 439 |
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 54.7% | 48 |
 | Dan Newhouse | 52.1% | 98 |
