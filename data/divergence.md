@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-12 11:14 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-12 11:39 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -16,9 +16,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Burchett | 100 | 0% | 1 |
 | Thomas Massie | 100 | 0% | 1 |
 | William F Hagerty, IV | 100 | 14% | 7 |
+| John Garamendi | 100 | 0% | 3 |
 | John R Thune | 100 | 0% | 1 |
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Pramila Jayapal | 100 | 0% | 1 |
+| Jake Auchincloss | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | David Taylor | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 2 |
@@ -30,40 +32,38 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Doris O. Matsui | 95 | 0% | 1 |
 | Emily Randall | 94 | 0% | 6 |
 | Adam Smith | 94 | 0% | 7 |
+| Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Thomas R Tillis | 93 | 0% | 9 |
 | John B. Larson | 93 | 0% | 8 |
-| John Garamendi | 93 | 0% | 3 |
-| Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Sharice Davids | 92 | 0% | 4 |
-| Jake Auchincloss | 92 | 0% | 1 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Marcy Kaptur | 90 | 0% | 1 |
 | Lance Gooden | 90 | 0% | 2 |
 | Adam B. Schiff | 89 | 0% | 2 |
-| Stephanie Bice | 89 | 0% | 1 |
+| Stephanie Bice | 88 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 8 |
 | Lori Trahan | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
-| Shri Thanedar | 83 | 20% | 5 |
-| Scott DesJarlais | 83 | 0% | 2 |
+| Shri Thanedar | 84 | 20% | 5 |
+| Dave Min | 83 | 0% | 1 |
+| Marc A. Veasey | 82 | 0% | 1 |
+| Victoria Spartz | 82 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
-| Victoria Spartz | 81 | 0% | 1 |
-| Marc A. Veasey | 80 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 78 | 0% | 5 |
-| Dave Min | 77 | 0% | 1 |
-| Tom Cole | 76 | 50% | 2 |
-| Sara Jacobs | 73 | 0% | 9 |
+| Sara Jacobs | 75 | 0% | 9 |
+| Tom Cole | 75 | 50% | 2 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 68 | 0% | 1 |
+| James P. McGovern | 65 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
-| James P. McGovern | 64 | 0% | 1 |
 | John W Hickenlooper | 64 | 14% | 7 |
 | Brad Knott | 63 | 50% | 2 |
 | Greg Landsman | 61 | 0% | 9 |
-| Julie Johnson | 59 | 13% | 8 |
+| Julie Johnson | 60 | 13% | 8 |
 | Mike Kelly | 56 | 38% | 8 |
+| Morgan McGarvey | 53 | 0% | 5 |
 | William R. Timmons | 52 | 0% | 6 |
-| Morgan McGarvey | 52 | 0% | 5 |
 | Seth Moulton | 49 | 0% | 3 |
 | Sheldon Whitehouse | 41 | 25% | 8 |
 | Peter Welch | 37 | 14% | 7 |
@@ -74,12 +74,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Christopher A Coons | 33 | 0% | 1 |
 | Diana Harshbarger | 33 | 29% | 7 |
 | Cliff Bentz | 33 | 67% | 3 |
-| Debbie Wasserman Schultz | 31 | 57% | 7 |
+| Debbie Wasserman Schultz | 32 | 57% | 7 |
 | Warren Davidson | 31 | 33% | 3 |
 | Ed Case | 29 | 40% | 5 |
 | Joe Courtney | 26 | 13% | 8 |
+| Katherine M. Clark | 25 | 25% | 8 |
 | Steve Cohen | 25 | 20% | 10 |
-| Katherine M. Clark | 24 | 25% | 8 |
 | Debbie Dingell | 24 | 25% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 22 | 0% | 7 |
@@ -89,16 +89,16 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Jared Moskowitz | 21 | 44% | 9 |
 | Gary C. Peters | 20 | 50% | 8 |
 | Brian Babin | 20 | 50% | 2 |
+| Judy Chu | 20 | 50% | 2 |
 | Thomas R. Suozzi | 20 | 0% | 3 |
+| Lois Frankel | 19 | 11% | 9 |
 | David Kustoff | 19 | 40% | 5 |
 | Zoe Lofgren | 18 | 11% | 9 |
 | Dwight Evans | 18 | 38% | 8 |
 | Jerry Moran, | 18 | 29% | 7 |
 | Valerie Hoyle | 18 | 22% | 9 |
 | August Lee Pfluger | 17 | 33% | 6 |
-| Lois Frankel | 16 | 11% | 9 |
 | Michael K. Simpson | 16 | 25% | 8 |
-| Judy Chu | 15 | 50% | 2 |
 | John Curtis | 15 | 56% | 9 |
 | Michael T. McCaul | 14 | 25% | 8 |
 | John W. Rose | 13 | 33% | 3 |
