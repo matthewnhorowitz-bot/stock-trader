@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-12 19:01 UTC._
 
 ## Total
 
@@ -20,7 +20,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Luis V. Gutierrez | 451.9% | 6 |
 | Ashley Moody | 416.5% | 3 |
 | Brenda Lulenar Lawrence | 410.0% | 19 |
-| Barbara J Comstock | 401.5% | 29 |
+| Barbara J Comstock | 401.8% | 29 |
 | Christopher A Coons | 282.9% | 2 |
 | Michael Fq San Nicolas | 278.5% | 1 |
 | Steve Chabot | 255.9% | 2 |
