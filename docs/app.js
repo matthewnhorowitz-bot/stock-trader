@@ -294,46 +294,6 @@ function renderLeaderboard() {
     </table>`;
 }
 
-// --- top committee conflicts -------------------------------------------------
-// Ranks positions by their graded conflict score (cs 0-100): a member buying into a
-// sector their committee directly oversees. Super-committee-only matches and broad
-// index funds score 0 upstream, so they never appear here.
-function renderConflicts() {
-  const el = $('conflicts');
-  if (!el || !POSITIONS.length) return;
-  const chamber = $('cfChamber').value;
-  const minScore = Number($('cfMinScore').value || 0);
-  const limit = Number($('cfLimit').value || 50);
-  const rows = POSITIONS
-    .filter((p) => p.cs && p.cs >= minScore && (chamber === 'all' || p.chamber === chamber))
-    .sort((a, b) => b.cs - a.cs || (b.amountHigh || 0) - (a.amountHigh || 0))
-    .slice(0, limit);
-  if (!rows.length) {
-    el.innerHTML = `<div class="note">No conflicts match these filters yet — scores fill in as committee &amp; sector data warms.</div>`;
-    return;
-  }
-  const band = (cs) => (cs >= 67 ? 'hi' : cs >= 40 ? 'mid' : 'lo');
-  el.innerHTML = `
-    <table class="cf-table">
-      <thead><tr><th class="rank">#</th><th>Member</th><th>Bought</th><th>Committee</th><th class="num">Size (up to)</th><th class="num">Return</th><th>Conflict score</th></tr></thead>
-      <tbody>
-        ${rows
-          .map(
-            (p, i) => `<tr>
-            <td class="rank">${i + 1}</td>
-            <td>${esc(p.member)}<div class="cf-sub" style="text-transform:capitalize">${esc(p.chamber || '')} · ${esc((p.entryDate || '').slice(0, 10))}</div></td>
-            <td><b>${esc(p.ticker)}</b></td>
-            <td>${esc(p.ccm || '')}</td>
-            <td class="num">${p.amountHigh ? fmtUSD(p.amountHigh) : '—'}</td>
-            <td class="num ${p.ret == null ? '' : pctClass(p.ret)}">${p.ret == null ? 'n/a' : fmtPct(p.ret)}</td>
-            <td><div class="cf-bar-wrap"><div class="cf-bar-track"><div class="cf-bar ${band(p.cs)}" style="width:${p.cs}%"></div></div><span class="cf-num">${p.cs}</span></div></td>
-          </tr>`
-          )
-          .join('')}
-      </tbody>
-    </table>`;
-}
-
 // --- congress index ----------------------------------------------------------
 // Month index since year 0 ("YYYY-MM-DD" -> Y*12 + (M-1)) so we can bucket by any
 // period length, not just calendar years.
@@ -749,7 +709,6 @@ async function boot() {
     }
     refreshMemberUI();
     renderLeaderboard();
-    renderConflicts();
     renderCongressIndex();
   } catch (e) {
     $('chips').innerHTML = `<div class="note">Could not load data: ${e.message}</div>`;
@@ -771,7 +730,6 @@ $('selAll').onclick = () => { memberStats().forEach((s) => selected.add(s.member
 $('selNone').onclick = () => { selected.clear(); refreshMemberUI(); };
 $('lbChamber').onchange = renderLeaderboard;
 $('lbMinTrades').onchange = renderLeaderboard;
-['cfChamber', 'cfMinScore', 'cfLimit'].forEach((id) => { $(id).onchange = renderConflicts; });
 ['ciInvest', 'ciN', 'ciMin', 'ciLook', 'ciWeight', 'ciRebalance', 'ciStats', 'ciMinSize', 'ciChamber', 'ciWAlpha', 'ciWCons', 'ciWComm'].forEach((id) => {
   const el = $(id);
   el.oninput = renderCongressIndex;
