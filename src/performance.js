@@ -17,7 +17,7 @@ import { priceClose, priceLatest, savePriceCache, fetchesUsed, tiingoUsed, BENCH
 import { canonicalTicker } from './tickerAliases.js';
 import { ensureBBPrices, bbLastTrade } from './sources/bloombergPrices.js';
 import { getDepartures } from './legislators.js';
-import { committeesFor, getProfiles, profile, overlapsFor } from './enrich.js';
+import { committeesFor, getProfiles, profile, conflictScore } from './enrich.js';
 import { getHistoricalCommittees } from './committeesHistorical.js';
 
 // BENCH (the S&P benchmark symbol) is defined in priceCache.js so the Bloomberg SPX
@@ -270,10 +270,12 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
   }
   await savePriceCache();
 
-  // Committee-overlap flag per position (feeds the index's committee-relevance factor):
-  // 1 = the stock's sector overlaps a committee the member held IN THAT CONGRESS, 0 = no,
-  // absent = sector not warmed yet. Committees are period-accurate (per-Congress snapshots);
-  // sectors come from FMP, bounded per run (free 250/day cap) so they fill in over ~1-2 days.
+  // Committee-conflict scoring per position. `ov` = a GENUINE sector-jurisdiction
+  // overlap (1/0) — a direct, non-super match on a non-diversified holding; feeds the
+  // index's committee-relevance factor. `cs` = graded 0-100 conflict score (tier x size)
+  // powering the Top Conflicts view. absent = sector not warmed yet. Committees are
+  // period-accurate (per-Congress snapshots); sectors come from FMP, bounded per run
+  // (free 250/day cap) so they fill in over ~1-2 days.
   if (config.enrich) {
     try {
       const hist = await getHistoricalCommittees();
@@ -292,7 +294,16 @@ export async function buildPerformance({ maxFetches = Number(process.env.PERF_MA
         const idx = hist.indexForYear(Number((p.entry || '').slice(0, 4))); // committees as of the trade's Congress
         if (!idx) continue;
         const committees = committeesFor(idx, { chamber: p.chamber, politician: p.member, bioguide: '' });
-        p.ov = overlapsFor(committees, `${prof.s} ${prof.i}`.toLowerCase()).length ? 1 : 0;
+        const c = conflictScore({
+          committees,
+          sectorIndustryLower: `${prof.s} ${prof.i}`.toLowerCase(),
+          ticker: p.ticker,
+          amountHigh: p.amountHigh,
+          type: 'buy', // positions are copyable buy entries
+        });
+        p.ov = c.ov;
+        p.cs = c.score;
+        if (c.committee) p.ccm = c.committee; // committee behind the score (for the Top Conflicts view)
       }
     } catch (e) {
       console.error(`[perf] committee enrichment skipped: ${e.message}`);
@@ -364,7 +375,9 @@ async function writePositions(priced, boundaries, spyClose, totals = null, depar
     amountLow: p.amountLow || 0,
     amountHigh: p.amountHigh || 0,
     marks: p.marks || [], // [[boundaryIndex, growthVsEntry], ...]
-    ...(p.ov === undefined ? {} : { ov: p.ov }), // committee-sector overlap: 1/0
+    ...(p.ov === undefined ? {} : { ov: p.ov }), // genuine sector-jurisdiction overlap: 1/0
+    ...(p.cs ? { cs: p.cs } : {}), // graded conflict score 0-100 (omitted when 0)
+    ...(p.cs && p.ccm ? { ccm: p.ccm } : {}), // committee behind the score
     ...(p.departed ? { departed: 1 } : {}), // closed because the member left office
     ...(p.delisted ? { delisted: 1 } : {}), // closed at the ticker's delisting/acquisition date
   }));

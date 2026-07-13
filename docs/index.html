@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   <title>Congressional Trade Backtester</title>
-  <link rel="stylesheet" href="./style.css?v=27" />
+  <link rel="stylesheet" href="./style.css?v=28" />
 </head>
 <body>
   <header>
@@ -104,6 +104,26 @@
       <div id="ci"><div class="note">loading…</div></div>
     </div>
 
+    <div class="panel conflicts-panel">
+      <h2>⚖️ Top committee conflicts</h2>
+      <p class="note" style="margin:0 0 12px">Trades where a member bought into a sector their committee directly oversees. Scored 0–100 by how tight the committee's jurisdiction is (a Financial Services seat buying a bank scores higher than a broad committee), the trade's size, and direction. Broad index funds and super-committee-only matches are excluded — this is the genuine-conflict signal, not the old catch-all flag.</p>
+      <div class="cf-controls">
+        <div>
+          <label>Chamber</label>
+          <select id="cfChamber"><option value="all" selected>All</option><option value="senate">Senate</option><option value="house">House</option></select>
+        </div>
+        <div>
+          <label>Min score</label>
+          <select id="cfMinScore"><option value="0">Any</option><option value="40" selected>≥ 40</option><option value="60">≥ 60</option><option value="80">≥ 80</option></select>
+        </div>
+        <div>
+          <label>Show</label>
+          <select id="cfLimit"><option value="25">Top 25</option><option value="50" selected>Top 50</option><option value="100">Top 100</option></select>
+        </div>
+      </div>
+      <div id="conflicts"><div class="note">loading…</div></div>
+    </div>
+
     <div class="wrap" id="backtester">
       <!-- Left: member picker -->
       <div class="panel">
@@ -150,6 +170,6 @@
     </section>
   </div>
 
-  <script src="./app.js?v=27"></script>
+  <script src="./app.js?v=28"></script>
 </body>
 </html>

@@ -39,11 +39,12 @@ async function sendMailRetry(opts) {
 const icon = (type) => (type === 'buy' ? '🟢' : type === 'sell' ? '🔴' : '•');
 const verb = (type) => (type === 'buy' ? 'bought' : type === 'sell' ? 'sold' : type);
 
-// Short phrase naming the overlapping committee(s); '' when there's no overlap.
+// Names the committee behind a GENUINE conflict (direct sector jurisdiction on a
+// non-diversified holding); '' when there's no genuine overlap. Super-committee-only
+// matches and broad index funds are intentionally not flagged.
 function overlapStr(t) {
-  if (!t.overlaps || !t.overlaps.length) return '';
-  const names = t.overlaps.map((o) => o.committee).slice(0, 2).join(', ');
-  return names;
+  if (t.conflict && t.conflict.ov) return t.conflict.committee || '';
+  return '';
 }
 
 // Console line (emoji OK here).
@@ -66,7 +67,10 @@ function smsBlock(t) {
     ` traded ${t.transactionDate}${t.disclosureDate ? `, disclosed ${t.disclosureDate}` : ''}, ${t.amount.raw || 'n/a'}`,
   ];
   const overlap = overlapStr(t);
-  if (overlap) lines.push(` ** POSSIBLE CONFLICT: sits on ${overlap} committee`);
+  if (overlap) {
+    const score = t.conflict && t.conflict.score ? ` [${t.conflict.score}/100]` : '';
+    lines.push(` ** POSSIBLE CONFLICT${score}: sits on ${overlap} committee`);
+  }
   return lines.join('\n');
 }
 
