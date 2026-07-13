@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 12:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 13:01 UTC._
 
 ## Total
 
@@ -144,13 +144,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Linda T. Sanchez | 29.9% | 3 |
 | Thomas H Tuberville | 29.5% | 466 |
 | Donna Shalala | 28.8% | 169 |
-| Elizabeth Fletcher | 28.0% | 23 |
 | Rohit Khanna | 28.0% | 137 |
+| Elizabeth Fletcher | 28.0% | 23 |
 | Markwayne Mullin | 27.8% | 272 |
 | Earl Blumenauer | 26.8% | 237 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
 | Rob Bresnahan | 26.2% | 248 |
-| John W. Rose | 26.1% | 1 |
+| John W. Rose | 25.9% | 1 |
 | Christopher L. Jacobs | 25.8% | 94 |
 | Julia Letlow | 25.6% | 154 |
 | Kathy Manning | 25.3% | 276 |
@@ -194,8 +194,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Boozman | 12.9% | 215 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
+| Sheri Biggs | 12.4% | 50 |
 | Frank A. LoBiondo | 12.2% | 8 |
-| Sheri Biggs | 12.2% | 50 |
 | David P. Roe | 12.0% | 15 |
 | Earl Leroy Carter | 11.6% | 1 |
 | Thomas J. Rooney | 11.4% | 249 |
@@ -214,7 +214,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Adam Kinzinger | 7.9% | 17 |
 | David J. Taylor | 7.0% | 100 |
 | Tom Rice | 6.5% | 5 |
-| Lisa McClain | 6.2% | 720 |
+| Lisa McClain | 6.3% | 720 |
 | John James | 5.7% | 124 |
 | Lindsey Graham | 5.3% | 7 |
 | Katie Britt | 4.3% | 16 |
