@@ -52,6 +52,42 @@ RENAME_MAP = {
     "GPS":  "GAP US Equity",    # Gap Inc ticker change GPS -> GAP (2024)
     "JEC":  "J US Equity",      # Jacobs Engineering -> Jacobs Solutions (2019)
     "ABC":  "COR US Equity",    # AmerisourceBergen -> Cencora (2023)
+
+    # --- Curated mislabel/ADR map (2026-07-13) ---
+    # Raw disclosure symbols the automatic candidate spellings can't reach: foreign-exchange
+    # suffixes that actually name a US-listed line, and sponsored ADRs. ONLY same-company,
+    # US-listed (USD) securities — no foreign primaries (wrong currency) or ambiguous tickers.
+    # Foreign-suffix mislabels -> the real US listing:
+    "RY-TO":   "RY US Equity",    # Royal Bank of Canada (NYSE-listed)
+    "IBM-MX":  "IBM US Equity",   # IBM (Mexico feed suffix)
+    "SBUX-SW": "SBUX US Equity",  # Starbucks (Swiss feed suffix)
+    "VFC-VI":  "VFC US Equity",   # VF Corp
+    "WRK-V":   "WRK US Equity",   # WestRock (delisted 2024 merger)
+    "INSW-V":  "INSW US Equity",  # International Seaways
+    "0QZI-IL": "META US Equity",  # Meta Platforms (London feed line)
+    "35G-SG":  "G US Equity",     # Genpact (NYSE, not the German 35G line)
+    "XER-BE":  "XRX US Equity",   # Xerox (not the German XER line)
+    "FNFV-V":  "FNFV US Equity",  # FNFV Group (delisted)
+    "ETWO-W":  "ETWO US Equity",  # E2open
+    "ALLY-A":  "ALLY US Equity",  # Ally Financial (feed artifact)
+    # Sponsored ADRs (US-listed, USD) the plain-form + foreign-successor guard skipped:
+    "TEF":   "TEF US Equity",     # Telefonica ADR
+    "ERJ":   "ERJ US Equity",     # Embraer ADR
+    "ORAN":  "ORAN US Equity",    # Orange ADR
+    "CAJ":   "CAJ US Equity",     # Canon ADR
+    "ABB":   "ABB US Equity",     # ABB Ltd ADR
+    "BGNE":  "BGNE US Equity",    # BeiGene ADR
+    "WPPGY": "WPPGY US Equity",   # WPP ADR
+    "AHONY": "AHONY US Equity",   # Ahold ADR
+    "NPSND": "NPSND US Equity",   # Naspers ADR
+    "WOPEY": "WOPEY US Equity",   # Woodside ADR
+    "DPSGY": "DPSGY US Equity",   # Deutsche Post ADR
+    # US delisted/renamed, unambiguous same-company lines:
+    "TFM":   "TFM US Equity",     # The Fresh Market (delisted 2016 buyout)
+    "TEGP":  "TEGP US Equity",    # Tallgrass Energy GP (delisted 2019)
+    "AEZS":  "AEZS US Equity",    # Aeterna Zentaris
+    "DRAD":  "DRAD US Equity",    # Digirad
+    "MEG":   "MEG US Equity",     # Montrose Environmental (NYSE)
 }
 
 
