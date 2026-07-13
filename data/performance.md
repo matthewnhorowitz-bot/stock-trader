@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 18:16 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.6%**
 - S&P 500 (SPY) over the same windows: 58.3%
-- Priced positions: 25669  ·  still open: 9882  ·  awaiting price data: 606
+- Priced positions: 25667  ·  still open: 9872  ·  awaiting price data: 608
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -129,7 +129,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan W. Brooks | 38.6% | 12 |
 | John Fetterman | 37.6% | 8 |
 | Jim McDermott | 37.1% | 2 |
-| Joe Courtney | 36.8% | 72 |
+| Joe Courtney | 36.7% | 72 |
 | James E. Banks | 36.4% | 14 |
 | Harold Dallas Rogers | 35.6% | 8 |
 | William R. Timmons | 35.5% | 4 |
@@ -163,8 +163,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ashley Hinson Arenholz | 22.3% | 4 |
 | John Cornyn | 22.3% | 1 |
 | Jonathan Jackson | 22.0% | 106 |
-| Roger F Wicker | 21.9% | 3 |
 | Jared Moskowitz | 21.9% | 220 |
+| Roger F Wicker | 21.9% | 3 |
 | Greg Gianforte | 21.7% | 647 |
 | Nicholas Van Taylor | 21.4% | 49 |
 | Greg Steube | 21.0% | 12 |
@@ -215,8 +215,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David J. Taylor | 7.0% | 100 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.5% | 720 |
+| Lindsey Graham | 5.8% | 5 |
 | John James | 5.7% | 124 |
-| Lindsey Graham | 5.3% | 7 |
 | Katie Britt | 4.3% | 16 |
 | Anthony E. Gonzalez | 4.1% | 3 |
 | Patrick Fallon | 4.1% | 56 |
