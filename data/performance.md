@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 09:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 10:01 UTC._
 
 ## Total
 
@@ -26,16 +26,16 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ron L Wyden | 260.4% | 196 |
 | Steve Chabot | 255.9% | 2 |
 | Brian Higgins | 236.4% | 1 |
-| Roger W. Marshall | 234.9% | 51 |
+| Roger W. Marshall | 235.0% | 51 |
 | William M. Cassidy | 229.2% | 1 |
-| Richard L. Hanna | 213.6% | 91 |
+| Richard L. Hanna | 213.7% | 91 |
 | Susan M Collins | 211.9% | 181 |
 | Michael Waltz | 210.8% | 2 |
 | Raul Ruiz | 208.1% | 1 |
 | David Cheston Rouzer | 202.6% | 8 |
 | Michael T. McCaul | 200.7% | 107 |
-| Pete Sessions | 197.0% | 175 |
-| Gary C. Peters | 185.3% | 7 |
+| Pete Sessions | 197.1% | 175 |
+| Gary C. Peters | 185.6% | 7 |
 | Neal P. Dunn | 178.4% | 2 |
 | Rubén Hinojosa | 176.5% | 30 |
 | Seth Moulton | 173.0% | 1 |
@@ -44,7 +44,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary Palmer | 151.5% | 182 |
 | Pat Roberts | 145.1% | 286 |
 | Daniel Meuser | 145.0% | 9 |
-| Debbie Dingell | 142.3% | 99 |
+| Debbie Dingell | 142.4% | 99 |
 | Beto O'Rourke | 140.3% | 3 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | James French Hill | 119.8% | 24 |
@@ -94,7 +94,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Vicente Gonzalez | 66.5% | 1 |
 | David Kustoff | 65.6% | 9 |
 | Kevin Hern | 64.2% | 534 |
-| Scott Franklin | 63.9% | 48 |
+| Scott Franklin | 64.0% | 48 |
 | Diana Harshbarger | 63.9% | 7 |
 | Neal Patrick MD, Facs Dunn | 63.5% | 6 |
 | Carol Devine Miller | 63.3% | 62 |
@@ -110,12 +110,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cheri Bustos | 52.0% | 13 |
 | Bradley S. Schneider | 51.8% | 40 |
 | Garret Graves | 51.0% | 6 |
+| Virginia Foxx | 50.2% | 601 |
 | Kelly Louise Morrison | 50.2% | 13 |
-| Virginia Foxx | 50.1% | 601 |
 | Susie Lee | 47.9% | 624 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
-| Gilbert Cisneros | 46.6% | 1480 |
+| Gilbert Cisneros | 46.5% | 1480 |
 | Tim Moore | 46.1% | 159 |
 | Angus S King, Jr. | 43.9% | 34 |
 | Aston Donald McEachin | 43.6% | 6 |
@@ -138,14 +138,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Mike Kelly | 32.3% | 8 |
 | Harold Dallas Rogers | 31.8% | 8 |
-| Daniel Goldman | 31.4% | 369 |
+| Daniel Goldman | 31.5% | 369 |
 | Steve Cohen | 31.4% | 20 |
 | Susan A. Davis | 31.1% | 32 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Thomas H Tuberville | 29.5% | 466 |
 | Donna Shalala | 28.8% | 169 |
+| Rohit Khanna | 28.1% | 137 |
 | Elizabeth Fletcher | 28.1% | 23 |
-| Rohit Khanna | 27.9% | 137 |
 | Markwayne Mullin | 27.8% | 272 |
 | Earl Blumenauer | 26.8% | 237 |
 | Charles J. Chuck Fleischmann | 26.6% | 57 |
@@ -155,7 +155,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julia Letlow | 25.6% | 154 |
 | Kathy Manning | 25.3% | 276 |
 | Robert E. Latta | 25.3% | 22 |
-| Richard Dean McCormick | 24.9% | 70 |
+| Richard Dean McCormick | 25.0% | 70 |
 | Austin Scott | 23.8% | 38 |
 | Thomas H. Kean | 23.4% | 72 |
 | Kelly Loeffler | 22.8% | 97 |
@@ -191,7 +191,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 14.4% | 84 |
 | Julie Johnson | 13.3% | 79 |
 | Brad Ashford | 13.1% | 5 |
-| John Boozman | 12.8% | 215 |
+| John Boozman | 12.9% | 215 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
 | Frank A. LoBiondo | 12.2% | 8 |
@@ -205,7 +205,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Zoe Lofgren | 10.6% | 159 |
 | Ritchie John Torres | 9.9% | 69 |
 | Mick Mulvaney | 9.7% | 4 |
-| C. Scott Franklin | 9.5% | 35 |
+| C. Scott Franklin | 9.7% | 35 |
 | Kurt Schrader | 8.9% | 148 |
 | David Trone | 8.7% | 14 |
 | Ed Whitfield | 8.5% | 56 |
