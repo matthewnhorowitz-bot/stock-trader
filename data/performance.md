@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 18:24 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 19:01 UTC._
 
 ## Total
 
@@ -239,8 +239,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | George Miller | 0.8% | 1 |
 | April McClain Delaney | 0.4% | 177 |
 | Greg Stanton | 0.2% | 94 |
-| John Garamendi | 0.0% | 1 |
 | Thomas R. Suozzi | 0.0% | 1 |
+| John Garamendi | 0.0% | 1 |
 | Kenneth R. Buck | -0.1% | 28 |
 | Kenny Marchant | -0.6% | 40 |
 | Michael C. Burgess | -0.9% | 42 |
