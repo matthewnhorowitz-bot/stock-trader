@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 21:01 UTC._
 
 ## Total
 
@@ -183,8 +183,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Mast | 16.3% | 31 |
 | Julie Johnson | 16.1% | 79 |
 | Trey Hollingsworth | 15.3% | 54 |
-| Jefferson Shreve | 15.2% | 173 |
 | Byron Donalds | 15.2% | 43 |
+| Jefferson Shreve | 15.2% | 173 |
 | Francis Rooney | 15.1% | 19 |
 | Rick Larsen | 15.1% | 42 |
 | Ed Case | 15.0% | 12 |
