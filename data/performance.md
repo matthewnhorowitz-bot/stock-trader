@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 21:32 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 22:01 UTC._
 
 ## Total
 
@@ -43,8 +43,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Hoeven | 151.6% | 128 |
 | Gary Palmer | 150.0% | 182 |
 | Pat Roberts | 145.3% | 287 |
-| Daniel Meuser | 145.0% | 9 |
 | Beto O'Rourke | 144.8% | 3 |
+| Daniel Meuser | 144.6% | 9 |
 | Debbie Dingell | 141.9% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | James French Hill | 119.9% | 24 |
@@ -155,7 +155,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julia Letlow | 25.6% | 154 |
 | Kathy Manning | 25.3% | 276 |
 | Robert E. Latta | 25.3% | 22 |
-| Richard Dean McCormick | 25.1% | 70 |
+| Richard Dean McCormick | 25.0% | 70 |
 | Austin Scott | 23.8% | 38 |
 | Thomas H. Kean | 23.2% | 72 |
 | Kelly Loeffler | 22.8% | 97 |
@@ -246,7 +246,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael C. Burgess | -0.9% | 42 |
 | Fred Upton | -1.7% | 7 |
 | Ed Perlmutter | -1.8% | 35 |
-| John McGuire | -1.8% | 11 |
+| John McGuire | -2.2% | 11 |
 | John D. Dingell | -2.2% | 3 |
 | Nick J. Rahall | -2.3% | 14 |
 | Greg Landsman | -2.4% | 55 |
