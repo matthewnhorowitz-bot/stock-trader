@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-13 16:01 UTC._
 
 ## Total
 
@@ -94,7 +94,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Vicente Gonzalez | 66.5% | 1 |
 | David Kustoff | 65.6% | 9 |
 | Kevin Hern | 64.2% | 534 |
-| Scott Franklin | 64.0% | 48 |
+| Scott Franklin | 64.1% | 48 |
 | Diana Harshbarger | 63.9% | 7 |
 | Neal Patrick MD, Facs Dunn | 63.5% | 6 |
 | Carol Devine Miller | 63.2% | 62 |
