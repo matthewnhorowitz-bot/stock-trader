@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-14 12:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-14 12:02 UTC._
 
 ## Total
 
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 862.5% | 6 |
 | Barbara J. Comstock | 593.9% | 2 |
 | Charlie Joseph Crist | 561.0% | 1 |
-| Sheldon Whitehouse | 535.2% | 445 |
+| Sheldon Whitehouse | 535.3% | 445 |
 | Luis V. Gutierrez | 455.1% | 6 |
 | Brenda Lulenar Lawrence | 410.5% | 19 |
 | Ashley Moody | 399.6% | 3 |
@@ -40,8 +40,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Seth Moulton | 175.2% | 1 |
 | Rubén Hinojosa | 167.8% | 30 |
 | Warren Davidson | 156.7% | 2 |
-| John Hoeven | 151.3% | 128 |
-| Gary Palmer | 149.9% | 182 |
+| John Hoeven | 151.4% | 128 |
+| Gary Palmer | 150.0% | 182 |
 | Beto O'Rourke | 146.9% | 3 |
 | Pat Roberts | 143.7% | 287 |
 | Daniel Meuser | 143.3% | 9 |
@@ -91,7 +91,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joseph D. Morelle | 69.3% | 1 |
 | Debbie Wasserman Schultz | 68.9% | 36 |
 | Robert J. Wittman | 67.7% | 116 |
-| Kevin Hern | 64.1% | 534 |
+| Kevin Hern | 64.0% | 534 |
 | Scott Franklin | 64.0% | 48 |
 | Neal Patrick MD, Facs Dunn | 63.1% | 6 |
 | David Kustoff | 62.7% | 9 |
@@ -154,7 +154,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W. Rose | 25.9% | 1 |
 | Kathy Manning | 25.3% | 276 |
 | Richard Dean McCormick | 25.2% | 70 |
-| Rob Bresnahan | 25.0% | 248 |
+| Rob Bresnahan | 24.9% | 248 |
 | Julia Letlow | 24.6% | 154 |
 | Austin Scott | 24.4% | 38 |
 | Thomas H. Kean | 23.1% | 72 |
