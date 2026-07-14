@@ -11,6 +11,13 @@ name: Reprice Index (one-off)
 #     Score artifacts or any other state, so it can't disturb that feature.
 # Dispatch it from the Actions tab (or `gh workflow run reprice.yml`).
 on:
+  # Scheduled full-budget reprice: the hourly notifier only warms new-trade tickers
+  # (it leaves open-position latest marks alone to stay deterministic — see notifier.yml),
+  # so this is what actually keeps docs/positions.json fully priced and consistent. Every
+  # 6h at :41 (off the notifier's :23 and the top of the hour). Public repo => Actions
+  # minutes are free, so cadence isn't a cost concern; 6h just avoids hammering Yahoo.
+  schedule:
+    - cron: '41 */6 * * *'
   workflow_dispatch:
     inputs:
       max_fetches:

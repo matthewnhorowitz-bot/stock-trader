@@ -69,6 +69,16 @@ jobs:
       - name: Refresh performance index
         env:
           PERF_MAX_FETCHES: '40'
+          # Do NOT partially re-mark open positions' latest prices each hour. With only
+          # 40 fetches the hourly job would refresh a different rotating handful of open
+          # positions every run, so their marks (and thus members' trailing returns and
+          # the top-N roster selection) jitter — one borderline roster flip in an early
+          # period then cascades through the whole compounded index, swinging the headline
+          # "vs S&P" by 10+ points with NO new data (verified 2026-07-14: a 19%->8% move
+          # traced to just 3 open positions re-marked, zero trade-count changes). The
+          # full-budget reprice.yml sets latest marks consistently; the hourly run must
+          # leave them alone so its output is deterministic from the committed cache.
+          PRICE_SKIP_LATEST_REFRESH: '1'
           DATA_PROVIDER: ${{ secrets.DATA_PROVIDER }}
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
           VOTES_PROVIDER: ${{ secrets.VOTES_PROVIDER }}
