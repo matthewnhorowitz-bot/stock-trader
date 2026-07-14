@@ -53,14 +53,15 @@ jobs:
           # secret the dead set simply stays unpriced (no failure). Set it with:
           #   gh secret set TIINGO_API_KEY
           TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
-          # Backlog-drain mode: don't spend the budget re-pricing open positions'
-          # latest marks; target only genuinely-uncached tickers (the old tail) so we
-          # reach them before Yahoo throttles the IP. The hourly notifier omits this.
-          PRICE_SKIP_LATEST_REFRESH: '1'
-          # Price oldest-first so the uncached 2012-2019 tail is fetched while the IP
-          # is fresh, before Yahoo's throttle kicks in (~5-6k requests). Normal runs
-          # (notifier) leave this off and stay newest-first.
-          PRICE_OLDEST_FIRST: '1'
+          # SCHEDULED run = the freshness regenerator: refresh open positions' latest
+          # marks (skip=0), newest-first, so every open position is marked to the same
+          # day's prices in one consistent pass. This is what the hourly notifier no
+          # longer does (it skips latest to stay deterministic), so doing it here — all
+          # at once, not 40-at-a-time — is what keeps the site both fresh AND free of the
+          # roster-flip jitter. MANUAL dispatch keeps backlog-drain mode (skip=1,
+          # oldest-first) to reach the uncached 2012-2019 tail before Yahoo throttles.
+          PRICE_SKIP_LATEST_REFRESH: ${{ github.event_name == 'schedule' && '0' || '1' }}
+          PRICE_OLDEST_FIRST: ${{ github.event_name == 'schedule' && '0' || '1' }}
         run: node src/performance.js || true
 
       - name: Publish index (index files only)
