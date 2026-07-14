@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-14 16:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-14 16:48 UTC._
 
 ## Total
 
@@ -186,7 +186,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Jefferson Shreve | 14.8% | 173 |
-| Byron Donalds | 14.7% | 43 |
+| Byron Donalds | 14.8% | 43 |
 | Rick Larsen | 14.5% | 44 |
 | James M Inhofe | 14.4% | 76 |
 | Patrick J Toomey | 14.4% | 84 |
