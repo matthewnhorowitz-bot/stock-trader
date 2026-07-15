@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-15 13:03 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-15 13:04 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -49,16 +49,16 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
 | Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Victoria Spartz | 81 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
 | Dave Min | 77 | 0% | 1 |
 | Sara Jacobs | 75 | 0% | 9 |
 | Tom Cole | 75 | 50% | 2 |
 | Kim Schrier | 71 | 0% | 7 |
 | David Rouzer | 70 | 0% | 1 |
+| James P. McGovern | 65 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
-| James P. McGovern | 64 | 0% | 1 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Greg Landsman | 63 | 0% | 9 |
 | Brad Knott | 63 | 50% | 2 |
