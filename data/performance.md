@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 14:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 15:00 UTC._
 
 ## Total
 
@@ -169,7 +169,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ashley Hinson Arenholz | 20.9% | 4 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
 | Lou Barletta | 20.1% | 17 |
-| Laurel Lee | 19.8% | 7 |
+| Laurel Lee | 20.0% | 7 |
 | Thomas R Carper | 19.6% | 494 |
 | Greg Steube | 19.2% | 12 |
 | Jackie Speier | 19.2% | 3 |
@@ -181,7 +181,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julie Johnson | 16.4% | 79 |
 | Mo Brooks | 16.4% | 41 |
 | Brian Mast | 16.3% | 31 |
-| Roger Williams | 15.9% | 12 |
+| Roger Williams | 16.0% | 12 |
 | Ed Case | 15.7% | 12 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
