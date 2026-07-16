@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 16:52 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 16:54 UTC._
 
 ## Total
 
@@ -162,7 +162,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Cornyn | 22.3% | 1 |
 | Roger F Wicker | 21.9% | 3 |
 | Greg Gianforte | 21.7% | 647 |
-| Jared Moskowitz | 21.6% | 220 |
+| Jared Moskowitz | 21.7% | 220 |
 | Nicholas Van Taylor | 21.3% | 49 |
 | Jonathan Jackson | 21.2% | 108 |
 | Thomas H. Kean | 21.1% | 78 |
@@ -187,7 +187,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Francis Rooney | 15.1% | 19 |
 | Jefferson Shreve | 14.8% | 173 |
 | Byron Donalds | 14.7% | 44 |
-| Rick Larsen | 14.4% | 46 |
+| Rick Larsen | 14.6% | 46 |
 | James M Inhofe | 14.4% | 76 |
 | Patrick J Toomey | 14.4% | 84 |
 | Brad Ashford | 13.1% | 5 |
