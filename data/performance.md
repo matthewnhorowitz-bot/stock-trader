@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 14:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.2%**
 - S&P 500 (SPY) over the same windows: 58.9%
-- Priced positions: 25703  ·  still open: 9889  ·  awaiting price data: 594
+- Priced positions: 25704  ·  still open: 9889  ·  awaiting price data: 593
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -45,7 +45,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Beto O'Rourke | 146.9% | 3 |
 | Pat Roberts | 143.7% | 287 |
 | Daniel Meuser | 143.3% | 9 |
-| Debbie Dingell | 141.3% | 100 |
+| Debbie Dingell | 141.4% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | James French Hill | 119.5% | 24 |
 | Grace Meng | 118.0% | 5 |
@@ -57,7 +57,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott H. Peters | 111.8% | 105 |
 | Victoria Spartz | 111.0% | 21 |
 | Robert B. Aderholt | 110.9% | 1 |
-| Gary C Peters | 108.6% | 49 |
+| Gary C Peters | 108.7% | 49 |
 | Deborah K. Ross | 108.3% | 21 |
 | Justin Amash | 105.9% | 11 |
 | John N Kennedy | 105.7% | 2 |
@@ -141,7 +141,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Goldman | 31.0% | 369 |
 | Mike Kelly | 30.2% | 8 |
 | Linda T. Sanchez | 29.9% | 3 |
-| Thomas H Tuberville | 29.0% | 465 |
+| Thomas H Tuberville | 28.9% | 466 |
 | Donna Shalala | 28.8% | 169 |
 | Christopher L. Jacobs | 28.4% | 95 |
 | John Fetterman | 28.4% | 10 |
