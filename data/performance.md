@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 16:52 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.2%**
 - S&P 500 (SPY) over the same windows: 58.9%
-- Priced positions: 25704  ·  still open: 9889  ·  awaiting price data: 593
+- Priced positions: 25713  ·  still open: 9896  ·  awaiting price data: 593
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 862.5% | 6 |
 | Barbara J. Comstock | 593.9% | 2 |
 | Charlie Joseph Crist | 561.0% | 1 |
-| Sheldon Whitehouse | 535.7% | 445 |
+| Sheldon Whitehouse | 535.9% | 445 |
 | Luis V. Gutierrez | 455.1% | 6 |
 | Brenda Lulenar Lawrence | 410.5% | 19 |
 | Ashley Moody | 401.1% | 3 |
@@ -29,7 +29,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 230.3% | 51 |
 | Richard L. Hanna | 214.0% | 91 |
-| Susan M Collins | 211.9% | 181 |
+| Susan M Collins | 212.0% | 181 |
 | Michael Waltz | 210.8% | 2 |
 | Raul Ruiz | 206.5% | 1 |
 | David Cheston Rouzer | 197.0% | 8 |
@@ -40,7 +40,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Seth Moulton | 175.2% | 1 |
 | Rubén Hinojosa | 167.8% | 30 |
 | Warren Davidson | 156.7% | 2 |
-| Gary Palmer | 151.7% | 182 |
+| Gary Palmer | 151.8% | 182 |
 | John Hoeven | 151.4% | 128 |
 | Beto O'Rourke | 146.9% | 3 |
 | Pat Roberts | 143.7% | 287 |
@@ -123,7 +123,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Angus S King, Jr. | 42.0% | 34 |
 | Josh Gottheimer | 41.9% | 1429 |
 | Aston Donald McEachin | 41.7% | 6 |
-| William R. Keating | 41.0% | 86 |
+| William R. Keating | 41.1% | 86 |
 | David B. McKinley | 39.5% | 195 |
 | Harley E. Rouda | 39.3% | 3 |
 | Susan W. Brooks | 38.6% | 12 |
@@ -157,15 +157,15 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julia Letlow | 24.6% | 154 |
 | Austin Scott | 24.4% | 38 |
 | John W. Rose | 24.1% | 1 |
-| Thomas H. Kean | 22.9% | 72 |
 | Kelly Loeffler | 22.8% | 97 |
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
 | Roger F Wicker | 21.9% | 3 |
 | Greg Gianforte | 21.7% | 647 |
-| Jonathan Jackson | 21.7% | 106 |
 | Jared Moskowitz | 21.6% | 220 |
 | Nicholas Van Taylor | 21.3% | 49 |
+| Jonathan Jackson | 21.2% | 108 |
+| Thomas H. Kean | 21.1% | 78 |
 | Ashley Hinson Arenholz | 20.9% | 4 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
 | Lou Barletta | 20.1% | 17 |
@@ -186,7 +186,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Jefferson Shreve | 14.8% | 173 |
-| Byron Donalds | 14.8% | 43 |
+| Byron Donalds | 14.7% | 44 |
 | Rick Larsen | 14.4% | 46 |
 | James M Inhofe | 14.4% | 76 |
 | Patrick J Toomey | 14.4% | 84 |
