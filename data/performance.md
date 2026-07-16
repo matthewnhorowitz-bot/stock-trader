@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 05:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 06:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.2%**
 - S&P 500 (SPY) over the same windows: 58.9%
-- Priced positions: 25704  ·  still open: 9890  ·  awaiting price data: 593
+- Priced positions: 25703  ·  still open: 9889  ·  awaiting price data: 594
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -141,7 +141,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Goldman | 31.0% | 369 |
 | Mike Kelly | 30.2% | 8 |
 | Linda T. Sanchez | 29.9% | 3 |
-| Thomas H Tuberville | 28.9% | 466 |
+| Thomas H Tuberville | 29.0% | 465 |
 | Donna Shalala | 28.8% | 169 |
 | Christopher L. Jacobs | 28.4% | 95 |
 | John Fetterman | 28.4% | 10 |
