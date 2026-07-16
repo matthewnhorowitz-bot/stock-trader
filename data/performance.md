@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 09:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-16 09:09 UTC._
 
 ## Total
 
@@ -273,7 +273,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David H McCormick | -29.5% | 24 |
 | Shri Thanedar | -32.6% | 1 |
 | David Madison Cawthorn | -34.4% | 15 |
-| Felix Barry Moore | -42.1% | 5 |
+| Felix Barry Moore | -41.5% | 5 |
 | Larry Bucshon | -43.1% | 1 |
 | Steve Knight | -43.3% | 3 |
 | Roy Blunt | -44.5% | 2 |
