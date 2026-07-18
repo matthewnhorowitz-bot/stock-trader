@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-18 11:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-18 12:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -37,11 +37,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Michael R. Turner | 95 | 0% | 1 |
 | Gus M. Bilirakis | 95 | 0% | 4 |
 | Doris O. Matsui | 95 | 0% | 2 |
+| John B. Larson | 94 | 0% | 8 |
 | Bernie Moreno | 94 | 0% | 2 |
 | Adam Smith | 94 | 0% | 7 |
 | Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Thomas R Tillis | 93 | 0% | 9 |
-| John B. Larson | 93 | 0% | 8 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Marcy Kaptur | 90 | 0% | 1 |
 | Lance Gooden | 90 | 0% | 3 |
@@ -51,7 +51,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
 | Lori Trahan | 86 | 0% | 1 |
-| Victoria Spartz | 81 | 0% | 1 |
+| Victoria Spartz | 82 | 0% | 1 |
 | Scott DesJarlais | 81 | 0% | 2 |
 | Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
@@ -59,9 +59,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Sara Jacobs | 75 | 0% | 9 |
 | Tom Cole | 75 | 50% | 2 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 68 | 0% | 1 |
+| James P. McGovern | 65 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
-| James P. McGovern | 64 | 0% | 1 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Greg Landsman | 63 | 0% | 9 |
 | Brad Knott | 63 | 50% | 2 |
