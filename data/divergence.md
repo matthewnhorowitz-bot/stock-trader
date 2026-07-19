@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-19 00:13 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-19 01:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -38,24 +38,24 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John B. Larson | 93 | 0% | 8 |
 | John Garamendi | 93 | 0% | 4 |
 | Jake Auchincloss | 92 | 0% | 1 |
+| Sharice Davids | 91 | 0% | 4 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Marcy Kaptur | 90 | 0% | 1 |
 | Lance Gooden | 90 | 0% | 3 |
 | Adam B. Schiff | 89 | 0% | 2 |
 | Stephanie Bice | 89 | 0% | 1 |
-| Sharice Davids | 89 | 0% | 4 |
-| Joseph D. Morelle | 87 | 0% | 8 |
+| Joseph D. Morelle | 88 | 0% | 8 |
 | Lori Trahan | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
-| Shri Thanedar | 85 | 17% | 6 |
 | James M. Costa | 84 | 0% | 1 |
-| Marc A. Veasey | 82 | 0% | 1 |
+| Shri Thanedar | 84 | 17% | 6 |
+| Dave Min | 83 | 0% | 1 |
 | Victoria Spartz | 82 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
-| Lloyd K. Smucker | 81 | 0% | 6 |
 | Scott DesJarlais | 81 | 0% | 2 |
+| Marc A. Veasey | 80 | 0% | 1 |
+| Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Dave Min | 77 | 0% | 1 |
 | Tom Cole | 76 | 50% | 2 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
@@ -66,11 +66,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Brad Knott | 63 | 50% | 2 |
 | Greg Landsman | 61 | 0% | 9 |
 | Mike Kelly | 60 | 38% | 8 |
-| Julie Johnson | 59 | 13% | 8 |
+| Julie Johnson | 59 | 0% | 8 |
 | William R. Timmons | 54 | 0% | 6 |
-| Morgan McGarvey | 52 | 0% | 5 |
+| Morgan McGarvey | 53 | 0% | 5 |
 | Seth Moulton | 49 | 0% | 3 |
-| Warren Davidson | 47 | 25% | 4 |
+| Warren Davidson | 46 | 25% | 4 |
 | Scott Franklin | 43 | 71% | 7 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 41 | 25% | 8 |
@@ -84,9 +84,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Susie Lee | 32 | 33% | 9 |
 | Diana Harshbarger | 31 | 29% | 7 |
 | Steve Cohen | 27 | 20% | 10 |
+| Debbie Dingell | 25 | 25% | 8 |
+| Joe Courtney | 25 | 0% | 8 |
 | Katherine M. Clark | 24 | 25% | 8 |
-| Debbie Dingell | 24 | 25% | 8 |
-| Joe Courtney | 24 | 0% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Ed Case | 22 | 20% | 5 |
 | Austin Scott | 21 | 0% | 7 |
