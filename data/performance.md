@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-19 08:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-19 08:57 UTC._
 
 ## Total
 
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 819.8% | 6 |
 | Barbara J. Comstock | 623.6% | 2 |
 | Charlie Joseph Crist | 574.8% | 1 |
-| Sheldon Whitehouse | 535.9% | 445 |
+| Sheldon Whitehouse | 535.5% | 445 |
 | Luis V. Gutierrez | 475.0% | 6 |
 | Brenda Lulenar Lawrence | 402.2% | 19 |
 | Barbara J Comstock | 398.4% | 29 |
@@ -28,8 +28,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William M. Cassidy | 243.2% | 1 |
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 215.9% | 51 |
-| Susan M Collins | 214.6% | 181 |
-| Richard L. Hanna | 213.2% | 91 |
+| Susan M Collins | 214.4% | 181 |
+| Richard L. Hanna | 211.8% | 91 |
 | Michael Waltz | 210.8% | 2 |
 | Raul Ruiz | 205.2% | 1 |
 | David Cheston Rouzer | 197.1% | 8 |
@@ -39,9 +39,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal P. Dunn | 179.8% | 2 |
 | Seth Moulton | 175.4% | 1 |
 | Rubén Hinojosa | 169.1% | 30 |
-| Gary Palmer | 151.8% | 182 |
+| Gary Palmer | 151.2% | 182 |
 | Warren Davidson | 151.1% | 2 |
-| John Hoeven | 150.3% | 128 |
+| John Hoeven | 150.4% | 128 |
 | Beto O'Rourke | 149.2% | 3 |
 | Pat Roberts | 146.0% | 287 |
 | Daniel Meuser | 145.2% | 9 |
@@ -54,8 +54,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | W. Greg Steube | 117.9% | 2 |
 | Suzan K. DelBene | 116.4% | 71 |
 | Lamar Smith | 113.9% | 222 |
-| Thomas Suozzi | 113.4% | 283 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
+| Thomas Suozzi | 113.3% | 283 |
 | Scott H. Peters | 112.5% | 105 |
 | Gary C Peters | 110.2% | 49 |
 | Justin Amash | 105.9% | 11 |
@@ -82,7 +82,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Shelley M Capito | 75.8% | 345 |
 | Katherine M. Clark | 75.0% | 155 |
 | Michael K. Simpson | 74.9% | 34 |
-| Jerry Moran, | 73.5% | 73 |
+| Jerry Moran, | 72.8% | 73 |
 | Blake Moore | 71.4% | 83 |
 | Morgan McGarvey | 70.6% | 9 |
 | Peter Welch | 70.5% | 36 |
@@ -91,7 +91,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert J. Wittman | 67.7% | 116 |
 | Lloyd Doggett | 66.1% | 207 |
 | Neal Patrick MD, Facs Dunn | 65.1% | 6 |
-| James Comer | 64.4% | 32 |
+| James Comer | 64.2% | 32 |
 | Max Miller | 64.0% | 1 |
 | Kevin Hern | 63.7% | 534 |
 | Scott Franklin | 63.2% | 48 |
@@ -107,21 +107,21 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 55.3% | 48 |
 | Virginia Foxx | 54.6% | 602 |
-| Dan Newhouse | 52.9% | 98 |
+| Dan Newhouse | 53.0% | 98 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
+| Tim Moore | 50.1% | 159 |
 | Bradley S. Schneider | 48.7% | 40 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
 | Susie Lee | 45.0% | 624 |
 | Gilbert Cisneros | 44.9% | 1480 |
 | Rafael E Cruz | 44.8% | 3 |
-| Kelly Louise Morrison | 44.3% | 13 |
+| Kelly Louise Morrison | 44.5% | 13 |
 | Brad Knott | 43.5% | 2 |
-| Tim Moore | 42.9% | 159 |
 | John A. Yarmuth | 42.5% | 139 |
-| Josh Gottheimer | 41.6% | 1429 |
-| William R. Keating | 41.4% | 86 |
+| Josh Gottheimer | 41.5% | 1429 |
+| William R. Keating | 41.5% | 86 |
 | Angus S King, Jr. | 40.0% | 34 |
 | David B. McKinley | 39.5% | 195 |
 | Harley E. Rouda | 39.3% | 3 |
@@ -130,11 +130,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jim McDermott | 37.1% | 2 |
 | Sara Jacobs | 37.0% | 10 |
 | James E. Banks | 36.6% | 14 |
-| Donald Sternoff Beyer | 35.7% | 371 |
 | Joe Courtney | 35.6% | 72 |
 | William R. Timmons | 35.6% | 4 |
 | Daniel Crenshaw | 35.2% | 17 |
 | Harold Dallas Rogers | 35.2% | 8 |
+| Donald Sternoff Beyer | 35.2% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Steve Cohen | 32.0% | 20 |
 | Robert E. Latta | 31.5% | 22 |
@@ -143,20 +143,20 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Linda T. Sanchez | 29.9% | 3 |
 | Donna Shalala | 28.8% | 169 |
 | Christopher L. Jacobs | 28.8% | 95 |
-| Thomas H Tuberville | 28.5% | 466 |
+| Thomas H Tuberville | 28.4% | 466 |
 | Markwayne Mullin | 27.8% | 272 |
 | Rohit Khanna | 27.7% | 139 |
 | Earl Blumenauer | 26.8% | 237 |
 | Elizabeth Fletcher | 26.6% | 23 |
 | Charles J. Chuck Fleischmann | 26.1% | 57 |
 | Richard Dean McCormick | 26.1% | 70 |
+| John Fetterman | 25.5% | 10 |
 | Kathy Manning | 25.3% | 276 |
-| John Fetterman | 25.3% | 10 |
 | Austin Scott | 25.2% | 38 |
 | Mike Kelly | 24.3% | 8 |
 | John W. Rose | 23.8% | 1 |
-| Rob Bresnahan | 23.6% | 248 |
 | Cynthia M Lummis | 23.6% | 1 |
+| Rob Bresnahan | 23.5% | 248 |
 | Julia Letlow | 22.9% | 154 |
 | Kelly Loeffler | 22.8% | 97 |
 | Alan S. Lowenthal | 22.4% | 410 |
@@ -165,9 +165,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Nicholas Van Taylor | 22.1% | 49 |
 | Thomas H. Kean | 22.0% | 78 |
 | Roger F Wicker | 21.9% | 3 |
-| Jared Moskowitz | 21.8% | 220 |
 | Greg Gianforte | 21.7% | 647 |
-| Jonathan Jackson | 21.4% | 108 |
+| Jared Moskowitz | 21.5% | 220 |
+| Jonathan Jackson | 21.0% | 108 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
 | Ed Case | 20.6% | 12 |
 | Ashley Hinson Arenholz | 20.5% | 4 |
@@ -179,21 +179,20 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Garcia | 18.2% | 20 |
 | Brian Mast | 17.9% | 31 |
 | Greg Steube | 17.4% | 12 |
-| Julie Johnson | 16.9% | 79 |
 | Gerald E. Connolly | 16.8% | 25 |
+| Julie Johnson | 16.7% | 79 |
 | Mo Brooks | 16.4% | 41 |
 | Roger Williams | 16.4% | 12 |
 | Trey Hollingsworth | 15.3% | 54 |
-| Rick Larsen | 15.2% | 46 |
 | Francis Rooney | 15.1% | 19 |
 | Peter Allen Stauber | 14.8% | 1 |
+| Rick Larsen | 14.7% | 46 |
 | James M Inhofe | 14.4% | 76 |
 | Jefferson Shreve | 14.4% | 173 |
 | Patrick J Toomey | 14.4% | 84 |
 | Cliff Bentz | 14.2% | 2 |
-| Byron Donalds | 13.3% | 44 |
 | Brad Ashford | 13.1% | 5 |
-| Dave McCormick | 12.9% | 2 |
+| Byron Donalds | 13.1% | 44 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
 | John Boozman | 12.3% | 220 |
@@ -207,8 +206,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Anthony E. Gonzalez | 10.4% | 3 |
 | C. Scott Franklin | 10.4% | 35 |
 | Sheri Biggs | 10.1% | 50 |
-| Maria Elvira Salazar | 9.8% | 60 |
 | Mick Mulvaney | 9.7% | 4 |
+| Maria Elvira Salazar | 9.6% | 60 |
 | Scott Scott Franklin | 9.6% | 45 |
 | Kurt Schrader | 8.9% | 149 |
 | David Trone | 8.7% | 14 |
@@ -223,6 +222,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John James | 5.3% | 126 |
 | Patrick Fallon | 5.0% | 56 |
 | Lindsey Graham | 4.9% | 6 |
+| Dave McCormick | 4.4% | 2 |
 | Carlos Curbelo | 4.1% | 138 |
 | Bruce Westerman | 3.8% | 105 |
 | Patty Murray | 3.6% | 75 |
@@ -252,8 +252,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John D. Dingell | -2.2% | 3 |
 | Nick J. Rahall | -2.3% | 14 |
 | Greg Landsman | -2.4% | 55 |
-| John McGuire | -2.7% | 11 |
 | Michael McCaul | -2.7% | 7 |
+| John McGuire | -2.7% | 11 |
 | Cindy Axne | -3.3% | 77 |
 | Tom Malinowski | -3.7% | 163 |
 | Brandon Gill | -3.7% | 5 |
