@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 14:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 14:54 UTC._
 
 ## Total
 
@@ -99,7 +99,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William Cassidy | 59.9% | 87 |
 | Lois Frankel | 58.1% | 439 |
 | Diana Harshbarger | 57.7% | 7 |
-| Richard W. Allen | 57.6% | 157 |
+| Richard W. Allen | 57.5% | 157 |
 | David Kustoff | 57.4% | 9 |
 | David A Perdue , Jr | 56.2% | 1255 |
 | John Curtis | 55.8% | 128 |
@@ -156,7 +156,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cynthia M Lummis | 23.1% | 1 |
 | Mike Kelly | 23.0% | 8 |
 | Kelly Loeffler | 22.8% | 97 |
-| Rob Bresnahan | 22.8% | 248 |
+| Rob Bresnahan | 22.7% | 248 |
 | John W. Rose | 22.7% | 1 |
 | Laurel Lee | 22.4% | 7 |
 | Alan S. Lowenthal | 22.4% | 410 |
@@ -188,7 +188,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rick Larsen | 14.4% | 46 |
 | James M Inhofe | 14.4% | 76 |
 | Patrick J Toomey | 14.4% | 84 |
-| Jefferson Shreve | 14.0% | 173 |
+| Jefferson Shreve | 13.9% | 173 |
 | Brad Ashford | 13.1% | 5 |
 | Cliff Bentz | 12.8% | 2 |
 | Byron Donalds | 12.7% | 44 |
