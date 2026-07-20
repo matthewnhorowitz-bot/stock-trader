@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 15:24 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 16:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 56.6%**
 - S&P 500 (SPY) over the same windows: 59.4%
-- Priced positions: 25727  ·  still open: 9902  ·  awaiting price data: 594
+- Priced positions: 25729  ·  still open: 9904  ·  awaiting price data: 594
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -130,7 +130,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jim McDermott | 37.1% | 2 |
 | Sara Jacobs | 36.4% | 10 |
 | James E. Banks | 36.3% | 14 |
-| William R. Timmons | 36.0% | 4 |
 | Daniel Crenshaw | 35.2% | 17 |
 | Joe Courtney | 35.1% | 72 |
 | Donald Sternoff Beyer | 34.8% | 371 |
@@ -185,6 +184,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Roger Williams | 15.6% | 12 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
+| William R. Timmons | 14.7% | 6 |
 | Rick Larsen | 14.4% | 46 |
 | James M Inhofe | 14.4% | 76 |
 | Patrick J Toomey | 14.4% | 84 |
