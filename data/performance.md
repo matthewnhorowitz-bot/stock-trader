@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 17:00 UTC._
 
 ## Total
 
@@ -256,8 +256,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cindy Axne | -3.3% | 77 |
 | Tom Malinowski | -3.7% | 163 |
 | Brandon Gill | -3.7% | 5 |
-| John McGuire | -3.8% | 11 |
 | Andrew Garbarino | -3.8% | 5 |
+| John McGuire | -3.8% | 11 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Marie Newman | -9.1% | 155 |
 | William F Hagerty, IV | -9.6% | 1 |
