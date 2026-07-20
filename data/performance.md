@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 13:20 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 14:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 56.6%**
 - S&P 500 (SPY) over the same windows: 59.4%
-- Priced positions: 25725  ·  still open: 9902  ·  awaiting price data: 596
+- Priced positions: 25727  ·  still open: 9902  ·  awaiting price data: 594
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -63,7 +63,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Deborah K. Ross | 102.5% | 21 |
 | Mark Green | 100.4% | 463 |
 | Kathy Castor | 99.9% | 39 |
-| K. Michael Conaway | 98.8% | 283 |
+| K. Michael Conaway | 98.7% | 283 |
 | David E. Price | 98.4% | 42 |
 | John N Kennedy | 98.1% | 2 |
 | Tina Smith | 98.1% | 5 |
@@ -73,7 +73,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Nancy Pelosi | 85.8% | 89 |
 | Judy Chu | 84.6% | 5 |
 | David P. Joyce | 82.6% | 76 |
-| John F Reed | 81.9% | 55 |
+| John F Reed | 81.8% | 55 |
 | Daniel S Sullivan | 80.3% | 30 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
@@ -110,10 +110,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
 | Tim Moore | 50.3% | 159 |
-| Dan Newhouse | 47.7% | 108 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bradley S. Schneider | 46.9% | 40 |
 | Bob Gibbs | 46.7% | 94 |
+| Dan Newhouse | 46.1% | 110 |
 | Rafael E Cruz | 45.3% | 3 |
 | Susie Lee | 44.8% | 624 |
 | Kelly Louise Morrison | 44.5% | 13 |
