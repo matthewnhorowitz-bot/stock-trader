@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 13:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-20 13:20 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 56.6%**
-- S&P 500 (SPY) over the same windows: 58.9%
-- Priced positions: 25715  ·  still open: 9897  ·  awaiting price data: 594
+- S&P 500 (SPY) over the same windows: 59.4%
+- Priced positions: 25725  ·  still open: 9902  ·  awaiting price data: 596
 - Price coverage: 97.7% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -107,10 +107,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tammy Duckworth | 55.4% | 4 |
 | Michael Patrick Guest | 54.7% | 48 |
 | Virginia Foxx | 54.4% | 602 |
-| Dan Newhouse | 52.1% | 98 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
 | Tim Moore | 50.3% | 159 |
+| Dan Newhouse | 47.7% | 108 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bradley S. Schneider | 46.9% | 40 |
 | Bob Gibbs | 46.7% | 94 |
