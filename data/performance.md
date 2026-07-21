@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-21 04:08 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-21 05:00 UTC._
 
 ## Total
 
@@ -45,7 +45,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Warren Davidson | 147.9% | 2 |
 | Pat Roberts | 143.6% | 287 |
 | Daniel Meuser | 143.5% | 9 |
-| Debbie Dingell | 139.8% | 100 |
+| Debbie Dingell | 139.7% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Victoria Spartz | 119.3% | 21 |
 | W. Greg Steube | 117.9% | 2 |
@@ -222,7 +222,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lindsey Graham | 4.9% | 6 |
 | Patrick Fallon | 4.4% | 56 |
 | Carlos Curbelo | 4.1% | 138 |
-| Mitch McConnell | 4.0% | 1 |
+| Mitch McConnell | 3.9% | 1 |
 | Bruce Westerman | 3.7% | 105 |
 | Patty Murray | 3.6% | 75 |
 | Dave McCormick | 3.4% | 2 |
