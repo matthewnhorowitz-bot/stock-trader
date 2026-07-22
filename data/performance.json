@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-22T03:00:47.987Z",
+  "generatedAt": "2026-07-22T03:52:23.107Z",
   "basis": "copyable return (from disclosure date)",
   "totals": {
     "positions": 26645,
-    "priced": 25990,
+    "priced": 26030,
     "open": 10223,
-    "unpriced": 655,
-    "coverage": 0.9754175267404767,
-    "avgReturn": 0.5610902124422233,
-    "spyAvgReturn": 0.7072956550754456
+    "unpriced": 615,
+    "coverage": 0.9769187464815162,
+    "avgReturn": 0.5605529190618955,
+    "spyAvgReturn": 0.7246915354024762
   },
   "perMember": [
     {
@@ -29,12 +29,17 @@
     {
       "member": "Sheldon Whitehouse",
       "positions": 445,
-      "avgReturn": 5.33752812057252
+      "avgReturn": 5.339557728628664
     },
     {
       "member": "Luis V. Gutierrez",
       "positions": 6,
       "avgReturn": 4.688486944642324
+    },
+    {
+      "member": "Ashley Moody",
+      "positions": 3,
+      "avgReturn": 4.109838401961322
     },
     {
       "member": "Barbara J Comstock",
@@ -45,11 +50,6 @@
       "member": "Brenda Lulenar Lawrence",
       "positions": 19,
       "avgReturn": 4.053831252521074
-    },
-    {
-      "member": "Ashley Moody",
-      "positions": 3,
-      "avgReturn": 4.033769323013954
     },
     {
       "member": "Christopher A Coons",
@@ -67,14 +67,14 @@
       "avgReturn": 2.5589320625610945
     },
     {
+      "member": "Ron L Wyden",
+      "positions": 196,
+      "avgReturn": 2.5445489059453466
+    },
+    {
       "member": "William M. Cassidy",
       "positions": 1,
       "avgReturn": 2.540686823441583
-    },
-    {
-      "member": "Ron L Wyden",
-      "positions": 196,
-      "avgReturn": 2.5324101503310383
     },
     {
       "member": "Brian Higgins",
@@ -89,12 +89,12 @@
     {
       "member": "Susan M Collins",
       "positions": 181,
-      "avgReturn": 2.117579226607413
+      "avgReturn": 2.1157311537440546
     },
     {
       "member": "Richard L. Hanna",
       "positions": 91,
-      "avgReturn": 2.1108627635776926
+      "avgReturn": 2.1111481252423547
     },
     {
       "member": "Michael Waltz",
@@ -114,12 +114,12 @@
     {
       "member": "Pete Sessions",
       "positions": 175,
-      "avgReturn": 1.9594742938573135
+      "avgReturn": 1.9586144078684165
     },
     {
       "member": "Michael T. McCaul",
       "positions": 108,
-      "avgReturn": 1.9398502696214577
+      "avgReturn": 1.9408317651735834
     },
     {
       "member": "Gary C. Peters",
@@ -144,12 +144,12 @@
     {
       "member": "Gary Palmer",
       "positions": 182,
-      "avgReturn": 1.5295343265931394
+      "avgReturn": 1.5304707589691766
     },
     {
       "member": "John Hoeven",
       "positions": 128,
-      "avgReturn": 1.486064331383695
+      "avgReturn": 1.4861041741457564
     },
     {
       "member": "Beto O'Rourke",
@@ -164,7 +164,7 @@
     {
       "member": "Pat Roberts",
       "positions": 287,
-      "avgReturn": 1.4473214180699894
+      "avgReturn": 1.446866837007788
     },
     {
       "member": "Daniel Meuser",
@@ -174,7 +174,7 @@
     {
       "member": "Debbie Dingell",
       "positions": 100,
-      "avgReturn": 1.3943971660178491
+      "avgReturn": 1.3957418854527432
     },
     {
       "member": "Neal Patrick MD, FACS Dunn",
@@ -197,14 +197,14 @@
       "avgReturn": 1.178687761749651
     },
     {
+      "member": "James French Hill",
+      "positions": 24,
+      "avgReturn": 1.1753426447408148
+    },
+    {
       "member": "Grace Meng",
       "positions": 5,
       "avgReturn": 1.172515012580416
-    },
-    {
-      "member": "James French Hill",
-      "positions": 24,
-      "avgReturn": 1.1724502119703333
     },
     {
       "member": "Suzan K. DelBene",
@@ -214,7 +214,7 @@
     {
       "member": "Thomas Suozzi",
       "positions": 283,
-      "avgReturn": 1.135650745684072
+      "avgReturn": 1.1358100056755385
     },
     {
       "member": "Neal Patrick Dunn MD, FACS",
@@ -224,17 +224,17 @@
     {
       "member": "Lamar Smith",
       "positions": 222,
-      "avgReturn": 1.1164948784719075
+      "avgReturn": 1.1159968055129064
     },
     {
       "member": "Scott H. Peters",
       "positions": 105,
-      "avgReturn": 1.1121012407822368
+      "avgReturn": 1.1114585986112733
     },
     {
       "member": "Gary C Peters",
       "positions": 49,
-      "avgReturn": 1.0967817567524019
+      "avgReturn": 1.0985501326391178
     },
     {
       "member": "Justin Amash",
@@ -249,7 +249,7 @@
     {
       "member": "Deborah K. Ross",
       "positions": 21,
-      "avgReturn": 1.0376354088210735
+      "avgReturn": 1.0522011910429456
     },
     {
       "member": "Mark Green",
@@ -279,7 +279,7 @@
     {
       "member": "K. Michael Conaway",
       "positions": 283,
-      "avgReturn": 0.9812630756280117
+      "avgReturn": 0.9806986012691626
     },
     {
       "member": "John N Kennedy",
@@ -334,7 +334,7 @@
     {
       "member": "John Rutherford",
       "positions": 165,
-      "avgReturn": 0.768272473291702
+      "avgReturn": 0.7684688463745305
     },
     {
       "member": "Terri A. Sewell",
@@ -344,27 +344,27 @@
     {
       "member": "Katherine M. Clark",
       "positions": 155,
-      "avgReturn": 0.7548078291732749
+      "avgReturn": 0.7549281392121795
     },
     {
       "member": "Shelley M Capito",
       "positions": 345,
-      "avgReturn": 0.7502752560118661
+      "avgReturn": 0.7501795641937709
     },
     {
       "member": "Michael K. Simpson",
       "positions": 34,
-      "avgReturn": 0.745169764903473
+      "avgReturn": 0.7442605432981918
     },
     {
       "member": "Jerry Moran,",
       "positions": 75,
-      "avgReturn": 0.7127654897678566
+      "avgReturn": 0.7127148055306544
     },
     {
       "member": "Blake Moore",
       "positions": 83,
-      "avgReturn": 0.7075224426545045
+      "avgReturn": 0.7092592849295171
     },
     {
       "member": "Morgan McGarvey",
@@ -389,7 +389,7 @@
     {
       "member": "Robert J. Wittman",
       "positions": 116,
-      "avgReturn": 0.6740689250249432
+      "avgReturn": 0.6740777246401067
     },
     {
       "member": "Neal Patrick MD, Facs Dunn",
@@ -399,7 +399,7 @@
     {
       "member": "Kevin Hern",
       "positions": 534,
-      "avgReturn": 0.6372670133465665
+      "avgReturn": 0.6375193615978714
     },
     {
       "member": "Max Miller",
@@ -409,22 +409,22 @@
     {
       "member": "James Comer",
       "positions": 32,
-      "avgReturn": 0.620778908896838
+      "avgReturn": 0.6240330940072591
     },
     {
       "member": "Scott Franklin",
       "positions": 48,
-      "avgReturn": 0.6125914335344445
+      "avgReturn": 0.6149887215337251
     },
     {
       "member": "Lloyd Doggett",
       "positions": 207,
-      "avgReturn": 0.6124179961250213
+      "avgReturn": 0.6118518175904479
     },
     {
       "member": "Carol Devine Miller",
       "positions": 62,
-      "avgReturn": 0.6013590587513827
+      "avgReturn": 0.6021567245748193
     },
     {
       "member": "William Cassidy",
@@ -439,7 +439,12 @@
     {
       "member": "Lois Frankel",
       "positions": 439,
-      "avgReturn": 0.5810651916937732
+      "avgReturn": 0.5812306433682712
+    },
+    {
+      "member": "Richard W. Allen",
+      "positions": 157,
+      "avgReturn": 0.5734682889983268
     },
     {
       "member": "Diana Harshbarger",
@@ -447,19 +452,14 @@
       "avgReturn": 0.5731752914820422
     },
     {
-      "member": "Richard W. Allen",
-      "positions": 157,
-      "avgReturn": 0.5729268558190982
-    },
-    {
       "member": "David A Perdue , Jr",
       "positions": 1255,
-      "avgReturn": 0.5668988287935703
+      "avgReturn": 0.5668803233293956
     },
     {
       "member": "John Curtis",
       "positions": 128,
-      "avgReturn": 0.5565627279523805
+      "avgReturn": 0.5574246867543307
     },
     {
       "member": "Tammy Duckworth",
@@ -469,7 +469,7 @@
     {
       "member": "Michael Patrick Guest",
       "positions": 48,
-      "avgReturn": 0.5490429431337055
+      "avgReturn": 0.5510929588126017
     },
     {
       "member": "Vicente Gonzalez",
@@ -479,7 +479,7 @@
     {
       "member": "Virginia Foxx",
       "positions": 602,
-      "avgReturn": 0.5408208861302253
+      "avgReturn": 0.5419024011548063
     },
     {
       "member": "Cheri Bustos",
@@ -494,7 +494,12 @@
     {
       "member": "Tim Moore",
       "positions": 159,
-      "avgReturn": 0.5021189592512052
+      "avgReturn": 0.5022045844393734
+    },
+    {
+      "member": "Bradley S. Schneider",
+      "positions": 40,
+      "avgReturn": 0.4873428483166801
     },
     {
       "member": "Raúl M. Grijalva",
@@ -512,14 +517,14 @@
       "avgReturn": 0.46589965257507976
     },
     {
-      "member": "Bradley S. Schneider",
-      "positions": 40,
-      "avgReturn": 0.46445220490400024
-    },
-    {
       "member": "Kelly Louise Morrison",
       "positions": 13,
       "avgReturn": 0.4610566169978293
+    },
+    {
+      "member": "Dan Newhouse",
+      "positions": 110,
+      "avgReturn": 0.4605450793418337
     },
     {
       "member": "Susie Lee",
@@ -527,14 +532,9 @@
       "avgReturn": 0.45937252773559467
     },
     {
-      "member": "Dan Newhouse",
-      "positions": 110,
-      "avgReturn": 0.45780420921382303
-    },
-    {
       "member": "Gilbert Cisneros",
       "positions": 1480,
-      "avgReturn": 0.4397036508776961
+      "avgReturn": 0.4399316795796638
     },
     {
       "member": "Brad Knott",
@@ -547,19 +547,19 @@
       "avgReturn": 0.4247841272868081
     },
     {
+      "member": "Angus S King, Jr.",
+      "positions": 34,
+      "avgReturn": 0.4089238618924752
+    },
+    {
       "member": "Josh Gottheimer",
       "positions": 1429,
-      "avgReturn": 0.4073872153864831
+      "avgReturn": 0.4074296006490045
     },
     {
       "member": "William R. Keating",
       "positions": 86,
-      "avgReturn": 0.4005266343539868
-    },
-    {
-      "member": "Angus S King, Jr.",
-      "positions": 34,
-      "avgReturn": 0.4002692238919978
+      "avgReturn": 0.40017960801806746
     },
     {
       "member": "Harley E. Rouda",
@@ -604,17 +604,17 @@
     {
       "member": "Joe Courtney",
       "positions": 72,
-      "avgReturn": 0.3484266552249959
+      "avgReturn": 0.3500331454760335
     },
     {
       "member": "Donald Sternoff Beyer",
       "positions": 371,
-      "avgReturn": 0.34760520108984355
+      "avgReturn": 0.34719655458068155
     },
     {
       "member": "Harold Dallas Rogers",
       "positions": 8,
-      "avgReturn": 0.34188936480991966
+      "avgReturn": 0.3443310787355655
     },
     {
       "member": "Marjorie Taylor Greene",
@@ -634,7 +634,7 @@
     {
       "member": "Daniel Goldman",
       "positions": 369,
-      "avgReturn": 0.30027465146477456
+      "avgReturn": 0.3004509078765444
     },
     {
       "member": "Linda T. Sanchez",
@@ -654,12 +654,12 @@
     {
       "member": "Thomas H Tuberville",
       "positions": 466,
-      "avgReturn": 0.2866945136565573
+      "avgReturn": 0.28741961809572153
     },
     {
       "member": "Mike Kelly",
       "positions": 8,
-      "avgReturn": 0.2813942167654098
+      "avgReturn": 0.281550662322356
     },
     {
       "member": "Christopher L. Jacobs",
@@ -684,7 +684,7 @@
     {
       "member": "Rohit Khanna",
       "positions": 139,
-      "avgReturn": 0.2618668482652315
+      "avgReturn": 0.26168464910541334
     },
     {
       "member": "Elizabeth Fletcher",
@@ -709,17 +709,17 @@
     {
       "member": "Richard Dean McCormick",
       "positions": 70,
-      "avgReturn": 0.2473483551798851
+      "avgReturn": 0.24626764021800066
     },
     {
       "member": "Julia Letlow",
       "positions": 154,
-      "avgReturn": 0.24126912501686054
+      "avgReturn": 0.24160279455171849
     },
     {
       "member": "Rob Bresnahan",
       "positions": 248,
-      "avgReturn": 0.23707171123699072
+      "avgReturn": 0.23719155571549735
     },
     {
       "member": "Kelly Loeffler",
@@ -757,14 +757,14 @@
       "avgReturn": 0.2173002573620816
     },
     {
+      "member": "Jonathan Jackson",
+      "positions": 108,
+      "avgReturn": 0.2107645355615294
+    },
+    {
       "member": "Cynthia M Lummis",
       "positions": 1,
       "avgReturn": 0.2095086867177285
-    },
-    {
-      "member": "Jonathan Jackson",
-      "positions": 108,
-      "avgReturn": 0.20927874889042622
     },
     {
       "member": "Michael G. Fitzpatrick",
@@ -779,12 +779,12 @@
     {
       "member": "Jared Moskowitz",
       "positions": 220,
-      "avgReturn": 0.2045407234187516
+      "avgReturn": 0.20484767819899177
     },
     {
       "member": "Thomas H. Kean",
       "positions": 78,
-      "avgReturn": 0.20113382716950484
+      "avgReturn": 0.2010709285247741
     },
     {
       "member": "Lou Barletta",
@@ -819,12 +819,12 @@
     {
       "member": "Cleo Fields",
       "positions": 180,
-      "avgReturn": 0.1833962578521491
+      "avgReturn": 0.18351749380352367
     },
     {
       "member": "Brian Mast",
       "positions": 31,
-      "avgReturn": 0.18098639176502912
+      "avgReturn": 0.18165084359227165
     },
     {
       "member": "Michael Garcia",
@@ -849,7 +849,7 @@
     {
       "member": "Julie Johnson",
       "positions": 79,
-      "avgReturn": 0.16262204263094326
+      "avgReturn": 0.1617439346490062
     },
     {
       "member": "Trey Hollingsworth",
@@ -889,17 +889,17 @@
     {
       "member": "Jefferson Shreve",
       "positions": 173,
-      "avgReturn": 0.13878841001111095
+      "avgReturn": 0.1416876922600064
+    },
+    {
+      "member": "Byron Donalds",
+      "positions": 44,
+      "avgReturn": 0.13185298799838874
     },
     {
       "member": "Brad Ashford",
       "positions": 5,
       "avgReturn": 0.13108798816919728
-    },
-    {
-      "member": "Byron Donalds",
-      "positions": 44,
-      "avgReturn": 0.12924363044441803
     },
     {
       "member": "Kim Schrier",
@@ -922,14 +922,14 @@
       "avgReturn": 0.12141511495673679
     },
     {
+      "member": "John Boozman",
+      "positions": 220,
+      "avgReturn": 0.12055322223424804
+    },
+    {
       "member": "David P. Roe",
       "positions": 15,
       "avgReturn": 0.1202116213802469
-    },
-    {
-      "member": "John Boozman",
-      "positions": 220,
-      "avgReturn": 0.12018612888198925
     },
     {
       "member": "Earl Leroy Carter",
@@ -949,12 +949,12 @@
     {
       "member": "Zoe Lofgren",
       "positions": 159,
-      "avgReturn": 0.10682733599338722
+      "avgReturn": 0.10686206578595389
     },
     {
       "member": "Ritchie John Torres",
       "positions": 69,
-      "avgReturn": 0.10106767370138875
+      "avgReturn": 0.10104996125242834
     },
     {
       "member": "Sheri Biggs",
@@ -969,7 +969,12 @@
     {
       "member": "C. Scott Franklin",
       "positions": 35,
-      "avgReturn": 0.09418161425233663
+      "avgReturn": 0.09274422443162685
+    },
+    {
+      "member": "Maria Elvira Salazar",
+      "positions": 60,
+      "avgReturn": 0.09016140079989424
     },
     {
       "member": "Kurt Schrader",
@@ -977,19 +982,14 @@
       "avgReturn": 0.08939233611932298
     },
     {
-      "member": "Maria Elvira Salazar",
-      "positions": 60,
-      "avgReturn": 0.0885240585148246
+      "member": "David Trone",
+      "positions": 14,
+      "avgReturn": 0.08675261455454789
     },
     {
       "member": "Scott Scott Franklin",
       "positions": 45,
-      "avgReturn": 0.08683392965030057
-    },
-    {
-      "member": "David Trone",
-      "positions": 14,
-      "avgReturn": 0.08675261455454789
+      "avgReturn": 0.08636571767724019
     },
     {
       "member": "Ed Whitfield",
@@ -1002,6 +1002,11 @@
       "avgReturn": 0.08456659619450302
     },
     {
+      "member": "Gary Peters",
+      "positions": 1,
+      "avgReturn": 0.08163265306122458
+    },
+    {
       "member": "Adam Kinzinger",
       "positions": 17,
       "avgReturn": 0.07871501818844126
@@ -1009,17 +1014,12 @@
     {
       "member": "Anthony E. Gonzalez",
       "positions": 3,
-      "avgReturn": 0.07233234900047991
+      "avgReturn": 0.07158792538540659
     },
     {
       "member": "David J. Taylor",
       "positions": 100,
-      "avgReturn": 0.06919496774855402
-    },
-    {
-      "member": "Gary Peters",
-      "positions": 1,
-      "avgReturn": 0.0665694849368319
+      "avgReturn": 0.06970190124344967
     },
     {
       "member": "Tom Rice",
@@ -1034,7 +1034,7 @@
     {
       "member": "Lisa McClain",
       "positions": 720,
-      "avgReturn": 0.06256541152692599
+      "avgReturn": 0.06284363295451384
     },
     {
       "member": "Mitch McConnell",
@@ -1089,7 +1089,7 @@
     {
       "member": "Valerie Hoyle",
       "positions": 193,
-      "avgReturn": 0.0235604817957335
+      "avgReturn": 0.02387026503862652
     },
     {
       "member": "Thomas MacArthur",
@@ -1129,7 +1129,7 @@
     {
       "member": "Tim Walberg",
       "positions": 13,
-      "avgReturn": 0.011681538421268494
+      "avgReturn": 0.011322987229254698
     },
     {
       "member": "Mike Kennedy",
@@ -1153,7 +1153,7 @@
     },
     {
       "member": "Alan Armstrong",
-      "positions": 259,
+      "positions": 299,
       "avgReturn": 0
     },
     {
@@ -1207,14 +1207,14 @@
       "avgReturn": -0.022919601402832463
     },
     {
+      "member": "Greg Landsman",
+      "positions": 55,
+      "avgReturn": -0.02556950287807261
+    },
+    {
       "member": "Michael McCaul",
       "positions": 7,
       "avgReturn": -0.026124183941067365
-    },
-    {
-      "member": "Greg Landsman",
-      "positions": 55,
-      "avgReturn": -0.026621044502432984
     },
     {
       "member": "John McGuire",
@@ -1267,14 +1267,14 @@
       "avgReturn": -0.11026433984758528
     },
     {
-      "member": "William F Hagerty, IV",
-      "positions": 1,
-      "avgReturn": -0.1152595345694134
-    },
-    {
       "member": "Ron Estes",
       "positions": 6,
       "avgReturn": -0.12064287495669924
+    },
+    {
+      "member": "William F Hagerty, IV",
+      "positions": 1,
+      "avgReturn": -0.13502555222367696
     },
     {
       "member": "James E Banks",
