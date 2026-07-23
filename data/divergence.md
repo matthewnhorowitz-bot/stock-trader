@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-23 11:07 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-23 12:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -51,10 +51,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Joseph D. Morelle | 87 | 0% | 8 |
 | Lori Trahan | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
-| Shri Thanedar | 85 | 17% | 6 |
-| Lloyd K. Smucker | 81 | 0% | 6 |
-| Teresa Leger Fernandez | 80 | 0% | 1 |
-| Scott DesJarlais | 80 | 0% | 2 |
+| Shri Thanedar | 84 | 17% | 6 |
+| Teresa Leger Fernandez | 82 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
+| Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Dave Min | 77 | 0% | 1 |
 | Sara Jacobs | 75 | 0% | 9 |
@@ -65,7 +65,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James P. McGovern | 64 | 0% | 1 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Brad Knott | 63 | 50% | 2 |
-| Greg Landsman | 61 | 0% | 9 |
+| Greg Landsman | 62 | 0% | 9 |
 | Mike Kelly | 60 | 38% | 8 |
 | Julie Johnson | 60 | 11% | 9 |
 | Morgan McGarvey | 52 | 0% | 5 |
@@ -137,6 +137,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Rohit Khanna | 1 | 89% | 9 |
 | Jonathan Jackson | 1 | 90% | 10 |
 | Greg Stanton | 1 | 11% | 9 |
+| Bruce Westerman | 1 | 75% | 8 |
 | Susan M Collins | 0 | 67% | 9 |
 | Suzan K. DelBene | 0 | 67% | 6 |
 | John Cornyn | 0 | 0% | 1 |
@@ -160,7 +161,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Max Miller | 0 | 100% | 1 |
 | Ashley Moody | 0 | 100% | 2 |
 | April McClain Delaney | 0 | 100% | 7 |
-| Bruce Westerman | 0 | 75% | 8 |
 | Brandon Gill | 0 | 100% | 1 |
 | John McGuire | 0 | 100% | 3 |
 | Cleo Fields | 0 | 100% | 4 |
