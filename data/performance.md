@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-24 04:04 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-24 05:01 UTC._
 
 ## Total
 
@@ -60,7 +60,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary C Peters | 109.9% | 49 |
 | Deborah K. Ross | 106.4% | 21 |
 | Justin Amash | 105.9% | 11 |
-| A. Mitchell McConnell, Jr. | 102.1% | 36 |
+| A. Mitchell McConnell, Jr. | 101.9% | 36 |
 | John N Kennedy | 101.1% | 2 |
 | Mark Green | 100.4% | 463 |
 | Stephen F. Lynch | 100.0% | 1 |
@@ -223,8 +223,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Anthony E. Gonzalez | 4.3% | 3 |
 | Carlos Curbelo | 4.1% | 138 |
 | Patrick Fallon | 3.9% | 56 |
-| Mitch McConnell | 3.9% | 1 |
 | Bruce Westerman | 3.8% | 105 |
+| Mitch McConnell | 3.8% | 1 |
 | Patty Murray | 3.6% | 75 |
 | James R. Langevin | 3.1% | 182 |
 | E. Scott Rigell | 2.6% | 31 |
