@@ -340,7 +340,7 @@ function scoreCandidates(cands, wA, wC, wK) {
 // years (>= `minTrades` trades), then the period's return = weighted price change of that
 // roster's positions held during the period. periodMonths = 12 (annual) or 6 (semi-annual);
 // boundaries are emitted semi-annually so annual just steps every 2nd boundary.
-function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12, minSize = 0, chamber = 'all', wAlpha = 0.5, wCons = 0.3, wComm = 0.2 }) {
+function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths = 12, minSize = 0, chamber = 'all', wAlpha = 0.5, wCons = 0.3, wComm = 0.2, adaptive = false }) {
   if (!POSITIONS.length || !BOUNDARIES.length) return [];
   const step = Math.max(1, Math.round(periodMonths / 6)); // boundaries per period: 1 (6mo) or 2 (annual)
   const lookbackMonths = lookback * 12;
@@ -399,7 +399,21 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
     // 2015 fewer than ~15 qualify), so those near-random rosters would compound into the chain
     // and distort the result. Requiring 2×n effectively starts the index in 2016 and
     // self-adjusts if n changes.
-    if (cands.length < 2 * n) continue;
+    // Selection quota. Strict (default): require a qualifying pool at least TWICE the
+    // roster size, so "top n" is a genuine selection — otherwise skip the period (rationale
+    // above). Adaptive (fallback, only when the strict pass found NO periods at all — e.g. a
+    // high min-trade-size filter thins the pool below 2n everywhere): keep the roster at most
+    // HALF the pool so it's still a 2x selection, but let it shrink to fit so thin periods
+    // appear instead of vanishing. effN === n whenever the pool is healthy (>= 2n), so the
+    // default index is byte-for-byte unchanged; adaptive only fills previously-skipped periods.
+    let effN;
+    if (adaptive) {
+      effN = Math.min(n, Math.floor(cands.length / 2));
+      if (effN < 1) continue; // need >= 2 candidates to select 1 from a 2x field
+    } else {
+      if (cands.length < 2 * n) continue;
+      effN = n;
+    }
     let roster, memberWeight = null;
     if (isScore) {
       // Multi-factor Score per member over their lookback trades:
@@ -418,7 +432,7 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
         return { member, alpha, cons, comm, n: ps.length };
       });
       scoreCandidates(scored, wAlpha, wCons, wComm); // adds .score
-      roster = scored.sort((a, b) => b.score - a.score).slice(0, n);
+      roster = scored.sort((a, b) => b.score - a.score).slice(0, effN);
       const maxS = Math.max(0, ...roster.map((x) => x.score));
       memberWeight = new Map(roster.map((x) => [x.member, maxS > 0 ? x.score : 1])); // fallback equal
       for (const x of roster) x.ret = x.alpha; // chip tooltip shows alpha as the headline factor
@@ -427,7 +441,7 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
         .map(([member, ps]) => ({ member, ret: wmean(ps, (p) => p.ret, wfn), n: ps.length }))
         .filter((x) => x.ret != null)
         .sort((a, b) => b.ret - a.ret)
-        .slice(0, n);
+        .slice(0, effN);
     }
     const names = new Set(roster.map((x) => x.member));
     const endD = BOUNDARIES[bEnd];
@@ -501,6 +515,7 @@ function buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths 
       active: new Set(held.map((h) => h.p.member)).size,
       rosterSize: names.size,
       roster,
+      relaxed: effN < n, // roster shrunk below n to fit a thin pool (adaptive fallback)
     });
   }
   return rows;
@@ -590,10 +605,16 @@ function renderCongressIndex() {
   // show/hide the factor-weight controls in score mode
   const fw = document.getElementById('ciFactorWeights');
   if (fw) fw.style.display = weighting === 'score' ? '' : 'none';
-  const rows = buildCongressIndex({ n, minPerMonth, lookback, weighting, periodMonths, minSize, chamber, wAlpha, wCons, wComm }).filter((r) => r.ret != null);
+  const opts = { n, minPerMonth, lookback, weighting, periodMonths, minSize, chamber, wAlpha, wCons, wComm };
+  let rows = buildCongressIndex(opts).filter((r) => r.ret != null);
+  // Never leave the panel empty. If the strict 2xn selection quota thins EVERY period out
+  // (typically a high min-trade-size filter shrinking the pool below 2n everywhere), rebuild
+  // with the adaptive quota so thin periods reappear with a proportionally smaller roster.
+  if (rows.length < 1) rows = buildCongressIndex({ ...opts, adaptive: true }).filter((r) => r.ret != null);
+  const relaxed = rows.some((r) => r.relaxed);
   const el = $('ci');
   if (rows.length < 1) {
-    el.innerHTML = '<div class="note">Not enough data for these settings — try fewer min trades or members.</div>';
+    el.innerHTML = '<div class="note">No periods qualify even after relaxing the selection quota — the “Min trades / month” bar leaves too few qualifying members at this trade-size floor. Lower Min trades / month, or the min trade size.</div>';
     return;
   }
   const last = rows[rows.length - 1];
@@ -627,7 +648,11 @@ function renderCongressIndex() {
     </div>
     <div class="note">Volatility &amp; return/vol are annualized (no risk-free rate). Max drawdown is the largest peak-to-trough drop of the index level. Win rate = share of periods the index beat the S&P. Turnover = share of the roster that changes each rebalance.</div>`;
 
+  const relaxedNote = relaxed
+    ? `<div class="note" style="border-left:3px solid #d29922;padding-left:8px">⚠ These filters thinned the qualifying pool below the usual 2× selection bar, so the strict index was empty. Showing an <b>auto-relaxed</b> index — each period's roster shrinks to at most half its qualifying pool (still a genuine selection) so periods stay visible. Clear the min trade size for full-size rosters.</div>`
+    : '';
   el.innerHTML = `
+    ${relaxedNote}
     <div class="cards">
       <div class="card"><div class="k">Invested</div><div class="v">${fmtUSD(invest)}</div></div>
       <div class="card"><div class="k">Congress Index now</div><div class="v ${profit >= 0 ? 'pos' : 'neg'}">${fmtUSD(congVal)}</div></div>
