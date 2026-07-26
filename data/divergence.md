@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-26 04:08 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-26 04:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -33,28 +33,29 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Emily Randall | 94 | 0% | 6 |
 | Bernie Moreno | 94 | 0% | 2 |
 | Adam Smith | 94 | 0% | 7 |
+| Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Thomas R Tillis | 93 | 0% | 9 |
 | John B. Larson | 93 | 0% | 8 |
 | John Garamendi | 93 | 0% | 4 |
-| Robert C. "Bobby" Scott | 92 | 0% | 8 |
+| Jake Auchincloss | 92 | 0% | 1 |
 | Alan Armstrong | 92 | 50% | 4 |
 | Jake Auchincloss | 91 | 0% | 1 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
 | Marcy Kaptur | 90 | 0% | 1 |
 | Lance Gooden | 90 | 0% | 3 |
+| Stephanie Bice | 89 | 0% | 1 |
 | Sharice Davids | 89 | 0% | 4 |
 | Adam B. Schiff | 88 | 0% | 2 |
-| Stephanie Bice | 88 | 0% | 1 |
 | Joseph D. Morelle | 87 | 0% | 8 |
 | Lori Trahan | 86 | 0% | 1 |
 | James M. Costa | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
 | Shri Thanedar | 85 | 17% | 6 |
+| Marc A. Veasey | 82 | 0% | 1 |
+| Teresa Leger Fernandez | 82 | 0% | 1 |
 | Lloyd K. Smucker | 81 | 0% | 6 |
-| Marc A. Veasey | 80 | 0% | 1 |
-| Teresa Leger Fernandez | 80 | 0% | 1 |
-| Scott DesJarlais | 80 | 0% | 2 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
 | Dave Min | 77 | 0% | 1 |
 | Tom Cole | 76 | 50% | 2 |
@@ -65,7 +66,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James P. McGovern | 64 | 0% | 1 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Brad Knott | 63 | 50% | 2 |
-| Greg Landsman | 61 | 0% | 9 |
+| Greg Landsman | 62 | 0% | 9 |
 | Mike Kelly | 60 | 38% | 8 |
 | Julie Johnson | 58 | 11% | 9 |
 | Morgan McGarvey | 52 | 0% | 5 |
@@ -73,7 +74,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Warren Davidson | 47 | 25% | 4 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 41 | 25% | 8 |
-| Scott Franklin | 38 | 71% | 7 |
+| Scott Franklin | 39 | 71% | 7 |
 | Peter Welch | 36 | 14% | 7 |
 | Laurel Lee | 36 | 50% | 6 |
 | John W. Rose | 35 | 0% | 3 |
@@ -104,12 +105,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Brian Babin | 18 | 0% | 2 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | John Fetterman | 18 | 80% | 5 |
+| Lois Frankel | 16 | 11% | 9 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Lois Frankel | 15 | 11% | 9 |
-| Judy Chu | 15 | 50% | 2 |
+| Judy Chu | 16 | 50% | 2 |
 | Tim Moore | 13 | 50% | 8 |
+| Virginia Foxx | 12 | 11% | 9 |
 | John Curtis | 12 | 44% | 9 |
-| Virginia Foxx | 11 | 11% | 9 |
 | David P. Joyce | 11 | 29% | 7 |
 | Scott H. Peters | 10 | 38% | 8 |
 | Blake Moore | 10 | 57% | 7 |
