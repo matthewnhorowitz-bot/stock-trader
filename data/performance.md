@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-26 04:17 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-26 05:00 UTC._
 
 ## Total
 
@@ -30,18 +30,18 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Roger W. Marshall | 212.3% | 51 |
 | Michael Waltz | 210.8% | 2 |
 | Raul Ruiz | 210.6% | 1 |
-| Susan M Collins | 206.7% | 181 |
+| Susan M Collins | 206.6% | 181 |
 | Richard L. Hanna | 203.4% | 91 |
 | Michael T. McCaul | 196.0% | 108 |
 | David Cheston Rouzer | 195.4% | 8 |
-| Gary C. Peters | 194.6% | 7 |
-| Pete Sessions | 193.6% | 175 |
+| Gary C. Peters | 193.6% | 7 |
+| Pete Sessions | 193.5% | 175 |
 | Neal P. Dunn | 181.3% | 2 |
 | Rubén Hinojosa | 172.2% | 30 |
 | Seth Moulton | 158.3% | 1 |
 | Warren Davidson | 156.9% | 2 |
 | Gary Palmer | 149.7% | 182 |
-| John Hoeven | 148.6% | 128 |
+| John Hoeven | 148.5% | 128 |
 | Beto O'Rourke | 147.9% | 3 |
 | Pat Roberts | 144.7% | 287 |
 | Debbie Dingell | 138.2% | 100 |
@@ -66,7 +66,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mark Green | 100.4% | 463 |
 | Stephen F. Lynch | 99.6% | 1 |
 | David E. Price | 98.4% | 42 |
-| K. Michael Conaway | 97.8% | 283 |
+| K. Michael Conaway | 97.7% | 283 |
 | Dwight Evans | 96.0% | 70 |
 | Tina Smith | 94.1% | 5 |
 | Hakeem S. Jeffries | 87.4% | 7 |
@@ -88,7 +88,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Blake Moore | 69.9% | 83 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Peter Welch | 68.7% | 36 |
-| Robert J. Wittman | 67.5% | 116 |
+| Robert J. Wittman | 67.4% | 116 |
 | Neal Patrick MD, Facs Dunn | 65.8% | 6 |
 | Kevin Hern | 65.2% | 534 |
 | Carol Devine Miller | 61.9% | 62 |
@@ -131,7 +131,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Crenshaw | 35.0% | 17 |
 | Joe Courtney | 34.9% | 72 |
 | Aston Donald McEachin | 34.4% | 6 |
-| Donald Sternoff Beyer | 34.4% | 371 |
+| Donald Sternoff Beyer | 34.3% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | James E. Banks | 33.4% | 14 |
 | Steve Cohen | 31.6% | 20 |
@@ -151,7 +151,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Charles J. Chuck Fleischmann | 25.9% | 57 |
 | Richard Dean McCormick | 25.3% | 70 |
 | Kathy Manning | 25.3% | 276 |
-| Julia Letlow | 23.9% | 154 |
+| Julia Letlow | 23.8% | 154 |
 | Austin Scott | 23.5% | 38 |
 | John W. Rose | 23.5% | 1 |
 | Cynthia M Lummis | 23.3% | 1 |
