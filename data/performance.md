@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-26 14:12 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-26 15:00 UTC._
 
 ## Total
 
@@ -41,7 +41,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Seth Moulton | 158.3% | 1 |
 | Warren Davidson | 156.9% | 2 |
 | Gary Palmer | 149.7% | 182 |
-| John Hoeven | 148.6% | 128 |
+| John Hoeven | 148.7% | 128 |
 | Beto O'Rourke | 147.9% | 3 |
 | Pat Roberts | 144.7% | 287 |
 | Debbie Dingell | 138.2% | 100 |
@@ -78,7 +78,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | Terri A. Sewell | 77.8% | 2 |
-| John Rutherford | 76.9% | 165 |
+| John Rutherford | 77.0% | 165 |
 | Shelley M Capito | 76.4% | 345 |
 | Katherine M. Clark | 75.2% | 155 |
 | Debbie Wasserman Schultz | 74.7% | 36 |
@@ -160,7 +160,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Cornyn | 22.3% | 1 |
 | Laurel Lee | 22.0% | 7 |
 | Roger F Wicker | 21.9% | 3 |
-| Rob Bresnahan | 21.7% | 248 |
+| Rob Bresnahan | 21.8% | 248 |
 | Greg Gianforte | 21.7% | 647 |
 | John Fetterman | 21.6% | 10 |
 | Nicholas Van Taylor | 21.5% | 49 |
@@ -215,7 +215,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David J. Taylor | 7.1% | 100 |
 | Tom Rice | 6.5% | 5 |
 | Peter Allen Stauber | 6.3% | 1 |
-| Lisa McClain | 5.9% | 720 |
+| Lisa McClain | 6.0% | 720 |
 | John James | 5.4% | 126 |
 | Katie Britt | 5.0% | 16 |
 | Lindsey Graham | 4.9% | 6 |
