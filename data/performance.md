@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-27 22:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-27 22:30 UTC._
 
 ## Total
 
@@ -161,8 +161,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Cornyn | 22.3% | 1 |
 | Roger F Wicker | 21.9% | 3 |
 | Nicholas Van Taylor | 21.8% | 49 |
-| Greg Gianforte | 21.7% | 647 |
 | Rob Bresnahan | 21.7% | 248 |
+| Greg Gianforte | 21.7% | 647 |
 | Laurel Lee | 21.6% | 7 |
 | Thomas H. Kean | 21.1% | 78 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
