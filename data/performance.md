@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-27 18:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-27 18:51 UTC._
 
 ## Total
 
@@ -191,7 +191,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Ashford | 13.1% | 5 |
 | Roger Williams | 12.9% | 12 |
 | Kim Schrier | 12.7% | 3 |
-| Byron Donalds | 12.5% | 44 |
+| Byron Donalds | 12.6% | 44 |
 | Mikie Sherrill | 12.5% | 38 |
 | Frank A. LoBiondo | 12.2% | 8 |
 | William R. Timmons | 12.2% | 6 |
