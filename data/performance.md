@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-27 15:30 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-27 16:01 UTC._
 
 ## Total
 
@@ -19,7 +19,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Sheldon Whitehouse | 530.0% | 445 |
 | Luis V. Gutierrez | 476.8% | 6 |
 | Brenda Lulenar Lawrence | 402.3% | 19 |
-| Barbara J Comstock | 399.6% | 29 |
+| Barbara J Comstock | 399.7% | 29 |
 | Ashley Moody | 391.2% | 3 |
 | Christopher A Coons | 300.5% | 2 |
 | William M. Cassidy | 263.5% | 1 |
