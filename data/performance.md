@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-28 03:55 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-28 04:00 UTC._
 
 ## Total
 
@@ -59,7 +59,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas Suozzi | 111.3% | 283 |
 | Scott H. Peters | 111.0% | 105 |
 | Justin Amash | 105.9% | 11 |
-| A. Mitchell McConnell, Jr. | 104.6% | 36 |
+| A. Mitchell McConnell, Jr. | 104.5% | 36 |
 | Kathy Castor | 101.7% | 39 |
 | Mark Green | 100.4% | 463 |
 | Tina Smith | 100.1% | 5 |
@@ -100,7 +100,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lois Frankel | 59.2% | 439 |
 | Diana Harshbarger | 59.0% | 7 |
 | David A Perdue , Jr | 56.7% | 1255 |
-| Virginia Foxx | 55.7% | 602 |
+| Virginia Foxx | 55.6% | 602 |
 | John Curtis | 55.6% | 128 |
 | David Kustoff | 55.5% | 9 |
 | Tammy Duckworth | 55.4% | 4 |
