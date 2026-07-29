@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-29 20:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-29 21:06 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -51,10 +51,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James M. Costa | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
 | Shri Thanedar | 85 | 17% | 6 |
+| Scott DesJarlais | 83 | 0% | 2 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Teresa Leger Fernandez | 82 | 0% | 1 |
 | Lloyd K. Smucker | 81 | 0% | 6 |
-| Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
 | Dave Min | 77 | 0% | 1 |
 | Tom Cole | 76 | 50% | 2 |
@@ -77,7 +77,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Peter Welch | 36 | 14% | 7 |
 | Laurel Lee | 36 | 50% | 6 |
 | John W. Rose | 35 | 0% | 3 |
-| Jefferson Shreve | 34 | 0% | 8 |
+| Jefferson Shreve | 33 | 0% | 8 |
 | Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
