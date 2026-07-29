@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-29 09:26 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-29 10:00 UTC._
 
 ## Total
 
@@ -25,7 +25,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Fq San Nicolas | 289.9% | 1 |
 | Steve Chabot | 255.9% | 2 |
 | William M. Cassidy | 254.6% | 1 |
-| Ron L Wyden | 241.9% | 196 |
+| Ron L Wyden | 242.0% | 196 |
 | Brian Higgins | 236.4% | 1 |
 | Raul Ruiz | 213.2% | 1 |
 | Michael Waltz | 210.8% | 2 |
@@ -57,7 +57,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Lamar Smith | 112.0% | 222 |
 | Thomas Suozzi | 111.3% | 283 |
-| Scott H. Peters | 111.1% | 105 |
+| Scott H. Peters | 111.0% | 105 |
 | Justin Amash | 105.9% | 11 |
 | A. Mitchell McConnell, Jr. | 103.6% | 36 |
 | Kathy Castor | 101.7% | 39 |
@@ -88,7 +88,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Welch | 69.6% | 36 |
 | Debbie Wasserman Schultz | 69.5% | 36 |
 | Joseph D. Morelle | 69.3% | 1 |
-| Robert J. Wittman | 68.4% | 116 |
+| Robert J. Wittman | 68.5% | 116 |
 | Neal Patrick MD, Facs Dunn | 67.1% | 6 |
 | Kevin Hern | 64.5% | 534 |
 | Lloyd Doggett | 64.1% | 207 |
@@ -117,8 +117,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rafael E Cruz | 45.1% | 3 |
 | Gilbert Cisneros | 44.2% | 1480 |
 | Brad Knott | 43.5% | 2 |
+| Kelly Louise Morrison | 42.7% | 13 |
 | John A. Yarmuth | 42.5% | 139 |
-| Kelly Louise Morrison | 42.3% | 13 |
 | Josh Gottheimer | 40.2% | 1429 |
 | William R. Keating | 39.7% | 86 |
 | David B. McKinley | 39.5% | 195 |
@@ -138,7 +138,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Cohen | 32.5% | 20 |
 | Susan A. Davis | 31.1% | 32 |
 | Linda T. Sanchez | 29.9% | 3 |
-| Daniel Goldman | 29.2% | 369 |
+| Daniel Goldman | 29.3% | 369 |
 | Robert E. Latta | 29.2% | 23 |
 | Christopher L. Jacobs | 29.0% | 95 |
 | Donna Shalala | 28.8% | 169 |
@@ -162,7 +162,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Cornyn | 22.3% | 1 |
 | Nicholas Van Taylor | 22.1% | 49 |
 | Roger F Wicker | 21.9% | 3 |
-| Rob Bresnahan | 21.8% | 248 |
+| Rob Bresnahan | 21.9% | 248 |
 | Greg Gianforte | 21.7% | 647 |
 | Thomas H. Kean | 21.4% | 78 |
 | Ed Case | 21.0% | 12 |
