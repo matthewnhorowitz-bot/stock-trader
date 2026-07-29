@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-29 07:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-29 07:08 UTC._
 
 ## Total
 
@@ -115,7 +115,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dan Newhouse | 46.3% | 110 |
 | Susie Lee | 45.3% | 624 |
 | Rafael E Cruz | 45.1% | 3 |
-| Gilbert Cisneros | 44.2% | 1480 |
+| Gilbert Cisneros | 44.1% | 1480 |
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
 | Kelly Louise Morrison | 42.3% | 13 |
