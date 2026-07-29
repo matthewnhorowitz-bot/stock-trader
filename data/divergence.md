@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-29 01:02 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-29 02:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -43,24 +43,24 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Thomas R Tillis | 93 | 0% | 9 |
 | John B. Larson | 93 | 0% | 8 |
 | Alan Armstrong | 92 | 50% | 4 |
+| Sharice Davids | 91 | 0% | 4 |
 | Chris Van Hollen | 90 | 0% | 4 |
-| Victoria Spartz | 90 | 0% | 1 |
 | Marcy Kaptur | 90 | 0% | 1 |
 | Lance Gooden | 90 | 0% | 3 |
-| Sharice Davids | 89 | 0% | 4 |
+| Victoria Spartz | 89 | 0% | 1 |
 | Raul Ruiz | 88 | 0% | 4 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Adam B. Schiff | 88 | 0% | 2 |
 | Stephanie Bice | 88 | 0% | 1 |
 | Lori Trahan | 86 | 0% | 1 |
-| Scott DesJarlais | 81 | 0% | 2 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Dave Min | 83 | 0% | 1 |
+| Scott DesJarlais | 80 | 0% | 2 |
+| Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Dave Min | 77 | 0% | 1 |
 | Sara Jacobs | 75 | 0% | 9 |
 | Tom Cole | 75 | 50% | 2 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 67 | 0% | 1 |
+| David Rouzer | 69 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | James P. McGovern | 64 | 0% | 1 |
 | John W Hickenlooper | 64 | 13% | 8 |
@@ -68,15 +68,15 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Brad Knott | 63 | 50% | 2 |
 | Julie Johnson | 60 | 11% | 9 |
 | Mike Kelly | 59 | 38% | 8 |
-| Morgan McGarvey | 52 | 0% | 5 |
+| Morgan McGarvey | 53 | 0% | 5 |
 | Seth Moulton | 49 | 0% | 3 |
-| Warren Davidson | 47 | 25% | 4 |
+| Warren Davidson | 46 | 25% | 4 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 41 | 25% | 8 |
 | Scott Franklin | 38 | 71% | 7 |
+| Debbie Wasserman Schultz | 36 | 43% | 7 |
 | Peter Welch | 36 | 14% | 7 |
 | Laurel Lee | 36 | 50% | 6 |
-| Debbie Wasserman Schultz | 35 | 43% | 7 |
 | John W. Rose | 35 | 0% | 3 |
 | Jefferson Shreve | 33 | 0% | 8 |
 | Christopher A Coons | 33 | 0% | 1 |
@@ -85,10 +85,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Diana Harshbarger | 31 | 29% | 7 |
 | Thomas R. Suozzi | 28 | 0% | 3 |
 | Steve Cohen | 27 | 20% | 10 |
-| Michael McCaul | 26 | 40% | 5 |
 | Katherine M. Clark | 25 | 25% | 8 |
+| Debbie Dingell | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
-| Debbie Dingell | 24 | 25% | 8 |
+| Michael McCaul | 25 | 40% | 5 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Ed Case | 23 | 20% | 5 |
@@ -99,10 +99,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Roger F Wicker | 20 | 0% | 1 |
 | Judy Chu | 20 | 50% | 2 |
 | Kathy Castor | 19 | 25% | 4 |
+| Zoe Lofgren | 19 | 0% | 9 |
 | Jerry Moran, | 19 | 29% | 7 |
 | David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
-| Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | John Fetterman | 18 | 80% | 5 |
@@ -137,7 +137,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Rohit Khanna | 1 | 89% | 9 |
 | Jonathan Jackson | 1 | 90% | 10 |
 | Greg Stanton | 1 | 11% | 9 |
-| Bruce Westerman | 1 | 75% | 8 |
 | Susan M Collins | 0 | 67% | 9 |
 | Suzan K. DelBene | 0 | 67% | 6 |
 | John Cornyn | 0 | 0% | 1 |
@@ -161,6 +160,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Max Miller | 0 | 100% | 1 |
 | Ashley Moody | 0 | 100% | 2 |
 | April McClain Delaney | 0 | 100% | 7 |
+| Bruce Westerman | 0 | 75% | 8 |
 | Brandon Gill | 0 | 100% | 1 |
 | John McGuire | 0 | 100% | 3 |
 | Cleo Fields | 0 | 100% | 4 |
