@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-30 16:07 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-30 17:04 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -41,10 +41,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Jake Auchincloss | 91 | 0% | 1 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
+| Sharice Davids | 90 | 0% | 4 |
 | Marcy Kaptur | 90 | 0% | 1 |
 | Lance Gooden | 90 | 0% | 3 |
 | Stephanie Bice | 89 | 0% | 1 |
-| Sharice Davids | 89 | 0% | 4 |
 | Adam B. Schiff | 88 | 0% | 2 |
 | Joseph D. Morelle | 87 | 0% | 8 |
 | Lori Trahan | 86 | 0% | 1 |
@@ -77,7 +77,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Peter Welch | 36 | 14% | 7 |
 | Laurel Lee | 36 | 50% | 6 |
 | John W. Rose | 35 | 0% | 3 |
-| Jefferson Shreve | 34 | 0% | 8 |
+| Jefferson Shreve | 33 | 0% | 8 |
 | Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
@@ -92,9 +92,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Ed Case | 22 | 20% | 5 |
+| Dwight Evans | 21 | 38% | 8 |
 | Jared Moskowitz | 21 | 44% | 9 |
 | Angus S King, Jr. | 20 | 38% | 8 |
-| Dwight Evans | 20 | 38% | 8 |
 | Roger F Wicker | 20 | 0% | 1 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
@@ -108,8 +108,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Michael K. Simpson | 16 | 13% | 8 |
 | Judy Chu | 16 | 50% | 2 |
 | Tim Moore | 13 | 50% | 8 |
-| Virginia Foxx | 12 | 11% | 9 |
 | John Curtis | 12 | 44% | 9 |
+| Virginia Foxx | 11 | 11% | 9 |
 | David P. Joyce | 11 | 29% | 7 |
 | Scott H. Peters | 10 | 38% | 8 |
 | Blake Moore | 10 | 57% | 7 |
