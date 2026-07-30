@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-30 03:44 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-30 04:00 UTC._
 
 ## Total
 
@@ -65,8 +65,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Deborah K. Ross | 99.9% | 21 |
 | K. Michael Conaway | 99.3% | 283 |
 | David E. Price | 98.4% | 42 |
-| A. Mitchell McConnell, Jr. | 97.5% | 36 |
 | John N Kennedy | 96.9% | 2 |
+| A. Mitchell McConnell, Jr. | 96.7% | 36 |
 | Dwight Evans | 95.2% | 70 |
 | Stephen F. Lynch | 89.6% | 1 |
 | Hakeem S. Jeffries | 87.5% | 7 |
@@ -104,7 +104,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Virginia Foxx | 55.6% | 602 |
 | David Kustoff | 55.5% | 9 |
 | Tammy Duckworth | 55.4% | 4 |
-| Michael Patrick Guest | 54.2% | 48 |
+| Michael Patrick Guest | 54.1% | 48 |
 | Max Miller | 53.8% | 1 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
@@ -118,7 +118,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gilbert Cisneros | 44.1% | 1480 |
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
-| Kelly Louise Morrison | 40.6% | 13 |
+| Kelly Louise Morrison | 40.5% | 13 |
 | Josh Gottheimer | 40.1% | 1429 |
 | William R. Keating | 39.6% | 86 |
 | David B. McKinley | 39.5% | 195 |
@@ -132,8 +132,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joe Courtney | 34.9% | 72 |
 | Donald Sternoff Beyer | 34.8% | 371 |
 | James E. Banks | 34.3% | 14 |
-| Aston Donald McEachin | 34.0% | 6 |
 | Marjorie Taylor Greene | 34.0% | 484 |
+| Aston Donald McEachin | 34.0% | 6 |
 | Mike Kelly | 32.5% | 8 |
 | Steve Cohen | 32.5% | 20 |
 | Susan A. Davis | 31.1% | 32 |
@@ -238,7 +238,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
-| Mitch McConnell | 1.4% | 1 |
+| Mitch McConnell | 1.0% | 1 |
 | Abigail Spanberger | 1.0% | 2 |
 | Alan Armstrong | 0.9% | 320 |
 | George Miller | 0.8% | 1 |
