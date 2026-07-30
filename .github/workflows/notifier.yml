@@ -5,12 +5,16 @@ name: Congress Trade Notifier
 # repo after each run, so the repo itself is the "database".
 on:
   schedule:
-    # Hourly at :23 (UTC). Deliberately OFF the top of the hour: scheduled runs
+    # Every 6h at :23 (UTC). Deliberately OFF the top of the hour: scheduled runs
     # at :00 are the most likely to be delayed or dropped because that's GitHub's
-    # busiest slot. A quiet minute is far more reliable on the free tier. Hourly
-    # stays well under the Actions-minutes budget, and disclosures lag ~45 days so
-    # finer polling gains nothing.
-    - cron: '23 * * * *'
+    # busiest slot. A quiet minute is far more reliable on the free tier.
+    # Disclosures lag ~45 days, so finer polling gains nothing — this was hourly
+    # until 2026-07-30, which cost ~2,400 Actions minutes/month for no extra
+    # freshness. The repo is public (minutes free), but 6h keeps the account under
+    # a private-repo allowance if visibility ever changes, and cuts the hourly
+    # state commits that grow the repo's git history.
+    # Lands 18 min before each reprice run (:41 */6); they share the writer lock.
+    - cron: '23 */6 * * *'
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 # Allow the job to push the updated state files back to the repo.
