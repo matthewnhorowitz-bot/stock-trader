@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-30 21:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-30 21:49 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 55.7%**
 - S&P 500 (SPY) over the same windows: 73.4%
-- Priced positions: 26059  ·  still open: 10229  ·  awaiting price data: 594
+- Priced positions: 26059  ·  still open: 10228  ·  awaiting price data: 594
 - Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
