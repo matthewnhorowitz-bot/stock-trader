@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-31 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-31 17:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 55.8%**
 - S&P 500 (SPY) over the same windows: 73.4%
-- Priced positions: 26059  ·  still open: 10228  ·  awaiting price data: 594
+- Priced positions: 26060  ·  still open: 10229  ·  awaiting price data: 594
 - Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -178,7 +178,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Mast | 16.9% | 31 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Mo Brooks | 16.4% | 41 |
-| Cleo Fields | 15.3% | 180 |
+| Cleo Fields | 15.3% | 181 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Rick Larsen | 14.7% | 46 |
@@ -216,7 +216,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David J. Taylor | 8.4% | 100 |
 | Adam Kinzinger | 7.9% | 17 |
 | Tom Rice | 6.5% | 5 |
-| Lisa McClain | 6.1% | 720 |
+| Lisa McClain | 6.2% | 720 |
 | Katie Britt | 5.6% | 16 |
 | John James | 5.4% | 126 |
 | Mike Kennedy | 5.1% | 1 |
