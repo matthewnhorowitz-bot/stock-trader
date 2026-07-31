@@ -90,9 +90,16 @@ jobs:
           git clean -fdq 2>/dev/null || true         # drop untracked regenerated files
           # Land our single reprice commit on top of whatever is on main now, retrying
           # the race window (a concurrent push, e.g. a manual commit, lands mid-run).
-          # On any rebase conflict, abort + retry rather than leaving markers.
+          # -X theirs matches notifier.yml: these are all REGENERATED artifacts, so on a
+          # content conflict keep OUR fresh version — in a rebase "theirs" is the commit
+          # being replayed, i.e. ours. Without this, a concurrent writer (notifier or
+          # backfill) landing mid-run makes every retry re-conflict on the same files
+          # and the job dies having published nothing: 3 such failures 2026-07-28..31,
+          # all CONFLICT in performance.json/positions.json, while notifier.yml — same
+          # race, same files, but with -X theirs — had zero.
+          # On any OTHER rebase failure, abort + retry rather than leaving markers.
           for i in 1 2 3 4 5; do
-            if git pull --rebase origin main && git push; then
+            if git pull --rebase -X theirs origin main && git push; then
               echo "pushed on attempt $i"; exit 0
             fi
             git rebase --abort 2>/dev/null || true
