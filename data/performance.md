@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-07-31 15:07 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-07-31 16:00 UTC._
 
 ## Total
 
@@ -25,7 +25,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Fq San Nicolas | 276.2% | 1 |
 | William M. Cassidy | 258.9% | 1 |
 | Steve Chabot | 255.9% | 2 |
-| Ron L Wyden | 238.7% | 196 |
+| Ron L Wyden | 238.6% | 196 |
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 216.4% | 51 |
 | Susan M Collins | 215.6% | 181 |
@@ -61,7 +61,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tina Smith | 108.7% | 5 |
 | Justin Amash | 105.9% | 11 |
 | Kathy Castor | 104.7% | 39 |
-| A. Mitchell McConnell, Jr. | 101.4% | 36 |
+| A. Mitchell McConnell, Jr. | 101.8% | 36 |
 | Mark Green | 100.4% | 463 |
 | Deborah K. Ross | 100.3% | 21 |
 | K. Michael Conaway | 100.2% | 283 |
@@ -121,7 +121,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Josh Gottheimer | 40.7% | 1429 |
 | Sara Jacobs | 40.7% | 10 |
 | William R. Keating | 40.6% | 86 |
-| Kelly Louise Morrison | 40.0% | 13 |
+| Kelly Louise Morrison | 39.9% | 13 |
 | David B. McKinley | 39.5% | 195 |
 | Susan W. Brooks | 38.6% | 12 |
 | Robert E. Latta | 37.2% | 23 |
@@ -135,7 +135,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joe Courtney | 34.9% | 72 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Steve Cohen | 32.8% | 20 |
-| Aston Donald McEachin | 31.3% | 6 |
+| Aston Donald McEachin | 31.4% | 6 |
 | Susan A. Davis | 31.1% | 32 |
 | Austin Scott | 30.5% | 38 |
 | Mike Kelly | 30.0% | 8 |
@@ -161,7 +161,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Nicholas Van Taylor | 22.3% | 49 |
 | John Cornyn | 22.3% | 1 |
 | Laurel Lee | 22.2% | 7 |
-| Thomas H. Kean | 22.1% | 78 |
+| Thomas H. Kean | 22.2% | 78 |
 | Ed Case | 22.1% | 12 |
 | Roger F Wicker | 21.9% | 3 |
 | John W. Rose | 21.8% | 1 |
@@ -224,8 +224,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick Fallon | 4.3% | 56 |
 | Carlos Curbelo | 4.1% | 138 |
 | Bruce Westerman | 3.7% | 105 |
+| Mitch McConnell | 3.6% | 1 |
 | Patty Murray | 3.6% | 75 |
-| Mitch McConnell | 3.4% | 1 |
 | James R. Langevin | 3.0% | 182 |
 | E. Scott Rigell | 2.6% | 31 |
 | Thomas MacArthur | 2.2% | 913 |
