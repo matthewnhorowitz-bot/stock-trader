@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-31 01:02 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-07-31 02:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -77,7 +77,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Laurel Lee | 36 | 50% | 6 |
 | Peter Welch | 35 | 13% | 8 |
 | John W. Rose | 35 | 0% | 3 |
-| Jefferson Shreve | 34 | 0% | 8 |
+| Jefferson Shreve | 33 | 0% | 8 |
 | Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Thomas R. Suozzi | 33 | 0% | 3 |
@@ -121,9 +121,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | William R. Timmons | 8 | 14% | 7 |
 | Kevin Hern | 7 | 67% | 9 |
 | Daniel Meuser | 7 | 38% | 8 |
+| Roger Williams | 5 | 50% | 6 |
 | Patty Murray | 5 | 13% | 8 |
 | Terri A. Sewell | 5 | 33% | 3 |
-| Roger Williams | 4 | 50% | 6 |
 | Byron Donalds | 4 | 67% | 6 |
 | Lloyd Doggett | 3 | 75% | 4 |
 | Rick Larsen | 3 | 50% | 8 |
