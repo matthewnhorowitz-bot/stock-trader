@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-01 04:05 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-01 05:00 UTC._
 
 ## Total
 
@@ -61,7 +61,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tina Smith | 108.7% | 5 |
 | Justin Amash | 105.9% | 11 |
 | Kathy Castor | 104.7% | 39 |
-| A. Mitchell McConnell, Jr. | 102.7% | 36 |
+| A. Mitchell McConnell, Jr. | 102.6% | 36 |
 | Mark Green | 100.4% | 463 |
 | Deborah K. Ross | 100.3% | 21 |
 | K. Michael Conaway | 100.2% | 283 |
@@ -184,7 +184,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cliff Bentz | 14.7% | 2 |
 | James M Inhofe | 14.6% | 77 |
 | Patrick J Toomey | 14.4% | 84 |
-| Jefferson Shreve | 13.9% | 173 |
+| Jefferson Shreve | 14.0% | 173 |
 | Michael Garcia | 13.8% | 20 |
 | Byron Donalds | 13.5% | 44 |
 | Roger Williams | 13.2% | 12 |
@@ -222,8 +222,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mike Kennedy | 5.1% | 1 |
 | Lindsey Graham | 4.9% | 6 |
 | Patrick Fallon | 4.3% | 56 |
-| Mitch McConnell | 4.1% | 1 |
 | Carlos Curbelo | 4.1% | 138 |
+| Mitch McConnell | 4.1% | 1 |
 | Bruce Westerman | 3.7% | 105 |
 | Patty Murray | 3.6% | 75 |
 | James R. Langevin | 3.0% | 182 |
