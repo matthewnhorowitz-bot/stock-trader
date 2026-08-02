@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-02 04:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-02 04:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -52,7 +52,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Shri Thanedar | 84 | 17% | 6 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Lloyd K. Smucker | 81 | 0% | 6 |
-| Scott DesJarlais | 81 | 0% | 2 |
+| Scott DesJarlais | 80 | 0% | 2 |
 | Teresa Leger Fernandez | 79 | 0% | 1 |
 | Tina Smith | 78 | 0% | 5 |
 | Adam B. Schiff | 77 | 0% | 2 |
@@ -60,10 +60,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tom Cole | 76 | 50% | 2 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 69 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
-| James P. McGovern | 64 | 0% | 1 |
 | John W Hickenlooper | 64 | 13% | 8 |
+| James P. McGovern | 63 | 0% | 1 |
 | Brad Knott | 63 | 50% | 2 |
 | Greg Landsman | 62 | 0% | 9 |
 | Mike Kelly | 60 | 38% | 8 |
