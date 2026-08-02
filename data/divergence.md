@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-02 22:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-02 23:06 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -33,10 +33,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Emily Randall | 94 | 0% | 6 |
 | Bernie Moreno | 94 | 0% | 2 |
 | Adam Smith | 94 | 0% | 7 |
-| Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Thomas R Tillis | 93 | 0% | 9 |
 | John B. Larson | 93 | 0% | 8 |
 | John Garamendi | 93 | 0% | 4 |
+| Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Jake Auchincloss | 91 | 0% | 1 |
 | Chris Van Hollen | 90 | 0% | 4 |
 | Sharice Davids | 90 | 0% | 4 |
@@ -50,9 +50,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Marcy Kaptur | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
 | Shri Thanedar | 84 | 17% | 6 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Lloyd K. Smucker | 81 | 0% | 6 |
+| Scott DesJarlais | 80 | 0% | 2 |
 | Teresa Leger Fernandez | 79 | 0% | 1 |
 | Tina Smith | 78 | 0% | 5 |
 | Adam B. Schiff | 77 | 0% | 2 |
@@ -60,7 +60,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tom Cole | 76 | 50% | 2 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 67 | 0% | 1 |
+| David Rouzer | 69 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | James P. McGovern | 63 | 0% | 1 |
@@ -77,7 +77,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Laurel Lee | 36 | 50% | 6 |
 | Peter Welch | 35 | 13% | 8 |
 | John W. Rose | 35 | 0% | 3 |
-| Jefferson Shreve | 33 | 0% | 8 |
+| Jefferson Shreve | 34 | 0% | 8 |
 | Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Thomas R. Suozzi | 33 | 0% | 3 |
@@ -98,10 +98,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Roger F Wicker | 20 | 0% | 1 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | John Fetterman | 18 | 80% | 5 |
 | Lois Frankel | 16 | 11% | 9 |
