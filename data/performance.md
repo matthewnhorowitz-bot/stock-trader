@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-03 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-03 15:22 UTC._
 
 ## Total
 
@@ -187,7 +187,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James M Inhofe | 14.6% | 77 |
 | Cliff Bentz | 14.4% | 2 |
 | Patrick J Toomey | 14.4% | 84 |
-| Byron Donalds | 14.2% | 44 |
+| Byron Donalds | 14.3% | 44 |
 | Jefferson Shreve | 13.9% | 173 |
 | Michael Garcia | 13.9% | 20 |
 | Brad Ashford | 13.1% | 5 |
