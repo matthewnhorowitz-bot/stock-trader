@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 14:46 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 15:00 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 57.0%**
-- S&P 500 (SPY) over the same windows: 73.4%
-- Priced positions: 26078  ·  still open: 10228  ·  awaiting price data: 576
+- **Index (all tracked buys): 56.9%**
+- S&P 500 (SPY) over the same windows: 74.7%
+- Priced positions: 26110  ·  still open: 10260  ·  awaiting price data: 576
 - Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -215,11 +215,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Whitfield | 8.5% | 56 |
 | Adam Kinzinger | 7.9% | 17 |
 | Katie Britt | 7.0% | 16 |
-| Anthony E. Gonzalez | 6.6% | 3 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.4% | 720 |
 | Mike Kennedy | 5.8% | 1 |
 | John James | 5.8% | 126 |
+| Anthony E. Gonzalez | 5.5% | 3 |
 | Patrick Fallon | 5.2% | 56 |
 | Lindsey Graham | 4.9% | 6 |
 | Tim Walberg | 4.8% | 13 |
@@ -233,13 +233,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | E. Scott Rigell | 2.6% | 31 |
 | Thomas MacArthur | 2.2% | 915 |
 | Alan Armstrong | 2.0% | 320 |
+| April McClain Delaney | 2.0% | 209 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
 | William L. Owens | 1.5% | 6 |
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
-| April McClain Delaney | 1.3% | 177 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
 | Dave McCormick | 0.7% | 2 |
