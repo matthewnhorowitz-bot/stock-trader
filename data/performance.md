@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 20:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 20:07 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 57.0%**
+- **Index (all tracked buys): 56.9%**
 - S&P 500 (SPY) over the same windows: 74.7%
-- Priced positions: 26110  ·  still open: 10260  ·  awaiting price data: 576
+- Priced positions: 26109  ·  still open: 10259  ·  awaiting price data: 577
 - Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -79,7 +79,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | Michael K. Simpson | 77.8% | 34 |
-| Shelley M Capito | 77.8% | 345 |
+| Shelley M Capito | 77.3% | 344 |
 | Peter Welch | 75.4% | 36 |
 | Blake Moore | 73.3% | 83 |
 | Katherine M. Clark | 71.7% | 155 |
