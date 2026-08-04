@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 20:07 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 20:12 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 56.9%**
+- **Index (all tracked buys): 57.0%**
 - S&P 500 (SPY) over the same windows: 74.7%
-- Priced positions: 26109  ·  still open: 10259  ·  awaiting price data: 577
+- Priced positions: 26110  ·  still open: 10259  ·  awaiting price data: 576
 - Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 904.4% | 6 |
 | Charlie Joseph Crist | 624.8% | 1 |
 | Barbara J. Comstock | 568.0% | 2 |
-| Sheldon Whitehouse | 534.1% | 445 |
+| Sheldon Whitehouse | 534.4% | 445 |
 | Luis V. Gutierrez | 435.7% | 6 |
 | Brenda Lulenar Lawrence | 403.6% | 19 |
 | Barbara J Comstock | 391.8% | 29 |
@@ -42,17 +42,17 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Warren Davidson | 168.0% | 2 |
 | Daniel Meuser | 154.2% | 9 |
 | Gary Palmer | 153.5% | 182 |
-| John Hoeven | 151.6% | 128 |
+| John Hoeven | 152.0% | 128 |
 | Beto O'Rourke | 150.0% | 3 |
 | Pat Roberts | 145.5% | 287 |
-| Debbie Dingell | 143.1% | 100 |
+| Debbie Dingell | 143.6% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 130.3% | 71 |
 | Grace Meng | 121.7% | 5 |
+| James French Hill | 120.5% | 24 |
 | Lamar Smith | 120.4% | 222 |
 | Victoria Spartz | 120.3% | 21 |
-| James French Hill | 119.3% | 24 |
-| Scott H. Peters | 119.0% | 105 |
+| Scott H. Peters | 119.3% | 105 |
 | W. Greg Steube | 117.9% | 2 |
 | Thomas Suozzi | 114.3% | 283 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
@@ -79,7 +79,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | Michael K. Simpson | 77.8% | 34 |
-| Shelley M Capito | 77.3% | 344 |
+| Shelley M Capito | 77.8% | 345 |
 | Peter Welch | 75.4% | 36 |
 | Blake Moore | 73.3% | 83 |
 | Katherine M. Clark | 71.7% | 155 |
