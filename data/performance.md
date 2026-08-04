@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 09:18 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-04 09:26 UTC._
 
 ## Total
 
@@ -152,7 +152,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Richard Dean McCormick | 27.6% | 70 |
 | Christopher L. Jacobs | 27.5% | 95 |
-| Charles J. Chuck Fleischmann | 26.2% | 57 |
+| Charles J. Chuck Fleischmann | 26.3% | 57 |
 | Earl Blumenauer | 26.1% | 239 |
 | Kathy Manning | 25.3% | 276 |
 | Thomas H. Kean | 24.7% | 78 |
