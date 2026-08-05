@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-05 03:48 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-05 04:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.0%**
 - S&P 500 (SPY) over the same windows: 74.7%
-- Priced positions: 26110  ·  still open: 10259  ·  awaiting price data: 576
+- Priced positions: 26111  ·  still open: 10259  ·  awaiting price data: 575
 - Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -58,7 +58,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Tina Smith | 112.2% | 5 |
 | Gary C Peters | 110.5% | 49 |
-| A. Mitchell McConnell, Jr. | 107.0% | 36 |
+| A. Mitchell McConnell, Jr. | 107.1% | 36 |
 | Justin Amash | 105.9% | 11 |
 | Kathy Castor | 105.6% | 39 |
 | Deborah K. Ross | 103.6% | 21 |
@@ -116,7 +116,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Harley E. Rouda | 46.8% | 3 |
 | Bob Gibbs | 46.7% | 94 |
 | Gilbert Cisneros | 45.6% | 1480 |
-| Susie Lee | 45.3% | 627 |
+| Susie Lee | 45.2% | 628 |
 | Rafael E Cruz | 44.6% | 3 |
 | William R. Keating | 44.4% | 86 |
 | Brad Knott | 43.5% | 2 |
@@ -146,8 +146,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cynthia M Lummis | 29.6% | 1 |
 | Thomas H Tuberville | 29.2% | 466 |
 | Donna Shalala | 28.8% | 169 |
-| Mike Kelly | 28.7% | 8 |
 | Rohit Khanna | 28.7% | 139 |
+| Mike Kelly | 28.7% | 8 |
 | Elizabeth Fletcher | 28.1% | 23 |
 | Richard Dean McCormick | 28.0% | 70 |
 | Markwayne Mullin | 27.8% | 272 |
@@ -217,7 +217,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katie Britt | 7.0% | 16 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.5% | 720 |
-| Mitch McConnell | 6.3% | 1 |
+| Mitch McConnell | 6.4% | 1 |
 | Mike Kennedy | 5.8% | 1 |
 | John James | 5.8% | 126 |
 | Anthony E. Gonzalez | 5.5% | 3 |
