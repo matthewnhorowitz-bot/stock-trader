@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-06 22:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-06 23:01 UTC._
 
 ## Total
 
@@ -123,7 +123,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
 | Josh Gottheimer | 41.9% | 1429 |
-| Angus S King, Jr. | 41.8% | 34 |
+| Angus S King, Jr. | 41.7% | 34 |
 | James E. Banks | 41.3% | 14 |
 | Mike Kelly | 40.8% | 8 |
 | David B. McKinley | 39.5% | 195 |
@@ -181,7 +181,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mo Brooks | 16.4% | 41 |
 | Byron Donalds | 15.7% | 44 |
 | Trey Hollingsworth | 15.3% | 54 |
-| Rick Larsen | 15.2% | 46 |
+| Rick Larsen | 15.3% | 46 |
 | Francis Rooney | 15.1% | 19 |
 | Ed Case | 15.1% | 12 |
 | Michael Garcia | 14.7% | 20 |
@@ -231,8 +231,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Valerie Hoyle | 3.3% | 193 |
 | James R. Langevin | 3.1% | 182 |
 | E. Scott Rigell | 2.6% | 31 |
-| Alan Armstrong | 2.2% | 320 |
 | Thomas MacArthur | 2.2% | 915 |
+| Alan Armstrong | 2.1% | 320 |
 | April McClain Delaney | 2.1% | 209 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
