@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-06 01:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-06 02:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.0%**
 - S&P 500 (SPY) over the same windows: 75.5%
-- Priced positions: 26135  ·  still open: 10265  ·  awaiting price data: 576
+- Priced positions: 26136  ·  still open: 10265  ·  awaiting price data: 575
 - Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -147,7 +147,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Aston Donald McEachin | 29.2% | 6 |
 | Donna Shalala | 28.8% | 169 |
 | Rohit Khanna | 28.8% | 139 |
-| Thomas H Tuberville | 28.5% | 490 |
+| Thomas H Tuberville | 28.4% | 491 |
 | Elizabeth Fletcher | 28.1% | 23 |
 | Richard Dean McCormick | 28.0% | 70 |
 | Markwayne Mullin | 27.8% | 272 |
