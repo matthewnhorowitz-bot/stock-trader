@@ -1,13 +1,13 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-06 03:53 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-06 04:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.0%**
 - S&P 500 (SPY) over the same windows: 75.5%
-- Priced positions: 26136  ·  still open: 10265  ·  awaiting price data: 575
-- Price coverage: 97.8% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
+- Priced positions: 26140  ·  still open: 10265  ·  awaiting price data: 571
+- Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
@@ -135,13 +135,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Joe Courtney | 35.9% | 72 |
 | Donald Sternoff Beyer | 35.4% | 371 |
 | Peter Allen Stauber | 34.5% | 1 |
-| Austin Scott | 34.1% | 38 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | John Fetterman | 33.1% | 10 |
 | Steve Cohen | 32.9% | 20 |
 | Vicente Gonzalez | 31.5% | 1 |
 | Susan A. Davis | 31.1% | 32 |
 | Daniel Goldman | 31.1% | 369 |
+| Austin Scott | 30.4% | 42 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Cynthia M Lummis | 29.6% | 1 |
 | Aston Donald McEachin | 29.2% | 6 |
@@ -214,7 +214,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Trone | 8.7% | 14 |
 | Ed Whitfield | 8.5% | 56 |
 | Adam Kinzinger | 7.9% | 17 |
-| Mitch McConnell | 7.3% | 1 |
+| Mitch McConnell | 7.4% | 1 |
 | Katie Britt | 7.0% | 16 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.5% | 720 |
