@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-07 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-07 16:01 UTC._
 
 ## Total
 
@@ -178,7 +178,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Case | 18.2% | 12 |
 | Roger Williams | 17.6% | 12 |
 | William R. Timmons | 17.5% | 6 |
-| Byron Donalds | 17.1% | 44 |
+| Byron Donalds | 17.0% | 44 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Brian Mast | 16.6% | 31 |
 | Mo Brooks | 16.4% | 41 |
