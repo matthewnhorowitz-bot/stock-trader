@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-07 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-07 21:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.8%**
 - S&P 500 (SPY) over the same windows: 75.5%
-- Priced positions: 26179  ·  still open: 10271  ·  awaiting price data: 571
+- Priced positions: 26180  ·  still open: 10272  ·  awaiting price data: 571
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -57,9 +57,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Victoria Spartz | 113.2% | 21 |
 | Stephen F. Lynch | 111.3% | 1 |
-| Gary C Peters | 109.3% | 49 |
 | Kathy Castor | 108.6% | 39 |
 | Robert B. Aderholt | 107.7% | 1 |
+| Gary C Peters | 107.1% | 50 |
 | Deborah K. Ross | 107.1% | 21 |
 | Justin Amash | 105.9% | 11 |
 | Tina Smith | 105.5% | 5 |
