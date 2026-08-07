@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-07 19:37 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-07 20:01 UTC._
 
 ## Total
 
@@ -18,7 +18,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Barbara J. Comstock | 584.8% | 2 |
 | Sheldon Whitehouse | 541.7% | 445 |
 | Luis V. Gutierrez | 450.6% | 6 |
-| Brenda Lulenar Lawrence | 418.8% | 19 |
+| Brenda Lulenar Lawrence | 418.9% | 19 |
 | Barbara J Comstock | 405.9% | 29 |
 | Ashley Moody | 377.6% | 3 |
 | Michael Fq San Nicolas | 353.1% | 1 |
@@ -36,22 +36,22 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Pete Sessions | 206.5% | 176 |
 | Seth Moulton | 202.9% | 1 |
 | Michael T. McCaul | 195.4% | 108 |
-| Gary C. Peters | 194.3% | 7 |
+| Gary C. Peters | 194.1% | 7 |
 | Warren Davidson | 172.0% | 2 |
 | Neal P. Dunn | 170.5% | 2 |
 | Rubén Hinojosa | 166.6% | 30 |
 | Daniel Meuser | 155.2% | 9 |
-| John Hoeven | 153.7% | 128 |
-| Gary Palmer | 151.7% | 182 |
+| John Hoeven | 153.8% | 128 |
+| Gary Palmer | 151.8% | 182 |
 | Beto O'Rourke | 151.3% | 3 |
 | Pat Roberts | 150.3% | 287 |
-| Debbie Dingell | 144.4% | 100 |
+| Debbie Dingell | 144.5% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 133.1% | 71 |
 | Grace Meng | 123.6% | 5 |
 | Lamar Smith | 121.7% | 222 |
 | James French Hill | 121.6% | 24 |
-| Scott H. Peters | 118.7% | 105 |
+| Scott H. Peters | 118.8% | 105 |
 | Thomas Suozzi | 118.6% | 283 |
 | W. Greg Steube | 117.9% | 2 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
@@ -63,8 +63,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Deborah K. Ross | 107.1% | 21 |
 | Justin Amash | 105.9% | 11 |
 | Tina Smith | 105.5% | 5 |
+| A. Mitchell McConnell, Jr. | 104.6% | 36 |
 | K. Michael Conaway | 104.6% | 283 |
-| A. Mitchell McConnell, Jr. | 102.4% | 36 |
 | Mark Green | 100.4% | 463 |
 | John N Kennedy | 99.7% | 2 |
 | Dwight Evans | 99.5% | 70 |
@@ -75,8 +75,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Judy Chu | 84.6% | 5 |
 | John F Reed | 84.3% | 55 |
 | David P. Joyce | 83.9% | 76 |
-| John Rutherford | 81.9% | 165 |
-| Shelley M Capito | 79.0% | 345 |
+| John Rutherford | 82.0% | 165 |
+| Shelley M Capito | 78.9% | 345 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | Peter Welch | 78.2% | 36 |
@@ -86,7 +86,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Blake Moore | 75.9% | 83 |
 | Katherine M. Clark | 73.5% | 155 |
 | Jerry Moran, | 71.9% | 75 |
-| Robert J. Wittman | 71.7% | 116 |
+| Robert J. Wittman | 71.8% | 116 |
 | Morgan McGarvey | 70.6% | 9 |
 | Joseph D. Morelle | 69.3% | 1 |
 | David Kustoff | 69.1% | 9 |
@@ -94,11 +94,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Diana Harshbarger | 68.3% | 7 |
 | Lloyd Doggett | 67.5% | 208 |
 | Neal Patrick MD, Facs Dunn | 67.2% | 6 |
-| Kevin Hern | 66.8% | 534 |
+| Kevin Hern | 66.9% | 534 |
 | Scott Franklin | 65.4% | 49 |
 | Richard W. Allen | 64.0% | 157 |
-| Carol Devine Miller | 62.8% | 62 |
-| Michael Patrick Guest | 61.6% | 48 |
+| Carol Devine Miller | 62.9% | 62 |
+| Michael Patrick Guest | 61.7% | 48 |
 | William Cassidy | 60.8% | 87 |
 | Lois Frankel | 59.0% | 439 |
 | David A Perdue , Jr | 58.0% | 1255 |
@@ -107,7 +107,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Virginia Foxx | 54.1% | 602 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
-| Kelly Louise Morrison | 49.9% | 13 |
+| Kelly Louise Morrison | 50.1% | 13 |
 | Bradley S. Schneider | 49.5% | 40 |
 | Dan Newhouse | 49.5% | 110 |
 | Tim Moore | 48.7% | 159 |
@@ -143,10 +143,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Elizabeth Fletcher | 31.3% | 23 |
 | Susan A. Davis | 31.1% | 32 |
 | Vicente Gonzalez | 30.5% | 1 |
-| Rohit Khanna | 30.1% | 139 |
+| Rohit Khanna | 30.2% | 139 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Richard Dean McCormick | 29.2% | 70 |
-| Aston Donald McEachin | 29.0% | 6 |
+| Aston Donald McEachin | 29.2% | 6 |
 | Donna Shalala | 28.8% | 169 |
 | Thomas H Tuberville | 28.8% | 491 |
 | Markwayne Mullin | 27.8% | 272 |
@@ -154,14 +154,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W. Rose | 27.4% | 1 |
 | Christopher L. Jacobs | 27.3% | 95 |
 | Peter Allen Stauber | 27.3% | 1 |
-| Rob Bresnahan | 26.2% | 248 |
+| Rob Bresnahan | 26.3% | 248 |
 | Earl Blumenauer | 26.1% | 239 |
 | Julia Letlow | 25.8% | 154 |
 | Kathy Manning | 25.3% | 276 |
 | Thomas H. Kean | 25.2% | 78 |
 | Jonathan Jackson | 22.8% | 108 |
 | Kelly Loeffler | 22.8% | 97 |
-| Jared Moskowitz | 22.6% | 227 |
+| Jared Moskowitz | 22.7% | 227 |
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
 | Cleo Fields | 22.2% | 181 |
@@ -186,7 +186,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Trey Hollingsworth | 15.3% | 54 |
 | Gary Peters | 15.2% | 1 |
 | Francis Rooney | 15.1% | 19 |
-| Jefferson Shreve | 14.9% | 173 |
+| Jefferson Shreve | 15.0% | 173 |
 | Michael Garcia | 14.9% | 20 |
 | John Boozman | 14.7% | 220 |
 | James M Inhofe | 14.6% | 77 |
@@ -216,17 +216,17 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mike Kennedy | 8.2% | 1 |
 | Adam Kinzinger | 7.9% | 17 |
 | Katie Britt | 7.0% | 16 |
-| Lisa McClain | 6.8% | 720 |
+| Lisa McClain | 6.9% | 720 |
 | Anthony E. Gonzalez | 6.7% | 3 |
 | Tom Rice | 6.5% | 5 |
 | John James | 6.1% | 126 |
-| Tim Walberg | 5.4% | 13 |
+| Tim Walberg | 5.5% | 13 |
 | Patrick Fallon | 5.3% | 56 |
+| Mitch McConnell | 5.1% | 1 |
 | Michael McCaul | 5.0% | 7 |
 | Lindsey Graham | 4.9% | 6 |
 | Carlos Curbelo | 4.1% | 138 |
 | Bruce Westerman | 4.1% | 105 |
-| Mitch McConnell | 4.0% | 1 |
 | Patty Murray | 3.6% | 75 |
 | Valerie Hoyle | 3.3% | 193 |
 | James R. Langevin | 3.1% | 182 |
