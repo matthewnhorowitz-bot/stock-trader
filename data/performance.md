@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-08 02:26 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-08 02:33 UTC._
 
 ## Total
 
@@ -45,12 +45,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary Palmer | 151.8% | 182 |
 | Beto O'Rourke | 151.3% | 3 |
 | Pat Roberts | 150.3% | 287 |
-| Debbie Dingell | 144.5% | 100 |
+| Debbie Dingell | 144.4% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 133.1% | 71 |
 | Grace Meng | 123.6% | 5 |
 | James French Hill | 121.6% | 24 |
-| Lamar Smith | 121.6% | 222 |
+| Lamar Smith | 121.2% | 222 |
 | Scott H. Peters | 118.8% | 105 |
 | Thomas Suozzi | 118.6% | 283 |
 | W. Greg Steube | 117.9% | 2 |
@@ -95,7 +95,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lloyd Doggett | 67.5% | 208 |
 | Neal Patrick MD, Facs Dunn | 67.2% | 6 |
 | Kevin Hern | 66.9% | 534 |
-| Scott Franklin | 65.4% | 49 |
+| Scott Franklin | 65.3% | 49 |
 | Richard W. Allen | 63.9% | 157 |
 | Carol Devine Miller | 62.9% | 62 |
 | Michael Patrick Guest | 61.7% | 48 |
@@ -111,7 +111,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bradley S. Schneider | 49.5% | 40 |
 | Dan Newhouse | 49.5% | 110 |
 | Tim Moore | 48.7% | 159 |
-| Gilbert Cisneros | 47.6% | 1480 |
+| Gilbert Cisneros | 47.5% | 1480 |
 | Max Miller | 47.1% | 1 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
@@ -193,6 +193,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 14.4% | 84 |
 | Brad Ashford | 13.1% | 5 |
 | Maria Elvira Salazar | 13.1% | 60 |
+| Anthony E. Gonzalez | 12.8% | 3 |
 | C. Scott Franklin | 12.8% | 35 |
 | Julie Johnson | 12.8% | 117 |
 | Ashley Hinson Arenholz | 12.8% | 4 |
@@ -217,7 +218,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Adam Kinzinger | 7.9% | 17 |
 | Katie Britt | 7.0% | 16 |
 | Lisa McClain | 6.9% | 720 |
-| Anthony E. Gonzalez | 6.7% | 3 |
 | Tom Rice | 6.5% | 5 |
 | John James | 6.1% | 126 |
 | Tim Walberg | 5.5% | 13 |
@@ -228,10 +228,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Carlos Curbelo | 4.1% | 138 |
 | Bruce Westerman | 4.1% | 105 |
 | Patty Murray | 3.6% | 75 |
+| April McClain Delaney | 3.3% | 209 |
 | Valerie Hoyle | 3.3% | 193 |
 | James R. Langevin | 3.1% | 182 |
 | Alan Armstrong | 3.0% | 320 |
-| April McClain Delaney | 2.9% | 209 |
 | E. Scott Rigell | 2.6% | 31 |
 | Thomas MacArthur | 2.2% | 915 |
 | John A. Boehner | 1.7% | 2 |
