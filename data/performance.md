@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-10 13:50 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-10 14:00 UTC._
 
 ## Total
 
@@ -136,8 +136,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donald Sternoff Beyer | 36.0% | 371 |
 | Cynthia M Lummis | 35.5% | 1 |
 | Vicente Gonzalez | 34.2% | 1 |
+| John Fetterman | 34.1% | 10 |
 | Marjorie Taylor Greene | 34.0% | 484 |
-| John Fetterman | 33.7% | 10 |
 | Steve Cohen | 33.2% | 20 |
 | Daniel Goldman | 32.3% | 369 |
 | Austin Scott | 32.2% | 42 |
@@ -160,7 +160,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas H. Kean | 26.0% | 78 |
 | Kathy Manning | 25.3% | 276 |
 | Jared Moskowitz | 23.3% | 227 |
-| Cleo Fields | 23.2% | 181 |
+| Cleo Fields | 23.1% | 181 |
 | Jonathan Jackson | 23.1% | 108 |
 | Kelly Loeffler | 22.8% | 97 |
 | Alan S. Lowenthal | 22.4% | 410 |
@@ -176,9 +176,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cliff Bentz | 19.4% | 2 |
 | Jackie Speier | 19.2% | 3 |
 | Laurel Lee | 18.4% | 7 |
-| Ed Case | 18.1% | 12 |
 | Roger Williams | 17.7% | 12 |
-| Byron Donalds | 17.1% | 44 |
+| Byron Donalds | 17.2% | 44 |
+| Ed Case | 17.0% | 12 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Brian Mast | 16.8% | 31 |
 | Mo Brooks | 16.4% | 41 |
@@ -193,7 +193,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 14.4% | 84 |
 | Sheri Biggs | 13.9% | 50 |
 | Ashley Hinson Arenholz | 13.7% | 4 |
-| Maria Elvira Salazar | 13.6% | 63 |
+| Maria Elvira Salazar | 13.7% | 63 |
 | C. Scott Franklin | 13.3% | 35 |
 | Julie Johnson | 13.2% | 117 |
 | Brad Ashford | 13.1% | 5 |
@@ -217,12 +217,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Whitfield | 8.5% | 56 |
 | Adam Kinzinger | 7.9% | 17 |
 | Lisa McClain | 7.1% | 720 |
-| Katie Britt | 7.0% | 16 |
+| Katie Britt | 6.8% | 16 |
 | Michael McCaul | 6.6% | 7 |
 | Tom Rice | 6.5% | 5 |
 | John James | 6.3% | 126 |
 | Patrick Fallon | 5.7% | 56 |
-| Tim Walberg | 5.7% | 13 |
+| Tim Walberg | 5.5% | 13 |
 | Mitch McConnell | 5.0% | 1 |
 | Lindsey Graham | 4.9% | 6 |
 | Bruce Westerman | 4.1% | 105 |
@@ -235,7 +235,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | E. Scott Rigell | 2.6% | 31 |
 | Thomas MacArthur | 2.2% | 915 |
 | Dave McCormick | 1.9% | 2 |
-| John McGuire | 1.7% | 11 |
+| John McGuire | 1.9% | 11 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
 | William L. Owens | 1.5% | 6 |
