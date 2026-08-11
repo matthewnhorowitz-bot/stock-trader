@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-11 19:30 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-11 19:43 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 58.2%**
 - S&P 500 (SPY) over the same windows: 76.4%
-- Priced positions: 26214  ·  still open: 10295  ·  awaiting price data: 573
+- Priced positions: 26215  ·  still open: 10295  ·  awaiting price data: 572
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susie Lee | 45.1% | 628 |
 | Sara Jacobs | 45.0% | 10 |
 | Rafael E Cruz | 44.8% | 3 |
-| Josh Gottheimer | 43.8% | 1435 |
+| Josh Gottheimer | 43.8% | 1436 |
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
 | Angus S King, Jr. | 42.3% | 34 |
