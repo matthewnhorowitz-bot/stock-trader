@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-11 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-11 16:00 UTC._
 
 ## Total
 
@@ -66,7 +66,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tina Smith | 105.0% | 5 |
 | Robert B. Aderholt | 104.3% | 1 |
 | Mark Green | 100.4% | 463 |
-| Dwight Evans | 100.1% | 70 |
+| Dwight Evans | 100.2% | 70 |
 | John N Kennedy | 100.1% | 2 |
 | David E. Price | 98.4% | 42 |
 | Nancy Pelosi | 95.0% | 89 |
@@ -91,7 +91,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Morgan McGarvey | 70.6% | 9 |
 | James Comer | 70.3% | 32 |
 | Joseph D. Morelle | 69.3% | 1 |
-| Lloyd Doggett | 68.3% | 208 |
+| Lloyd Doggett | 68.5% | 208 |
 | Neal Patrick MD, Facs Dunn | 67.9% | 6 |
 | Kevin Hern | 67.4% | 540 |
 | David Kustoff | 67.3% | 9 |
@@ -191,8 +191,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Boozman | 15.0% | 220 |
 | James M Inhofe | 14.6% | 77 |
 | Patrick J Toomey | 14.4% | 84 |
+| Maria Elvira Salazar | 14.2% | 63 |
 | Sheri Biggs | 14.2% | 50 |
-| Maria Elvira Salazar | 14.1% | 63 |
 | Ashley Hinson Arenholz | 14.0% | 4 |
 | C. Scott Franklin | 13.7% | 35 |
 | Julie Johnson | 13.2% | 117 |
