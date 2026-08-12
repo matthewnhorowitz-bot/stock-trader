@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-12 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-12 16:00 UTC._
 
 ## Total
 
@@ -112,7 +112,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kelly Louise Morrison | 50.0% | 13 |
 | Bradley S. Schneider | 49.8% | 40 |
 | Tim Moore | 48.7% | 159 |
-| Gilbert Cisneros | 48.1% | 1480 |
+| Gilbert Cisneros | 48.0% | 1480 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | William R. Keating | 47.0% | 86 |
 | Bob Gibbs | 46.7% | 94 |
