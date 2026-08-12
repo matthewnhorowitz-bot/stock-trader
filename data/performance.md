@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-12 08:03 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-12 09:00 UTC._
 
 ## Total
 
@@ -18,7 +18,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Charlie Joseph Crist | 572.8% | 1 |
 | Sheldon Whitehouse | 545.6% | 445 |
 | Luis V. Gutierrez | 442.1% | 6 |
-| Brenda Lulenar Lawrence | 423.1% | 19 |
+| Brenda Lulenar Lawrence | 423.5% | 19 |
 | Barbara J Comstock | 404.3% | 29 |
 | Michael Fq San Nicolas | 376.9% | 1 |
 | Ashley Moody | 373.7% | 3 |
@@ -75,7 +75,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John F Reed | 86.0% | 55 |
 | Judy Chu | 84.6% | 5 |
 | David P. Joyce | 84.5% | 76 |
-| John Rutherford | 82.5% | 165 |
+| John Rutherford | 82.4% | 165 |
 | Shelley M Capito | 79.8% | 345 |
 | Terri A. Sewell | 78.6% | 2 |
 | Dean Phillips | 78.4% | 347 |
@@ -150,7 +150,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas H Tuberville | 28.9% | 491 |
 | Donna Shalala | 28.8% | 169 |
 | Christopher L. Jacobs | 28.3% | 95 |
-| Rob Bresnahan | 28.3% | 248 |
+| Rob Bresnahan | 28.2% | 248 |
 | Charles J. Chuck Fleischmann | 28.1% | 57 |
 | Markwayne Mullin | 27.8% | 272 |
 | John W. Rose | 27.5% | 1 |
@@ -210,7 +210,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Zoe Lofgren | 11.3% | 159 |
 | David J. Taylor | 11.0% | 104 |
 | Mike Kennedy | 10.7% | 1 |
-| Ritchie John Torres | 10.0% | 69 |
+| Ritchie John Torres | 9.9% | 69 |
 | Mick Mulvaney | 9.7% | 4 |
 | Kurt Schrader | 8.9% | 150 |
 | David Trone | 8.7% | 14 |
