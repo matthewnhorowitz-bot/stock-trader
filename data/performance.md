@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-13 03:12 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-13 04:00 UTC._
 
 ## Total
 
@@ -41,8 +41,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Warren Davidson | 166.3% | 2 |
 | Neal P. Dunn | 166.0% | 2 |
 | Daniel Meuser | 157.0% | 9 |
-| John Hoeven | 153.9% | 128 |
-| Gary Palmer | 152.2% | 182 |
+| John Hoeven | 154.0% | 128 |
+| Gary Palmer | 152.3% | 182 |
 | Pat Roberts | 152.1% | 287 |
 | Beto O'Rourke | 151.6% | 3 |
 | Debbie Dingell | 146.0% | 100 |
@@ -58,7 +58,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Victoria Spartz | 112.0% | 21 |
 | Kathy Castor | 111.7% | 39 |
-| A. Mitchell McConnell, Jr. | 108.6% | 36 |
+| A. Mitchell McConnell, Jr. | 108.3% | 36 |
 | Gary C Peters | 107.8% | 50 |
 | Deborah K. Ross | 107.5% | 21 |
 | K. Michael Conaway | 106.1% | 283 |
@@ -108,9 +108,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Max Miller | 52.1% | 1 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
-| Dan Newhouse | 50.2% | 110 |
+| Dan Newhouse | 50.3% | 110 |
 | Bradley S. Schneider | 49.8% | 40 |
-| Kelly Louise Morrison | 49.0% | 13 |
+| Kelly Louise Morrison | 49.2% | 13 |
 | Tim Moore | 48.7% | 159 |
 | Gilbert Cisneros | 48.0% | 1480 |
 | Raúl M. Grijalva | 47.0% | 47 |
@@ -177,8 +177,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jackie Speier | 19.2% | 3 |
 | Laurel Lee | 18.9% | 7 |
 | Roger Williams | 18.0% | 12 |
-| Ed Case | 17.0% | 12 |
 | Byron Donalds | 17.0% | 44 |
+| Ed Case | 17.0% | 12 |
 | Gary Peters | 16.9% | 1 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Brian Mast | 16.5% | 31 |
@@ -218,10 +218,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael McCaul | 8.0% | 7 |
 | Adam Kinzinger | 7.9% | 17 |
 | Katie Britt | 7.4% | 16 |
-| Mitch McConnell | 7.3% | 1 |
+| Mitch McConnell | 7.1% | 1 |
 | Lisa McClain | 7.0% | 720 |
-| Tim Walberg | 6.5% | 13 |
 | Tom Rice | 6.5% | 5 |
+| Tim Walberg | 6.5% | 13 |
 | John James | 6.3% | 126 |
 | Patrick Fallon | 5.7% | 56 |
 | Lindsey Graham | 4.9% | 6 |
