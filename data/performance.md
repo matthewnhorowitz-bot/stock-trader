@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-14 16:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-14 17:01 UTC._
 
 ## Total
 
@@ -92,7 +92,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Morgan McGarvey | 70.6% | 9 |
 | James Comer | 70.6% | 32 |
 | Joseph D. Morelle | 69.3% | 1 |
-| Neal Patrick MD, Facs Dunn | 68.8% | 6 |
+| Neal Patrick MD, Facs Dunn | 68.6% | 6 |
 | David Kustoff | 67.7% | 9 |
 | Kevin Hern | 67.7% | 540 |
 | Lloyd Doggett | 67.2% | 208 |
