@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-14 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-14 16:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 58.8%**
 - S&P 500 (SPY) over the same windows: 76.4%
-- Priced positions: 26216  ·  still open: 10296  ·  awaiting price data: 572
+- Priced positions: 26216  ·  still open: 10294  ·  awaiting price data: 572
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -50,6 +50,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Suzan K. DelBene | 133.6% | 71 |
 | Grace Meng | 124.4% | 5 |
 | James French Hill | 121.3% | 24 |
+| Shri Thanedar | 121.0% | 1 |
 | Thomas Suozzi | 120.8% | 283 |
 | Lamar Smith | 120.2% | 222 |
 | Scott H. Peters | 118.4% | 105 |
@@ -97,8 +98,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lloyd Doggett | 67.2% | 208 |
 | Michael Patrick Guest | 66.2% | 48 |
 | Scott Franklin | 65.8% | 49 |
-| Carol Devine Miller | 63.7% | 62 |
 | Richard W. Allen | 63.6% | 157 |
+| Carol Devine Miller | 63.4% | 62 |
 | William Cassidy | 61.0% | 87 |
 | Lois Frankel | 60.6% | 439 |
 | David A Perdue , Jr | 58.6% | 1255 |
@@ -273,7 +274,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Yoder | -20.1% | 6 |
 | Billy Long | -21.9% | 1 |
 | David H McCormick | -28.2% | 24 |
-| Shri Thanedar | -28.9% | 1 |
 | Chip Roy | -32.2% | 2 |
 | David Madison Cawthorn | -34.4% | 15 |
 | Felix Barry Moore | -40.9% | 5 |
