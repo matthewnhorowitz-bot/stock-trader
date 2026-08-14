@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-14 03:16 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-14 04:01 UTC._
 
 ## Total
 
@@ -40,12 +40,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rubén Hinojosa | 173.0% | 30 |
 | Neal P. Dunn | 170.2% | 2 |
 | Warren Davidson | 161.9% | 2 |
-| Gary Palmer | 156.9% | 182 |
-| John Hoeven | 155.3% | 128 |
+| Gary Palmer | 156.8% | 182 |
+| John Hoeven | 155.2% | 128 |
 | Daniel Meuser | 154.7% | 9 |
 | Beto O'Rourke | 153.0% | 3 |
 | Pat Roberts | 152.7% | 287 |
-| Debbie Dingell | 145.3% | 100 |
+| Debbie Dingell | 145.4% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 133.6% | 71 |
 | Grace Meng | 124.4% | 5 |
@@ -60,7 +60,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary C Peters | 109.7% | 50 |
 | Deborah K. Ross | 109.7% | 21 |
 | K. Michael Conaway | 106.9% | 283 |
-| A. Mitchell McConnell, Jr. | 106.2% | 36 |
+| A. Mitchell McConnell, Jr. | 106.4% | 36 |
 | Justin Amash | 105.9% | 11 |
 | John N Kennedy | 105.2% | 2 |
 | Kathy Castor | 104.9% | 39 |
@@ -110,8 +110,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Max Miller | 51.5% | 1 |
 | Garret Graves | 51.0% | 6 |
 | Dan Newhouse | 50.7% | 110 |
-| Kelly Louise Morrison | 50.0% | 13 |
 | Bradley S. Schneider | 50.0% | 40 |
+| Kelly Louise Morrison | 49.8% | 13 |
 | Gilbert Cisneros | 49.3% | 1480 |
 | William R. Keating | 48.5% | 86 |
 | Susie Lee | 47.3% | 628 |
@@ -186,7 +186,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rick Larsen | 16.0% | 46 |
 | John Boozman | 15.3% | 220 |
 | Trey Hollingsworth | 15.3% | 54 |
-| Jefferson Shreve | 15.2% | 173 |
+| Jefferson Shreve | 15.3% | 173 |
 | Francis Rooney | 15.1% | 19 |
 | Ashley Hinson Arenholz | 15.0% | 4 |
 | Brian Mast | 14.7% | 31 |
@@ -221,8 +221,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick Fallon | 6.7% | 56 |
 | Tom Rice | 6.5% | 5 |
 | John James | 6.3% | 126 |
-| Tim Walberg | 6.0% | 13 |
-| Mitch McConnell | 5.9% | 1 |
+| Mitch McConnell | 6.1% | 1 |
+| Tim Walberg | 6.1% | 13 |
 | Alan Armstrong | 4.9% | 320 |
 | Lindsey Graham | 4.9% | 6 |
 | April McClain Delaney | 4.8% | 209 |
