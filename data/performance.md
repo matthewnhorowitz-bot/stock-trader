@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-15 02:03 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-15 03:00 UTC._
 
 ## Total
 
@@ -28,7 +28,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Chabot | 255.9% | 2 |
 | Brian Higgins | 236.4% | 1 |
 | Raul Ruiz | 233.5% | 1 |
-| Susan M Collins | 226.7% | 181 |
+| Susan M Collins | 226.8% | 181 |
 | Roger W. Marshall | 223.7% | 51 |
 | Richard L. Hanna | 214.6% | 91 |
 | David Cheston Rouzer | 213.2% | 8 |
@@ -42,16 +42,16 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Warren Davidson | 161.9% | 2 |
 | Gary Palmer | 156.0% | 182 |
 | Daniel Meuser | 154.7% | 9 |
-| John Hoeven | 154.3% | 128 |
+| John Hoeven | 154.4% | 128 |
 | Beto O'Rourke | 153.0% | 3 |
 | Pat Roberts | 152.7% | 287 |
-| Debbie Dingell | 145.3% | 100 |
+| Debbie Dingell | 145.4% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 133.6% | 71 |
 | Grace Meng | 124.4% | 5 |
 | James French Hill | 121.3% | 24 |
 | Shri Thanedar | 121.0% | 1 |
-| Thomas Suozzi | 120.8% | 283 |
+| Thomas Suozzi | 120.9% | 283 |
 | Lamar Smith | 120.3% | 222 |
 | Scott H. Peters | 118.4% | 105 |
 | W. Greg Steube | 117.9% | 2 |
@@ -60,7 +60,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Victoria Spartz | 112.9% | 21 |
 | Gary C Peters | 109.6% | 50 |
 | Deborah K. Ross | 108.6% | 21 |
-| A. Mitchell McConnell, Jr. | 107.6% | 36 |
+| A. Mitchell McConnell, Jr. | 108.1% | 36 |
 | K. Michael Conaway | 106.9% | 283 |
 | Justin Amash | 105.9% | 11 |
 | John N Kennedy | 105.2% | 2 |
@@ -117,7 +117,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susie Lee | 47.3% | 628 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
-| Kelly Louise Morrison | 45.5% | 13 |
+| Kelly Louise Morrison | 45.6% | 13 |
 | Rafael E Cruz | 44.9% | 3 |
 | Sara Jacobs | 44.6% | 10 |
 | Robert E. Latta | 44.6% | 23 |
@@ -186,7 +186,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Case | 16.1% | 12 |
 | Rick Larsen | 16.0% | 46 |
 | Trey Hollingsworth | 15.3% | 54 |
-| John Boozman | 15.1% | 220 |
+| John Boozman | 15.2% | 220 |
 | Francis Rooney | 15.1% | 19 |
 | Jefferson Shreve | 15.0% | 173 |
 | Ashley Hinson Arenholz | 15.0% | 4 |
@@ -219,7 +219,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Adam Kinzinger | 7.9% | 17 |
 | Lisa McClain | 7.3% | 720 |
 | Katie Britt | 7.3% | 16 |
-| Mitch McConnell | 6.7% | 1 |
+| Mitch McConnell | 6.9% | 1 |
 | Patrick Fallon | 6.6% | 56 |
 | Tom Rice | 6.5% | 5 |
 | John James | 6.4% | 126 |
