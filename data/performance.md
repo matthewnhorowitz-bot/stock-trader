@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-16 02:07 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-16 02:09 UTC._
 
 ## Total
 
@@ -48,7 +48,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Debbie Dingell | 145.4% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 133.6% | 71 |
-| Grace Meng | 124.4% | 5 |
+| Grace Meng | 125.1% | 5 |
 | James French Hill | 121.3% | 24 |
 | Shri Thanedar | 121.0% | 1 |
 | Thomas Suozzi | 120.9% | 283 |
@@ -73,7 +73,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 95.4% | 7 |
 | Nancy Pelosi | 94.4% | 89 |
 | John F Reed | 87.2% | 55 |
-| Daniel S Sullivan | 86.8% | 30 |
+| Daniel S Sullivan | 87.1% | 30 |
 | David P. Joyce | 85.5% | 76 |
 | Judy Chu | 84.6% | 5 |
 | John Rutherford | 82.1% | 165 |
@@ -97,7 +97,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Kustoff | 67.7% | 9 |
 | Lloyd Doggett | 66.2% | 208 |
 | Michael Patrick Guest | 66.1% | 48 |
-| Scott Franklin | 65.8% | 49 |
+| Scott Franklin | 65.9% | 49 |
 | Richard W. Allen | 63.6% | 157 |
 | Carol Devine Miller | 63.5% | 62 |
 | William Cassidy | 61.0% | 87 |
@@ -126,13 +126,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Angus S King, Jr. | 42.9% | 34 |
 | Harley E. Rouda | 42.9% | 3 |
 | John A. Yarmuth | 42.5% | 139 |
-| Harold Dallas Rogers | 40.0% | 8 |
+| Harold Dallas Rogers | 40.4% | 8 |
 | David B. McKinley | 39.5% | 195 |
 | Daniel Crenshaw | 39.1% | 17 |
 | Vicente Gonzalez | 38.8% | 1 |
 | Susan W. Brooks | 38.6% | 12 |
 | James E. Banks | 38.3% | 14 |
-| Joe Courtney | 37.8% | 72 |
+| Joe Courtney | 37.9% | 72 |
 | Jim McDermott | 37.1% | 2 |
 | Mike Kelly | 37.1% | 9 |
 | Donald Sternoff Beyer | 36.0% | 371 |
@@ -147,13 +147,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan A. Davis | 31.1% | 32 |
 | Peter Allen Stauber | 30.4% | 1 |
 | Aston Donald McEachin | 30.2% | 6 |
-| Richard Dean McCormick | 30.1% | 70 |
+| Richard Dean McCormick | 30.2% | 70 |
 | Linda T. Sanchez | 29.9% | 3 |
+| John W. Rose | 29.9% | 1 |
 | Rob Bresnahan | 29.4% | 248 |
 | Thomas H Tuberville | 29.1% | 491 |
-| John W. Rose | 28.9% | 1 |
+| Charles J. Chuck Fleischmann | 28.9% | 57 |
 | Donna Shalala | 28.8% | 169 |
-| Charles J. Chuck Fleischmann | 28.7% | 57 |
 | Christopher L. Jacobs | 28.4% | 95 |
 | Markwayne Mullin | 27.8% | 272 |
 | Julia Letlow | 27.7% | 154 |
