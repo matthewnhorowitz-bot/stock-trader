@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 19:04 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 19:15 UTC._
 
 ## Total
 
@@ -24,7 +24,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Fq San Nicolas | 374.2% | 1 |
 | William M. Cassidy | 273.3% | 1 |
 | Christopher A Coons | 272.0% | 2 |
-| Ron L Wyden | 265.7% | 196 |
+| Ron L Wyden | 265.8% | 196 |
 | Steve Chabot | 255.9% | 2 |
 | Brian Higgins | 236.4% | 1 |
 | Raul Ruiz | 235.8% | 1 |
@@ -49,7 +49,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 133.3% | 71 |
 | Grace Meng | 125.1% | 5 |
-| Thomas Suozzi | 122.2% | 283 |
+| Thomas Suozzi | 122.3% | 283 |
 | Shri Thanedar | 121.0% | 1 |
 | James French Hill | 120.9% | 24 |
 | Lamar Smith | 120.8% | 222 |
