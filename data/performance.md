@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 12:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 13:00 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 58.9%**
-- S&P 500 (SPY) over the same windows: 76.4%
-- Priced positions: 26216  ·  still open: 10294  ·  awaiting price data: 572
+- **Index (all tracked buys): 58.8%**
+- S&P 500 (SPY) over the same windows: 77.0%
+- Priced positions: 26233  ·  still open: 10308  ·  awaiting price data: 572
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -112,8 +112,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dan Newhouse | 50.0% | 110 |
 | Gilbert Cisneros | 49.7% | 1480 |
 | Bradley S. Schneider | 48.4% | 40 |
-| William R. Keating | 48.3% | 86 |
 | Susie Lee | 48.1% | 628 |
+| William R. Keating | 47.2% | 88 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Rafael E Cruz | 46.9% | 3 |
 | Bob Gibbs | 46.7% | 94 |
@@ -172,7 +172,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Roger F Wicker | 21.9% | 3 |
 | Greg Gianforte | 21.7% | 648 |
 | Laurel Lee | 21.6% | 7 |
-| Gary Peters | 20.9% | 1 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
 | Lou Barletta | 20.1% | 17 |
 | Cliff Bentz | 19.7% | 2 |
@@ -211,6 +210,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Zoe Lofgren | 11.4% | 159 |
 | Peter Meijer | 11.4% | 18 |
 | Ritchie John Torres | 10.8% | 69 |
+| Gary Peters | 10.7% | 2 |
 | David J. Taylor | 10.4% | 104 |
 | Mick Mulvaney | 9.7% | 4 |
 | Kurt Schrader | 8.9% | 150 |
@@ -244,10 +244,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
+| Tommy Tuberville | 1.3% | 3 |
 | Kenneth R. Buck | 1.0% | 28 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
 | Greg Stanton | 0.6% | 94 |
+| Tracey Robert Mann | 0.0% | 5 |
+| Charles J. "Chuck" Fleischmann | 0.0% | 6 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
 | Kenny Marchant | -0.6% | 40 |
