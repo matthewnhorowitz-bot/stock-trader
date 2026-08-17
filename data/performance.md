@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 22:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 23:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 58.7%**
-- S&P 500 (SPY) over the same windows: 76.8%
-- Priced positions: 26234  ·  still open: 10281  ·  awaiting price data: 572
+- S&P 500 (SPY) over the same windows: 77.1%
+- Priced positions: 26240  ·  still open: 10287  ·  awaiting price data: 572
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -19,7 +19,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Sheldon Whitehouse | 549.9% | 445 |
 | Luis V. Gutierrez | 441.1% | 6 |
 | Brenda Lulenar Lawrence | 431.7% | 19 |
-| Barbara J Comstock | 410.3% | 29 |
+| Barbara J Comstock | 410.2% | 29 |
 | Ashley Moody | 402.7% | 3 |
 | Michael Fq San Nicolas | 374.2% | 1 |
 | William M. Cassidy | 278.3% | 1 |
@@ -177,7 +177,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas R Carper | 19.6% | 494 |
 | Cliff Bentz | 19.3% | 2 |
 | Jackie Speier | 19.2% | 3 |
-| Byron Donalds | 17.5% | 44 |
+| Byron Donalds | 17.4% | 44 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Roger Williams | 16.7% | 12 |
 | Michael Garcia | 16.6% | 20 |
@@ -188,9 +188,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Trey Hollingsworth | 15.3% | 54 |
 | Ashley Hinson Arenholz | 15.2% | 4 |
 | Francis Rooney | 15.1% | 19 |
-| John Boozman | 15.0% | 220 |
 | Brian Mast | 14.8% | 31 |
 | James M Inhofe | 14.6% | 77 |
+| John Boozman | 14.6% | 226 |
 | Maria Elvira Salazar | 14.5% | 63 |
 | Patrick J Toomey | 14.4% | 84 |
 | Anthony E. Gonzalez | 13.7% | 3 |
