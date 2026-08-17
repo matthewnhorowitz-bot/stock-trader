@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 14:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-17 16:00 UTC._
 
 ## Total
 
@@ -177,7 +177,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cliff Bentz | 19.7% | 2 |
 | Thomas R Carper | 19.6% | 494 |
 | Jackie Speier | 19.2% | 3 |
-| Byron Donalds | 17.5% | 44 |
+| Byron Donalds | 17.6% | 44 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Roger Williams | 16.7% | 12 |
 | Michael Garcia | 16.6% | 20 |
