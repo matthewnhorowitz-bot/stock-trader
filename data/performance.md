@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-18 02:11 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-18 03:01 UTC._
 
 ## Total
 
@@ -29,7 +29,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Raul Ruiz | 239.0% | 1 |
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 224.6% | 51 |
-| Susan M Collins | 223.3% | 181 |
+| Susan M Collins | 223.4% | 181 |
 | Richard L. Hanna | 212.5% | 91 |
 | David Cheston Rouzer | 211.4% | 8 |
 | Michael Waltz | 210.8% | 2 |
@@ -61,9 +61,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Deborah K. Ross | 110.0% | 21 |
 | Gary C Peters | 108.6% | 50 |
 | John N Kennedy | 107.8% | 2 |
-| A. Mitchell McConnell, Jr. | 106.8% | 36 |
 | Justin Amash | 105.9% | 11 |
 | K. Michael Conaway | 105.5% | 283 |
+| A. Mitchell McConnell, Jr. | 105.0% | 36 |
 | Robert B. Aderholt | 103.1% | 1 |
 | Kathy Castor | 102.7% | 39 |
 | Dwight Evans | 101.8% | 70 |
@@ -122,7 +122,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Josh Gottheimer | 43.9% | 1436 |
 | Brad Knott | 43.5% | 2 |
 | Robert E. Latta | 43.5% | 23 |
-| Kelly Louise Morrison | 43.3% | 13 |
+| Kelly Louise Morrison | 43.1% | 13 |
 | Sara Jacobs | 42.5% | 10 |
 | John A. Yarmuth | 42.5% | 139 |
 | Harley E. Rouda | 42.1% | 3 |
@@ -143,7 +143,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Elizabeth Fletcher | 32.7% | 23 |
 | Daniel Goldman | 32.1% | 369 |
 | Susan A. Davis | 31.1% | 32 |
-| Aston Donald McEachin | 30.2% | 6 |
+| Aston Donald McEachin | 30.1% | 6 |
 | Linda T. Sanchez | 29.9% | 3 |
 | Rohit Khanna | 29.9% | 139 |
 | John W. Rose | 29.9% | 1 |
@@ -167,7 +167,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
 | Cleo Fields | 22.3% | 181 |
-| Jared Moskowitz | 22.1% | 227 |
+| Jared Moskowitz | 22.0% | 227 |
 | Roger F Wicker | 21.9% | 3 |
 | Greg Gianforte | 21.7% | 648 |
 | Nicholas Van Taylor | 21.6% | 49 |
@@ -220,10 +220,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lisa McClain | 7.2% | 720 |
 | Katie Britt | 6.7% | 16 |
 | Tom Rice | 6.5% | 5 |
-| Mitch McConnell | 6.3% | 1 |
 | John James | 6.3% | 126 |
-| Tim Walberg | 6.0% | 13 |
+| Tim Walberg | 5.9% | 13 |
 | Patrick Fallon | 5.8% | 56 |
+| Mitch McConnell | 5.4% | 1 |
 | Lindsey Graham | 4.9% | 6 |
 | Bruce Westerman | 4.4% | 105 |
 | Carlos Curbelo | 4.1% | 138 |
