@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-18 14:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-18 15:00 UTC._
 
 ## Total
 
@@ -177,7 +177,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Laurel Lee | 19.7% | 7 |
 | Thomas R Carper | 19.6% | 494 |
 | Jackie Speier | 19.2% | 3 |
-| Byron Donalds | 17.5% | 44 |
+| Byron Donalds | 17.6% | 44 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Mo Brooks | 16.4% | 41 |
 | Roger Williams | 15.8% | 12 |
