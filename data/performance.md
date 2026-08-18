@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-18 19:15 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-18 20:01 UTC._
 
 ## Total
 
@@ -30,7 +30,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Higgins | 236.4% | 1 |
 | Roger W. Marshall | 224.6% | 51 |
 | Susan M Collins | 223.3% | 181 |
-| Richard L. Hanna | 212.5% | 91 |
+| Richard L. Hanna | 212.4% | 91 |
 | David Cheston Rouzer | 211.4% | 8 |
 | Michael Waltz | 210.8% | 2 |
 | Pete Sessions | 207.6% | 176 |
