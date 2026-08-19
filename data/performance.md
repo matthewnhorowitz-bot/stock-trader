@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-19 19:02 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-19 19:08 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 58.5%**
 - S&P 500 (SPY) over the same windows: 77.4%
-- Priced positions: 26246  ·  still open: 10292  ·  awaiting price data: 573
+- Priced positions: 26247  ·  still open: 10292  ·  awaiting price data: 572
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -33,7 +33,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard L. Hanna | 212.9% | 91 |
 | David Cheston Rouzer | 211.4% | 8 |
 | Michael Waltz | 210.8% | 2 |
-| Pete Sessions | 207.7% | 176 |
+| Pete Sessions | 207.8% | 176 |
 | Michael T. McCaul | 200.6% | 108 |
 | Gary C. Peters | 197.1% | 7 |
 | Seth Moulton | 194.3% | 1 |
@@ -45,7 +45,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Pat Roberts | 152.9% | 287 |
 | Beto O'Rourke | 152.7% | 3 |
 | John Hoeven | 152.1% | 128 |
-| Debbie Dingell | 144.4% | 100 |
+| Debbie Dingell | 144.6% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 131.0% | 71 |
 | Grace Meng | 124.1% | 5 |
@@ -78,7 +78,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Judy Chu | 84.6% | 5 |
 | Terri A. Sewell | 81.5% | 2 |
 | John Rutherford | 81.3% | 165 |
-| Shelley M Capito | 79.8% | 345 |
+| Shelley M Capito | 79.9% | 345 |
 | Dean Phillips | 78.4% | 347 |
 | Michael K. Simpson | 78.4% | 34 |
 | Joseph Manchin, III | 78.2% | 1 |
@@ -99,7 +99,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lloyd Doggett | 64.5% | 208 |
 | Carol Devine Miller | 64.3% | 62 |
 | David Kustoff | 63.8% | 9 |
-| Richard W. Allen | 62.3% | 158 |
+| Richard W. Allen | 62.2% | 159 |
 | William Cassidy | 61.2% | 87 |
 | Lois Frankel | 60.4% | 439 |
 | David A Perdue , Jr | 59.8% | 1255 |
@@ -119,7 +119,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William R. Keating | 46.2% | 88 |
 | Rafael E Cruz | 46.2% | 3 |
 | Angus S King, Jr. | 44.1% | 34 |
-| Josh Gottheimer | 43.6% | 1436 |
+| Josh Gottheimer | 43.7% | 1436 |
 | Brad Knott | 43.5% | 2 |
 | Robert E. Latta | 43.5% | 23 |
 | Harley E. Rouda | 42.8% | 3 |
