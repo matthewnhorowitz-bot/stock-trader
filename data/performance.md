@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-20 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-20 19:01 UTC._
 
 ## Total
 
@@ -110,7 +110,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Garret Graves | 51.0% | 6 |
 | Tim Moore | 50.5% | 159 |
 | Bradley S. Schneider | 49.9% | 40 |
-| Gilbert Cisneros | 49.5% | 1480 |
+| Gilbert Cisneros | 49.4% | 1480 |
 | Dan Newhouse | 48.4% | 110 |
 | Susie Lee | 48.1% | 628 |
 | Max Miller | 47.3% | 1 |
