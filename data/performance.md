@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-21 21:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-21 22:00 UTC._
 
 ## Total
 
@@ -59,7 +59,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Victoria Spartz | 111.4% | 21 |
 | Robert B. Aderholt | 109.6% | 1 |
 | Stephen F. Lynch | 109.3% | 1 |
-| Gary C Peters | 109.0% | 50 |
+| Gary C Peters | 109.1% | 50 |
 | Justin Amash | 105.9% | 11 |
 | K. Michael Conaway | 104.1% | 283 |
 | Kathy Castor | 103.2% | 39 |
@@ -202,9 +202,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mikie Sherrill | 12.5% | 38 |
 | Frank A. LoBiondo | 12.2% | 8 |
 | David P. Roe | 12.0% | 15 |
+| Gary Peters | 12.0% | 2 |
 | Maria Elvira Salazar | 11.9% | 63 |
 | Earl Leroy Carter | 11.6% | 1 |
-| Gary Peters | 11.6% | 2 |
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
 | Zoe Lofgren | 11.1% | 159 |
