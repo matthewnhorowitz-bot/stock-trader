@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-21 14:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-21 15:01 UTC._
 
 ## Total
 
@@ -180,7 +180,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Case | 17.0% | 13 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Mo Brooks | 16.4% | 41 |
-| Byron Donalds | 16.2% | 44 |
+| Byron Donalds | 16.4% | 44 |
 | Ashley Hinson Arenholz | 15.5% | 4 |
 | Michael Garcia | 15.4% | 20 |
 | Trey Hollingsworth | 15.3% | 54 |
