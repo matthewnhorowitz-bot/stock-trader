@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-22 02:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-22 02:04 UTC._
 
 ## Total
 
@@ -140,7 +140,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Cohen | 34.0% | 20 |
 | John Fetterman | 33.9% | 10 |
 | Elizabeth Fletcher | 32.5% | 23 |
-| Daniel Goldman | 31.5% | 369 |
+| Daniel Goldman | 31.6% | 369 |
 | Susan A. Davis | 31.1% | 32 |
 | Rohit Khanna | 30.1% | 139 |
 | Linda T. Sanchez | 29.9% | 3 |
