@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-23 19:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-23 20:06 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -15,10 +15,13 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Burchett | 100 | 0% | 1 |
 | Adam B. Schiff | 100 | 0% | 2 |
 | Thomas Massie | 100 | 0% | 1 |
+| John Garamendi | 100 | 0% | 4 |
+| James M. Costa | 100 | 0% | 1 |
 | John R Thune | 100 | 0% | 1 |
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Rick Scott | 100 | 0% | 2 |
 | Pramila Jayapal | 100 | 0% | 1 |
+| Jake Auchincloss | 100 | 0% | 1 |
 | Daniel Webster | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | David Taylor | 100 | 0% | 1 |
@@ -36,33 +39,30 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Thomas R Tillis | 93 | 0% | 9 |
 | Chris Van Hollen | 93 | 0% | 4 |
 | John B. Larson | 93 | 0% | 8 |
-| John Garamendi | 93 | 0% | 4 |
 | Adam Smith | 93 | 0% | 7 |
 | Robert C. "Bobby" Scott | 92 | 0% | 8 |
-| Gus M. Bilirakis | 92 | 0% | 4 |
-| Jake Auchincloss | 91 | 0% | 1 |
+| Gus M. Bilirakis | 91 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 90 | 0% | 3 |
-| Stephanie Bice | 89 | 0% | 1 |
 | Joseph D. Morelle | 88 | 0% | 8 |
+| Stephanie Bice | 88 | 0% | 1 |
 | Lori Trahan | 86 | 0% | 1 |
-| James M. Costa | 86 | 0% | 1 |
 | Marcy Kaptur | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 85 | 0% | 4 |
-| Scott DesJarlais | 83 | 0% | 2 |
-| Marc A. Veasey | 82 | 0% | 1 |
 | Lloyd K. Smucker | 81 | 0% | 6 |
+| Marc A. Veasey | 80 | 0% | 1 |
+| Scott DesJarlais | 80 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
-| Teresa Leger Fernandez | 79 | 0% | 1 |
 | Dave Min | 78 | 0% | 1 |
-| Tom Cole | 76 | 50% | 2 |
-| Shri Thanedar | 76 | 0% | 6 |
+| Shri Thanedar | 77 | 0% | 6 |
+| Teresa Leger Fernandez | 76 | 0% | 1 |
+| Tom Cole | 75 | 50% | 2 |
 | Sara Jacobs | 74 | 0% | 9 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
+| David Rouzer | 68 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | James P. McGovern | 63 | 0% | 1 |
@@ -77,10 +77,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Warren Davidson | 47 | 25% | 4 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 40 | 22% | 9 |
-| Scott Franklin | 39 | 71% | 7 |
+| Scott Franklin | 38 | 71% | 7 |
 | Peter Welch | 35 | 13% | 8 |
 | John W. Rose | 35 | 0% | 3 |
-| Jefferson Shreve | 34 | 0% | 8 |
+| Jefferson Shreve | 33 | 0% | 8 |
 | Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Thomas R. Suozzi | 33 | 0% | 3 |
@@ -91,27 +91,27 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Steve Cohen | 27 | 20% | 10 |
 | Michael McCaul | 27 | 40% | 5 |
 | Michael Rulli | 26 | 33% | 6 |
-| Katherine M. Clark | 24 | 25% | 8 |
+| Katherine M. Clark | 25 | 25% | 8 |
+| Joe Courtney | 25 | 0% | 8 |
 | Debbie Dingell | 24 | 25% | 8 |
-| Joe Courtney | 24 | 0% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Ed Case | 22 | 20% | 5 |
 | Angus S King, Jr. | 21 | 38% | 8 |
 | Dwight Evans | 21 | 38% | 8 |
 | Jared Moskowitz | 21 | 44% | 9 |
+| Lois Frankel | 20 | 11% | 9 |
 | Roger F Wicker | 20 | 0% | 1 |
+| Judy Chu | 20 | 50% | 2 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | John Fetterman | 17 | 60% | 5 |
-| Lois Frankel | 16 | 11% | 9 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Judy Chu | 16 | 50% | 2 |
 | Tim Moore | 13 | 50% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Virginia Foxx | 11 | 11% | 9 |
