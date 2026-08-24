@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-24 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-24 17:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.5%**
 - S&P 500 (SPY) over the same windows: 78.0%
-- Priced positions: 26263  ·  still open: 10307  ·  awaiting price data: 573
+- Priced positions: 26262  ·  still open: 10303  ·  awaiting price data: 574
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -70,7 +70,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David E. Price | 98.4% | 42 |
 | Tina Smith | 98.2% | 5 |
 | Dwight Evans | 97.9% | 70 |
-| Hakeem S. Jeffries | 94.1% | 7 |
+| Hakeem S. Jeffries | 93.8% | 7 |
 | Nancy Pelosi | 86.5% | 94 |
 | Judy Chu | 84.6% | 5 |
 | Daniel S Sullivan | 84.5% | 30 |
@@ -166,8 +166,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
 | Greg Steube | 22.0% | 12 |
-| Jonathan Jackson | 21.9% | 108 |
 | Roger F Wicker | 21.9% | 3 |
+| Jonathan Jackson | 21.9% | 108 |
 | Greg Gianforte | 21.7% | 648 |
 | Nicholas Van Taylor | 21.4% | 49 |
 | Jared Moskowitz | 21.2% | 227 |
@@ -180,10 +180,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ashley Hinson Arenholz | 17.5% | 4 |
 | Michael Garcia | 17.0% | 20 |
 | Gerald E. Connolly | 16.8% | 25 |
-| Byron Donalds | 16.8% | 44 |
+| Byron Donalds | 16.7% | 44 |
 | Mo Brooks | 16.4% | 41 |
-| Roger Williams | 15.5% | 12 |
 | Ed Case | 15.4% | 13 |
+| Roger Williams | 15.4% | 12 |
 | Rick Larsen | 15.4% | 46 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
@@ -195,8 +195,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 14.4% | 84 |
 | Anthony E. Gonzalez | 14.3% | 3 |
 | Julie Johnson | 13.4% | 117 |
-| John Boozman | 13.2% | 234 |
 | Sheri Biggs | 13.2% | 50 |
+| John Boozman | 13.2% | 233 |
 | Brad Ashford | 13.1% | 5 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
