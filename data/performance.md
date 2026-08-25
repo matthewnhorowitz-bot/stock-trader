@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-25 01:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-25 01:57 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.5%**
 - S&P 500 (SPY) over the same windows: 78.0%
-- Priced positions: 26262  ·  still open: 10303  ·  awaiting price data: 574
+- Priced positions: 26263  ·  still open: 10303  ·  awaiting price data: 573
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -196,7 +196,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Anthony E. Gonzalez | 14.3% | 3 |
 | Julie Johnson | 13.4% | 117 |
 | Sheri Biggs | 13.2% | 50 |
-| John Boozman | 13.2% | 233 |
+| John Boozman | 13.2% | 234 |
 | Brad Ashford | 13.1% | 5 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
