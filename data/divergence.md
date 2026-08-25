@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-25 13:28 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-25 14:01 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -41,24 +41,24 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
 | Jake Auchincloss | 91 | 0% | 1 |
-| Victoria Spartz | 90 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 90 | 0% | 3 |
-| Stephanie Bice | 89 | 0% | 1 |
+| Victoria Spartz | 89 | 0% | 1 |
 | Joseph D. Morelle | 88 | 0% | 8 |
+| Stephanie Bice | 88 | 0% | 1 |
 | Lori Trahan | 86 | 0% | 1 |
 | James M. Costa | 86 | 0% | 1 |
 | Marcy Kaptur | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 85 | 0% | 4 |
-| Scott DesJarlais | 83 | 0% | 2 |
-| Marc A. Veasey | 82 | 0% | 1 |
+| Scott DesJarlais | 82 | 0% | 2 |
 | Lloyd K. Smucker | 81 | 0% | 6 |
+| Marc A. Veasey | 80 | 0% | 1 |
 | Tina Smith | 79 | 0% | 5 |
-| Teresa Leger Fernandez | 79 | 0% | 1 |
 | Dave Min | 78 | 0% | 1 |
+| Shri Thanedar | 77 | 0% | 6 |
+| Teresa Leger Fernandez | 76 | 0% | 1 |
 | Tom Cole | 76 | 50% | 2 |
-| Shri Thanedar | 76 | 0% | 6 |
 | Sara Jacobs | 74 | 0% | 9 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
@@ -89,8 +89,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Diana Harshbarger | 31 | 29% | 7 |
 | Laurel Lee | 30 | 50% | 6 |
 | Steve Cohen | 27 | 20% | 10 |
-| Michael McCaul | 27 | 40% | 5 |
 | Michael Rulli | 26 | 33% | 6 |
+| Michael McCaul | 26 | 40% | 5 |
 | Katherine M. Clark | 24 | 25% | 8 |
 | Debbie Dingell | 24 | 25% | 8 |
 | Joe Courtney | 24 | 0% | 8 |
@@ -109,9 +109,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Brian Babin | 18 | 0% | 2 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | John Fetterman | 17 | 60% | 5 |
-| Lois Frankel | 16 | 11% | 9 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Judy Chu | 16 | 50% | 2 |
+| Lois Frankel | 15 | 11% | 9 |
+| Judy Chu | 15 | 50% | 2 |
 | Tim Moore | 13 | 50% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Virginia Foxx | 11 | 11% | 9 |
