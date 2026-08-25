@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-25 20:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-25 21:00 UTC._
 
 ## Total
 
@@ -179,7 +179,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jackie Speier | 19.2% | 3 |
 | Michael Garcia | 16.9% | 20 |
 | Gerald E. Connolly | 16.8% | 25 |
-| Byron Donalds | 16.7% | 44 |
+| Byron Donalds | 16.6% | 44 |
 | Mo Brooks | 16.4% | 41 |
 | Rick Larsen | 16.0% | 46 |
 | Anthony E. Gonzalez | 16.0% | 3 |
