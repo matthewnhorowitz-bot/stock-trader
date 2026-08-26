@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-26 14:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-26 15:00 UTC._
 
 ## Total
 
@@ -114,7 +114,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tim Moore | 47.7% | 159 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
-| Gilbert Cisneros | 46.5% | 1480 |
+| Gilbert Cisneros | 46.6% | 1480 |
 | Rafael E Cruz | 45.6% | 3 |
 | William R. Keating | 45.4% | 88 |
 | Susie Lee | 44.6% | 628 |
