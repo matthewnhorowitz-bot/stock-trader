@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T10:07:40.044Z",
+  "generatedAt": "2026-08-27T11:07:09.071Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -1160,9 +1160,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.951,
+          "voteStance": 0.95,
           "portfolioStance": -1,
-          "divergence": 0.951,
+          "divergence": 0.95,
           "exposure": 351007,
           "aligned": false,
           "tickers": [
@@ -1451,9 +1451,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.855,
+          "voteStance": 0.852,
           "portfolioStance": -1,
-          "divergence": 0.855,
+          "divergence": 0.852,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2380,7 +2380,7 @@
     {
       "member": "Gus M. Bilirakis",
       "chamber": "house",
-      "ds": 91,
+      "ds": 92,
       "alignmentRate": 0,
       "sectorsScored": 4,
       "sectors": [
@@ -2403,9 +2403,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.938,
           "portfolioStance": -1,
-          "divergence": 0.926,
+          "divergence": 0.938,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2832,9 +2832,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.857,
+          "voteStance": 0.86,
           "portfolioStance": -1,
-          "divergence": 0.857,
+          "divergence": 0.86,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2884,9 +2884,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.86,
+          "voteStance": 0.858,
           "portfolioStance": -1,
-          "divergence": 0.86,
+          "divergence": 0.858,
           "exposure": 1280,
           "aligned": false,
           "tickers": [
@@ -3265,6 +3265,49 @@
       ]
     },
     {
+      "member": "Scott DesJarlais",
+      "chamber": "house",
+      "ds": 83,
+      "alignmentRate": 0,
+      "sectorsScored": 2,
+      "sectors": [
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 0.86,
+          "portfolioStance": -1,
+          "divergence": 0.86,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "PEP"
+          ],
+          "example": {
+            "title": "Stopping Needless Additional Performance Bonuses (SNAP) Act of 2013",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.824,
+          "portfolioStance": -1,
+          "divergence": 0.824,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "UPS"
+          ],
+          "example": {
+            "title": "Acknowledging and commemorating the women in the Army who served in the Women's Army Auxiliary Corps and the Women's Army Corp during World War II.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Marc A. Veasey",
       "chamber": "house",
       "ds": 82,
@@ -3401,49 +3444,6 @@
           "example": {
             "title": "Roberto Clemente Commemorative Coin Act",
             "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Scott DesJarlais",
-      "chamber": "house",
-      "ds": 80,
-      "alignmentRate": 0,
-      "sectorsScored": 2,
-      "sectors": [
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 0.86,
-          "portfolioStance": -1,
-          "divergence": 0.86,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "PEP"
-          ],
-          "example": {
-            "title": "Stopping Needless Additional Performance Bonuses (SNAP) Act of 2013",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.8,
-          "portfolioStance": -1,
-          "divergence": 0.8,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "UPS"
-          ],
-          "example": {
-            "title": "Acknowledging and commemorating the women in the Army who served in the Women's Army Auxiliary Corps and the Women's Army Corp during World War II.",
-            "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -3606,52 +3606,9 @@
       ]
     },
     {
-      "member": "Tom Cole",
-      "chamber": "house",
-      "ds": 76,
-      "alignmentRate": 50,
-      "sectorsScored": 2,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.76,
-          "portfolioStance": -1,
-          "divergence": 0.76,
-          "exposure": 500001,
-          "aligned": false,
-          "tickers": [
-            "WFC"
-          ],
-          "example": {
-            "title": "761st Tank Battalion Congressional Gold Medal Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 0.96,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 1001,
-          "aligned": true,
-          "tickers": [
-            "EMBC"
-          ],
-          "example": {
-            "title": "Medical Student Education Authorization Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Shri Thanedar",
       "chamber": "house",
-      "ds": 76,
+      "ds": 77,
       "alignmentRate": 0,
       "sectorsScored": 6,
       "sectors": [
@@ -3729,9 +3686,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.8,
+          "voteStance": 0.818,
           "portfolioStance": -1,
-          "divergence": 0.8,
+          "divergence": 0.818,
           "exposure": 233008,
           "aligned": false,
           "tickers": [
@@ -3762,6 +3719,49 @@
           ],
           "example": {
             "title": "Digital Literacy and Equity Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Tom Cole",
+      "chamber": "house",
+      "ds": 76,
+      "alignmentRate": 50,
+      "sectorsScored": 2,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.76,
+          "portfolioStance": -1,
+          "divergence": 0.76,
+          "exposure": 500001,
+          "aligned": false,
+          "tickers": [
+            "WFC"
+          ],
+          "example": {
+            "title": "761st Tank Battalion Congressional Gold Medal Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 0.96,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 1001,
+          "aligned": true,
+          "tickers": [
+            "EMBC"
+          ],
+          "example": {
+            "title": "Medical Student Education Authorization Act of 2025",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -4185,9 +4185,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.818,
+          "voteStance": 0.833,
           "portfolioStance": -1,
-          "divergence": 0.818,
+          "divergence": 0.833,
           "exposure": 31003,
           "aligned": false,
           "tickers": [
@@ -4227,15 +4227,15 @@
     {
       "member": "David Rouzer",
       "chamber": "house",
-      "ds": 68,
+      "ds": 70,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.676,
+          "voteStance": 0.703,
           "portfolioStance": -1,
-          "divergence": 0.676,
+          "divergence": 0.703,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -5429,9 +5429,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.404,
+          "voteStance": 0.439,
           "portfolioStance": -1,
-          "divergence": 0.404,
+          "divergence": 0.439,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -5564,7 +5564,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.792,
+          "voteStance": 0.83,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -6116,7 +6116,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.919,
+          "voteStance": 0.951,
           "portfolioStance": 0.545,
           "divergence": 0,
           "exposure": 66003,
@@ -6381,7 +6381,7 @@
     {
       "member": "Jefferson Shreve",
       "chamber": "house",
-      "ds": 33,
+      "ds": 34,
       "alignmentRate": 0,
       "sectorsScored": 8,
       "sectors": [
@@ -6589,9 +6589,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.822,
+          "voteStance": 0.864,
           "portfolioStance": -0.315,
-          "divergence": 0.259,
+          "divergence": 0.272,
           "exposure": 1563072,
           "aligned": false,
           "tickers": [
@@ -6760,9 +6760,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.87,
+          "voteStance": 0.92,
           "portfolioStance": -0.33,
-          "divergence": 0.287,
+          "divergence": 0.304,
           "exposure": 5976,
           "aligned": false,
           "tickers": [
@@ -7560,7 +7560,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.831,
+          "voteStance": 0.898,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -8061,9 +8061,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.8,
+          "voteStance": 0.813,
           "portfolioStance": -1,
-          "divergence": 0.8,
+          "divergence": 0.813,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -9163,9 +9163,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.895,
+          "voteStance": 0.919,
           "portfolioStance": -0.245,
-          "divergence": 0.219,
+          "divergence": 0.225,
           "exposure": 143059,
           "aligned": false,
           "tickers": [
@@ -10246,6 +10246,102 @@
       ]
     },
     {
+      "member": "David Kustoff",
+      "chamber": "house",
+      "ds": 19,
+      "alignmentRate": 40,
+      "sectorsScored": 5,
+      "sectors": [
+        {
+          "sector": "Energy",
+          "voteStance": 0.8,
+          "portfolioStance": -1,
+          "divergence": 0.8,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "XOM"
+          ],
+          "example": {
+            "title": "Hatchie River Wild and Scenic River Study Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.774,
+          "portfolioStance": -1,
+          "divergence": 0.774,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "GE"
+          ],
+          "example": {
+            "title": "Honoring the life, achievements, and legacy of Frederick W. Smith.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": 0.118,
+          "divergence": 0,
+          "exposure": 34006,
+          "aligned": true,
+          "tickers": [
+            "MSFT",
+            "AMD"
+          ],
+          "example": {
+            "title": "Cellphone Jamming Reform Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": 0.063,
+          "divergence": 0,
+          "exposure": 32004,
+          "aligned": true,
+          "tickers": [
+            "ROKU"
+          ],
+          "example": {
+            "title": "Condemning Hamas for its premeditated, coordinated, and brutal terrorist attacks on October 7, 2023, against Israel and demanding that Hamas immediately release all remaining hostages and return them to safety, and for other purposes.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 30002,
+          "aligned": false,
+          "tickers": [
+            "SBUX",
+            "AMZN"
+          ],
+          "example": {
+            "title": "DO NOT Call Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Valerie Hoyle",
       "chamber": "house",
       "ds": 19,
@@ -10904,102 +11000,6 @@
       ]
     },
     {
-      "member": "David Kustoff",
-      "chamber": "house",
-      "ds": 18,
-      "alignmentRate": 40,
-      "sectorsScored": 5,
-      "sectors": [
-        {
-          "sector": "Energy",
-          "voteStance": 0.8,
-          "portfolioStance": -1,
-          "divergence": 0.8,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "XOM"
-          ],
-          "example": {
-            "title": "Hatchie River Wild and Scenic River Study Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.736,
-          "portfolioStance": -1,
-          "divergence": 0.736,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "GE"
-          ],
-          "example": {
-            "title": "Honoring the life, achievements, and legacy of Frederick W. Smith.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": 0.118,
-          "divergence": 0,
-          "exposure": 34006,
-          "aligned": true,
-          "tickers": [
-            "MSFT",
-            "AMD"
-          ],
-          "example": {
-            "title": "Cellphone Jamming Reform Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": 0.063,
-          "divergence": 0,
-          "exposure": 32004,
-          "aligned": true,
-          "tickers": [
-            "ROKU"
-          ],
-          "example": {
-            "title": "Condemning Hamas for its premeditated, coordinated, and brutal terrorist attacks on October 7, 2023, against Israel and demanding that Hamas immediately release all remaining hostages and return them to safety, and for other purposes.",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 30002,
-          "aligned": false,
-          "tickers": [
-            "SBUX",
-            "AMZN"
-          ],
-          "example": {
-            "title": "DO NOT Call Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "August Lee Pfluger",
       "chamber": "house",
       "ds": 18,
@@ -11083,7 +11083,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.901,
+          "voteStance": 0.919,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -11888,9 +11888,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.84,
+          "voteStance": 0.878,
           "portfolioStance": -0.066,
-          "divergence": 0.055,
+          "divergence": 0.058,
           "exposure": 1372034,
           "aligned": false,
           "tickers": [
@@ -12412,9 +12412,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.961,
+          "voteStance": 1,
           "portfolioStance": -0.132,
-          "divergence": 0.127,
+          "divergence": 0.132,
           "exposure": 569065,
           "aligned": false,
           "tickers": [
@@ -12999,7 +12999,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.643,
+          "voteStance": 0.679,
           "portfolioStance": 0.429,
           "divergence": 0,
           "exposure": 7007,
@@ -13081,7 +13081,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.846,
+          "voteStance": 0.855,
           "portfolioStance": -0.016,
           "divergence": 0.014,
           "exposure": 61005,
@@ -13240,9 +13240,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.914,
+          "voteStance": 0.925,
           "portfolioStance": -0.077,
-          "divergence": 0.07,
+          "divergence": 0.071,
           "exposure": 13013,
           "aligned": false,
           "tickers": [
@@ -13713,7 +13713,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.929,
+          "voteStance": 0.928,
           "portfolioStance": 0.032,
           "divergence": 0,
           "exposure": 1947266,
@@ -14563,7 +14563,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.621,
+          "voteStance": 0.69,
           "portfolioStance": 0.03,
           "divergence": 0,
           "exposure": 4865097,
@@ -15159,9 +15159,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.574,
+          "voteStance": 0.566,
           "portfolioStance": -1,
-          "divergence": 0.574,
+          "divergence": 0.566,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -15873,7 +15873,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.978,
+          "voteStance": 1,
           "portfolioStance": 0.362,
           "divergence": 0,
           "exposure": 47033,
@@ -16273,7 +16273,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.945,
+          "voteStance": 0.967,
           "portfolioStance": 0.857,
           "divergence": 0,
           "exposure": 28014,
@@ -16408,9 +16408,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.942,
+          "voteStance": 1,
           "portfolioStance": -0.393,
-          "divergence": 0.37,
+          "divergence": 0.393,
           "exposure": 89019,
           "aligned": false,
           "tickers": [
@@ -17509,7 +17509,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.692,
+          "voteStance": 0.707,
           "portfolioStance": 0.007,
           "divergence": 0,
           "exposure": 282016,
@@ -17871,7 +17871,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.853,
+          "voteStance": 0.909,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 6006,
@@ -18014,7 +18014,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.732,
+          "voteStance": 0.758,
           "portfolioStance": 0.111,
           "divergence": 0,
           "exposure": 36036,
@@ -19678,7 +19678,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.897,
+          "voteStance": 0.923,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -20563,7 +20563,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.79,
+          "voteStance": 0.818,
           "portfolioStance": 0.857,
           "divergence": 0,
           "exposure": 14014,
@@ -21309,7 +21309,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.757,
+          "voteStance": 0.75,
           "portfolioStance": 0.836,
           "divergence": 0,
           "exposure": 220066,
@@ -21767,7 +21767,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.87,
+          "voteStance": 0.922,
           "portfolioStance": 0.06,
           "divergence": 0,
           "exposure": 232162,
@@ -22291,7 +22291,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.839,
+          "voteStance": 0.903,
           "portfolioStance": 0.5,
           "divergence": 0,
           "exposure": 24024,
@@ -22464,7 +22464,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.923,
+          "voteStance": 0.954,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 76006,
@@ -22617,7 +22617,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.636,
+          "voteStance": 0.676,
           "portfolioStance": 0.053,
           "divergence": 0,
           "exposure": 38010,
