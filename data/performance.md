@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-28 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-28 17:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.9%**
 - S&P 500 (SPY) over the same windows: 78.0%
-- Priced positions: 26263  ·  still open: 10303  ·  awaiting price data: 573
+- Priced positions: 26264  ·  still open: 10303  ·  awaiting price data: 573
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -20,11 +20,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Luis V. Gutierrez | 451.2% | 6 |
 | Brenda Lulenar Lawrence | 426.8% | 19 |
 | Barbara J Comstock | 412.0% | 29 |
-| Ashley Moody | 380.0% | 3 |
+| Ashley Moody | 376.2% | 3 |
 | Michael Fq San Nicolas | 374.3% | 1 |
 | Christopher A Coons | 281.1% | 2 |
 | William M. Cassidy | 272.8% | 1 |
-| Ron L Wyden | 259.7% | 196 |
+| Ron L Wyden | 259.1% | 196 |
 | Steve Chabot | 255.9% | 2 |
 | Raul Ruiz | 253.4% | 1 |
 | Brian Higgins | 236.4% | 1 |
@@ -59,7 +59,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Robert B. Aderholt | 109.1% | 1 |
 | Gary C Peters | 108.9% | 50 |
-| Deborah K. Ross | 107.6% | 21 |
+| Deborah K. Ross | 106.9% | 21 |
 | Victoria Spartz | 106.5% | 21 |
 | Justin Amash | 105.9% | 11 |
 | Kathy Castor | 105.1% | 39 |
@@ -108,13 +108,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tammy Duckworth | 55.4% | 4 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
-| Dan Newhouse | 50.1% | 110 |
+| Dan Newhouse | 50.0% | 110 |
 | Max Miller | 48.6% | 1 |
-| Bradley S. Schneider | 48.2% | 40 |
 | Tim Moore | 47.8% | 159 |
 | Rafael E Cruz | 47.2% | 3 |
 | Gilbert Cisneros | 47.2% | 1480 |
 | Raúl M. Grijalva | 47.0% | 47 |
+| Bradley S. Schneider | 47.0% | 40 |
 | Bob Gibbs | 46.7% | 94 |
 | Susie Lee | 45.8% | 628 |
 | William R. Keating | 45.6% | 88 |
@@ -122,8 +122,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Josh Gottheimer | 43.8% | 1436 |
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
-| Angus S King, Jr. | 41.5% | 34 |
 | Kelly Louise Morrison | 41.4% | 13 |
+| Angus S King, Jr. | 41.1% | 34 |
 | Harley E. Rouda | 41.1% | 3 |
 | Cynthia M Lummis | 40.7% | 1 |
 | Harold Dallas Rogers | 40.3% | 8 |
@@ -169,8 +169,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Cornyn | 22.3% | 1 |
 | Roger F Wicker | 21.9% | 3 |
 | Greg Gianforte | 21.7% | 648 |
-| Jared Moskowitz | 21.4% | 227 |
 | Nicholas Van Taylor | 21.4% | 49 |
+| Jared Moskowitz | 21.2% | 228 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
 | Greg Steube | 20.8% | 12 |
 | Laurel Lee | 20.3% | 7 |
@@ -185,7 +185,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mo Brooks | 16.4% | 41 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
-| Jefferson Shreve | 15.0% | 173 |
+| Jefferson Shreve | 14.8% | 173 |
 | Rick Larsen | 14.8% | 46 |
 | Roger Williams | 14.7% | 12 |
 | James M Inhofe | 14.6% | 77 |
