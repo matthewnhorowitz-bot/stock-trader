@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-28 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-28 18:01 UTC._
 
 ## Total
 
@@ -269,10 +269,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John W Hickenlooper | -9.3% | 38 |
 | David H McCormick | -9.4% | 24 |
 | David A. Trott | -10.2% | 89 |
-| John J McGuire | -10.5% | 1 |
 | Mark R Meadows | -11.0% | 5 |
 | William F Hagerty, IV | -11.4% | 1 |
 | Ron Estes | -12.1% | 6 |
+| John J McGuire | -14.1% | 1 |
 | Eric Cantor | -15.1% | 1 |
 | James E Banks | -16.7% | 16 |
 | Kevin Yoder | -20.1% | 6 |
