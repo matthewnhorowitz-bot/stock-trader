@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-28 05:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-08-28 06:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -56,7 +56,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Shri Thanedar | 85 | 0% | 6 |
 | Dave Min | 83 | 0% | 1 |
 | Scott DesJarlais | 81 | 0% | 2 |
-| Lloyd K. Smucker | 79 | 0% | 6 |
+| Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Sara Jacobs | 75 | 0% | 9 |
 | Tom Cole | 75 | 50% | 2 |
