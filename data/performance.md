@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-29 07:12 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-29 07:21 UTC._
 
 ## Total
 
@@ -278,7 +278,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Yoder | -20.1% | 6 |
 | Billy Long | -21.9% | 1 |
 | Chip Roy | -25.2% | 2 |
-| Felix Barry Moore | -32.5% | 5 |
+| Felix Barry Moore | -34.4% | 5 |
 | David Madison Cawthorn | -34.4% | 15 |
 | Larry Bucshon | -43.1% | 1 |
 | Steve Knight | -43.3% | 3 |
