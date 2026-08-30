@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-30 08:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-30 09:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 57.9%**
-- S&P 500 (SPY) over the same windows: 78.9%
-- Priced positions: 26286  ·  still open: 10322  ·  awaiting price data: 573
+- S&P 500 (SPY) over the same windows: 79.0%
+- Priced positions: 26288  ·  still open: 10324  ·  awaiting price data: 573
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -18,7 +18,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Barbara J. Comstock | 598.4% | 2 |
 | Sheldon Whitehouse | 547.9% | 445 |
 | Luis V. Gutierrez | 458.2% | 6 |
-| Brenda Lulenar Lawrence | 426.9% | 19 |
+| Brenda Lulenar Lawrence | 424.9% | 19 |
 | Barbara J Comstock | 415.1% | 29 |
 | Ashley Moody | 375.9% | 3 |
 | Michael Fq San Nicolas | 374.3% | 1 |
@@ -51,7 +51,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Grace Meng | 122.8% | 5 |
 | James French Hill | 121.3% | 24 |
 | Shri Thanedar | 121.0% | 1 |
-| Thomas Suozzi | 120.5% | 283 |
+| Thomas Suozzi | 120.2% | 283 |
 | Stephen F. Lynch | 120.0% | 1 |
 | Lamar Smith | 119.5% | 222 |
 | Scott H. Peters | 118.0% | 105 |
@@ -59,7 +59,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Robert B. Aderholt | 112.5% | 1 |
 | Gary C Peters | 108.9% | 50 |
-| Deborah K. Ross | 107.2% | 21 |
+| Deborah K. Ross | 106.6% | 21 |
 | Victoria Spartz | 106.5% | 21 |
 | Justin Amash | 105.9% | 11 |
 | K. Michael Conaway | 105.1% | 283 |
@@ -93,18 +93,18 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert J. Wittman | 70.3% | 116 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Neal Patrick MD, Facs Dunn | 68.4% | 6 |
-| David Kustoff | 67.1% | 9 |
 | Michael Patrick Guest | 67.1% | 48 |
 | Kevin Hern | 66.3% | 540 |
 | Lloyd Doggett | 65.9% | 208 |
+| David Kustoff | 65.4% | 9 |
 | Scott Franklin | 63.0% | 49 |
 | Carol Devine Miller | 61.7% | 62 |
-| Richard W. Allen | 60.7% | 159 |
 | William Cassidy | 60.2% | 87 |
+| Richard W. Allen | 60.0% | 161 |
 | Lois Frankel | 59.5% | 439 |
 | David A Perdue , Jr | 58.5% | 1255 |
 | Virginia Foxx | 56.7% | 602 |
-| John Curtis | 55.9% | 128 |
+| John Curtis | 55.7% | 128 |
 | Tammy Duckworth | 55.4% | 4 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
@@ -122,8 +122,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Josh Gottheimer | 43.8% | 1436 |
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
-| Angus S King, Jr. | 41.2% | 34 |
 | Harley E. Rouda | 41.1% | 3 |
+| Angus S King, Jr. | 41.0% | 34 |
 | Kelly Louise Morrison | 40.9% | 13 |
 | Cynthia M Lummis | 40.7% | 1 |
 | Harold Dallas Rogers | 40.3% | 8 |
@@ -155,15 +155,15 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | John W. Rose | 27.6% | 1 |
 | William R. Timmons | 27.5% | 6 |
-| Julia Letlow | 26.4% | 154 |
+| Julia Letlow | 26.3% | 154 |
 | Earl Blumenauer | 26.1% | 239 |
 | Kathy Manning | 25.3% | 276 |
 | Thomas H. Kean | 24.6% | 83 |
 | Aston Donald McEachin | 24.3% | 6 |
 | Peter Allen Stauber | 24.3% | 1 |
 | Cliff Bentz | 23.3% | 2 |
-| Cleo Fields | 22.9% | 181 |
 | Kelly Loeffler | 22.8% | 97 |
+| Cleo Fields | 22.8% | 181 |
 | Jonathan Jackson | 22.5% | 108 |
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
@@ -186,14 +186,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Rick Larsen | 14.9% | 46 |
-| Jefferson Shreve | 14.8% | 173 |
 | Roger Williams | 14.7% | 12 |
+| Jefferson Shreve | 14.7% | 173 |
 | James M Inhofe | 14.6% | 77 |
 | August Lee Pfluger | 14.6% | 12 |
 | Patrick J Toomey | 14.4% | 84 |
 | Brian Mast | 14.1% | 31 |
 | C. Scott Franklin | 14.1% | 35 |
-| John Boozman | 14.1% | 234 |
+| John Boozman | 14.0% | 234 |
 | Sheri Biggs | 13.5% | 50 |
 | Julie Johnson | 13.3% | 117 |
 | Brad Ashford | 13.1% | 5 |
