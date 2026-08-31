@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-08-31 22:57 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-08-31 23:03 UTC._
 
 ## Total
 
@@ -90,7 +90,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert J. Wittman | 70.6% | 116 |
 | Morgan McGarvey | 70.6% | 9 |
 | Peter Welch | 70.5% | 36 |
-| Debbie Wasserman Schultz | 69.6% | 36 |
+| Debbie Wasserman Schultz | 69.8% | 36 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Neal Patrick MD, Facs Dunn | 68.4% | 6 |
 | David Kustoff | 67.1% | 9 |
