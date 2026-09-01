@@ -30676,7 +30676,7 @@
   },
   "DLICY": {
     "d": {},
-    "latest": 22.85,
+    "latest": 22.82,
     "latestDate": "2026-08-31"
   },
   "EBKDY": {
@@ -32482,7 +32482,7 @@
   },
   "SMPNY": {
     "d": {},
-    "latest": 21.31,
+    "latest": 21.3,
     "latestDate": "2026-08-31"
   },
   "AONNY": {
@@ -38180,8 +38180,9 @@
   "RTC": {
     "d": {},
     "latest": 0.31,
-    "latestDate": "2026-06-08",
-    "miss": true
+    "latestDate": "2026-08-28",
+    "miss": true,
+    "src": "tiingo"
   },
   "BOOK": {
     "d": {},
@@ -46996,8 +46997,9 @@
   "PLT": {
     "d": {},
     "latest": 12.38,
-    "latestDate": "2026-01-26",
-    "miss": true
+    "latestDate": "2026-08-31",
+    "miss": true,
+    "src": "tiingo"
   },
   "VVNT": {
     "d": {
@@ -59266,7 +59268,7 @@
       "2026-01-01": 1831.67,
       "2026-07-01": 1142.42
     },
-    "latest": 1300,
+    "latest": 1314.35,
     "latestDate": "2026-08-31"
   },
   "LEN": {
@@ -61474,8 +61476,8 @@
       "2026-07-01": 24.84
     },
     "miss": true,
-    "latest": 25.98,
-    "latestDate": "2026-08-07",
+    "latest": 24.28,
+    "latestDate": "2026-08-31",
     "src": "tiingo"
   },
   "BC": {
@@ -64311,7 +64313,7 @@
     "d": {},
     "miss": true,
     "latest": 39.91,
-    "latestDate": "2026-08-07",
+    "latestDate": "2026-08-31",
     "src": "tiingo"
   },
   "DGNR": {
@@ -65312,8 +65314,8 @@
       "2026-07-01": 26.22
     },
     "miss": true,
-    "latest": 23.3,
-    "latestDate": "2026-08-07",
+    "latest": 21.22,
+    "latestDate": "2026-08-31",
     "src": "tiingo"
   },
   "DWDP": {
@@ -65468,7 +65470,8 @@
     },
     "latest": 98.77,
     "latestDate": "2018-06-15",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "IBM.MX": {
     "d": {
@@ -66010,11 +66013,19 @@
   "RSPP": {
     "d": {
       "2017-07-03": 33.2,
-      "2015-09-10": 23.75
+      "2015-09-10": 23.75,
+      "2018-07-19": 47.83,
+      "2016-01-01": 76.5,
+      "2016-07-01": 109.72,
+      "2017-01-01": 141.88,
+      "2017-07-01": 103.75,
+      "2018-01-01": 130.03,
+      "2018-07-01": 134.94
     },
     "latest": 47.83,
-    "latestDate": "2018-07-18",
-    "miss": true
+    "latestDate": "2018-07-19",
+    "miss": true,
+    "src": "tiingo"
   },
   "HACK": {
     "d": {
@@ -67132,8 +67143,9 @@
       "2017-01-01": 77.05
     },
     "latest": 77.05,
-    "latestDate": "2017-03-20",
-    "miss": true
+    "latestDate": "2016-10-03",
+    "miss": true,
+    "src": "tiingo"
   },
   "SPY160219P00180000": {
     "d": {},
@@ -67304,7 +67316,8 @@
     },
     "latest": 62.99,
     "latestDate": "2018-10-09",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "CMRE": {
     "d": {
@@ -67372,8 +67385,9 @@
       "2016-08-22": 76.51
     },
     "latest": 92.33,
-    "latestDate": "2018-12-21",
-    "miss": true
+    "latestDate": "2018-12-20",
+    "miss": true,
+    "src": "tiingo"
   },
   "TOLLX": {
     "d": {
@@ -67389,10 +67403,35 @@
     "latestDate": "2026-08-31"
   },
   "DVFAX": {
-    "d": {},
-    "latest": 10.83,
-    "latestDate": "2024-02-26",
-    "miss": true
+    "d": {
+      "2015-07-20": 7.08,
+      "2016-01-01": 6.69,
+      "2016-07-01": 6.97,
+      "2017-01-01": 7.8,
+      "2017-07-01": 8.23,
+      "2018-01-01": 9.11,
+      "2018-07-01": 8.24,
+      "2019-01-01": 7.68,
+      "2019-07-01": 9.02,
+      "2020-01-01": 10.05,
+      "2020-07-01": 8.34,
+      "2021-01-01": 9.37,
+      "2021-07-01": 10.78,
+      "2022-01-01": 11.22,
+      "2022-07-01": 10.17,
+      "2023-01-01": 10.03,
+      "2023-07-01": 10.21,
+      "2024-01-01": 10.77,
+      "2015-07-17": 7.09,
+      "2015-01-09": 7.02,
+      "2015-07-01": 7.06,
+      "2014-07-21": 6.74,
+      "2015-01-01": 7.06
+    },
+    "latest": 11.03,
+    "latestDate": "2024-05-15",
+    "miss": true,
+    "src": "tiingo"
   },
   "WASCX": {
     "d": {
@@ -67529,7 +67568,8 @@
     },
     "latest": 85.46,
     "latestDate": "2023-06-09",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "TBF": {
     "d": {
@@ -68214,13 +68254,15 @@
     },
     "latest": 179.2,
     "latestDate": "2019-01-08",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "IPXL": {
     "d": {},
     "latest": 18.3,
     "latestDate": "2018-05-04",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "SNHY": {
     "d": {
@@ -68337,8 +68379,9 @@
       "2018-04-20": 32.47
     },
     "latest": 35.4,
-    "latestDate": "2018-12-17",
-    "miss": true
+    "latestDate": "2018-12-14",
+    "miss": true,
+    "src": "tiingo"
   },
   "OMI": {
     "d": {
@@ -68483,15 +68526,17 @@
     },
     "latest": 87.16,
     "latestDate": "2018-12-27",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "FINL": {
     "d": {
       "2018-04-13": 13.39
     },
     "latest": 13.51,
-    "latestDate": "2018-06-27",
-    "miss": true
+    "latestDate": "2018-06-18",
+    "miss": true,
+    "src": "tiingo"
   },
   "DBOEY": {
     "d": {
@@ -68824,7 +68869,8 @@
     },
     "latest": 43.31,
     "latestDate": "2018-07-02",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "RMP": {
     "d": {
@@ -69241,9 +69287,10 @@
       "2017-01-10": 0.13,
       "2019-01-03": 0.04
     },
-    "latest": 0.05,
-    "latestDate": "2020-11-30",
-    "miss": true
+    "latest": 141.04,
+    "latestDate": "2018-11-26",
+    "miss": true,
+    "src": "tiingo"
   },
   "AINV": {
     "d": {
@@ -69618,8 +69665,8 @@
       "2026-07-01": 9.0399
     },
     "miss": true,
-    "latest": 14.11,
-    "latestDate": "2026-08-07",
+    "latest": 14.2,
+    "latestDate": "2026-08-31",
     "src": "tiingo"
   },
   "ANDE": {
@@ -70530,7 +70577,8 @@
     },
     "latest": 15.75,
     "latestDate": "2019-05-30",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "FUJIY": {
     "d": {
@@ -71818,8 +71866,9 @@
       "2018-08-03": 16.69
     },
     "latest": 12.05,
-    "latestDate": "2019-01-28",
-    "miss": true
+    "latestDate": "2019-01-25",
+    "miss": true,
+    "src": "tiingo"
   },
   "AEZS": {
     "d": {},
@@ -72052,8 +72101,9 @@
       "2018-07-01": 44.12
     },
     "latest": 44.74,
-    "latestDate": "2018-08-24",
-    "miss": true
+    "latestDate": "2018-08-27",
+    "miss": true,
+    "src": "tiingo"
   },
   "KYOCF": {
     "d": {
@@ -72280,8 +72330,9 @@
       "2017-01-01": 25.6
     },
     "latest": 14.75,
-    "latestDate": "2018-12-10",
-    "miss": true
+    "latestDate": "2018-11-29",
+    "miss": true,
+    "src": "tiingo"
   },
   "BT": {
     "d": {},
@@ -72577,8 +72628,9 @@
       "2017-03-06": 37.47
     },
     "latest": 47.37,
-    "latestDate": "2018-08-10",
-    "miss": true
+    "latestDate": "2018-08-13",
+    "miss": true,
+    "src": "tiingo"
   },
   "FNMAJ": {
     "d": {
@@ -72991,7 +73043,8 @@
     },
     "latest": 134.5,
     "latestDate": "2018-06-06",
-    "miss": true
+    "miss": true,
+    "src": "tiingo"
   },
   "EUO": {
     "d": {
@@ -73701,8 +73754,9 @@
       "2015-07-01": 124.27
     },
     "latest": 212.7,
-    "latestDate": "2018-11-29",
-    "miss": true
+    "latestDate": "2018-11-28",
+    "miss": true,
+    "src": "tiingo"
   },
   "MATX": {
     "d": {
@@ -74093,7 +74147,7 @@
     "d": {},
     "miss": true,
     "latest": 24.79,
-    "latestDate": "2026-08-07",
+    "latestDate": "2026-08-31",
     "src": "tiingo"
   },
   "TIME": {
@@ -74132,7 +74186,7 @@
     "d": {},
     "miss": true,
     "latest": 2.26,
-    "latestDate": "2026-08-07",
+    "latestDate": "2026-08-31",
     "src": "tiingo"
   },
   "ESE": {
@@ -74335,8 +74389,8 @@
       "2026-07-01": 22.5
     },
     "miss": true,
-    "latest": 22.27,
-    "latestDate": "2026-08-07",
+    "latest": 43.06,
+    "latestDate": "2026-08-31",
     "src": "tiingo"
   },
   "HGH": {

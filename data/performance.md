@@ -1,18 +1,19 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-01 03:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-01 04:01 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 57.4%**
-- S&P 500 (SPY) over the same windows: 79.0%
-- Priced positions: 26288  ·  still open: 10324  ·  awaiting price data: 573
+- **Index (all tracked buys): 63.4%**
+- S&P 500 (SPY) over the same windows: 79.1%
+- Priced positions: 26296  ·  still open: 10324  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
+| Pete Sessions | 1097.6% | 176 |
 | Brian Babin | 795.7% | 6 |
 | Charlie Joseph Crist | 599.0% | 1 |
 | Barbara J. Comstock | 598.4% | 2 |
@@ -28,11 +29,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ron L Wyden | 252.6% | 196 |
 | Raul Ruiz | 242.2% | 1 |
 | Brian Higgins | 236.4% | 1 |
-| Susan M Collins | 228.9% | 181 |
+| Susan M Collins | 222.5% | 188 |
 | Roger W. Marshall | 213.7% | 51 |
 | Richard L. Hanna | 212.1% | 91 |
 | Michael Waltz | 210.8% | 2 |
-| Pete Sessions | 207.5% | 176 |
 | David Cheston Rouzer | 205.2% | 8 |
 | Gary C. Peters | 198.1% | 7 |
 | Seth Moulton | 196.5% | 1 |
@@ -183,11 +183,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Garcia | 16.7% | 20 |
 | Mo Brooks | 16.4% | 41 |
 | Ashley Hinson Arenholz | 15.9% | 4 |
+| James M Inhofe | 15.8% | 78 |
 | Roger Williams | 15.5% | 12 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Rick Larsen | 14.8% | 46 |
-| James M Inhofe | 14.6% | 77 |
 | Jefferson Shreve | 14.5% | 173 |
 | Brian Mast | 14.4% | 31 |
 | August Lee Pfluger | 14.4% | 12 |

@@ -1,16 +1,21 @@
 {
-  "generatedAt": "2026-09-01T03:01:05.254Z",
+  "generatedAt": "2026-09-01T04:01:07.012Z",
   "basis": "copyable return (from disclosure date)",
   "totals": {
     "positions": 26861,
-    "priced": 26288,
+    "priced": 26296,
     "open": 10324,
-    "unpriced": 573,
-    "coverage": 0.9786679572614572,
-    "avgReturn": 0.574345127365896,
-    "spyAvgReturn": 0.7902621756385207
+    "unpriced": 565,
+    "coverage": 0.9789657868284874,
+    "avgReturn": 0.633935212613951,
+    "spyAvgReturn": 0.7909379294562114
   },
   "perMember": [
+    {
+      "member": "Pete Sessions",
+      "positions": 176,
+      "avgReturn": 10.975512332792292
+    },
     {
       "member": "Brian Babin",
       "positions": 6,
@@ -88,8 +93,8 @@
     },
     {
       "member": "Susan M Collins",
-      "positions": 181,
-      "avgReturn": 2.288910448777862
+      "positions": 188,
+      "avgReturn": 2.2249945938202713
     },
     {
       "member": "Roger W. Marshall",
@@ -105,11 +110,6 @@
       "member": "Michael Waltz",
       "positions": 2,
       "avgReturn": 2.108146126039117
-    },
-    {
-      "member": "Pete Sessions",
-      "positions": 176,
-      "avgReturn": 2.0746284944084548
     },
     {
       "member": "David Cheston Rouzer",
@@ -862,6 +862,11 @@
       "avgReturn": 0.15922003674715796
     },
     {
+      "member": "James M Inhofe",
+      "positions": 78,
+      "avgReturn": 0.15753821509978844
+    },
+    {
       "member": "Roger Williams",
       "positions": 12,
       "avgReturn": 0.15469250793251446
@@ -880,11 +885,6 @@
       "member": "Rick Larsen",
       "positions": 46,
       "avgReturn": 0.14833170284042013
-    },
-    {
-      "member": "James M Inhofe",
-      "positions": 77,
-      "avgReturn": 0.14641670183040764
     },
     {
       "member": "Jefferson Shreve",
