@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-01 21:19 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-01 22:01 UTC._
 
 ## Total
 
@@ -34,7 +34,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Waltz | 210.8% | 2 |
 | Richard L. Hanna | 209.8% | 91 |
 | David Cheston Rouzer | 206.2% | 8 |
-| Gary C. Peters | 195.6% | 7 |
+| Gary C. Peters | 195.4% | 7 |
 | Michael T. McCaul | 191.0% | 108 |
 | Seth Moulton | 189.1% | 1 |
 | Rubén Hinojosa | 161.1% | 30 |
@@ -53,7 +53,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James French Hill | 120.1% | 24 |
 | Lamar Smith | 118.2% | 222 |
 | W. Greg Steube | 117.9% | 2 |
-| Scott H. Peters | 117.7% | 105 |
+| Scott H. Peters | 117.8% | 105 |
 | Thomas Suozzi | 117.5% | 283 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Stephen F. Lynch | 113.1% | 1 |
@@ -64,7 +64,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | K. Michael Conaway | 104.9% | 283 |
 | Deborah K. Ross | 104.1% | 21 |
 | Victoria Spartz | 104.1% | 21 |
-| A. Mitchell McConnell, Jr. | 102.6% | 36 |
+| A. Mitchell McConnell, Jr. | 104.0% | 36 |
 | Mark Green | 100.4% | 463 |
 | David E. Price | 98.4% | 42 |
 | Dwight Evans | 98.3% | 70 |
@@ -109,12 +109,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
 | Vicente Gonzalez | 50.2% | 1 |
-| Dan Newhouse | 49.5% | 110 |
+| Dan Newhouse | 49.4% | 110 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
 | Bradley S. Schneider | 46.7% | 40 |
 | Rafael E Cruz | 46.7% | 3 |
-| Gilbert Cisneros | 45.6% | 1480 |
+| Gilbert Cisneros | 45.5% | 1480 |
 | Tim Moore | 45.5% | 159 |
 | William R. Keating | 44.6% | 89 |
 | Susie Lee | 44.5% | 628 |
@@ -122,7 +122,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Josh Gottheimer | 43.1% | 1436 |
 | John A. Yarmuth | 42.5% | 139 |
 | Harley E. Rouda | 41.8% | 3 |
-| Kelly Louise Morrison | 40.9% | 13 |
+| Kelly Louise Morrison | 40.8% | 13 |
 | Harold Dallas Rogers | 39.7% | 8 |
 | David B. McKinley | 39.5% | 195 |
 | Angus S King, Jr. | 39.5% | 34 |
@@ -155,14 +155,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Markwayne Mullin | 27.8% | 272 |
 | Rob Bresnahan | 26.9% | 248 |
 | Mike Kelly | 26.8% | 9 |
-| Julia Letlow | 26.1% | 154 |
 | Earl Blumenauer | 26.1% | 239 |
+| Julia Letlow | 26.1% | 154 |
 | John W. Rose | 25.6% | 1 |
 | Kathy Manning | 25.3% | 276 |
+| Aston Donald McEachin | 22.8% | 6 |
 | Kelly Loeffler | 22.8% | 97 |
-| Aston Donald McEachin | 22.6% | 6 |
 | Cliff Bentz | 22.5% | 2 |
-| Thomas H. Kean | 22.4% | 83 |
+| Thomas H. Kean | 22.5% | 83 |
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
 | Roger F Wicker | 21.9% | 3 |
@@ -181,12 +181,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Garcia | 17.5% | 20 |
 | Ed Case | 17.0% | 14 |
 | Gerald E. Connolly | 16.8% | 25 |
-| Byron Donalds | 16.4% | 44 |
 | Mo Brooks | 16.4% | 41 |
+| Byron Donalds | 16.4% | 44 |
 | James M Inhofe | 15.8% | 78 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
-| Jefferson Shreve | 14.5% | 173 |
+| Jefferson Shreve | 14.6% | 173 |
 | Rick Larsen | 14.4% | 46 |
 | Patrick J Toomey | 14.4% | 84 |
 | August Lee Pfluger | 14.3% | 12 |
@@ -223,13 +223,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John James | 5.8% | 126 |
 | Patrick Fallon | 5.7% | 56 |
 | Lindsey Graham | 4.9% | 6 |
+| Mitch McConnell | 4.8% | 1 |
 | Carlos Curbelo | 4.1% | 138 |
-| Mitch McConnell | 4.1% | 1 |
 | Mike Kennedy | 4.0% | 1 |
 | Bruce Westerman | 3.7% | 105 |
 | Patty Murray | 3.6% | 75 |
 | Brandon Gill | 3.5% | 5 |
-| Alan Armstrong | 3.3% | 320 |
+| Alan Armstrong | 3.2% | 320 |
 | Tim Walberg | 3.1% | 13 |
 | Valerie Hoyle | 3.1% | 193 |
 | James R. Langevin | 3.0% | 182 |
