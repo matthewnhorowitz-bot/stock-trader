@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-03 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-03 16:01 UTC._
 
 ## Total
 
@@ -173,8 +173,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Nicholas Van Taylor | 21.1% | 49 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
 | Jared Moskowitz | 20.4% | 229 |
+| Ed Case | 20.3% | 14 |
 | Lou Barletta | 20.1% | 17 |
-| Ed Case | 19.8% | 14 |
 | Thomas R Carper | 19.6% | 494 |
 | Greg Steube | 19.4% | 12 |
 | Jackie Speier | 19.2% | 3 |
@@ -243,10 +243,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
+| Tracey Robert Mann | 1.4% | 5 |
 | Kenneth R. Buck | 1.0% | 28 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
-| Tracey Robert Mann | 0.6% | 5 |
 | Michael Rulli | 0.4% | 15 |
 | Greg Stanton | 0.4% | 94 |
 | April McClain Delaney | 0.3% | 209 |
