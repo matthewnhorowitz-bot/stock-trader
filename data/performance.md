@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-03 16:34 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-03 16:40 UTC._
 
 ## Total
 
@@ -182,7 +182,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Garcia | 17.5% | 20 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Mo Brooks | 16.4% | 41 |
-| Byron Donalds | 16.1% | 44 |
+| Byron Donalds | 16.0% | 44 |
 | James M Inhofe | 15.8% | 78 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
