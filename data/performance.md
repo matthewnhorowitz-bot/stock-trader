@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-04 05:12 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-04 06:03 UTC._
 
 ## Total
 
@@ -192,8 +192,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 14.4% | 84 |
 | C. Scott Franklin | 14.2% | 35 |
 | Jefferson Shreve | 14.1% | 173 |
+| Byron Donalds | 13.6% | 44 |
 | John Boozman | 13.6% | 234 |
-| Byron Donalds | 13.5% | 44 |
 | Sheri Biggs | 13.2% | 50 |
 | Julie Johnson | 13.1% | 117 |
 | Brad Ashford | 13.1% | 5 |
