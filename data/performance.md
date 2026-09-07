@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-07 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-07 17:01 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 74.2%**
-- S&P 500 (SPY) over the same windows: 79.2%
-- Priced positions: 26300  ·  still open: 10320  ·  awaiting price data: 565
+- **Index (all tracked buys): 74.1%**
+- S&P 500 (SPY) over the same windows: 80.9%
+- Priced positions: 26329  ·  still open: 10348  ·  awaiting price data: 578
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -114,9 +114,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rafael E Cruz | 46.9% | 3 |
 | Bob Gibbs | 46.7% | 94 |
 | Bradley S. Schneider | 46.2% | 40 |
-| Gilbert Cisneros | 45.7% | 1480 |
 | Susie Lee | 45.2% | 628 |
 | Vicente Gonzalez | 44.6% | 1 |
+| Gilbert Cisneros | 44.5% | 1507 |
 | Robert E. Latta | 44.3% | 23 |
 | William R. Keating | 43.7% | 89 |
 | Brad Knott | 43.5% | 2 |
@@ -208,7 +208,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gary Peters | 11.4% | 2 |
 | Peter Meijer | 11.4% | 18 |
 | Zoe Lofgren | 10.9% | 159 |
-| David J. Taylor | 10.9% | 107 |
+| David J. Taylor | 10.6% | 109 |
 | Mick Mulvaney | 9.7% | 4 |
 | Ritchie John Torres | 9.5% | 69 |
 | Scott Scott Franklin | 9.4% | 45 |
