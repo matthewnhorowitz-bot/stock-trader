@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-07 19:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-07 20:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 74.1%**
 - S&P 500 (SPY) over the same windows: 80.8%
-- Priced positions: 26341  ·  still open: 10348  ·  awaiting price data: 566
+- Priced positions: 26342  ·  still open: 10348  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -116,7 +116,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bradley S. Schneider | 46.2% | 40 |
 | Susie Lee | 45.2% | 628 |
 | Vicente Gonzalez | 44.6% | 1 |
-| Gilbert Cisneros | 44.4% | 1518 |
+| Gilbert Cisneros | 44.5% | 1519 |
 | Robert E. Latta | 44.3% | 23 |
 | William R. Keating | 43.7% | 89 |
 | Brad Knott | 43.5% | 2 |
