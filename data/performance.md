@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-08 21:16 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-08 21:24 UTC._
 
 ## Total
 
@@ -76,7 +76,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John F Reed | 82.6% | 55 |
 | David P. Joyce | 82.6% | 76 |
 | Terri A. Sewell | 82.2% | 2 |
-| John Rutherford | 81.7% | 165 |
+| John Rutherford | 81.6% | 165 |
 | Tina Smith | 78.8% | 5 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
