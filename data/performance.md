@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-08 19:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-08 20:01 UTC._
 
 ## Total
 
@@ -116,7 +116,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bob Gibbs | 46.7% | 94 |
 | Bradley S. Schneider | 46.4% | 40 |
 | Susie Lee | 45.8% | 628 |
-| Gilbert Cisneros | 44.1% | 1519 |
+| Gilbert Cisneros | 44.2% | 1519 |
 | Brad Knott | 43.5% | 2 |
 | Kelly Louise Morrison | 43.3% | 13 |
 | Robert E. Latta | 43.1% | 23 |
