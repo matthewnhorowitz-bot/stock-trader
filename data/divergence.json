@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T05:05:24.465Z",
+  "generatedAt": "2026-09-09T05:06:31.505Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -880,9 +880,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.783,
+          "voteStance": 0.786,
           "portfolioStance": -1,
-          "divergence": 0.783,
+          "divergence": 0.786,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2192,9 +2192,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.3,
+          "voteStance": 0.333,
           "portfolioStance": -1,
-          "divergence": 0.3,
+          "divergence": 0.333,
           "exposure": 3003,
           "aligned": false,
           "tickers": [
@@ -2297,9 +2297,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.915,
+          "voteStance": 0.918,
           "portfolioStance": -1,
-          "divergence": 0.915,
+          "divergence": 0.918,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -2472,9 +2472,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.889,
+          "voteStance": 0.893,
           "portfolioStance": -1,
-          "divergence": 0.889,
+          "divergence": 0.893,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2515,9 +2515,9 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.909,
+          "voteStance": 0.913,
           "portfolioStance": -1,
-          "divergence": 0.909,
+          "divergence": 0.913,
           "exposure": 30002,
           "aligned": false,
           "tickers": [
@@ -2690,6 +2690,32 @@
           ],
           "example": {
             "title": "Federal Cryptocurrency Theft Enforcement and Coordination Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Stephanie Bice",
+      "chamber": "house",
+      "ds": 89,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.889,
+          "portfolioStance": -1,
+          "divergence": 0.889,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "WFC"
+          ],
+          "example": {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Commodity Futures Trading Commission relating to \"Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts\".",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -2903,32 +2929,6 @@
           ],
           "example": {
             "title": "Fair Repair Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Stephanie Bice",
-      "chamber": "house",
-      "ds": 88,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.885,
-          "portfolioStance": -1,
-          "divergence": 0.885,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "WFC"
-          ],
-          "example": {
-            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Commodity Futures Trading Commission relating to \"Commission Guidance Regarding the Listing of Voluntary Carbon Credit Derivative Contracts\".",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -3332,9 +3332,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.826,
+          "voteStance": 0.84,
           "portfolioStance": -0.545,
-          "divergence": 0.451,
+          "divergence": 0.458,
           "exposure": 66003,
           "aligned": false,
           "tickers": [
@@ -3643,15 +3643,15 @@
     {
       "member": "Teresa Leger Fernandez",
       "chamber": "house",
-      "ds": 76,
+      "ds": 79,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.765,
+          "voteStance": 0.789,
           "portfolioStance": -1,
-          "divergence": 0.765,
+          "divergence": 0.789,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -3667,52 +3667,9 @@
       ]
     },
     {
-      "member": "Tom Cole",
-      "chamber": "house",
-      "ds": 76,
-      "alignmentRate": 50,
-      "sectorsScored": 2,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.76,
-          "portfolioStance": -1,
-          "divergence": 0.76,
-          "exposure": 500001,
-          "aligned": false,
-          "tickers": [
-            "WFC"
-          ],
-          "example": {
-            "title": "761st Tank Battalion Congressional Gold Medal Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 0.96,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 1001,
-          "aligned": true,
-          "tickers": [
-            "EMBC"
-          ],
-          "example": {
-            "title": "Medical Student Education Authorization Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Shri Thanedar",
       "chamber": "house",
-      "ds": 76,
+      "ds": 77,
       "alignmentRate": 0,
       "sectorsScored": 6,
       "sectors": [
@@ -3790,9 +3747,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.8,
+          "voteStance": 0.818,
           "portfolioStance": -1,
-          "divergence": 0.8,
+          "divergence": 0.818,
           "exposure": 233008,
           "aligned": false,
           "tickers": [
@@ -3823,6 +3780,49 @@
           ],
           "example": {
             "title": "Digital Literacy and Equity Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Tom Cole",
+      "chamber": "house",
+      "ds": 76,
+      "alignmentRate": 50,
+      "sectorsScored": 2,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.76,
+          "portfolioStance": -1,
+          "divergence": 0.76,
+          "exposure": 500001,
+          "aligned": false,
+          "tickers": [
+            "WFC"
+          ],
+          "example": {
+            "title": "761st Tank Battalion Congressional Gold Medal Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 0.96,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 1001,
+          "aligned": true,
+          "tickers": [
+            "EMBC"
+          ],
+          "example": {
+            "title": "Medical Student Education Authorization Act of 2025",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -4246,9 +4246,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.818,
+          "voteStance": 0.833,
           "portfolioStance": -1,
-          "divergence": 0.818,
+          "divergence": 0.833,
           "exposure": 31003,
           "aligned": false,
           "tickers": [
@@ -7138,9 +7138,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.833,
+          "voteStance": 0.846,
           "portfolioStance": -0.291,
-          "divergence": 0.243,
+          "divergence": 0.247,
           "exposure": 144088,
           "aligned": false,
           "tickers": [
@@ -7568,7 +7568,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.438,
+          "voteStance": 0.471,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -7945,7 +7945,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.941,
+          "voteStance": 0.943,
           "portfolioStance": 0.667,
           "divergence": 0,
           "exposure": 420028,
@@ -8173,9 +8173,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.862,
+          "voteStance": 0.871,
           "portfolioStance": -0.678,
-          "divergence": 0.584,
+          "divergence": 0.59,
           "exposure": 118048,
           "aligned": false,
           "tickers": [
@@ -8512,7 +8512,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.8,
+          "voteStance": 0.818,
           "portfolioStance": 0.397,
           "divergence": 0,
           "exposure": 199017,
@@ -8658,9 +8658,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.923,
+          "voteStance": 0.926,
           "portfolioStance": -0.071,
-          "divergence": 0.065,
+          "divergence": 0.066,
           "exposure": 127057,
           "aligned": false,
           "tickers": [
@@ -9390,7 +9390,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.846,
+          "voteStance": 0.857,
           "portfolioStance": -0.01,
           "divergence": 0.008,
           "exposure": 101003,
@@ -9809,9 +9809,9 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.9,
+          "voteStance": 0.905,
           "portfolioStance": -0.491,
-          "divergence": 0.442,
+          "divergence": 0.444,
           "exposure": 275043,
           "aligned": false,
           "tickers": [
@@ -10133,7 +10133,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.892,
+          "voteStance": 0.897,
           "portfolioStance": 0.1,
           "divergence": 0,
           "exposure": 40012,
@@ -10647,7 +10647,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.412,
+          "voteStance": 0.444,
           "portfolioStance": 0.016,
           "divergence": 0,
           "exposure": 63063,
@@ -11367,49 +11367,10 @@
           }
         },
         {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": -0.139,
-          "divergence": 0.139,
-          "exposure": 79079,
-          "aligned": false,
-          "tickers": [
-            "ADM",
-            "BG",
-            "NSRGY",
-            "CLX",
-            "RAI",
-            "DEO",
-            "HSY",
-            "SJM",
-            "GIS",
-            "COTY",
-            "TGT",
-            "HAIN",
-            "UNFI",
-            "MO",
-            "KMB",
-            "PEP",
-            "PM",
-            "OLLI",
-            "DG",
-            "HELE",
-            "SYY",
-            "CL",
-            "KVUE"
-          ],
-          "example": {
-            "title": "Hot Foods Act of 2025",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Financial Services",
-          "voteStance": 0.5,
+          "voteStance": 0.6,
           "portfolioStance": -0.244,
-          "divergence": 0.122,
+          "divergence": 0.146,
           "exposure": 238182,
           "aligned": false,
           "tickers": [
@@ -11466,6 +11427,45 @@
           ],
           "example": {
             "title": "America’s Olympic and Paralympic Games Commemorative Coins Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": -0.139,
+          "divergence": 0.139,
+          "exposure": 79079,
+          "aligned": false,
+          "tickers": [
+            "ADM",
+            "BG",
+            "NSRGY",
+            "CLX",
+            "RAI",
+            "DEO",
+            "HSY",
+            "SJM",
+            "GIS",
+            "COTY",
+            "TGT",
+            "HAIN",
+            "UNFI",
+            "MO",
+            "KMB",
+            "PEP",
+            "PM",
+            "OLLI",
+            "DG",
+            "HELE",
+            "SYY",
+            "CL",
+            "KVUE"
+          ],
+          "example": {
+            "title": "Hot Foods Act of 2025",
             "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
@@ -11884,15 +11884,15 @@
     {
       "member": "Judy Chu",
       "chamber": "house",
-      "ds": 15,
+      "ds": 16,
       "alignmentRate": 50,
       "sectorsScored": 2,
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.778,
+          "voteStance": 0.8,
           "portfolioStance": -1,
-          "divergence": 0.778,
+          "divergence": 0.8,
           "exposure": 110005,
           "aligned": false,
           "tickers": [
@@ -12200,7 +12200,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.813,
+          "voteStance": 0.824,
           "portfolioStance": 0.77,
           "divergence": 0,
           "exposure": 174047,
@@ -13126,7 +13126,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.824,
+          "voteStance": 0.833,
           "portfolioStance": 0.835,
           "divergence": 0,
           "exposure": 254028,
@@ -13212,9 +13212,9 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.576,
+          "voteStance": 0.6,
           "portfolioStance": -1,
-          "divergence": 0.576,
+          "divergence": 0.6,
           "exposure": 45003,
           "aligned": false,
           "tickers": [
@@ -14638,7 +14638,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.695,
+          "voteStance": 0.705,
           "portfolioStance": 0.542,
           "divergence": 0,
           "exposure": 5183091,
@@ -15441,7 +15441,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.62,
+          "voteStance": 0.626,
           "portfolioStance": 0.671,
           "divergence": 0,
           "exposure": 79030,
@@ -16055,7 +16055,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.591,
+          "voteStance": 0.609,
           "portfolioStance": 0.909,
           "divergence": 0,
           "exposure": 22008,
@@ -16225,9 +16225,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.8,
+          "voteStance": 0.813,
           "portfolioStance": -0.416,
-          "divergence": 0.333,
+          "divergence": 0.338,
           "exposure": 24010,
           "aligned": false,
           "tickers": [
@@ -16819,7 +16819,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.913,
+          "voteStance": 0.917,
           "portfolioStance": -0.034,
           "divergence": 0.031,
           "exposure": 9765024,
@@ -17020,7 +17020,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.85,
+          "voteStance": 0.857,
           "portfolioStance": 0.143,
           "divergence": 0,
           "exposure": 56056,
@@ -18902,7 +18902,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.886,
+          "voteStance": 0.892,
           "portfolioStance": 0.889,
           "divergence": 0,
           "exposure": 36008,
@@ -20505,7 +20505,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.833,
+          "voteStance": 0.842,
           "portfolioStance": 0.806,
           "divergence": 0,
           "exposure": 31017,
@@ -20767,7 +20767,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.617,
+          "voteStance": 0.633,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -21733,7 +21733,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.929,
+          "voteStance": 0.931,
           "portfolioStance": 0.066,
           "divergence": 0,
           "exposure": 304178,
@@ -22299,7 +22299,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.745,
+          "voteStance": 0.755,
           "portfolioStance": 0.538,
           "divergence": 0,
           "exposure": 26026,
@@ -22658,7 +22658,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.684,
+          "voteStance": 0.7,
           "portfolioStance": 0.053,
           "divergence": 0,
           "exposure": 38010,

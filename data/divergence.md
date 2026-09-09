@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-09 05:05 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-09 05:06 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -46,9 +46,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Victoria Spartz | 90 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 90 | 0% | 3 |
+| Stephanie Bice | 89 | 0% | 1 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
-| Stephanie Bice | 88 | 0% | 1 |
 | James M. Costa | 86 | 0% | 1 |
 | Marcy Kaptur | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
@@ -57,9 +57,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Marc A. Veasey | 80 | 0% | 1 |
 | Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Teresa Leger Fernandez | 76 | 0% | 1 |
+| Teresa Leger Fernandez | 79 | 0% | 1 |
+| Shri Thanedar | 77 | 0% | 6 |
 | Tom Cole | 76 | 50% | 2 |
-| Shri Thanedar | 76 | 0% | 6 |
 | Sara Jacobs | 74 | 0% | 9 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
@@ -113,7 +113,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Lois Frankel | 17 | 11% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Judy Chu | 15 | 50% | 2 |
+| Judy Chu | 16 | 50% | 2 |
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |
