@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-09 00:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-09 01:01 UTC._
 
 ## Total
 
@@ -190,8 +190,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | August Lee Pfluger | 14.5% | 12 |
 | Patrick J Toomey | 14.4% | 84 |
 | Brian Mast | 14.1% | 31 |
-| John Boozman | 13.3% | 234 |
 | Byron Donalds | 13.3% | 44 |
+| John Boozman | 13.3% | 234 |
 | Brad Ashford | 13.1% | 5 |
 | Sheri Biggs | 12.8% | 50 |
 | Kim Schrier | 12.7% | 3 |
