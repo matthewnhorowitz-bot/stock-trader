@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-09 07:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-09 08:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -56,8 +56,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Marcy Kaptur | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Shri Thanedar | 85 | 0% | 6 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
 | Scott DesJarlais | 80 | 0% | 2 |
+| Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Sara Jacobs | 75 | 0% | 9 |
 | Tom Cole | 75 | 50% | 2 |
@@ -78,7 +78,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Warren Davidson | 48 | 25% | 4 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 40 | 22% | 9 |
-| Scott Franklin | 39 | 71% | 7 |
+| Scott Franklin | 38 | 71% | 7 |
 | Debbie Wasserman Schultz | 36 | 43% | 7 |
 | Peter Welch | 35 | 13% | 8 |
 | John W. Rose | 35 | 0% | 3 |

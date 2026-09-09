@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T07:01:44.819Z",
+  "generatedAt": "2026-09-09T08:09:12.524Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -1802,9 +1802,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.636,
+          "voteStance": 0.613,
           "portfolioStance": -1,
-          "divergence": 0.636,
+          "divergence": 0.613,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2758,9 +2758,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.895,
+          "voteStance": 0.891,
           "portfolioStance": -1,
-          "divergence": 0.895,
+          "divergence": 0.891,
           "exposure": 50001,
           "aligned": false,
           "tickers": [
@@ -3525,9 +3525,52 @@
       ]
     },
     {
-      "member": "Lloyd K. Smucker",
+      "member": "Scott DesJarlais",
       "chamber": "house",
       "ds": 80,
+      "alignmentRate": 0,
+      "sectorsScored": 2,
+      "sectors": [
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 0.86,
+          "portfolioStance": -1,
+          "divergence": 0.86,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "PEP"
+          ],
+          "example": {
+            "title": "Stopping Needless Additional Performance Bonuses (SNAP) Act of 2013",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.8,
+          "portfolioStance": -1,
+          "divergence": 0.8,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "UPS"
+          ],
+          "example": {
+            "title": "Acknowledging and commemorating the women in the Army who served in the Women's Army Auxiliary Corps and the Women's Army Corp during World War II.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Lloyd K. Smucker",
+      "chamber": "house",
+      "ds": 79,
       "alignmentRate": 0,
       "sectorsScored": 6,
       "sectors": [
@@ -3619,9 +3662,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.707,
+          "voteStance": 0.692,
           "portfolioStance": -1,
-          "divergence": 0.707,
+          "divergence": 0.692,
           "exposure": 269008,
           "aligned": false,
           "tickers": [
@@ -3635,49 +3678,6 @@
           "example": {
             "title": "Roberto Clemente Commemorative Coin Act",
             "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Scott DesJarlais",
-      "chamber": "house",
-      "ds": 80,
-      "alignmentRate": 0,
-      "sectorsScored": 2,
-      "sectors": [
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 0.86,
-          "portfolioStance": -1,
-          "divergence": 0.86,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "PEP"
-          ],
-          "example": {
-            "title": "Stopping Needless Additional Performance Bonuses (SNAP) Act of 2013",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.8,
-          "portfolioStance": -1,
-          "divergence": 0.8,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "UPS"
-          ],
-          "example": {
-            "title": "Acknowledging and commemorating the women in the Army who served in the Women's Army Auxiliary Corps and the Women's Army Corp during World War II.",
-            "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -6028,7 +6028,7 @@
     {
       "member": "Scott Franklin",
       "chamber": "house",
-      "ds": 39,
+      "ds": 38,
       "alignmentRate": 71,
       "sectorsScored": 7,
       "sectors": [
@@ -6053,9 +6053,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.786,
+          "voteStance": 0.778,
           "portfolioStance": -0.643,
-          "divergence": 0.505,
+          "divergence": 0.5,
           "exposure": 2535020,
           "aligned": false,
           "tickers": [
@@ -6551,7 +6551,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.95,
+          "voteStance": 0.949,
           "portfolioStance": -0.302,
           "divergence": 0.287,
           "exposure": 2865006,
@@ -7699,7 +7699,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.707,
+          "voteStance": 0.692,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 50001,
@@ -8047,9 +8047,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.813,
+          "voteStance": 0.8,
           "portfolioStance": -0.333,
-          "divergence": 0.271,
+          "divergence": 0.267,
           "exposure": 6006,
           "aligned": false,
           "tickers": [
@@ -8897,7 +8897,7 @@
           "sector": "Financial Services",
           "voteStance": 0.913,
           "portfolioStance": -0.388,
-          "divergence": 0.355,
+          "divergence": 0.354,
           "exposure": 634244,
           "aligned": false,
           "tickers": [
@@ -9987,7 +9987,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.742,
+          "voteStance": 0.724,
           "portfolioStance": 0.238,
           "divergence": 0,
           "exposure": 42028,
@@ -11627,7 +11627,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.647,
+          "voteStance": 0.6,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 6006,
@@ -11874,7 +11874,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.864,
+          "voteStance": 0.857,
           "portfolioStance": 0.055,
           "divergence": 0,
           "exposure": 199031,
@@ -12591,10 +12591,30 @@
           }
         },
         {
+          "sector": "Consumer Cyclical",
+          "voteStance": 0.5,
+          "portfolioStance": -0.294,
+          "divergence": 0.147,
+          "exposure": 102011,
+          "aligned": false,
+          "tickers": [
+            "STON",
+            "HBI",
+            "IP",
+            "GM"
+          ],
+          "example": {
+            "title": "Providing for consideration of the bill (H.R. 139) to make daylight savings time permanent, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 9237) to amend titles 10 and 38, United States Code, and other Federal laws, to improve benefits for veterans and the administration of the Department of Veterans Affairs; providing for consideration of the bill (H.R. 1181) to prohibit payment card networks and covered entities from requiring the use of or assigning merchant category codes that distinguish a firearms retailer from general-merchandise retailer or sporting-goods retailer, and for other purposes; and for other purposes.",
+            "action": "sponsor",
+            "billStance": -1,
+            "recordStance": -1
+          }
+        },
+        {
           "sector": "Financial Services",
-          "voteStance": 0.412,
+          "voteStance": 0.375,
           "portfolioStance": -0.385,
-          "divergence": 0.158,
+          "divergence": 0.144,
           "exposure": 1512095,
           "aligned": false,
           "tickers": [
@@ -12627,26 +12647,6 @@
           ],
           "example": {
             "title": "Relating to consideration of the House amendment to the Senate amendment to the bill (H.R. 2642) to provide for the reform and continuation of agricultural and other programs of the Department of Agriculture through fiscal year 2018, and for other purposes, providing for consideration of the resolution (H. Res. 378) expressing the sense of the House of Representatives regarding certain provisions of the Senate amendment to H.R. 2642 relating to the Secretary of Agriculture's administration of tariff-rate quotas for raw and refined sugar, and providing for consideration of the resolution (H. Res. 379) expressing the sense of the House of Representatives regarding certain provisions of the Senate amendment to H.R. 2642 relating to crop insurance.",
-            "action": "sponsor",
-            "billStance": -1,
-            "recordStance": -1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 0.5,
-          "portfolioStance": -0.294,
-          "divergence": 0.147,
-          "exposure": 102011,
-          "aligned": false,
-          "tickers": [
-            "STON",
-            "HBI",
-            "IP",
-            "GM"
-          ],
-          "example": {
-            "title": "Providing for consideration of the bill (H.R. 139) to make daylight savings time permanent, and for other purposes; providing for consideration of the bill (H.R. 8595) making appropriations for national security, Department of State, and related programs for the fiscal year ending September 30, 2027, and for other purposes; providing for consideration of the bill (H.R. 9237) to amend titles 10 and 38, United States Code, and other Federal laws, to improve benefits for veterans and the administration of the Department of Veterans Affairs; providing for consideration of the bill (H.R. 1181) to prohibit payment card networks and covered entities from requiring the use of or assigning merchant category codes that distinguish a firearms retailer from general-merchandise retailer or sporting-goods retailer, and for other purposes; and for other purposes.",
             "action": "sponsor",
             "billStance": -1,
             "recordStance": -1
@@ -12894,7 +12894,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.867,
+          "voteStance": 0.86,
           "portfolioStance": 0.133,
           "divergence": 0,
           "exposure": 1128089,
@@ -13434,9 +13434,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.838,
+          "voteStance": 0.829,
           "portfolioStance": -0.05,
-          "divergence": 0.042,
+          "divergence": 0.041,
           "exposure": 80066,
           "aligned": false,
           "tickers": [
@@ -14318,9 +14318,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.917,
+          "voteStance": 0.915,
           "portfolioStance": -1,
-          "divergence": 0.917,
+          "divergence": 0.915,
           "exposure": 3003,
           "aligned": false,
           "tickers": [
@@ -14907,7 +14907,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.967,
+          "voteStance": 0.966,
           "portfolioStance": -0.895,
           "divergence": 0.865,
           "exposure": 19005,
@@ -17525,7 +17525,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.571,
+          "voteStance": 0.5,
           "portfolioStance": 0.416,
           "divergence": 0,
           "exposure": 284025,
@@ -17988,7 +17988,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.66,
+          "voteStance": 0.647,
           "portfolioStance": -0.024,
           "divergence": 0.016,
           "exposure": 41041,
@@ -18679,7 +18679,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.746,
+          "voteStance": 0.739,
           "portfolioStance": 0.778,
           "divergence": 0,
           "exposure": 45045,
@@ -19290,7 +19290,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.926,
+          "voteStance": 0.924,
           "portfolioStance": 0.067,
           "divergence": 0,
           "exposure": 446292,
@@ -19559,7 +19559,7 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.885,
+          "voteStance": 0.88,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 62020,
@@ -20127,7 +20127,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.667,
+          "voteStance": 0.647,
           "portfolioStance": 0.351,
           "divergence": 0,
           "exposure": 1400019,
@@ -22527,7 +22527,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.444,
+          "voteStance": 0.412,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 30002,
