@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-10 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-10 19:00 UTC._
 
 ## Total
 
@@ -51,7 +51,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Grace Meng | 121.5% | 5 |
 | Thomas Suozzi | 121.3% | 283 |
 | Shri Thanedar | 121.0% | 1 |
-| James French Hill | 118.6% | 24 |
+| James French Hill | 118.5% | 24 |
 | Stephen F. Lynch | 118.1% | 1 |
 | W. Greg Steube | 117.9% | 2 |
 | Scott H. Peters | 116.0% | 105 |
@@ -191,8 +191,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 14.4% | 84 |
 | Brian Mast | 14.1% | 31 |
 | John Boozman | 13.3% | 234 |
-| Byron Donalds | 13.1% | 44 |
 | Brad Ashford | 13.1% | 5 |
+| Byron Donalds | 13.1% | 44 |
 | Sheri Biggs | 12.8% | 50 |
 | Kim Schrier | 12.7% | 3 |
 | Michael McCaul | 12.6% | 7 |
@@ -236,7 +236,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | E. Scott Rigell | 2.6% | 31 |
 | Michael Rulli | 2.3% | 15 |
 | Thomas MacArthur | 2.2% | 915 |
-| Alan Armstrong | 2.1% | 320 |
+| Alan Armstrong | 2.0% | 320 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
 | Tommy Tuberville | 1.6% | 3 |
@@ -254,10 +254,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Garamendi | 0.0% | 1 |
 | Kenny Marchant | -0.6% | 40 |
 | Michael C. Burgess | -0.9% | 42 |
-| April McClain Delaney | -1.0% | 229 |
 | Greg Landsman | -1.7% | 55 |
 | Fred Upton | -1.7% | 7 |
 | Ed Perlmutter | -1.8% | 35 |
+| April McClain Delaney | -2.0% | 229 |
 | John D. Dingell | -2.2% | 3 |
 | Nick J. Rahall | -2.3% | 14 |
 | Cindy Axne | -3.2% | 78 |
