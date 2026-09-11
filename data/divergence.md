@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-11 05:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-11 06:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -56,7 +56,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Marcy Kaptur | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Shri Thanedar | 85 | 0% | 6 |
-| Scott DesJarlais | 81 | 0% | 2 |
+| Scott DesJarlais | 83 | 0% | 2 |
 | Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Sara Jacobs | 75 | 0% | 9 |
@@ -64,12 +64,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Dave Min | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 68 | 0% | 1 |
+| David Rouzer | 70 | 0% | 1 |
 | Brad Knott | 66 | 50% | 2 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Greg Landsman | 64 | 0% | 9 |
-| James P. McGovern | 63 | 0% | 1 |
+| James P. McGovern | 62 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
 | Morgan McGarvey | 53 | 0% | 5 |
 | Julie Johnson | 52 | 11% | 9 |
@@ -83,7 +83,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Debbie Wasserman Schultz | 36 | 43% | 7 |
 | Peter Welch | 35 | 13% | 8 |
 | John W. Rose | 35 | 0% | 3 |
-| Jefferson Shreve | 33 | 0% | 8 |
+| Jefferson Shreve | 34 | 0% | 8 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
 | John J McGuire | 33 | 50% | 2 |
@@ -109,9 +109,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Kathy Castor | 19 | 25% | 4 |
 | Zoe Lofgren | 19 | 0% | 9 |
 | Jerry Moran, | 19 | 29% | 7 |
+| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Brian Babin | 18 | 0% | 2 |
-| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
