@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 18:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 73.7%**
-- S&P 500 (SPY) over the same windows: 81.6%
-- Priced positions: 26367  ·  still open: 10345  ·  awaiting price data: 565
+- S&P 500 (SPY) over the same windows: 81.8%
+- Priced positions: 26372  ·  still open: 10350  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -74,7 +74,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel S Sullivan | 86.2% | 30 |
 | Judy Chu | 84.6% | 5 |
 | John F Reed | 82.6% | 55 |
-| David P. Joyce | 82.6% | 76 |
+| David P. Joyce | 82.5% | 76 |
 | Terri A. Sewell | 82.2% | 2 |
 | John Rutherford | 81.5% | 165 |
 | Tina Smith | 78.8% | 5 |
@@ -86,7 +86,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katherine M. Clark | 76.4% | 155 |
 | Diana Harshbarger | 75.9% | 7 |
 | Blake Moore | 74.2% | 83 |
-| Peter Welch | 72.6% | 36 |
+| Peter Welch | 71.5% | 36 |
 | David Kustoff | 70.8% | 9 |
 | Morgan McGarvey | 70.6% | 9 |
 | Debbie Wasserman Schultz | 69.7% | 36 |
@@ -97,7 +97,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Hern | 66.0% | 541 |
 | James Comer | 64.6% | 32 |
 | Lloyd Doggett | 62.4% | 209 |
-| Scott Franklin | 61.1% | 49 |
+| Scott Franklin | 61.0% | 49 |
 | Carol Devine Miller | 60.3% | 62 |
 | William Cassidy | 59.9% | 87 |
 | Lois Frankel | 59.0% | 439 |
@@ -132,7 +132,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mike Kelly | 38.4% | 9 |
 | Jim McDermott | 37.1% | 2 |
 | James E. Banks | 37.1% | 14 |
-| Joe Courtney | 36.9% | 72 |
+| Joe Courtney | 36.8% | 72 |
 | Peter Allen Stauber | 35.5% | 1 |
 | Donald Sternoff Beyer | 34.4% | 371 |
 | Cynthia M Lummis | 34.2% | 1 |
@@ -190,9 +190,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jefferson Shreve | 14.4% | 173 |
 | Patrick J Toomey | 14.4% | 84 |
 | Brian Mast | 14.1% | 31 |
-| John Boozman | 13.3% | 234 |
 | Brad Ashford | 13.1% | 5 |
 | Byron Donalds | 13.1% | 44 |
+| John Boozman | 13.0% | 239 |
 | Sheri Biggs | 12.8% | 50 |
 | Kim Schrier | 12.7% | 3 |
 | Michael McCaul | 12.6% | 7 |
