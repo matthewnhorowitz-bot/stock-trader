@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 19:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 73.7%**
 - S&P 500 (SPY) over the same windows: 81.8%
-- Priced positions: 26372  ·  still open: 10350  ·  awaiting price data: 565
+- Priced positions: 26371  ·  still open: 10348  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -140,7 +140,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Steve Cohen | 33.7% | 20 |
 | Sara Jacobs | 33.6% | 10 |
-| Daniel Goldman | 32.3% | 369 |
+| Daniel Goldman | 32.2% | 369 |
 | Elizabeth Fletcher | 31.1% | 23 |
 | Susan A. Davis | 31.1% | 32 |
 | Austin Scott | 30.8% | 42 |
@@ -192,7 +192,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Mast | 14.1% | 31 |
 | Brad Ashford | 13.1% | 5 |
 | Byron Donalds | 13.1% | 44 |
-| John Boozman | 13.0% | 239 |
+| John Boozman | 13.0% | 238 |
 | Sheri Biggs | 12.8% | 50 |
 | Kim Schrier | 12.7% | 3 |
 | Michael McCaul | 12.6% | 7 |
