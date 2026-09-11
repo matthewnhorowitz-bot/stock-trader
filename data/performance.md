@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 21:04 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 21:17 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 73.6%**
 - S&P 500 (SPY) over the same windows: 83.2%
-- Priced positions: 26401  ·  still open: 10376  ·  awaiting price data: 570
+- Priced positions: 26404  ·  still open: 10376  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -43,7 +43,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Meuser | 153.5% | 9 |
 | Beto O'Rourke | 153.4% | 3 |
 | Pat Roberts | 152.4% | 287 |
-| John Hoeven | 149.5% | 128 |
+| John Hoeven | 149.4% | 128 |
 | Warren Davidson | 145.9% | 2 |
 | Debbie Dingell | 141.1% | 100 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
@@ -80,7 +80,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | Tina Smith | 78.0% | 5 |
-| Shelley M Capito | 77.3% | 345 |
+| Shelley M Capito | 77.2% | 345 |
 | Michael K. Simpson | 76.8% | 34 |
 | Jerry Moran, | 76.7% | 75 |
 | Katherine M. Clark | 76.4% | 155 |
@@ -118,11 +118,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susie Lee | 45.8% | 628 |
 | Brad Knott | 43.5% | 2 |
 | Robert E. Latta | 43.1% | 23 |
+| Gilbert Cisneros | 43.0% | 1552 |
 | Kelly Louise Morrison | 43.0% | 13 |
-| Gilbert Cisneros | 43.0% | 1549 |
 | William R. Keating | 42.9% | 89 |
 | John A. Yarmuth | 42.5% | 139 |
-| Josh Gottheimer | 42.3% | 1436 |
+| Josh Gottheimer | 42.4% | 1436 |
 | Angus S King, Jr. | 41.9% | 34 |
 | Harley E. Rouda | 41.4% | 3 |
 | David B. McKinley | 39.5% | 195 |
@@ -134,7 +134,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 37.1% | 14 |
 | Joe Courtney | 36.8% | 72 |
 | Peter Allen Stauber | 35.5% | 1 |
-| Donald Sternoff Beyer | 34.4% | 371 |
+| Donald Sternoff Beyer | 34.3% | 371 |
 | John Fetterman | 34.3% | 10 |
 | Cynthia M Lummis | 34.2% | 1 |
 | Marjorie Taylor Greene | 34.0% | 484 |
