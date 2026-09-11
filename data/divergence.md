@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-11 04:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-11 04:57 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -46,31 +46,31 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Victoria Spartz | 90 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 90 | 0% | 3 |
-| Stephanie Bice | 89 | 0% | 1 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
+| Stephanie Bice | 88 | 0% | 1 |
 | James M. Costa | 86 | 0% | 1 |
 | Marcy Kaptur | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 85 | 0% | 4 |
-| Scott DesJarlais | 83 | 0% | 2 |
-| Marc A. Veasey | 82 | 0% | 1 |
-| Lloyd K. Smucker | 81 | 0% | 6 |
+| Marc A. Veasey | 80 | 0% | 1 |
+| Lloyd K. Smucker | 80 | 0% | 6 |
+| Scott DesJarlais | 80 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
-| Teresa Leger Fernandez | 79 | 0% | 1 |
-| Shri Thanedar | 77 | 0% | 6 |
+| Teresa Leger Fernandez | 76 | 0% | 1 |
 | Tom Cole | 76 | 50% | 2 |
+| Shri Thanedar | 76 | 0% | 6 |
 | Sara Jacobs | 74 | 0% | 9 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
 | Dave Min | 69 | 0% | 1 |
+| David Rouzer | 68 | 0% | 1 |
 | Brad Knott | 66 | 50% | 2 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | James P. McGovern | 62 | 0% | 1 |
 | Greg Landsman | 62 | 0% | 9 |
-| April McClain Delaney | 55 | 0% | 7 |
+| April McClain Delaney | 56 | 0% | 7 |
 | Morgan McGarvey | 52 | 0% | 5 |
 | Julie Johnson | 51 | 11% | 9 |
 | Mike Kelly | 50 | 38% | 8 |
@@ -106,15 +106,15 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Roger F Wicker | 20 | 0% | 1 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Lois Frankel | 17 | 11% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Judy Chu | 16 | 50% | 2 |
+| Judy Chu | 15 | 50% | 2 |
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |
