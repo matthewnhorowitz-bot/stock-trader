@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 14:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-11 15:01 UTC._
 
 ## Total
 
@@ -192,7 +192,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Mast | 14.1% | 31 |
 | John Boozman | 13.3% | 234 |
 | Brad Ashford | 13.1% | 5 |
-| Byron Donalds | 13.0% | 44 |
+| Byron Donalds | 13.1% | 44 |
 | Sheri Biggs | 12.8% | 50 |
 | Kim Schrier | 12.7% | 3 |
 | Michael McCaul | 12.6% | 7 |
