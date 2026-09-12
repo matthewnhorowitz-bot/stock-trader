@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-12 01:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-12 02:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 73.6%**
 - S&P 500 (SPY) over the same windows: 83.2%
-- Priced positions: 26404  ·  still open: 10376  ·  awaiting price data: 567
+- Priced positions: 26405  ·  still open: 10376  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -192,7 +192,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Mast | 14.1% | 31 |
 | Brad Ashford | 13.1% | 5 |
 | Byron Donalds | 13.1% | 44 |
-| John Boozman | 13.0% | 238 |
+| John Boozman | 13.0% | 239 |
 | Michael McCaul | 12.9% | 7 |
 | Sheri Biggs | 12.8% | 50 |
 | Kim Schrier | 12.7% | 3 |
