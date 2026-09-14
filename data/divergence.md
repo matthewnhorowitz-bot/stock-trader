@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-14 17:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-14 18:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -15,17 +15,20 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Burchett | 100 | 0% | 1 |
 | Adam B. Schiff | 100 | 0% | 2 |
 | Thomas Massie | 100 | 0% | 1 |
+| John Garamendi | 100 | 0% | 4 |
+| James M. Costa | 100 | 0% | 1 |
 | John R Thune | 100 | 0% | 1 |
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Rick Scott | 100 | 0% | 2 |
 | Pramila Jayapal | 100 | 0% | 1 |
+| Jake Auchincloss | 100 | 0% | 1 |
 | Daniel Webster | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 3 |
 | Shelley Moore Capito | 100 | 0% | 1 |
 | Derek Tran | 100 | 0% | 1 |
 | Tony Wied | 100 | 0% | 1 |
-| James A. Himes | 98 | 0% | 4 |
+| James A. Himes | 99 | 0% | 4 |
 | William F Hagerty, IV | 98 | 25% | 8 |
 | Frank Pallone | 96 | 0% | 6 |
 | George Whitesides | 96 | 0% | 7 |
@@ -33,45 +36,42 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Doris O. Matsui | 95 | 0% | 2 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Chris Van Hollen | 94 | 0% | 4 |
+| Emily Randall | 94 | 0% | 6 |
 | Bernie Moreno | 94 | 0% | 2 |
 | Adam Smith | 94 | 0% | 7 |
 | Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Thomas R Tillis | 93 | 0% | 9 |
 | John B. Larson | 93 | 0% | 8 |
 | Lori Trahan | 93 | 0% | 1 |
-| John Garamendi | 93 | 0% | 4 |
-| Emily Randall | 93 | 0% | 6 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Jake Auchincloss | 91 | 0% | 1 |
+| Sharice Davids | 92 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
-| Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 90 | 0% | 3 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
-| James M. Costa | 86 | 0% | 1 |
 | Marcy Kaptur | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 85 | 0% | 4 |
-| Scott DesJarlais | 83 | 0% | 2 |
-| Marc A. Veasey | 80 | 0% | 1 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Marc A. Veasey | 82 | 0% | 1 |
+| Lloyd K. Smucker | 81 | 0% | 6 |
+| Scott DesJarlais | 80 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
-| Teresa Leger Fernandez | 76 | 0% | 1 |
-| Tom Cole | 76 | 50% | 2 |
-| Shri Thanedar | 76 | 0% | 6 |
-| Sara Jacobs | 74 | 0% | 9 |
+| Teresa Leger Fernandez | 79 | 0% | 1 |
+| Shri Thanedar | 77 | 0% | 6 |
+| Sara Jacobs | 75 | 0% | 9 |
+| Tom Cole | 75 | 50% | 2 |
+| Dave Min | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 70 | 0% | 1 |
-| Dave Min | 69 | 0% | 1 |
+| David Rouzer | 68 | 0% | 1 |
 | Brad Knott | 66 | 50% | 2 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
+| Greg Landsman | 63 | 0% | 9 |
 | James P. McGovern | 62 | 0% | 1 |
-| Greg Landsman | 62 | 0% | 9 |
-| April McClain Delaney | 55 | 0% | 7 |
-| Morgan McGarvey | 52 | 0% | 5 |
+| April McClain Delaney | 56 | 0% | 7 |
+| Morgan McGarvey | 53 | 0% | 5 |
 | Julie Johnson | 51 | 11% | 9 |
 | Mike Kelly | 50 | 38% | 8 |
 | Gary Peters | 50 | 50% | 2 |
@@ -93,9 +93,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Thomas R. Suozzi | 28 | 0% | 3 |
 | Steve Cohen | 27 | 20% | 10 |
 | Michael McCaul | 26 | 40% | 5 |
-| Katherine M. Clark | 24 | 25% | 8 |
-| Debbie Dingell | 24 | 25% | 8 |
-| Joe Courtney | 24 | 0% | 8 |
+| Katherine M. Clark | 25 | 25% | 8 |
+| Debbie Dingell | 25 | 25% | 8 |
+| Joe Courtney | 25 | 0% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Michael Rulli | 23 | 33% | 6 |
@@ -103,18 +103,18 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Angus S King, Jr. | 21 | 38% | 8 |
 | Dwight Evans | 21 | 38% | 8 |
 | Jared Moskowitz | 21 | 44% | 9 |
+| Lois Frankel | 20 | 11% | 9 |
 | Roger F Wicker | 20 | 0% | 1 |
+| Judy Chu | 20 | 50% | 2 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
-| Lois Frankel | 17 | 11% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Judy Chu | 15 | 50% | 2 |
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |

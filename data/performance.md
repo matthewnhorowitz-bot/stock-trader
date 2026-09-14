@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-14 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-14 18:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 73.0%**
-- S&P 500 (SPY) over the same windows: 83.2%
-- Priced positions: 26405  ·  still open: 10376  ·  awaiting price data: 566
+- S&P 500 (SPY) over the same windows: 83.3%
+- Priced positions: 26407  ·  still open: 10378  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -30,7 +30,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Higgins | 236.4% | 1 |
 | Raul Ruiz | 233.4% | 1 |
 | Roger W. Marshall | 226.5% | 51 |
-| Susan M Collins | 216.0% | 188 |
+| Susan M Collins | 215.9% | 188 |
 | Michael Waltz | 210.8% | 2 |
 | Richard L. Hanna | 209.7% | 91 |
 | David Cheston Rouzer | 202.5% | 8 |
@@ -55,7 +55,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James French Hill | 118.3% | 24 |
 | W. Greg Steube | 117.9% | 2 |
 | Scott H. Peters | 115.6% | 105 |
-| Lamar Smith | 114.2% | 222 |
+| Lamar Smith | 114.1% | 222 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | A. Mitchell McConnell, Jr. | 111.5% | 36 |
 | Stephen F. Lynch | 110.7% | 1 |
@@ -170,9 +170,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Case | 21.0% | 14 |
 | Nicholas Van Taylor | 21.0% | 49 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
-| Thomas H. Kean | 20.6% | 83 |
 | Max Miller | 20.5% | 1 |
 | Lou Barletta | 20.1% | 17 |
+| Thomas H. Kean | 20.1% | 85 |
 | Thomas R Carper | 19.6% | 494 |
 | Jared Moskowitz | 19.2% | 229 |
 | Jackie Speier | 19.2% | 3 |
