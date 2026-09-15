@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-15 12:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-15 12:05 UTC._
 
 ## Total
 
@@ -175,7 +175,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas R Carper | 19.6% | 494 |
 | Jackie Speier | 19.2% | 3 |
 | Jared Moskowitz | 19.1% | 229 |
-| Thomas H. Kean | 18.7% | 85 |
+| Thomas H. Kean | 18.6% | 85 |
 | Greg Steube | 18.5% | 12 |
 | Ashley Hinson Arenholz | 17.0% | 4 |
 | Gerald E. Connolly | 16.8% | 25 |
@@ -254,8 +254,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kenny Marchant | -0.6% | 40 |
 | Michael C. Burgess | -0.9% | 42 |
 | Greg Landsman | -1.5% | 55 |
-| April McClain Delaney | -1.5% | 229 |
 | Fred Upton | -1.7% | 7 |
+| April McClain Delaney | -1.7% | 229 |
 | Ed Perlmutter | -1.8% | 35 |
 | John D. Dingell | -2.2% | 3 |
 | Nick J. Rahall | -2.3% | 14 |
