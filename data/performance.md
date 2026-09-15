@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-15 21:31 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-15 21:44 UTC._
 
 ## Total
 
@@ -95,8 +95,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Debbie Wasserman Schultz | 66.3% | 36 |
 | James Comer | 65.5% | 32 |
 | Lloyd Doggett | 64.6% | 209 |
-| Kevin Hern | 64.4% | 541 |
 | Michael Patrick Guest | 64.4% | 48 |
+| Kevin Hern | 64.2% | 541 |
 | Scott Franklin | 61.4% | 49 |
 | William Cassidy | 59.8% | 87 |
 | Virginia Foxx | 57.9% | 602 |
