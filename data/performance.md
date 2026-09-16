@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-16 00:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-16 01:00 UTC._
 
 ## Total
 
@@ -196,9 +196,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mikie Sherrill | 12.5% | 38 |
 | John Boozman | 12.2% | 239 |
 | Frank A. LoBiondo | 12.2% | 8 |
+| Byron Donalds | 12.1% | 44 |
 | Julie Johnson | 12.1% | 117 |
 | Sheri Biggs | 12.1% | 50 |
-| Byron Donalds | 12.0% | 44 |
 | David P. Roe | 12.0% | 15 |
 | Gary Peters | 11.8% | 2 |
 | Earl Leroy Carter | 11.6% | 1 |
