@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-16 02:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-16 03:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.5%**
 - S&P 500 (SPY) over the same windows: 83.5%
-- Priced positions: 26412  ·  still open: 10381  ·  awaiting price data: 566
+- Priced positions: 26413  ·  still open: 10381  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -89,7 +89,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Morgan McGarvey | 70.6% | 9 |
 | Joseph D. Morelle | 69.3% | 1 |
 | David Kustoff | 69.2% | 9 |
-| Robert J. Wittman | 69.1% | 116 |
+| Robert J. Wittman | 68.6% | 117 |
 | Neal Patrick MD, Facs Dunn | 67.9% | 6 |
 | Diana Harshbarger | 67.4% | 7 |
 | Debbie Wasserman Schultz | 66.3% | 36 |
