@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-17 13:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-17 14:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.4%**
-- S&P 500 (SPY) over the same windows: 83.5%
-- Priced positions: 26414  ·  still open: 10382  ·  awaiting price data: 565
+- S&P 500 (SPY) over the same windows: 83.6%
+- Priced positions: 26416  ·  still open: 10384  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -65,7 +65,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Stephen F. Lynch | 103.6% | 1 |
 | Deborah K. Ross | 101.9% | 21 |
 | Mark Green | 100.4% | 463 |
-| Dwight Evans | 98.7% | 70 |
+| Dwight Evans | 98.6% | 70 |
 | David E. Price | 98.4% | 42 |
 | Victoria Spartz | 97.0% | 21 |
 | John N Kennedy | 93.6% | 2 |
@@ -242,7 +242,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
-| Alan Armstrong | 1.2% | 320 |
+| Alan Armstrong | 1.2% | 322 |
 | Abigail Spanberger | 1.0% | 2 |
 | Kenneth R. Buck | 0.9% | 28 |
 | George Miller | 0.8% | 1 |
