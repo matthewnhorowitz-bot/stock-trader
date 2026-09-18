@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-18 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-18 16:01 UTC._
 
 ## Total
 
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tim Moore | 43.2% | 159 |
 | John A. Yarmuth | 42.5% | 139 |
 | William R. Keating | 41.6% | 89 |
-| Susie Lee | 41.2% | 628 |
+| Susie Lee | 41.3% | 628 |
 | Josh Gottheimer | 40.9% | 1441 |
 | Gilbert Cisneros | 40.7% | 1552 |
 | Harley E. Rouda | 40.1% | 3 |
