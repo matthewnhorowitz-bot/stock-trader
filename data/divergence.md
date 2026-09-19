@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-19 03:03 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-19 04:11 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -22,6 +22,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Daniel Webster | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 3 |
+| Gary Peters | 100 | 0% | 1 |
 | Shelley Moore Capito | 100 | 0% | 1 |
 | Derek Tran | 100 | 0% | 1 |
 | Tony Wied | 100 | 0% | 1 |
@@ -55,7 +56,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Alan Armstrong | 85 | 40% | 5 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Lloyd K. Smucker | 81 | 0% | 6 |
-| Scott DesJarlais | 81 | 0% | 2 |
+| Scott DesJarlais | 80 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
 | Shri Thanedar | 77 | 0% | 6 |
 | Tom Cole | 76 | 50% | 2 |
@@ -74,7 +75,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Morgan McGarvey | 52 | 0% | 5 |
 | Mike Kelly | 51 | 38% | 8 |
 | Julie Johnson | 50 | 11% | 9 |
-| Gary Peters | 50 | 50% | 2 |
 | Seth Moulton | 49 | 0% | 3 |
 | Warren Davidson | 48 | 25% | 4 |
 | Andrew Garbarino | 43 | 25% | 4 |
@@ -105,10 +105,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Roger F Wicker | 20 | 0% | 1 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Lois Frankel | 17 | 11% | 9 |
 | Angus S King, Jr. | 17 | 44% | 9 |
