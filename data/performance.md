@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-19 00:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-19 01:00 UTC._
 
 ## Total
 
@@ -199,7 +199,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Frank A. LoBiondo | 12.2% | 8 |
 | David P. Roe | 12.0% | 15 |
 | Julie Johnson | 11.9% | 117 |
-| Byron Donalds | 11.8% | 45 |
+| Byron Donalds | 11.7% | 45 |
 | Earl Leroy Carter | 11.6% | 1 |
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
