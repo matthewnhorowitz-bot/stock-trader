@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-21 19:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-21 20:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.5%**
 - S&P 500 (SPY) over the same windows: 83.9%
-- Priced positions: 26423  ·  still open: 10391  ·  awaiting price data: 565
+- Priced positions: 26424  ·  still open: 10392  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -63,8 +63,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kathy Castor | 105.8% | 39 |
 | K. Michael Conaway | 103.6% | 283 |
 | Gary C Peters | 103.0% | 50 |
-| A. Mitchell McConnell, Jr. | 102.0% | 36 |
 | Mark Green | 100.4% | 463 |
+| A. Mitchell McConnell, Jr. | 100.2% | 37 |
 | Dwight Evans | 100.1% | 70 |
 | David E. Price | 98.4% | 42 |
 | Victoria Spartz | 97.3% | 21 |
@@ -225,8 +225,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lindsey Graham | 4.9% | 6 |
 | Tracey Robert Mann | 4.5% | 5 |
 | John McGuire | 4.4% | 11 |
+| Mitch McConnell | 4.2% | 1 |
 | Carlos Curbelo | 4.1% | 138 |
-| Mitch McConnell | 3.7% | 1 |
 | Patty Murray | 3.6% | 75 |
 | Bruce Westerman | 3.5% | 105 |
 | James R. Langevin | 3.1% | 182 |
@@ -234,8 +234,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Valerie Hoyle | 2.6% | 193 |
 | E. Scott Rigell | 2.6% | 31 |
 | Thomas MacArthur | 2.2% | 915 |
+| Tim Walberg | 1.9% | 13 |
 | Brandon Gill | 1.8% | 5 |
-| Tim Walberg | 1.8% | 13 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
 | Michael Rulli | 1.6% | 15 |
