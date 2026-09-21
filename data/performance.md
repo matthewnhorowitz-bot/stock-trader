@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-21 18:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-21 19:01 UTC._
 
 ## Total
 
@@ -124,7 +124,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Angus S King, Jr. | 41.3% | 34 |
 | Josh Gottheimer | 40.8% | 1441 |
 | Harley E. Rouda | 40.6% | 3 |
-| Gilbert Cisneros | 40.5% | 1552 |
+| Gilbert Cisneros | 40.6% | 1552 |
 | David B. McKinley | 39.5% | 195 |
 | Susan W. Brooks | 38.6% | 12 |
 | Mike Kelly | 38.2% | 9 |
