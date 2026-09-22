@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-22 12:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-22 12:02 UTC._
 
 ## Total
 
@@ -257,8 +257,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Fred Upton | -1.7% | 7 |
 | Ed Perlmutter | -1.8% | 35 |
 | David H McCormick | -2.0% | 24 |
+| April McClain Delaney | -2.0% | 229 |
 | John D. Dingell | -2.2% | 3 |
-| April McClain Delaney | -2.2% | 229 |
 | Nick J. Rahall | -2.3% | 14 |
 | Cindy Axne | -3.2% | 78 |
 | Tom Malinowski | -3.7% | 163 |
