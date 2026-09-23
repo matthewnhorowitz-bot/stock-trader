@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-23 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-23 17:16 UTC._
 
 ## Total
 
@@ -122,8 +122,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Angus S King, Jr. | 43.4% | 34 |
 | William R. Keating | 43.1% | 89 |
 | John A. Yarmuth | 42.5% | 139 |
-| Susie Lee | 42.1% | 628 |
 | Josh Gottheimer | 42.1% | 1441 |
+| Susie Lee | 42.1% | 628 |
 | Gilbert Cisneros | 41.6% | 1552 |
 | Harley E. Rouda | 41.5% | 3 |
 | David B. McKinley | 39.5% | 195 |
