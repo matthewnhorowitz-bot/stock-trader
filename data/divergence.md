@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-23 04:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-23 04:59 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -40,13 +40,13 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Thomas R Tillis | 93 | 0% | 9 |
 | John B. Larson | 93 | 0% | 8 |
+| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Lori Trahan | 92 | 0% | 1 |
 | Jake Auchincloss | 91 | 0% | 1 |
+| Victoria Spartz | 90 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 90 | 0% | 3 |
-| Victoria Spartz | 89 | 0% | 1 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
@@ -56,20 +56,20 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Alan Armstrong | 85 | 40% | 5 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Lloyd K. Smucker | 82 | 0% | 6 |
-| Scott DesJarlais | 82 | 0% | 2 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
 | Shri Thanedar | 77 | 0% | 6 |
 | Tom Cole | 76 | 50% | 2 |
 | Teresa Leger Fernandez | 75 | 0% | 1 |
-| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 72 | 0% | 9 |
+| David Rouzer | 72 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
 | Brad Knott | 69 | 50% | 2 |
 | Dave Min | 69 | 0% | 1 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
-| James P. McGovern | 62 | 0% | 1 |
+| James P. McGovern | 63 | 0% | 1 |
 | Greg Landsman | 62 | 0% | 9 |
 | April McClain Delaney | 55 | 0% | 7 |
 | Morgan McGarvey | 52 | 0% | 5 |
