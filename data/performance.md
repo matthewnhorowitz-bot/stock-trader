@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-24 21:37 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-24 21:47 UTC._
 
 ## Total
 
@@ -243,8 +243,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
 | Abigail Spanberger | 1.0% | 2 |
+| Alan Armstrong | 0.8% | 322 |
 | George Miller | 0.8% | 1 |
-| Alan Armstrong | 0.6% | 322 |
 | Kenneth R. Buck | 0.6% | 28 |
 | Greg Stanton | 0.3% | 94 |
 | Thomas R. Suozzi | 0.0% | 1 |
