@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-26 05:10 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-26 05:26 UTC._
 
 ## Total
 
@@ -278,7 +278,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William F Hagerty, IV | -16.9% | 1 |
 | Kevin Yoder | -20.1% | 6 |
 | Billy Long | -21.9% | 1 |
-| Felix Barry Moore | -29.0% | 5 |
+| Felix Barry Moore | -28.7% | 5 |
 | David Madison Cawthorn | -34.4% | 15 |
 | Chip Roy | -36.8% | 2 |
 | Larry Bucshon | -43.1% | 1 |
