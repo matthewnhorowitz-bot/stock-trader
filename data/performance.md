@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-27 05:28 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-27 05:43 UTC._
 
 ## Total
 
@@ -106,7 +106,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tammy Duckworth | 55.4% | 4 |
 | Virginia Foxx | 54.3% | 602 |
 | Vicente Gonzalez | 54.3% | 1 |
-| Richard W. Allen | 54.3% | 163 |
+| Richard W. Allen | 54.2% | 163 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
 | Kelly Louise Morrison | 50.7% | 13 |
@@ -121,7 +121,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Angus S King, Jr. | 42.9% | 34 |
 | John A. Yarmuth | 42.5% | 139 |
 | William R. Keating | 41.7% | 89 |
-| Josh Gottheimer | 41.5% | 1441 |
+| Josh Gottheimer | 41.6% | 1441 |
 | Tim Moore | 41.4% | 159 |
 | Susie Lee | 40.9% | 628 |
 | Gilbert Cisneros | 40.5% | 1552 |
@@ -143,8 +143,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Sara Jacobs | 29.7% | 10 |
 | Rob Bresnahan | 29.4% | 248 |
 | Elizabeth Fletcher | 29.0% | 23 |
-| Donna Shalala | 28.8% | 169 |
 | Julia Letlow | 28.8% | 154 |
+| Donna Shalala | 28.8% | 169 |
 | Steve Cohen | 28.7% | 20 |
 | Rohit Khanna | 28.4% | 139 |
 | Thomas H Tuberville | 28.1% | 491 |
@@ -152,7 +152,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William R. Timmons | 27.7% | 6 |
 | Christopher L. Jacobs | 26.9% | 95 |
 | Charles J. Chuck Fleischmann | 26.7% | 57 |
-| Cleo Fields | 26.6% | 182 |
+| Cleo Fields | 26.7% | 182 |
 | Cynthia M Lummis | 26.4% | 1 |
 | Richard Dean McCormick | 26.2% | 71 |
 | Earl Blumenauer | 26.1% | 239 |
