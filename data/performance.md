@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-09-28 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-09-28 19:00 UTC._
 
 ## Total
 
@@ -93,11 +93,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert J. Wittman | 66.8% | 117 |
 | Neal Patrick MD, Facs Dunn | 66.6% | 6 |
 | Michael Patrick Guest | 63.5% | 48 |
-| Diana Harshbarger | 62.4% | 7 |
+| Diana Harshbarger | 62.3% | 7 |
 | Kevin Hern | 62.0% | 552 |
 | Peter Welch | 61.6% | 36 |
 | Scott Franklin | 59.5% | 49 |
-| Lloyd Doggett | 59.1% | 209 |
+| Lloyd Doggett | 59.0% | 209 |
 | William Cassidy | 58.7% | 87 |
 | David A Perdue , Jr | 58.1% | 1255 |
 | Carol Devine Miller | 57.2% | 62 |
@@ -167,7 +167,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Greg Steube | 22.2% | 12 |
 | Roger F Wicker | 21.9% | 3 |
 | Greg Gianforte | 21.7% | 648 |
-| Thomas H. Kean | 21.4% | 85 |
+| Thomas H. Kean | 21.5% | 85 |
 | Jonathan Jackson | 21.4% | 108 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
 | Nicholas Van Taylor | 20.4% | 49 |
@@ -175,7 +175,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lou Barletta | 20.1% | 17 |
 | Thomas R Carper | 19.6% | 494 |
 | Jackie Speier | 19.2% | 3 |
-| Jared Moskowitz | 19.2% | 229 |
+| Jared Moskowitz | 19.1% | 229 |
 | Ashley Hinson Arenholz | 18.5% | 4 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Mo Brooks | 16.4% | 41 |
