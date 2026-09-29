@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-29 05:07 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-09-29 05:58 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -40,12 +40,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Thomas R Tillis | 93 | 0% | 9 |
 | John B. Larson | 93 | 0% | 8 |
-| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
+| Lori Trahan | 92 | 0% | 1 |
+| Sharice Davids | 92 | 0% | 4 |
 | Jake Auchincloss | 91 | 0% | 1 |
 | Victoria Spartz | 90 | 0% | 1 |
-| Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 89 | 0% | 3 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
@@ -54,18 +54,18 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James M. Costa | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
 | Alan Armstrong | 85 | 40% | 5 |
-| Scott DesJarlais | 83 | 0% | 2 |
-| Marc A. Veasey | 82 | 0% | 1 |
-| Lloyd K. Smucker | 82 | 0% | 6 |
+| Lloyd K. Smucker | 81 | 0% | 6 |
+| Scott DesJarlais | 81 | 0% | 2 |
+| Marc A. Veasey | 80 | 0% | 1 |
 | Tina Smith | 79 | 0% | 5 |
-| Shri Thanedar | 77 | 0% | 6 |
-| Teresa Leger Fernandez | 75 | 0% | 1 |
+| Shri Thanedar | 76 | 0% | 6 |
 | Tom Cole | 74 | 50% | 2 |
-| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
+| Teresa Leger Fernandez | 71 | 0% | 1 |
 | Dave Min | 71 | 0% | 1 |
+| David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
@@ -80,22 +80,22 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Peter Welch | 47 | 10% | 10 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 40 | 20% | 10 |
-| Scott Franklin | 39 | 71% | 7 |
+| Scott Franklin | 38 | 71% | 7 |
 | John W. Rose | 35 | 0% | 3 |
 | Jefferson Shreve | 34 | 0% | 8 |
-| Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Cliff Bentz | 33 | 67% | 3 |
 | John J McGuire | 33 | 50% | 2 |
+| Debbie Wasserman Schultz | 32 | 43% | 7 |
 | Susie Lee | 32 | 33% | 9 |
 | Diana Harshbarger | 31 | 29% | 7 |
 | Laurel Lee | 30 | 50% | 6 |
 | Thomas R. Suozzi | 28 | 0% | 3 |
 | Steve Cohen | 27 | 20% | 10 |
 | Michael McCaul | 26 | 40% | 5 |
+| Debbie Dingell | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
 | Katherine M. Clark | 24 | 25% | 8 |
-| Debbie Dingell | 24 | 25% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Michael Rulli | 23 | 33% | 6 |
@@ -105,11 +105,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Roger F Wicker | 20 | 0% | 1 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Lois Frankel | 18 | 11% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
