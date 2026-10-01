@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-01 15:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-01 16:01 UTC._
 
 ## Total
 
@@ -190,7 +190,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Garcia | 13.8% | 20 |
 | Brad Ashford | 13.1% | 5 |
 | Kim Schrier | 12.7% | 3 |
-| Byron Donalds | 12.5% | 45 |
+| Byron Donalds | 12.6% | 45 |
 | Mikie Sherrill | 12.5% | 38 |
 | John Boozman | 12.4% | 239 |
 | Frank A. LoBiondo | 12.2% | 8 |
