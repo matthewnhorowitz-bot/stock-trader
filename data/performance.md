@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-02 14:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-02 15:01 UTC._
 
 ## Total
 
@@ -185,7 +185,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Francis Rooney | 15.1% | 19 |
 | Patrick J Toomey | 14.4% | 84 |
 | Roger Williams | 14.0% | 12 |
-| Byron Donalds | 13.7% | 45 |
+| Byron Donalds | 13.8% | 45 |
 | Brad Ashford | 13.1% | 5 |
 | Michael Garcia | 12.9% | 20 |
 | Kim Schrier | 12.7% | 3 |
