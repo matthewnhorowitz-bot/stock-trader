@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-03 02:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-03 03:01 UTC._
 
 ## Total
 
@@ -119,7 +119,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert E. Latta | 43.0% | 23 |
 | William R. Keating | 42.6% | 89 |
 | John A. Yarmuth | 42.5% | 139 |
-| Susie Lee | 41.7% | 628 |
+| Susie Lee | 41.6% | 628 |
 | Josh Gottheimer | 40.8% | 1441 |
 | Gilbert Cisneros | 39.7% | 1552 |
 | Rafael E Cruz | 39.6% | 3 |

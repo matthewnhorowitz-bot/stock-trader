@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-03 02:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-03 03:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -50,29 +50,29 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Victoria Spartz | 90 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Joseph D. Morelle | 89 | 0% | 8 |
+| Lance Gooden | 89 | 0% | 3 |
 | David Taylor | 89 | 67% | 3 |
 | Raul Ruiz | 88 | 0% | 4 |
 | Stephanie Bice | 88 | 0% | 1 |
-| Lance Gooden | 88 | 0% | 3 |
 | Marcy Kaptur | 87 | 0% | 1 |
 | Shri Thanedar | 85 | 0% | 6 |
 | Alan Armstrong | 85 | 40% | 5 |
-| Scott DesJarlais | 81 | 0% | 2 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Scott DesJarlais | 83 | 0% | 2 |
+| Lloyd K. Smucker | 81 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Dave Min | 75 | 0% | 1 |
+| David Rouzer | 74 | 0% | 1 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Tom Cole | 73 | 50% | 2 |
 | Tommy Tuberville | 73 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 71 | 0% | 1 |
+| Dave Min | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
-| Greg Landsman | 64 | 0% | 9 |
+| Greg Landsman | 63 | 0% | 9 |
 | James P. McGovern | 61 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
-| Morgan McGarvey | 53 | 0% | 5 |
+| Morgan McGarvey | 52 | 0% | 5 |
 | Mike Kelly | 51 | 38% | 8 |
 | Julie Johnson | 51 | 11% | 9 |
 | Seth Moulton | 49 | 0% | 3 |
@@ -108,9 +108,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Kathy Castor | 19 | 25% | 4 |
 | Zoe Lofgren | 19 | 0% | 9 |
 | Jerry Moran, | 19 | 29% | 7 |
+| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Brian Babin | 18 | 0% | 2 |
-| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
@@ -118,8 +118,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |
+| Virginia Foxx | 11 | 11% | 9 |
 | David P. Joyce | 11 | 29% | 7 |
-| Virginia Foxx | 10 | 11% | 9 |
 | Lloyd Doggett | 10 | 75% | 4 |
 | Gilbert Cisneros | 10 | 63% | 8 |
 | Brian Mast | 9 | 43% | 7 |
