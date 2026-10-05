@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-05 14:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-05 15:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.8%**
-- S&P 500 (SPY) over the same windows: 84.5%
-- Priced positions: 26443  ·  still open: 10385  ·  awaiting price data: 565
+- S&P 500 (SPY) over the same windows: 84.6%
+- Priced positions: 26444  ·  still open: 10386  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -184,8 +184,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Patrick J Toomey | 14.4% | 84 |
+| Byron Donalds | 14.4% | 45 |
 | Roger Williams | 14.3% | 12 |
-| Byron Donalds | 14.3% | 45 |
 | Peter Allen Stauber | 14.2% | 1 |
 | Michael Garcia | 14.0% | 20 |
 | Brad Ashford | 13.1% | 5 |
@@ -226,10 +226,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John J McGuire | 3.9% | 2 |
 | Bruce Westerman | 3.8% | 105 |
 | Mike Kennedy | 3.7% | 1 |
-| Michael Rulli | 3.6% | 15 |
 | Patty Murray | 3.6% | 75 |
 | James R. Langevin | 3.2% | 182 |
 | Valerie Hoyle | 2.7% | 193 |
+| Michael Rulli | 2.6% | 16 |
 | E. Scott Rigell | 2.6% | 31 |
 | Gary Peters | 2.3% | 2 |
 | Thomas MacArthur | 2.2% | 915 |
