@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-05 02:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-05 03:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -60,19 +60,19 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Scott DesJarlais | 81 | 0% | 2 |
 | Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Dave Min | 75 | 0% | 1 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Tom Cole | 73 | 50% | 2 |
 | Tommy Tuberville | 73 | 0% | 6 |
 | Kim Schrier | 71 | 0% | 7 |
+| Dave Min | 71 | 0% | 1 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | Robert B. Aderholt | 65 | 33% | 3 |
 | John W Hickenlooper | 64 | 13% | 8 |
-| Greg Landsman | 64 | 0% | 9 |
+| Greg Landsman | 63 | 0% | 9 |
 | James P. McGovern | 61 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
-| Morgan McGarvey | 53 | 0% | 5 |
+| Morgan McGarvey | 52 | 0% | 5 |
 | Mike Kelly | 51 | 38% | 8 |
 | Julie Johnson | 51 | 11% | 9 |
 | Seth Moulton | 49 | 0% | 3 |
