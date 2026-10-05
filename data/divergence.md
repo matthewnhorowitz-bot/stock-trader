@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-05 15:06 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-05 15:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -102,7 +102,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Dwight Evans | 21 | 38% | 8 |
 | Jared Moskowitz | 21 | 44% | 9 |
 | Roger F Wicker | 20 | 0% | 1 |
-| Michael Rulli | 20 | 33% | 6 |
 | Kathy Castor | 19 | 25% | 4 |
 | Jerry Moran, | 19 | 29% | 7 |
 | David Kustoff | 19 | 40% | 5 |

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:06:25.156Z",
+  "generatedAt": "2026-10-05T15:07:21.515Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -9460,6 +9460,128 @@
       ]
     },
     {
+      "member": "Michael Rulli",
+      "chamber": "house",
+      "ds": 23,
+      "alignmentRate": 33,
+      "sectorsScored": 6,
+      "sectors": [
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "AMZN"
+          ],
+          "example": {
+            "title": "Beat Bad Bureaucrats Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.813,
+          "portfolioStance": -1,
+          "divergence": 0.813,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "PRU",
+            "ALL"
+          ],
+          "example": {
+            "title": "Rosie the Riveter Commemorative Coin Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 0.898,
+          "portfolioStance": -0.6,
+          "divergence": 0.539,
+          "exposure": 5005,
+          "aligned": false,
+          "tickers": [
+            "PFE",
+            "TMO",
+            "LLY"
+          ],
+          "example": {
+            "title": "Medicaid Fraud Prevention Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": 0.067,
+          "divergence": 0,
+          "exposure": 15015,
+          "aligned": true,
+          "tickers": [
+            "NOW",
+            "ORCL",
+            "NVDA",
+            "AAPL",
+            "PLTR",
+            "MSFT",
+            "MU",
+            "KLAC"
+          ],
+          "example": {
+            "title": "Wireless Broadband Competition and Efficient Deployment Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Real Estate",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "CCI",
+            "EQIX"
+          ],
+          "example": {
+            "title": "Housing Regulatory Clarity Act of 2026",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 1001,
+          "aligned": true,
+          "tickers": [
+            "KO"
+          ],
+          "example": {
+            "title": "PRIME Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Ed Case",
       "chamber": "house",
       "ds": 22,
@@ -10026,129 +10148,6 @@
           "example": {
             "title": "Flood Insurance Continuing Education and Training Act",
             "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Michael Rulli",
-      "chamber": "house",
-      "ds": 20,
-      "alignmentRate": 33,
-      "sectorsScored": 6,
-      "sectors": [
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 2002,
-          "aligned": false,
-          "tickers": [
-            "AMZN"
-          ],
-          "example": {
-            "title": "Beat Bad Bureaucrats Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 0.898,
-          "portfolioStance": -0.6,
-          "divergence": 0.539,
-          "exposure": 5005,
-          "aligned": false,
-          "tickers": [
-            "PFE",
-            "TMO",
-            "LLY"
-          ],
-          "example": {
-            "title": "Medicaid Fraud Prevention Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.813,
-          "portfolioStance": -0.333,
-          "divergence": 0.271,
-          "exposure": 3003,
-          "aligned": false,
-          "tickers": [
-            "PRU",
-            "ALL",
-            "GS"
-          ],
-          "example": {
-            "title": "Rosie the Riveter Commemorative Coin Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": 0.067,
-          "divergence": 0,
-          "exposure": 15015,
-          "aligned": true,
-          "tickers": [
-            "NOW",
-            "ORCL",
-            "NVDA",
-            "AAPL",
-            "PLTR",
-            "MSFT",
-            "MU",
-            "KLAC"
-          ],
-          "example": {
-            "title": "Wireless Broadband Competition and Efficient Deployment Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Real Estate",
-          "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 2002,
-          "aligned": false,
-          "tickers": [
-            "CCI",
-            "EQIX"
-          ],
-          "example": {
-            "title": "Housing Regulatory Clarity Act of 2026",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 1001,
-          "aligned": true,
-          "tickers": [
-            "KO"
-          ],
-          "example": {
-            "title": "PRIME Act",
-            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
