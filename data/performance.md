@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-06 22:47 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-06 23:01 UTC._
 
 ## Total
 
@@ -20,12 +20,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Sheldon Whitehouse | 549.0% | 445 |
 | Luis V. Gutierrez | 474.2% | 6 |
 | Brenda Lulenar Lawrence | 469.5% | 19 |
-| Barbara J Comstock | 451.3% | 29 |
+| Barbara J Comstock | 451.4% | 29 |
 | Ashley Moody | 425.4% | 3 |
 | Michael Fq San Nicolas | 392.0% | 1 |
 | Christopher A Coons | 300.4% | 2 |
 | William M. Cassidy | 285.3% | 1 |
-| Ron L Wyden | 271.8% | 196 |
+| Ron L Wyden | 271.7% | 196 |
 | Steve Chabot | 255.9% | 2 |
 | Roger W. Marshall | 238.0% | 51 |
 | Brian Higgins | 236.4% | 1 |
@@ -40,10 +40,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rubén Hinojosa | 169.4% | 30 |
 | Daniel Meuser | 159.9% | 9 |
 | Pat Roberts | 156.2% | 287 |
-| Gary Palmer | 147.1% | 182 |
-| John Hoeven | 147.0% | 128 |
+| Gary Palmer | 147.0% | 182 |
+| John Hoeven | 146.8% | 128 |
 | Neal P. Dunn | 144.0% | 2 |
-| Debbie Dingell | 140.8% | 100 |
+| Debbie Dingell | 140.7% | 100 |
 | Beto O'Rourke | 139.4% | 3 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 135.6% | 71 |
@@ -89,9 +89,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Debbie Wasserman Schultz | 70.1% | 36 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Tina Smith | 68.9% | 5 |
-| James Comer | 67.4% | 32 |
+| James Comer | 67.3% | 32 |
 | Robert J. Wittman | 67.0% | 117 |
-| Michael Patrick Guest | 65.8% | 48 |
+| Michael Patrick Guest | 65.7% | 48 |
 | Neal Patrick MD, Facs Dunn | 64.4% | 6 |
 | Diana Harshbarger | 63.0% | 7 |
 | Kevin Hern | 62.9% | 552 |
@@ -107,11 +107,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Vicente Gonzalez | 54.6% | 1 |
 | Richard W. Allen | 54.4% | 163 |
 | Virginia Foxx | 53.6% | 602 |
-| Kelly Louise Morrison | 52.3% | 13 |
 | Cheri Bustos | 52.0% | 13 |
+| Kelly Louise Morrison | 51.9% | 13 |
 | Garret Graves | 51.0% | 6 |
 | Bradley S. Schneider | 49.7% | 40 |
-| Dan Newhouse | 48.9% | 110 |
+| Dan Newhouse | 48.8% | 110 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
 | Angus S King, Jr. | 45.5% | 34 |
@@ -151,7 +151,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cleo Fields | 28.6% | 186 |
 | Steve Cohen | 28.0% | 20 |
 | Markwayne Mullin | 27.8% | 272 |
-| Aston Donald McEachin | 27.1% | 6 |
+| Aston Donald McEachin | 27.0% | 6 |
 | Rohit Khanna | 26.9% | 139 |
 | Charles J. Chuck Fleischmann | 26.9% | 57 |
 | Richard Dean McCormick | 26.4% | 71 |
@@ -210,7 +210,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Trone | 8.7% | 14 |
 | Ed Whitfield | 8.5% | 56 |
 | Maria Elvira Salazar | 8.3% | 67 |
-| David J. Taylor | 8.2% | 114 |
+| David J. Taylor | 8.1% | 114 |
 | Tracey Robert Mann | 8.1% | 5 |
 | Adam Kinzinger | 7.9% | 17 |
 | C. Scott Franklin | 7.9% | 35 |
