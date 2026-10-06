@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-06 18:29 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-06 18:36 UTC._
 
 ## Total
 
@@ -16,7 +16,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Pete Sessions | 2702.2% | 176 |
 | Brian Babin | 673.4% | 6 |
 | Barbara J. Comstock | 622.9% | 2 |
-| Charlie Joseph Crist | 599.7% | 1 |
+| Charlie Joseph Crist | 578.5% | 1 |
 | Sheldon Whitehouse | 549.0% | 445 |
 | Luis V. Gutierrez | 474.2% | 6 |
 | Brenda Lulenar Lawrence | 469.4% | 19 |
