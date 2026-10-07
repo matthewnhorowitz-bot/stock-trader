@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-07 07:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-07 08:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -43,9 +43,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John Garamendi | 93 | 0% | 4 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
 | Lori Trahan | 92 | 0% | 1 |
+| Sharice Davids | 92 | 0% | 4 |
 | Jake Auchincloss | 91 | 0% | 1 |
 | Victoria Spartz | 90 | 0% | 1 |
-| Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 89 | 0% | 3 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
@@ -55,16 +55,16 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Raul Ruiz | 85 | 0% | 4 |
 | Alan Armstrong | 85 | 40% | 5 |
 | Marc A. Veasey | 82 | 0% | 1 |
-| Lloyd K. Smucker | 81 | 0% | 6 |
+| Lloyd K. Smucker | 82 | 0% | 6 |
 | Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
-| Shri Thanedar | 76 | 0% | 6 |
-| Teresa Leger Fernandez | 75 | 0% | 1 |
+| Shri Thanedar | 77 | 0% | 6 |
+| Dave Min | 75 | 0% | 1 |
 | Tom Cole | 74 | 50% | 2 |
 | Tommy Tuberville | 73 | 0% | 6 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
-| Dave Min | 71 | 0% | 1 |
+| Teresa Leger Fernandez | 71 | 0% | 1 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | Robert B. Aderholt | 65 | 33% | 3 |
@@ -72,7 +72,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Greg Landsman | 62 | 0% | 9 |
 | James P. McGovern | 61 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
-| Morgan McGarvey | 52 | 0% | 5 |
+| Morgan McGarvey | 53 | 0% | 5 |
 | Mike Kelly | 51 | 38% | 8 |
 | Julie Johnson | 51 | 11% | 9 |
 | Seth Moulton | 49 | 0% | 3 |
@@ -93,9 +93,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Thomas R. Suozzi | 28 | 0% | 3 |
 | Steve Cohen | 27 | 20% | 10 |
 | Michael McCaul | 26 | 40% | 5 |
+| Debbie Dingell | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
 | Katherine M. Clark | 24 | 25% | 8 |
-| Debbie Dingell | 24 | 25% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Ed Case | 22 | 20% | 5 |
