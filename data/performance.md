@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-08 00:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-08 01:00 UTC._
 
 ## Total
 
@@ -183,7 +183,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Allen Stauber | 15.9% | 1 |
 | James M Inhofe | 15.8% | 78 |
 | Trey Hollingsworth | 15.3% | 54 |
-| Byron Donalds | 15.2% | 45 |
+| Byron Donalds | 15.3% | 45 |
 | Francis Rooney | 15.1% | 19 |
 | Michael Garcia | 14.9% | 20 |
 | Roger Williams | 14.7% | 12 |
