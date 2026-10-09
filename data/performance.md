@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-09 22:45 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-09 22:53 UTC._
 
 ## Total
 
@@ -235,7 +235,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brandon Gill | 1.8% | 5 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
-| Michael Rulli | 1.6% | 16 |
+| Michael Rulli | 1.7% | 16 |
 | William L. Owens | 1.5% | 6 |
 | Louise McIntosh Slaughter | 1.4% | 17 |
 | Bill Flores | 1.4% | 220 |
@@ -247,10 +247,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John J McGuire | 0.1% | 2 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
-| Tim Walberg | -0.3% | 13 |
+| Tim Walberg | -0.2% | 13 |
 | Kenny Marchant | -0.6% | 40 |
 | Mitch McConnell | -0.8% | 1 |
-| Alan Armstrong | -0.9% | 322 |
+| Alan Armstrong | -0.8% | 322 |
 | Michael C. Burgess | -0.9% | 42 |
 | Greg Landsman | -1.1% | 55 |
 | Tommy Tuberville | -1.6% | 3 |
@@ -271,7 +271,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David A. Trott | -10.2% | 89 |
 | Mark R Meadows | -11.0% | 5 |
 | Ron Estes | -12.1% | 6 |
-| Dave McCormick | -14.9% | 13 |
+| Dave McCormick | -13.7% | 13 |
 | Eric Cantor | -15.1% | 1 |
 | James E Banks | -16.7% | 16 |
 | William F Hagerty, IV | -19.6% | 1 |
