@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T06:08:56.498Z",
+  "generatedAt": "2026-10-10T06:09:45.846Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -730,32 +730,6 @@
           ],
           "example": {
             "title": "Family Grocery and Farmer Relief Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Jake Auchincloss",
-      "chamber": "house",
-      "ds": 100,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 30002,
-          "aligned": false,
-          "tickers": [
-            "STT"
-          ],
-          "example": {
-            "title": "Power of the Mint Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -2640,9 +2614,9 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.889,
+          "voteStance": 0.893,
           "portfolioStance": -1,
-          "divergence": 0.889,
+          "divergence": 0.893,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2694,6 +2668,32 @@
           ],
           "example": {
             "title": "Combat Veterans Retirement Restoration Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Jake Auchincloss",
+      "chamber": "house",
+      "ds": 91,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.907,
+          "portfolioStance": -1,
+          "divergence": 0.907,
+          "exposure": 30002,
+          "aligned": false,
+          "tickers": [
+            "STT"
+          ],
+          "example": {
+            "title": "Power of the Mint Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -3122,9 +3122,9 @@
       "sectors": [
         {
           "sector": "Financial Services",
-          "voteStance": 0.878,
+          "voteStance": 0.882,
           "portfolioStance": -1,
-          "divergence": 0.878,
+          "divergence": 0.882,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -3844,6 +3844,49 @@
           ],
           "example": {
             "title": "Rural Residency Planning and Development Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Tom Cole",
+      "chamber": "house",
+      "ds": 74,
+      "alignmentRate": 50,
+      "sectorsScored": 2,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.745,
+          "portfolioStance": -1,
+          "divergence": 0.745,
+          "exposure": 500001,
+          "aligned": false,
+          "tickers": [
+            "WFC"
+          ],
+          "example": {
+            "title": "761st Tank Battalion Congressional Gold Medal Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 0.959,
+          "portfolioStance": 1,
+          "divergence": 0,
+          "exposure": 1001,
+          "aligned": true,
+          "tickers": [
+            "EMBC"
+          ],
+          "example": {
+            "title": "Medical Student Education Authorization Act of 2025",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -16820,7 +16863,7 @@
         },
         {
           "sector": "Financial Services",
-          "voteStance": 0.556,
+          "voteStance": 0.586,
           "portfolioStance": 0.786,
           "divergence": 0,
           "exposure": 1345023,

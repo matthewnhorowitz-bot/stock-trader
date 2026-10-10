@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-10 06:08 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-10 06:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -22,7 +22,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Rick Scott | 100 | 0% | 2 |
 | Pramila Jayapal | 100 | 0% | 1 |
-| Jake Auchincloss | 100 | 0% | 1 |
 | Daniel Webster | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 3 |
@@ -48,6 +47,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Lori Trahan | 93 | 0% | 1 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
 | Victoria Spartz | 91 | 0% | 1 |
+| Jake Auchincloss | 91 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Joseph D. Morelle | 89 | 0% | 8 |
 | Shri Thanedar | 89 | 0% | 6 |
@@ -60,9 +60,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Scott DesJarlais | 83 | 0% | 2 |
 | Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
+| Tom Cole | 74 | 50% | 2 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 73 | 0% | 9 |
-| Tom Cole | 73 | 50% | 2 |
 | Kim Schrier | 71 | 0% | 7 |
 | Dave Min | 71 | 0% | 1 |
 | David Rouzer | 71 | 0% | 1 |
