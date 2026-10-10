@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-10 02:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-10 03:00 UTC._
 
 ## Total
 
@@ -181,8 +181,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gerald E. Connolly | 16.8% | 25 |
 | Mo Brooks | 16.4% | 41 |
 | James M Inhofe | 15.8% | 78 |
-| Jefferson Shreve | 15.7% | 173 |
 | Byron Donalds | 15.7% | 45 |
+| Jefferson Shreve | 15.7% | 173 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
 | Michael Garcia | 15.0% | 20 |
