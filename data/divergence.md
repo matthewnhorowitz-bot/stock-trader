@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-11 06:09 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-11 06:10 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -37,15 +37,15 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Bernie Moreno | 95 | 0% | 2 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
+| Adam Smith | 94 | 0% | 7 |
+| Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
 | Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
-| Adam Smith | 93 | 0% | 7 |
-| Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Sharice Davids | 92 | 0% | 4 |
-| Victoria Spartz | 90 | 0% | 1 |
+| Victoria Spartz | 91 | 0% | 1 |
+| Sharice Davids | 90 | 0% | 4 |
 | Lance Gooden | 89 | 0% | 3 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
@@ -54,23 +54,23 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James M. Costa | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
 | Alan Armstrong | 85 | 40% | 5 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Marc A. Veasey | 82 | 0% | 1 |
 | Lloyd K. Smucker | 82 | 0% | 6 |
 | Shri Thanedar | 81 | 0% | 6 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
-| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Tom Cole | 73 | 50% | 2 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
 | Teresa Leger Fernandez | 71 | 0% | 1 |
 | Dave Min | 71 | 0% | 1 |
+| David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
 | Greg Landsman | 62 | 0% | 9 |
-| James P. McGovern | 57 | 0% | 1 |
+| James P. McGovern | 58 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
 | Morgan McGarvey | 52 | 0% | 5 |
 | Peter Welch | 51 | 11% | 9 |
@@ -93,9 +93,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Laurel Lee | 30 | 50% | 6 |
 | Steve Cohen | 27 | 20% | 10 |
 | Michael McCaul | 26 | 40% | 5 |
-| Debbie Dingell | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
 | Katherine M. Clark | 24 | 25% | 8 |
+| Debbie Dingell | 24 | 25% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Ed Case | 22 | 20% | 5 |
@@ -107,10 +107,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Jerry Moran, | 19 | 29% | 7 |
 | David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
-| Lois Frankel | 18 | 11% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
 | August Lee Pfluger | 18 | 33% | 6 |
+| Lois Frankel | 17 | 11% | 9 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
