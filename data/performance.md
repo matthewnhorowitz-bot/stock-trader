@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-11 06:09 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-11 06:25 UTC._
 
 ## Total
 
@@ -32,7 +32,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan M Collins | 221.6% | 188 |
 | Raul Ruiz | 216.7% | 1 |
 | Michael Waltz | 210.8% | 2 |
-| Richard L. Hanna | 210.2% | 91 |
+| Richard L. Hanna | 210.0% | 91 |
 | David Cheston Rouzer | 207.4% | 8 |
 | Michael T. McCaul | 192.7% | 108 |
 | Seth Moulton | 182.7% | 1 |
@@ -43,7 +43,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal P. Dunn | 150.9% | 2 |
 | John Hoeven | 148.1% | 128 |
 | Gary Palmer | 147.6% | 182 |
-| Debbie Dingell | 142.1% | 100 |
+| Debbie Dingell | 142.0% | 100 |
 | Beto O'Rourke | 139.8% | 3 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 134.5% | 71 |
@@ -104,7 +104,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lois Frankel | 57.7% | 439 |
 | John Curtis | 56.7% | 128 |
 | Tammy Duckworth | 55.4% | 4 |
-| Virginia Foxx | 55.4% | 602 |
+| Virginia Foxx | 55.3% | 602 |
 | Richard W. Allen | 55.1% | 163 |
 | Vicente Gonzalez | 53.1% | 1 |
 | Cheri Bustos | 52.0% | 13 |
@@ -214,7 +214,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katie Britt | 8.2% | 16 |
 | Adam Kinzinger | 7.9% | 17 |
 | Tracey Robert Mann | 7.8% | 5 |
-| Maria Elvira Salazar | 7.4% | 75 |
+| Maria Elvira Salazar | 7.2% | 75 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.3% | 720 |
 | Ritchie John Torres | 6.1% | 69 |
