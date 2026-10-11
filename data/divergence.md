@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-11 05:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-11 06:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -18,6 +18,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Rick Scott | 100 | 0% | 2 |
 | Pramila Jayapal | 100 | 0% | 1 |
+| Jake Auchincloss | 100 | 0% | 1 |
 | Daniel Webster | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 3 |
@@ -38,18 +39,17 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Thomas R Tillis | 94 | 0% | 9 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
+| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
 | Adam Smith | 93 | 0% | 7 |
 | Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Lori Trahan | 92 | 0% | 1 |
 | Sharice Davids | 92 | 0% | 4 |
-| Jake Auchincloss | 91 | 0% | 1 |
 | Victoria Spartz | 90 | 0% | 1 |
 | Lance Gooden | 89 | 0% | 3 |
 | David Taylor | 89 | 67% | 3 |
 | Joseph D. Morelle | 88 | 0% | 8 |
-| Stephanie Bice | 88 | 0% | 1 |
+| Stephanie Bice | 87 | 0% | 1 |
 | Marcy Kaptur | 87 | 0% | 1 |
 | James M. Costa | 86 | 0% | 1 |
 | Raul Ruiz | 85 | 0% | 4 |
@@ -59,12 +59,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Lloyd K. Smucker | 82 | 0% | 6 |
 | Shri Thanedar | 81 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Teresa Leger Fernandez | 75 | 0% | 1 |
-| Tom Cole | 74 | 50% | 2 |
+| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
-| David Rouzer | 73 | 0% | 1 |
+| Tom Cole | 73 | 50% | 2 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
+| Teresa Leger Fernandez | 71 | 0% | 1 |
 | Dave Min | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
