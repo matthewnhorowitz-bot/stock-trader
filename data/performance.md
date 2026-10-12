@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-12 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-12 21:00 UTC._
 
 ## Total
 
@@ -179,8 +179,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Allen Stauber | 19.2% | 1 |
 | Jackie Speier | 19.2% | 3 |
 | Gerald E. Connolly | 16.8% | 25 |
-| Mo Brooks | 16.4% | 41 |
 | Byron Donalds | 16.4% | 45 |
+| Mo Brooks | 16.4% | 41 |
 | Michael Garcia | 16.1% | 20 |
 | James M Inhofe | 15.8% | 78 |
 | Jefferson Shreve | 15.7% | 173 |
