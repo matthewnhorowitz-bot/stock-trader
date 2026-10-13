@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-13 21:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-13 22:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 73.0%**
-- S&P 500 (SPY) over the same windows: 87.2%
-- Priced positions: 26508  ·  still open: 10429  ·  awaiting price data: 571
+- S&P 500 (SPY) over the same windows: 87.1%
+- Priced positions: 26514  ·  still open: 10429  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -52,11 +52,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas Suozzi | 123.0% | 283 |
 | Lamar Smith | 121.2% | 222 |
 | Shri Thanedar | 121.0% | 1 |
-| James French Hill | 118.9% | 24 |
+| James French Hill | 119.0% | 24 |
 | Stephen F. Lynch | 118.4% | 1 |
 | W. Greg Steube | 117.9% | 2 |
 | Grace Meng | 117.4% | 5 |
-| Scott H. Peters | 115.7% | 105 |
+| Scott H. Peters | 115.8% | 105 |
 | Deborah K. Ross | 114.8% | 21 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Kathy Castor | 107.7% | 39 |
@@ -119,11 +119,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brad Knott | 43.5% | 2 |
 | Angus S King, Jr. | 43.4% | 34 |
 | John A. Yarmuth | 42.5% | 139 |
-| Josh Gottheimer | 42.3% | 1441 |
+| Josh Gottheimer | 42.4% | 1441 |
 | Harley E. Rouda | 41.8% | 3 |
 | Susie Lee | 41.6% | 628 |
+| Gilbert Cisneros | 40.5% | 1581 |
 | Rafael E Cruz | 40.2% | 3 |
-| Gilbert Cisneros | 40.0% | 1576 |
 | David B. McKinley | 39.5% | 195 |
 | Tim Moore | 38.7% | 159 |
 | Susan W. Brooks | 38.6% | 12 |
@@ -201,7 +201,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Earl Leroy Carter | 11.6% | 1 |
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
-| Rick Larsen | 10.6% | 47 |
+| Rick Larsen | 11.2% | 48 |
 | John McGuire | 10.5% | 11 |
 | Tracey Robert Mann | 10.3% | 5 |
 | C. Scott Franklin | 10.1% | 35 |
@@ -240,7 +240,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Doug Lamborn | 1.4% | 34 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
-| Ro Khanna | 0.6% | 19 |
+| Ro Khanna | 0.7% | 19 |
 | Kenneth R. Buck | 0.5% | 28 |
 | Greg Stanton | 0.2% | 94 |
 | Anthony E. Gonzalez | 0.2% | 3 |
