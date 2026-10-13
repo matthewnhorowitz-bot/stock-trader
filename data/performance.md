@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-13 23:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-13 23:07 UTC._
 
 ## Total
 
@@ -31,7 +31,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Roger W. Marshall | 228.4% | 51 |
 | Susan M Collins | 227.3% | 188 |
 | Raul Ruiz | 219.3% | 1 |
-| Richard L. Hanna | 214.2% | 91 |
+| Richard L. Hanna | 214.4% | 91 |
 | Michael Waltz | 210.8% | 2 |
 | David Cheston Rouzer | 204.9% | 8 |
 | Michael T. McCaul | 192.2% | 108 |
