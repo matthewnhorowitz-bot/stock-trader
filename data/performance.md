@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-14 21:56 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-14 22:00 UTC._
 
 ## Total
 
@@ -41,9 +41,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Meuser | 161.0% | 9 |
 | Pat Roberts | 156.0% | 287 |
 | Neal P. Dunn | 153.5% | 2 |
-| John Hoeven | 148.8% | 128 |
-| Gary Palmer | 147.3% | 182 |
-| Debbie Dingell | 144.5% | 100 |
+| John Hoeven | 148.9% | 128 |
+| Gary Palmer | 147.4% | 182 |
+| Debbie Dingell | 144.6% | 100 |
 | Beto O'Rourke | 140.4% | 3 |
 | Suzan K. DelBene | 138.0% | 71 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
@@ -72,9 +72,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Kustoff | 89.0% | 9 |
 | Terri A. Sewell | 88.6% | 2 |
 | John N Kennedy | 88.0% | 2 |
+| A. Mitchell McConnell, Jr. | 87.6% | 37 |
 | Daniel S Sullivan | 86.1% | 30 |
 | John F Reed | 86.1% | 55 |
-| A. Mitchell McConnell, Jr. | 85.6% | 37 |
 | Judy Chu | 84.6% | 5 |
 | David P. Joyce | 80.1% | 76 |
 | Jerry Moran, | 78.4% | 75 |
@@ -142,7 +142,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Goldman | 30.7% | 369 |
 | Cynthia M Lummis | 30.2% | 1 |
 | Linda T. Sanchez | 29.9% | 3 |
-| Rob Bresnahan | 29.7% | 248 |
+| Rob Bresnahan | 29.8% | 248 |
 | Elizabeth Fletcher | 29.3% | 23 |
 | William R. Timmons | 29.1% | 6 |
 | Donna Shalala | 28.8% | 169 |
@@ -183,7 +183,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mo Brooks | 16.4% | 41 |
 | Michael Garcia | 16.1% | 20 |
 | James M Inhofe | 15.8% | 78 |
-| Jefferson Shreve | 15.6% | 173 |
+| Jefferson Shreve | 15.5% | 173 |
 | Byron Donalds | 15.3% | 45 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
@@ -240,11 +240,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Doug Lamborn | 1.4% | 34 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
-| Ro Khanna | 0.5% | 19 |
+| Ro Khanna | 0.7% | 19 |
 | Kenneth R. Buck | 0.5% | 28 |
 | Greg Stanton | 0.2% | 94 |
 | Anthony E. Gonzalez | 0.2% | 3 |
-| Tim Walberg | 0.1% | 13 |
+| Tim Walberg | 0.2% | 13 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
 | Alan Armstrong | -0.5% | 322 |
@@ -258,9 +258,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John J McGuire | -1.8% | 2 |
 | John D. Dingell | -2.2% | 3 |
 | Nick J. Rahall | -2.3% | 14 |
-| April McClain Delaney | -2.6% | 229 |
+| April McClain Delaney | -2.5% | 229 |
+| Mitch McConnell | -2.6% | 1 |
 | Cindy Axne | -3.2% | 78 |
-| Mitch McConnell | -3.6% | 1 |
 | Tom Malinowski | -3.7% | 163 |
 | Andrew Garbarino | -3.8% | 5 |
 | David H McCormick | -5.3% | 24 |
