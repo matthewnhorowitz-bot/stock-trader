@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-14 21:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-14 21:49 UTC._
 
 ## Total
 
@@ -89,20 +89,20 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Morgan McGarvey | 70.6% | 9 |
 | Joseph D. Morelle | 69.3% | 1 |
 | James Comer | 68.7% | 32 |
-| Robert J. Wittman | 68.6% | 117 |
+| Robert J. Wittman | 68.7% | 117 |
 | Michael Patrick Guest | 68.4% | 48 |
 | Tina Smith | 65.0% | 5 |
 | Neal Patrick MD, Facs Dunn | 64.1% | 6 |
-| Diana Harshbarger | 63.6% | 7 |
-| Kevin Hern | 63.6% | 557 |
+| Diana Harshbarger | 64.0% | 7 |
+| Kevin Hern | 63.8% | 557 |
 | Peter Welch | 62.6% | 36 |
-| Scott Franklin | 62.1% | 49 |
-| Lloyd Doggett | 60.4% | 213 |
+| Scott Franklin | 62.3% | 49 |
+| Lloyd Doggett | 60.5% | 213 |
 | William Cassidy | 60.3% | 87 |
 | Carol Devine Miller | 58.5% | 62 |
 | Lois Frankel | 58.0% | 439 |
 | David A Perdue , Jr | 57.6% | 1255 |
-| Richard W. Allen | 56.3% | 163 |
+| Richard W. Allen | 56.4% | 163 |
 | John Curtis | 56.3% | 128 |
 | Tammy Duckworth | 55.4% | 4 |
 | Virginia Foxx | 54.8% | 602 |
@@ -125,7 +125,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Gilbert Cisneros | 40.5% | 1581 |
 | Rafael E Cruz | 40.2% | 3 |
 | David B. McKinley | 39.5% | 195 |
-| Tim Moore | 38.7% | 159 |
+| Tim Moore | 38.9% | 159 |
 | Susan W. Brooks | 38.6% | 12 |
 | Jim McDermott | 37.1% | 2 |
 | Sara Jacobs | 36.2% | 10 |
@@ -148,10 +148,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donna Shalala | 28.8% | 169 |
 | Rohit Khanna | 28.4% | 139 |
 | Steve Cohen | 28.0% | 20 |
-| Julia Letlow | 27.8% | 154 |
+| Julia Letlow | 27.9% | 154 |
 | Markwayne Mullin | 27.8% | 272 |
+| Richard Dean McCormick | 27.6% | 71 |
 | Thomas H Tuberville | 27.4% | 491 |
-| Richard Dean McCormick | 27.3% | 71 |
 | Cleo Fields | 26.9% | 186 |
 | Earl Blumenauer | 26.1% | 239 |
 | Christopher L. Jacobs | 25.6% | 95 |
@@ -169,8 +169,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jonathan Jackson | 21.8% | 108 |
 | Greg Gianforte | 21.7% | 648 |
 | Laurel Lee | 21.6% | 7 |
+| Jared Moskowitz | 20.9% | 229 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
-| Jared Moskowitz | 20.8% | 229 |
 | Lou Barletta | 20.1% | 17 |
 | Thomas R Carper | 19.6% | 494 |
 | Nicholas Van Taylor | 19.5% | 49 |
@@ -183,7 +183,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mo Brooks | 16.4% | 41 |
 | Michael Garcia | 16.1% | 20 |
 | James M Inhofe | 15.8% | 78 |
-| Jefferson Shreve | 15.5% | 173 |
+| Jefferson Shreve | 15.6% | 173 |
 | Byron Donalds | 15.3% | 45 |
 | Trey Hollingsworth | 15.3% | 54 |
 | Francis Rooney | 15.1% | 19 |
@@ -202,25 +202,25 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
 | Rick Larsen | 11.2% | 48 |
-| John McGuire | 10.5% | 11 |
+| John McGuire | 11.1% | 11 |
 | Tracey Robert Mann | 10.3% | 5 |
-| C. Scott Franklin | 10.1% | 35 |
+| C. Scott Franklin | 10.2% | 35 |
 | Zoe Lofgren | 10.1% | 159 |
 | Mick Mulvaney | 9.7% | 4 |
-| Katie Britt | 9.3% | 16 |
 | David J. Taylor | 9.3% | 114 |
+| Katie Britt | 9.3% | 16 |
 | Kurt Schrader | 8.9% | 150 |
 | Sheri Biggs | 8.8% | 50 |
 | David Trone | 8.7% | 14 |
 | Ed Whitfield | 8.5% | 56 |
 | Adam Kinzinger | 7.9% | 17 |
 | Maria Elvira Salazar | 7.8% | 75 |
+| Ritchie John Torres | 6.9% | 69 |
 | Mike Kennedy | 6.8% | 1 |
-| Ritchie John Torres | 6.5% | 69 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.3% | 728 |
+| Scott Scott Franklin | 6.0% | 50 |
 | John James | 5.9% | 126 |
-| Scott Scott Franklin | 5.7% | 50 |
 | Lindsey Graham | 4.9% | 6 |
 | Carlos Curbelo | 4.1% | 138 |
 | Patrick Fallon | 4.0% | 56 |
@@ -244,9 +244,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kenneth R. Buck | 0.5% | 28 |
 | Greg Stanton | 0.2% | 94 |
 | Anthony E. Gonzalez | 0.2% | 3 |
+| Tim Walberg | 0.1% | 13 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
-| Tim Walberg | -0.1% | 13 |
 | Alan Armstrong | -0.5% | 322 |
 | Kenny Marchant | -0.6% | 40 |
 | Tommy Tuberville | -0.7% | 3 |
