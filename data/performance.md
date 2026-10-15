@@ -1,19 +1,19 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-15 17:11 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-15 17:20 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 73.0%**
+- **Index (all tracked buys): 73.1%**
 - S&P 500 (SPY) over the same windows: 87.3%
-- Priced positions: 26519  ·  still open: 10426  ·  awaiting price data: 566
+- Priced positions: 26520  ·  still open: 10426  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2700.8% | 176 |
+| Pete Sessions | 2701.1% | 176 |
 | Brian Babin | 668.6% | 6 |
 | Barbara J. Comstock | 637.9% | 2 |
 | Charlie Joseph Crist | 604.3% | 1 |
@@ -43,14 +43,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal P. Dunn | 153.5% | 2 |
 | John Hoeven | 148.9% | 128 |
 | Gary Palmer | 147.4% | 182 |
-| Debbie Dingell | 144.6% | 100 |
+| Debbie Dingell | 145.0% | 100 |
 | Beto O'Rourke | 140.4% | 3 |
 | Suzan K. DelBene | 138.0% | 71 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Robert B. Aderholt | 126.7% | 1 |
 | Warren Davidson | 124.2% | 2 |
 | Thomas Suozzi | 123.1% | 283 |
-| Lamar Smith | 121.4% | 222 |
+| Lamar Smith | 121.5% | 222 |
 | Shri Thanedar | 121.0% | 1 |
 | James French Hill | 119.2% | 24 |
 | Stephen F. Lynch | 118.4% | 1 |
@@ -102,11 +102,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Carol Devine Miller | 58.5% | 62 |
 | Lois Frankel | 58.0% | 439 |
 | David A Perdue , Jr | 57.6% | 1255 |
+| Richard W. Allen | 56.5% | 163 |
 | John Curtis | 56.4% | 128 |
 | Tammy Duckworth | 55.4% | 4 |
 | Virginia Foxx | 54.8% | 602 |
 | Vicente Gonzalez | 54.3% | 1 |
-| Richard W. Allen | 53.7% | 162 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
 | Kelly Louise Morrison | 49.1% | 13 |
