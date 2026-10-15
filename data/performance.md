@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-15 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-15 17:00 UTC._
 
 ## Total
 
@@ -239,8 +239,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bill Flores | 1.4% | 220 |
 | Doug Lamborn | 1.4% | 34 |
 | Abigail Spanberger | 1.0% | 2 |
+| Ro Khanna | 0.9% | 19 |
 | George Miller | 0.8% | 1 |
-| Ro Khanna | 0.7% | 19 |
 | Kenneth R. Buck | 0.5% | 28 |
 | Greg Stanton | 0.2% | 94 |
 | Anthony E. Gonzalez | 0.2% | 3 |
