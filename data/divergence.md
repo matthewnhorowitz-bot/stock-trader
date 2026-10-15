@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-15 20:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-15 21:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -38,11 +38,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Thomas R Tillis | 94 | 0% | 9 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
-| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
 | Adam Smith | 93 | 0% | 7 |
 | Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
+| Lori Trahan | 92 | 0% | 1 |
 | Sharice Davids | 92 | 0% | 4 |
 | Jake Auchincloss | 91 | 0% | 1 |
 | Victoria Spartz | 90 | 0% | 1 |
@@ -61,11 +61,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tina Smith | 79 | 0% | 5 |
 | Teresa Leger Fernandez | 75 | 0% | 1 |
 | Tom Cole | 74 | 50% | 2 |
-| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
 | Dave Min | 71 | 0% | 1 |
+| David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
@@ -105,11 +105,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Roger F Wicker | 20 | 0% | 1 |
 | Michael Rulli | 20 | 33% | 6 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Lois Frankel | 18 | 11% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
