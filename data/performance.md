@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-16 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-16 16:01 UTC._
 
 ## Total
 
@@ -150,7 +150,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Cohen | 28.3% | 20 |
 | Cliff Bentz | 27.9% | 2 |
 | Markwayne Mullin | 27.8% | 272 |
-| Julia Letlow | 27.5% | 154 |
+| Julia Letlow | 27.6% | 154 |
 | Richard Dean McCormick | 27.5% | 72 |
 | Thomas H Tuberville | 27.2% | 491 |
 | Earl Blumenauer | 26.1% | 239 |
@@ -207,7 +207,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tracey Robert Mann | 10.4% | 5 |
 | Zoe Lofgren | 10.3% | 159 |
 | Katie Britt | 9.9% | 16 |
-| David J. Taylor | 9.7% | 117 |
+| David J. Taylor | 9.8% | 117 |
 | Mick Mulvaney | 9.7% | 4 |
 | Mike Kennedy | 8.9% | 1 |
 | Kurt Schrader | 8.9% | 150 |
@@ -262,7 +262,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cindy Axne | -3.2% | 78 |
 | Tom Malinowski | -3.7% | 163 |
 | Andrew Garbarino | -3.8% | 5 |
-| David Taylor | -4.9% | 3 |
+| David Taylor | -4.3% | 3 |
 | David H McCormick | -5.3% | 24 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Marie Newman | -9.1% | 155 |
