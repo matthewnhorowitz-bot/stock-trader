@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-19 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-19 16:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.0%**
 - S&P 500 (SPY) over the same windows: 87.4%
-- Priced positions: 26523  ·  still open: 10428  ·  awaiting price data: 565
+- Priced positions: 26524  ·  still open: 10429  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -161,7 +161,6 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Charles J. Chuck Fleischmann | 22.5% | 57 |
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
-| Laurel Lee | 22.3% | 7 |
 | Roger F Wicker | 21.9% | 3 |
 | Aston Donald McEachin | 21.8% | 6 |
 | Greg Gianforte | 21.7% | 648 |
@@ -176,6 +175,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Allen Stauber | 19.5% | 1 |
 | John W. Rose | 19.4% | 1 |
 | Jackie Speier | 19.2% | 3 |
+| Laurel Lee | 17.6% | 8 |
 | Gerald E. Connolly | 16.8% | 25 |
 | Ashley Hinson Arenholz | 16.6% | 4 |
 | Mo Brooks | 16.4% | 41 |
