@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-20 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-20 17:21 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.1%**
-- S&P 500 (SPY) over the same windows: 87.4%
-- Priced positions: 26524  ·  still open: 10429  ·  awaiting price data: 565
+- S&P 500 (SPY) over the same windows: 87.5%
+- Priced positions: 26527  ·  still open: 10430  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -42,8 +42,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rubén Hinojosa | 154.6% | 30 |
 | Pat Roberts | 153.4% | 287 |
 | John Hoeven | 149.0% | 128 |
-| Gary Palmer | 147.2% | 182 |
-| Debbie Dingell | 144.2% | 100 |
+| Gary Palmer | 147.1% | 182 |
+| Debbie Dingell | 144.1% | 100 |
 | Beto O'Rourke | 141.2% | 3 |
 | Suzan K. DelBene | 136.3% | 71 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
@@ -95,7 +95,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James Comer | 65.0% | 32 |
 | Kevin Hern | 63.5% | 557 |
 | Neal Patrick MD, Facs Dunn | 63.3% | 6 |
-| Scott Franklin | 62.4% | 49 |
+| Scott Franklin | 62.3% | 49 |
 | Diana Harshbarger | 61.7% | 7 |
 | William Cassidy | 61.7% | 87 |
 | Peter Welch | 60.9% | 36 |
@@ -165,8 +165,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Roger F Wicker | 21.9% | 3 |
 | Aston Donald McEachin | 21.9% | 6 |
 | Greg Gianforte | 21.7% | 648 |
-| Jonathan Jackson | 21.2% | 108 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
+| Jonathan Jackson | 20.7% | 111 |
 | Thomas H. Kean | 20.5% | 85 |
 | Lou Barletta | 20.1% | 17 |
 | Jared Moskowitz | 20.0% | 229 |
