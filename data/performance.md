@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-21 22:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-21 23:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.1%**
-- S&P 500 (SPY) over the same windows: 87.5%
-- Priced positions: 26527  ·  still open: 10430  ·  awaiting price data: 565
+- S&P 500 (SPY) over the same windows: 87.9%
+- Priced positions: 26537  ·  still open: 10437  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -41,9 +41,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Meuser | 157.0% | 9 |
 | Rubén Hinojosa | 154.6% | 30 |
 | Pat Roberts | 153.4% | 287 |
-| John Hoeven | 149.2% | 128 |
+| John Hoeven | 149.3% | 128 |
 | Gary Palmer | 147.3% | 182 |
-| Debbie Dingell | 144.2% | 100 |
+| Debbie Dingell | 144.3% | 100 |
 | Beto O'Rourke | 141.2% | 3 |
 | Suzan K. DelBene | 136.3% | 71 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
@@ -51,11 +51,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Warren Davidson | 126.1% | 2 |
 | Lamar Smith | 121.5% | 222 |
 | Shri Thanedar | 121.0% | 1 |
-| James French Hill | 119.1% | 24 |
+| James French Hill | 119.3% | 24 |
 | W. Greg Steube | 117.9% | 2 |
 | Thomas Suozzi | 117.5% | 283 |
 | Grace Meng | 117.3% | 5 |
-| Scott H. Peters | 116.3% | 105 |
+| Scott H. Peters | 116.4% | 105 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Kathy Castor | 111.1% | 39 |
 | Stephen F. Lynch | 109.5% | 1 |
@@ -95,11 +95,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James Comer | 65.1% | 32 |
 | Kevin Hern | 63.7% | 557 |
 | Neal Patrick MD, Facs Dunn | 63.3% | 6 |
-| Scott Franklin | 62.3% | 49 |
+| Scott Franklin | 62.4% | 49 |
 | Diana Harshbarger | 61.7% | 7 |
 | William Cassidy | 61.7% | 87 |
 | Peter Welch | 60.9% | 36 |
-| Carol Devine Miller | 58.3% | 62 |
+| Carol Devine Miller | 58.4% | 62 |
 | Lois Frankel | 57.7% | 439 |
 | Richard W. Allen | 57.3% | 163 |
 | David A Perdue , Jr | 57.1% | 1255 |
@@ -192,10 +192,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Byron Donalds | 13.7% | 45 |
 | Brad Ashford | 13.1% | 5 |
 | Kim Schrier | 12.7% | 3 |
-| John Boozman | 12.6% | 239 |
 | Mikie Sherrill | 12.5% | 38 |
 | Rick Larsen | 12.3% | 48 |
 | Frank A. LoBiondo | 12.2% | 8 |
+| John Boozman | 12.1% | 249 |
 | Julie Johnson | 12.1% | 117 |
 | David P. Roe | 12.0% | 15 |
 | C. Scott Franklin | 11.8% | 35 |
@@ -240,7 +240,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Doug Lamborn | 1.4% | 34 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
-| Gary Peters | 0.8% | 2 |
+| Gary Peters | 0.6% | 2 |
 | Kenneth R. Buck | 0.4% | 28 |
 | Greg Stanton | 0.2% | 94 |
 | Thomas R. Suozzi | 0.0% | 1 |
