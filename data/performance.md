@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-21 23:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-22 00:00 UTC._
 
 ## Total
 
@@ -195,7 +195,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mikie Sherrill | 12.5% | 38 |
 | Rick Larsen | 12.3% | 48 |
 | Frank A. LoBiondo | 12.2% | 8 |
-| John Boozman | 12.1% | 249 |
+| John Boozman | 12.2% | 249 |
 | Julie Johnson | 12.1% | 117 |
 | David P. Roe | 12.0% | 15 |
 | C. Scott Franklin | 11.8% | 35 |
