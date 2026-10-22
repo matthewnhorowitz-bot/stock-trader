@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-22 18:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-22 19:00 UTC._
 
 ## Total
 
@@ -125,8 +125,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susie Lee | 39.7% | 628 |
 | David B. McKinley | 39.5% | 195 |
 | Susan W. Brooks | 38.6% | 12 |
-| Gilbert Cisneros | 38.3% | 1581 |
 | Sara Jacobs | 38.3% | 10 |
+| Gilbert Cisneros | 38.3% | 1581 |
 | Angus S King, Jr. | 38.3% | 34 |
 | Jim McDermott | 37.1% | 2 |
 | James E. Banks | 36.0% | 14 |
