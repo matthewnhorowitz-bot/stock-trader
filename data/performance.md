@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-23 04:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-23 05:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.1%**
 - S&P 500 (SPY) over the same windows: 87.9%
-- Priced positions: 26537  ·  still open: 10437  ·  awaiting price data: 565
+- Priced positions: 26537  ·  still open: 10436  ·  awaiting price data: 565
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -93,7 +93,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Lloyd Doggett | 65.8% | 213 |
 | Michael Patrick Guest | 65.6% | 48 |
 | James Comer | 64.9% | 32 |
-| Kevin Hern | 63.6% | 557 |
+| Kevin Hern | 63.7% | 557 |
 | Neal Patrick MD, Facs Dunn | 63.3% | 6 |
 | Scott Franklin | 62.4% | 49 |
 | Diana Harshbarger | 61.7% | 7 |
