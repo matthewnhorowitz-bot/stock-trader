@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-24 04:49 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-24 05:00 UTC._
 
 ## Total
 
@@ -13,11 +13,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2697.7% | 176 |
+| Pete Sessions | 2697.8% | 176 |
 | Barbara J. Comstock | 651.4% | 2 |
 | Brian Babin | 639.5% | 6 |
 | Charlie Joseph Crist | 583.4% | 1 |
-| Sheldon Whitehouse | 531.0% | 445 |
+| Sheldon Whitehouse | 531.1% | 445 |
 | Luis V. Gutierrez | 502.8% | 6 |
 | Barbara J Comstock | 426.8% | 29 |
 | Michael Fq San Nicolas | 418.8% | 1 |
@@ -38,12 +38,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael T. McCaul | 178.9% | 108 |
 | Seth Moulton | 178.6% | 1 |
 | Neal P. Dunn | 173.2% | 2 |
-| Pat Roberts | 152.3% | 287 |
+| Pat Roberts | 152.4% | 287 |
 | Daniel Meuser | 152.3% | 9 |
-| John Hoeven | 150.9% | 128 |
+| John Hoeven | 151.0% | 128 |
 | Gary Palmer | 149.1% | 182 |
 | Beto O'Rourke | 144.4% | 3 |
-| Debbie Dingell | 144.3% | 100 |
+| Debbie Dingell | 144.4% | 100 |
 | Rubén Hinojosa | 142.4% | 30 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 134.8% | 71 |
@@ -74,7 +74,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Nancy Pelosi | 84.2% | 98 |
 | John F Reed | 83.2% | 55 |
 | Daniel S Sullivan | 82.6% | 30 |
-| Shelley M Capito | 79.7% | 345 |
+| Shelley M Capito | 79.8% | 345 |
 | David P. Joyce | 79.7% | 76 |
 | Jerry Moran, | 79.4% | 75 |
 | Dean Phillips | 78.4% | 347 |
@@ -88,14 +88,14 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Kustoff | 73.5% | 9 |
 | Blake Moore | 72.9% | 83 |
 | Morgan McGarvey | 70.6% | 9 |
-| Robert J. Wittman | 69.8% | 117 |
+| Robert J. Wittman | 69.9% | 117 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Michael Patrick Guest | 65.9% | 48 |
 | Debbie Wasserman Schultz | 65.2% | 36 |
 | Neal Patrick MD, Facs Dunn | 65.2% | 6 |
 | Kevin Hern | 64.6% | 557 |
 | Diana Harshbarger | 64.4% | 7 |
-| Scott Franklin | 63.9% | 49 |
+| Scott Franklin | 64.1% | 49 |
 | James Comer | 63.8% | 32 |
 | William Cassidy | 63.1% | 87 |
 | Peter Welch | 62.0% | 36 |
@@ -146,7 +146,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Linda T. Sanchez | 29.9% | 3 |
 | Steve Cohen | 29.7% | 20 |
 | Rohit Khanna | 29.2% | 139 |
-| Richard Dean McCormick | 28.9% | 72 |
+| Richard Dean McCormick | 29.0% | 72 |
 | Donna Shalala | 28.8% | 169 |
 | Markwayne Mullin | 27.8% | 272 |
 | William R. Timmons | 27.8% | 6 |
@@ -192,7 +192,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Patrick J Toomey | 14.4% | 84 |
 | Julie Johnson | 13.2% | 117 |
 | Brad Ashford | 13.1% | 5 |
-| Rick Larsen | 13.0% | 48 |
+| Rick Larsen | 13.1% | 48 |
 | Mike Kennedy | 12.8% | 1 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
@@ -278,8 +278,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Yoder | -20.1% | 6 |
 | William F Hagerty, IV | -20.8% | 1 |
 | Billy Long | -21.9% | 1 |
-| Felix Barry Moore | -34.1% | 5 |
 | David Madison Cawthorn | -34.4% | 15 |
+| Felix Barry Moore | -34.6% | 5 |
 | Larry Bucshon | -43.1% | 1 |
 | Steve Knight | -43.3% | 3 |
 | Roy Blunt | -44.5% | 2 |
