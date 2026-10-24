@@ -1,11 +1,10 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-24 16:10 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-24 17:01 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
 | Maria Cantwell | 100 | 0% | 1 |
-| Marc A. Veasey | 100 | 0% | 1 |
 | Michael F Bennet | 100 | 0% | 1 |
 | Mario Diaz-Balart | 100 | 0% | 2 |
 | Ladda Tammy Duckworth | 100 | 0% | 3 |
@@ -14,14 +13,10 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Burchett | 100 | 0% | 1 |
 | Adam B. Schiff | 100 | 0% | 2 |
 | Thomas Massie | 100 | 0% | 1 |
-| Teresa Leger Fernandez | 100 | 0% | 1 |
-| John Garamendi | 100 | 0% | 4 |
-| James M. Costa | 100 | 0% | 1 |
 | John R Thune | 100 | 0% | 1 |
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Rick Scott | 100 | 0% | 2 |
 | Pramila Jayapal | 100 | 0% | 1 |
-| Jake Auchincloss | 100 | 0% | 1 |
 | Daniel Webster | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 3 |
@@ -32,11 +27,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Mark R Warner | 99 | 0% | 3 |
 | James A. Himes | 98 | 0% | 4 |
 | William F Hagerty, IV | 98 | 25% | 8 |
-| Emily Randall | 97 | 0% | 6 |
-| George Whitesides | 97 | 0% | 7 |
 | Frank Pallone | 96 | 0% | 6 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
+| Emily Randall | 95 | 0% | 6 |
+| George Whitesides | 95 | 0% | 7 |
 | Bernie Moreno | 95 | 0% | 2 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
@@ -45,45 +40,50 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
 | Lori Trahan | 93 | 0% | 1 |
+| John Garamendi | 93 | 0% | 4 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Sharice Davids | 92 | 0% | 4 |
 | Victoria Spartz | 91 | 0% | 1 |
-| Joseph D. Morelle | 89 | 0% | 8 |
+| Sharice Davids | 90 | 0% | 4 |
+| Jake Auchincloss | 90 | 0% | 1 |
+| Lance Gooden | 89 | 0% | 3 |
 | Cory A Booker | 88 | 0% | 6 |
-| Lance Gooden | 88 | 0% | 3 |
-| Raul Ruiz | 87 | 0% | 4 |
-| Stephanie Bice | 87 | 0% | 1 |
-| Shri Thanedar | 87 | 0% | 6 |
+| Joseph D. Morelle | 88 | 0% | 8 |
+| Stephanie Bice | 88 | 0% | 1 |
 | Marcy Kaptur | 87 | 0% | 1 |
+| James M. Costa | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
+| Raul Ruiz | 84 | 0% | 4 |
+| Marc A. Veasey | 82 | 0% | 1 |
 | Scott DesJarlais | 81 | 0% | 2 |
 | Lloyd K. Smucker | 80 | 0% | 6 |
+| Shri Thanedar | 80 | 0% | 6 |
 | David Taylor | 80 | 50% | 4 |
 | Tina Smith | 79 | 0% | 5 |
-| Dave Min | 76 | 0% | 1 |
+| Teresa Leger Fernandez | 75 | 0% | 1 |
+| Tom Cole | 74 | 50% | 2 |
 | Tommy Tuberville | 74 | 0% | 6 |
-| Sara Jacobs | 73 | 0% | 9 |
-| Tom Cole | 73 | 50% | 2 |
+| Sara Jacobs | 72 | 0% | 9 |
+| Dave Min | 72 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
-| Greg Landsman | 63 | 0% | 9 |
+| Greg Landsman | 62 | 0% | 9 |
 | James P. McGovern | 58 | 0% | 1 |
-| April McClain Delaney | 57 | 0% | 7 |
-| Morgan McGarvey | 53 | 0% | 5 |
-| Julie Johnson | 52 | 11% | 9 |
+| April McClain Delaney | 56 | 0% | 7 |
+| Morgan McGarvey | 52 | 0% | 5 |
 | Peter Welch | 51 | 11% | 9 |
 | Mike Kelly | 51 | 38% | 8 |
+| Julie Johnson | 51 | 11% | 9 |
 | Seth Moulton | 49 | 0% | 3 |
 | Warren Davidson | 48 | 25% | 4 |
 | Scott Franklin | 43 | 71% | 7 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 40 | 10% | 10 |
-| Debbie Wasserman Schultz | 36 | 43% | 7 |
 | John W. Rose | 35 | 0% | 3 |
 | Jefferson Shreve | 34 | 0% | 8 |
+| Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Thomas R. Suozzi | 33 | 0% | 3 |
 | Cliff Bentz | 33 | 67% | 3 |
@@ -92,33 +92,33 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Diana Harshbarger | 31 | 29% | 7 |
 | Laurel Lee | 30 | 33% | 6 |
 | Steve Cohen | 27 | 20% | 10 |
-| Katherine M. Clark | 25 | 25% | 8 |
-| Debbie Dingell | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
+| Katherine M. Clark | 24 | 25% | 8 |
+| Debbie Dingell | 24 | 25% | 8 |
 | Pete Sessions | 23 | 30% | 10 |
 | Austin Scott | 23 | 0% | 7 |
 | Michael Rulli | 23 | 33% | 6 |
 | Ed Case | 22 | 20% | 5 |
-| Jared Moskowitz | 22 | 44% | 9 |
 | Dwight Evans | 21 | 38% | 8 |
-| Lois Frankel | 20 | 11% | 9 |
+| Jared Moskowitz | 21 | 44% | 9 |
 | Kathy Castor | 20 | 25% | 4 |
 | Roger F Wicker | 20 | 0% | 1 |
-| Judy Chu | 20 | 50% | 2 |
-| Zoe Lofgren | 19 | 0% | 9 |
 | Jerry Moran, | 19 | 29% | 7 |
+| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
+| Lois Frankel | 18 | 11% | 9 |
+| Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
-| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
+| Judy Chu | 16 | 50% | 2 |
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |
+| Virginia Foxx | 11 | 20% | 10 |
 | David P. Joyce | 11 | 29% | 7 |
-| Virginia Foxx | 10 | 20% | 10 |
 | Lloyd Doggett | 10 | 75% | 4 |
 | Brian Mast | 9 | 43% | 7 |
 | Maria Elvira Salazar | 9 | 86% | 7 |
@@ -142,6 +142,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John Rutherford | 1 | 78% | 9 |
 | Jonathan Jackson | 1 | 90% | 10 |
 | Greg Stanton | 1 | 11% | 9 |
+| Bruce Westerman | 1 | 75% | 8 |
 | Michael McCaul | 1 | 60% | 5 |
 | Susan M Collins | 0 | 67% | 9 |
 | Suzan K. DelBene | 0 | 67% | 6 |
@@ -165,7 +166,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Katie Britt | 0 | 71% | 7 |
 | Max Miller | 0 | 100% | 1 |
 | Ashley Moody | 0 | 100% | 2 |
-| Bruce Westerman | 0 | 75% | 8 |
 | Brandon Gill | 0 | 100% | 1 |
 | Cleo Fields | 0 | 100% | 4 |
 | Lisa McClain | 0 | 100% | 10 |
