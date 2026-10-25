@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-25 05:03 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-25 05:16 UTC._
 
 ## Total
 
@@ -40,15 +40,15 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal P. Dunn | 173.2% | 2 |
 | Pat Roberts | 152.4% | 287 |
 | Daniel Meuser | 152.3% | 9 |
-| John Hoeven | 151.0% | 128 |
+| John Hoeven | 150.9% | 128 |
 | Gary Palmer | 149.1% | 182 |
 | Beto O'Rourke | 144.4% | 3 |
-| Debbie Dingell | 144.4% | 100 |
+| Debbie Dingell | 144.3% | 100 |
 | Rubén Hinojosa | 142.4% | 30 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
 | Suzan K. DelBene | 134.8% | 71 |
 | Robert B. Aderholt | 131.5% | 1 |
-| James French Hill | 123.2% | 24 |
+| James French Hill | 123.1% | 24 |
 | Lamar Smith | 122.5% | 222 |
 | Shri Thanedar | 121.0% | 1 |
 | Grace Meng | 119.1% | 5 |
@@ -61,7 +61,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | K. Michael Conaway | 106.6% | 283 |
 | Justin Amash | 105.9% | 11 |
 | Stephen F. Lynch | 105.3% | 1 |
-| Gary C Peters | 104.8% | 50 |
+| Gary C Peters | 105.0% | 50 |
 | Victoria Spartz | 103.8% | 21 |
 | Mark Green | 100.4% | 463 |
 | David E. Price | 98.4% | 42 |
@@ -95,7 +95,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Neal Patrick MD, Facs Dunn | 65.2% | 6 |
 | Kevin Hern | 64.6% | 557 |
 | Diana Harshbarger | 64.4% | 7 |
-| Scott Franklin | 64.1% | 49 |
+| Scott Franklin | 64.0% | 49 |
 | James Comer | 63.8% | 32 |
 | William Cassidy | 63.1% | 87 |
 | Peter Welch | 62.0% | 36 |
@@ -200,7 +200,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Frank A. LoBiondo | 12.2% | 8 |
 | David P. Roe | 12.0% | 15 |
 | Earl Leroy Carter | 11.6% | 1 |
-| John Boozman | 11.5% | 249 |
+| John Boozman | 11.6% | 249 |
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
 | Zoe Lofgren | 11.0% | 159 |
@@ -242,12 +242,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Doug Lamborn | 1.4% | 34 |
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
+| Gary Peters | 0.8% | 2 |
 | Greg Stanton | 0.5% | 94 |
 | Kenneth R. Buck | 0.3% | 28 |
 | Tim Walberg | 0.2% | 13 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
-| Gary Peters | -0.5% | 2 |
 | Kenny Marchant | -0.6% | 40 |
 | Mitch McConnell | -0.8% | 1 |
 | April McClain Delaney | -0.8% | 229 |
