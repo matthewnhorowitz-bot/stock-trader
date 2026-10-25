@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-25 04:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-10-25 05:02 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -35,14 +35,14 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Bernie Moreno | 95 | 0% | 2 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
-| Adam Smith | 94 | 0% | 7 |
-| Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
-| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
+| Adam Smith | 93 | 0% | 7 |
+| Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Victoria Spartz | 91 | 0% | 1 |
+| Lori Trahan | 92 | 0% | 1 |
+| Victoria Spartz | 90 | 0% | 1 |
 | Sharice Davids | 90 | 0% | 4 |
 | Jake Auchincloss | 90 | 0% | 1 |
 | Lance Gooden | 89 | 0% | 3 |
@@ -53,24 +53,24 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James M. Costa | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 84 | 0% | 4 |
+| Scott DesJarlais | 83 | 0% | 2 |
 | Marc A. Veasey | 82 | 0% | 1 |
-| Lloyd K. Smucker | 81 | 0% | 6 |
-| Scott DesJarlais | 81 | 0% | 2 |
+| Lloyd K. Smucker | 80 | 0% | 6 |
 | Shri Thanedar | 80 | 0% | 6 |
 | David Taylor | 80 | 50% | 4 |
 | Tina Smith | 79 | 0% | 5 |
 | Teresa Leger Fernandez | 75 | 0% | 1 |
 | Tom Cole | 74 | 50% | 2 |
 | Tommy Tuberville | 74 | 0% | 6 |
+| David Rouzer | 73 | 0% | 1 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Dave Min | 72 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
 | Greg Landsman | 62 | 0% | 9 |
-| James P. McGovern | 58 | 0% | 1 |
+| James P. McGovern | 57 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
 | Morgan McGarvey | 52 | 0% | 5 |
 | Peter Welch | 51 | 11% | 9 |
