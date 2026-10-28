@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 02:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 03:00 UTC._
 
 ## Total
 
@@ -119,7 +119,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rafael E Cruz | 42.6% | 3 |
 | John A. Yarmuth | 42.5% | 139 |
 | Josh Gottheimer | 41.5% | 1441 |
-| Susie Lee | 40.5% | 628 |
+| Susie Lee | 40.4% | 628 |
 | Mike Kelly | 40.1% | 9 |
 | Harley E. Rouda | 39.6% | 3 |
 | David B. McKinley | 39.5% | 195 |
