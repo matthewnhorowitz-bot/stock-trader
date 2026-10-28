@@ -1,19 +1,19 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 20:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 21:00 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 72.1%**
+- **Index (all tracked buys): 72.0%**
 - S&P 500 (SPY) over the same windows: 88.4%
-- Priced positions: 26543  ·  still open: 10437  ·  awaiting price data: 577
+- Priced positions: 26542  ·  still open: 10436  ·  awaiting price data: 578
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2857.0% | 165 |
+| Pete Sessions | 2848.3% | 164 |
 | Barbara J. Comstock | 643.4% | 2 |
 | Brian Babin | 640.8% | 6 |
 | Charlie Joseph Crist | 595.4% | 1 |
