@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 17:00 UTC._
 
 ## Total
 
@@ -87,7 +87,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tina Smith | 73.2% | 5 |
 | Blake Moore | 72.7% | 83 |
 | Morgan McGarvey | 70.6% | 9 |
-| Lloyd Doggett | 70.1% | 213 |
+| Lloyd Doggett | 70.0% | 213 |
 | Robert J. Wittman | 69.9% | 117 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Michael Patrick Guest | 66.6% | 48 |
@@ -149,10 +149,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donna Shalala | 28.8% | 169 |
 | Markwayne Mullin | 27.8% | 272 |
 | William R. Timmons | 27.6% | 6 |
-| Rob Bresnahan | 27.5% | 248 |
+| Rob Bresnahan | 27.4% | 248 |
 | Rohit Khanna | 27.2% | 139 |
 | Aston Donald McEachin | 27.0% | 6 |
-| Julia Letlow | 27.0% | 154 |
+| Julia Letlow | 26.9% | 154 |
 | Earl Blumenauer | 26.1% | 239 |
 | Christopher L. Jacobs | 25.7% | 95 |
 | Thomas H Tuberville | 25.6% | 491 |
@@ -188,7 +188,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Allen Stauber | 14.4% | 1 |
 | Patrick J Toomey | 14.4% | 84 |
 | Brian Mast | 14.3% | 31 |
-| C. Scott Franklin | 14.2% | 35 |
+| C. Scott Franklin | 14.3% | 35 |
 | Roger Williams | 13.3% | 12 |
 | Mike Kennedy | 13.1% | 1 |
 | Brad Ashford | 13.1% | 5 |
