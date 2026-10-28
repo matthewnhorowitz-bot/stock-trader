@@ -1,26 +1,26 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-28 16:00 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 72.2%**
-- S&P 500 (SPY) over the same windows: 88.5%
-- Priced positions: 26554  ·  still open: 10452  ·  awaiting price data: 566
+- **Index (all tracked buys): 72.1%**
+- S&P 500 (SPY) over the same windows: 88.4%
+- Priced positions: 26544  ·  still open: 10439  ·  awaiting price data: 576
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2698.5% | 176 |
+| Pete Sessions | 2840.1% | 166 |
 | Barbara J. Comstock | 643.4% | 2 |
 | Brian Babin | 640.8% | 6 |
 | Charlie Joseph Crist | 595.4% | 1 |
-| Sheldon Whitehouse | 533.4% | 445 |
+| Sheldon Whitehouse | 533.3% | 445 |
 | Luis V. Gutierrez | 495.3% | 6 |
 | Barbara J Comstock | 431.8% | 29 |
-| Brenda Lulenar Lawrence | 417.4% | 19 |
+| Brenda Lulenar Lawrence | 417.3% | 19 |
 | Michael Fq San Nicolas | 416.8% | 1 |
 | William M. Cassidy | 333.0% | 1 |
 | Ashley Moody | 331.8% | 3 |
@@ -43,7 +43,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Hoeven | 151.1% | 128 |
 | Gary Palmer | 148.0% | 182 |
 | Beto O'Rourke | 144.1% | 3 |
-| Debbie Dingell | 143.7% | 100 |
+| Debbie Dingell | 143.6% | 100 |
 | Rubén Hinojosa | 143.2% | 30 |
 | Suzan K. DelBene | 136.8% | 71 |
 | Neal Patrick MD, FACS Dunn | 136.2% | 1 |
@@ -64,8 +64,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Victoria Spartz | 104.4% | 21 |
 | Gary C Peters | 103.6% | 50 |
 | Mark Green | 100.4% | 463 |
-| Dwight Evans | 98.4% | 70 |
 | David E. Price | 98.4% | 42 |
+| Dwight Evans | 98.4% | 70 |
 | Deborah K. Ross | 96.5% | 21 |
 | A. Mitchell McConnell, Jr. | 92.6% | 37 |
 | Hakeem S. Jeffries | 89.8% | 7 |
@@ -87,7 +87,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tina Smith | 73.2% | 5 |
 | Blake Moore | 72.7% | 83 |
 | Morgan McGarvey | 70.6% | 9 |
-| Lloyd Doggett | 70.3% | 213 |
+| Lloyd Doggett | 70.1% | 213 |
 | Robert J. Wittman | 69.9% | 117 |
 | Joseph D. Morelle | 69.3% | 1 |
 | Michael Patrick Guest | 66.6% | 48 |
@@ -193,7 +193,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mike Kennedy | 13.1% | 1 |
 | Brad Ashford | 13.1% | 5 |
 | Julie Johnson | 13.0% | 117 |
-| Byron Donalds | 12.9% | 45 |
+| Byron Donalds | 12.8% | 45 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
 | Rick Larsen | 12.4% | 48 |
