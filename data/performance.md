@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-29 00:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-29 01:00 UTC._
 
 ## Total
 
@@ -121,7 +121,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Josh Gottheimer | 41.5% | 1441 |
 | Kelly Louise Morrison | 41.0% | 13 |
 | Harley E. Rouda | 40.8% | 3 |
-| Susie Lee | 40.4% | 628 |
+| Susie Lee | 40.5% | 628 |
 | Mike Kelly | 39.9% | 9 |
 | David B. McKinley | 39.5% | 195 |
 | Susan W. Brooks | 38.6% | 12 |
@@ -192,8 +192,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Roger Williams | 13.3% | 12 |
 | Mike Kennedy | 13.1% | 1 |
 | Brad Ashford | 13.1% | 5 |
-| Byron Donalds | 13.0% | 45 |
 | Julie Johnson | 13.0% | 117 |
+| Byron Donalds | 13.0% | 45 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
 | Rick Larsen | 12.3% | 48 |
