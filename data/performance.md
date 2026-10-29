@@ -1,19 +1,19 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-29 02:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-29 03:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.2%**
 - S&P 500 (SPY) over the same windows: 88.3%
-- Priced positions: 26554  ·  still open: 10436  ·  awaiting price data: 566
+- Priced positions: 26553  ·  still open: 10435  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2698.0% | 176 |
+| Pete Sessions | 2709.1% | 175 |
 | Barbara J. Comstock | 643.4% | 2 |
 | Brian Babin | 640.8% | 6 |
 | Charlie Joseph Crist | 595.4% | 1 |
@@ -121,7 +121,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Josh Gottheimer | 41.5% | 1441 |
 | Kelly Louise Morrison | 41.0% | 13 |
 | Harley E. Rouda | 40.8% | 3 |
-| Susie Lee | 40.5% | 628 |
+| Susie Lee | 40.4% | 628 |
 | Mike Kelly | 39.9% | 9 |
 | David B. McKinley | 39.5% | 195 |
 | Susan W. Brooks | 38.6% | 12 |
@@ -192,8 +192,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Roger Williams | 13.3% | 12 |
 | Mike Kennedy | 13.1% | 1 |
 | Brad Ashford | 13.1% | 5 |
-| Julie Johnson | 13.0% | 117 |
 | Byron Donalds | 13.0% | 45 |
+| Julie Johnson | 13.0% | 117 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
 | Rick Larsen | 12.3% | 48 |
