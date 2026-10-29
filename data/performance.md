@@ -1,19 +1,19 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-10-29 06:04 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-10-29 06:26 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 72.2%**
 - S&P 500 (SPY) over the same windows: 88.3%
-- Priced positions: 26553  ·  still open: 10435  ·  awaiting price data: 567
+- Priced positions: 26554  ·  still open: 10435  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2709.1% | 175 |
+| Pete Sessions | 2698.0% | 176 |
 | Barbara J. Comstock | 643.4% | 2 |
 | Brian Babin | 640.8% | 6 |
 | Charlie Joseph Crist | 595.4% | 1 |
@@ -28,9 +28,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Chabot | 255.9% | 2 |
 | Ron L Wyden | 239.9% | 196 |
 | Brian Higgins | 236.4% | 1 |
-| Susan M Collins | 226.9% | 188 |
+| Susan M Collins | 226.7% | 188 |
 | Michael Waltz | 210.8% | 2 |
-| Richard L. Hanna | 209.5% | 91 |
+| Richard L. Hanna | 209.4% | 91 |
 | Raul Ruiz | 207.6% | 1 |
 | Roger W. Marshall | 201.9% | 51 |
 | David Cheston Rouzer | 197.0% | 8 |
@@ -136,7 +136,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Donald Sternoff Beyer | 34.5% | 371 |
 | Joe Courtney | 34.4% | 72 |
 | Marjorie Taylor Greene | 34.0% | 484 |
-| Austin Scott | 33.8% | 42 |
+| Austin Scott | 33.6% | 42 |
 | Harold Dallas Rogers | 32.9% | 8 |
 | Elizabeth Fletcher | 32.2% | 23 |
 | John Fetterman | 31.1% | 10 |
