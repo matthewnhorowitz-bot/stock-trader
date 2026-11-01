@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-01 03:06 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-01 04:02 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -39,14 +39,14 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Sharice Davids | 94 | 0% | 4 |
 | Adam Smith | 94 | 0% | 7 |
 | Chris Van Hollen | 93 | 0% | 5 |
+| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
 | Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Lori Trahan | 92 | 0% | 1 |
 | Victoria Spartz | 90 | 0% | 1 |
-| Jake Auchincloss | 90 | 0% | 1 |
 | John B. Larson | 89 | 0% | 8 |
 | Lance Gooden | 89 | 0% | 3 |
+| Jake Auchincloss | 89 | 0% | 1 |
 | Cory A Booker | 88 | 0% | 6 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
@@ -54,22 +54,22 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James M. Costa | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 85 | 0% | 4 |
+| Scott DesJarlais | 83 | 0% | 2 |
 | Shri Thanedar | 81 | 0% | 6 |
-| Scott DesJarlais | 81 | 0% | 2 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Teresa Leger Fernandez | 75 | 0% | 1 |
 | Tom Cole | 74 | 50% | 2 |
+| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Dave Min | 72 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 71 | 0% | 1 |
+| Teresa Leger Fernandez | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | David Taylor | 66 | 33% | 6 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
-| Greg Landsman | 63 | 0% | 9 |
+| Greg Landsman | 62 | 0% | 9 |
 | James P. McGovern | 57 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
 | Morgan McGarvey | 52 | 0% | 5 |
@@ -104,12 +104,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Kathy Castor | 20 | 25% | 4 |
 | Roger F Wicker | 20 | 0% | 1 |
 | Jerry Moran, | 19 | 29% | 7 |
+| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
-| Lois Frankel | 18 | 11% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
-| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
+| Lois Frankel | 17 | 11% | 9 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
@@ -142,7 +142,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John Rutherford | 1 | 78% | 9 |
 | Jonathan Jackson | 1 | 90% | 10 |
 | Greg Stanton | 1 | 11% | 9 |
-| Bruce Westerman | 1 | 75% | 8 |
 | Michael McCaul | 1 | 60% | 5 |
 | Susan M Collins | 0 | 67% | 9 |
 | Suzan K. DelBene | 0 | 67% | 6 |
@@ -166,6 +165,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Katie Britt | 0 | 71% | 7 |
 | Max Miller | 0 | 100% | 1 |
 | Ashley Moody | 0 | 100% | 2 |
+| Bruce Westerman | 0 | 75% | 8 |
 | Brandon Gill | 0 | 100% | 1 |
 | Cleo Fields | 0 | 100% | 4 |
 | Lisa McClain | 0 | 100% | 10 |
