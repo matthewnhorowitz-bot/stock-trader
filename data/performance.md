@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 03:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 04:00 UTC._
 
 ## Total
 
@@ -122,7 +122,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susie Lee | 41.9% | 628 |
 | Josh Gottheimer | 41.2% | 1441 |
 | David B. McKinley | 39.5% | 195 |
-| Gilbert Cisneros | 38.9% | 1581 |
+| Gilbert Cisneros | 38.8% | 1581 |
 | Susan W. Brooks | 38.6% | 12 |
 | Harley E. Rouda | 37.9% | 3 |
 | Daniel Crenshaw | 37.6% | 17 |
