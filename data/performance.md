@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 16:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 17:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.6%**
 - S&P 500 (SPY) over the same windows: 88.8%
-- Priced positions: 26567  ·  still open: 10446  ·  awaiting price data: 566
+- Priced positions: 26565  ·  still open: 10444  ·  awaiting price data: 568
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -17,7 +17,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 796.4% | 6 |
 | Barbara J. Comstock | 633.0% | 2 |
 | Charlie Joseph Crist | 543.2% | 1 |
-| Sheldon Whitehouse | 527.5% | 445 |
+| Sheldon Whitehouse | 527.2% | 443 |
 | Luis V. Gutierrez | 490.3% | 6 |
 | Barbara J Comstock | 410.2% | 29 |
 | Brenda Lulenar Lawrence | 386.6% | 19 |
