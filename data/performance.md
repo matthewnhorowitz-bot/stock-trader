@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 19:39 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 19:47 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.6%**
 - S&P 500 (SPY) over the same windows: 88.8%
-- Priced positions: 26565  ·  still open: 10444  ·  awaiting price data: 568
+- Priced positions: 26567  ·  still open: 10444  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -17,7 +17,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brian Babin | 796.4% | 6 |
 | Barbara J. Comstock | 633.0% | 2 |
 | Charlie Joseph Crist | 543.2% | 1 |
-| Sheldon Whitehouse | 527.2% | 443 |
+| Sheldon Whitehouse | 527.5% | 445 |
 | Luis V. Gutierrez | 490.3% | 6 |
 | Barbara J Comstock | 410.2% | 29 |
 | Brenda Lulenar Lawrence | 386.6% | 19 |
@@ -28,10 +28,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Steve Chabot | 255.9% | 2 |
 | Brian Higgins | 236.4% | 1 |
 | Ron L Wyden | 228.8% | 196 |
-| Susan M Collins | 222.0% | 188 |
+| Susan M Collins | 223.5% | 188 |
 | Michael Waltz | 210.8% | 2 |
 | Raul Ruiz | 202.5% | 1 |
-| Richard L. Hanna | 201.9% | 91 |
+| Richard L. Hanna | 202.4% | 91 |
 | Roger W. Marshall | 201.5% | 51 |
 | Gary C. Peters | 190.4% | 7 |
 | David Cheston Rouzer | 189.9% | 8 |
@@ -50,12 +50,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Warren Davidson | 129.4% | 2 |
 | Robert B. Aderholt | 124.9% | 1 |
 | James French Hill | 124.2% | 24 |
+| Lamar Smith | 121.1% | 222 |
 | Shri Thanedar | 121.0% | 1 |
 | Grace Meng | 120.7% | 5 |
-| Lamar Smith | 120.4% | 222 |
 | W. Greg Steube | 117.9% | 2 |
 | Kathy Castor | 117.2% | 39 |
-| Scott H. Peters | 114.7% | 105 |
+| Scott H. Peters | 115.0% | 105 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
 | Victoria Spartz | 113.1% | 21 |
 | Thomas Suozzi | 109.4% | 283 |
@@ -137,8 +137,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Elizabeth Fletcher | 33.5% | 23 |
 | Harold Dallas Rogers | 33.0% | 8 |
+| Austin Scott | 33.0% | 42 |
 | Angus S King, Jr. | 32.8% | 34 |
-| Austin Scott | 31.6% | 42 |
 | Susan A. Davis | 31.1% | 32 |
 | Daniel Goldman | 30.2% | 369 |
 | Steve Cohen | 30.1% | 20 |
