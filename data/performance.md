@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 00:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-03 01:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.8%**
-- S&P 500 (SPY) over the same windows: 88.7%
-- Priced positions: 26565  ·  still open: 10444  ·  awaiting price data: 566
+- S&P 500 (SPY) over the same windows: 88.8%
+- Priced positions: 26567  ·  still open: 10446  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -75,7 +75,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Shelley M Capito | 80.6% | 345 |
 | David P. Joyce | 80.2% | 76 |
 | Terri A. Sewell | 79.8% | 2 |
-| Jerry Moran, | 78.6% | 75 |
+| Jerry Moran, | 78.5% | 75 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | John Rutherford | 78.2% | 165 |
@@ -147,7 +147,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Richard Dean McCormick | 29.2% | 72 |
 | Donna Shalala | 28.8% | 169 |
 | Rohit Khanna | 28.1% | 139 |
-| Aston Donald McEachin | 28.0% | 6 |
+| Aston Donald McEachin | 27.9% | 6 |
 | Markwayne Mullin | 27.8% | 272 |
 | Christopher L. Jacobs | 26.7% | 95 |
 | Earl Blumenauer | 26.1% | 239 |
@@ -167,7 +167,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ashley Hinson Arenholz | 21.5% | 4 |
 | Jared Moskowitz | 20.9% | 229 |
 | Michael G. Fitzpatrick | 20.9% | 8 |
-| Thomas H. Kean | 20.4% | 85 |
+| Thomas H. Kean | 20.3% | 85 |
 | Jonathan Jackson | 20.1% | 114 |
 | Lou Barletta | 20.1% | 17 |
 | Thomas R Carper | 19.6% | 494 |
@@ -247,7 +247,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John McGuire | 0.7% | 14 |
 | April McClain Delaney | 0.6% | 229 |
 | Greg Stanton | 0.4% | 94 |
-| Thomas Kean | 0.0% | 1 |
+| Thomas Kean | 0.0% | 3 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
 | Anthony E. Gonzalez | -0.1% | 3 |
