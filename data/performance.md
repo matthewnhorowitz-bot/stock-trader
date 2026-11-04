@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-04 03:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-04 04:00 UTC._
 
 ## Total
 
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John A. Yarmuth | 42.5% | 139 |
 | William R. Keating | 42.4% | 89 |
 | Josh Gottheimer | 41.3% | 1441 |
-| Susie Lee | 41.3% | 628 |
+| Susie Lee | 41.2% | 628 |
 | David B. McKinley | 39.5% | 195 |
 | Gilbert Cisneros | 39.5% | 1581 |
 | Harley E. Rouda | 38.9% | 3 |
@@ -206,7 +206,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Scott Franklin | 11.3% | 50 |
 | Katie Britt | 11.3% | 16 |
 | John Boozman | 10.5% | 249 |
-| Byron Donalds | 10.4% | 45 |
+| Byron Donalds | 10.5% | 45 |
 | Michael McCaul | 10.0% | 15 |
 | Ritchie John Torres | 9.8% | 69 |
 | Mick Mulvaney | 9.7% | 4 |
