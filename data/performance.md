@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-04 06:57 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-04 07:01 UTC._
 
 ## Total
 
@@ -63,7 +63,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Justin Amash | 105.9% | 11 |
 | K. Michael Conaway | 105.5% | 283 |
 | Mark Green | 100.4% | 463 |
-| A. Mitchell McConnell, Jr. | 98.6% | 37 |
+| A. Mitchell McConnell, Jr. | 98.5% | 37 |
 | David E. Price | 98.4% | 42 |
 | Stephen F. Lynch | 95.0% | 1 |
 | Dwight Evans | 92.8% | 70 |
@@ -93,7 +93,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Kustoff | 66.5% | 9 |
 | Kevin Hern | 65.9% | 557 |
 | Diana Harshbarger | 65.4% | 7 |
-| Michael Patrick Guest | 65.3% | 48 |
+| Michael Patrick Guest | 65.2% | 48 |
 | Neal Patrick MD, Facs Dunn | 65.2% | 6 |
 | Vicente Gonzalez | 64.9% | 1 |
 | Peter Welch | 64.9% | 36 |
@@ -142,9 +142,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Susan A. Davis | 31.1% | 32 |
 | Daniel Goldman | 30.3% | 369 |
 | Steve Cohen | 30.1% | 20 |
+| Aston Donald McEachin | 29.9% | 6 |
 | Richard Dean McCormick | 29.9% | 72 |
 | Linda T. Sanchez | 29.9% | 3 |
-| Aston Donald McEachin | 29.8% | 6 |
 | Rohit Khanna | 29.6% | 139 |
 | Donna Shalala | 28.8% | 169 |
 | Markwayne Mullin | 27.8% | 272 |
@@ -206,7 +206,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Scott Franklin | 11.3% | 50 |
 | Katie Britt | 11.3% | 16 |
 | John Boozman | 10.5% | 249 |
-| Byron Donalds | 10.5% | 45 |
+| Byron Donalds | 10.4% | 45 |
 | Michael McCaul | 10.0% | 15 |
 | Ritchie John Torres | 9.8% | 69 |
 | Mick Mulvaney | 9.7% | 4 |
@@ -219,16 +219,16 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ro Khanna | 7.6% | 19 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.3% | 728 |
+| Thomas Kean | 5.6% | 3 |
 | John James | 5.6% | 126 |
-| Thomas Kean | 5.3% | 3 |
 | Lindsey Graham | 4.9% | 6 |
 | Patrick Fallon | 4.7% | 56 |
 | Carlos Curbelo | 4.1% | 138 |
 | Tracey Robert Mann | 3.7% | 5 |
 | Patty Murray | 3.6% | 75 |
 | James R. Langevin | 3.1% | 182 |
-| Mitch McConnell | 3.0% | 1 |
 | Bruce Westerman | 3.0% | 105 |
+| Mitch McConnell | 3.0% | 1 |
 | Brandon Gill | 2.9% | 5 |
 | E. Scott Rigell | 2.6% | 31 |
 | Anthony E. Gonzalez | 2.2% | 3 |
