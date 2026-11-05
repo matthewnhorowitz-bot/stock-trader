@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-05 06:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-05 07:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.7%**
-- S&P 500 (SPY) over the same windows: 88.8%
-- Priced positions: 26568  ·  still open: 10445  ·  awaiting price data: 566
+- S&P 500 (SPY) over the same windows: 88.9%
+- Priced positions: 26569  ·  still open: 10446  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -109,8 +109,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Curtis | 54.1% | 128 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
-| Robert E. Latta | 50.6% | 24 |
 | Cynthia M Lummis | 49.7% | 1 |
+| Robert E. Latta | 48.5% | 25 |
 | Dan Newhouse | 48.2% | 110 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
