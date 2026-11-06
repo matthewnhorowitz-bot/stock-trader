@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 16:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 17:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 69.4%**
 - S&P 500 (SPY) over the same windows: 89.0%
-- Priced positions: 26571  ·  still open: 10447  ·  awaiting price data: 566
+- Priced positions: 26571  ·  still open: 10446  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -213,7 +213,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cleo Fields | 8.3% | 188 |
 | Ro Khanna | 8.2% | 19 |
 | Adam Kinzinger | 7.9% | 17 |
-| Byron Donalds | 7.8% | 45 |
+| Byron Donalds | 7.9% | 45 |
 | Michael McCaul | 7.3% | 15 |
 | Tom Rice | 6.5% | 5 |
 | Sheri Biggs | 6.4% | 50 |
