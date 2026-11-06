@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 03:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 04:00 UTC._
 
 ## Total
 
@@ -206,8 +206,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katie Britt | 10.6% | 16 |
 | Cleo Fields | 10.3% | 188 |
 | Michael McCaul | 10.0% | 15 |
-| Byron Donalds | 10.0% | 45 |
 | John Boozman | 10.0% | 249 |
+| Byron Donalds | 9.9% | 45 |
 | Mick Mulvaney | 9.7% | 4 |
 | Ritchie John Torres | 9.6% | 69 |
 | Kurt Schrader | 8.9% | 150 |
