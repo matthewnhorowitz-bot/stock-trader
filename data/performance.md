@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 18:01 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 69.4%**
 - S&P 500 (SPY) over the same windows: 89.0%
-- Priced positions: 26571  ·  still open: 10446  ·  awaiting price data: 566
+- Priced positions: 26573  ·  still open: 10447  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -25,12 +25,12 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Christopher A Coons | 312.3% | 2 |
 | William M. Cassidy | 297.4% | 1 |
 | Steve Chabot | 255.9% | 2 |
+| Ashley Moody | 238.9% | 3 |
 | Brian Higgins | 236.4% | 1 |
-| Ashley Moody | 236.4% | 3 |
 | Susan M Collins | 221.3% | 188 |
 | Raul Ruiz | 214.2% | 1 |
 | Michael Waltz | 210.8% | 2 |
-| Ron L Wyden | 209.4% | 196 |
+| Ron L Wyden | 209.8% | 196 |
 | Richard L. Hanna | 202.5% | 91 |
 | Seth Moulton | 189.5% | 1 |
 | Gary C. Peters | 184.2% | 7 |
@@ -70,7 +70,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Hakeem S. Jeffries | 85.1% | 7 |
 | Judy Chu | 84.6% | 5 |
 | Shelley M Capito | 80.7% | 345 |
-| Deborah K. Ross | 79.4% | 21 |
+| Deborah K. Ross | 79.8% | 21 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | John F Reed | 77.9% | 55 |
@@ -113,13 +113,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dan Newhouse | 44.9% | 110 |
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
+| Bradley S. Schneider | 42.1% | 40 |
 | Harley E. Rouda | 41.9% | 3 |
 | Rafael E Cruz | 41.7% | 3 |
-| Bradley S. Schneider | 41.3% | 40 |
 | Vicente Gonzalez | 40.3% | 1 |
 | William R. Keating | 39.9% | 89 |
 | David B. McKinley | 39.5% | 195 |
-| Josh Gottheimer | 38.9% | 1441 |
+| Josh Gottheimer | 38.9% | 1443 |
 | Susan W. Brooks | 38.6% | 12 |
 | James E. Banks | 38.4% | 14 |
 | Daniel Crenshaw | 38.2% | 17 |
@@ -145,7 +145,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Goldman | 29.1% | 369 |
 | Donna Shalala | 28.8% | 169 |
 | Markwayne Mullin | 27.8% | 272 |
-| Angus S King, Jr. | 26.6% | 34 |
+| Angus S King, Jr. | 26.8% | 34 |
 | Earl Blumenauer | 26.1% | 239 |
 | Kathy Manning | 25.3% | 276 |
 | John Fetterman | 24.9% | 10 |
@@ -188,7 +188,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Greg Steube | 13.4% | 12 |
 | Mike Kelly | 13.3% | 9 |
 | Brad Ashford | 13.1% | 5 |
-| Jefferson Shreve | 12.9% | 173 |
+| Jefferson Shreve | 13.0% | 173 |
 | Rick Larsen | 12.9% | 48 |
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
@@ -278,7 +278,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kevin Yoder | -20.1% | 6 |
 | Billy Long | -21.9% | 1 |
 | William F Hagerty, IV | -27.1% | 1 |
-| John J McGuire | -28.6% | 2 |
+| John J McGuire | -27.5% | 2 |
 | David Madison Cawthorn | -34.4% | 15 |
 | Felix Barry Moore | -34.5% | 5 |
 | Larry Bucshon | -43.1% | 1 |
