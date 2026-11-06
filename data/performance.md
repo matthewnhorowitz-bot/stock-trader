@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-06 19:00 UTC._
 
 ## Total
 
@@ -213,7 +213,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cleo Fields | 8.3% | 188 |
 | Ro Khanna | 8.2% | 19 |
 | Adam Kinzinger | 7.9% | 17 |
-| Byron Donalds | 7.9% | 45 |
+| Byron Donalds | 7.8% | 45 |
 | Michael McCaul | 7.3% | 15 |
 | Tom Rice | 6.5% | 5 |
 | Sheri Biggs | 6.4% | 50 |
