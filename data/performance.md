@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-07 03:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-07 04:00 UTC._
 
 ## Total
 
@@ -127,8 +127,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tim Moore | 37.2% | 159 |
 | Jim McDermott | 37.1% | 2 |
 | Sara Jacobs | 36.7% | 10 |
-| Susie Lee | 36.3% | 628 |
 | Gilbert Cisneros | 36.3% | 1581 |
+| Susie Lee | 36.3% | 628 |
 | Cliff Bentz | 35.3% | 2 |
 | Donald Sternoff Beyer | 35.1% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
