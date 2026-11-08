@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-08 06:09 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-08 06:34 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -36,12 +36,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Thomas R Tillis | 94 | 0% | 9 |
 | Sharice Davids | 94 | 0% | 4 |
 | Adam Smith | 94 | 0% | 7 |
-| Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Chris Van Hollen | 93 | 0% | 5 |
-| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
+| Robert C. "Bobby" Scott | 92 | 0% | 8 |
+| Lori Trahan | 92 | 0% | 1 |
 | Gus M. Bilirakis | 91 | 0% | 4 |
-| Victoria Spartz | 91 | 0% | 1 |
+| Victoria Spartz | 90 | 0% | 1 |
 | Jake Auchincloss | 90 | 0% | 1 |
 | John B. Larson | 89 | 0% | 8 |
 | Lance Gooden | 89 | 0% | 3 |
@@ -70,7 +70,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
 | Greg Landsman | 63 | 0% | 9 |
-| James P. McGovern | 58 | 0% | 1 |
+| James P. McGovern | 57 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
 | Morgan McGarvey | 52 | 0% | 5 |
 | Peter Welch | 51 | 11% | 9 |
@@ -104,11 +104,11 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Kathy Castor | 20 | 25% | 4 |
 | Roger F Wicker | 20 | 0% | 1 |
 | Jerry Moran, | 19 | 29% | 7 |
-| David Kustoff | 19 | 40% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Lois Frankel | 18 | 11% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
+| David Kustoff | 18 | 40% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
