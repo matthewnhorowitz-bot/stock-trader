@@ -1,10 +1,10 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-08 06:20 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-08 06:41 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 69.5%**
+- **Index (all tracked buys): 69.4%**
 - S&P 500 (SPY) over the same windows: 89.0%
 - Priced positions: 26573  ·  still open: 10447  ·  awaiting price data: 566
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
@@ -107,10 +107,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Virginia Foxx | 52.6% | 602 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
-| Robert E. Latta | 48.5% | 25 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
 | Dan Newhouse | 45.0% | 110 |
+| Robert E. Latta | 44.4% | 25 |
 | Brad Knott | 43.5% | 2 |
 | John A. Yarmuth | 42.5% | 139 |
 | Bradley S. Schneider | 42.1% | 40 |
@@ -129,7 +129,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Sara Jacobs | 36.7% | 10 |
 | Gilbert Cisneros | 36.3% | 1581 |
 | Susie Lee | 36.3% | 628 |
-| Donald Sternoff Beyer | 35.0% | 371 |
+| Donald Sternoff Beyer | 35.1% | 371 |
 | Cliff Bentz | 34.9% | 2 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Austin Scott | 33.7% | 42 |
