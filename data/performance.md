@@ -1,22 +1,22 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-09 13:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-09 14:00 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 69.6%**
-- S&P 500 (SPY) over the same windows: 89.0%
-- Priced positions: 26573  ·  still open: 10447  ·  awaiting price data: 566
+- **Index (all tracked buys): 69.4%**
+- S&P 500 (SPY) over the same windows: 89.5%
+- Priced positions: 26573  ·  still open: 10443  ·  awaiting price data: 580
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2689.7% | 176 |
+| Pete Sessions | 2858.8% | 164 |
 | Brian Babin | 728.8% | 6 |
 | Barbara J. Comstock | 640.6% | 2 |
-| Sheldon Whitehouse | 517.8% | 445 |
+| Sheldon Whitehouse | 517.5% | 443 |
 | Luis V. Gutierrez | 495.5% | 6 |
 | Charlie Joseph Crist | 478.0% | 1 |
 | Barbara J Comstock | 398.3% | 29 |
@@ -25,7 +25,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Christopher A Coons | 310.4% | 2 |
 | William M. Cassidy | 296.8% | 1 |
 | Steve Chabot | 255.9% | 2 |
-| Ashley Moody | 251.5% | 3 |
+| Ashley Moody | 251.7% | 3 |
 | Brian Higgins | 236.4% | 1 |
 | Susan M Collins | 221.5% | 188 |
 | Ron L Wyden | 213.3% | 196 |
@@ -68,9 +68,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Dwight Evans | 86.8% | 70 |
 | Hakeem S. Jeffries | 85.2% | 7 |
 | Judy Chu | 84.6% | 5 |
-| Deborah K. Ross | 83.7% | 21 |
+| Deborah K. Ross | 83.8% | 21 |
 | Stephen F. Lynch | 80.1% | 1 |
-| Shelley M Capito | 79.8% | 345 |
+| Shelley M Capito | 79.9% | 345 |
 | John F Reed | 79.6% | 55 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
@@ -111,15 +111,15 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bob Gibbs | 46.7% | 94 |
 | Vicente Gonzalez | 46.3% | 1 |
 | Dan Newhouse | 45.2% | 110 |
-| Robert E. Latta | 44.4% | 25 |
 | Brad Knott | 43.5% | 2 |
+| Robert E. Latta | 42.8% | 26 |
 | Rafael E Cruz | 42.7% | 3 |
 | John A. Yarmuth | 42.5% | 139 |
 | Harley E. Rouda | 41.7% | 3 |
-| Bradley S. Schneider | 41.4% | 40 |
+| Bradley S. Schneider | 41.5% | 40 |
 | William R. Keating | 40.2% | 89 |
 | David B. McKinley | 39.5% | 195 |
-| Josh Gottheimer | 39.2% | 1443 |
+| Josh Gottheimer | 39.1% | 1445 |
 | Cynthia M Lummis | 39.1% | 1 |
 | Susan W. Brooks | 38.6% | 12 |
 | James E. Banks | 37.7% | 14 |
@@ -169,7 +169,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Jackie Speier | 19.2% | 3 |
 | Jared Moskowitz | 18.8% | 229 |
 | Jonathan Jackson | 18.5% | 114 |
-| Thomas H. Kean | 18.0% | 85 |
+| Thomas H. Kean | 17.9% | 87 |
 | Charles J. Chuck Fleischmann | 17.9% | 57 |
 | Mike Kennedy | 17.7% | 1 |
 | Ashley Hinson Arenholz | 16.9% | 4 |
@@ -200,10 +200,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Meijer | 11.4% | 18 |
 | Zoe Lofgren | 11.3% | 159 |
 | Laurel Lee | 10.7% | 9 |
-| David J. Taylor | 10.5% | 117 |
 | Roger Williams | 10.5% | 12 |
 | Katie Britt | 10.4% | 16 |
 | Cleo Fields | 10.4% | 188 |
+| David J. Taylor | 10.0% | 121 |
 | John Boozman | 9.9% | 249 |
 | Mick Mulvaney | 9.7% | 4 |
 | Scott Scott Franklin | 9.6% | 50 |
@@ -218,8 +218,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tom Rice | 6.5% | 5 |
 | Michael McCaul | 6.3% | 15 |
 | Lisa McClain | 5.4% | 728 |
-| Maria Elvira Salazar | 5.2% | 77 |
 | John James | 5.1% | 126 |
+| Maria Elvira Salazar | 4.9% | 79 |
 | Lindsey Graham | 4.9% | 6 |
 | Patrick Fallon | 4.6% | 56 |
 | Tracey Robert Mann | 4.5% | 5 |
@@ -277,8 +277,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John N Kennedy | -16.9% | 2 |
 | Kevin Yoder | -20.1% | 6 |
 | Billy Long | -21.9% | 1 |
-| John J McGuire | -26.3% | 2 |
 | William F Hagerty, IV | -26.8% | 1 |
+| John J McGuire | -32.0% | 5 |
 | David Madison Cawthorn | -34.4% | 15 |
 | Felix Barry Moore | -39.3% | 5 |
 | Larry Bucshon | -43.1% | 1 |
