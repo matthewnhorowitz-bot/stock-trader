@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-10 10:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-10 11:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -34,36 +34,36 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Emily Randall | 98 | 0% | 6 |
 | George Whitesides | 97 | 0% | 7 |
 | Frank Pallone | 96 | 0% | 6 |
+| Sharice Davids | 96 | 0% | 4 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
 | Bernie Moreno | 95 | 0% | 2 |
 | Adam Smith | 95 | 0% | 7 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
-| Sharice Davids | 94 | 0% | 4 |
 | Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
-| Gus M. Bilirakis | 92 | 0% | 4 |
 | Lori Trahan | 92 | 0% | 1 |
+| Gus M. Bilirakis | 91 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
 | Joseph D. Morelle | 89 | 0% | 8 |
-| Lance Gooden | 89 | 0% | 3 |
 | Cory A Booker | 88 | 0% | 6 |
-| Stephanie Bice | 88 | 0% | 1 |
+| Lance Gooden | 88 | 0% | 3 |
 | Raul Ruiz | 87 | 0% | 4 |
+| Stephanie Bice | 87 | 0% | 1 |
 | Marcy Kaptur | 87 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
+| Scott DesJarlais | 83 | 0% | 2 |
 | Shri Thanedar | 81 | 0% | 6 |
-| Scott DesJarlais | 81 | 0% | 2 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Shelley Moore Capito | 79 | 25% | 4 |
+| Dave Min | 76 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Tom Cole | 73 | 50% | 2 |
 | Thomas Kean | 73 | 50% | 4 |
-| Dave Min | 72 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
@@ -73,15 +73,15 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Greg Landsman | 64 | 0% | 9 |
 | James P. McGovern | 57 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
-| Morgan McGarvey | 52 | 0% | 5 |
+| Morgan McGarvey | 53 | 0% | 5 |
 | Julie Johnson | 52 | 11% | 9 |
 | Peter Welch | 51 | 11% | 9 |
 | Mike Kelly | 51 | 38% | 8 |
 | Seth Moulton | 49 | 0% | 3 |
 | Warren Davidson | 48 | 25% | 4 |
 | Pete Sessions | 44 | 0% | 10 |
-| Scott Franklin | 43 | 71% | 7 |
 | Andrew Garbarino | 43 | 25% | 4 |
+| Scott Franklin | 42 | 71% | 7 |
 | Sheldon Whitehouse | 41 | 10% | 10 |
 | Debbie Wasserman Schultz | 36 | 43% | 7 |
 | John W. Rose | 35 | 0% | 3 |
@@ -91,7 +91,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Cliff Bentz | 33 | 67% | 3 |
 | Susie Lee | 32 | 33% | 9 |
 | Diana Harshbarger | 31 | 29% | 7 |
-| Laurel Lee | 30 | 33% | 6 |
+| Laurel Lee | 29 | 33% | 6 |
 | Steve Cohen | 27 | 20% | 10 |
 | Katherine M. Clark | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
@@ -118,8 +118,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |
-| Virginia Foxx | 11 | 11% | 9 |
 | David P. Joyce | 11 | 29% | 7 |
+| Virginia Foxx | 10 | 11% | 9 |
 | Lloyd Doggett | 10 | 75% | 4 |
 | Brian Mast | 9 | 43% | 7 |
 | Maria Elvira Salazar | 9 | 88% | 8 |
@@ -142,7 +142,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John Rutherford | 1 | 78% | 9 |
 | Jonathan Jackson | 1 | 90% | 10 |
 | Greg Stanton | 1 | 11% | 9 |
-| Bruce Westerman | 1 | 75% | 8 |
 | Michael McCaul | 1 | 60% | 5 |
 | Susan M Collins | 0 | 67% | 9 |
 | Suzan K. DelBene | 0 | 67% | 6 |
@@ -166,6 +165,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Katie Britt | 0 | 71% | 7 |
 | Max Miller | 0 | 100% | 1 |
 | Ashley Moody | 0 | 100% | 2 |
+| Bruce Westerman | 0 | 75% | 8 |
 | Brandon Gill | 0 | 100% | 1 |
 | Cleo Fields | 0 | 100% | 4 |
 | Lisa McClain | 0 | 100% | 10 |
