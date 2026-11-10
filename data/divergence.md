@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-10 17:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-10 18:09 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -54,8 +54,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Stephanie Bice | 87 | 0% | 1 |
 | Marcy Kaptur | 87 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Shri Thanedar | 81 | 0% | 6 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Shelley Moore Capito | 77 | 25% | 4 |
