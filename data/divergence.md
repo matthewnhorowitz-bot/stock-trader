@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-10 16:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-10 17:01 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -58,7 +58,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Shri Thanedar | 81 | 0% | 6 |
 | Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Shelley Moore Capito | 79 | 25% | 4 |
+| Shelley Moore Capito | 77 | 25% | 4 |
 | Dave Min | 76 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 73 | 0% | 9 |
@@ -109,7 +109,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Jerry Moran, | 19 | 29% | 7 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Brian Babin | 18 | 0% | 2 |
-| David Kustoff | 18 | 40% | 5 |
+| David Kustoff | 18 | 20% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
@@ -128,6 +128,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | William R. Timmons | 8 | 14% | 7 |
 | Kevin Hern | 7 | 67% | 9 |
 | Daniel Meuser | 7 | 29% | 7 |
+| Ro Khanna | 6 | 75% | 8 |
 | Patty Murray | 5 | 13% | 8 |
 | Gilbert Cisneros | 5 | 78% | 9 |
 | Blake Moore | 5 | 67% | 6 |
@@ -175,6 +176,5 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Dave McCormick | 0 | 100% | 1 |
 | Mitch McConnell | 0 | 100% | 1 |
 | Charles J. "Chuck" Fleischmann | 0 | 100% | 1 |
-| Ro Khanna | 0 | 100% | 6 |
 
 _Divergence is dollar-weighted across each member's sectors; not financial or legal advice._

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:01:18.061Z",
+  "generatedAt": "2026-11-10T17:01:03.025Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -3768,7 +3768,7 @@
     {
       "member": "Shelley Moore Capito",
       "chamber": "senate",
-      "ds": 79,
+      "ds": 77,
       "alignmentRate": 25,
       "sectorsScored": 4,
       "sectors": [
@@ -3777,7 +3777,7 @@
           "voteStance": 1,
           "portfolioStance": -1,
           "divergence": 1,
-          "exposure": 2002,
+          "exposure": 4004,
           "aligned": false,
           "tickers": [
             "MSFT",
@@ -3812,7 +3812,7 @@
           "voteStance": 0.961,
           "portfolioStance": -1,
           "divergence": 0.961,
-          "exposure": 1001,
+          "exposure": 2002,
           "aligned": false,
           "tickers": [
             "ZTS"
@@ -3829,7 +3829,7 @@
           "voteStance": -0.143,
           "portfolioStance": -1,
           "divergence": 0,
-          "exposure": 1001,
+          "exposure": 2002,
           "aligned": true,
           "tickers": [
             "META"
@@ -11555,7 +11555,7 @@
       "member": "David Kustoff",
       "chamber": "house",
       "ds": 18,
-      "alignmentRate": 40,
+      "alignmentRate": 20,
       "sectorsScored": 5,
       "sectors": [
         {
@@ -11613,10 +11613,10 @@
         {
           "sector": "Communication Services",
           "voteStance": 1,
-          "portfolioStance": 0.03,
+          "portfolioStance": 0,
           "divergence": 0,
-          "exposure": 33005,
-          "aligned": true,
+          "exposure": 34006,
+          "aligned": false,
           "tickers": [
             "ROKU",
             "WBD"
@@ -14637,6 +14637,180 @@
       ]
     },
     {
+      "member": "Ro Khanna",
+      "chamber": "house",
+      "ds": 6,
+      "alignmentRate": 75,
+      "sectorsScored": 8,
+      "sectors": [
+        {
+          "sector": "Real Estate",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "AMT"
+          ],
+          "example": {
+            "title": "Green New Deal for Public Housing Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.831,
+          "portfolioStance": -1,
+          "divergence": 0.831,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "URI",
+            "ETN"
+          ],
+          "example": {
+            "title": "Protecting Biological Data as Critical Infrastructure Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.452,
+          "portfolioStance": 0.717,
+          "divergence": 0,
+          "exposure": 113015,
+          "aligned": true,
+          "tickers": [
+            "AXP",
+            "WFC",
+            "FCNCA",
+            "TD",
+            "NTIOF",
+            "C",
+            "JPM",
+            "BMO",
+            "BK",
+            "COF",
+            "MS",
+            "RY"
+          ],
+          "example": {
+            "title": "Stop Private Equity Harms Resolution",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": 0.969,
+          "divergence": 0,
+          "exposure": 65009,
+          "aligned": true,
+          "tickers": [
+            "AMZN",
+            "CHWY",
+            "MCD",
+            "TJX",
+            "PHM",
+            "TSLA",
+            "AZO"
+          ],
+          "example": {
+            "title": "National Worker Cooperative Development and Support Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 0.913,
+          "portfolioStance": 0.917,
+          "divergence": 0,
+          "exposure": 48006,
+          "aligned": true,
+          "tickers": [
+            "MSFT",
+            "TENB",
+            "QCOM",
+            "AAPL",
+            "APH",
+            "APP"
+          ],
+          "example": {
+            "title": "Protecting Biotechnology and Biomanufacturing as Critical Infrastructure Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Defensive",
+          "voteStance": 1,
+          "portfolioStance": 0.579,
+          "divergence": 0,
+          "exposure": 19005,
+          "aligned": true,
+          "tickers": [
+            "ACI",
+            "PEP"
+          ],
+          "example": {
+            "title": "Agricultural Biotechnology Coordination Act of 2024",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 0.878,
+          "portfolioStance": 0.6,
+          "divergence": 0,
+          "exposure": 5005,
+          "aligned": true,
+          "tickers": [
+            "COO",
+            "ZBH",
+            "MRK",
+            "ISRG"
+          ],
+          "example": {
+            "title": "Stop Deadly Denials Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Communication Services",
+          "voteStance": 1,
+          "portfolioStance": 0.5,
+          "divergence": 0,
+          "exposure": 4004,
+          "aligned": true,
+          "tickers": [
+            "VZ",
+            "TMUS",
+            "META"
+          ],
+          "example": {
+            "title": "Internet of Things Cyber Security Training for Federal Employees Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Patty Murray",
       "chamber": "senate",
       "ds": 5,
@@ -17148,9 +17322,9 @@
         {
           "sector": "Communication Services",
           "voteStance": 1,
-          "portfolioStance": 0.727,
+          "portfolioStance": 0.716,
           "divergence": 0,
-          "exposure": 7702016,
+          "exposure": 7752017,
           "aligned": true,
           "tickers": [
             "DIS",
@@ -22703,130 +22877,6 @@
             "action": "cosponsor",
             "billStance": -1,
             "recordStance": -1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Ro Khanna",
-      "chamber": "house",
-      "ds": 0,
-      "alignmentRate": 100,
-      "sectorsScored": 6,
-      "sectors": [
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 64008,
-          "aligned": true,
-          "tickers": [
-            "AMZN",
-            "CHWY",
-            "MCD",
-            "TJX",
-            "PHM",
-            "TSLA",
-            "AZO"
-          ],
-          "example": {
-            "title": "National Worker Cooperative Development and Support Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Defensive",
-          "voteStance": 1,
-          "portfolioStance": 0.579,
-          "divergence": 0,
-          "exposure": 19005,
-          "aligned": true,
-          "tickers": [
-            "ACI",
-            "PEP"
-          ],
-          "example": {
-            "title": "Agricultural Biotechnology Coordination Act of 2024",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.452,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 18004,
-          "aligned": true,
-          "tickers": [
-            "AXP",
-            "WFC",
-            "FCNCA"
-          ],
-          "example": {
-            "title": "Stop Private Equity Harms Resolution",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 0.913,
-          "portfolioStance": 0.882,
-          "divergence": 0,
-          "exposure": 17003,
-          "aligned": true,
-          "tickers": [
-            "MSFT",
-            "TENB",
-            "QCOM"
-          ],
-          "example": {
-            "title": "Protecting Biotechnology and Biomanufacturing as Critical Infrastructure Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 0.878,
-          "portfolioStance": 0.333,
-          "divergence": 0,
-          "exposure": 3003,
-          "aligned": true,
-          "tickers": [
-            "COO",
-            "ZBH"
-          ],
-          "example": {
-            "title": "Stop Deadly Denials Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Communication Services",
-          "voteStance": 1,
-          "portfolioStance": 1,
-          "divergence": 0,
-          "exposure": 2002,
-          "aligned": true,
-          "tickers": [
-            "VZ",
-            "TMUS"
-          ],
-          "example": {
-            "title": "Internet of Things Cyber Security Training for Federal Employees Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
           }
         }
       ]
