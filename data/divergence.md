@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-11 15:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-11 16:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -43,8 +43,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Lori Trahan | 92 | 0% | 1 |
 | Gus M. Bilirakis | 91 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
+| Jake Auchincloss | 90 | 0% | 1 |
 | Lance Gooden | 89 | 0% | 3 |
-| Jake Auchincloss | 89 | 0% | 1 |
 | Cory A Booker | 88 | 0% | 6 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
@@ -52,19 +52,19 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James M. Costa | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 85 | 0% | 4 |
+| Marc A. Veasey | 82 | 0% | 1 |
+| Lloyd K. Smucker | 81 | 0% | 6 |
 | Scott DesJarlais | 81 | 0% | 2 |
-| Marc A. Veasey | 80 | 0% | 1 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Shelley Moore Capito | 77 | 25% | 4 |
+| Teresa Leger Fernandez | 75 | 0% | 1 |
+| Shri Thanedar | 75 | 0% | 6 |
 | Tom Cole | 74 | 50% | 2 |
-| Shri Thanedar | 74 | 0% | 6 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Thomas Kean | 73 | 50% | 4 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Dave Min | 72 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
-| Teresa Leger Fernandez | 71 | 0% | 1 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | David Taylor | 66 | 33% | 6 |
@@ -105,15 +105,15 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Roger F Wicker | 20 | 0% | 1 |
 | Jerry Moran, | 19 | 29% | 7 |
 | Valerie Hoyle | 19 | 22% | 9 |
+| Lois Frankel | 18 | 11% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
 | David Kustoff | 18 | 20% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
-| Lois Frankel | 17 | 11% | 9 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Judy Chu | 15 | 50% | 2 |
+| Judy Chu | 16 | 50% | 2 |
 | John J McGuire | 14 | 50% | 2 |
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
@@ -130,12 +130,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Daniel Meuser | 7 | 29% | 7 |
 | Ro Khanna | 6 | 75% | 8 |
 | Patty Murray | 5 | 13% | 8 |
-| Gilbert Cisneros | 5 | 78% | 9 |
 | Blake Moore | 5 | 67% | 6 |
 | Roger Williams | 4 | 50% | 6 |
 | Rick Larsen | 3 | 50% | 8 |
 | John James | 3 | 40% | 10 |
 | Byron Donalds | 3 | 67% | 6 |
+| Gilbert Cisneros | 2 | 78% | 9 |
 | James Comer | 2 | 63% | 8 |
 | Sheri Biggs | 2 | 63% | 8 |
 | John Hoeven | 1 | 86% | 7 |
