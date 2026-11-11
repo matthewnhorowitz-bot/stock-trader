@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-11 19:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-11 19:44 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.0%**
-- S&P 500 (SPY) over the same windows: 91.7%
-- Priced positions: 26648  ·  still open: 10483  ·  awaiting price data: 567
+- S&P 500 (SPY) over the same windows: 91.8%
+- Priced positions: 26649  ·  still open: 10484  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -262,8 +262,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cindy Axne | -3.2% | 78 |
 | Tom Malinowski | -3.7% | 163 |
 | Andrew Garbarino | -3.8% | 5 |
+| Charles J. "Chuck" Fleischmann | -4.5% | 9 |
 | Michael Rulli | -5.0% | 16 |
-| Charles J. "Chuck" Fleischmann | -5.1% | 8 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Marie Newman | -9.1% | 155 |
 | David A. Trott | -10.2% | 89 |
