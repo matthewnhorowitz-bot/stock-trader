@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-11 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-11 18:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.0%**
 - S&P 500 (SPY) over the same windows: 91.7%
-- Priced positions: 26646  ·  still open: 10483  ·  awaiting price data: 569
+- Priced positions: 26648  ·  still open: 10483  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -20,7 +20,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Luis V. Gutierrez | 505.2% | 6 |
 | Charlie Joseph Crist | 487.1% | 1 |
 | Barbara J Comstock | 412.8% | 29 |
-| Brenda Lulenar Lawrence | 367.8% | 19 |
+| Brenda Lulenar Lawrence | 367.6% | 19 |
 | Michael Fq San Nicolas | 367.3% | 1 |
 | Christopher A Coons | 316.6% | 2 |
 | William M. Cassidy | 293.4% | 1 |
@@ -58,7 +58,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott H. Peters | 118.5% | 105 |
 | W. Greg Steube | 117.9% | 2 |
 | Neal Patrick Dunn MD, FACS | 113.3% | 1 |
-| Gary C Peters | 108.6% | 50 |
+| Gary C Peters | 108.5% | 50 |
 | Justin Amash | 105.9% | 11 |
 | K. Michael Conaway | 105.6% | 283 |
 | Thomas Suozzi | 104.1% | 283 |
@@ -125,7 +125,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tim Moore | 39.6% | 159 |
 | Susie Lee | 39.6% | 628 |
 | David B. McKinley | 39.5% | 195 |
-| Gilbert Cisneros | 39.1% | 1624 |
+| Gilbert Cisneros | 39.0% | 1626 |
 | Daniel Crenshaw | 38.9% | 17 |
 | Susan W. Brooks | 38.6% | 12 |
 | Jim McDermott | 37.1% | 2 |
@@ -205,8 +205,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Meijer | 11.4% | 18 |
 | John Boozman | 11.2% | 249 |
 | Scott Scott Franklin | 11.1% | 50 |
-| Katie Britt | 10.9% | 16 |
 | Byron Donalds | 10.9% | 45 |
+| Katie Britt | 10.9% | 16 |
 | Mick Mulvaney | 9.7% | 4 |
 | Thomas Kean | 9.4% | 3 |
 | Ritchie John Torres | 9.2% | 69 |
