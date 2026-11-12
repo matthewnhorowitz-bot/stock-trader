@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-12 22:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-12 23:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.1%**
-- S&P 500 (SPY) over the same windows: 91.8%
-- Priced positions: 26650  ·  still open: 10485  ·  awaiting price data: 567
+- S&P 500 (SPY) over the same windows: 91.9%
+- Priced positions: 26652  ·  still open: 10487  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -71,9 +71,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Judy Chu | 84.6% | 5 |
 | John F Reed | 83.8% | 55 |
 | Shelley M Capito | 82.0% | 345 |
-| Lloyd Doggett | 79.6% | 214 |
 | John Rutherford | 79.5% | 165 |
 | David P. Joyce | 79.4% | 76 |
+| Lloyd Doggett | 79.1% | 215 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | David Kustoff | 77.3% | 9 |
@@ -100,7 +100,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James Comer | 62.0% | 32 |
 | Carol Devine Miller | 61.4% | 62 |
 | Lois Frankel | 60.6% | 439 |
-| Richard W. Allen | 60.2% | 163 |
+| Richard W. Allen | 59.8% | 164 |
 | David A Perdue , Jr | 56.6% | 1255 |
 | Tammy Duckworth | 55.4% | 4 |
 | John Curtis | 55.4% | 128 |
@@ -120,7 +120,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | William R. Keating | 42.8% | 89 |
 | John A. Yarmuth | 42.5% | 139 |
 | Rafael E Cruz | 41.9% | 3 |
-| Josh Gottheimer | 41.5% | 1445 |
+| Josh Gottheimer | 41.4% | 1445 |
 | Susie Lee | 39.6% | 628 |
 | James E. Banks | 39.6% | 14 |
 | Tim Moore | 39.6% | 159 |
@@ -154,7 +154,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Case | 26.1% | 14 |
 | Kathy Manning | 25.3% | 276 |
 | Peter Allen Stauber | 24.5% | 1 |
-| Julia Letlow | 24.4% | 154 |
+| Julia Letlow | 24.3% | 154 |
 | Thomas H Tuberville | 24.2% | 491 |
 | Christopher L. Jacobs | 23.9% | 95 |
 | Kelly Loeffler | 22.8% | 97 |
@@ -218,7 +218,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Sheri Biggs | 7.7% | 50 |
 | Tom Rice | 6.5% | 5 |
 | Tracey Robert Mann | 6.5% | 5 |
-| Maria Elvira Salazar | 6.5% | 79 |
+| Maria Elvira Salazar | 6.4% | 79 |
 | Lisa McClain | 6.2% | 728 |
 | John James | 5.3% | 126 |
 | Patrick Fallon | 5.2% | 56 |
@@ -263,7 +263,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tom Malinowski | -3.7% | 163 |
 | Andrew Garbarino | -3.8% | 5 |
 | Charles J. "Chuck" Fleischmann | -4.5% | 9 |
-| Michael Rulli | -4.8% | 16 |
+| Michael Rulli | -4.9% | 16 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Marie Newman | -9.1% | 155 |
 | David A. Trott | -10.2% | 89 |
