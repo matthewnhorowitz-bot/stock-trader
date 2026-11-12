@@ -1,19 +1,19 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-12 19:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-12 20:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.1%**
 - S&P 500 (SPY) over the same windows: 91.8%
-- Priced positions: 26649  ·  still open: 10484  ·  awaiting price data: 567
+- Priced positions: 26650  ·  still open: 10485  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
 
 | Member | Avg return | Positions |
 | --- | ---: | ---: |
-| Pete Sessions | 2692.8% | 176 |
+| Pete Sessions | 2692.9% | 176 |
 | Brian Babin | 802.4% | 6 |
 | Barbara J. Comstock | 651.5% | 2 |
 | Sheldon Whitehouse | 522.0% | 445 |
@@ -51,7 +51,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert B. Aderholt | 131.5% | 1 |
 | Victoria Spartz | 124.0% | 21 |
 | James French Hill | 124.0% | 24 |
-| Lamar Smith | 123.1% | 222 |
+| Lamar Smith | 123.2% | 222 |
 | Grace Meng | 122.0% | 5 |
 | Kathy Castor | 121.8% | 39 |
 | Shri Thanedar | 121.0% | 1 |
@@ -71,13 +71,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Judy Chu | 84.6% | 5 |
 | John F Reed | 83.8% | 55 |
 | Shelley M Capito | 81.9% | 345 |
+| Lloyd Doggett | 79.6% | 214 |
 | David P. Joyce | 79.4% | 76 |
 | John Rutherford | 79.4% | 165 |
-| Lloyd Doggett | 79.3% | 213 |
 | Dean Phillips | 78.4% | 347 |
 | Joseph Manchin, III | 78.2% | 1 |
 | David Kustoff | 77.3% | 9 |
-| Jerry Moran, | 76.7% | 75 |
+| Jerry Moran, | 76.8% | 75 |
 | Michael K. Simpson | 76.6% | 34 |
 | Daniel S Sullivan | 76.5% | 30 |
 | Nancy Pelosi | 75.4% | 98 |
@@ -138,7 +138,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Elizabeth Fletcher | 32.8% | 23 |
 | Joe Courtney | 32.7% | 72 |
 | Angus S King, Jr. | 32.6% | 34 |
-| Rohit Khanna | 31.3% | 139 |
+| Rohit Khanna | 31.4% | 139 |
 | Susan A. Davis | 31.1% | 32 |
 | Richard Dean McCormick | 30.9% | 72 |
 | Aston Donald McEachin | 30.2% | 6 |
@@ -263,7 +263,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Tom Malinowski | -3.7% | 163 |
 | Andrew Garbarino | -3.8% | 5 |
 | Charles J. "Chuck" Fleischmann | -4.5% | 9 |
-| Michael Rulli | -5.0% | 16 |
+| Michael Rulli | -4.8% | 16 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Marie Newman | -9.1% | 155 |
 | David A. Trott | -10.2% | 89 |
