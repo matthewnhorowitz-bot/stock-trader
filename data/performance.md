@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-12 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-12 16:00 UTC._
 
 ## Total
 
@@ -205,7 +205,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
 | John Boozman | 11.2% | 249 |
-| Byron Donalds | 11.2% | 45 |
+| Byron Donalds | 11.1% | 45 |
 | Scott Scott Franklin | 11.1% | 50 |
 | Katie Britt | 10.9% | 16 |
 | Mick Mulvaney | 9.7% | 4 |
