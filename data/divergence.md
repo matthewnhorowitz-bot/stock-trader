@@ -1,10 +1,11 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-12 04:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-12 05:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
 | Maria Cantwell | 100 | 0% | 1 |
+| Marc A. Veasey | 100 | 0% | 1 |
 | Michael F Bennet | 100 | 0% | 1 |
 | Mario Diaz-Balart | 100 | 0% | 2 |
 | Ladda Tammy Duckworth | 100 | 0% | 3 |
@@ -30,36 +31,35 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Mark R Warner | 99 | 0% | 3 |
 | James A. Himes | 98 | 0% | 4 |
 | William F Hagerty, IV | 98 | 25% | 8 |
+| Emily Randall | 98 | 0% | 6 |
+| George Whitesides | 97 | 0% | 7 |
 | Frank Pallone | 96 | 0% | 6 |
 | Sharice Davids | 96 | 0% | 4 |
-| Emily Randall | 96 | 0% | 6 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
-| George Whitesides | 95 | 0% | 7 |
 | Bernie Moreno | 95 | 0% | 2 |
+| Adam Smith | 95 | 0% | 7 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
-| Adam Smith | 94 | 0% | 7 |
 | Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
 | Lori Trahan | 92 | 0% | 1 |
 | Gus M. Bilirakis | 91 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
+| Joseph D. Morelle | 89 | 0% | 8 |
 | Lance Gooden | 89 | 0% | 3 |
 | Cory A Booker | 88 | 0% | 6 |
-| Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
+| Raul Ruiz | 87 | 0% | 4 |
 | Marcy Kaptur | 87 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
-| Raul Ruiz | 85 | 0% | 4 |
-| Scott DesJarlais | 83 | 0% | 2 |
-| Marc A. Veasey | 82 | 0% | 1 |
-| Lloyd K. Smucker | 81 | 0% | 6 |
+| Shri Thanedar | 81 | 0% | 6 |
+| Scott DesJarlais | 81 | 0% | 2 |
+| Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Shelley Moore Capito | 77 | 25% | 4 |
 | Dave Min | 76 | 0% | 1 |
-| Shri Thanedar | 75 | 0% | 6 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Tom Cole | 73 | 50% | 2 |
@@ -72,7 +72,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Robert B. Aderholt | 64 | 33% | 3 |
 | Greg Landsman | 64 | 0% | 9 |
 | James P. McGovern | 57 | 0% | 1 |
-| April McClain Delaney | 55 | 0% | 7 |
+| April McClain Delaney | 56 | 0% | 7 |
 | Morgan McGarvey | 53 | 0% | 5 |
 | Julie Johnson | 52 | 11% | 9 |
 | Peter Welch | 51 | 11% | 9 |
@@ -83,9 +83,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Scott Franklin | 43 | 71% | 7 |
 | Andrew Garbarino | 43 | 25% | 4 |
 | Sheldon Whitehouse | 41 | 10% | 10 |
+| Debbie Wasserman Schultz | 36 | 43% | 7 |
 | John W. Rose | 35 | 0% | 3 |
 | Jefferson Shreve | 34 | 0% | 8 |
-| Debbie Wasserman Schultz | 33 | 43% | 7 |
 | Christopher A Coons | 33 | 0% | 1 |
 | Thomas R. Suozzi | 33 | 0% | 3 |
 | Cliff Bentz | 33 | 67% | 3 |
@@ -98,9 +98,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Austin Scott | 23 | 0% | 7 |
 | Michael Rulli | 23 | 33% | 6 |
 | Ed Case | 22 | 20% | 5 |
+| Jared Moskowitz | 22 | 44% | 9 |
 | Debbie Dingell | 21 | 33% | 9 |
 | Dwight Evans | 21 | 38% | 8 |
-| Jared Moskowitz | 21 | 44% | 9 |
 | Lois Frankel | 20 | 11% | 9 |
 | Kathy Castor | 20 | 25% | 4 |
 | Roger F Wicker | 20 | 0% | 1 |
