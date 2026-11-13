@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-13 01:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-13 02:00 UTC._
 
 ## Total
 
@@ -202,8 +202,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Earl Leroy Carter | 11.6% | 1 |
 | Zoe Lofgren | 11.6% | 159 |
 | David J. Taylor | 11.5% | 121 |
-| Thomas J. Rooney | 11.4% | 249 |
 | Byron Donalds | 11.4% | 45 |
+| Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
 | John Boozman | 11.3% | 249 |
 | Scott Scott Franklin | 11.1% | 50 |
