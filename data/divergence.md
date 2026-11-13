@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-13 03:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-13 04:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -39,12 +39,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam Smith | 94 | 0% | 7 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
-| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
 | Robert C. "Bobby" Scott | 92 | 0% | 8 |
 | Gus M. Bilirakis | 92 | 0% | 4 |
-| Victoria Spartz | 90 | 0% | 1 |
+| Lori Trahan | 92 | 0% | 1 |
 | Jake Auchincloss | 90 | 0% | 1 |
+| Victoria Spartz | 89 | 0% | 1 |
 | Lance Gooden | 89 | 0% | 3 |
 | Cory A Booker | 88 | 0% | 6 |
 | Joseph D. Morelle | 88 | 0% | 8 |
