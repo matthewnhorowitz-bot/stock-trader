@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-13 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-13 16:00 UTC._
 
 ## Total
 
@@ -192,8 +192,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Cleo Fields | 13.2% | 188 |
 | Roger Williams | 13.2% | 12 |
 | Brad Ashford | 13.1% | 5 |
-| Byron Donalds | 12.7% | 45 |
 | Kim Schrier | 12.7% | 3 |
+| Byron Donalds | 12.6% | 45 |
 | Mikie Sherrill | 12.5% | 38 |
 | Julie Johnson | 12.5% | 117 |
 | Frank A. LoBiondo | 12.2% | 8 |
