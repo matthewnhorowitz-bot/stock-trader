@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-13 19:53 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-13 20:00 UTC._
 
 ## Total
 
@@ -195,8 +195,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kim Schrier | 12.7% | 3 |
 | Mikie Sherrill | 12.5% | 38 |
 | Julie Johnson | 12.5% | 117 |
-| Frank A. LoBiondo | 12.2% | 8 |
 | Byron Donalds | 12.2% | 45 |
+| Frank A. LoBiondo | 12.2% | 8 |
 | David P. Roe | 12.0% | 15 |
 | Laurel Lee | 12.0% | 9 |
 | Earl Leroy Carter | 11.6% | 1 |
@@ -204,9 +204,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Scott Franklin | 11.5% | 50 |
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
+| David J. Taylor | 11.0% | 127 |
 | John Boozman | 10.9% | 249 |
-| David J. Taylor | 10.8% | 127 |
-| Katie Britt | 10.6% | 16 |
+| Katie Britt | 10.8% | 16 |
 | Mick Mulvaney | 9.7% | 4 |
 | Ritchie John Torres | 9.5% | 69 |
 | Michael McCaul | 9.0% | 15 |
@@ -216,7 +216,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Whitfield | 8.5% | 56 |
 | Adam Kinzinger | 7.9% | 17 |
 | Sheri Biggs | 6.8% | 50 |
-| Maria Elvira Salazar | 6.5% | 79 |
+| Maria Elvira Salazar | 6.6% | 79 |
 | Tom Rice | 6.5% | 5 |
 | Lisa McClain | 6.1% | 728 |
 | Tracey Robert Mann | 5.6% | 5 |
