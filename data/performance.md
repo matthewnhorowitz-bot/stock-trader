@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-14 02:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-14 03:00 UTC._
 
 ## Total
 
 - **Index (all tracked buys): 71.0%**
 - S&P 500 (SPY) over the same windows: 92.3%
-- Priced positions: 26663  ·  still open: 10493  ·  awaiting price data: 568
+- Priced positions: 26664  ·  still open: 10493  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -204,8 +204,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Scott Franklin | 11.5% | 50 |
 | Thomas J. Rooney | 11.4% | 249 |
 | Peter Meijer | 11.4% | 18 |
+| David J. Taylor | 11.0% | 127 |
 | John Boozman | 11.0% | 249 |
-| David J. Taylor | 10.9% | 127 |
 | Katie Britt | 10.8% | 16 |
 | Mick Mulvaney | 9.7% | 4 |
 | Ritchie John Torres | 9.4% | 69 |
@@ -250,7 +250,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kenneth R. Buck | 0.3% | 28 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
-| David Taylor | -0.5% | 15 |
+| David Taylor | -0.4% | 16 |
 | Kenny Marchant | -0.6% | 40 |
 | Michael C. Burgess | -0.9% | 42 |
 | Greg Landsman | -1.3% | 55 |
