@@ -1,12 +1,12 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-16 17:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-16 18:00 UTC._
 
 ## Total
 
-- **Index (all tracked buys): 70.9%**
-- S&P 500 (SPY) over the same windows: 92.3%
-- Priced positions: 26664  ·  still open: 10493  ·  awaiting price data: 567
+- **Index (all tracked buys): 70.8%**
+- S&P 500 (SPY) over the same windows: 92.4%
+- Priced positions: 26666  ·  still open: 10494  ·  awaiting price data: 567
 - Price coverage: 97.9% of positions (unpriced positions are excluded — low coverage risks survivorship bias)
 
 ## By member (average return, # positions)
@@ -39,7 +39,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Cheston Rouzer | 166.7% | 8 |
 | Michael T. McCaul | 154.2% | 108 |
 | Beto O'Rourke | 152.7% | 3 |
-| John Hoeven | 150.6% | 128 |
+| John Hoeven | 150.5% | 128 |
 | Gary Palmer | 147.4% | 182 |
 | Debbie Dingell | 144.6% | 100 |
 | Daniel Meuser | 143.8% | 9 |
@@ -108,7 +108,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Virginia Foxx | 54.2% | 602 |
 | Cheri Bustos | 52.0% | 13 |
 | Garret Graves | 51.0% | 6 |
-| Dan Newhouse | 48.4% | 110 |
+| Dan Newhouse | 48.3% | 110 |
 | Cynthia M Lummis | 47.8% | 1 |
 | Raúl M. Grijalva | 47.0% | 47 |
 | Bob Gibbs | 46.7% | 94 |
@@ -171,9 +171,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas H. Kean | 20.3% | 87 |
 | Lou Barletta | 20.1% | 17 |
 | Michael Garcia | 20.0% | 20 |
-| Jonathan Jackson | 19.7% | 114 |
 | Thomas R Carper | 19.6% | 494 |
 | Jackie Speier | 19.2% | 3 |
+| Jonathan Jackson | 19.0% | 116 |
 | Charles J. Chuck Fleischmann | 19.0% | 57 |
 | John W. Rose | 18.8% | 1 |
 | C. Scott Franklin | 18.2% | 35 |
@@ -197,7 +197,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Julie Johnson | 12.5% | 117 |
 | Frank A. LoBiondo | 12.2% | 8 |
 | David P. Roe | 12.0% | 15 |
-| Byron Donalds | 11.9% | 45 |
+| Byron Donalds | 12.0% | 45 |
 | Cleo Fields | 11.8% | 188 |
 | Earl Leroy Carter | 11.6% | 1 |
 | Scott Scott Franklin | 11.6% | 50 |
@@ -217,7 +217,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas Kean | 6.9% | 3 |
 | Sheri Biggs | 6.6% | 50 |
 | Tom Rice | 6.5% | 5 |
-| Maria Elvira Salazar | 6.4% | 79 |
+| Maria Elvira Salazar | 6.3% | 79 |
 | Tracey Robert Mann | 6.2% | 5 |
 | Lisa McClain | 6.0% | 728 |
 | John James | 5.1% | 126 |
