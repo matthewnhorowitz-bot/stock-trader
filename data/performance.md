@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-17 20:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-17 21:00 UTC._
 
 ## Total
 
@@ -206,7 +206,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Laurel Lee | 10.3% | 9 |
 | Byron Donalds | 10.1% | 46 |
 | Mick Mulvaney | 9.7% | 4 |
-| John Boozman | 9.5% | 251 |
+| John Boozman | 9.6% | 251 |
 | Ritchie John Torres | 9.1% | 69 |
 | Kurt Schrader | 8.9% | 150 |
 | David Trone | 8.7% | 14 |
