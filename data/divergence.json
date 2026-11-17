@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T03:02:22.012Z",
+  "generatedAt": "2026-11-17T04:07:55.629Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -970,6 +970,23 @@
           }
         },
         {
+          "sector": "Energy",
+          "voteStance": 0.878,
+          "portfolioStance": -1,
+          "divergence": 0.878,
+          "exposure": 15001,
+          "aligned": false,
+          "tickers": [
+            "XOM"
+          ],
+          "example": {
+            "title": "To amend title 31, United States Code, to provide for the issuance of Green Bonds and to establish the United States Green Bank, and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Financial Services",
           "voteStance": 0.818,
           "portfolioStance": -1,
@@ -981,23 +998,6 @@
           ],
           "example": {
             "title": "NO PROFIT Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.804,
-          "portfolioStance": -1,
-          "divergence": 0.804,
-          "exposure": 15001,
-          "aligned": false,
-          "tickers": [
-            "XOM"
-          ],
-          "example": {
-            "title": "To amend title 31, United States Code, to provide for the issuance of Green Bonds and to establish the United States Green Bank, and for other purposes.",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -1259,9 +1259,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.828,
+          "voteStance": 0.893,
           "portfolioStance": -1,
-          "divergence": 0.828,
+          "divergence": 0.893,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -1507,9 +1507,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.896,
+          "voteStance": 0.91,
           "portfolioStance": -1,
-          "divergence": 0.896,
+          "divergence": 0.91,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -1524,9 +1524,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.732,
+          "voteStance": 0.727,
           "portfolioStance": -1,
-          "divergence": 0.732,
+          "divergence": 0.727,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -1534,6 +1534,84 @@
           ],
           "example": {
             "title": "Congratulating the Jewish War Veterans on the 130th anniversary of the organization's founding and honoring their commitment to Jewish war veterans.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Sharice Davids",
+      "chamber": "house",
+      "ds": 96,
+      "alignmentRate": 0,
+      "sectorsScored": 4,
+      "sectors": [
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "ONVO"
+          ],
+          "example": {
+            "title": "Long-Term Rural Health Investment Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "IGT"
+          ],
+          "example": {
+            "title": "21st Century Entrepreneurship Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "FCEL"
+          ],
+          "example": {
+            "title": "To amend section 125 of title 23, United States Code, to require that a project for the permanent repair or reconstruction of a repeatedly damaged facility includes feasible and economically justifiable improvements to increase the resilience of such facility, and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.906,
+          "portfolioStance": -1,
+          "divergence": 0.906,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "SPWR",
+            "MAXN"
+          ],
+          "example": {
+            "title": "Truth in National Parks Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -1749,9 +1827,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.93,
+          "voteStance": 0.929,
           "portfolioStance": -1,
-          "divergence": 0.93,
+          "divergence": 0.929,
           "exposure": 7007,
           "aligned": false,
           "tickers": [
@@ -2044,84 +2122,6 @@
       ]
     },
     {
-      "member": "Sharice Davids",
-      "chamber": "house",
-      "ds": 94,
-      "alignmentRate": 0,
-      "sectorsScored": 4,
-      "sectors": [
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "ONVO"
-          ],
-          "example": {
-            "title": "Long-Term Rural Health Investment Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "IGT"
-          ],
-          "example": {
-            "title": "21st Century Entrepreneurship Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "FCEL"
-          ],
-          "example": {
-            "title": "To amend section 125 of title 23, United States Code, to require that a project for the permanent repair or reconstruction of a repeatedly damaged facility includes feasible and economically justifiable improvements to increase the resilience of such facility, and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.848,
-          "portfolioStance": -1,
-          "divergence": 0.848,
-          "exposure": 2002,
-          "aligned": false,
-          "tickers": [
-            "SPWR",
-            "MAXN"
-          ],
-          "example": {
-            "title": "Truth in National Parks Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Robert C. \"Bobby\" Scott",
       "chamber": "house",
       "ds": 93,
@@ -2234,9 +2234,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.851,
+          "voteStance": 0.908,
           "portfolioStance": -1,
-          "divergence": 0.851,
+          "divergence": 0.908,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2251,9 +2251,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.836,
+          "voteStance": 0.84,
           "portfolioStance": -1,
-          "divergence": 0.836,
+          "divergence": 0.84,
           "exposure": 16002,
           "aligned": false,
           "tickers": [
@@ -2475,9 +2475,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.747,
+          "voteStance": 0.75,
           "portfolioStance": -1,
-          "divergence": 0.747,
+          "divergence": 0.75,
           "exposure": 2002,
           "aligned": false,
           "tickers": [
@@ -2493,9 +2493,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.724,
+          "voteStance": 0.748,
           "portfolioStance": -1,
-          "divergence": 0.724,
+          "divergence": 0.748,
           "exposure": 3003,
           "aligned": false,
           "tickers": [
@@ -2534,15 +2534,15 @@
     {
       "member": "Lori Trahan",
       "chamber": "house",
-      "ds": 92,
+      "ds": 93,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.923,
+          "voteStance": 0.925,
           "portfolioStance": -1,
-          "divergence": 0.923,
+          "divergence": 0.925,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2643,9 +2643,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.898,
+          "voteStance": 0.902,
           "portfolioStance": -1,
-          "divergence": 0.898,
+          "divergence": 0.902,
           "exposure": 450003,
           "aligned": false,
           "tickers": [
@@ -2742,9 +2742,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.937,
+          "voteStance": 1,
           "portfolioStance": -1,
-          "divergence": 0.937,
+          "divergence": 1,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2759,9 +2759,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.878,
+          "voteStance": 0.88,
           "portfolioStance": -1,
-          "divergence": 0.878,
+          "divergence": 0.88,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -3063,9 +3063,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.935,
+          "voteStance": 0.934,
           "portfolioStance": -1,
-          "divergence": 0.935,
+          "divergence": 0.934,
           "exposure": 65002,
           "aligned": false,
           "tickers": [
@@ -3554,9 +3554,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.807,
+          "voteStance": 0.809,
           "portfolioStance": -1,
-          "divergence": 0.807,
+          "divergence": 0.809,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -3649,9 +3649,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.928,
           "portfolioStance": -1,
-          "divergence": 0.926,
+          "divergence": 0.928,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -3870,6 +3870,32 @@
       ]
     },
     {
+      "member": "Dave Min",
+      "chamber": "house",
+      "ds": 76,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Energy",
+          "voteStance": 0.763,
+          "portfolioStance": -1,
+          "divergence": 0.763,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "FSLR"
+          ],
+          "example": {
+            "title": "Energy Cost Fairness and Reliability Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Tommy Tuberville",
       "chamber": "senate",
       "ds": 74,
@@ -4040,6 +4066,23 @@
           }
         },
         {
+          "sector": "Energy",
+          "voteStance": 0.857,
+          "portfolioStance": -1,
+          "divergence": 0.857,
+          "exposure": 16002,
+          "aligned": false,
+          "tickers": [
+            "FSLR"
+          ],
+          "example": {
+            "title": "Supporting the designation of October 23, 2026, as \"National Marine Sanctuary Day\".",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Technology",
           "voteStance": 1,
           "portfolioStance": -0.846,
@@ -4059,23 +4102,6 @@
           "example": {
             "title": "Sectoral AI Governance Act of 2026",
             "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.773,
-          "portfolioStance": -1,
-          "divergence": 0.773,
-          "exposure": 16002,
-          "aligned": false,
-          "tickers": [
-            "FSLR"
-          ],
-          "example": {
-            "title": "Supporting the designation of October 23, 2026, as \"National Marine Sanctuary Day\".",
-            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -4124,7 +4150,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.834,
+          "voteStance": 0.833,
           "portfolioStance": -0.333,
           "divergence": 0.278,
           "exposure": 90006,
@@ -4288,7 +4314,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.913,
+          "voteStance": 0.914,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -4298,32 +4324,6 @@
           ],
           "example": {
             "title": "SEAL Team Six Congressional Gold Medal Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Dave Min",
-      "chamber": "house",
-      "ds": 72,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Energy",
-          "voteStance": 0.718,
-          "portfolioStance": -1,
-          "divergence": 0.718,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "FSLR"
-          ],
-          "example": {
-            "title": "Energy Cost Fairness and Reliability Act of 2026",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -4432,9 +4432,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.932,
+          "voteStance": 0.933,
           "portfolioStance": -1,
-          "divergence": 0.932,
+          "divergence": 0.933,
           "exposure": 32004,
           "aligned": false,
           "tickers": [
@@ -4481,9 +4481,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.714,
+          "voteStance": 0.71,
           "portfolioStance": -1,
-          "divergence": 0.714,
+          "divergence": 0.71,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -4855,9 +4855,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.924,
+          "voteStance": 0.922,
           "portfolioStance": -0.719,
-          "divergence": 0.664,
+          "divergence": 0.663,
           "exposure": 64022,
           "aligned": false,
           "tickers": [
@@ -4906,9 +4906,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.698,
+          "voteStance": 0.765,
           "portfolioStance": -0.493,
-          "divergence": 0.344,
+          "divergence": 0.377,
           "exposure": 67011,
           "aligned": false,
           "tickers": [
@@ -4975,15 +4975,15 @@
     {
       "member": "James P. McGovern",
       "chamber": "house",
-      "ds": 58,
+      "ds": 57,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.578,
+          "voteStance": 0.572,
           "portfolioStance": -1,
-          "divergence": 0.578,
+          "divergence": 0.572,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -5165,17 +5165,116 @@
       ]
     },
     {
+      "member": "Morgan McGarvey",
+      "chamber": "house",
+      "ds": 53,
+      "alignmentRate": 0,
+      "sectorsScored": 5,
+      "sectors": [
+        {
+          "sector": "Energy",
+          "voteStance": 0.872,
+          "portfolioStance": -1,
+          "divergence": 0.872,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "SHEL"
+          ],
+          "example": {
+            "title": "ACHE Act of 2025",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Technology",
+          "voteStance": 1,
+          "portfolioStance": -0.739,
+          "divergence": 0.739,
+          "exposure": 23009,
+          "aligned": false,
+          "tickers": [
+            "NVDA",
+            "TWLO",
+            "AAPL",
+            "MSFT"
+          ],
+          "example": {
+            "title": "Securing Elections From AI Deception Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 4004,
+          "aligned": false,
+          "tickers": [
+            "AMZN",
+            "TSLA"
+          ],
+          "example": {
+            "title": "Prison to Proprietorship for the Formerly Incarcerated Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Financial Services",
+          "voteStance": 1,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 4004,
+          "aligned": false,
+          "tickers": [
+            "SCHW",
+            "IBKR"
+          ],
+          "example": {
+            "title": "American Sovereign Wealth Fund Exploration Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 0.825,
+          "portfolioStance": 0,
+          "divergence": 0,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "DAL"
+          ],
+          "example": {
+            "title": "National Task Force on Caregiving Youth of Veterans Act.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "David Taylor",
       "chamber": "house",
-      "ds": 54,
+      "ds": 53,
       "alignmentRate": 38,
       "sectorsScored": 8,
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.854,
+          "voteStance": 0.846,
           "portfolioStance": -1,
-          "divergence": 0.854,
+          "divergence": 0.846,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -5308,105 +5407,6 @@
           ],
           "example": {
             "title": "Housing Regulatory Clarity Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Morgan McGarvey",
-      "chamber": "house",
-      "ds": 52,
-      "alignmentRate": 0,
-      "sectorsScored": 5,
-      "sectors": [
-        {
-          "sector": "Energy",
-          "voteStance": 0.796,
-          "portfolioStance": -1,
-          "divergence": 0.796,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "SHEL"
-          ],
-          "example": {
-            "title": "ACHE Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Technology",
-          "voteStance": 1,
-          "portfolioStance": -0.739,
-          "divergence": 0.739,
-          "exposure": 23009,
-          "aligned": false,
-          "tickers": [
-            "NVDA",
-            "TWLO",
-            "AAPL",
-            "MSFT"
-          ],
-          "example": {
-            "title": "Securing Elections From AI Deception Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 4004,
-          "aligned": false,
-          "tickers": [
-            "AMZN",
-            "TSLA"
-          ],
-          "example": {
-            "title": "Prison to Proprietorship for the Formerly Incarcerated Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Financial Services",
-          "voteStance": 1,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 4004,
-          "aligned": false,
-          "tickers": [
-            "SCHW",
-            "IBKR"
-          ],
-          "example": {
-            "title": "American Sovereign Wealth Fund Exploration Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 0.822,
-          "portfolioStance": 0,
-          "divergence": 0,
-          "exposure": 2002,
-          "aligned": false,
-          "tickers": [
-            "DAL"
-          ],
-          "example": {
-            "title": "National Task Force on Caregiving Youth of Veterans Act.",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -5674,6 +5674,29 @@
           }
         },
         {
+          "sector": "Energy",
+          "voteStance": 0.5,
+          "portfolioStance": -0.571,
+          "divergence": 0.286,
+          "exposure": 14014,
+          "aligned": false,
+          "tickers": [
+            "COP",
+            "ENPH",
+            "CVX",
+            "DTM",
+            "XOM",
+            "MPC",
+            "EOG"
+          ],
+          "example": {
+            "title": "To impose sanctions with respect to oil and gas extraction and refinement by the Russian Federation, and for other purposes.",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Industrials",
           "voteStance": 0.859,
           "portfolioStance": -0.312,
@@ -5712,29 +5735,6 @@
           "example": {
             "title": "Enduring Accountability Act",
             "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.286,
-          "portfolioStance": -0.571,
-          "divergence": 0.163,
-          "exposure": 14014,
-          "aligned": false,
-          "tickers": [
-            "COP",
-            "ENPH",
-            "CVX",
-            "DTM",
-            "XOM",
-            "MPC",
-            "EOG"
-          ],
-          "example": {
-            "title": "To impose sanctions with respect to oil and gas extraction and refinement by the Russian Federation, and for other purposes.",
-            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -5973,9 +5973,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.877,
+          "voteStance": 0.873,
           "portfolioStance": -1,
-          "divergence": 0.877,
+          "divergence": 0.873,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -6045,9 +6045,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.387,
+          "voteStance": 0.398,
           "portfolioStance": -1,
-          "divergence": 0.387,
+          "divergence": 0.398,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -6207,9 +6207,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.707,
+          "voteStance": 0.692,
           "portfolioStance": -1,
-          "divergence": 0.707,
+          "divergence": 0.692,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -6241,7 +6241,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.804,
+          "voteStance": 0.807,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -6422,9 +6422,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.887,
+          "voteStance": 0.884,
           "portfolioStance": -0.282,
-          "divergence": 0.251,
+          "divergence": 0.25,
           "exposure": 131019,
           "aligned": false,
           "tickers": [
@@ -6508,7 +6508,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.741,
+          "voteStance": 0.745,
           "portfolioStance": -0.136,
           "divergence": 0.101,
           "exposure": 382024,
@@ -6694,7 +6694,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.921,
+          "voteStance": 0.922,
           "portfolioStance": 0.545,
           "divergence": 0,
           "exposure": 66003,
@@ -6778,7 +6778,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.692,
+          "voteStance": 0.684,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 2002,
@@ -7171,9 +7171,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.837,
+          "voteStance": 0.875,
           "portfolioStance": -0.33,
-          "divergence": 0.276,
+          "divergence": 0.289,
           "exposure": 5976,
           "aligned": false,
           "tickers": [
@@ -7983,9 +7983,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.965,
+          "voteStance": 1,
           "portfolioStance": -0.174,
-          "divergence": 0.168,
+          "divergence": 0.174,
           "exposure": 46032,
           "aligned": false,
           "tickers": [
@@ -8388,7 +8388,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.861,
+          "voteStance": 0.865,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -8431,9 +8431,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.843,
+          "voteStance": 0.839,
           "portfolioStance": -1,
-          "divergence": 0.843,
+          "divergence": 0.839,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -8606,9 +8606,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.725,
+          "voteStance": 0.75,
           "portfolioStance": -1,
-          "divergence": 0.725,
+          "divergence": 0.75,
           "exposure": 10010,
           "aligned": false,
           "tickers": [
@@ -8666,7 +8666,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.976,
+          "voteStance": 0.977,
           "portfolioStance": -0.118,
           "divergence": 0.115,
           "exposure": 34006,
@@ -8845,9 +8845,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.687,
+          "voteStance": 0.694,
           "portfolioStance": -0.649,
-          "divergence": 0.446,
+          "divergence": 0.451,
           "exposure": 97041,
           "aligned": false,
           "tickers": [
@@ -8877,9 +8877,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.846,
+          "voteStance": 1,
           "portfolioStance": -0.237,
-          "divergence": 0.2,
+          "divergence": 0.237,
           "exposure": 76034,
           "aligned": false,
           "tickers": [
@@ -9048,9 +9048,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.788,
+          "voteStance": 0.831,
           "portfolioStance": -0.333,
-          "divergence": 0.263,
+          "divergence": 0.277,
           "exposure": 3003,
           "aligned": false,
           "tickers": [
@@ -9170,7 +9170,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.832,
+          "voteStance": 0.833,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 6006,
@@ -9233,9 +9233,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.833,
+          "voteStance": 0.83,
           "portfolioStance": -0.727,
-          "divergence": 0.606,
+          "divergence": 0.603,
           "exposure": 22008,
           "aligned": false,
           "tickers": [
@@ -9269,7 +9269,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.897,
+          "voteStance": 0.895,
           "portfolioStance": -0.245,
           "divergence": 0.219,
           "exposure": 143059,
@@ -9478,9 +9478,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.981,
+          "voteStance": 1,
           "portfolioStance": -1,
-          "divergence": 0.981,
+          "divergence": 1,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -9495,9 +9495,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.922,
+          "voteStance": 0.923,
           "portfolioStance": -1,
-          "divergence": 0.922,
+          "divergence": 0.923,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -9750,7 +9750,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.782,
+          "voteStance": 0.774,
           "portfolioStance": 0.585,
           "divergence": 0,
           "exposure": 53039,
@@ -9806,7 +9806,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.773,
+          "voteStance": 0.857,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 4004,
@@ -9857,9 +9857,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.984,
+          "voteStance": 1,
           "portfolioStance": -0.575,
-          "divergence": 0.566,
+          "divergence": 0.575,
           "exposure": 179018,
           "aligned": false,
           "tickers": [
@@ -9950,7 +9950,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.948,
+          "voteStance": 0.949,
           "portfolioStance": -0.064,
           "divergence": 0.06,
           "exposure": 173019,
@@ -10205,7 +10205,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.821,
+          "voteStance": 0.889,
           "portfolioStance": 0.158,
           "divergence": 0,
           "exposure": 38010,
@@ -10504,8 +10504,45 @@
           }
         },
         {
+          "sector": "Energy",
+          "voteStance": 0.667,
+          "portfolioStance": -0.123,
+          "divergence": 0.082,
+          "exposure": 89075,
+          "aligned": false,
+          "tickers": [
+            "HES",
+            "XOM",
+            "CNQ",
+            "SLB",
+            "SU",
+            "TS",
+            "CVX",
+            "EOG",
+            "CPGX",
+            "OXY",
+            "APC",
+            "COG",
+            "PBF",
+            "PXD",
+            "APA",
+            "NFG",
+            "PDCE",
+            "FANG",
+            "SEDG",
+            "COP",
+            "HAL"
+          ],
+          "example": {
+            "title": "Energy Bills Relief Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Industrials",
-          "voteStance": 0.824,
+          "voteStance": 0.827,
           "portfolioStance": -0.091,
           "divergence": 0.075,
           "exposure": 154154,
@@ -10560,43 +10597,6 @@
           }
         },
         {
-          "sector": "Energy",
-          "voteStance": 0.5,
-          "portfolioStance": -0.123,
-          "divergence": 0.062,
-          "exposure": 89075,
-          "aligned": false,
-          "tickers": [
-            "HES",
-            "XOM",
-            "CNQ",
-            "SLB",
-            "SU",
-            "TS",
-            "CVX",
-            "EOG",
-            "CPGX",
-            "OXY",
-            "APC",
-            "COG",
-            "PBF",
-            "PXD",
-            "APA",
-            "NFG",
-            "PDCE",
-            "FANG",
-            "SEDG",
-            "COP",
-            "HAL"
-          ],
-          "example": {
-            "title": "Energy Bills Relief Act",
-            "action": "cosponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
           "sector": "Consumer Cyclical",
           "voteStance": 0.793,
           "portfolioStance": 0.067,
@@ -10643,9 +10643,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.927,
+          "voteStance": 0.929,
           "portfolioStance": -0.555,
-          "divergence": 0.515,
+          "divergence": 0.516,
           "exposure": 27013,
           "aligned": false,
           "tickers": [
@@ -10804,9 +10804,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.68,
+          "voteStance": 0.703,
           "portfolioStance": -1,
-          "divergence": 0.68,
+          "divergence": 0.703,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -10958,7 +10958,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.929,
+          "voteStance": 0.927,
           "portfolioStance": -0.085,
           "divergence": 0.079,
           "exposure": 59031,
@@ -11410,7 +11410,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.836,
+          "voteStance": 0.839,
           "portfolioStance": -0.067,
           "divergence": 0.056,
           "exposure": 60060,
@@ -11546,7 +11546,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.949,
+          "voteStance": 1,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 10010,
@@ -11576,9 +11576,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.919,
+          "voteStance": 0.917,
           "portfolioStance": -0.5,
-          "divergence": 0.459,
+          "divergence": 0.458,
           "exposure": 4004,
           "aligned": false,
           "tickers": [
@@ -11595,7 +11595,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.824,
+          "voteStance": 0.827,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 6006,
@@ -11625,9 +11625,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.818,
+          "voteStance": 0.806,
           "portfolioStance": -1,
-          "divergence": 0.818,
+          "divergence": 0.806,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -11642,9 +11642,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.736,
+          "voteStance": 0.741,
           "portfolioStance": -1,
-          "divergence": 0.736,
+          "divergence": 0.741,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -11777,7 +11777,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.958,
+          "voteStance": 0.957,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 60004,
@@ -11797,7 +11797,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.906,
+          "voteStance": 0.907,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -12298,7 +12298,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.795,
+          "voteStance": 0.797,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 8008,
@@ -12519,7 +12519,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.898,
+          "voteStance": 0.895,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -12931,7 +12931,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.938,
+          "voteStance": 0.963,
           "portfolioStance": 0.065,
           "divergence": 0,
           "exposure": 417017,
@@ -13092,9 +13092,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.663,
+          "voteStance": 0.655,
           "portfolioStance": -0.199,
-          "divergence": 0.132,
+          "divergence": 0.13,
           "exposure": 1852203,
           "aligned": false,
           "tickers": [
@@ -13134,7 +13134,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.961,
+          "voteStance": 0.962,
           "portfolioStance": -0.132,
           "divergence": 0.127,
           "exposure": 569065,
@@ -13278,7 +13278,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.957,
+          "voteStance": 0.956,
           "portfolioStance": -0.915,
           "divergence": 0.875,
           "exposure": 47005,
@@ -13544,7 +13544,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.847,
+          "voteStance": 0.848,
           "portfolioStance": -0.016,
           "divergence": 0.014,
           "exposure": 61005,
@@ -13674,7 +13674,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.902,
+          "voteStance": 0.898,
           "portfolioStance": 0.429,
           "divergence": 0,
           "exposure": 280013,
@@ -13951,7 +13951,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.894,
+          "voteStance": 0.895,
           "portfolioStance": -0.077,
           "divergence": 0.069,
           "exposure": 13013,
@@ -14228,7 +14228,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.87,
+          "voteStance": 0.872,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 100002,
@@ -14271,9 +14271,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.692,
+          "voteStance": 0.683,
           "portfolioStance": -0.261,
-          "divergence": 0.181,
+          "divergence": 0.178,
           "exposure": 3350136,
           "aligned": false,
           "tickers": [
@@ -14382,7 +14382,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.639,
+          "voteStance": 0.651,
           "portfolioStance": 0.017,
           "divergence": 0,
           "exposure": 5154112,
@@ -14645,9 +14645,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.83,
+          "voteStance": 0.822,
           "portfolioStance": -1,
-          "divergence": 0.83,
+          "divergence": 0.822,
           "exposure": 4004,
           "aligned": false,
           "tickers": [
@@ -14683,7 +14683,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.929,
+          "voteStance": 0.931,
           "portfolioStance": 0.875,
           "divergence": 0,
           "exposure": 16002,
@@ -14727,9 +14727,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.833,
+          "voteStance": 0.831,
           "portfolioStance": -1,
-          "divergence": 0.833,
+          "divergence": 0.831,
           "exposure": 2002,
           "aligned": false,
           "tickers": [
@@ -15171,7 +15171,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.64,
+          "voteStance": 0.633,
           "portfolioStance": 0.429,
           "divergence": 0,
           "exposure": 7007,
@@ -15215,9 +15215,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.562,
+          "voteStance": 0.553,
           "portfolioStance": -1,
-          "divergence": 0.562,
+          "divergence": 0.553,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -15286,7 +15286,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.712,
+          "voteStance": 0.717,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -15330,9 +15330,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.92,
+          "voteStance": 0.951,
           "portfolioStance": -0.2,
-          "divergence": 0.184,
+          "divergence": 0.19,
           "exposure": 5005,
           "aligned": false,
           "tickers": [
@@ -15977,9 +15977,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.907,
+          "voteStance": 1,
           "portfolioStance": -0.248,
-          "divergence": 0.225,
+          "divergence": 0.248,
           "exposure": 1085068,
           "aligned": false,
           "tickers": [
@@ -16862,7 +16862,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.559,
+          "voteStance": 0.571,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -17431,7 +17431,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.864,
+          "voteStance": 0.86,
           "portfolioStance": 0.828,
           "divergence": 0,
           "exposure": 3480010,
@@ -17476,9 +17476,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.864,
+          "voteStance": 0.862,
           "portfolioStance": -0.091,
-          "divergence": 0.079,
+          "divergence": 0.078,
           "exposure": 33033,
           "aligned": false,
           "tickers": [
@@ -17858,7 +17858,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.707,
+          "voteStance": 0.692,
           "portfolioStance": 0.007,
           "divergence": 0,
           "exposure": 282016,
@@ -17952,7 +17952,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.846,
+          "voteStance": 1,
           "portfolioStance": 0.167,
           "divergence": 0,
           "exposure": 108010,
@@ -18199,7 +18199,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.87,
+          "voteStance": 0.92,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 6006,
@@ -18342,7 +18342,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.732,
+          "voteStance": 0.735,
           "portfolioStance": 0.111,
           "divergence": 0,
           "exposure": 36036,
@@ -18513,7 +18513,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.916,
+          "voteStance": 0.917,
           "portfolioStance": 0.829,
           "divergence": 0,
           "exposure": 82012,
@@ -19005,7 +19005,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.784,
+          "voteStance": 0.833,
           "portfolioStance": 0.231,
           "divergence": 0,
           "exposure": 156009,
@@ -19227,7 +19227,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.791,
+          "voteStance": 0.786,
           "portfolioStance": 0.714,
           "divergence": 0,
           "exposure": 14014,
@@ -19771,7 +19771,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.817,
+          "voteStance": 0.818,
           "portfolioStance": 0.106,
           "divergence": 0,
           "exposure": 273231,
@@ -20120,7 +20120,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.88,
+          "voteStance": 0.881,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -20506,7 +20506,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.813,
+          "voteStance": 0.815,
           "portfolioStance": 0.16,
           "divergence": 0,
           "exposure": 3192054,
@@ -20567,7 +20567,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.833,
+          "voteStance": 0.829,
           "portfolioStance": 0.115,
           "divergence": 0,
           "exposure": 807016,
@@ -20754,7 +20754,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.925,
           "portfolioStance": 0.675,
           "divergence": 0,
           "exposure": 29863,
@@ -21005,7 +21005,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.803,
+          "voteStance": 0.8,
           "portfolioStance": 0.857,
           "divergence": 0,
           "exposure": 14014,
@@ -21052,7 +21052,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.903,
+          "voteStance": 0.902,
           "portfolioStance": 0.6,
           "divergence": 0,
           "exposure": 5005,
@@ -21116,7 +21116,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.906,
+          "voteStance": 0.909,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 32004,
@@ -21134,7 +21134,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.717,
+          "voteStance": 0.712,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -21509,7 +21509,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.678,
+          "voteStance": 0.671,
           "portfolioStance": 0.987,
           "divergence": 0,
           "exposure": 5133007,
@@ -22071,7 +22071,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.873,
+          "voteStance": 0.87,
           "portfolioStance": 0.064,
           "divergence": 0,
           "exposure": 233163,
@@ -22371,7 +22371,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.871,
+          "voteStance": 0.867,
           "portfolioStance": 0.218,
           "divergence": 0,
           "exposure": 87073,
@@ -22600,7 +22600,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.839,
+          "voteStance": 0.844,
           "portfolioStance": 0.5,
           "divergence": 0,
           "exposure": 24024,
@@ -22773,7 +22773,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.923,
+          "voteStance": 0.924,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 76006,

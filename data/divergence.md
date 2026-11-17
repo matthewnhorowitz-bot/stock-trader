@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-17 03:02 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-17 04:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -35,17 +35,17 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Emily Randall | 98 | 0% | 6 |
 | George Whitesides | 97 | 0% | 7 |
 | Frank Pallone | 96 | 0% | 6 |
+| Sharice Davids | 96 | 0% | 4 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
 | Bernie Moreno | 95 | 0% | 2 |
 | Adam Smith | 95 | 0% | 7 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
-| Sharice Davids | 94 | 0% | 4 |
 | Robert C. "Bobby" Scott | 93 | 0% | 8 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
-| Lori Trahan | 92 | 0% | 1 |
+| Lori Trahan | 93 | 0% | 1 |
 | Gus M. Bilirakis | 91 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
 | Joseph D. Morelle | 89 | 0% | 8 |
@@ -60,21 +60,21 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Shelley Moore Capito | 77 | 25% | 4 |
+| Dave Min | 76 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Tom Cole | 73 | 50% | 2 |
 | Thomas Kean | 73 | 50% | 4 |
-| Dave Min | 72 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
 | Greg Landsman | 64 | 0% | 9 |
-| James P. McGovern | 58 | 0% | 1 |
+| James P. McGovern | 57 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
-| David Taylor | 54 | 38% | 8 |
-| Morgan McGarvey | 52 | 0% | 5 |
+| Morgan McGarvey | 53 | 0% | 5 |
+| David Taylor | 53 | 38% | 8 |
 | Julie Johnson | 52 | 11% | 9 |
 | Peter Welch | 51 | 11% | 9 |
 | Mike Kelly | 51 | 38% | 8 |
