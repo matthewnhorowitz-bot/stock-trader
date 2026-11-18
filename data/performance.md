@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-18 20:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-18 20:44 UTC._
 
 ## Total
 
@@ -128,7 +128,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | James E. Banks | 37.3% | 14 |
 | Cliff Bentz | 37.2% | 2 |
 | Jim McDermott | 37.1% | 2 |
-| Gilbert Cisneros | 37.0% | 1626 |
+| Gilbert Cisneros | 36.9% | 1626 |
 | Tim Moore | 36.6% | 159 |
 | Donald Sternoff Beyer | 35.3% | 371 |
 | Marjorie Taylor Greene | 34.0% | 484 |
@@ -204,7 +204,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David J. Taylor | 10.6% | 127 |
 | Katie Britt | 10.4% | 16 |
 | Laurel Lee | 10.3% | 9 |
-| Byron Donalds | 10.1% | 46 |
+| Byron Donalds | 10.0% | 46 |
 | Mick Mulvaney | 9.7% | 4 |
 | John Boozman | 9.6% | 251 |
 | Ritchie John Torres | 9.1% | 69 |
