@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-19 16:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-19 17:08 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -39,12 +39,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam Smith | 94 | 0% | 7 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
-| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
+| Lori Trahan | 92 | 0% | 1 |
 | Gus M. Bilirakis | 91 | 0% | 4 |
-| Victoria Spartz | 91 | 0% | 1 |
-| Robert C. "Bobby" Scott | 90 | 0% | 8 |
+| Victoria Spartz | 90 | 0% | 1 |
 | Jake Auchincloss | 90 | 0% | 1 |
+| Robert C. "Bobby" Scott | 89 | 0% | 8 |
 | Cory A Booker | 88 | 0% | 6 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
@@ -71,7 +71,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
 | Greg Landsman | 63 | 0% | 9 |
-| James P. McGovern | 59 | 0% | 1 |
+| James P. McGovern | 58 | 0% | 1 |
 | April McClain Delaney | 56 | 0% | 7 |
 | David Taylor | 54 | 38% | 8 |
 | Morgan McGarvey | 52 | 0% | 5 |
