@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-19 07:54 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-19 08:00 UTC._
 
 ## Total
 
@@ -65,7 +65,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David E. Price | 98.4% | 42 |
 | Thomas Suozzi | 97.3% | 283 |
 | Deborah K. Ross | 88.8% | 21 |
-| A. Mitchell McConnell, Jr. | 88.3% | 37 |
+| A. Mitchell McConnell, Jr. | 88.2% | 37 |
 | Dwight Evans | 88.0% | 70 |
 | Hakeem S. Jeffries | 85.6% | 7 |
 | Judy Chu | 84.6% | 5 |
@@ -95,8 +95,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Peter Welch | 61.6% | 36 |
 | Michael Patrick Guest | 61.4% | 48 |
 | Tina Smith | 60.7% | 5 |
+| Carol Devine Miller | 60.0% | 62 |
 | Terri A. Sewell | 60.0% | 2 |
-| Carol Devine Miller | 59.9% | 62 |
 | Lois Frankel | 59.9% | 439 |
 | James Comer | 59.5% | 32 |
 | Richard W. Allen | 58.8% | 164 |
@@ -149,11 +149,11 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Case | 26.4% | 14 |
 | Earl Blumenauer | 26.1% | 239 |
 | William R. Timmons | 26.1% | 6 |
+| Aston Donald McEachin | 25.9% | 6 |
 | John Fetterman | 25.7% | 10 |
-| Aston Donald McEachin | 25.7% | 6 |
 | Kathy Manning | 25.3% | 276 |
 | Peter Allen Stauber | 23.7% | 1 |
-| Julia Letlow | 23.2% | 154 |
+| Julia Letlow | 23.1% | 154 |
 | Kelly Loeffler | 22.8% | 97 |
 | Christopher L. Jacobs | 22.7% | 95 |
 | Thomas H Tuberville | 22.7% | 491 |
@@ -174,7 +174,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Michael Garcia | 18.9% | 20 |
 | Anthony E. Gonzalez | 18.7% | 3 |
 | Jonathan Jackson | 18.0% | 116 |
-| Thomas H. Kean | 17.9% | 87 |
+| Thomas H. Kean | 18.0% | 87 |
 | C. Scott Franklin | 17.9% | 35 |
 | Charles J. Chuck Fleischmann | 17.8% | 57 |
 | Gerald E. Connolly | 16.8% | 25 |
@@ -228,8 +228,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | April McClain Delaney | 3.2% | 229 |
 | James R. Langevin | 3.0% | 182 |
 | E. Scott Rigell | 2.6% | 31 |
+| Thomas Kean | 2.5% | 3 |
 | Bruce Westerman | 2.4% | 105 |
-| Thomas Kean | 2.2% | 3 |
 | Thomas MacArthur | 2.2% | 915 |
 | John A. Boehner | 1.7% | 2 |
 | Randy Neugebauer | 1.7% | 16 |
@@ -257,7 +257,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Perlmutter | -1.8% | 35 |
 | John D. Dingell | -2.2% | 3 |
 | Nick J. Rahall | -2.3% | 14 |
-| Mitch McConnell | -2.5% | 1 |
+| Mitch McConnell | -2.6% | 1 |
 | Cindy Axne | -3.2% | 78 |
 | Tom Malinowski | -3.7% | 163 |
 | Andrew Garbarino | -3.8% | 5 |
