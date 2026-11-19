@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-19 01:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-19 02:00 UTC._
 
 ## Total
 
@@ -204,7 +204,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David J. Taylor | 10.7% | 127 |
 | Katie Britt | 10.4% | 16 |
 | Laurel Lee | 10.3% | 9 |
-| Byron Donalds | 10.2% | 46 |
+| Byron Donalds | 10.3% | 46 |
 | Mick Mulvaney | 9.7% | 4 |
 | John Boozman | 9.6% | 251 |
 | Ritchie John Torres | 9.1% | 69 |
