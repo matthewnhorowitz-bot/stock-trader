@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-19 02:09 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-19 03:00 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -12,10 +12,12 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Burchett | 100 | 0% | 1 |
 | Adam B. Schiff | 100 | 0% | 2 |
 | Thomas Massie | 100 | 0% | 1 |
+| James M. Costa | 100 | 0% | 1 |
 | John R Thune | 100 | 0% | 1 |
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Rick Scott | 100 | 0% | 2 |
 | Pramila Jayapal | 100 | 0% | 1 |
+| Jake Auchincloss | 100 | 0% | 1 |
 | Daniel Webster | 100 | 0% | 1 |
 | Laura Friedman | 100 | 0% | 1 |
 | Matthew Robert Van Epps | 100 | 0% | 3 |
@@ -39,34 +41,32 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam Smith | 94 | 0% | 7 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
+| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
-| Gus M. Bilirakis | 92 | 0% | 4 |
-| Lori Trahan | 92 | 0% | 1 |
+| Gus M. Bilirakis | 91 | 0% | 4 |
 | Victoria Spartz | 90 | 0% | 1 |
-| Jake Auchincloss | 90 | 0% | 1 |
 | Robert C. "Bobby" Scott | 89 | 0% | 8 |
 | Cory A Booker | 88 | 0% | 6 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
 | Lance Gooden | 88 | 0% | 3 |
-| James M. Costa | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Raul Ruiz | 85 | 0% | 4 |
 | Marcy Kaptur | 84 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Marc A. Veasey | 82 | 0% | 1 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Lloyd K. Smucker | 81 | 0% | 6 |
+| Scott DesJarlais | 81 | 0% | 2 |
 | Tina Smith | 79 | 0% | 5 |
 | Shelley Moore Capito | 77 | 25% | 4 |
 | Teresa Leger Fernandez | 75 | 0% | 1 |
 | Shri Thanedar | 75 | 0% | 6 |
-| Tom Cole | 74 | 50% | 2 |
+| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
+| Tom Cole | 73 | 50% | 2 |
 | Dave Min | 73 | 0% | 1 |
 | Thomas Kean | 73 | 50% | 4 |
 | Sara Jacobs | 72 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
@@ -94,8 +94,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Diana Harshbarger | 31 | 29% | 7 |
 | Laurel Lee | 30 | 33% | 6 |
 | Steve Cohen | 27 | 20% | 10 |
-| Katherine M. Clark | 24 | 25% | 8 |
-| Joe Courtney | 24 | 0% | 8 |
+| Katherine M. Clark | 25 | 25% | 8 |
+| Joe Courtney | 25 | 0% | 8 |
 | Austin Scott | 23 | 0% | 7 |
 | Michael Rulli | 23 | 33% | 6 |
 | Ed Case | 22 | 20% | 5 |
@@ -104,17 +104,17 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Jared Moskowitz | 21 | 44% | 9 |
 | Kathy Castor | 20 | 25% | 4 |
 | Roger F Wicker | 20 | 0% | 1 |
+| Judy Chu | 20 | 50% | 2 |
 | Jerry Moran, | 19 | 29% | 7 |
+| David Kustoff | 19 | 20% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Lois Frankel | 18 | 11% | 9 |
 | Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
-| David Kustoff | 18 | 20% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
-| Judy Chu | 16 | 50% | 2 |
 | John J McGuire | 14 | 50% | 2 |
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
