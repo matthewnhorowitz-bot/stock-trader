@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-20 18:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-20 19:00 UTC._
 
 ## Total
 
@@ -202,7 +202,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Mick Mulvaney | 9.7% | 4 |
 | Kurt Schrader | 8.9% | 150 |
 | David Trone | 8.7% | 14 |
-| Byron Donalds | 8.6% | 46 |
+| Byron Donalds | 8.5% | 46 |
 | Ed Whitfield | 8.5% | 56 |
 | David J. Taylor | 8.3% | 127 |
 | Katie Britt | 8.2% | 16 |
