@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-20 07:47 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-20 08:01 UTC._
 
 ## Total
 
@@ -123,13 +123,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Robert E. Latta | 38.2% | 26 |
 | William R. Keating | 37.6% | 89 |
 | Jim McDermott | 37.1% | 2 |
-| Josh Gottheimer | 36.7% | 1445 |
+| Josh Gottheimer | 36.6% | 1445 |
 | Susie Lee | 36.0% | 628 |
 | James E. Banks | 35.7% | 14 |
 | Marjorie Taylor Greene | 34.0% | 484 |
 | Daniel Crenshaw | 33.9% | 17 |
 | Donald Sternoff Beyer | 33.7% | 371 |
-| Gilbert Cisneros | 33.6% | 1626 |
+| Gilbert Cisneros | 33.5% | 1626 |
 | Sara Jacobs | 32.9% | 10 |
 | Cliff Bentz | 31.3% | 2 |
 | Elizabeth Fletcher | 31.1% | 23 |
@@ -149,7 +149,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Rohit Khanna | 25.8% | 139 |
 | Kathy Manning | 25.3% | 276 |
 | Ed Case | 24.8% | 14 |
-| Aston Donald McEachin | 23.2% | 6 |
+| Aston Donald McEachin | 23.1% | 6 |
 | Kelly Loeffler | 22.8% | 97 |
 | Alan S. Lowenthal | 22.4% | 410 |
 | John Cornyn | 22.3% | 1 |
@@ -168,9 +168,9 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ashley Hinson Arenholz | 18.7% | 4 |
 | Mike Kennedy | 18.0% | 1 |
 | Mike Kelly | 17.5% | 9 |
-| Rob Bresnahan | 17.3% | 248 |
+| Rob Bresnahan | 17.2% | 248 |
 | Gerald E. Connolly | 16.8% | 25 |
-| Jared Moskowitz | 16.7% | 229 |
+| Jared Moskowitz | 16.6% | 229 |
 | Mo Brooks | 16.4% | 41 |
 | Michael Garcia | 16.1% | 20 |
 | Charles J. Chuck Fleischmann | 15.8% | 57 |
@@ -204,7 +204,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David Trone | 8.7% | 14 |
 | Byron Donalds | 8.6% | 46 |
 | Ed Whitfield | 8.5% | 56 |
-| David J. Taylor | 8.4% | 127 |
+| David J. Taylor | 8.3% | 127 |
 | Katie Britt | 8.2% | 16 |
 | John Boozman | 8.0% | 251 |
 | Adam Kinzinger | 7.9% | 17 |
@@ -238,8 +238,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
 | Greg Stanton | 0.5% | 94 |
-| Thomas Kean | 0.3% | 3 |
 | Valerie Hoyle | 0.2% | 193 |
+| Thomas Kean | 0.1% | 3 |
 | Ro Khanna | 0.1% | 33 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
@@ -251,8 +251,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Fred Upton | -1.7% | 7 |
 | Ed Perlmutter | -1.8% | 35 |
 | Greg Landsman | -1.9% | 55 |
-| Alan Armstrong | -2.1% | 322 |
 | John D. Dingell | -2.2% | 3 |
+| Alan Armstrong | -2.2% | 322 |
 | Nick J. Rahall | -2.3% | 14 |
 | Mitch McConnell | -2.9% | 1 |
 | Cindy Axne | -3.2% | 78 |
