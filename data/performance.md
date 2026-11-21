@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-21 01:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-21 02:00 UTC._
 
 ## Total
 
@@ -205,8 +205,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Ed Whitfield | 8.5% | 56 |
 | Katie Britt | 8.2% | 16 |
 | David J. Taylor | 8.1% | 127 |
+| Byron Donalds | 8.0% | 46 |
 | Adam Kinzinger | 7.9% | 17 |
-| Byron Donalds | 7.9% | 46 |
 | Laurel Lee | 7.8% | 9 |
 | Scott Scott Franklin | 7.8% | 50 |
 | John Boozman | 7.7% | 251 |
