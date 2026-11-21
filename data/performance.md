@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-21 04:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-21 05:00 UTC._
 
 ## Total
 
@@ -65,7 +65,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David E. Price | 98.4% | 42 |
 | Thomas Suozzi | 88.4% | 283 |
 | Judy Chu | 84.6% | 5 |
-| Dwight Evans | 84.4% | 70 |
+| Dwight Evans | 84.3% | 70 |
 | A. Mitchell McConnell, Jr. | 83.4% | 37 |
 | Deborah K. Ross | 83.0% | 21 |
 | Hakeem S. Jeffries | 80.7% | 7 |
@@ -89,7 +89,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Franklin | 60.4% | 49 |
 | Tina Smith | 59.9% | 5 |
 | Blake Moore | 59.1% | 83 |
-| Nancy Pelosi | 59.0% | 98 |
+| Nancy Pelosi | 58.8% | 98 |
 | Neal Patrick MD, Facs Dunn | 58.3% | 6 |
 | Peter Welch | 58.1% | 36 |
 | Kevin Hern | 58.0% | 557 |
@@ -138,7 +138,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Austin Scott | 29.1% | 42 |
 | Harold Dallas Rogers | 28.9% | 8 |
 | Donna Shalala | 28.8% | 169 |
-| Angus S King, Jr. | 28.8% | 34 |
+| Angus S King, Jr. | 28.5% | 34 |
 | Tim Moore | 28.0% | 159 |
 | Markwayne Mullin | 27.8% | 272 |
 | Richard Dean McCormick | 27.3% | 72 |
@@ -164,7 +164,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Thomas R Carper | 19.6% | 494 |
 | Nicholas Van Taylor | 19.3% | 49 |
 | Jackie Speier | 19.2% | 3 |
-| Julia Letlow | 19.0% | 154 |
+| Julia Letlow | 18.9% | 154 |
 | Ashley Hinson Arenholz | 18.7% | 4 |
 | Mike Kennedy | 18.0% | 1 |
 | Mike Kelly | 17.5% | 9 |
@@ -203,30 +203,30 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Kurt Schrader | 8.9% | 150 |
 | David Trone | 8.7% | 14 |
 | Ed Whitfield | 8.5% | 56 |
-| Katie Britt | 8.0% | 16 |
 | David J. Taylor | 7.9% | 127 |
 | Adam Kinzinger | 7.9% | 17 |
 | Laurel Lee | 7.8% | 9 |
 | Scott Scott Franklin | 7.8% | 50 |
 | Byron Donalds | 7.4% | 47 |
-| John Boozman | 7.3% | 251 |
+| Katie Britt | 7.3% | 16 |
+| John Boozman | 7.2% | 251 |
 | Roger Williams | 7.1% | 12 |
 | Tom Rice | 6.5% | 5 |
 | Ritchie John Torres | 5.0% | 69 |
 | Lindsey Graham | 4.9% | 6 |
 | Patrick Fallon | 4.4% | 56 |
-| Lisa McClain | 4.2% | 728 |
 | Michael McCaul | 4.1% | 15 |
+| Lisa McClain | 4.1% | 728 |
 | Carlos Curbelo | 4.1% | 138 |
 | John James | 3.9% | 126 |
 | Patty Murray | 3.6% | 75 |
 | James R. Langevin | 3.1% | 182 |
 | Tracey Robert Mann | 2.6% | 5 |
-| Cleo Fields | 2.6% | 188 |
 | E. Scott Rigell | 2.6% | 31 |
 | Sheri Biggs | 2.6% | 50 |
-| Maria Elvira Salazar | 2.4% | 79 |
 | Thomas MacArthur | 2.2% | 915 |
+| Maria Elvira Salazar | 2.1% | 79 |
+| Cleo Fields | 1.8% | 188 |
 | Bruce Westerman | 1.8% | 105 |
 | April McClain Delaney | 1.7% | 229 |
 | John A. Boehner | 1.7% | 2 |
@@ -238,10 +238,10 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Abigail Spanberger | 1.0% | 2 |
 | George Miller | 0.8% | 1 |
 | Greg Stanton | 0.5% | 94 |
-| Valerie Hoyle | 0.1% | 193 |
 | Thomas R. Suozzi | 0.0% | 1 |
 | John Garamendi | 0.0% | 1 |
 | Ro Khanna | -0.1% | 33 |
+| Valerie Hoyle | -0.2% | 193 |
 | Tommy Tuberville | -0.2% | 3 |
 | Kenneth R. Buck | -0.2% | 28 |
 | Kenny Marchant | -0.6% | 40 |
@@ -252,7 +252,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Greg Landsman | -1.9% | 55 |
 | John D. Dingell | -2.2% | 3 |
 | Nick J. Rahall | -2.3% | 14 |
-| Alan Armstrong | -2.3% | 322 |
+| Alan Armstrong | -2.4% | 322 |
 | Cindy Axne | -3.2% | 78 |
 | Tom Malinowski | -3.7% | 163 |
 | Andrew Garbarino | -3.8% | 5 |
@@ -263,13 +263,13 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brandon Gill | -5.1% | 5 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Charles J. "Chuck" Fleischmann | -8.8% | 9 |
-| Michael Rulli | -8.9% | 18 |
 | Marie Newman | -9.1% | 155 |
+| Michael Rulli | -9.4% | 18 |
 | David A. Trott | -10.2% | 89 |
 | John W Hickenlooper | -10.9% | 38 |
 | Mark R Meadows | -11.0% | 5 |
-| John McGuire | -11.7% | 14 |
 | Ron Estes | -12.1% | 6 |
+| John McGuire | -13.2% | 14 |
 | Eric Cantor | -15.1% | 1 |
 | James E Banks | -15.6% | 16 |
 | Dave McCormick | -16.5% | 16 |
@@ -279,7 +279,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | David H McCormick | -29.8% | 24 |
 | William F Hagerty, IV | -32.2% | 1 |
 | David Madison Cawthorn | -34.4% | 15 |
-| John J McGuire | -35.5% | 5 |
+| John J McGuire | -37.3% | 5 |
 | Larry Bucshon | -43.1% | 1 |
 | Felix Barry Moore | -43.1% | 5 |
 | Steve Knight | -43.3% | 3 |
