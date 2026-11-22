@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T10:01:17.008Z",
+  "generatedAt": "2026-11-22T11:07:54.673Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -1094,6 +1094,84 @@
       ]
     },
     {
+      "member": "Sharice Davids",
+      "chamber": "house",
+      "ds": 96,
+      "alignmentRate": 0,
+      "sectorsScored": 4,
+      "sectors": [
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "IGT"
+          ],
+          "example": {
+            "title": "Defend American Manufacturing Act 2.0",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "ONVO"
+          ],
+          "example": {
+            "title": "Long-Term Rural Health Investment Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "FCEL"
+          ],
+          "example": {
+            "title": "To amend section 125 of title 23, United States Code, to require that a project for the permanent repair or reconstruction of a repeatedly damaged facility includes feasible and economically justifiable improvements to increase the resilience of such facility, and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.91,
+          "portfolioStance": -1,
+          "divergence": 0.91,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "SPWR",
+            "MAXN"
+          ],
+          "example": {
+            "title": "Truth in National Parks Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Michael R. Turner",
       "chamber": "house",
       "ds": 95,
@@ -1719,84 +1797,6 @@
           ],
           "example": {
             "title": "Housing Supply Expansion Act of 2025",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Sharice Davids",
-      "chamber": "house",
-      "ds": 94,
-      "alignmentRate": 0,
-      "sectorsScored": 4,
-      "sectors": [
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "IGT"
-          ],
-          "example": {
-            "title": "Defend American Manufacturing Act 2.0",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "ONVO"
-          ],
-          "example": {
-            "title": "Long-Term Rural Health Investment Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "FCEL"
-          ],
-          "example": {
-            "title": "To amend section 125 of title 23, United States Code, to require that a project for the permanent repair or reconstruction of a repeatedly damaged facility includes feasible and economically justifiable improvements to increase the resilience of such facility, and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.855,
-          "portfolioStance": -1,
-          "divergence": 0.855,
-          "exposure": 2002,
-          "aligned": false,
-          "tickers": [
-            "SPWR",
-            "MAXN"
-          ],
-          "example": {
-            "title": "Truth in National Parks Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -6251,9 +6251,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.707,
+          "voteStance": 0.692,
           "portfolioStance": -1,
-          "divergence": 0.707,
+          "divergence": 0.692,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -8651,9 +8651,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.719,
+          "voteStance": 0.744,
           "portfolioStance": -1,
-          "divergence": 0.719,
+          "divergence": 0.744,
           "exposure": 10010,
           "aligned": false,
           "tickers": [
@@ -8922,9 +8922,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.846,
+          "voteStance": 1,
           "portfolioStance": -0.237,
-          "divergence": 0.2,
+          "divergence": 0.237,
           "exposure": 76034,
           "aligned": false,
           "tickers": [
@@ -9093,9 +9093,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.718,
+          "voteStance": 0.759,
           "portfolioStance": -0.333,
-          "divergence": 0.239,
+          "divergence": 0.253,
           "exposure": 3003,
           "aligned": false,
           "tickers": [
@@ -9399,9 +9399,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.953,
+          "voteStance": 0.972,
           "portfolioStance": -1,
-          "divergence": 0.953,
+          "divergence": 0.972,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -9647,9 +9647,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.959,
+          "voteStance": 0.975,
           "portfolioStance": -0.575,
-          "divergence": 0.552,
+          "divergence": 0.561,
           "exposure": 179018,
           "aligned": false,
           "tickers": [
@@ -11577,9 +11577,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.919,
+          "voteStance": 0.917,
           "portfolioStance": -0.5,
-          "divergence": 0.459,
+          "divergence": 0.458,
           "exposure": 4004,
           "aligned": false,
           "tickers": [
@@ -16025,9 +16025,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.907,
+          "voteStance": 1,
           "portfolioStance": -0.248,
-          "divergence": 0.225,
+          "divergence": 0.248,
           "exposure": 1085068,
           "aligned": false,
           "tickers": [
@@ -19054,7 +19054,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.784,
+          "voteStance": 0.833,
           "portfolioStance": 0.231,
           "divergence": 0,
           "exposure": 156009,

@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-22 10:01 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-22 11:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -28,6 +28,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Ladda Tammy Duckworth | 98 | 0% | 3 |
 | William F Hagerty, IV | 98 | 25% | 8 |
 | Frank Pallone | 96 | 0% | 6 |
+| Sharice Davids | 96 | 0% | 4 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
 | Emily Randall | 95 | 0% | 6 |
@@ -35,7 +36,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Bernie Moreno | 95 | 0% | 2 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
-| Sharice Davids | 94 | 0% | 4 |
 | Adam Smith | 94 | 0% | 7 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
