@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-23 03:06 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-23 04:01 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -28,6 +28,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Ladda Tammy Duckworth | 98 | 0% | 3 |
 | William F Hagerty, IV | 98 | 25% | 8 |
 | Frank Pallone | 96 | 0% | 6 |
+| Sharice Davids | 96 | 0% | 4 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
 | Emily Randall | 95 | 0% | 6 |
@@ -35,16 +36,15 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Bernie Moreno | 95 | 0% | 2 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
-| Sharice Davids | 94 | 0% | 4 |
 | Adam Smith | 94 | 0% | 7 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
 | Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
 | Gus M. Bilirakis | 91 | 0% | 4 |
-| Victoria Spartz | 90 | 0% | 1 |
+| Victoria Spartz | 91 | 0% | 1 |
+| Robert C. "Bobby" Scott | 90 | 0% | 8 |
 | Jake Auchincloss | 90 | 0% | 1 |
-| Robert C. "Bobby" Scott | 89 | 0% | 8 |
 | Cory A Booker | 88 | 0% | 6 |
 | Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
@@ -56,8 +56,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Marcy Kaptur | 84 | 0% | 1 |
 | Thomas Kean | 83 | 20% | 5 |
 | Marc A. Veasey | 82 | 0% | 1 |
-| Lloyd K. Smucker | 81 | 0% | 6 |
 | Scott DesJarlais | 81 | 0% | 2 |
+| Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Shelley Moore Capito | 77 | 25% | 4 |
 | Teresa Leger Fernandez | 75 | 0% | 1 |
