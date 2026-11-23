@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-23 15:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-23 16:00 UTC._
 
 ## Total
 
@@ -130,7 +130,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Daniel Crenshaw | 31.9% | 17 |
 | Cliff Bentz | 31.3% | 2 |
 | Susan A. Davis | 31.1% | 32 |
-| Gilbert Cisneros | 30.5% | 1626 |
+| Gilbert Cisneros | 30.6% | 1626 |
 | Elizabeth Fletcher | 30.4% | 23 |
 | Kelly Louise Morrison | 29.9% | 13 |
 | Linda T. Sanchez | 29.9% | 3 |
@@ -209,7 +209,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katie Britt | 6.7% | 16 |
 | Tom Rice | 6.5% | 5 |
 | John Boozman | 6.1% | 251 |
-| Byron Donalds | 5.2% | 47 |
+| Byron Donalds | 5.3% | 47 |
 | Roger Williams | 5.0% | 12 |
 | Lindsey Graham | 4.9% | 6 |
 | Ritchie John Torres | 4.6% | 69 |
