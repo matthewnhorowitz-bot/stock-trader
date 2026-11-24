@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-24 18:01 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-24 19:00 UTC._
 
 ## Total
 
@@ -112,7 +112,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Bob Gibbs | 46.7% | 94 |
 | Stephen F. Lynch | 45.6% | 1 |
 | Brad Knott | 43.5% | 2 |
-| Dan Newhouse | 43.3% | 110 |
+| Dan Newhouse | 43.4% | 110 |
 | John A. Yarmuth | 42.5% | 139 |
 | Harley E. Rouda | 40.9% | 3 |
 | Bradley S. Schneider | 40.6% | 40 |
@@ -206,7 +206,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Katie Britt | 8.5% | 16 |
 | Laurel Lee | 8.5% | 9 |
 | Ed Whitfield | 8.5% | 56 |
-| Scott Scott Franklin | 8.3% | 50 |
+| Scott Scott Franklin | 8.4% | 50 |
 | John Boozman | 8.0% | 251 |
 | Roger Williams | 7.9% | 12 |
 | Adam Kinzinger | 7.9% | 17 |
@@ -248,7 +248,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Harriet Hageman | -0.2% | 69 |
 | Kenny Marchant | -0.6% | 40 |
 | Michael C. Burgess | -0.9% | 42 |
-| Alan Armstrong | -1.7% | 322 |
+| Alan Armstrong | -1.6% | 322 |
 | Fred Upton | -1.7% | 7 |
 | Ed Perlmutter | -1.8% | 35 |
 | John D. Dingell | -2.2% | 3 |
@@ -264,8 +264,8 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Brandon Gill | -5.0% | 5 |
 | Rodney Leland Blum | -6.9% | 4 |
 | Charles J. "Chuck" Fleischmann | -8.3% | 9 |
-| Michael Rulli | -8.9% | 18 |
 | Marie Newman | -9.1% | 155 |
+| Michael Rulli | -9.2% | 18 |
 | David A. Trott | -10.2% | 89 |
 | John W Hickenlooper | -11.0% | 38 |
 | Mark R Meadows | -11.0% | 5 |
