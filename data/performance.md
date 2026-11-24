@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-24 03:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-24 04:00 UTC._
 
 ## Total
 
@@ -209,7 +209,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Scott Scott Franklin | 8.1% | 50 |
 | Laurel Lee | 8.1% | 9 |
 | Roger Williams | 8.1% | 12 |
-| Byron Donalds | 7.9% | 47 |
+| Byron Donalds | 8.0% | 47 |
 | Adam Kinzinger | 7.9% | 17 |
 | Michael McCaul | 6.7% | 15 |
 | Cleo Fields | 6.6% | 188 |
