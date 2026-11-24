@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-24 21:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-24 22:00 UTC._
 
 ## Total
 
@@ -210,7 +210,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | John Boozman | 8.0% | 251 |
 | Roger Williams | 7.9% | 12 |
 | Adam Kinzinger | 7.9% | 17 |
-| Byron Donalds | 7.5% | 47 |
+| Byron Donalds | 7.6% | 47 |
 | Michael McCaul | 6.7% | 15 |
 | Tom Rice | 6.5% | 5 |
 | Ritchie John Torres | 5.6% | 69 |
