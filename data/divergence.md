@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-25 14:07 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-25 15:02 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -33,8 +33,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James A. Himes | 98 | 0% | 4 |
 | Ladda Tammy Duckworth | 98 | 0% | 3 |
 | William F Hagerty, IV | 98 | 25% | 8 |
-| Emily Randall | 98 | 0% | 6 |
+| Emily Randall | 97 | 0% | 6 |
 | Frank Pallone | 96 | 0% | 6 |
+| Sharice Davids | 96 | 0% | 4 |
 | George Whitesides | 96 | 0% | 7 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
@@ -42,7 +43,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Adam Smith | 95 | 0% | 7 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
-| Sharice Davids | 94 | 0% | 4 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
 | Lori Trahan | 93 | 0% | 1 |
@@ -51,22 +51,22 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Robert C. "Bobby" Scott | 90 | 0% | 8 |
 | Joseph D. Morelle | 89 | 0% | 8 |
 | Cory A Booker | 88 | 0% | 6 |
-| Stephanie Bice | 88 | 0% | 1 |
-| Lance Gooden | 88 | 0% | 3 |
 | Raul Ruiz | 87 | 0% | 4 |
+| Stephanie Bice | 87 | 0% | 1 |
+| Lance Gooden | 87 | 0% | 3 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Ted Cruz | 85 | 0% | 1 |
 | Marcy Kaptur | 84 | 0% | 1 |
 | Thomas Kean | 83 | 20% | 5 |
 | Shri Thanedar | 81 | 0% | 6 |
 | Scott DesJarlais | 81 | 0% | 2 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
-| Dave Min | 77 | 0% | 1 |
 | Shelley Moore Capito | 77 | 25% | 4 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Tom Cole | 73 | 50% | 2 |
+| Dave Min | 73 | 0% | 1 |
 | Kim Schrier | 71 | 0% | 7 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
@@ -75,18 +75,18 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Greg Landsman | 64 | 0% | 9 |
 | James P. McGovern | 59 | 0% | 1 |
 | April McClain Delaney | 57 | 0% | 7 |
-| Morgan McGarvey | 53 | 0% | 5 |
-| David Taylor | 53 | 38% | 8 |
-| Julie Johnson | 52 | 11% | 9 |
+| David Taylor | 54 | 38% | 8 |
+| Morgan McGarvey | 52 | 0% | 5 |
+| Julie Johnson | 52 | 22% | 9 |
 | Peter Welch | 51 | 11% | 9 |
 | Mike Kelly | 51 | 38% | 8 |
 | Seth Moulton | 49 | 0% | 3 |
 | Warren Davidson | 48 | 25% | 4 |
 | Pete Sessions | 44 | 0% | 10 |
-| Scott Franklin | 43 | 71% | 7 |
 | Andrew Garbarino | 43 | 25% | 4 |
+| Scott Franklin | 42 | 71% | 7 |
 | Sheldon Whitehouse | 41 | 10% | 10 |
-| Debbie Wasserman Schultz | 36 | 43% | 7 |
+| Debbie Wasserman Schultz | 35 | 43% | 7 |
 | John W. Rose | 35 | 0% | 3 |
 | Jefferson Shreve | 34 | 0% | 8 |
 | Christopher A Coons | 33 | 0% | 1 |
@@ -94,7 +94,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Cliff Bentz | 33 | 67% | 3 |
 | Susie Lee | 32 | 33% | 9 |
 | Diana Harshbarger | 31 | 29% | 7 |
-| Laurel Lee | 30 | 33% | 6 |
+| Laurel Lee | 29 | 33% | 6 |
 | Steve Cohen | 27 | 20% | 10 |
 | Katherine M. Clark | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
@@ -121,8 +121,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |
-| Virginia Foxx | 11 | 11% | 9 |
 | David P. Joyce | 11 | 29% | 7 |
+| Virginia Foxx | 10 | 11% | 9 |
 | Lloyd Doggett | 10 | 75% | 4 |
 | Brian Mast | 9 | 43% | 7 |
 | Maria Elvira Salazar | 9 | 88% | 8 |
