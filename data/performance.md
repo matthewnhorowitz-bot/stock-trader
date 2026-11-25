@@ -1,6 +1,6 @@
 # Congressional Trade Performance Index
 
-_Copyable return — measured from each trade's disclosure date. Generated 2026-11-25 09:00 UTC._
+_Copyable return — measured from each trade's disclosure date. Generated 2026-11-25 09:07 UTC._
 
 ## Total
 
@@ -284,7 +284,7 @@ _Copyable return — measured from each trade's disclosure date. Generated 2026-
 | Larry Bucshon | -43.1% | 1 |
 | Steve Knight | -43.3% | 3 |
 | Roy Blunt | -44.5% | 2 |
-| Felix Barry Moore | -46.0% | 5 |
+| Felix Barry Moore | -45.9% | 5 |
 | Elaine Luria | -67.6% | 3 |
 | Chip Roy | -69.8% | 2 |
 | Tom Cole | -78.7% | 1 |
