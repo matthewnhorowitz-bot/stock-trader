@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-26 16:07 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-26 17:02 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -46,34 +46,34 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
 | Lori Trahan | 93 | 0% | 1 |
-| Gus M. Bilirakis | 92 | 0% | 4 |
-| Victoria Spartz | 91 | 0% | 1 |
+| Gus M. Bilirakis | 91 | 0% | 4 |
 | Robert C. "Bobby" Scott | 90 | 0% | 8 |
+| Victoria Spartz | 90 | 0% | 1 |
 | Joseph D. Morelle | 89 | 0% | 8 |
 | Cory A Booker | 88 | 0% | 6 |
-| Stephanie Bice | 88 | 0% | 1 |
-| Lance Gooden | 88 | 0% | 3 |
 | Raul Ruiz | 87 | 0% | 4 |
+| Stephanie Bice | 87 | 0% | 1 |
+| Lance Gooden | 87 | 0% | 3 |
 | Alan Armstrong | 86 | 40% | 5 |
 | Ted Cruz | 85 | 0% | 1 |
 | Marcy Kaptur | 84 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Thomas Kean | 83 | 20% | 5 |
 | Shri Thanedar | 81 | 0% | 6 |
-| Lloyd K. Smucker | 80 | 0% | 6 |
+| Scott DesJarlais | 81 | 0% | 2 |
+| Lloyd K. Smucker | 79 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
 | Dave Min | 77 | 0% | 1 |
 | Shelley Moore Capito | 77 | 25% | 4 |
+| David Rouzer | 74 | 0% | 1 |
 | Tommy Tuberville | 74 | 0% | 6 |
 | Sara Jacobs | 73 | 0% | 9 |
 | Tom Cole | 73 | 50% | 2 |
 | Kim Schrier | 71 | 0% | 7 |
-| David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
 | Greg Landsman | 64 | 0% | 9 |
-| James P. McGovern | 59 | 0% | 1 |
+| James P. McGovern | 58 | 0% | 1 |
 | April McClain Delaney | 57 | 0% | 7 |
 | Morgan McGarvey | 53 | 0% | 5 |
 | David Taylor | 53 | 38% | 8 |
@@ -83,8 +83,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Seth Moulton | 49 | 0% | 3 |
 | Warren Davidson | 48 | 25% | 4 |
 | Pete Sessions | 44 | 0% | 10 |
-| Scott Franklin | 43 | 71% | 7 |
 | Andrew Garbarino | 43 | 25% | 4 |
+| Scott Franklin | 42 | 71% | 7 |
 | Sheldon Whitehouse | 41 | 10% | 10 |
 | Debbie Wasserman Schultz | 36 | 43% | 7 |
 | John W. Rose | 35 | 0% | 3 |
@@ -94,7 +94,7 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Cliff Bentz | 33 | 67% | 3 |
 | Susie Lee | 32 | 33% | 9 |
 | Diana Harshbarger | 31 | 29% | 7 |
-| Laurel Lee | 30 | 33% | 6 |
+| Laurel Lee | 29 | 33% | 6 |
 | Steve Cohen | 27 | 20% | 10 |
 | Katherine M. Clark | 25 | 25% | 8 |
 | Joe Courtney | 25 | 0% | 8 |
@@ -110,9 +110,9 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Judy Chu | 20 | 50% | 2 |
 | Zoe Lofgren | 19 | 0% | 9 |
 | Jerry Moran, | 19 | 29% | 7 |
+| David Kustoff | 19 | 20% | 5 |
 | Valerie Hoyle | 19 | 22% | 9 |
 | Brian Babin | 18 | 0% | 2 |
-| David Kustoff | 18 | 20% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
@@ -121,8 +121,8 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Moore | 13 | 38% | 8 |
 | John Curtis | 12 | 44% | 9 |
 | Scott H. Peters | 11 | 38% | 8 |
-| Virginia Foxx | 11 | 11% | 9 |
 | David P. Joyce | 11 | 29% | 7 |
+| Virginia Foxx | 10 | 11% | 9 |
 | Lloyd Doggett | 10 | 75% | 4 |
 | Brian Mast | 9 | 43% | 7 |
 | Maria Elvira Salazar | 9 | 88% | 8 |
