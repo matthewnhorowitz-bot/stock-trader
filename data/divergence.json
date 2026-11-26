@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T11:02:36.922Z",
+  "generatedAt": "2026-11-26T12:09:27.905Z",
   "method": "divergence score (votes vs. money), 0=aligned 100=hypocrisy",
   "members": [
     {
@@ -1102,9 +1102,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.732,
+          "voteStance": 0.727,
           "portfolioStance": -1,
-          "divergence": 0.732,
+          "divergence": 0.727,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -1112,6 +1112,84 @@
           ],
           "example": {
             "title": "Congratulating the Jewish War Veterans on the 130th anniversary of the organization's founding and honoring their commitment to Jewish war veterans.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Sharice Davids",
+      "chamber": "house",
+      "ds": 96,
+      "alignmentRate": 0,
+      "sectorsScored": 4,
+      "sectors": [
+        {
+          "sector": "Consumer Cyclical",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "IGT"
+          ],
+          "example": {
+            "title": "Defend American Manufacturing Act 2.0",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Healthcare",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "ONVO"
+          ],
+          "example": {
+            "title": "Long-Term Rural Health Investment Act of 2026",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Industrials",
+          "voteStance": 1,
+          "portfolioStance": -1,
+          "divergence": 1,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "FCEL"
+          ],
+          "example": {
+            "title": "To amend section 125 of title 23, United States Code, to require that a project for the permanent repair or reconstruction of a repeatedly damaged facility includes feasible and economically justifiable improvements to increase the resilience of such facility, and for other purposes.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
+          "sector": "Energy",
+          "voteStance": 0.91,
+          "portfolioStance": -1,
+          "divergence": 0.91,
+          "exposure": 2002,
+          "aligned": false,
+          "tickers": [
+            "SPWR",
+            "MAXN"
+          ],
+          "example": {
+            "title": "Truth in National Parks Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -1753,84 +1831,6 @@
       ]
     },
     {
-      "member": "Sharice Davids",
-      "chamber": "house",
-      "ds": 94,
-      "alignmentRate": 0,
-      "sectorsScored": 4,
-      "sectors": [
-        {
-          "sector": "Consumer Cyclical",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "IGT"
-          ],
-          "example": {
-            "title": "Defend American Manufacturing Act 2.0",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Healthcare",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "ONVO"
-          ],
-          "example": {
-            "title": "Long-Term Rural Health Investment Act of 2026",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Industrials",
-          "voteStance": 1,
-          "portfolioStance": -1,
-          "divergence": 1,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "FCEL"
-          ],
-          "example": {
-            "title": "To amend section 125 of title 23, United States Code, to require that a project for the permanent repair or reconstruction of a repeatedly damaged facility includes feasible and economically justifiable improvements to increase the resilience of such facility, and for other purposes.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.855,
-          "portfolioStance": -1,
-          "divergence": 0.855,
-          "exposure": 2002,
-          "aligned": false,
-          "tickers": [
-            "SPWR",
-            "MAXN"
-          ],
-          "example": {
-            "title": "Truth in National Parks Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
       "member": "Adam Smith",
       "chamber": "house",
       "ds": 94,
@@ -1926,9 +1926,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.93,
+          "voteStance": 0.929,
           "portfolioStance": -1,
-          "divergence": 0.93,
+          "divergence": 0.929,
           "exposure": 7007,
           "aligned": false,
           "tickers": [
@@ -2172,9 +2172,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.75,
+          "voteStance": 0.747,
           "portfolioStance": -1,
-          "divergence": 0.75,
+          "divergence": 0.747,
           "exposure": 2002,
           "aligned": false,
           "tickers": [
@@ -2224,32 +2224,6 @@
             "action": "sponsor",
             "billStance": -1,
             "recordStance": -1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Lori Trahan",
-      "chamber": "house",
-      "ds": 93,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Industrials",
-          "voteStance": 0.925,
-          "portfolioStance": -1,
-          "divergence": 0.925,
-          "exposure": 1001,
-          "aligned": false,
-          "tickers": [
-            "GE"
-          ],
-          "example": {
-            "title": "To direct the Secretary of Defense to establish a pilot program to facilitate the development of certain traumatic brain injury diagnostics for members of the Armed Forces.",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
           }
         }
       ]
@@ -2332,6 +2306,32 @@
       ]
     },
     {
+      "member": "Lori Trahan",
+      "chamber": "house",
+      "ds": 92,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Industrials",
+          "voteStance": 0.923,
+          "portfolioStance": -1,
+          "divergence": 0.923,
+          "exposure": 1001,
+          "aligned": false,
+          "tickers": [
+            "GE"
+          ],
+          "example": {
+            "title": "To direct the Secretary of Defense to establish a pilot program to facilitate the development of certain traumatic brain injury diagnostics for members of the Armed Forces.",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
       "member": "Gus M. Bilirakis",
       "chamber": "house",
       "ds": 91,
@@ -2357,9 +2357,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.948,
+          "voteStance": 0.947,
           "portfolioStance": -1,
-          "divergence": 0.948,
+          "divergence": 0.947,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -2411,15 +2411,15 @@
     {
       "member": "Victoria Spartz",
       "chamber": "house",
-      "ds": 91,
+      "ds": 90,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.906,
+          "voteStance": 0.903,
           "portfolioStance": -1,
-          "divergence": 0.906,
+          "divergence": 0.903,
           "exposure": 450003,
           "aligned": false,
           "tickers": [
@@ -2436,9 +2436,35 @@
       ]
     },
     {
-      "member": "Robert C. \"Bobby\" Scott",
+      "member": "Jake Auchincloss",
       "chamber": "house",
       "ds": 90,
+      "alignmentRate": 0,
+      "sectorsScored": 1,
+      "sectors": [
+        {
+          "sector": "Financial Services",
+          "voteStance": 0.9,
+          "portfolioStance": -1,
+          "divergence": 0.9,
+          "exposure": 30002,
+          "aligned": false,
+          "tickers": [
+            "STT"
+          ],
+          "example": {
+            "title": "Power of the Mint Act",
+            "action": "sponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        }
+      ]
+    },
+    {
+      "member": "Robert C. \"Bobby\" Scott",
+      "chamber": "house",
+      "ds": 89,
       "alignmentRate": 0,
       "sectorsScored": 8,
       "sectors": [
@@ -2565,9 +2591,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.769,
+          "voteStance": 0.763,
           "portfolioStance": -1,
-          "divergence": 0.769,
+          "divergence": 0.763,
           "exposure": 16002,
           "aligned": false,
           "tickers": [
@@ -2576,32 +2602,6 @@
           ],
           "example": {
             "title": "EMBRACE Storm­water Management Act",
-            "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        }
-      ]
-    },
-    {
-      "member": "Jake Auchincloss",
-      "chamber": "house",
-      "ds": 90,
-      "alignmentRate": 0,
-      "sectorsScored": 1,
-      "sectors": [
-        {
-          "sector": "Financial Services",
-          "voteStance": 0.9,
-          "portfolioStance": -1,
-          "divergence": 0.9,
-          "exposure": 30002,
-          "aligned": false,
-          "tickers": [
-            "STT"
-          ],
-          "example": {
-            "title": "Power of the Mint Act",
             "action": "sponsor",
             "billStance": 1,
             "recordStance": 1
@@ -2826,9 +2826,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.883,
+          "voteStance": 0.881,
           "portfolioStance": -1,
-          "divergence": 0.883,
+          "divergence": 0.881,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -3318,9 +3318,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.936,
+          "voteStance": 0.935,
           "portfolioStance": -1,
-          "divergence": 0.936,
+          "divergence": 0.935,
           "exposure": 65002,
           "aligned": false,
           "tickers": [
@@ -3487,7 +3487,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.914,
+          "voteStance": 0.913,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -3608,9 +3608,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.928,
+          "voteStance": 0.926,
           "portfolioStance": -1,
-          "divergence": 0.928,
+          "divergence": 0.926,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -3673,9 +3673,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.812,
+          "voteStance": 0.81,
           "portfolioStance": -1,
-          "divergence": 0.812,
+          "divergence": 0.81,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -4342,7 +4342,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.834,
+          "voteStance": 0.833,
           "portfolioStance": -0.333,
           "divergence": 0.278,
           "exposure": 90006,
@@ -4483,9 +4483,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.935,
+          "voteStance": 0.934,
           "portfolioStance": -1,
-          "divergence": 0.935,
+          "divergence": 0.934,
           "exposure": 32004,
           "aligned": false,
           "tickers": [
@@ -4551,9 +4551,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.714,
+          "voteStance": 0.71,
           "portfolioStance": -1,
-          "divergence": 0.714,
+          "divergence": 0.71,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -4904,9 +4904,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.924,
+          "voteStance": 0.922,
           "portfolioStance": -0.719,
-          "divergence": 0.664,
+          "divergence": 0.663,
           "exposure": 64022,
           "aligned": false,
           "tickers": [
@@ -5045,15 +5045,15 @@
     {
       "member": "James P. McGovern",
       "chamber": "house",
-      "ds": 59,
+      "ds": 58,
       "alignmentRate": 0,
       "sectorsScored": 1,
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.585,
+          "voteStance": 0.58,
           "portfolioStance": -1,
-          "divergence": 0.585,
+          "divergence": 0.58,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -5467,7 +5467,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.829,
+          "voteStance": 0.827,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -5762,9 +5762,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.398,
+          "voteStance": 0.387,
           "portfolioStance": -1,
-          "divergence": 0.398,
+          "divergence": 0.387,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -6277,9 +6277,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.707,
+          "voteStance": 0.692,
           "portfolioStance": -1,
-          "divergence": 0.707,
+          "divergence": 0.692,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -6311,7 +6311,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.807,
+          "voteStance": 0.804,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -6578,7 +6578,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.745,
+          "voteStance": 0.741,
           "portfolioStance": -0.136,
           "divergence": 0.101,
           "exposure": 382024,
@@ -6764,7 +6764,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.922,
+          "voteStance": 0.921,
           "portfolioStance": 0.545,
           "divergence": 0,
           "exposure": 66003,
@@ -8188,7 +8188,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.976,
+          "voteStance": 0.975,
           "portfolioStance": 0.097,
           "divergence": 0,
           "exposure": 155141,
@@ -8458,7 +8458,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.87,
+          "voteStance": 0.867,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -8501,9 +8501,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.843,
+          "voteStance": 0.839,
           "portfolioStance": -1,
-          "divergence": 0.843,
+          "divergence": 0.839,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -8677,9 +8677,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.719,
+          "voteStance": 0.744,
           "portfolioStance": -1,
-          "divergence": 0.719,
+          "divergence": 0.744,
           "exposure": 10010,
           "aligned": false,
           "tickers": [
@@ -8737,7 +8737,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.977,
+          "voteStance": 0.976,
           "portfolioStance": -0.118,
           "divergence": 0.115,
           "exposure": 34006,
@@ -8916,9 +8916,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.694,
+          "voteStance": 0.687,
           "portfolioStance": -0.649,
-          "divergence": 0.451,
+          "divergence": 0.446,
           "exposure": 97041,
           "aligned": false,
           "tickers": [
@@ -8948,9 +8948,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.846,
+          "voteStance": 1,
           "portfolioStance": -0.237,
-          "divergence": 0.2,
+          "divergence": 0.237,
           "exposure": 76034,
           "aligned": false,
           "tickers": [
@@ -9119,9 +9119,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.718,
+          "voteStance": 0.759,
           "portfolioStance": -0.333,
-          "divergence": 0.239,
+          "divergence": 0.253,
           "exposure": 3003,
           "aligned": false,
           "tickers": [
@@ -9241,7 +9241,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.833,
+          "voteStance": 0.832,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 6006,
@@ -9340,7 +9340,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.9,
+          "voteStance": 0.899,
           "portfolioStance": -0.245,
           "divergence": 0.22,
           "exposure": 143059,
@@ -9425,9 +9425,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.953,
+          "voteStance": 0.972,
           "portfolioStance": -1,
-          "divergence": 0.953,
+          "divergence": 0.972,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -9442,9 +9442,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.924,
+          "voteStance": 0.923,
           "portfolioStance": -1,
-          "divergence": 0.924,
+          "divergence": 0.923,
           "exposure": 1001,
           "aligned": false,
           "tickers": [
@@ -9673,9 +9673,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.959,
+          "voteStance": 0.975,
           "portfolioStance": -0.575,
-          "divergence": 0.552,
+          "divergence": 0.561,
           "exposure": 179018,
           "aligned": false,
           "tickers": [
@@ -9766,7 +9766,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.948,
+          "voteStance": 0.947,
           "portfolioStance": -0.064,
           "divergence": 0.06,
           "exposure": 173019,
@@ -10021,7 +10021,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.821,
+          "voteStance": 0.889,
           "portfolioStance": 0.158,
           "divergence": 0,
           "exposure": 38010,
@@ -10242,7 +10242,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.793,
+          "voteStance": 0.786,
           "portfolioStance": 0.585,
           "divergence": 0,
           "exposure": 53039,
@@ -10325,9 +10325,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.931,
+          "voteStance": 0.929,
           "portfolioStance": -0.555,
-          "divergence": 0.517,
+          "divergence": 0.516,
           "exposure": 27013,
           "aligned": false,
           "tickers": [
@@ -10760,7 +10760,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.839,
+          "voteStance": 0.836,
           "portfolioStance": -0.067,
           "divergence": 0.056,
           "exposure": 60060,
@@ -11178,10 +11178,47 @@
           }
         },
         {
+          "sector": "Energy",
+          "voteStance": 0.667,
+          "portfolioStance": -0.123,
+          "divergence": 0.082,
+          "exposure": 89075,
+          "aligned": false,
+          "tickers": [
+            "HES",
+            "XOM",
+            "CNQ",
+            "SLB",
+            "SU",
+            "TS",
+            "CVX",
+            "EOG",
+            "CPGX",
+            "OXY",
+            "APC",
+            "COG",
+            "PBF",
+            "PXD",
+            "APA",
+            "NFG",
+            "PDCE",
+            "FANG",
+            "SEDG",
+            "COP",
+            "HAL"
+          ],
+          "example": {
+            "title": "Energy Bills Relief Act",
+            "action": "cosponsor",
+            "billStance": 1,
+            "recordStance": 1
+          }
+        },
+        {
           "sector": "Industrials",
-          "voteStance": 0.822,
+          "voteStance": 0.818,
           "portfolioStance": -0.091,
-          "divergence": 0.075,
+          "divergence": 0.074,
           "exposure": 154154,
           "aligned": false,
           "tickers": [
@@ -11229,43 +11266,6 @@
           "example": {
             "title": "Acknowledging the courage and sacrifice of veterans of the Korean War and Korean Defense Veterans.",
             "action": "sponsor",
-            "billStance": 1,
-            "recordStance": 1
-          }
-        },
-        {
-          "sector": "Energy",
-          "voteStance": 0.5,
-          "portfolioStance": -0.123,
-          "divergence": 0.062,
-          "exposure": 89075,
-          "aligned": false,
-          "tickers": [
-            "HES",
-            "XOM",
-            "CNQ",
-            "SLB",
-            "SU",
-            "TS",
-            "CVX",
-            "EOG",
-            "CPGX",
-            "OXY",
-            "APC",
-            "COG",
-            "PBF",
-            "PXD",
-            "APA",
-            "NFG",
-            "PDCE",
-            "FANG",
-            "SEDG",
-            "COP",
-            "HAL"
-          ],
-          "example": {
-            "title": "Energy Bills Relief Act",
-            "action": "cosponsor",
             "billStance": 1,
             "recordStance": 1
           }
@@ -11471,9 +11471,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.924,
           "portfolioStance": -0.085,
-          "divergence": 0.079,
+          "divergence": 0.078,
           "exposure": 59031,
           "aligned": false,
           "tickers": [
@@ -11603,9 +11603,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.919,
+          "voteStance": 0.917,
           "portfolioStance": -0.5,
-          "divergence": 0.459,
+          "divergence": 0.458,
           "exposure": 4004,
           "aligned": false,
           "tickers": [
@@ -11622,7 +11622,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.827,
+          "voteStance": 0.824,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 6006,
@@ -11669,9 +11669,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.741,
+          "voteStance": 0.736,
           "portfolioStance": -1,
-          "divergence": 0.741,
+          "divergence": 0.736,
           "exposure": 15001,
           "aligned": false,
           "tickers": [
@@ -11824,7 +11824,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.91,
+          "voteStance": 0.909,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 15001,
@@ -12325,7 +12325,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.801,
+          "voteStance": 0.799,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 8008,
@@ -13165,9 +13165,9 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.663,
+          "voteStance": 0.655,
           "portfolioStance": -0.199,
-          "divergence": 0.132,
+          "divergence": 0.13,
           "exposure": 1852203,
           "aligned": false,
           "tickers": [
@@ -13207,7 +13207,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.962,
+          "voteStance": 0.961,
           "portfolioStance": -0.132,
           "divergence": 0.127,
           "exposure": 569065,
@@ -13351,7 +13351,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.957,
+          "voteStance": 0.956,
           "portfolioStance": -0.915,
           "divergence": 0.875,
           "exposure": 47005,
@@ -13617,7 +13617,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.862,
+          "voteStance": 0.861,
           "portfolioStance": -0.016,
           "divergence": 0.014,
           "exposure": 61005,
@@ -13963,7 +13963,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.895,
+          "voteStance": 0.894,
           "portfolioStance": -0.077,
           "divergence": 0.069,
           "exposure": 13013,
@@ -14240,7 +14240,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.872,
+          "voteStance": 0.87,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 100002,
@@ -14418,7 +14418,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.905,
+          "voteStance": 0.903,
           "portfolioStance": 0.84,
           "divergence": 0,
           "exposure": 25011,
@@ -14593,9 +14593,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.651,
+          "voteStance": 0.639,
           "portfolioStance": -0.03,
-          "divergence": 0.02,
+          "divergence": 0.019,
           "exposure": 5405114,
           "aligned": false,
           "tickers": [
@@ -14946,7 +14946,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.931,
+          "voteStance": 0.929,
           "portfolioStance": 0.875,
           "divergence": 0,
           "exposure": 16002,
@@ -14990,9 +14990,9 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.885,
+          "voteStance": 0.884,
           "portfolioStance": -1,
-          "divergence": 0.885,
+          "divergence": 0.884,
           "exposure": 2002,
           "aligned": false,
           "tickers": [
@@ -15434,7 +15434,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.64,
+          "voteStance": 0.633,
           "portfolioStance": 0.429,
           "divergence": 0,
           "exposure": 7007,
@@ -15549,7 +15549,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.717,
+          "voteStance": 0.712,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -16241,9 +16241,9 @@
       "sectors": [
         {
           "sector": "Energy",
-          "voteStance": 0.907,
+          "voteStance": 1,
           "portfolioStance": -0.248,
-          "divergence": 0.225,
+          "divergence": 0.248,
           "exposure": 1085068,
           "aligned": false,
           "tickers": [
@@ -17126,7 +17126,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.589,
+          "voteStance": 0.577,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -17695,7 +17695,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.87,
+          "voteStance": 0.867,
           "portfolioStance": 0.828,
           "divergence": 0,
           "exposure": 3480010,
@@ -17740,9 +17740,9 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.864,
+          "voteStance": 0.862,
           "portfolioStance": -0.091,
-          "divergence": 0.079,
+          "divergence": 0.078,
           "exposure": 33033,
           "aligned": false,
           "tickers": [
@@ -18123,7 +18123,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.727,
+          "voteStance": 0.714,
           "portfolioStance": 0.007,
           "divergence": 0,
           "exposure": 282016,
@@ -18607,7 +18607,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.735,
+          "voteStance": 0.732,
           "portfolioStance": 0.111,
           "divergence": 0,
           "exposure": 36036,
@@ -18778,7 +18778,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.917,
+          "voteStance": 0.916,
           "portfolioStance": 0.829,
           "divergence": 0,
           "exposure": 82012,
@@ -19270,7 +19270,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.784,
+          "voteStance": 0.833,
           "portfolioStance": 0.231,
           "divergence": 0,
           "exposure": 156009,
@@ -19492,7 +19492,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.791,
+          "voteStance": 0.786,
           "portfolioStance": 0.714,
           "divergence": 0,
           "exposure": 14014,
@@ -20036,7 +20036,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.814,
+          "voteStance": 0.812,
           "portfolioStance": 0.106,
           "divergence": 0,
           "exposure": 273231,
@@ -20385,7 +20385,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.885,
+          "voteStance": 0.884,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 1001,
@@ -20771,7 +20771,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.815,
+          "voteStance": 0.813,
           "portfolioStance": 0.16,
           "divergence": 0,
           "exposure": 3192054,
@@ -20832,7 +20832,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.833,
+          "voteStance": 0.829,
           "portfolioStance": 0.115,
           "divergence": 0,
           "exposure": 807016,
@@ -21019,7 +21019,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.926,
+          "voteStance": 0.925,
           "portfolioStance": 0.675,
           "divergence": 0,
           "exposure": 29863,
@@ -21270,7 +21270,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.806,
+          "voteStance": 0.804,
           "portfolioStance": 0.857,
           "divergence": 0,
           "exposure": 14014,
@@ -21381,7 +21381,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.909,
+          "voteStance": 0.906,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 32004,
@@ -21399,7 +21399,7 @@
         },
         {
           "sector": "Energy",
-          "voteStance": 0.717,
+          "voteStance": 0.712,
           "portfolioStance": 0,
           "divergence": 0,
           "exposure": 2002,
@@ -22337,7 +22337,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.873,
+          "voteStance": 0.87,
           "portfolioStance": 0.064,
           "divergence": 0,
           "exposure": 233163,
@@ -22866,7 +22866,7 @@
         },
         {
           "sector": "Industrials",
-          "voteStance": 0.851,
+          "voteStance": 0.846,
           "portfolioStance": 0.5,
           "divergence": 0,
           "exposure": 24024,
@@ -23039,7 +23039,7 @@
       "sectors": [
         {
           "sector": "Industrials",
-          "voteStance": 0.924,
+          "voteStance": 0.923,
           "portfolioStance": 1,
           "divergence": 0,
           "exposure": 76006,
