@@ -1,6 +1,6 @@
 # Congressional Divergence Score (Hypocrisy Score)
 
-_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-27 16:00 UTC._
+_0 = votes match where their money sits · 100 = votes/sponsors against a sector they're long. Generated 2026-11-27 17:07 UTC._
 
 | Member | Divergence | Votes match disclosures | Sectors |
 | --- | ---: | ---: | ---: |
@@ -12,7 +12,6 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Tim Burchett | 100 | 0% | 1 |
 | Adam B. Schiff | 100 | 0% | 2 |
 | Thomas Massie | 100 | 0% | 1 |
-| Teresa Leger Fernandez | 100 | 0% | 1 |
 | John R Thune | 100 | 0% | 1 |
 | Mary Gay Scanlon | 100 | 0% | 1 |
 | Rick Scott | 100 | 0% | 2 |
@@ -29,57 +28,58 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | James A. Himes | 98 | 0% | 4 |
 | Ladda Tammy Duckworth | 98 | 0% | 3 |
 | William F Hagerty, IV | 98 | 25% | 8 |
-| Emily Randall | 97 | 0% | 6 |
 | Frank Pallone | 96 | 0% | 6 |
+| Emily Randall | 96 | 0% | 6 |
 | Michael R. Turner | 95 | 0% | 1 |
 | Doris O. Matsui | 95 | 0% | 2 |
 | George Whitesides | 95 | 0% | 7 |
 | Bernie Moreno | 95 | 0% | 2 |
-| Adam Smith | 95 | 0% | 7 |
 | Richard Blumenthal | 95 | 0% | 1 |
 | Thomas R Tillis | 94 | 0% | 9 |
 | Sharice Davids | 94 | 0% | 4 |
+| Adam Smith | 94 | 0% | 7 |
 | Chris Van Hollen | 93 | 0% | 5 |
 | John B. Larson | 93 | 0% | 8 |
-| Lori Trahan | 93 | 0% | 1 |
 | John Garamendi | 93 | 0% | 4 |
-| Gus M. Bilirakis | 92 | 0% | 4 |
-| Victoria Spartz | 91 | 0% | 1 |
+| Lori Trahan | 92 | 0% | 1 |
+| Gus M. Bilirakis | 91 | 0% | 4 |
 | Robert C. "Bobby" Scott | 90 | 0% | 8 |
-| Jake Auchincloss | 90 | 0% | 1 |
-| Joseph D. Morelle | 89 | 0% | 8 |
+| Victoria Spartz | 90 | 0% | 1 |
+| Jake Auchincloss | 89 | 0% | 1 |
+| Joseph D. Morelle | 88 | 0% | 8 |
 | Stephanie Bice | 88 | 0% | 1 |
 | Lance Gooden | 88 | 0% | 3 |
-| Raul Ruiz | 87 | 0% | 4 |
 | James M. Costa | 86 | 0% | 1 |
 | Alan Armstrong | 86 | 40% | 5 |
+| Raul Ruiz | 85 | 0% | 4 |
 | Ted Cruz | 85 | 0% | 1 |
 | Cory A Booker | 84 | 0% | 6 |
 | Marcy Kaptur | 84 | 0% | 1 |
-| Scott DesJarlais | 83 | 0% | 2 |
 | Thomas Kean | 83 | 20% | 5 |
-| Marc A. Veasey | 82 | 0% | 1 |
+| Scott DesJarlais | 81 | 0% | 2 |
+| Marc A. Veasey | 80 | 0% | 1 |
 | Lloyd K. Smucker | 80 | 0% | 6 |
 | Tina Smith | 79 | 0% | 5 |
+| Dave Min | 77 | 0% | 1 |
 | Shelley Moore Capito | 77 | 25% | 4 |
 | Shri Thanedar | 75 | 0% | 6 |
 | Tom Cole | 74 | 50% | 2 |
 | Tommy Tuberville | 74 | 0% | 6 |
-| Sara Jacobs | 73 | 0% | 9 |
-| Dave Min | 73 | 0% | 1 |
+| Sara Jacobs | 72 | 0% | 9 |
 | Kim Schrier | 71 | 0% | 7 |
+| Teresa Leger Fernandez | 71 | 0% | 1 |
 | David Rouzer | 71 | 0% | 1 |
 | Brad Knott | 69 | 50% | 2 |
 | John W Hickenlooper | 64 | 13% | 8 |
 | Robert B. Aderholt | 64 | 33% | 3 |
-| Greg Landsman | 64 | 0% | 9 |
-| James P. McGovern | 59 | 0% | 1 |
-| April McClain Delaney | 57 | 0% | 7 |
+| Greg Landsman | 63 | 0% | 9 |
+| James P. McGovern | 58 | 0% | 1 |
+| April McClain Delaney | 56 | 0% | 7 |
 | David Taylor | 54 | 38% | 8 |
-| Morgan McGarvey | 52 | 0% | 5 |
-| Julie Johnson | 52 | 22% | 9 |
+| Morgan McGarvey | 53 | 0% | 5 |
 | Peter Welch | 51 | 11% | 9 |
 | Mike Kelly | 51 | 38% | 8 |
+| Julie Johnson | 51 | 11% | 9 |
 | Seth Moulton | 49 | 0% | 3 |
 | Warren Davidson | 48 | 25% | 4 |
 | Pete Sessions | 44 | 0% | 10 |
@@ -100,19 +100,19 @@ _0 = votes match where their money sits · 100 = votes/sponsors against a sector
 | Joe Courtney | 24 | 0% | 8 |
 | Austin Scott | 23 | 0% | 7 |
 | Ed Case | 22 | 20% | 5 |
-| Jared Moskowitz | 22 | 44% | 9 |
 | Michael Rulli | 22 | 17% | 6 |
 | Debbie Dingell | 21 | 33% | 9 |
 | Dwight Evans | 21 | 38% | 8 |
+| Jared Moskowitz | 21 | 44% | 9 |
 | Kathy Castor | 20 | 25% | 4 |
 | Roger F Wicker | 20 | 0% | 1 |
-| Zoe Lofgren | 19 | 0% | 9 |
 | Jerry Moran, | 19 | 29% | 7 |
 | Valerie Hoyle | 19 | 22% | 9 |
-| Lois Frankel | 18 | 11% | 9 |
+| Zoe Lofgren | 18 | 0% | 9 |
 | Brian Babin | 18 | 0% | 2 |
 | David Kustoff | 18 | 20% | 5 |
 | August Lee Pfluger | 18 | 33% | 6 |
+| Lois Frankel | 17 | 11% | 9 |
 | Angus S King, Jr. | 17 | 44% | 9 |
 | John Fetterman | 17 | 60% | 5 |
 | Michael K. Simpson | 16 | 13% | 8 |
